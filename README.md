@@ -128,7 +128,7 @@ public:
 
 ## 🔗 LeetCode Profile
 
-🔗 [My LeetCode Profile](https://leetcode.com/your-username/) *(replace with your actual profile link)*
+🔗 [My LeetCode Profile] : https://github.com/calligraphyguruji
 
 ---
 

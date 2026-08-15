@@ -1,5 +1,10 @@
 class Solution {
 public:
+
+    //Method-1 : Top-Down Approach(Recursion + Memoization)
+
+    // Time Complexity = O(m^3) => m = k + 2 => k = no. of cuts = size of cuts array
+    // Space Complexity = O(m^2)
     int dp[103][103] ; //memoization array
 
     int solve(int l, int r, vector<int>& cuts){

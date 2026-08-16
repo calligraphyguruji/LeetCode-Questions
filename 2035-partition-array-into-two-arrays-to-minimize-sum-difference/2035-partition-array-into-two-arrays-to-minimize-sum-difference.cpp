@@ -6,7 +6,12 @@ public:
 
     //Method : MITM(Meet in the Middle) Approach
 
-    //Time Complexity = O(n * 2^n)
+    //Time Complexity = O(n * 2^n) =>
+    // sumsLeft map : There are 2^n masks and n operations per mask => O(n* 2^n)
+    // sumsRight map : There are 2^n masks and n operations per mask => O(n* 2^n)
+    //lower_bound checks :  O(log 2ⁿ) = O(n)
+
+    
     //Space Complexity = O(2^n)
     int minimumDifference(vector<int>& nums) {
         

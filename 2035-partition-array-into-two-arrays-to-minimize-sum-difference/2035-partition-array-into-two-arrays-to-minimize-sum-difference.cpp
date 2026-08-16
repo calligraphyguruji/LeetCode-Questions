@@ -11,8 +11,11 @@ public:
     // sumsRight map : There are 2^n masks and n operations per mask => O(n* 2^n)
     //lower_bound checks :  O(log 2ⁿ) = O(n)
 
+
+    //Space Complexity = O(2^n) =>
+    // sumsLeft map : store 2^n subsets => O(2^n)
+    // sumsRight map : store 2^n subsets => O(2^n)
     
-    //Space Complexity = O(2^n)
     int minimumDifference(vector<int>& nums) {
         
         int N = nums.size() ;

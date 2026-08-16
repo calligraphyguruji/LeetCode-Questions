@@ -3,6 +3,11 @@ public:
     //This is the hardest problem to me till now
     //Don't jump directly to this problem
     //Strengthen your basics first
+
+    //Method : MITM(Meet in the Middle) Approach
+
+    //Time Complexity = O(n * 2^n)
+    //Space Complexity = O(2^n)
     int minimumDifference(vector<int>& nums) {
         
         int N = nums.size() ;

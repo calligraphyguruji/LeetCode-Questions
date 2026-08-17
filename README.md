@@ -2,7 +2,7 @@
 
 Welcome to my personal collection of **LeetCode problem solutions**, written primarily in **C++**. This repository serves as a structured log of my journey to strengthen my **Data Structures and Algorithms (DSA)** skills through consistent, hands-on practice.
 
-- To find my handwritten solutions : https://leetcode.com/u/calligraphyguruji/
+** To find my handwritten solutions : https://leetcode.com/u/calligraphyguruji/ **
 ---
 
 ## 📌 About This Repository

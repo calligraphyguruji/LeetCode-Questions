@@ -1,7 +1,14 @@
 class Solution {
 public:
     //Method : Top-Down Approach(Recursion + Memoization)
+    
+    //Time-Complexity = O(n*n * d) => n = number of jobs, d = days
+    // There are O(n * d) Dp states
+    // for each state, the for loop can run up to O(n) times.
 
+
+    //Space Complexity = O(n * d) =>
+    // Dp table : O(n * d)
 
     int dp[301][11] ; //memoization table
     int solve(vector<int>& jd, int n, int idx, int d){

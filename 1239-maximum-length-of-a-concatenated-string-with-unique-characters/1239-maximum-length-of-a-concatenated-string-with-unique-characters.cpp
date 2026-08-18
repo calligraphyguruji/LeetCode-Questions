@@ -1,9 +1,7 @@
 class Solution {
 public:
-    //Method : Recursion 
-
-    //Time Complexity = O(n* L * 2^n)
-    //Space Complexity = O(n)
+    //Method : Recursion + Memoization 
+    
     bool hasDuplicates(string& s1, string& s2){
         //take array of 26 chars. 
         int arr[26] = {0} ;//to store frequency of chars.
@@ -32,10 +30,18 @@ public:
 
 
     }
+
+    unordered_map<string, int>dpMap ;
+
     int solve(int i, vector<string>& arr, string temp, int n){
         //base-case : if index out of bound then return temp
         if(i >= n){
             return temp.length() ;
+        }
+
+        //check in dpMap if solved before or not
+        if(dpMap.find(temp) != dpMap.end()){ //solved
+            return dpMap[temp] ; //just return that
         }
 
         int include = 0 ;
@@ -54,6 +60,8 @@ public:
     }
     int maxLength(vector<string>& arr) {
         int n = arr.size() ;
+
+        dpMap.clear() ;
 
         string temp = "" ; //empty string
         int i = 0 ; 

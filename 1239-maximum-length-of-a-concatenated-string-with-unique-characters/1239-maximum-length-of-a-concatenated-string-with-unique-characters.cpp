@@ -2,6 +2,7 @@ class Solution {
 public:
     //Method : Recursion + Memoization 
     
+    //Time Complexity = O()
     bool hasDuplicates(string& s1, string& s2){
         //take array of 26 chars. 
         int arr[26] = {0} ;//to store frequency of chars.
@@ -56,7 +57,7 @@ public:
             include = solve(i+1, arr, temp+arr[i], n) ;
         }
 
-        return max(include, exclude) ;
+        return dpMap[temp] = max(include, exclude) ;
     }
     int maxLength(vector<string>& arr) {
         int n = arr.size() ;

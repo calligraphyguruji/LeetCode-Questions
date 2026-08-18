@@ -2,7 +2,8 @@ class Solution {
 public:
     //Method : Recursion + Memoization 
     
-    //Time Complexity = O()
+    //Time Complexity = O(2^n)
+    //Space Complexity = O(2^n)
     bool hasDuplicates(string& s1, string& s2){
         //take array of 26 chars. 
         int arr[26] = {0} ;//to store frequency of chars.

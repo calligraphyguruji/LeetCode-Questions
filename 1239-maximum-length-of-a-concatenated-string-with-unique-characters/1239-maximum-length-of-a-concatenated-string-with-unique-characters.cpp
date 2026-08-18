@@ -1,6 +1,9 @@
 class Solution {
 public:
+    //Method : Recursion 
 
+    //Time Complexity = O(n* L * 2^n)
+    //Space Complexity = O(n)
     bool hasDuplicates(string& s1, string& s2){
         //take array of 26 chars. 
         int arr[26] = {0} ;//to store frequency of chars.

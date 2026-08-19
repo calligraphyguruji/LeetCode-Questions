@@ -146,6 +146,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0050-powx-n) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0096-unique-binary-search-trees) |
 ## Dynamic Programming
 |  |
@@ -206,4 +207,8 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->

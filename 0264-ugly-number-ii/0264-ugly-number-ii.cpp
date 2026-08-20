@@ -2,7 +2,7 @@ class Solution {
 public:
     //Method : Dp + 3 Pointers Approach
 
-    //Time Complexity = O(n)
+    //Time Complexity = O(n) 
     //Space Complexity = O(n)
     int nthUglyNumber(int n) {
         //make ugly no.s array call t
@@ -39,9 +39,7 @@ public:
                 i5++;
             }
 
-        }
-
-        
+        }        
 
         return t[n] ; //nth ugly no.
     }

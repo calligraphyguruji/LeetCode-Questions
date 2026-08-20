@@ -1,6 +1,8 @@
 class Solution {
 public:
     //Method-1 : Iterative Division
+    //Time Complexity = O(logn) => division at every step.
+    //Space Complexity = O(1) => no extra data structure used.
     bool isUgly(int n) {
         //base-case
         if(n <= 0){

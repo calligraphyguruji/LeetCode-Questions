@@ -148,6 +148,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0050-powx-n) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0096-unique-binary-search-trees) |
+| [0263-ugly-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0264-ugly-number-ii) |
 ## Dynamic Programming
 |  |

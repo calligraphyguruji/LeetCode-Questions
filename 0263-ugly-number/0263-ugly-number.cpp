@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //Method-1 : Iterative Division
     bool isUgly(int n) {
         //base-case
         if(n <= 0){

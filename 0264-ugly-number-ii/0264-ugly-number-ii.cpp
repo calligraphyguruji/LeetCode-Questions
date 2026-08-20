@@ -1,5 +1,9 @@
 class Solution {
 public:
+    //Method : Dp + 3 Pointers Approach
+
+    //Time Complexity = O(n)
+    //Space Complexity = O(n)
     int nthUglyNumber(int n) {
         //make ugly no.s array call t
         vector<int> t(n+1) ; //size = n+1

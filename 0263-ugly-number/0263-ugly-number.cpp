@@ -1,27 +1,31 @@
 class Solution {
 public:
-    //Method-1 : Iterative Division
+    //Method-2 : Recursive Division
     //Time Complexity = O(logn) => division at every step.
-    //Space Complexity = O(1) => no extra data structure used.
+    //Space Complexity = O(logn) => recursion stack height = logn
     bool isUgly(int n) {
         //base-case
         if(n <= 0){
             return false ;//not an ugly no. because ugly no. starts from 1
         }
 
-        //check iteratively by division
-        while(n % 2 == 0 ){
-            n /= 2 ;
+        if(n == 1){
+            return true ; //we know that 1 is first ugly no.
         }
 
-        while(n % 3 == 0){
-            n /= 3 ;
+        //recursively divide by 2, 3, & 5
+        if(n % 2 == 0 ){
+            return isUgly(n/2);
         }
 
-        while(n % 5 == 0){
-            n /= 5 ;
+        if(n % 3 == 0){
+            return isUgly(n/3);
         }
 
-        return n == 1 ; //return true when n = 1 means after dividing we got quotient of n = 1 => means ugly no.
+        if(n % 5 == 0){
+            return isUgly(n/5);
+        }
+
+        return false ; //means n has other prime factors other than 2,3,5 => not an ugly no.
     }
 };

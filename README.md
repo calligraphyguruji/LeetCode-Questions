@@ -87,10 +87,6 @@ Wherever possible, each solution file follows a consistent structure:
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
-#include <vector>
-#include <unordered_map>
-using namespace std;
-
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -129,7 +125,7 @@ public:
 
 ## 🔗 LeetCode Profile
 
-🔗 [My LeetCode Profile] : (https://leetcode.com/u/calligraphyguruji/)
+**[My LeetCode Profile] : (https://leetcode.com/u/calligraphyguruji/)
 
 ---
 

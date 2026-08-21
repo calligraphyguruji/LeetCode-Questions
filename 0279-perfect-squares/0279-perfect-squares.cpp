@@ -2,8 +2,15 @@ class Solution {
 public:
     //Method : Top-Down Approach(Recursion + Memoization)
 
-    //Time Complexity = O(n√n)
+    //Time Complexity = O(n√n) =>
+    // 1.)There are n possible states: helper(0) ... helper(n) → O(n).
+    // 2.)For each state n, the loop checks all perfect squares:
+    // =>.  1², 2², 3², ..., √n² → O(√n).
+
     //Space Complexity = O(n)
+    // 1.) dp[10001] → O(n) space.
+    // 2.) Recursion stack height = n => O(n)
+
     int dp[10001] ; //10^4 is max size given.
     int helper(int n){
         //base-case

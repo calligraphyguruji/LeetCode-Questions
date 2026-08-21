@@ -1,5 +1,9 @@
 class Solution {
 public:
+    //Method : Top-Down Approach(Recursion + Memoization)
+
+    //Time Complexity = O(n√n)
+    //Space Complexity = O(n)
     int dp[10001] ; //10^4 is max size given.
     int helper(int n){
         //base-case

@@ -123,10 +123,9 @@ public:
 
 ---
 
-## 🔗 LeetCode Profile
+## 🔗 My LeetCode Profile
 
-**[My LeetCode Profile](https://leetcode.com/u/calligraphyguruji/)**
-
+**[https://leetcode.com/u/calligraphyguruji/](https://leetcode.com/u/calligraphyguruji/)**
 ---
 
 ## ⚠️ Disclaimer

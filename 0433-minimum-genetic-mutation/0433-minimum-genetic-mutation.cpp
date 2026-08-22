@@ -1,5 +1,7 @@
 class Solution {
 public:
+    //Method : BFS(using Queue and Visited set) 
+    
     int minMutation(string startGene, string endGene, vector<string>& bank) {
         //we have to check in bank many times so push bank elements in a set(for easy searching)
         unordered_set<string> bankSet(bank.begin(), bank.end());

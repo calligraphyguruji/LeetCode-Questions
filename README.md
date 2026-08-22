@@ -203,6 +203,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## String
 |  |
 | ------- |
+| [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 ## Backtracking
 |  |
@@ -216,6 +217,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0264-ugly-number-ii) |
+| [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -224,6 +226,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0279-perfect-squares) |
+| [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
 ## Knapsack Problem
 |  |
 | ------- |
@@ -232,4 +235,8 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0279-perfect-squares) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
 <!---LeetCode Topics End-->

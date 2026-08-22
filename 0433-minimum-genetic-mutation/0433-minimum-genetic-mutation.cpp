@@ -3,14 +3,21 @@ public:
     //Method : BFS(using Queue and Visited set) => traversing level-wise
 
     //Time-Complexity = O(N * L^2) => O(N * 4 * L * L)
-    /*For every gene, you try:
+    /*For every gene :
     * 4 characters: A, C, G, T
     * L positions
     * Creating neigh takes O(L)
     * unordered_set lookup for a string takes average O(L) because hashing the string takes O(L). */
 
 
-    //Space-Complexity = O(N*L)
+    //Space-Complexity = O(N * L) =>
+    /* Storing :
+    * bankSet → O(NL)
+    * visited → O(NL)
+    * queue → O(NL)
+    */
+
+    
     int minMutation(string startGene, string endGene, vector<string>& bank) {
         //we have to check in bank many times so push bank elements in a set(for easy searching)
         unordered_set<string> bankSet(bank.begin(), bank.end());

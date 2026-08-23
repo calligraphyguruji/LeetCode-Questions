@@ -1,5 +1,7 @@
 class Solution {
 public:
+    //Method : BFS(Breadth First Search) 
+    
     vector<vector<int>>directions{ {-1,0}, {1,0}, {0,-1}, {0,1} };
     int nearestExit(vector<vector<char>>& maze, vector<int>& entrance) {
         int m = maze.size() ;

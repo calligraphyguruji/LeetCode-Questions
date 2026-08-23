@@ -1,7 +1,9 @@
 class Solution {
 public:
     //Method : BFS(Breadth First Search) 
-    
+
+    //Time Complexity = O(m * n)
+    //Space Complexity = O(m * n)
     vector<vector<int>>directions{ {-1,0}, {1,0}, {0,-1}, {0,1} };
     int nearestExit(vector<vector<char>>& maze, vector<int>& entrance) {
         int m = maze.size() ;

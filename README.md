@@ -172,6 +172,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1547-minimum-cost-to-cut-a-stick) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Sorting
 |  |
@@ -226,6 +227,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0279-perfect-squares) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 ## Knapsack Problem
 |  |
 | ------- |
@@ -238,4 +240,8 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
+## Matrix
+|  |
+| ------- |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 <!---LeetCode Topics End-->

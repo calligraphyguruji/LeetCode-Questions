@@ -2,9 +2,21 @@ class Solution {
 public:
     //Method : BFS(Breadth First Search) 
 
-    //Time Complexity = O(m * n)
-    //Space Complexity = O(m * n)
-    vector<vector<int>>directions{ {-1,0}, {1,0}, {0,-1}, {0,1} };
+    //Time Complexity = O(m * n) =>
+    /* Each cell in the maze is visited at most once.
+    * For every cell, we check 4 directions.
+    * Therefore: O(4mn) = O(mn).
+    */
+
+
+    //Space Complexity = O(m * n) =>
+    /* Queue can contain up to O(mn) cells in the worst case.
+    * No separate visited matrix is used because you mark visited cells directly in maze.
+    * Therefore auxiliary space: O(mn).
+    */
+
+
+    vector<vector<int>>directions{ {-1,0}, {1,0}, {0,-1}, {0,1} }; //up, down, left, right
     int nearestExit(vector<vector<char>>& maze, vector<int>& entrance) {
         int m = maze.size() ;
         int n = maze[0].size() ;

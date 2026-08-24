@@ -1,5 +1,9 @@
 class Solution {
 public:
+    //Method-1: DFS(Depth First Search)
+    
+    //Time Complexity = O(V + E) => V = vertices(nodes), edges = E
+    //Space Complexity = O(V + E)
 
     bool DFS(unordered_map<int, vector<int>>& map, int src, int dst, vector<bool>& visited){
         //edge-case/base-case

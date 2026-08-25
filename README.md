@@ -147,6 +147,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0263-ugly-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0264-ugly-number-ii) |
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0279-perfect-squares) |
+| [0326-power-of-three](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0342-power-of-four) |
 ## Dynamic Programming
 |  |
@@ -224,6 +225,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0342-power-of-four) |
 ## Hash Table
 |  |

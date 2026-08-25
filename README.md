@@ -143,6 +143,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0050-powx-n) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0096-unique-binary-search-trees) |
+| [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0231-power-of-two) |
 | [0263-ugly-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0264-ugly-number-ii) |
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0279-perfect-squares) |
@@ -192,6 +193,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0342-power-of-four) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -221,6 +223,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0342-power-of-four) |
 ## Hash Table
 |  |

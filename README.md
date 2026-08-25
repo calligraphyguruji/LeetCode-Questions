@@ -152,6 +152,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Dynamic Programming
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0063-unique-paths-ii) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0096-unique-binary-search-trees) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -177,6 +178,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Array
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0063-unique-paths-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0169-majority-element) |
@@ -264,6 +266,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0063-unique-paths-ii) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 ## Depth-First Search

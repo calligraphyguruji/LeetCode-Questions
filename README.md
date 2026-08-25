@@ -142,6 +142,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0096-unique-binary-search-trees) |
 | [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0231-power-of-two) |
 | [0263-ugly-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0263-ugly-number) |
@@ -152,6 +153,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0063-unique-paths-ii) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0096-unique-binary-search-trees) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -299,4 +301,8 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->

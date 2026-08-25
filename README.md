@@ -171,6 +171,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Array
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0169-majority-element) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
@@ -178,6 +179,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0169-majority-element) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Two Pointers
@@ -218,6 +220,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0169-majority-element) |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0264-ugly-number-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
 ## Heap (Priority Queue)
@@ -262,4 +265,16 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0841-keys-and-rooms) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->

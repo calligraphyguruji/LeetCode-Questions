@@ -231,6 +231,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Backtracking
 |  |
 | ------- |
+| [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0797-all-paths-from-source-to-target) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 ## Recursion
 |  |
@@ -254,6 +255,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0279-perfect-squares) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
+| [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
@@ -279,6 +281,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Depth-First Search
 |  |
 | ------- |
+| [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
@@ -290,6 +293,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Graph Theory
 |  |
 | ------- |
+| [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
@@ -322,4 +326,8 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
+## Directed Acyclic Graph
+|  |
+| ------- |
+| [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0797-all-paths-from-source-to-target) |
 <!---LeetCode Topics End-->

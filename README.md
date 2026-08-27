@@ -255,6 +255,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0279-perfect-squares) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0841-keys-and-rooms) |
+| [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Knapsack Problem
@@ -279,15 +280,18 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0841-keys-and-rooms) |
+| [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Union-Find
 |  |
 | ------- |
+| [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Graph Theory
 |  |
 | ------- |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0841-keys-and-rooms) |
+| [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Divide and Conquer
 |  |
@@ -310,4 +314,12 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0062-unique-paths) |
+## Graph Coloring
+|  |
+| ------- |
+| [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
+## Bipartite Graph
+|  |
+| ------- |
+| [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 <!---LeetCode Topics End-->

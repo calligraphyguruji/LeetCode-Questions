@@ -1,5 +1,9 @@
 class Solution {
 public:
+    //Method : 2-Coloring Approach/ Graph Bipartite?
+
+    //Time Complexity  = O(V + E) 
+    //Space Complexity = O(V + E)
     bool checkBFSBipartite(unordered_map<int, vector<int>>& adj, int node, vector<int>& color){
         //queue for BFS
         queue<int> q;

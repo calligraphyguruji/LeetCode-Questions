@@ -1,5 +1,13 @@
 class Solution {
 public:
+    //Method : DFS Approach
+
+    // Time Complexity = O(P * V) => V = vertices/nodes
+    // Space Complexity = O(P * V)
+    // Auxiliary Space = O(V)
+    // where P = number of paths from source to target
+
+
     void DFS(vector<vector<int>>& graph, int src, int tar, vector<vector<int>>& result, vector<int>& temp){
         //push source into current path
         temp.push_back(src);

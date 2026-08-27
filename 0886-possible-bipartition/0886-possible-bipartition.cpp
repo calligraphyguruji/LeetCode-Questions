@@ -2,8 +2,14 @@ class Solution {
 public:
     //Method : 2-Coloring Approach/ Graph Bipartite?
 
-    //Time Complexity  = O(V + E) 
+    //Time Complexity  = O(V + E) =>
+    /* V = n → number of people
+    * E = dislikes.size() → number of dislike relationships
+    */
+
     //Space Complexity = O(V + E)
+
+
     bool checkBFSBipartite(unordered_map<int, vector<int>>& adj, int node, vector<int>& color){
         //queue for BFS
         queue<int> q;

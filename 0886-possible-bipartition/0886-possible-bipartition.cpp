@@ -7,7 +7,10 @@ public:
     * E = dislikes.size() → number of dislike relationships
     */
 
-    //Space Complexity = O(V + E)
+    //Space Complexity = O(V + E) =>
+    /* V = n → number of people
+    * E = dislikes.size() → number of dislike relationships
+    */
 
 
     bool checkBFSBipartite(unordered_map<int, vector<int>>& adj, int node, vector<int>& color){

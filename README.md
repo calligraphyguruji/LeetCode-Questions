@@ -172,11 +172,13 @@ This repository is created **purely for learning and educational purposes**. The
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0096-unique-binary-search-trees) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0145-binary-tree-postorder-traversal) |
+| [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0450-delete-node-in-a-bst) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0096-unique-binary-search-trees) |
+| [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0450-delete-node-in-a-bst) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Binary Tree
 |  |
@@ -185,6 +187,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0096-unique-binary-search-trees) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0145-binary-tree-postorder-traversal) |
+| [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0450-delete-node-in-a-bst) |
 ## Array
 |  |
 | ------- |

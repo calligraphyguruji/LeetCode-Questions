@@ -2,8 +2,14 @@ class Solution {
 public:
     //Method : DFS Traversal
 
-    //Time Complexity = O(V + E)
+    //Time Complexity = O(V + E) =>
+    /* V = number of vertices
+    * E = number of edges
+    * Building adjacency list → O(E)
+    */
     //Space Complexity = O(V + E)
+
+
     int DFS(unordered_map<int, vector<int>>& adj, int curr, int parent, vector<bool>& hasApple){
         //initialize time
         int time = 0;

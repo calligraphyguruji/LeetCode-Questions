@@ -1,5 +1,9 @@
 class Solution {
 public:
+    //Method : DFS Traversal
+
+    //Time Complexity = O(V + E)
+    //Space Complexity = O(V + E)
     int DFS(unordered_map<int, vector<int>>& adj, int curr, int parent, vector<bool>& hasApple){
         //initialize time
         int time = 0;

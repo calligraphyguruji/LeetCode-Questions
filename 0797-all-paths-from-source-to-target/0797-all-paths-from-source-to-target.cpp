@@ -12,7 +12,7 @@ public:
         //push source into current path
         temp.push_back(src);
 
-        if(src == tar){
+        if(src == tar){ //don't check further just push in result
             result.push_back(temp);
         }
         else{
@@ -22,7 +22,7 @@ public:
             }
         }
         
-        temp.pop_back();
+        temp.pop_back();//now pop also to insert next path
 
     }
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
@@ -31,8 +31,8 @@ public:
         int src = 0;
         int tar = n-1;
 
-        vector<vector<int>> result;
-        vector<int> temp;
+        vector<vector<int>> result; //to store all paths/result
+        vector<int> temp; //to store current path
        
        //func. call to DFS
         DFS(graph, src, tar, result, temp);

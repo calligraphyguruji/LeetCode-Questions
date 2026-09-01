@@ -1,7 +1,18 @@
 class Solution {
 public:
     //Method-2 : min-Heap =>
-    //Time Complexity = O(n * logK)
+    //Time Complexity = O(n * logK) =>
+    /* There are n elements in nums, so the loop runs n times.
+        minHeap.push(n)
+        A heap insertion takes:
+        O(log k)
+        Why log k and not log n?
+        Because we never allow the heap to contain more than k elements.
+        if(minHeap.size() > k)
+            minHeap.pop();
+
+    */
+
     //Space Complexity = O(k) => cause storing k elements in the Heap
 
     int findKthLargest(vector<int>& nums, int k) {

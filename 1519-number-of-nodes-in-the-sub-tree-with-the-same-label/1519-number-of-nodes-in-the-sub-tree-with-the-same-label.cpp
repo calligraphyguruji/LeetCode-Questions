@@ -1,5 +1,10 @@
 class Solution {
 public:
+    //Approach : DFS + Frequency Counting (Subtree DFS)
+
+    //Time Complexity = O(n * 26) = O(n)
+    //Space Complexity = O(n * 26) = O(n)
+    
     void DFS(unordered_map<int, vector<int>>& adj, int curr, int parent, vector<int>& result, string& labels, vector<int>& count){
 
         char myLabel = labels[curr];
@@ -8,7 +13,7 @@ public:
 
         //explore neighs of curr
         count[myLabel - 'a'] += 1;
-        
+
         for(int& v : adj[curr]){
             
             if(v == parent) continue; //skip

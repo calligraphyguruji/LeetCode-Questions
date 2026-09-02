@@ -174,6 +174,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0450-delete-node-in-a-bst) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -259,6 +260,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0264-ugly-number-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -273,6 +275,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Knapsack Problem
@@ -303,6 +306,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Union-Find
 |  |
@@ -326,6 +330,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0169-majority-element) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
@@ -360,6 +365,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 ## Quickselect
 |  |
 | ------- |

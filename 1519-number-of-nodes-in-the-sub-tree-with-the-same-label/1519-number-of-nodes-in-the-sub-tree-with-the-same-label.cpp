@@ -2,9 +2,29 @@ class Solution {
 public:
     //Approach : DFS + Frequency Counting (Subtree DFS)
 
-    //Time Complexity = O(n * 26) = O(n)
-    //Space Complexity = O(n * 26) = O(n)
-    
+    //Time Complexity = O(n * 26) = O(n) => O(n) + O(n) + O(26n)
+    /* Build adjacency list: O(n)
+    * Tree has n - 1 edges.
+    * Each edge is inserted twice → 2(n-1) → O(n).
+    * DFS traversal: O(n)
+    * Every node is visited exactly once.
+    * Every edge is explored at most twice.
+    * Frequency counting: O(26 × n)
+    * For every node, we may process 26 lowercase characters.
+    * 26 is constant → O(n).
+    */
+
+    //Space Complexity = O(n * 26) = O(n) => O(n) + O(n) + O(n) + O(1)
+    /* Adjacency list: O(n)
+    * Stores n - 1 edges → 2(n-1) entries.
+    * Result array: O(n)
+    * Stores answer for each node.
+    * DFS recursion stack: O(n)
+    * Worst case: tree is a straight chain → recursion depth n.
+    * Frequency array: O(26) = O(1)
+    * Only 26 lowercase letters.
+    */
+
     void DFS(unordered_map<int, vector<int>>& adj, int curr, int parent, vector<int>& result, string& labels, vector<int>& count){
 
         char myLabel = labels[curr];

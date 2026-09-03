@@ -2,9 +2,18 @@ class Solution {
 public:
     //Approach : Tree DP + DFS (Postorder Traversal) + Top 2 Child Paths
 
-    //Time Complexity = O(n)
-    //Space Complexity = O(n)
-    
+    //Time Complexity = O(n) =>
+    /* Build adjacency list → O(n)
+    * DFS visits every node once → O(n)
+    * Each edge is processed at most twice → O(n) 
+    */
+
+    //Space Complexity = O(n) =>
+    /* Adjacency list → O(n)
+    * DFS recursion stack → O(n) in the worst case
+    * No extra DP array is required.
+    */
+
     int result;
     int DFS(unordered_map<int, vector<int>>& adj, int curr, int parent, string& s){
         int longest = 0;

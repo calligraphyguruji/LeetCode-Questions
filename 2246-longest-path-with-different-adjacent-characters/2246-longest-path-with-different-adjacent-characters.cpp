@@ -1,5 +1,10 @@
 class Solution {
 public:
+    //Approach : Tree DP + DFS (Postorder Traversal) + Top 2 Child Paths
+
+    //Time Complexity = O(n)
+    //Space Complexity = O(n)
+    
     int result;
     int DFS(unordered_map<int, vector<int>>& adj, int curr, int parent, string& s){
         int longest = 0;

@@ -7,7 +7,10 @@ public:
     * E = total number of keys across all rooms(Edges)
     */
 
-    //Space Complexity = O(V + E)
+    //Space Complexity = O(V + E) =>
+    /* V = number of rooms(Vertices)
+    * E = total number of keys across all rooms(Edges)
+    */
 
     
     void BFS(vector<vector<int>>& rooms, int src, vector<bool>& visited){

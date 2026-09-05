@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    //BST Deletion
+    //BST Deletion : Recursive
 
     //Time Complexity = O(h)
     //Space Complexity = O(h)

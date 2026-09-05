@@ -11,8 +11,13 @@ public:
     * So one DFS = O(V + E).
     * We do it m times.
     */
-    
-    //Space Complexity = O(V + E)
+
+    //Space Complexity = O(V + E) =>
+    /* adj stores all vertices and edges → O(V + E).
+    * visited array → O(V).
+    * DFS recursion stack → O(V).
+    * Dominated by adjacency list.
+    */
 
 
     char dfsFindMin(unordered_map<char, vector<char>>& adj, char curr_ch, vector<int>& visited){

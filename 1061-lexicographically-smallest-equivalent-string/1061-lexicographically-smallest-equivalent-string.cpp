@@ -3,8 +3,18 @@ public:
     //Approach : DFS + Graph(connected components)
 
     //Time Complexity = O(m * (V + E)) =>
-    /* */
+    /*     m = length of baseStr.
+    * For each character in baseStr, we run DFS.
+    * One DFS visits:
+    * V vertices → O(V)
+    * E edges → O(E)
+    * So one DFS = O(V + E).
+    * We do it m times.
+    */
+    
     //Space Complexity = O(V + E)
+
+
     char dfsFindMin(unordered_map<char, vector<char>>& adj, char curr_ch, vector<int>& visited){
         //mark curr_ch true
         visited[curr_ch - 'a'] = 1;

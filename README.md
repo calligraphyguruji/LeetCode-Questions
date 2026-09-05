@@ -242,6 +242,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0132-palindrome-partitioning-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0132-palindrome-partitioning-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
+| [1061-lexicographically-smallest-equivalent-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1061-lexicographically-smallest-equivalent-string) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2246-longest-path-with-different-adjacent-characters) |
 ## Backtracking
@@ -316,6 +317,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
+| [1061-lexicographically-smallest-equivalent-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1061-lexicographically-smallest-equivalent-string) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Graph Theory
 |  |

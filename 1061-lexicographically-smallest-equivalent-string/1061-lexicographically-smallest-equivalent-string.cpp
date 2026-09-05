@@ -1,5 +1,10 @@
 class Solution {
 public:
+    //Approach : DFS + Graph(connected components)
+
+    //Time Complexity = O(m * (V + E)) =>
+    /* */
+    //Space Complexity = O(V + E)
     char dfsFindMin(unordered_map<char, vector<char>>& adj, char curr_ch, vector<int>& visited){
         //mark curr_ch true
         visited[curr_ch - 'a'] = 1;

@@ -176,6 +176,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2246-longest-path-with-different-adjacent-characters) |
+| [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2421-number-of-good-paths) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -207,6 +208,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2246-longest-path-with-different-adjacent-characters) |
+| [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2421-number-of-good-paths) |
 ## Sorting
 |  |
 | ------- |
@@ -214,6 +216,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2421-number-of-good-paths) |
 ## Two Pointers
 |  |
 | ------- |
@@ -265,6 +268,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0433-minimum-genetic-mutation) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
+| [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2421-number-of-good-paths) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -319,6 +323,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1061-lexicographically-smallest-equivalent-string) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
+| [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2421-number-of-good-paths) |
 ## Graph Theory
 |  |
 | ------- |
@@ -327,6 +332,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0886-possible-bipartition) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1971-find-if-path-exists-in-graph) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2246-longest-path-with-different-adjacent-characters) |
+| [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2421-number-of-good-paths) |
 ## Divide and Conquer
 |  |
 | ------- |

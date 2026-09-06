@@ -2,9 +2,17 @@ class Solution {
 public:
    //Approach : DSU (Disjoint Set Union / Union-Find) + Sorting by Node Values
 
-   //Time Complexity = O(n * logn)
-   //Space Complexity = O(n)
+   //Time Complexity = O(n * logn) => 
+   /* map / sorting values → O(n log n)
+    * DSU operations → approximately O(n α(n))
+    * Overall → O(n log n)
+   */
+
    
+   //Space Complexity = O(n) =>
+   /* 
+   */
+
    // ! DISCLAIMER : Try this question at your own risk.
 
    //Step-1 : Make DSU functions/methods

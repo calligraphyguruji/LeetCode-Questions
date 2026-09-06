@@ -8,9 +8,12 @@ public:
     * Overall → O(n log n)
    */
 
-   
+
    //Space Complexity = O(n) =>
-   /* 
+   /* DSU arrays → O(n)
+    * Adjacency list → O(n)
+    * Value-to-nodes map → O(n)
+    * Active array → O(n)
    */
 
    // ! DISCLAIMER : Try this question at your own risk.

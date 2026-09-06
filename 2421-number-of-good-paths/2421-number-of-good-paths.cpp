@@ -1,5 +1,10 @@
 class Solution {
 public:
+   //Approach : DSU (Disjoint Set Union / Union-Find) + Sorting by Node Values
+
+   //Time Complexity = O(n * logn)
+   //Space Complexity = O(n)
+   
    // ! DISCLAIMER : Try this question at your own risk.
 
    //Step-1 : Make DSU functions/methods
@@ -69,7 +74,7 @@ public:
         vector<bool> is_active(n, false);
         
         for(auto& it : val_to_nodes){
-            vector<int>& nodes = it.second;
+            vector<int>& nodes = it.second; 
 
             //Step-5(a): check nodes adjacency
             for(int& u : nodes){

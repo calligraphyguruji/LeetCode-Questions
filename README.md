@@ -24,10 +24,10 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 12 | 17.6% |
-| 🟡 **Medium** | 50 | 73.5% |
-| 🔴 **Hard** | 6 | 8.8% |
-| 🎯 **Total Solved** | **68** | **100%** |
+| 🟢 **Easy** | 13 | 18.6% |
+| 🟡 **Medium** | 51 | 72.9% |
+| 🔴 **Hard** | 6 | 8.6% |
+| 🎯 **Total Solved** | **70** | **100%** |
 
 </div>
 
@@ -54,8 +54,8 @@ LeetCode-Questions/
 │
 ├── BinarySearch/
 │   ├── 0033-search-in-rotated-sorted-array/
-│   ├── 0300-longest-increasing-subsequence/
-│   └── ... (3 problems)
+│   ├── 0173-binary-search-tree-iterator/
+│   └── ... (4 problems)
 ├── Backtracking/
 │   ├── 0494-target-sum/
 │   ├── 1239-maximum-length-of-a-concatenated-string-with-unique-characters/
@@ -82,7 +82,7 @@ LeetCode-Questions/
 ├── Math/
 │   ├── 0050-powx-n/
 │   ├── 0263-ugly-number/
-│   └── ... (3 problems)
+│   └── ... (4 problems)
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0075-sort-colors/
@@ -147,6 +147,7 @@ public:
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0145-binary-tree-postorder-traversal/) | [C++](Trees/0145-binary-tree-postorder-traversal/0145-binary-tree-postorder-traversal.cpp) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0151-reverse-words-in-a-string/) | [C++](Arrays/0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp) |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0169-majority-element/) | [C++](Arrays/0169-majority-element/0169-majority-element.cpp) |
+| 0173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0173-binary-search-tree-iterator/) | [C++](BinarySearch/0173-binary-search-tree-iterator/0173-binary-search-tree-iterator.cpp) |
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0198-house-robber/) | [C++](DynamicProgramming/0198-house-robber/0198-house-robber.cpp) |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0200-number-of-islands/) | [C++](Graphs/0200-number-of-islands/0200-number-of-islands.cpp) |
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0207-course-schedule/) | [C++](Graphs/0207-course-schedule/0207-course-schedule.cpp) |
@@ -197,16 +198,18 @@ public:
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | [C++](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/2035-partition-array-into-two-arrays-to-minimize-sum-difference.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2246-longest-path-with-different-adjacent-characters/) | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
 | 2421 | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths) | 🔴 `Hard` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2421-number-of-good-paths/) | [C++](Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp) |
+| 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
 ---
 
 ## 📂 Topic-wise Problem Breakdown
 
-### 🔍 [Binary Search](BinarySearch/) (3)
+### 🔍 [Binary Search](BinarySearch/) (4)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 🟡 `Medium` | [Problem Notes](BinarySearch/0033-search-in-rotated-sorted-array/) | [C++](BinarySearch/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp) |
+| 0173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) | 🟡 `Medium` | [Problem Notes](BinarySearch/0173-binary-search-tree-iterator/) | [C++](BinarySearch/0173-binary-search-tree-iterator/0173-binary-search-tree-iterator.cpp) |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 `Medium` | [Problem Notes](BinarySearch/0300-longest-increasing-subsequence/) | [C++](BinarySearch/0300-longest-increasing-subsequence/0300-longest-increasing-subsequence.cpp) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 `Medium` | [Problem Notes](BinarySearch/0852-peak-index-in-a-mountain-array/) | [C++](BinarySearch/0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) |
 
@@ -301,13 +304,14 @@ public:
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two) | 🟢 `Easy` | [Problem Notes](BitManipulation/0231-power-of-two/) | [C++](BitManipulation/0231-power-of-two/0231-power-of-two.cpp) |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four) | 🟢 `Easy` | [Problem Notes](BitManipulation/0342-power-of-four/) | [C++](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) |
 
-### 🔢 [Math & Number Theory](Math/) (3)
+### 🔢 [Math & Number Theory](Math/) (4)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 `Medium` | [Problem Notes](Math/0050-powx-n/) | [C++](Math/0050-powx-n/0050-powx-n.cpp) |
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 `Easy` | [Problem Notes](Math/0263-ugly-number/) | [C++](Math/0263-ugly-number/0263-ugly-number.cpp) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [Problem Notes](Math/0326-power-of-three/) | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) |
+| 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
 ### 📦 [Arrays & Hashing](Arrays/) (6)
 
@@ -359,7 +363,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0326-power-of-three](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0342-power-of-four) |
-| [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2965-find-missing-and-repeated-values) |
+| [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -395,7 +399,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0096-unique-binary-search-trees) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0145-binary-tree-postorder-traversal) |
-| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
+| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
@@ -406,7 +410,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0096-unique-binary-search-trees) |
-| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
+| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0852-peak-index-in-a-mountain-array) |
@@ -418,7 +422,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0096-unique-binary-search-trees) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0145-binary-tree-postorder-traversal) |
-| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
+| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 ## Array
 |  |
@@ -453,7 +457,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/2246-longest-path-with-different-adjacent-characters) |
 | [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2421-number-of-good-paths) |
-| [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2965-find-missing-and-repeated-values) |
+| [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Sorting
 |  |
 | ------- |
@@ -531,7 +535,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2421-number-of-good-paths) |
-| [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2965-find-missing-and-repeated-values) |
+| [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -586,7 +590,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1926-nearest-exit-from-entrance-in-maze) |
-| [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2965-find-missing-and-repeated-values) |
+| [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -691,7 +695,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0094-binary-tree-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0145-binary-tree-postorder-traversal) |
-| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
+| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/1910-remove-all-occurrences-of-a-substring) |
 ## DP on Trees
 |  |
@@ -782,9 +786,9 @@ This repository is created **purely for learning and educational purposes**. The
 ## Design
 |  |
 | ------- |
-| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
+| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 ## Iterator
 |  |
 | ------- |
-| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
+| [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->

@@ -361,6 +361,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
+| [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Greedy/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
@@ -381,6 +382,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |
@@ -390,6 +392,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0075-sort-colors) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bit Manipulation
 |  |
@@ -571,4 +574,12 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0852-peak-index-in-a-mountain-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0852-peak-index-in-a-mountain-array) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->

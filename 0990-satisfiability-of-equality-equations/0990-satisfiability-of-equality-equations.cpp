@@ -1,5 +1,8 @@
 class Solution {
 public:
+    //Approach : DSU / Union-Find — Equality Constraint + Contradiction Detection
+
+    
 
     //Step-1 : Make all the DSU related functions, vectors.
     vector<int> parent;

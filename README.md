@@ -417,6 +417,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
+| [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0151-reverse-words-in-a-string) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bit Manipulation
 |  |
@@ -442,6 +443,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0072-edit-distance](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0072-edit-distance) |
 | [0132-palindrome-partitioning-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0132-palindrome-partitioning-ii) |
+| [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0151-reverse-words-in-a-string) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0433-minimum-genetic-mutation) |
 | [0516-longest-palindromic-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0516-longest-palindromic-subsequence) |
 | [0990-satisfiability-of-equality-equations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0990-satisfiability-of-equality-equations) |

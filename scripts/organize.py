@@ -109,7 +109,7 @@ def scan_and_reorganize():
     """Find any unorganized question directories at repo root and move them."""
     root_entries = [
         d for d in os.listdir(BASE_DIR)
-        if os.path.isdir(os.path.join(BASE_DIR, d)) and re.match(r"^\d{4}-", d)
+        if os.path.isdir(os.path.join(BASE_DIR, d)) and re.match(r"^\d+-", d)
     ]
     
     if not root_entries:
@@ -158,7 +158,7 @@ def rebuild_metadata():
             
         for q_dir in sorted(os.listdir(topic_path)):
             full_q_path = os.path.join(topic_path, q_dir)
-            if not os.path.isdir(full_q_path) or not re.match(r"^\d{4}-", q_dir):
+            if not os.path.isdir(full_q_path) or not re.match(r"^\d+-", q_dir):
                 continue
                 
             parts = q_dir.split("-", 1)

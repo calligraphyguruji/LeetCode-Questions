@@ -2,6 +2,10 @@ class Solution {
 public:
     //Approach : DSU / Union-Find — Equality Constraint + Contradiction Detection
 
+    //Time Complexity = O(n)
+
+
+    //Space Complexity = O(26) = O(1)
     
 
     //Step-1 : Make all the DSU related functions, vectors.

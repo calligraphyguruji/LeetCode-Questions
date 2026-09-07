@@ -461,6 +461,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Breadth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0207-course-schedule) |
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0322-coin-change) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0433-minimum-genetic-mutation) |
@@ -497,6 +498,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0094-binary-tree-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0145-binary-tree-postorder-traversal) |
+| [0207-course-schedule](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0207-course-schedule) |
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
@@ -515,6 +517,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0207-course-schedule) |
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
@@ -557,6 +560,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Directed Acyclic Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0207-course-schedule) |
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 ## Stack
 |  |
@@ -577,6 +581,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0207-course-schedule) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/2246-longest-path-with-different-adjacent-characters) |
 ## Longest Increasing Subsequence
 |  |

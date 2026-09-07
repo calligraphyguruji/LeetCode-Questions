@@ -435,6 +435,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |
 | [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0852-peak-index-in-a-mountain-array) |
+| [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0912-sort-an-array) |
 | [0990-satisfiability-of-equality-equations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0990-satisfiability-of-equality-equations) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/1547-minimum-cost-to-cut-a-stick) |
@@ -452,6 +453,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |
+| [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0912-sort-an-array) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/1547-minimum-cost-to-cut-a-stick) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2421-number-of-good-paths) |
@@ -527,6 +529,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0264-ugly-number-ii) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0787-cheapest-flights-within-k-stops) |
+| [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0912-sort-an-array) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -637,6 +640,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0053-maximum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
+| [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0912-sort-an-array) |
 ## Counting
 |  |
 | ------- |
@@ -748,4 +752,20 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1976-number-of-ways-to-arrive-at-destination) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0912-sort-an-array) |
+## Bucket Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->

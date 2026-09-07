@@ -24,10 +24,10 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 11 | 19.6% |
-| 🟡 **Medium** | 39 | 69.6% |
-| 🔴 **Hard** | 6 | 10.7% |
-| 🎯 **Total Solved** | **56** | **100%** |
+| 🟢 **Easy** | 12 | 20.7% |
+| 🟡 **Medium** | 40 | 69.0% |
+| 🔴 **Hard** | 6 | 10.3% |
+| 🎯 **Total Solved** | **58** | **100%** |
 
 </div>
 
@@ -65,7 +65,7 @@ LeetCode-Questions/
 ├── Graphs/
 │   ├── 0200-number-of-islands/
 │   ├── 0207-course-schedule/
-│   └── ... (13 problems)
+│   └── ... (15 problems)
 ├── DynamicProgramming/
 │   ├── 0053-maximum-subarray/
 │   ├── 0062-unique-paths/
@@ -163,6 +163,8 @@ public:
 | 0450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0450-delete-node-in-a-bst/) | [C++](Trees/0450-delete-node-in-a-bst/0450-delete-node-in-a-bst.cpp) |
 | 0516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0516-longest-palindromic-subsequence/) | [C++](DynamicProgramming/0516-longest-palindromic-subsequence/0516-longest-palindromic-subsequence.cpp) |
 | 0646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0646-maximum-length-of-pair-chain/) | [C++](DynamicProgramming/0646-maximum-length-of-pair-chain/0646-maximum-length-of-pair-chain.cpp) |
+| 0684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0684-redundant-connection/) | [C++](Graphs/0684-redundant-connection/0684-redundant-connection.cpp) |
+| 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | 🟢 `Easy` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0733-flood-fill/) | [C++](Graphs/0733-flood-fill/0733-flood-fill.cpp) |
 | 0797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0797-all-paths-from-source-to-target/) | [C++](Graphs/0797-all-paths-from-source-to-target/0797-all-paths-from-source-to-target.cpp) |
 | 0841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0841-keys-and-rooms/) | [C++](Graphs/0841-keys-and-rooms/0841-keys-and-rooms.cpp) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0852-peak-index-in-a-mountain-array/) | [C++](BinarySearch/0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) |
@@ -215,7 +217,7 @@ public:
 | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | 🟡 `Medium` | [Problem Notes](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/) | [C++](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/1519-number-of-nodes-in-the-sub-tree-with-the-same-label.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [Problem Notes](Trees/2246-longest-path-with-different-adjacent-characters/) | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
 
-### 🕸️ [Graphs & BFS/DFS](Graphs/) (13)
+### 🕸️ [Graphs & BFS/DFS](Graphs/) (15)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -224,6 +226,8 @@ public:
 | 0210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 🟡 `Medium` | [Problem Notes](Graphs/0210-course-schedule-ii/) | [C++](Graphs/0210-course-schedule-ii/0210-course-schedule-ii.cpp) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change) | 🟡 `Medium` | [Problem Notes](Graphs/0322-coin-change/) | [C++](Graphs/0322-coin-change/0322-coin-change.cpp) |
 | 0433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation) | 🟡 `Medium` | [Problem Notes](Graphs/0433-minimum-genetic-mutation/) | [C++](Graphs/0433-minimum-genetic-mutation/0433-minimum-genetic-mutation.cpp) |
+| 0684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection) | 🟡 `Medium` | [Problem Notes](Graphs/0684-redundant-connection/) | [C++](Graphs/0684-redundant-connection/0684-redundant-connection.cpp) |
+| 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | 🟢 `Easy` | [Problem Notes](Graphs/0733-flood-fill/) | [C++](Graphs/0733-flood-fill/0733-flood-fill.cpp) |
 | 0797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) | 🟡 `Medium` | [Problem Notes](Graphs/0797-all-paths-from-source-to-target/) | [C++](Graphs/0797-all-paths-from-source-to-target/0797-all-paths-from-source-to-target.cpp) |
 | 0841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) | 🟡 `Medium` | [Problem Notes](Graphs/0841-keys-and-rooms/) | [C++](Graphs/0841-keys-and-rooms/0841-keys-and-rooms.cpp) |
 | 0886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | 🟡 `Medium` | [Problem Notes](Graphs/0886-possible-bipartition/) | [C++](Graphs/0886-possible-bipartition/0886-possible-bipartition.cpp) |
@@ -404,7 +408,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |
-| [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0733-flood-fill) |
+| [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0852-peak-index-in-a-mountain-array) |
 | [0990-satisfiability-of-equality-equations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0990-satisfiability-of-equality-equations) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -502,8 +506,8 @@ This repository is created **purely for learning and educational purposes**. The
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0433-minimum-genetic-mutation) |
-| [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0684-redundant-connection) |
-| [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0733-flood-fill) |
+| [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0684-redundant-connection) |
+| [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
@@ -530,7 +534,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
-| [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0733-flood-fill) |
+| [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1926-nearest-exit-from-entrance-in-maze) |
 ## Depth-First Search
@@ -542,8 +546,8 @@ This repository is created **purely for learning and educational purposes**. The
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0210-course-schedule-ii) |
-| [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0684-redundant-connection) |
-| [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0733-flood-fill) |
+| [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0684-redundant-connection) |
+| [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
@@ -555,7 +559,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
-| [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0684-redundant-connection) |
+| [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0684-redundant-connection) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
 | [0990-satisfiability-of-equality-equations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0990-satisfiability-of-equality-equations) |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1061-lexicographically-smallest-equivalent-string) |
@@ -566,7 +570,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0207-course-schedule](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0210-course-schedule-ii) |
-| [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0684-redundant-connection) |
+| [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0684-redundant-connection) |
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |

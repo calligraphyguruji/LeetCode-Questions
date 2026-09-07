@@ -554,6 +554,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0020-valid-parentheses) |
 | [0072-edit-distance](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0072-edit-distance) |
 | [0132-palindrome-partitioning-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0132-palindrome-partitioning-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0151-reverse-words-in-a-string) |
@@ -764,6 +765,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0145-binary-tree-postorder-traversal) |
@@ -887,4 +889,8 @@ This repository is created **purely for learning and educational purposes**. The
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0142-linked-list-cycle-ii) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0287-find-the-duplicate-number) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->

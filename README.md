@@ -451,6 +451,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0001-two-sum) |
+| [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
@@ -489,6 +490,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
@@ -502,6 +504,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0151-reverse-words-in-a-string) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0287-find-the-duplicate-number) |

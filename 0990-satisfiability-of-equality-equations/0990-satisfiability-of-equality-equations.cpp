@@ -2,11 +2,17 @@ class Solution {
 public:
     //Approach : DSU / Union-Find — Equality Constraint + Contradiction Detection
 
-    //Time Complexity = O(n)
+    //Time Complexity = O(n) =>
+    /* N = number of equations
+    * α = inverse Ackermann function, practically constant.
+    */
 
 
-    //Space Complexity = O(26) = O(1)
-    
+    //Space Complexity = O(26) = O(1) =>
+    /* parent[26] 
+    * rank[26]
+    */
+
 
     //Step-1 : Make all the DSU related functions, vectors.
     vector<int> parent;

@@ -425,6 +425,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0096-unique-binary-search-trees) |
 | [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
+| [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
@@ -459,6 +460,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
+| [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0347-top-k-frequent-elements) |
@@ -500,12 +502,14 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0151-reverse-words-in-a-string) |
+| [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0443-string-compression](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0443-string-compression) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0231-power-of-two) |
+| [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0342-power-of-four) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -838,4 +842,12 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->

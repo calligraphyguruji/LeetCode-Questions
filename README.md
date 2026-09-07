@@ -496,6 +496,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0264-ugly-number-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0433-minimum-genetic-mutation) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2421-number-of-good-paths) |
@@ -563,6 +564,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1971-find-if-path-exists-in-graph) |
@@ -574,6 +576,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0684-redundant-connection) |
 | [0785-is-graph-bipartite](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0785-is-graph-bipartite) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0990-satisfiability-of-equality-equations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0990-satisfiability-of-equality-equations) |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1061-lexicographically-smallest-equivalent-string) |
 | [1584-min-cost-to-connect-all-points](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1584-min-cost-to-connect-all-points) |
@@ -590,6 +593,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0990-satisfiability-of-equality-equations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0990-satisfiability-of-equality-equations) |
 | [1584-min-cost-to-connect-all-points](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1971-find-if-path-exists-in-graph) |
@@ -629,6 +633,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0785-is-graph-bipartite) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 ## Directed Acyclic Graph
 |  |
 | ------- |

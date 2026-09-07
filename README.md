@@ -492,6 +492,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0001-two-sum) |
+| [0133-clone-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0264-ugly-number-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0433-minimum-genetic-mutation) |
@@ -506,6 +507,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Breadth-First Search
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0210-course-schedule-ii) |
@@ -548,6 +550,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0094-binary-tree-inorder-traversal) |
+| [0133-clone-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0145-binary-tree-postorder-traversal) |
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
@@ -576,6 +579,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Graph Theory
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0210-course-schedule-ii) |
 | [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0684-redundant-connection) |

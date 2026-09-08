@@ -529,6 +529,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
 | [0494-target-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0516-longest-palindromic-subsequence) |
@@ -594,6 +595,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 | [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0540-single-element-in-a-sorted-array) |
@@ -685,6 +687,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0496-next-greater-element-i) |
@@ -1053,6 +1056,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Greedy/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Greedy/0134-gas-station) |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store) |
 ## Combinatorics
@@ -1342,5 +1346,6 @@ This repository is created **purely for learning and educational purposes**. The
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->

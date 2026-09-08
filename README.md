@@ -776,6 +776,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0138-copy-list-with-random-pointer](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0264-ugly-number-ii) |
@@ -1102,6 +1103,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0232-implement-queue-using-stacks) |
@@ -1122,6 +1124,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0138-copy-list-with-random-pointer](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 | [0234-palindrome-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0234-palindrome-linked-list) |
 ## Monotonic Stack
 |  |
@@ -1216,4 +1219,8 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0239-sliding-window-maximum) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->

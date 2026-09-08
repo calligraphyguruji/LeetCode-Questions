@@ -645,6 +645,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0001-two-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
+| [0018-4sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
 | [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
@@ -716,6 +717,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
+| [0018-4sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
@@ -733,6 +735,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
+| [0018-4sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0061-rotate-list) |

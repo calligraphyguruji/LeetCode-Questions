@@ -702,6 +702,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0234-palindrome-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0287-find-the-duplicate-number) |
 | [0443-string-compression](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0443-string-compression) |
+| [0876-middle-of-the-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0876-middle-of-the-linked-list) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bit Manipulation
 |  |
@@ -1142,6 +1143,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 | [0234-palindrome-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0234-palindrome-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0876-middle-of-the-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |

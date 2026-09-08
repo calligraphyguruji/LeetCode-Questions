@@ -564,6 +564,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0001-two-sum) |
+| [0014-longest-common-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0040-combination-sum-ii) |
@@ -665,6 +666,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0072-edit-distance) |
@@ -1120,4 +1122,8 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0493-reverse-pairs) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->

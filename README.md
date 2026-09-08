@@ -580,6 +580,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0099-recover-binary-search-tree) |
@@ -653,6 +654,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 | [0078-subsets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0078-subsets) |
 | [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0079-word-search) |
@@ -906,6 +908,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0079-word-search) |
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0240-search-a-2d-matrix-ii) |

@@ -691,6 +691,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [2073-time-needed-to-buy-tickets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/2073-time-needed-to-buy-tickets) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/2246-longest-path-with-different-adjacent-characters) |
 | [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2421-number-of-good-paths) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
 | [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Sorting
 |  |
@@ -864,6 +865,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1926-nearest-exit-from-entrance-in-maze) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1971-find-if-path-exists-in-graph) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
 ## Knapsack Problem
 |  |
 | ------- |
@@ -892,6 +894,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0994-rotting-oranges](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0994-rotting-oranges) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1926-nearest-exit-from-entrance-in-maze) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
 | [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Depth-First Search
 |  |
@@ -936,6 +939,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1932-merge-bsts-to-create-single-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1932-merge-bsts-to-create-single-bst) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1971-find-if-path-exists-in-graph) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/2246-longest-path-with-different-adjacent-characters) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
 ## Union-Find
 |  |
 | ------- |
@@ -1084,6 +1088,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/1910-remove-all-occurrences-of-a-substring) |
 | [2073-time-needed-to-buy-tickets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/2073-time-needed-to-buy-tickets) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
 ## Longest Common Subsequence
 |  |
 | ------- |

@@ -762,6 +762,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0050-powx-n) |
 | [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0234-palindrome-linked-list) |
@@ -1127,6 +1128,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0061-rotate-list) |
 | [0092-reverse-linked-list-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0092-reverse-linked-list-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |

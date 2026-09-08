@@ -733,6 +733,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0151-reverse-words-in-a-string) |
@@ -775,6 +776,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0072-edit-distance](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0132-palindrome-partitioning-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0151-reverse-words-in-a-string) |

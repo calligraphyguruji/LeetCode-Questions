@@ -570,6 +570,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0040-combination-sum-ii) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0053-maximum-subarray) |
+| [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
@@ -618,6 +619,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
@@ -970,6 +972,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Quicksort
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 ## Bubble Sort
 |  |

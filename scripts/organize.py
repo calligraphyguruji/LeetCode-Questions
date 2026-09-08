@@ -93,20 +93,78 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
     # Default fallback
     return "Arrays"
 
-def git_move(src, dst):
-    """Move directory using git mv if inside git repo, fallback to shutil.move."""
-    os.makedirs(os.path.dirname(dst), exist_ok=True)
-    try:
-        subprocess.run(["git", "mv", src, dst], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    except subprocess.CalledProcessError:
-        shutil.move(src, dst)
+def find_existing_topic(q_dir_name):
+    """Check if question already exists in any topic folder."""
+    for item in os.listdir(BASE_DIR):
+        topic_path = os.path.join(BASE_DIR, item)
+        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github"]:
+            continue
+        candidate = os.path.join(topic_path, q_dir_name)
+        if os.path.isdir(candidate):
+            return item
+    return None
+
+def clean_nested_directories():
+    """Find and flatten any accidental nested question directories (e.g. Topic/Q/Q)."""
+    cleaned_any = False
+    for item in os.listdir(BASE_DIR):
+        topic_path = os.path.join(BASE_DIR, item)
+        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github"]:
+            continue
+        for q_dir in os.listdir(topic_path):
+            q_path = os.path.join(topic_path, q_dir)
+            if not os.path.isdir(q_path) or not re.match(r"^\d+-", q_dir):
+                continue
+            nested_q = os.path.join(q_path, q_dir)
+            if os.path.isdir(nested_q):
+                print(f"[Cleanup] Found nested directory '{nested_q}', flattening...")
+                for f in os.listdir(nested_q):
+                    src_f = os.path.join(nested_q, f)
+                    dst_f = os.path.join(q_path, f)
+                    if os.path.isfile(src_f):
+                        if not os.path.exists(dst_f) or os.path.getsize(src_f) > 0:
+                            shutil.copy2(src_f, dst_f)
+                shutil.rmtree(nested_q)
+                try:
+                    subprocess.run(["git", "rm", "-r", "--cached", "--ignore-unmatch", os.path.relpath(nested_q, BASE_DIR)],
+                                   cwd=BASE_DIR, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                except Exception:
+                    pass
+                cleaned_any = True
+    return cleaned_any
+
+def move_or_merge_question(src, dst):
+    """Move directory, or merge files if dst already exists (e.g. resubmission)."""
+    if os.path.exists(dst):
+        print(f"Destination '{dst}' already exists. Merging updated files from resubmission...")
+        for item in os.listdir(src):
+            src_item = os.path.join(src, item)
+            dst_item = os.path.join(dst, item)
+            if os.path.isfile(src_item):
+                shutil.copy2(src_item, dst_item)
+            elif os.path.isdir(src_item) and not re.match(r"^\d+-", item):
+                shutil.copytree(src_item, dst_item, dirs_exist_ok=True)
+        shutil.rmtree(src)
         try:
-            subprocess.run(["git", "add", dst], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            subprocess.run(["git", "rm", "-r", "--cached", "--ignore-unmatch", os.path.relpath(src, BASE_DIR)],
+                           cwd=BASE_DIR, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         except Exception:
             pass
+    else:
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        try:
+            subprocess.run(["git", "mv", src, dst], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            shutil.move(src, dst)
+            try:
+                subprocess.run(["git", "add", dst], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            except Exception:
+                pass
 
 def scan_and_reorganize():
-    """Find any unorganized question directories at repo root and move them."""
+    """Find any unorganized question directories at repo root and move/merge them."""
+    clean_nested_directories()
+
     root_entries = [
         d for d in os.listdir(BASE_DIR)
         if os.path.isdir(os.path.join(BASE_DIR, d)) and re.match(r"^\d+-", d)
@@ -124,15 +182,20 @@ def scan_and_reorganize():
             
     moved_any = False
     for q_dir in sorted(root_entries):
-        parts = q_dir.split("-", 1)
-        slug = parts[1] if len(parts) > 1 else parts[0]
-        topic_folder = classify_topic(slug, q_dir, old_readme)
+        existing_topic = find_existing_topic(q_dir)
+        if existing_topic:
+            topic_folder = existing_topic
+            print(f"Problem '{q_dir}' already exists in topic '{topic_folder}' (resubmission).")
+        else:
+            parts = q_dir.split("-", 1)
+            slug = parts[1] if len(parts) > 1 else parts[0]
+            topic_folder = classify_topic(slug, q_dir, old_readme)
         
         src = os.path.join(BASE_DIR, q_dir)
         dst = os.path.join(BASE_DIR, topic_folder, q_dir)
         
-        print(f"Moving '{q_dir}' -> '{topic_folder}/{q_dir}'")
-        git_move(src, dst)
+        print(f"Organizing '{q_dir}' -> '{topic_folder}/{q_dir}'")
+        move_or_merge_question(src, dst)
         moved_any = True
         
     return moved_any

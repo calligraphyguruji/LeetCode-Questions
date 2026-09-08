@@ -1,5 +1,20 @@
 class Solution {
 public:
+    //Approach : Disjoint Set Union (DSU) / Union-Find — Connected Components
+
+    //Time Complexity = O(n + E × α(n)) => O(n + E)
+    /* Initializing parent and rank: O(n)
+    * Processing all connections: O(E × α(n))
+    *Since α(n) (Inverse Ackermann function) grows extremely slowly, this is practically:
+    ≈ O(n + E)
+    */
+
+    //Space Complexity = O(n) =>
+    /* parent array → O(n)
+    * rank array → O(n)
+    */
+
+
     //Step-1 : Build DSU arrays/ functions
     vector<int> parent;
     vector<int> rank;

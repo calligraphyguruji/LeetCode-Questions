@@ -473,6 +473,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0098-validate-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0103-binary-tree-zigzag-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -531,6 +532,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0098-validate-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0103-binary-tree-zigzag-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -712,6 +714,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0103-binary-tree-zigzag-level-order-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
@@ -772,6 +775,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0098-validate-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |

@@ -596,6 +596,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 | [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0703-kth-largest-element-in-a-stream) |
 | [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0783-minimum-distance-between-bst-nodes) |
@@ -685,6 +686,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0494-target-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0503-next-greater-element-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0560-subarray-sum-equals-k) |
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |

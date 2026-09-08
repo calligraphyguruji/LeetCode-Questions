@@ -641,6 +641,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0014-longest-common-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0042-trapping-rain-water) |
@@ -784,6 +785,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0046-permutations) |
@@ -813,6 +815,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0001-two-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0003-longest-substring-without-repeating-characters) |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0076-minimum-window-substring) |
@@ -899,6 +902,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0073-set-matrix-zeroes) |
@@ -1297,5 +1301,10 @@ This repository is created **purely for learning and educational purposes**. The
 ## Algorithm X
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0051-n-queens) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->

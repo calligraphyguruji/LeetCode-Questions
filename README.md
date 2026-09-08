@@ -644,6 +644,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
@@ -779,6 +780,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0039-combination-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0078-subsets) |
 | [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0131-palindrome-partitioning) |
@@ -1280,4 +1282,8 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0146-lru-cache) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0430-flatten-a-multilevel-doubly-linked-list) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->

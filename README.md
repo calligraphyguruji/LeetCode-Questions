@@ -587,6 +587,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
@@ -737,6 +738,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0264-ugly-number-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -1119,9 +1121,11 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [2073-time-needed-to-buy-tickets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2073-time-needed-to-buy-tickets) |
 ## Binary Indexed Tree
 |  |
@@ -1139,4 +1143,12 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0014-longest-common-prefix) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->

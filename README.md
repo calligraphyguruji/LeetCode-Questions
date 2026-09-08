@@ -787,6 +787,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0024-swap-nodes-in-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0326-power-of-three) |
@@ -1163,6 +1164,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0234-palindrome-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0876-middle-of-the-linked-list) |

@@ -1019,6 +1019,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
 | [0061-rotate-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0061-rotate-list) |
+| [0092-reverse-linked-list-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0092-reverse-linked-list-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0138-copy-list-with-random-pointer) |

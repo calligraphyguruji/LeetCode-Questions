@@ -426,6 +426,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0050-powx-n) |
 | [0062-unique-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0096-unique-binary-search-trees) |
@@ -677,6 +678,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0050-powx-n) |
 | [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0326-power-of-three) |
@@ -1011,6 +1013,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0138-copy-list-with-random-pointer) |

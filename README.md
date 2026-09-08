@@ -574,6 +574,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 | [0078-subsets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0078-subsets) |
+| [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0108-convert-sorted-array-to-binary-search-tree) |
@@ -671,6 +672,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0079-word-search) |
 | [0132-palindrome-partitioning-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0132-palindrome-partitioning-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0242-valid-anagram) |
@@ -689,6 +691,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0078-subsets) |
+| [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0079-word-search) |
 | [0494-target-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -788,6 +791,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |
@@ -799,6 +803,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0099-recover-binary-search-tree) |

@@ -570,6 +570,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
+| [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 | [0078-subsets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -703,6 +704,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0001-two-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -783,6 +785,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
+| [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |

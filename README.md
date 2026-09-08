@@ -518,6 +518,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
+| [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0493-reverse-pairs) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0703-kth-largest-element-in-a-stream) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0783-minimum-distance-between-bst-nodes) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0852-peak-index-in-a-mountain-array) |
@@ -586,6 +587,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0494-target-sum) |
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |
@@ -653,6 +655,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Ordered Set
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0493-reverse-pairs) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bitmask
 |  |
@@ -875,6 +878,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0347-top-k-frequent-elements) |
+| [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0912-sort-an-array) |
 ## Counting
 |  |
@@ -1002,6 +1006,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Merge Sort
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0912-sort-an-array) |
 ## Bucket Sort
 |  |
@@ -1100,4 +1105,16 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [2073-time-needed-to-buy-tickets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2073-time-needed-to-buy-tickets) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0493-reverse-pairs) |
+## Treap
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->

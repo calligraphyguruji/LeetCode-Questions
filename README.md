@@ -24,10 +24,10 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 33 | 23.6% |
-| 🟡 **Medium** | 92 | 65.7% |
-| 🔴 **Hard** | 15 | 10.7% |
-| 🎯 **Total Solved** | **140** | **100%** |
+| 🟢 **Easy** | 39 | 24.1% |
+| 🟡 **Medium** | 105 | 64.8% |
+| 🔴 **Hard** | 18 | 11.1% |
+| 🎯 **Total Solved** | **162** | **100%** |
 
 </div>
 
@@ -54,12 +54,12 @@ LeetCode-Questions/
 │
 ├── BinarySearch/
 │   ├── 0033-search-in-rotated-sorted-array/
-│   ├── 0098-validate-binary-search-tree/
-│   └── ... (18 problems)
+│   ├── 0074-search-a-2d-matrix/
+│   └── ... (23 problems)
 ├── Backtracking/
-│   ├── 0040-combination-sum-ii/
-│   ├── 0078-subsets/
-│   └── ... (5 problems)
+│   ├── 0037-sudoku-solver/
+│   ├── 0039-combination-sum/
+│   └── ... (11 problems)
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
@@ -67,11 +67,11 @@ LeetCode-Questions/
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
-│   └── ... (25 problems)
+│   └── ... (26 problems)
 ├── DynamicProgramming/
 │   ├── 0042-trapping-rain-water/
 │   ├── 0053-maximum-subarray/
-│   └── ... (19 problems)
+│   └── ... (20 problems)
 ├── Heaps/
 │   ├── 0215-kth-largest-element-in-an-array/
 │   ├── 0239-sliding-window-maximum/
@@ -89,7 +89,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (35 problems)
+│   └── ... (44 problems)
 ```
 
 Each problem folder contains:
@@ -137,27 +137,37 @@ public:
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0003-longest-substring-without-repeating-characters/) | [C++](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0014-longest-common-prefix/) | [C++](Trees/0014-longest-common-prefix/0014-longest-common-prefix.cpp) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0015-3sum/) | [C++](Arrays/0015-3sum/0015-3sum.cpp) |
+| 0018 | [4Sum](https://leetcode.com/problems/4sum) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0018-4sum/) | [C++](Arrays/0018-4sum/0018-4sum.cpp) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0020-valid-parentheses/) | [C++](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0021-merge-two-sorted-lists/) | [C++](Arrays/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
 | 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0024-swap-nodes-in-pairs/) | [C++](Arrays/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) |
 | 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 🔴 `Hard` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0025-reverse-nodes-in-k-group/) | [C++](Arrays/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
+| 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0031-next-permutation/) | [C++](Arrays/0031-next-permutation/0031-next-permutation.cpp) |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0033-search-in-rotated-sorted-array/) | [C++](BinarySearch/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp) |
+| 0037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | 🔴 `Hard` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0037-sudoku-solver/) | [C++](Backtracking/0037-sudoku-solver/0037-sudoku-solver.cpp) |
+| 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0039-combination-sum/) | [C++](Backtracking/0039-combination-sum/0039-combination-sum.cpp) |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0040-combination-sum-ii/) | [C++](Backtracking/0040-combination-sum-ii/0040-combination-sum-ii.cpp) |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0042-trapping-rain-water/) | [C++](DynamicProgramming/0042-trapping-rain-water/0042-trapping-rain-water.cpp) |
+| 0046 | [Permutations](https://leetcode.com/problems/permutations) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0046-permutations/) | [C++](Backtracking/0046-permutations/0046-permutations.cpp) |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0049-group-anagrams/) | [C++](Arrays/0049-group-anagrams/0049-group-anagrams.cpp) |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 `Medium` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0050-powx-n/) | [C++](Math/0050-powx-n/0050-powx-n.cpp) |
+| 0051 | [N-Queens](https://leetcode.com/problems/n-queens) | 🔴 `Hard` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0051-n-queens/) | [C++](Backtracking/0051-n-queens/0051-n-queens.cpp) |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0053-maximum-subarray/) | [C++](DynamicProgramming/0053-maximum-subarray/0053-maximum-subarray.cpp) |
+| 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0054-spiral-matrix/) | [C++](Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp) |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0056-merge-intervals/) | [C++](Arrays/0056-merge-intervals/0056-merge-intervals.cpp) |
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0061-rotate-list/) | [C++](Arrays/0061-rotate-list/0061-rotate-list.cpp) |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0062-unique-paths/) | [C++](DynamicProgramming/0062-unique-paths/0062-unique-paths.cpp) |
 | 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0063-unique-paths-ii/) | [C++](DynamicProgramming/0063-unique-paths-ii/0063-unique-paths-ii.cpp) |
 | 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0072-edit-distance/) | [C++](DynamicProgramming/0072-edit-distance/0072-edit-distance.cpp) |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0073-set-matrix-zeroes/) | [C++](Arrays/0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) |
+| 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0074-search-a-2d-matrix/) | [C++](BinarySearch/0074-search-a-2d-matrix/0074-search-a-2d-matrix.cpp) |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0075-sort-colors/) | [C++](Arrays/0075-sort-colors/0075-sort-colors.cpp) |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | 🔴 `Hard` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0076-minimum-window-substring/) | [C++](Arrays/0076-minimum-window-substring/0076-minimum-window-substring.cpp) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0078-subsets/) | [C++](Backtracking/0078-subsets/0078-subsets.cpp) |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0079-word-search/) | [C++](Backtracking/0079-word-search/0079-word-search.cpp) |
 | 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | 🔴 `Hard` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0084-largest-rectangle-in-histogram/) | [C++](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
+| 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0088-merge-sorted-array/) | [C++](Arrays/0088-merge-sorted-array/0088-merge-sorted-array.cpp) |
+| 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0090-subsets-ii/) | [C++](Backtracking/0090-subsets-ii/0090-subsets-ii.cpp) |
 | 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0092-reverse-linked-list-ii/) | [C++](Arrays/0092-reverse-linked-list-ii/0092-reverse-linked-list-ii.cpp) |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0094-binary-tree-inorder-traversal/) | [C++](Trees/0094-binary-tree-inorder-traversal/0094-binary-tree-inorder-traversal.cpp) |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0096-unique-binary-search-trees/) | [C++](Trees/0096-unique-binary-search-trees/0096-unique-binary-search-trees.cpp) |
@@ -176,6 +186,8 @@ public:
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 🟢 `Easy` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0121-best-time-to-buy-and-sell-stock/) | [C++](DynamicProgramming/0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.cpp) |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | 🟡 `Medium` | [💡 Greedy Algorithms](Greedy/) | [Problem](Greedy/0122-best-time-to-buy-and-sell-stock-ii/) | [C++](Greedy/0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp) |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0124-binary-tree-maximum-path-sum/) | [C++](Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp) |
+| 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0125-valid-palindrome/) | [C++](Arrays/0125-valid-palindrome/0125-valid-palindrome.cpp) |
+| 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0131-palindrome-partitioning/) | [C++](Backtracking/0131-palindrome-partitioning/0131-palindrome-partitioning.cpp) |
 | 0132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0132-palindrome-partitioning-ii/) | [C++](DynamicProgramming/0132-palindrome-partitioning-ii/0132-palindrome-partitioning-ii.cpp) |
 | 0133 | [Clone Graph](https://leetcode.com/problems/clone-graph) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0133-clone-graph/) | [C++](Graphs/0133-clone-graph/0133-clone-graph.cpp) |
 | 0134 | [Gas Station](https://leetcode.com/problems/gas-station) | 🟡 `Medium` | [💡 Greedy Algorithms](Greedy/) | [Problem](Greedy/0134-gas-station/) | [C++](Greedy/0134-gas-station/0134-gas-station.cpp) |
@@ -191,6 +203,7 @@ public:
 | 0173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0173-binary-search-tree-iterator/) | [C++](BinarySearch/0173-binary-search-tree-iterator/0173-binary-search-tree-iterator.cpp) |
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0198-house-robber/) | [C++](DynamicProgramming/0198-house-robber/0198-house-robber.cpp) |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0200-number-of-islands/) | [C++](Graphs/0200-number-of-islands/0200-number-of-islands.cpp) |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0206-reverse-linked-list/) | [C++](Arrays/0206-reverse-linked-list/0206-reverse-linked-list.cpp) |
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0207-course-schedule/) | [C++](Graphs/0207-course-schedule/0207-course-schedule.cpp) |
 | 0210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0210-course-schedule-ii/) | [C++](Graphs/0210-course-schedule-ii/0210-course-schedule-ii.cpp) |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0213-house-robber-ii/) | [C++](DynamicProgramming/0213-house-robber-ii/0213-house-robber-ii.cpp) |
@@ -203,6 +216,7 @@ public:
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree/) | [C++](BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.cpp) |
 | 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0236-lowest-common-ancestor-of-a-binary-tree/) | [C++](Trees/0236-lowest-common-ancestor-of-a-binary-tree/0236-lowest-common-ancestor-of-a-binary-tree.cpp) |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) | 🔴 `Hard` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0239-sliding-window-maximum/) | [C++](Heaps/0239-sliding-window-maximum/0239-sliding-window-maximum.cpp) |
+| 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0240-search-a-2d-matrix-ii/) | [C++](BinarySearch/0240-search-a-2d-matrix-ii/0240-search-a-2d-matrix-ii.cpp) |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0242-valid-anagram/) | [C++](Arrays/0242-valid-anagram/0242-valid-anagram.cpp) |
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0263-ugly-number/) | [C++](Math/0263-ugly-number/0263-ugly-number.cpp) |
 | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0264-ugly-number-ii/) | [C++](DynamicProgramming/0264-ugly-number-ii/0264-ugly-number-ii.cpp) |
@@ -212,9 +226,11 @@ public:
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0322-coin-change/) | [C++](Graphs/0322-coin-change/0322-coin-change.cpp) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0326-power-of-three/) | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0342-power-of-four/) | [C++](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) |
+| 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0344-reverse-string/) | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0347-top-k-frequent-elements/) | [C++](Heaps/0347-top-k-frequent-elements/0347-top-k-frequent-elements.cpp) |
 | 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix/) | [C++](BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix/0378-kth-smallest-element-in-a-sorted-matrix.cpp) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0387-first-unique-character-in-a-string/) | [C++](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) |
+| 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0410-split-array-largest-sum/) | [C++](BinarySearch/0410-split-array-largest-sum/0410-split-array-largest-sum.cpp) |
 | 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0430-flatten-a-multilevel-doubly-linked-list/) | [C++](Graphs/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
 | 0433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0433-minimum-genetic-mutation/) | [C++](Graphs/0433-minimum-genetic-mutation/0433-minimum-genetic-mutation.cpp) |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0443-string-compression/) | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) |
@@ -223,15 +239,20 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 0496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0496-next-greater-element-i/) | [C++](Arrays/0496-next-greater-element-i/0496-next-greater-element-i.cpp) |
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0503-next-greater-element-ii/) | [C++](Arrays/0503-next-greater-element-ii/0503-next-greater-element-ii.cpp) |
+| 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 `Easy` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0509-fibonacci-number/) | [C++](DynamicProgramming/0509-fibonacci-number/0509-fibonacci-number.cpp) |
 | 0516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0516-longest-palindromic-subsequence/) | [C++](DynamicProgramming/0516-longest-palindromic-subsequence/0516-longest-palindromic-subsequence.cpp) |
+| 0540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0540-single-element-in-a-sorted-array/) | [C++](BinarySearch/0540-single-element-in-a-sorted-array/0540-single-element-in-a-sorted-array.cpp) |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0542-01-matrix/) | [C++](Graphs/0542-01-matrix/0542-01-matrix.cpp) |
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0543-diameter-of-binary-tree/) | [C++](Trees/0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.cpp) |
 | 0547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0547-number-of-provinces/) | [C++](Graphs/0547-number-of-provinces/0547-number-of-provinces.cpp) |
+| 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0560-subarray-sum-equals-k/) | [C++](Arrays/0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.cpp) |
+| 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0567-permutation-in-string/) | [C++](Arrays/0567-permutation-in-string/0567-permutation-in-string.cpp) |
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0572-subtree-of-another-tree/) | [C++](Trees/0572-subtree-of-another-tree/0572-subtree-of-another-tree.cpp) |
 | 0646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0646-maximum-length-of-pair-chain/) | [C++](DynamicProgramming/0646-maximum-length-of-pair-chain/0646-maximum-length-of-pair-chain.cpp) |
 | 0662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0662-maximum-width-of-binary-tree/) | [C++](Trees/0662-maximum-width-of-binary-tree/0662-maximum-width-of-binary-tree.cpp) |
 | 0684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0684-redundant-connection/) | [C++](Graphs/0684-redundant-connection/0684-redundant-connection.cpp) |
 | 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0703-kth-largest-element-in-a-stream/) | [C++](BinarySearch/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp) |
+| 0704 | [Binary Search](https://leetcode.com/problems/binary-search) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0704-binary-search/) | [C++](BinarySearch/0704-binary-search/0704-binary-search.cpp) |
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | 🟢 `Easy` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0733-flood-fill/) | [C++](Graphs/0733-flood-fill/0733-flood-fill.cpp) |
 | 0783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0783-minimum-distance-between-bst-nodes/) | [C++](BinarySearch/0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp) |
 | 0785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0785-is-graph-bipartite/) | [C++](Graphs/0785-is-graph-bipartite/0785-is-graph-bipartite.cpp) |
@@ -271,28 +292,34 @@ public:
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2246-longest-path-with-different-adjacent-characters/) | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
 | 2421 | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths) | 🔴 `Hard` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2421-number-of-good-paths/) | [C++](Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp) |
+| 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2596-check-knight-tour-configuration/) | [C++](Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
 ---
 
 ## 📂 Topic-wise Problem Breakdown
 
-### 🔍 [Binary Search](BinarySearch/) (18)
+### 🔍 [Binary Search](BinarySearch/) (23)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 🟡 `Medium` | [Problem Notes](BinarySearch/0033-search-in-rotated-sorted-array/) | [C++](BinarySearch/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp) |
+| 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 `Medium` | [Problem Notes](BinarySearch/0074-search-a-2d-matrix/) | [C++](BinarySearch/0074-search-a-2d-matrix/0074-search-a-2d-matrix.cpp) |
 | 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | 🟡 `Medium` | [Problem Notes](BinarySearch/0098-validate-binary-search-tree/) | [C++](BinarySearch/0098-validate-binary-search-tree/0098-validate-binary-search-tree.cpp) |
 | 0099 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree) | 🟡 `Medium` | [Problem Notes](BinarySearch/0099-recover-binary-search-tree/) | [C++](BinarySearch/0099-recover-binary-search-tree/0099-recover-binary-search-tree.cpp) |
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 `Easy` | [Problem Notes](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/) | [C++](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/0108-convert-sorted-array-to-binary-search-tree.cpp) |
 | 0173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) | 🟡 `Medium` | [Problem Notes](BinarySearch/0173-binary-search-tree-iterator/) | [C++](BinarySearch/0173-binary-search-tree-iterator/0173-binary-search-tree-iterator.cpp) |
 | 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 `Medium` | [Problem Notes](BinarySearch/0230-kth-smallest-element-in-a-bst/) | [C++](BinarySearch/0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.cpp) |
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟡 `Medium` | [Problem Notes](BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree/) | [C++](BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.cpp) |
+| 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) | 🟡 `Medium` | [Problem Notes](BinarySearch/0240-search-a-2d-matrix-ii/) | [C++](BinarySearch/0240-search-a-2d-matrix-ii/0240-search-a-2d-matrix-ii.cpp) |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 `Medium` | [Problem Notes](BinarySearch/0287-find-the-duplicate-number/) | [C++](BinarySearch/0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp) |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 `Medium` | [Problem Notes](BinarySearch/0300-longest-increasing-subsequence/) | [C++](BinarySearch/0300-longest-increasing-subsequence/0300-longest-increasing-subsequence.cpp) |
 | 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | 🟡 `Medium` | [Problem Notes](BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix/) | [C++](BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix/0378-kth-smallest-element-in-a-sorted-matrix.cpp) |
+| 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) | 🔴 `Hard` | [Problem Notes](BinarySearch/0410-split-array-largest-sum/) | [C++](BinarySearch/0410-split-array-largest-sum/0410-split-array-largest-sum.cpp) |
 | 0493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) | 🔴 `Hard` | [Problem Notes](BinarySearch/0493-reverse-pairs/) | [C++](BinarySearch/0493-reverse-pairs/0493-reverse-pairs.cpp) |
+| 0540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 `Medium` | [Problem Notes](BinarySearch/0540-single-element-in-a-sorted-array/) | [C++](BinarySearch/0540-single-element-in-a-sorted-array/0540-single-element-in-a-sorted-array.cpp) |
 | 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 `Easy` | [Problem Notes](BinarySearch/0703-kth-largest-element-in-a-stream/) | [C++](BinarySearch/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp) |
+| 0704 | [Binary Search](https://leetcode.com/problems/binary-search) | 🟢 `Easy` | [Problem Notes](BinarySearch/0704-binary-search/) | [C++](BinarySearch/0704-binary-search/0704-binary-search.cpp) |
 | 0783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 `Easy` | [Problem Notes](BinarySearch/0783-minimum-distance-between-bst-nodes/) | [C++](BinarySearch/0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 `Medium` | [Problem Notes](BinarySearch/0852-peak-index-in-a-mountain-array/) | [C++](BinarySearch/0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal) | 🟡 `Medium` | [Problem Notes](BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal/) | [C++](BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal/1008-construct-binary-search-tree-from-preorder-traversal.cpp) |
@@ -300,13 +327,19 @@ public:
 | 1932 | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst) | 🔴 `Hard` | [Problem Notes](BinarySearch/1932-merge-bsts-to-create-single-bst/) | [C++](BinarySearch/1932-merge-bsts-to-create-single-bst/1932-merge-bsts-to-create-single-bst.cpp) |
 | 2064 | [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store) | 🟡 `Medium` | [Problem Notes](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/) | [C++](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/2064-minimized-maximum-of-products-distributed-to-any-store.cpp) |
 
-### 🔄 [Backtracking](Backtracking/) (5)
+### 🔄 [Backtracking](Backtracking/) (11)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
+| 0037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | 🔴 `Hard` | [Problem Notes](Backtracking/0037-sudoku-solver/) | [C++](Backtracking/0037-sudoku-solver/0037-sudoku-solver.cpp) |
+| 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0039-combination-sum/) | [C++](Backtracking/0039-combination-sum/0039-combination-sum.cpp) |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | 🟡 `Medium` | [Problem Notes](Backtracking/0040-combination-sum-ii/) | [C++](Backtracking/0040-combination-sum-ii/0040-combination-sum-ii.cpp) |
+| 0046 | [Permutations](https://leetcode.com/problems/permutations) | 🟡 `Medium` | [Problem Notes](Backtracking/0046-permutations/) | [C++](Backtracking/0046-permutations/0046-permutations.cpp) |
+| 0051 | [N-Queens](https://leetcode.com/problems/n-queens) | 🔴 `Hard` | [Problem Notes](Backtracking/0051-n-queens/) | [C++](Backtracking/0051-n-queens/0051-n-queens.cpp) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 `Medium` | [Problem Notes](Backtracking/0078-subsets/) | [C++](Backtracking/0078-subsets/0078-subsets.cpp) |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search) | 🟡 `Medium` | [Problem Notes](Backtracking/0079-word-search/) | [C++](Backtracking/0079-word-search/0079-word-search.cpp) |
+| 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii) | 🟡 `Medium` | [Problem Notes](Backtracking/0090-subsets-ii/) | [C++](Backtracking/0090-subsets-ii/0090-subsets-ii.cpp) |
+| 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | 🟡 `Medium` | [Problem Notes](Backtracking/0131-palindrome-partitioning/) | [C++](Backtracking/0131-palindrome-partitioning/0131-palindrome-partitioning.cpp) |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
@@ -340,7 +373,7 @@ public:
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) | 🟡 `Medium` | [Problem Notes](Trees/1584-min-cost-to-connect-all-points/) | [C++](Trees/1584-min-cost-to-connect-all-points/1584-min-cost-to-connect-all-points.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [Problem Notes](Trees/2246-longest-path-with-different-adjacent-characters/) | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
 
-### 🕸️ [Graphs & BFS/DFS](Graphs/) (25)
+### 🕸️ [Graphs & BFS/DFS](Graphs/) (26)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -369,8 +402,9 @@ public:
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph) | 🟢 `Easy` | [Problem Notes](Graphs/1971-find-if-path-exists-in-graph/) | [C++](Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp) |
 | 1976 | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) | 🟡 `Medium` | [Problem Notes](Graphs/1976-number-of-ways-to-arrive-at-destination/) | [C++](Graphs/1976-number-of-ways-to-arrive-at-destination/1976-number-of-ways-to-arrive-at-destination.cpp) |
 | 2421 | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths) | 🔴 `Hard` | [Problem Notes](Graphs/2421-number-of-good-paths/) | [C++](Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp) |
+| 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration) | 🟡 `Medium` | [Problem Notes](Graphs/2596-check-knight-tour-configuration/) | [C++](Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp) |
 
-### 🧩 [Dynamic Programming](DynamicProgramming/) (19)
+### 🧩 [Dynamic Programming](DynamicProgramming/) (20)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -385,6 +419,7 @@ public:
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii) | 🟡 `Medium` | [Problem Notes](DynamicProgramming/0213-house-robber-ii/) | [C++](DynamicProgramming/0213-house-robber-ii/0213-house-robber-ii.cpp) |
 | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | 🟡 `Medium` | [Problem Notes](DynamicProgramming/0264-ugly-number-ii/) | [C++](DynamicProgramming/0264-ugly-number-ii/0264-ugly-number-ii.cpp) |
 | 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | 🟡 `Medium` | [Problem Notes](DynamicProgramming/0279-perfect-squares/) | [C++](DynamicProgramming/0279-perfect-squares/0279-perfect-squares.cpp) |
+| 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 `Easy` | [Problem Notes](DynamicProgramming/0509-fibonacci-number/) | [C++](DynamicProgramming/0509-fibonacci-number/0509-fibonacci-number.cpp) |
 | 0516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | 🟡 `Medium` | [Problem Notes](DynamicProgramming/0516-longest-palindromic-subsequence/) | [C++](DynamicProgramming/0516-longest-palindromic-subsequence/0516-longest-palindromic-subsequence.cpp) |
 | 0646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain) | 🟡 `Medium` | [Problem Notes](DynamicProgramming/0646-maximum-length-of-pair-chain/) | [C++](DynamicProgramming/0646-maximum-length-of-pair-chain/0646-maximum-length-of-pair-chain.cpp) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 `Medium` | [Problem Notes](DynamicProgramming/1143-longest-common-subsequence/) | [C++](DynamicProgramming/1143-longest-common-subsequence/1143-longest-common-subsequence.cpp) |
@@ -427,25 +462,30 @@ public:
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [Problem Notes](Math/0326-power-of-three/) | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (35)
+### 📦 [Arrays & Hashing](Arrays/) (44)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | 🟢 `Easy` | [Problem Notes](Arrays/0001-two-sum/) | [C++](Arrays/0001-two-sum/0001-two-sum.cpp) |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 `Medium` | [Problem Notes](Arrays/0003-longest-substring-without-repeating-characters/) | [C++](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 `Medium` | [Problem Notes](Arrays/0015-3sum/) | [C++](Arrays/0015-3sum/0015-3sum.cpp) |
+| 0018 | [4Sum](https://leetcode.com/problems/4sum) | 🟡 `Medium` | [Problem Notes](Arrays/0018-4sum/) | [C++](Arrays/0018-4sum/0018-4sum.cpp) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 `Easy` | [Problem Notes](Arrays/0020-valid-parentheses/) | [C++](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 `Easy` | [Problem Notes](Arrays/0021-merge-two-sorted-lists/) | [C++](Arrays/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
 | 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 `Medium` | [Problem Notes](Arrays/0024-swap-nodes-in-pairs/) | [C++](Arrays/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) |
 | 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 🔴 `Hard` | [Problem Notes](Arrays/0025-reverse-nodes-in-k-group/) | [C++](Arrays/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
+| 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation) | 🟡 `Medium` | [Problem Notes](Arrays/0031-next-permutation/) | [C++](Arrays/0031-next-permutation/0031-next-permutation.cpp) |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | 🟡 `Medium` | [Problem Notes](Arrays/0049-group-anagrams/) | [C++](Arrays/0049-group-anagrams/0049-group-anagrams.cpp) |
+| 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | 🟡 `Medium` | [Problem Notes](Arrays/0054-spiral-matrix/) | [C++](Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp) |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 `Medium` | [Problem Notes](Arrays/0056-merge-intervals/) | [C++](Arrays/0056-merge-intervals/0056-merge-intervals.cpp) |
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 `Medium` | [Problem Notes](Arrays/0061-rotate-list/) | [C++](Arrays/0061-rotate-list/0061-rotate-list.cpp) |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 `Medium` | [Problem Notes](Arrays/0073-set-matrix-zeroes/) | [C++](Arrays/0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 `Medium` | [Problem Notes](Arrays/0075-sort-colors/) | [C++](Arrays/0075-sort-colors/0075-sort-colors.cpp) |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | 🔴 `Hard` | [Problem Notes](Arrays/0076-minimum-window-substring/) | [C++](Arrays/0076-minimum-window-substring/0076-minimum-window-substring.cpp) |
 | 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | 🔴 `Hard` | [Problem Notes](Arrays/0084-largest-rectangle-in-histogram/) | [C++](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
+| 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 `Easy` | [Problem Notes](Arrays/0088-merge-sorted-array/) | [C++](Arrays/0088-merge-sorted-array/0088-merge-sorted-array.cpp) |
 | 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 `Medium` | [Problem Notes](Arrays/0092-reverse-linked-list-ii/) | [C++](Arrays/0092-reverse-linked-list-ii/0092-reverse-linked-list-ii.cpp) |
+| 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 `Easy` | [Problem Notes](Arrays/0125-valid-palindrome/) | [C++](Arrays/0125-valid-palindrome/0125-valid-palindrome.cpp) |
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | 🟡 `Medium` | [Problem Notes](Arrays/0138-copy-list-with-random-pointer/) | [C++](Arrays/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 `Easy` | [Problem Notes](Arrays/0141-linked-list-cycle/) | [C++](Arrays/0141-linked-list-cycle/0141-linked-list-cycle.cpp) |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 `Medium` | [Problem Notes](Arrays/0142-linked-list-cycle-ii/) | [C++](Arrays/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) |
@@ -453,14 +493,18 @@ public:
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | 🟡 `Medium` | [Problem Notes](Arrays/0151-reverse-words-in-a-string/) | [C++](Arrays/0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 `Medium` | [Problem Notes](Arrays/0155-min-stack/) | [C++](Arrays/0155-min-stack/0155-min-stack.cpp) |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element) | 🟢 `Easy` | [Problem Notes](Arrays/0169-majority-element/) | [C++](Arrays/0169-majority-element/0169-majority-element.cpp) |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0206-reverse-linked-list/) | [C++](Arrays/0206-reverse-linked-list/0206-reverse-linked-list.cpp) |
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 `Easy` | [Problem Notes](Arrays/0225-implement-stack-using-queues/) | [C++](Arrays/0225-implement-stack-using-queues/0225-implement-stack-using-queues.cpp) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 `Easy` | [Problem Notes](Arrays/0232-implement-queue-using-stacks/) | [C++](Arrays/0232-implement-queue-using-stacks/0232-implement-queue-using-stacks.cpp) |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0234-palindrome-linked-list/) | [C++](Arrays/0234-palindrome-linked-list/0234-palindrome-linked-list.cpp) |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 `Easy` | [Problem Notes](Arrays/0242-valid-anagram/) | [C++](Arrays/0242-valid-anagram/0242-valid-anagram.cpp) |
+| 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [Problem Notes](Arrays/0344-reverse-string/) | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 `Easy` | [Problem Notes](Arrays/0387-first-unique-character-in-a-string/) | [C++](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [Problem Notes](Arrays/0443-string-compression/) | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) |
 | 0496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 `Easy` | [Problem Notes](Arrays/0496-next-greater-element-i/) | [C++](Arrays/0496-next-greater-element-i/0496-next-greater-element-i.cpp) |
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 `Medium` | [Problem Notes](Arrays/0503-next-greater-element-ii/) | [C++](Arrays/0503-next-greater-element-ii/0503-next-greater-element-ii.cpp) |
+| 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 `Medium` | [Problem Notes](Arrays/0560-subarray-sum-equals-k/) | [C++](Arrays/0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.cpp) |
+| 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string) | 🟡 `Medium` | [Problem Notes](Arrays/0567-permutation-in-string/) | [C++](Arrays/0567-permutation-in-string/0567-permutation-in-string.cpp) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0876-middle-of-the-linked-list/) | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | 🟡 `Medium` | [Problem Notes](Arrays/0901-online-stock-span/) | [C++](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [Problem Notes](Arrays/1392-longest-happy-prefix/) | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) |
@@ -507,7 +551,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0326-power-of-three](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0342-power-of-four) |
-| [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0509-fibonacci-number) |
+| [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0509-fibonacci-number) |
 | [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Dynamic Programming
 |  |
@@ -521,7 +565,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Greedy/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |
-| [0131-palindrome-partitioning](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0131-palindrome-partitioning) |
+| [0131-palindrome-partitioning](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0132-palindrome-partitioning-ii) |
 | [0198-house-robber](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0213-house-robber-ii) |
@@ -529,9 +573,9 @@ This repository is created **purely for learning and educational purposes**. The
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
-| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0410-split-array-largest-sum) |
 | [0494-target-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0494-target-sum) |
-| [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0509-fibonacci-number) |
+| [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |
@@ -583,7 +627,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
-| [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
+| [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0074-search-a-2d-matrix) |
 | [0096-unique-binary-search-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0099-recover-binary-search-tree) |
@@ -591,16 +635,16 @@ This repository is created **purely for learning and educational purposes**. The
 | [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree) |
-| [0240-search-a-2d-matrix-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
-| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0410-split-array-largest-sum) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 | [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0493-reverse-pairs) |
-| [0540-single-element-in-a-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0540-single-element-in-a-sorted-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0540-single-element-in-a-sorted-array) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0703-kth-largest-element-in-a-stream) |
-| [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
+| [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0704-binary-search) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0783-minimum-distance-between-bst-nodes) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0852-peak-index-in-a-mountain-array) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -647,28 +691,28 @@ This repository is created **purely for learning and educational purposes**. The
 | [0001-two-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
-| [0018-4sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0018-4sum) |
-| [0031-next-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0031-next-permutation) |
+| [0018-4sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0018-4sum) |
+| [0031-next-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
-| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
-| [0039-combination-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0039-combination-sum) |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0037-sudoku-solver) |
+| [0039-combination-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0042-trapping-rain-water) |
-| [0046-permutations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0046-permutations) |
+| [0046-permutations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0046-permutations) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0049-group-anagrams) |
-| [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0051-n-queens) |
+| [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0053-maximum-subarray) |
-| [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
+| [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0073-set-matrix-zeroes) |
-| [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
+| [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 | [0078-subsets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0078-subsets) |
 | [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0084-largest-rectangle-in-histogram) |
-| [0088-merge-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0088-merge-sorted-array) |
-| [0090-subsets-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0090-subsets-ii) |
+| [0088-merge-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0088-merge-sorted-array) |
+| [0090-subsets-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0108-convert-sorted-array-to-binary-search-tree) |
@@ -681,22 +725,22 @@ This repository is created **purely for learning and educational purposes**. The
 | [0213-house-robber-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0239-sliding-window-maximum) |
-| [0240-search-a-2d-matrix-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
-| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0503-next-greater-element-ii) |
-| [0540-single-element-in-a-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0540-single-element-in-a-sorted-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |
-| [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0560-subarray-sum-equals-k) |
+| [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0560-subarray-sum-equals-k) |
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |
-| [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
+| [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0704-binary-search) |
 | [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0852-peak-index-in-a-mountain-array) |
 | [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0912-sort-an-array) |
@@ -715,17 +759,17 @@ This repository is created **purely for learning and educational purposes**. The
 | [2073-time-needed-to-buy-tickets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/2073-time-needed-to-buy-tickets) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/2246-longest-path-with-different-adjacent-characters) |
 | [2421-number-of-good-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2421-number-of-good-paths) |
-| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2596-check-knight-tour-configuration) |
 | [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
-| [0018-4sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0018-4sum) |
+| [0018-4sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0018-4sum) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
-| [0088-merge-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0088-merge-sorted-array) |
+| [0088-merge-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0242-valid-anagram) |
@@ -740,28 +784,28 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
-| [0018-4sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0018-4sum) |
-| [0031-next-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0031-next-permutation) |
+| [0018-4sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0018-4sum) |
+| [0031-next-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
-| [0088-merge-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0088-merge-sorted-array) |
-| [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
+| [0088-merge-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0151-reverse-words-in-a-string) |
 | [0234-palindrome-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0287-find-the-duplicate-number) |
-| [0344-reverse-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0344-reverse-string) |
+| [0344-reverse-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0344-reverse-string) |
 | [0443-string-compression](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0443-string-compression) |
-| [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
+| [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0567-permutation-in-string) |
 | [0876-middle-of-the-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0876-middle-of-the-linked-list) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0078-subsets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0078-subsets) |
-| [0090-subsets-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0090-subsets-ii) |
+| [0090-subsets-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0231-power-of-two) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0287-find-the-duplicate-number) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0342-power-of-four) |
@@ -790,17 +834,17 @@ This repository is created **purely for learning and educational purposes**. The
 | [0072-edit-distance](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0079-word-search) |
-| [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
-| [0131-palindrome-partitioning](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0131-palindrome-partitioning) |
+| [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0132-palindrome-partitioning-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0242-valid-anagram) |
-| [0344-reverse-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0344-reverse-string) |
+| [0344-reverse-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0387-first-unique-character-in-a-string) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0433-minimum-genetic-mutation) |
 | [0443-string-compression](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0516-longest-palindromic-subsequence) |
-| [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
+| [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0567-permutation-in-string) |
 | [0990-satisfiability-of-equality-equations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0990-satisfiability-of-equality-equations) |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1061-lexicographically-smallest-equivalent-string) |
 | [1143-longest-common-subsequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/1143-longest-common-subsequence) |
@@ -811,15 +855,15 @@ This repository is created **purely for learning and educational purposes**. The
 ## Backtracking
 |  |
 | ------- |
-| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
-| [0039-combination-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0039-combination-sum) |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0037-sudoku-solver) |
+| [0039-combination-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0040-combination-sum-ii) |
-| [0046-permutations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0046-permutations) |
-| [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0051-n-queens) |
+| [0046-permutations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0046-permutations) |
+| [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0051-n-queens) |
 | [0078-subsets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0078-subsets) |
 | [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0079-word-search) |
-| [0090-subsets-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0090-subsets-ii) |
-| [0131-palindrome-partitioning](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0131-palindrome-partitioning) |
+| [0090-subsets-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -831,18 +875,18 @@ This repository is created **purely for learning and educational purposes**. The
 | [0024-swap-nodes-in-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0050-powx-n) |
-| [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0206-reverse-linked-list) |
+| [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0342-power-of-four) |
-| [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0509-fibonacci-number) |
+| [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0509-fibonacci-number) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0003-longest-substring-without-repeating-characters) |
-| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0076-minimum-window-substring) |
@@ -860,8 +904,8 @@ This repository is created **purely for learning and educational purposes**. The
 | [0387-first-unique-character-in-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0387-first-unique-character-in-a-string) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0433-minimum-genetic-mutation) |
 | [0496-next-greater-element-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0496-next-greater-element-i) |
-| [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0560-subarray-sum-equals-k) |
-| [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
+| [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0567-permutation-in-string) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0947-most-stones-removed-with-same-row-or-column) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
@@ -912,7 +956,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1926-nearest-exit-from-entrance-in-maze) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1971-find-if-path-exists-in-graph) |
-| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2596-check-knight-tour-configuration) |
 ## Knapsack Problem
 |  |
 | ------- |
@@ -931,21 +975,21 @@ This repository is created **purely for learning and educational purposes**. The
 ## Matrix
 |  |
 | ------- |
-| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
-| [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0037-sudoku-solver) |
+| [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0073-set-matrix-zeroes) |
-| [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
+| [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0079-word-search) |
 | [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0200-number-of-islands) |
-| [0240-search-a-2d-matrix-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0994-rotting-oranges) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1926-nearest-exit-from-entrance-in-maze) |
-| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2596-check-knight-tour-configuration) |
 | [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Depth-First Search
 |  |
@@ -990,7 +1034,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1932-merge-bsts-to-create-single-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1932-merge-bsts-to-create-single-bst) |
 | [1971-find-if-path-exists-in-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1971-find-if-path-exists-in-graph) |
 | [2246-longest-path-with-different-adjacent-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/2246-longest-path-with-different-adjacent-characters) |
-| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2596-check-knight-tour-configuration) |
 ## Union-Find
 |  |
 | ------- |
@@ -1036,7 +1080,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0215-kth-largest-element-in-an-array) |
-| [0240-search-a-2d-matrix-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0912-sort-an-array) |
@@ -1056,7 +1100,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Greedy/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Greedy/0134-gas-station) |
-| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0410-split-array-largest-sum) |
 | [0646-maximum-length-of-pair-chain](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0646-maximum-length-of-pair-chain) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store) |
 ## Combinatorics
@@ -1139,10 +1183,10 @@ This repository is created **purely for learning and educational purposes**. The
 ## Simulation
 |  |
 | ------- |
-| [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
+| [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0054-spiral-matrix) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/1910-remove-all-occurrences-of-a-substring) |
 | [2073-time-needed-to-buy-tickets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/2073-time-needed-to-buy-tickets) |
-| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2596-check-knight-tour-configuration) |
+| [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2596-check-knight-tour-configuration) |
 ## Longest Common Subsequence
 |  |
 | ------- |
@@ -1223,7 +1267,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0146-lru-cache) |
-| [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0206-reverse-linked-list) |
+| [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0234-palindrome-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0876-middle-of-the-linked-list) |
@@ -1291,7 +1335,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0003-longest-substring-without-repeating-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Heaps/0239-sliding-window-maximum) |
-| [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
+| [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0567-permutation-in-string) |
 ## Queue
 |  |
 | ------- |
@@ -1333,19 +1377,19 @@ This repository is created **purely for learning and educational purposes**. The
 ## Algorithm X
 |  |
 | ------- |
-| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
-| [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0051-n-queens) |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0037-sudoku-solver) |
+| [0051-n-queens](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0051-n-queens) |
 ## Dancing Links
 |  |
 | ------- |
-| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0037-sudoku-solver) |
+| [0037-sudoku-solver](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0037-sudoku-solver) |
 ## Memoization
 |  |
 | ------- |
-| [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0509-fibonacci-number) |
+| [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0509-fibonacci-number) |
 ## Prefix Sum
 |  |
 | ------- |
-| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0410-split-array-largest-sum) |
-| [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0560-subarray-sum-equals-k) |
+| [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0410-split-array-largest-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->

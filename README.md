@@ -465,6 +465,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0703-kth-largest-element-in-a-stream) |
@@ -517,6 +518,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0703-kth-largest-element-in-a-stream) |
@@ -747,6 +749,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0210-course-schedule-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0210-course-schedule-ii) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0547-number-of-provinces](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0684-redundant-connection) |
@@ -994,10 +997,12 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Lowest Common Ancestor
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Rolling Hash
 |  |
 | ------- |

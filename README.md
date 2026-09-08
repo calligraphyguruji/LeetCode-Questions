@@ -491,6 +491,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0063-unique-paths-ii) |
@@ -619,6 +620,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0033-search-in-rotated-sorted-array) |
 | [0040-combination-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0056-merge-intervals) |
@@ -690,6 +692,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0141-linked-list-cycle) |
@@ -996,6 +999,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0094-binary-tree-inorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
@@ -1131,6 +1135,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0496-next-greater-element-i) |
 | [0901-online-stock-span](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0901-online-stock-span) |

@@ -2,9 +2,21 @@ class Solution {
 public:
     //Approach : DSU (Disjoint Set Union) + Connected Component Size Counting
 
-    //Time Complexity = O((N + E) × α(N))
-    
-    //Space Complexity = O(N) 
+    //Time Complexity = O((N + E) × α(N)) =>
+    /* N = number of nodes
+    * E = number of edges
+    * DSU operations → approximately O(α(N))
+    * Building component-size map → O(N)
+    * Traversing components → O(N)
+    * Overall → O((N + E) α(N)) ≈ O(N + E)
+    */
+
+
+    //Space Complexity = O(N) =>
+    /* parent → O(N)
+    * rank → O(N)
+    * unordered_map → O(N)
+    */
 
     //Step-1 : Build DSU arrays, functions
     vector<int> parent;

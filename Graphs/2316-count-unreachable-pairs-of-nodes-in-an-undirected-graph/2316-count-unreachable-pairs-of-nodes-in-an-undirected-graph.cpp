@@ -2,9 +2,10 @@ class Solution {
 public:
     //Approach : DSU (Disjoint Set Union) + Connected Component Size Counting
 
-    //Time Complexity : O((N + E) × α(N))
-
+    //Time Complexity = O((N + E) × α(N))
     
+    //Space Complexity = O(N) 
+
     //Step-1 : Build DSU arrays, functions
     vector<int> parent;
     vector<int> rank;

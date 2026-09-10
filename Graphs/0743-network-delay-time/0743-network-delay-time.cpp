@@ -2,9 +2,23 @@ class Solution {
 public:
     //Approach : Dijkstra's Algorithm
     
-    //Time Complexity = O((V + E) log V)
+    //Time Complexity = O((V + E) log V) =>
+    /* Building adjacency list → O(E)
+    * Dijkstra using min-heap → O(E log V)
+    * Checking all nodes → O(V)
+    * Overall TC → O((V + E) log V)
+    * For this problem: O((n + E) log n)
+    */
 
-    //Space Complexity = O(V + E)
+    //Space Complexity = O(V + E) =>
+    /* Adjacency list → O(E)
+    * Distance array → O(V)
+    * Priority queue → O(E)
+    * Overall SC → O(V + E)
+    * For this problem: O(n + E)
+    */
+
+    
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         //Step-1: Write Dijkstra's Algo code
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>> > pq; //minHeap

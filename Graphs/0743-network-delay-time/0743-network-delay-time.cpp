@@ -1,5 +1,10 @@
 class Solution {
 public:
+    //Approach : Dijkstra's Algorithm
+    
+    //Time Complexity = O((V + E) log V)
+
+    //Space Complexity = O(V + E)
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         //Step-1: Write Dijkstra's Algo code
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>> > pq; //minHeap

@@ -751,6 +751,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0990-satisfiability-of-equality-equations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0990-satisfiability-of-equality-equations) |
 | [0994-rotting-oranges](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/1547-minimum-cost-to-cut-a-stick) |
 | [1584-min-cost-to-connect-all-points](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1584-min-cost-to-connect-all-points) |
@@ -956,6 +957,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
 | [0994-rotting-oranges](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0994-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1161-maximum-level-sum-of-a-binary-tree) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1319-number-of-operations-to-make-network-connected) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1443-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -994,6 +996,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0994-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1926-nearest-exit-from-entrance-in-maze) |
 | [2596-check-knight-tour-configuration](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/2596-check-knight-tour-configuration) |

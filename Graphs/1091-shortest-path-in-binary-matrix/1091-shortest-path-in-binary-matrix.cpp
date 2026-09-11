@@ -1,5 +1,10 @@
 class Solution {
 public:
+    //Approach-1 : BFS(Breadth First Search) 
+
+    //Time Complexity = O(n * n)
+    //Space Complexity = O(n * n)
+
     //directions vector : all 8 directions 
     vector<vector<int>> directions{ {-1, 0}, {1, 0}, {0, -1}, {0, 1}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1} };
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {

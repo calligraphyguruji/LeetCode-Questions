@@ -37,3 +37,11 @@ Since we were able to visit every room, we return true.
 	<li><code>0 &lt;= rooms[i][j] &lt; n</code></li>
 	<li>All the values of <code>rooms[i]</code> are <strong>unique</strong>.</li>
 </ul>
+<!---LeetCode Approaches Start-->
+<hr>
+<h3>💡 Solutions & Approaches</h3>
+
+- [Approach 1 (C++)](0841-keys-and-rooms.cpp) — *BFS(Breadth First Search)*
+- [Approach 2 (C++)](0841-keys-and-rooms-approach-2-dfs.cpp) — *DFS*
+
+<!---LeetCode Approaches End-->

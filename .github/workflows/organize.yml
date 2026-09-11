@@ -6,6 +6,13 @@ on:
       - main
     paths-ignore:
       - '.github/**'
+  workflow_dispatch:
+    inputs:
+      multi_approach:
+        description: 'Preserve multiple approaches in separate files'
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: write
@@ -32,6 +39,8 @@ jobs:
           python-version: '3.11'
 
       - name: Run Question Organizer
+        env:
+          MULTI_APPROACH: ${{ inputs.multi_approach || 'true' }}
         run: |
           python3 scripts/organize.py
 
@@ -42,7 +51,7 @@ jobs:
           
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "Auto-organize new LeetCode questions by topic [skip ci]"
+            git commit -m "Auto-organize LeetCode questions and multi-approach solutions [skip ci]"
             git pull --rebase origin main
             git push
           else

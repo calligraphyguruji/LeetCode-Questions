@@ -93,8 +93,9 @@ LeetCode-Questions/
 ```
 
 Each problem folder contains:
-- `README.md` — Problem description, examples, and constraints.
-- `<problem-name>.cpp` — Clean C++ solution with complexity notes.
+- `README.md` — Problem description, examples, constraints, and approach index.
+- `<problem-name>.cpp` — Primary C++ solution with complexity notes.
+- `<problem-name>-approach-*.cpp` — Alternative approaches and optimizations for the same problem.
 
 ---
 
@@ -134,7 +135,7 @@ public:
 |:---:|:---|:---:|:---|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0001-two-sum/) | [C++](Arrays/0001-two-sum/0001-two-sum.cpp) |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 `Medium` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0002-add-two-numbers/) | [C++](Math/0002-add-two-numbers/0002-add-two-numbers.cpp) |
-| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0003-longest-substring-without-repeating-characters/) | [C++](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp) |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0003-longest-substring-without-repeating-characters/) | [Java](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0014-longest-common-prefix/) | [C++](Trees/0014-longest-common-prefix/0014-longest-common-prefix.cpp) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0015-3sum/) | [C++](Arrays/0015-3sum/0015-3sum.cpp) |
 | 0018 | [4Sum](https://leetcode.com/problems/4sum) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0018-4sum/) | [C++](Arrays/0018-4sum/0018-4sum.cpp) |
@@ -271,7 +272,7 @@ public:
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal/) | [C++](BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal/1008-construct-binary-search-tree-from-preorder-traversal.cpp) |
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/1038-binary-search-tree-to-greater-sum-tree/) | [C++](BinarySearch/1038-binary-search-tree-to-greater-sum-tree/1038-binary-search-tree-to-greater-sum-tree.cpp) |
 | 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1061-lexicographically-smallest-equivalent-string/) | [C++](Graphs/1061-lexicographically-smallest-equivalent-string/1061-lexicographically-smallest-equivalent-string.cpp) |
-| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1091-shortest-path-in-binary-matrix/) | [C++](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix.cpp) |
+| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1091-shortest-path-in-binary-matrix/) | [Approach 1](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix.cpp "BFS(Breadth First Search)") · [Approach 2](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix-approach-2-dijkstras-algorithm.cpp "Dijkstra's Algorithm") |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1143-longest-common-subsequence/) | [C++](DynamicProgramming/1143-longest-common-subsequence/1143-longest-common-subsequence.cpp) |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1161-maximum-level-sum-of-a-binary-tree/) | [C++](Trees/1161-maximum-level-sum-of-a-binary-tree/1161-maximum-level-sum-of-a-binary-tree.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
@@ -401,7 +402,7 @@ public:
 | 0990 | [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations) | 🟡 `Medium` | [Problem Notes](Graphs/0990-satisfiability-of-equality-equations/) | [C++](Graphs/0990-satisfiability-of-equality-equations/0990-satisfiability-of-equality-equations.cpp) |
 | 0994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) | 🟡 `Medium` | [Problem Notes](Graphs/0994-rotting-oranges/) | [C++](Graphs/0994-rotting-oranges/0994-rotting-oranges.cpp) |
 | 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string) | 🟡 `Medium` | [Problem Notes](Graphs/1061-lexicographically-smallest-equivalent-string/) | [C++](Graphs/1061-lexicographically-smallest-equivalent-string/1061-lexicographically-smallest-equivalent-string.cpp) |
-| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | 🟡 `Medium` | [Problem Notes](Graphs/1091-shortest-path-in-binary-matrix/) | [C++](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix.cpp) |
+| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | 🟡 `Medium` | [Problem Notes](Graphs/1091-shortest-path-in-binary-matrix/) | [Approach 1](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix.cpp "BFS(Breadth First Search)") · [Approach 2](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix-approach-2-dijkstras-algorithm.cpp "Dijkstra's Algorithm") |
 | 1319 | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | 🟡 `Medium` | [Problem Notes](Graphs/1319-number-of-operations-to-make-network-connected/) | [C++](Graphs/1319-number-of-operations-to-make-network-connected/1319-number-of-operations-to-make-network-connected.cpp) |
 | 1926 | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze) | 🟡 `Medium` | [Problem Notes](Graphs/1926-nearest-exit-from-entrance-in-maze/) | [C++](Graphs/1926-nearest-exit-from-entrance-in-maze/1926-nearest-exit-from-entrance-in-maze.cpp) |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph) | 🟢 `Easy` | [Problem Notes](Graphs/1971-find-if-path-exists-in-graph/) | [C++](Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp) |
@@ -473,7 +474,7 @@ public:
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | 🟢 `Easy` | [Problem Notes](Arrays/0001-two-sum/) | [C++](Arrays/0001-two-sum/0001-two-sum.cpp) |
-| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 `Medium` | [Problem Notes](Arrays/0003-longest-substring-without-repeating-characters/) | [C++](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp) |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 `Medium` | [Problem Notes](Arrays/0003-longest-substring-without-repeating-characters/) | [Java](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 `Medium` | [Problem Notes](Arrays/0015-3sum/) | [C++](Arrays/0015-3sum/0015-3sum.cpp) |
 | 0018 | [4Sum](https://leetcode.com/problems/4sum) | 🟡 `Medium` | [Problem Notes](Arrays/0018-4sum/) | [C++](Arrays/0018-4sum/0018-4sum.cpp) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 `Easy` | [Problem Notes](Arrays/0020-valid-parentheses/) | [C++](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) |

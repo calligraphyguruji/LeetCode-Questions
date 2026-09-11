@@ -40,3 +40,11 @@
 	<li><code>1 &lt;= n &lt;= 100</code></li>
 	<li><code>grid[i][j] is 0 or 1</code></li>
 </ul>
+<!---LeetCode Approaches Start-->
+<hr>
+<h3>💡 Solutions & Approaches</h3>
+
+- [Approach 1 (C++)](1091-shortest-path-in-binary-matrix.cpp) — *BFS(Breadth First Search)*
+- [Approach 2 (C++)](1091-shortest-path-in-binary-matrix-approach-2-dijkstras-algorithm.cpp) — *Dijkstra's Algorithm*
+
+<!---LeetCode Approaches End-->

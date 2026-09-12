@@ -54,5 +54,6 @@
 
 - [Approach 1 (C++)](0199-binary-tree-right-side-view.cpp)
 - [Approach 2 (C++)](0199-binary-tree-right-side-view-approach-2-bfs.cpp) — *BFS(Level Order Traversal)*
+- [Approach 3 (C++)](0199-binary-tree-right-side-view-approach-3-dfs.cpp) — *DFS(Preorder Traversal)*
 
 <!---LeetCode Approaches End-->

@@ -24,10 +24,10 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 39 | 23.4% |
-| 🟡 **Medium** | 110 | 65.9% |
-| 🔴 **Hard** | 18 | 10.8% |
-| 🎯 **Total Solved** | **167** | **100%** |
+| 🟢 **Easy** | 39 | 23.2% |
+| 🟡 **Medium** | 111 | 66.1% |
+| 🔴 **Hard** | 18 | 10.7% |
+| 🎯 **Total Solved** | **168** | **100%** |
 
 </div>
 
@@ -226,6 +226,7 @@ To make revision structured and interview preparation fast, every question is in
 
 | # | Problem Name | Difficulty | Solution | Approach & Key Takeaway |
 |:---:|:---|:---:|:---|:---|
+| 0365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 `Medium` | [C++](Graphs/0365-water-and-jug-problem/0365-water-and-jug-problem.cpp) | Canonical Graphs & BFS/DFS problem |
 | 0433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation) | 🟡 `Medium` | [C++](Graphs/0433-minimum-genetic-mutation/0433-minimum-genetic-mutation.cpp) | State graph BFS transforming gene strings one mutation at a time |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix) | 🟡 `Medium` | [C++](Graphs/0542-01-matrix/0542-01-matrix.cpp) | Multi-source BFS initialized with all zero cells computing distance outward |
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | 🟢 `Easy` | [C++](Graphs/0733-flood-fill/0733-flood-fill.cpp) | Grid flood fill updating connected pixels of identical original color |
@@ -434,7 +435,7 @@ LeetCode-Questions/
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
-│   └── ... (29 problems)
+│   └── ... (30 problems)
 ├── DynamicProgramming/
 │   ├── 0042-trapping-rain-water/
 │   ├── 0053-maximum-subarray/
@@ -597,6 +598,7 @@ public:
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0342-power-of-four/) | [C++](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0344-reverse-string/) | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0347-top-k-frequent-elements/) | [C++](Heaps/0347-top-k-frequent-elements/0347-top-k-frequent-elements.cpp) |
+| 0365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0365-water-and-jug-problem/) | [C++](Graphs/0365-water-and-jug-problem/0365-water-and-jug-problem.cpp) |
 | 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix/) | [C++](BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix/0378-kth-smallest-element-in-a-sorted-matrix.cpp) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0387-first-unique-character-in-a-string/) | [C++](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) |
 | 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0410-split-array-largest-sum/) | [C++](BinarySearch/0410-split-array-largest-sum/0410-split-array-largest-sum.cpp) |
@@ -748,7 +750,7 @@ public:
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) | 🟡 `Medium` | [Problem Notes](Trees/1584-min-cost-to-connect-all-points/) | [C++](Trees/1584-min-cost-to-connect-all-points/1584-min-cost-to-connect-all-points.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [Problem Notes](Trees/2246-longest-path-with-different-adjacent-characters/) | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
 
-### 🕸️ [Graphs & BFS/DFS](Graphs/) (29)
+### 🕸️ [Graphs & BFS/DFS](Graphs/) (30)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -757,6 +759,7 @@ public:
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule) | 🟡 `Medium` | [Problem Notes](Graphs/0207-course-schedule/) | [C++](Graphs/0207-course-schedule/0207-course-schedule.cpp) |
 | 0210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 🟡 `Medium` | [Problem Notes](Graphs/0210-course-schedule-ii/) | [C++](Graphs/0210-course-schedule-ii/0210-course-schedule-ii.cpp) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change) | 🟡 `Medium` | [Problem Notes](Graphs/0322-coin-change/) | [C++](Graphs/0322-coin-change/0322-coin-change.cpp) |
+| 0365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 `Medium` | [Problem Notes](Graphs/0365-water-and-jug-problem/) | [C++](Graphs/0365-water-and-jug-problem/0365-water-and-jug-problem.cpp) |
 | 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [Problem Notes](Graphs/0430-flatten-a-multilevel-doubly-linked-list/) | [C++](Graphs/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
 | 0433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation) | 🟡 `Medium` | [Problem Notes](Graphs/0433-minimum-genetic-mutation/) | [C++](Graphs/0433-minimum-genetic-mutation/0433-minimum-genetic-mutation.cpp) |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix) | 🟡 `Medium` | [Problem Notes](Graphs/0542-01-matrix/) | [C++](Graphs/0542-01-matrix/0542-01-matrix.cpp) |
@@ -929,7 +932,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0326-power-of-three](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0342-power-of-four) |
-| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0365-water-and-jug-problem) |
 | [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0509-fibonacci-number) |
 | [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Dynamic Programming
@@ -1324,7 +1327,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0210-course-schedule-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0210-course-schedule-ii) |
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
-| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0365-water-and-jug-problem) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0547-number-of-provinces) |
@@ -1408,7 +1411,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0230-kth-smallest-element-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0236-lowest-common-ancestor-of-a-binary-tree) |
-| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0365-water-and-jug-problem) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0547-number-of-provinces) |
@@ -1801,17 +1804,17 @@ This repository is created **purely for learning and educational purposes**. The
 ## Bézout's Lemma
 |  |
 | ------- |
-| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0365-water-and-jug-problem) |
 ## Euclidean Algorithm
 |  |
 | ------- |
-| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0365-water-and-jug-problem) |
 ## Greatest Common Divisor
 |  |
 | ------- |
-| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0365-water-and-jug-problem) |
 ## Extended Euclidean Algorithm
 |  |
 | ------- |
-| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0365-water-and-jug-problem) |
 <!---LeetCode Topics End-->

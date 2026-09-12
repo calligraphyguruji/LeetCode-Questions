@@ -42,6 +42,7 @@ TOPIC_CONFIG = [
 PATTERN_CATEGORIES = [
     {
         "id": "two-pointers",
+        "keywords": ['two pointers', 'two pointer'],
         "title": "Two Pointers (Converging & Parallel)",
         "icon": "👉👈",
         "concept": "Navigating sequences from opposite ends or at varying offsets to eliminate quadratic search spaces into $O(n)$ time with $O(1)$ auxiliary space.",
@@ -61,6 +62,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "sliding-window",
+        "keywords": ['sliding window'],
         "title": "Sliding Window (Fixed & Minimum Window)",
         "icon": "🪟",
         "concept": "Maintaining a continuous window $[L, R]$ across an array or string. Expand the right boundary to satisfy target criteria, and shrink the left boundary to optimize or find the minimum feasible window.",
@@ -74,6 +76,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "fast-slow-pointers",
+        "keywords": ['fast & slow', 'slow & fast', 'tortoise'],
         "title": "Fast & Slow Pointers (Floyd's Cycle Finding)",
         "icon": "🐢🐇",
         "concept": "Two pointers traversing sequences at different speeds ($1x$ vs $2x$). The relative distance between them changes by 1 each step, guaranteeing rendezvous if a cycle exists.",
@@ -88,6 +91,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "prefix-sum",
+        "keywords": ['prefix sum', 'hash table', 'hash map'],
         "title": "Prefix Sum & Frequency Maps",
         "icon": "📊",
         "concept": "Precomputing cumulative prefixes or tracking element frequencies in hash maps to answer range queries and detect subarray conditions in $O(1)$ amortized time.",
@@ -104,6 +108,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "monotonic-stack-queue",
+        "keywords": ['monotonic stack', 'monotonic queue', 'next greater'],
         "title": "Monotonic Stack & Monotonic Queue",
         "icon": "🥞",
         "concept": "Maintaining elements in strictly ascending or descending order within a stack or deque. Eliminates sub-optimal candidates upon element arrival, resolving range bounds in amortized $O(n)$ total time.",
@@ -117,6 +122,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "binary-search",
+        "keywords": ['binary search'],
         "title": "Binary Search & Search Space Reduction",
         "icon": "🔍",
         "concept": "Dividing search space in half at each step in $O(\\log n)$. Extends beyond simple sorted array lookups to 'Binary Search on Answer' over monotonic predicate functions.",
@@ -136,6 +142,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "backtracking",
+        "keywords": ['backtracking'],
         "title": "Backtracking & State-Space Search",
         "icon": "🔄",
         "concept": "Exhaustive exploration of decision trees with early pruning. Constructs candidate states step-by-step and rolls back (backtracks) state immediately when constraints are violated.",
@@ -157,6 +164,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "tree-traversals",
+        "keywords": ['tree', 'binary tree', 'binary search tree', 'trie'],
         "title": "Tree Traversals, Construction & Tree DP",
         "icon": "🌳",
         "concept": "Recursive DFS (preorder, inorder, postorder) and BFS (level-order) on hierarchical structures. Aggregating subtree heights, diameters, and validating BST invariants.",
@@ -201,6 +209,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "graph-bfs",
+        "keywords": ['breadth-first search'],
         "title": "Graph BFS & Multi-Source BFS",
         "icon": "🕸️",
         "concept": "Layer-by-layer exploration guaranteeing shortest paths in unweighted graphs or simulating simultaneous multi-source wave propagation.",
@@ -216,6 +225,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "graph-dfs",
+        "keywords": ['depth-first search'],
         "title": "Graph DFS, Connectivity & Bipartite Graphs",
         "icon": "🗺️",
         "concept": "Deep recursive traversal across edges to discover connected components, cycle existence, and 2-colorability (bipartite graphs).",
@@ -232,6 +242,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "topological-sort",
+        "keywords": ['topological sort'],
         "title": "Topological Sort (DAG Dependency Resolution)",
         "icon": "🧭",
         "concept": "Linearly ordering vertices of a Directed Acyclic Graph such that every directed edge $u \\to v$ has $u$ before $v$. Detects cycles when ordering is incomplete.",
@@ -243,6 +254,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "disjoint-set-union",
+        "keywords": ['union find', 'disjoint set', 'union-find'],
         "title": "Disjoint Set Union (DSU / Union-Find) & MST",
         "icon": "🔗",
         "concept": "Near $O(1)$ amortized operations (`find` with path compression, `union` by rank) to manage dynamic connectivity and find Minimum Spanning Trees (MST).",
@@ -261,6 +273,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "shortest-paths",
+        "keywords": ['shortest path', 'dijkstra'],
         "title": "Shortest Paths in Weighted Graphs (Dijkstra & Relaxation)",
         "icon": "🚀",
         "concept": "Finding lowest-cost paths in non-negatively weighted graphs using priority queue relaxation (Dijkstra) or step-constrained relaxation (Bellman-Ford).",
@@ -274,6 +287,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "dynamic-programming",
+        "keywords": ['dynamic programming', 'memoization'],
         "title": "Dynamic Programming (1D, 2D Grid, String, Intervals & Partition)",
         "icon": "🧩",
         "concept": "Formulating recursive optimal substructure and caching overlapping subproblems. Transforms exponential brute-force searches into polynomial time.",
@@ -304,6 +318,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "greedy-intervals",
+        "keywords": ['greedy', 'interval'],
         "title": "Greedy Algorithms & Interval Scheduling",
         "icon": "💡",
         "concept": "Making locally optimal decisions at every step that prove to yield a globally optimal solution.",
@@ -316,6 +331,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "heaps-priority-queues",
+        "keywords": ['heap (priority queue)', 'heap', 'priority queue'],
         "title": "Heaps, Priority Queues & Top-K Elements",
         "icon": "⛰️",
         "concept": "Dynamically maintaining sorted extremes (min or max) in $O(\\log k)$ time, avoiding full array sorting.",
@@ -329,6 +345,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "linked-list-manipulation",
+        "keywords": ['linked list'],
         "title": "Linked List Pointer Surgery & In-Place Reversal",
         "icon": "🪢",
         "concept": "Carefully manipulating node pointers (`next`, `prev`), dummy heads, and local segment reversals with zero node copying in $O(1)$ memory.",
@@ -347,6 +364,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "matrix-manipulation",
+        "keywords": ['matrix'],
         "title": "Matrix Traversal & In-Place State Manipulation",
         "icon": "🔲",
         "concept": "Simulating 2D boundary contractions and utilizing grid cells themselves as state markers for $O(1)$ auxiliary space.",
@@ -358,6 +376,7 @@ PATTERN_CATEGORIES = [
     },
     {
         "id": "bit-manipulation-math",
+        "keywords": ['bit manipulation', 'math', 'number theory'],
         "title": "Bit Manipulation, Stacks & Mathematical Simulation",
         "icon": "⚡",
         "concept": "Bitwise masks, arithmetic simulation, LIFO stack matching, and number-theoretic properties.",
@@ -401,7 +420,7 @@ Every problem in this repository has been hand-selected from battle-tested techn
 
 ---"""
 
-def build_approaches_section(q_map):
+def build_approaches_section(q_map, old_readme=""):
     parts = []
     parts.append("## 🧩 Algorithmic Approaches & Patterns Directory\n")
     parts.append("To make revision structured and interview preparation fast, every question is indexed below according to its **underlying algorithmic approach and technique** (such as Two Pointers, Minimum Window Sliding, Fast & Slow Pointers, Monotonic Stack, etc.).\n")
@@ -412,6 +431,42 @@ def build_approaches_section(q_map):
         nav_links.append(f"[{cat['icon']} {cat['title'].split('(')[0].strip()}](#-{cat['id']})")
     parts.append("> **Quick Navigation:** " + " • ".join(nav_links) + "\n")
     
+    # Track all questions already curated in static definitions
+    curated_assigned = set()
+    for cat in PATTERN_CATEGORIES:
+        for q_dir, _ in cat.get("questions", []):
+            curated_assigned.add(q_dir)
+
+    # Dynamic classification for newly added questions
+    dynamic_additions = {cat["id"]: [] for cat in PATTERN_CATEGORIES}
+    folder_to_cat = {
+        "binarysearch": "binary-search",
+        "backtracking": "backtracking",
+        "trees": "tree-traversals",
+        "graphs": "graph-dfs",
+        "dynamicprogramming": "dynamic-programming",
+        "heaps": "heaps-priority-queues",
+        "greedy": "greedy-intervals",
+        "bitmanipulation": "bit-manipulation-math",
+        "math": "bit-manipulation-math",
+        "arrays": "two-pointers"
+    }
+
+    for q_dir, q_info in q_map.items():
+        if q_dir not in curated_assigned:
+            target_cat_id = None
+            q_tags = get_tags_from_readme(q_dir, old_readme)
+            tags_str = " ".join(q_tags).lower()
+            for cat in PATTERN_CATEGORIES:
+                kws = cat.get("keywords", [])
+                if any(kw in tags_str for kw in kws):
+                    target_cat_id = cat["id"]
+                    break
+            if not target_cat_id:
+                target_cat_id = folder_to_cat.get(q_info.get("topic_folder", "").lower(), "two-pointers")
+            
+            dynamic_additions[target_cat_id].append((q_dir, f"Canonical {q_info.get('topic_display', 'DSA')} problem"))
+
     for cat in PATTERN_CATEGORIES:
         parts.append(f"<a id=\"-{cat['id']}\"></a>")
         parts.append(f"### {cat['icon']} {cat['title']}\n")
@@ -420,7 +475,10 @@ def build_approaches_section(q_map):
         parts.append("| # | Problem Name | Difficulty | Solution | Approach & Key Takeaway |")
         parts.append("|:---:|:---|:---:|:---|:---|")
         
-        for q_dir, takeaway in cat["questions"]:
+        all_items = list(cat.get("questions", [])) + dynamic_additions.get(cat["id"], [])
+        all_items.sort(key=lambda item: int(item[0].split("-")[0]) if item[0].split("-")[0].isdigit() else 9999)
+
+        for q_dir, takeaway in all_items:
             q_info = q_map.get(q_dir)
             if not q_info:
                 continue
@@ -435,7 +493,6 @@ def build_approaches_section(q_map):
         parts.append("")
         
     return "\n".join(parts)
-
 def fetch_leetcode_tags(title_slug):
     """Fetch official topic tags from LeetCode GraphQL API."""
     query = """
@@ -1046,7 +1103,7 @@ def rebuild_metadata():
 
     q_map = {q["q_dir"]: q for q in questions}
     curation_section_content = build_curation_section()
-    approaches_section_content = build_approaches_section(q_map)
+    approaches_section_content = build_approaches_section(q_map, old_readme)
 
     topic_breakdown_content = "\n".join(topic_breakdown_parts)
 

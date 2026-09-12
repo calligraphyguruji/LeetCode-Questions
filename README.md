@@ -929,6 +929,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0326-power-of-three](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BitManipulation/0342-power-of-four) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
 | [0509-fibonacci-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0509-fibonacci-number) |
 | [2965-find-missing-and-repeated-values](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Math/2965-find-missing-and-repeated-values) |
 ## Dynamic Programming
@@ -1323,6 +1324,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0210-course-schedule-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0210-course-schedule-ii) |
 | [0279-perfect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/DynamicProgramming/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0322-coin-change) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
 | [0433-minimum-genetic-mutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0547-number-of-provinces) |
@@ -1406,6 +1408,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0230-kth-smallest-element-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0547-number-of-provinces) |
@@ -1795,4 +1798,20 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0560-subarray-sum-equals-k) |
+## Bézout's Lemma
+|  |
+| ------- |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
+## Extended Euclidean Algorithm
+|  |
+| ------- |
+| [0365-water-and-jug-problem](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0365-water-and-jug-problem) |
 <!---LeetCode Topics End-->

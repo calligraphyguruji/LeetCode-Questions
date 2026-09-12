@@ -2,7 +2,7 @@ class Solution {
 public:
     //Approach-2 : Dijkstra's Algorithm 
 
-    //Time Complexity = O(n * n)
+    //Time Complexity = O(n * n * logn)
     //Space Complexity = O(n * n)
     
     typedef pair<int, pair<int, int>> P;

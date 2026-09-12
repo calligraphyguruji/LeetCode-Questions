@@ -39,6 +39,403 @@ TOPIC_CONFIG = [
     ]),
 ]
 
+PATTERN_CATEGORIES = [
+    {
+        "id": "two-pointers",
+        "title": "Two Pointers (Converging & Parallel)",
+        "icon": "👉👈",
+        "concept": "Navigating sequences from opposite ends or at varying offsets to eliminate quadratic search spaces into $O(n)$ time with $O(1)$ auxiliary space.",
+        "when_to_use": "Sorted arrays, palindrome verification, partition pivots (Dutch National Flag), and in-place reversal/compression.",
+        "questions": [
+            ("0001-two-sum", "Hash map complement lookup or sorted two-pointer sweep"),
+            ("0015-3sum", "Sorting array + fixing first element + converging two-pointer scan with duplicate pruning"),
+            ("0018-4sum", "Generalized k-sum: two fixed loops + inner two-pointer converging search"),
+            ("0031-next-permutation", "Identify first decreasing pivot from right, swap with successor, reverse suffix via two pointers"),
+            ("0075-sort-colors", "Dutch National Flag algorithm: 3-pointer partition (low, mid, high) in a single pass"),
+            ("0088-merge-sorted-array", "Three pointers placing largest elements backwards from the end"),
+            ("0125-valid-palindrome", "Left and right pointers converging inward while skipping non-alphanumeric characters"),
+            ("0151-reverse-words-in-a-string", "Two-pointer string token reversal and in-place whitespace compaction"),
+            ("0344-reverse-string", "Left and right pointers swapping mirror elements towards the center"),
+            ("0443-string-compression", "Read/write two-pointer technique for in-place run-length encoding")
+        ]
+    },
+    {
+        "id": "sliding-window",
+        "title": "Sliding Window (Fixed & Minimum Window)",
+        "icon": "🪟",
+        "concept": "Maintaining a continuous window $[L, R]$ across an array or string. Expand the right boundary to satisfy target criteria, and shrink the left boundary to optimize or find the minimum feasible window.",
+        "when_to_use": "Contiguous subarray/substring problems looking for maximum/minimum length, exact count, or minimum window satisfying character frequencies.",
+        "questions": [
+            ("0003-longest-substring-without-repeating-characters", "Dynamic window tracking character last-seen positions with hash map / frequency array"),
+            ("0076-minimum-window-substring", "Classic minimum window sliding: expand $R$ until all characters match, then greedily contract $L$ to minimize window size"),
+            ("0239-sliding-window-maximum", "Sliding window maintained by a monotonic decreasing deque for $O(1)$ window maximum retrieval"),
+            ("0567-permutation-in-string", "Fixed-size sliding window of length $|s1|$ checking character frequency vector equality")
+        ]
+    },
+    {
+        "id": "fast-slow-pointers",
+        "title": "Fast & Slow Pointers (Floyd's Cycle Finding)",
+        "icon": "🐢🐇",
+        "concept": "Two pointers traversing sequences at different speeds ($1x$ vs $2x$). The relative distance between them changes by 1 each step, guaranteeing rendezvous if a cycle exists.",
+        "when_to_use": "Detecting cycles in linked lists/arrays, finding loop entry points, determining linked list middle nodes without calculating length beforehand.",
+        "questions": [
+            ("0141-linked-list-cycle", "Floyd's cycle detection: fast and slow pointers meet if a cycle exists"),
+            ("0142-linked-list-cycle-ii", "Meeting point reset: reset one pointer to head to find exact cycle origin node"),
+            ("0234-palindrome-linked-list", "Fast/slow pointers to find list midpoint + reverse second half in-place + compare"),
+            ("0287-find-the-duplicate-number", "Treating array indices and values as linked list nodes ($i \\to nums[i]$) to detect cycle entrance"),
+            ("0876-middle-of-the-linked-list", "Fast pointer steps twice as fast; slow pointer lands on exact middle node")
+        ]
+    },
+    {
+        "id": "prefix-sum",
+        "title": "Prefix Sum & Frequency Maps",
+        "icon": "📊",
+        "concept": "Precomputing cumulative prefixes or tracking element frequencies in hash maps to answer range queries and detect subarray conditions in $O(1)$ amortized time.",
+        "when_to_use": "Subarray sum equals $k$, range sum caching, anagram grouping, frequency parity checks, and majority voting.",
+        "questions": [
+            ("0049-group-anagrams", "Categorize strings by canonical sorted key or 26-character frequency signature"),
+            ("0169-majority-element", "Boyer-Moore Voting Algorithm: tracking candidate and net score in $O(1)$ auxiliary space"),
+            ("0242-valid-anagram", "Fixed 26-character frequency count matching between two strings"),
+            ("0387-first-unique-character-in-a-string", "Two-pass frequency mapping to detect first element with frequency 1"),
+            ("0560-subarray-sum-equals-k", "Prefix sum array paired with hash map of prefix frequencies: find count of $(prefix - k)$ in $O(n)$"),
+            ("1594-maximum-non-negative-product-in-a-matrix", "Prefix state matrix tracking both minimum (negative) and maximum products"),
+            ("2965-find-missing-and-repeated-values", "Frequency array / mathematical sum and square-sum formulas to pinpoint missing and duplicate numbers")
+        ]
+    },
+    {
+        "id": "monotonic-stack-queue",
+        "title": "Monotonic Stack & Monotonic Queue",
+        "icon": "🥞",
+        "concept": "Maintaining elements in strictly ascending or descending order within a stack or deque. Eliminates sub-optimal candidates upon element arrival, resolving range bounds in amortized $O(n)$ total time.",
+        "when_to_use": "Next/Previous Greater or Smaller elements, largest rectangular areas in histograms, sliding window maximums.",
+        "questions": [
+            ("0084-largest-rectangle-in-histogram", "Monotonic increasing stack tracking left and right boundaries for every bar in $O(n)$"),
+            ("0496-next-greater-element-i", "Monotonic decreasing stack caching next greater element for each array value"),
+            ("0503-next-greater-element-ii", "Simulating circular array traversal via double pass with monotonic decreasing stack"),
+            ("0901-online-stock-span", "Monotonic stack storing consecutive lower prices and cumulative span weights")
+        ]
+    },
+    {
+        "id": "binary-search",
+        "title": "Binary Search & Search Space Reduction",
+        "icon": "🔍",
+        "concept": "Dividing search space in half at each step in $O(\\log n)$. Extends beyond simple sorted array lookups to 'Binary Search on Answer' over monotonic predicate functions.",
+        "when_to_use": "Sorted or rotated arrays, 2D matrix searches, finding boundaries, minimax/maximin allocation optimization.",
+        "questions": [
+            ("0033-search-in-rotated-sorted-array", "Identifying which half is sorted to discard the other half in $O(\\log n)$"),
+            ("0074-search-a-2d-matrix", "Standard binary search treating row-major 2D matrix as virtual flattened 1D array"),
+            ("0240-search-a-2d-matrix-ii", "Pruning search space starting from top-right corner using matrix row/col monotonicity"),
+            ("0378-kth-smallest-element-in-a-sorted-matrix", "Binary search on value range with $O(n)$ row/col monotonic count subroutine"),
+            ("0410-split-array-largest-sum", "Binary search on answer domain $[\\max(nums), \\sum(nums)]$ with greedy chunk validator"),
+            ("0493-reverse-pairs", "Modified merge sort divide & conquer with cross-half two-pointer reverse pair counting"),
+            ("0540-single-element-in-a-sorted-array", "Binary search checking parity invariants of identical element pairs"),
+            ("0704-binary-search", "Canonical binary search template with safe midpoint calculation `left + (right - left) / 2`"),
+            ("0852-peak-index-in-a-mountain-array", "Binary search on gradient slope checking $nums[mid] < nums[mid + 1]$"),
+            ("2064-minimized-maximum-of-products-distributed-to-any-store", "Binary search on answer for minimum store product distribution quota")
+        ]
+    },
+    {
+        "id": "backtracking",
+        "title": "Backtracking & State-Space Search",
+        "icon": "🔄",
+        "concept": "Exhaustive exploration of decision trees with early pruning. Constructs candidate states step-by-step and rolls back (backtracks) state immediately when constraints are violated.",
+        "when_to_use": "Permutations, combinations, subsets, constraint satisfaction (Sudoku, N-Queens), and grid word searches.",
+        "questions": [
+            ("0037-sudoku-solver", "Row, column, and 3x3 box constraint validation with recursive digit placement and rollback"),
+            ("0039-combination-sum", "Unbounded element reuse backtracking to match exact remaining sum"),
+            ("0040-combination-sum-ii", "Sorted array backtracking with duplicate sibling branch pruning for unique combinations"),
+            ("0046-permutations", "Generating all $n!$ permutations using visited markers or in-place element swaps"),
+            ("0051-n-queens", "Bitmask / boolean set tracking of safe columns and 45° / 135° diagonals"),
+            ("0078-subsets", "Power set generation via cascading pick / don't pick binary decision tree"),
+            ("0079-word-search", "2D grid DFS matching characters with in-place cell masking and unmasking"),
+            ("0090-subsets-ii", "Generating unique subsets from arrays with duplicates by sorting and skipping identical elements"),
+            ("0131-palindrome-partitioning", "Backtracking substring partitions with palindrome validation memoization"),
+            ("0494-target-sum", "Branching $+/-$ decision tree transformed to 0-1 knapsack subset sum"),
+            ("1239-maximum-length-of-a-concatenated-string-with-unique-characters", "Bitmask tracking of unique characters across recursive subset combinations"),
+            ("2596-check-knight-tour-configuration", "Sequential coordinate step validation verifying knight move deltas")
+        ]
+    },
+    {
+        "id": "tree-traversals",
+        "title": "Tree Traversals, Construction & Tree DP",
+        "icon": "🌳",
+        "concept": "Recursive DFS (preorder, inorder, postorder) and BFS (level-order) on hierarchical structures. Aggregating subtree heights, diameters, and validating BST invariants.",
+        "when_to_use": "Binary trees, BST queries/mutations, lowest common ancestor, path sum maximizations, and tree diameter.",
+        "questions": [
+            ("0014-longest-common-prefix", "Trie / vertical character scanning across string array"),
+            ("0094-binary-tree-inorder-traversal", "Left-root-right DFS traversal with recursion and iterative stack"),
+            ("0096-unique-binary-search-trees", "Catalan number dynamic programming for count of unique BST shapes"),
+            ("0098-validate-binary-search-tree", "Inorder strict ascending check or propagating $(minVal, maxVal)$ ranges down subtrees"),
+            ("0099-recover-binary-search-tree", "Detecting two swapped nodes using inorder traversal pointers in $O(1)$ space"),
+            ("0100-same-tree", "Simultaneous structural and value equivalence check via recursive DFS"),
+            ("0101-symmetric-tree", "Mirror reflection check comparing opposite outer and inner child subtrees"),
+            ("0102-binary-tree-level-order-traversal", "Queue-based level-by-level BFS collecting node values per depth"),
+            ("0103-binary-tree-zigzag-level-order-traversal", "Alternating direction level-order traversal using double-ended queues"),
+            ("0105-construct-binary-tree-from-preorder-and-inorder-traversal", "Preorder identifies root; inorder split gives left and right subtree sizes"),
+            ("0106-construct-binary-tree-from-inorder-and-postorder-traversal", "Postorder identifies root; inorder split gives subtree boundaries recursively"),
+            ("0108-convert-sorted-array-to-binary-search-tree", "Midpoint divide-and-conquer to build height-balanced BST"),
+            ("0110-balanced-binary-tree", "Bottom-up height calculation with early $-1$ exit on subtree height differential $> 1$"),
+            ("0114-flatten-binary-tree-to-linked-list", "Rewiring right pointers to preorder sequence with Morris-like constant space traversal"),
+            ("0116-populating-next-right-pointers-in-each-node", "Using established upper-level next pointers for $O(1)$ auxiliary space linkage"),
+            ("0124-binary-tree-maximum-path-sum", "Postorder tree DP computing maximum non-negative branch gain and updating global sum"),
+            ("0144-binary-tree-preorder-traversal", "Root-left-right recursive and iterative stack traversal"),
+            ("0145-binary-tree-postorder-traversal", "Left-right-root postorder traversal with stack"),
+            ("0173-binary-search-tree-iterator", "Controlled inorder traversal with push-all-left stack in $O(h)$ memory"),
+            ("0199-binary-tree-right-side-view", "Level-order BFS picking last node or right-first DFS"),
+            ("0230-kth-smallest-element-in-a-bst", "Inorder traversal stopping at $k$-th visited element"),
+            ("0235-lowest-common-ancestor-of-a-binary-search-tree", "BST navigation branching based on split across node value"),
+            ("0236-lowest-common-ancestor-of-a-binary-tree", "Postorder search bubbling up target nodes to first shared ancestor"),
+            ("0450-delete-node-in-a-bst", "BST search and successor splicing upon removing two-child nodes"),
+            ("0543-diameter-of-binary-tree", "Postorder depth calculation updating maximum left+right path"),
+            ("0572-subtree-of-another-tree", "Recursive root matching with exact tree equivalence subroutine"),
+            ("0662-maximum-width-of-binary-tree", "Zero-indexed heap-like coordinate tagging per level to prevent overflow"),
+            ("0783-minimum-distance-between-bst-nodes", "Inorder traversal tracking running minimum difference between neighbors"),
+            ("1008-construct-binary-search-tree-from-preorder-traversal", "Monotonic upper-bound recursive BST reconstruction in $O(n)$"),
+            ("1038-binary-search-tree-to-greater-sum-tree", "Reverse inorder traversal (right-root-left) accumulating suffix sum"),
+            ("1161-maximum-level-sum-of-a-binary-tree", "BFS level summation tracking index with maximum aggregate sum"),
+            ("1443-minimum-time-to-collect-all-apples-in-a-tree", "Bottom-up DFS summing round-trip edge costs for apple-bearing subtrees"),
+            ("1519-number-of-nodes-in-the-sub-tree-with-the-same-label", "Postorder 26-length frequency array merging from child subtrees"),
+            ("1932-merge-bsts-to-create-single-bst", "BST root-leaf matching, cycle check, and global BST inorder validation"),
+            ("2246-longest-path-with-different-adjacent-characters", "Tree DP returning longest branch and updating top-2 branch sum")
+        ]
+    },
+    {
+        "id": "graph-bfs",
+        "title": "Graph BFS & Multi-Source BFS",
+        "icon": "🕸️",
+        "concept": "Layer-by-layer exploration guaranteeing shortest paths in unweighted graphs or simulating simultaneous multi-source wave propagation.",
+        "when_to_use": "Shortest path in unweighted graphs/grids, minimum step conversions, and simultaneous multi-point spread (fire, rot, infection).",
+        "questions": [
+            ("0433-minimum-genetic-mutation", "State graph BFS transforming gene strings one mutation at a time"),
+            ("0542-01-matrix", "Multi-source BFS initialized with all zero cells computing distance outward"),
+            ("0733-flood-fill", "Grid flood fill updating connected pixels of identical original color"),
+            ("0994-rotting-oranges", "Multi-source BFS spreading rot layer-by-layer to adjacent fresh oranges"),
+            ("1091-shortest-path-in-binary-matrix", "8-directional BFS in binary grid to find shortest path to bottom-right"),
+            ("1926-nearest-exit-from-entrance-in-maze", "Queue BFS stepping through open cells to nearest perimeter boundary")
+        ]
+    },
+    {
+        "id": "graph-dfs",
+        "title": "Graph DFS, Connectivity & Bipartite Graphs",
+        "icon": "🗺️",
+        "concept": "Deep recursive traversal across edges to discover connected components, cycle existence, and 2-colorability (bipartite graphs).",
+        "when_to_use": "Connected components counting, island problems, graph coloring, all-paths enumeration.",
+        "questions": [
+            ("0133-clone-graph", "DFS/BFS with hash map mapping original nodes to cloned counterparts"),
+            ("0200-number-of-islands", "Grid DFS sinking visited land components ('1' to '0')"),
+            ("0785-is-graph-bipartite", "2-coloring graph using alternating color DFS to detect odd-length cycles"),
+            ("0797-all-paths-from-source-to-target", "DAG DFS path tracking from source 0 to target $n-1$"),
+            ("0841-keys-and-rooms", "DFS/BFS room reachability check starting from room 0"),
+            ("0886-possible-bipartition", "Modeling dislikes as graph edges and checking 2-colorability"),
+            ("1971-find-if-path-exists-in-graph", "BFS/DFS or DSU to verify path between source and destination")
+        ]
+    },
+    {
+        "id": "topological-sort",
+        "title": "Topological Sort (DAG Dependency Resolution)",
+        "icon": "🧭",
+        "concept": "Linearly ordering vertices of a Directed Acyclic Graph such that every directed edge $u \\to v$ has $u$ before $v$. Detects cycles when ordering is incomplete.",
+        "when_to_use": "Course prerequisites, task compilation schedules, and cycle detection in directed graphs.",
+        "questions": [
+            ("0207-course-schedule", "Detecting directed cycles via Kahn's algorithm (in-degree queue) or 3-color DFS"),
+            ("0210-course-schedule-ii", "Returning valid dependency resolution sequence via topological sort")
+        ]
+    },
+    {
+        "id": "disjoint-set-union",
+        "title": "Disjoint Set Union (DSU / Union-Find) & MST",
+        "icon": "🔗",
+        "concept": "Near $O(1)$ amortized operations (`find` with path compression, `union` by rank) to manage dynamic connectivity and find Minimum Spanning Trees (MST).",
+        "when_to_use": "Dynamic connected components, cycle detection in undirected graphs, Kruskal's MST algorithm.",
+        "questions": [
+            ("0547-number-of-provinces", "Union-Find grouping directly connected cities into provinces"),
+            ("0684-redundant-connection", "Finding edge whose endpoints already belong to same connected component"),
+            ("0947-most-stones-removed-with-same-row-or-column", "Unifying stone rows and columns to count connected components"),
+            ("0990-satisfiability-of-equality-equations", "Unifying equal variables and validating inequalities against components"),
+            ("1061-lexicographically-smallest-equivalent-string", "DSU with root representing lexicographically smallest character"),
+            ("1319-number-of-operations-to-make-network-connected", "Counting surplus edges vs number of disconnected components"),
+            ("1584-min-cost-to-connect-all-points", "Kruskal's MST with DSU / Prim's greedy algorithm on complete graph"),
+            ("2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph", "DSU component size calculation to compute non-connected node pairs"),
+            ("2421-number-of-good-paths", "Sorting nodes by value and merging components with DSU incrementally")
+        ]
+    },
+    {
+        "id": "shortest-paths",
+        "title": "Shortest Paths in Weighted Graphs (Dijkstra & Relaxation)",
+        "icon": "🚀",
+        "concept": "Finding lowest-cost paths in non-negatively weighted graphs using priority queue relaxation (Dijkstra) or step-constrained relaxation (Bellman-Ford).",
+        "when_to_use": "Minimum latency, lowest flight fare with stopover limits, minimum effort paths in elevation grids.",
+        "questions": [
+            ("0743-network-delay-time", "Standard Dijkstra algorithm using min-heap for single-source shortest paths"),
+            ("0787-cheapest-flights-within-k-stops", "Bellman-Ford / layer-by-layer BFS with at most $k$ edge relaxations"),
+            ("1631-path-with-minimum-effort", "Dijkstra on grid minimizing maximum adjacent height difference"),
+            ("1976-number-of-ways-to-arrive-at-destination", "Dijkstra tracking shortest distances and DP path counts modulo $10^9+7$")
+        ]
+    },
+    {
+        "id": "dynamic-programming",
+        "title": "Dynamic Programming (1D, 2D Grid, String, Intervals & Partition)",
+        "icon": "🧩",
+        "concept": "Formulating recursive optimal substructure and caching overlapping subproblems. Transforms exponential brute-force searches into polynomial time.",
+        "when_to_use": "Knapsack problems, longest common subsequences, minimum edit operations, matrix paths, partition optimization.",
+        "questions": [
+            ("0042-trapping-rain-water", "Prefix max and suffix max arrays or two-pointer space optimization"),
+            ("0053-maximum-subarray", "Kadane's algorithm deciding whether to extend or start new subarray sum"),
+            ("0062-unique-paths", "2D grid combinations $dp[i][j] = dp[i-1][j] + dp[i][j-1]$"),
+            ("0063-unique-paths-ii", "Grid DP setting obstacle cells to 0 paths"),
+            ("0072-edit-distance", "Levenshtein distance 2D DP for insert, delete, and replace operations"),
+            ("0121-best-time-to-buy-and-sell-stock", "Single pass tracking running minimum price and maximum profit"),
+            ("0132-palindrome-partitioning-ii", "1D DP for minimum cuts utilizing 2D palindrome lookup table"),
+            ("0198-house-robber", "State transition $dp[i] = \\max(dp[i-1], dp[i-2] + nums[i])$"),
+            ("0213-house-robber-ii", "Running House Robber I twice (excluding first or last house) for circularity"),
+            ("0264-ugly-number-ii", "Generating ugly numbers in order via three pointers $(2, 3, 5)$"),
+            ("0279-perfect-squares", "Unbounded knapsack style 1D DP or Lagrange's four-square theorem"),
+            ("0300-longest-increasing-subsequence", "Classic $O(n^2)$ DP or $O(n \\log n)$ patience sorting with binary search"),
+            ("0322-coin-change", "Unbounded knapsack DP computing minimum coins for amount"),
+            ("0509-fibonacci-number", "Base recurrence with rolling variables for $O(1)$ space"),
+            ("0516-longest-palindromic-subsequence", "2D interval DP comparing endpoints $s[i]$ and $s[j]$"),
+            ("0646-maximum-length-of-pair-chain", "Sorting by end coordinates + greedy interval selection or LIS DP"),
+            ("1143-longest-common-subsequence", "2D grid state tracking matched characters between two strings"),
+            ("1335-minimum-difficulty-of-a-job-schedule", "Partition DP splitting tasks into $d$ contiguous daily intervals"),
+            ("1547-minimum-cost-to-cut-a-stick", "Matrix Chain Multiplication / interval DP on sorted cut positions"),
+            ("1911-maximum-alternating-subsequence-sum", "Two-state DP tracking maximum sum in even/odd position states"),
+            ("2035-partition-array-into-two-arrays-to-minimize-sum-difference", "Meet-in-the-middle subset generation + binary search lower bound")
+        ]
+    },
+    {
+        "id": "greedy-intervals",
+        "title": "Greedy Algorithms & Interval Scheduling",
+        "icon": "💡",
+        "concept": "Making locally optimal decisions at every step that prove to yield a globally optimal solution.",
+        "when_to_use": "Interval merging, activity selection, stock trading with unlimited transactions, circular fuel balance.",
+        "questions": [
+            ("0056-merge-intervals", "Sorting intervals by start time and extending merged boundaries"),
+            ("0122-best-time-to-buy-and-sell-stock-ii", "Greedily summing all positive consecutive price differentials"),
+            ("0134-gas-station", "Maintaining total balance and resetting start station on negative tank")
+        ]
+    },
+    {
+        "id": "heaps-priority-queues",
+        "title": "Heaps, Priority Queues & Top-K Elements",
+        "icon": "⛰️",
+        "concept": "Dynamically maintaining sorted extremes (min or max) in $O(\\log k)$ time, avoiding full array sorting.",
+        "when_to_use": "Finding $k$-th largest/smallest elements, streaming median, continuous ranking.",
+        "questions": [
+            ("0215-kth-largest-element-in-an-array", "Min-heap of size $k$ or Quickselect for $O(n)$ average selection"),
+            ("0347-top-k-frequent-elements", "Frequency map + min-heap or $O(n)$ bucket sort on counts"),
+            ("0703-kth-largest-element-in-a-stream", "Min-heap storing top $k$ elements; root holds $k$-th largest"),
+            ("0912-sort-an-array", "Max-heap sort / divide-and-conquer sorting algorithms")
+        ]
+    },
+    {
+        "id": "linked-list-manipulation",
+        "title": "Linked List Pointer Surgery & In-Place Reversal",
+        "icon": "🪢",
+        "concept": "Carefully manipulating node pointers (`next`, `prev`), dummy heads, and local segment reversals with zero node copying in $O(1)$ memory.",
+        "when_to_use": "In-place list reversal, k-group reversal, cycle redirection, LRU cache memory structures.",
+        "questions": [
+            ("0021-merge-two-sorted-lists", "Dummy head pointer splicing two sorted lists iteratively"),
+            ("0024-swap-nodes-in-pairs", "Pairwise next-pointer swap using pre-node tracker"),
+            ("0025-reverse-nodes-in-k-group", "Reversing groups of $k$ nodes in-place while keeping remaining list intact"),
+            ("0061-rotate-list", "Forming circle by connecting tail to head, then cutting at $(len - k \\% len)$"),
+            ("0092-reverse-linked-list-ii", "In-place pointer reversal for subsegment between positions left and right"),
+            ("0138-copy-list-with-random-pointer", "Interweaving cloned nodes between originals for $O(1)$ extra space copy"),
+            ("0146-lru-cache", "Doubly linked list (for $O(1)$ eviction) coupled with hash map lookup"),
+            ("0206-reverse-linked-list", "Canonical 3-pointer (`prev`, `curr`, `next`) list reversal"),
+            ("0430-flatten-a-multilevel-doubly-linked-list", "DFS traversal splicing child doubly linked lists between current and next")
+        ]
+    },
+    {
+        "id": "matrix-manipulation",
+        "title": "Matrix Traversal & In-Place State Manipulation",
+        "icon": "🔲",
+        "concept": "Simulating 2D boundary contractions and utilizing grid cells themselves as state markers for $O(1)$ auxiliary space.",
+        "when_to_use": "Layer-by-layer spiral peeling, in-place matrix zeroing without additional memory arrays.",
+        "questions": [
+            ("0054-spiral-matrix", "4-boundary pointer shrinkage (top, bottom, left, right) peeling matrix layers in clockwise order"),
+            ("0073-set-matrix-zeroes", "Using first row and column as in-place $O(1)$ memory zero-marker flags")
+        ]
+    },
+    {
+        "id": "bit-manipulation-math",
+        "title": "Bit Manipulation, Stacks & Mathematical Simulation",
+        "icon": "⚡",
+        "concept": "Bitwise masks, arithmetic simulation, LIFO stack matching, and number-theoretic properties.",
+        "when_to_use": "Binary bit checking, power-of-two tests, binary exponentiation, arithmetic without library tricks.",
+        "questions": [
+            ("0002-add-two-numbers", "Simulating elementary grade-school addition with carry across linked lists"),
+            ("0020-valid-parentheses", "Stack LIFO bracket matching for opening and closing symbols"),
+            ("0050-powx-n", "Binary exponentiation reducing power calculation to $O(\\log n)$"),
+            ("0155-min-stack", "Stack paired with secondary min-tracking stack for $O(1)$ getMin"),
+            ("0225-implement-stack-using-queues", "Simulating LIFO behavior using queue rotations"),
+            ("0231-power-of-two", "Bitwise check `n > 0 && (n & (n - 1)) == 0`"),
+            ("0232-implement-queue-using-stacks", "FIFO queue simulation with input and output stacks amortized $O(1)$"),
+            ("0263-ugly-number", "Repeated trial division by prime factors 2, 3, and 5"),
+            ("0326-power-of-three", "Trial division or max integer power of three modulo check"),
+            ("0342-power-of-four", "Power of two check combined with bit position mask `0x55555555`"),
+            ("1392-longest-happy-prefix", "KMP Longest Proper Prefix which is also Suffix (LPS array) computation"),
+            ("1910-remove-all-occurrences-of-a-substring", "Stack-based or string buffer matching and popping target substring"),
+            ("2073-time-needed-to-buy-tickets", "Direct single-pass calculation of tickets processed before position $k$")
+        ]
+    }
+]
+
+def build_curation_section():
+    return """## 🎯 Intentional Curation: Why These Aren't Random Questions
+
+> **"Don't practice until you get it right. Practice until you can't get it wrong."**
+
+Many developers approach LeetCode as a brute numbers game, indiscriminately grinding hundreds of arbitrary problems without developing transferable intuition. **This repository follows an intentional, blueprint-driven strategy.**
+
+### 🔍 The Core Philosophy: Pattern Recognition > Rote Memorization
+Technical interviews at top-tier product engineering companies (FAANG/MANG, unicorns, high-frequency trading firms) evaluate **underlying algorithmic intuition**, not your ability to recall a specific question's gimmick.
+
+Every problem in this repository has been hand-selected from battle-tested technical interview roadmaps—most notably **NeetCode 150**, **Striver's SDE Sheet**, **Blind 75**, and **Grind 75**. These problems were deliberately chosen because they serve as **canonical archetypes**:
+
+| Architectural Pillar | Implementation & Philosophy in this Repository |
+|:---|:---|
+| 🧱 **Foundational Archetypes** | Each question establishes a fundamental mental model (e.g., shrinking/expanding window invariants, monotonic boundary elimination, tree state bubbling, bipartite 2-coloring). Mastering one archetype unlocks an entire family of 20+ interview variations. |
+| 🔄 **Multi-Approach Progression** | Solutions are not just single accepted snippets. Where instructional, solutions explore progressive evolution: **Brute Force $\\to$ Better $\\to$ Optimal Time/Space**, explicitly analyzing algorithmic tradeoffs and runtime complexities. |
+| 🛡️ **Edge-Case Hardening** | Every implementation is tested and documented against edge cases: zero/single element structures, integer overflow boundaries ($2^{31}-1$), negative coordinates, cyclic dependencies, and disjoint graphs. |
+| 📈 **High-Yield Retention** | Deeply mastering ~170 core pattern archetypes produces drastically higher problem-solving speed, confidence, and adaptability than shallowly skimming 1,000+ random problems. |
+
+---"""
+
+def build_approaches_section(q_map):
+    parts = []
+    parts.append("## 🧩 Algorithmic Approaches & Patterns Directory\n")
+    parts.append("To make revision structured and interview preparation fast, every question is indexed below according to its **underlying algorithmic approach and technique** (such as Two Pointers, Minimum Window Sliding, Fast & Slow Pointers, Monotonic Stack, etc.).\n")
+    
+    # Quick nav
+    nav_links = []
+    for cat in PATTERN_CATEGORIES:
+        nav_links.append(f"[{cat['icon']} {cat['title'].split('(')[0].strip()}](#-{cat['id']})")
+    parts.append("> **Quick Navigation:** " + " • ".join(nav_links) + "\n")
+    
+    for cat in PATTERN_CATEGORIES:
+        parts.append(f"<a id=\"-{cat['id']}\"></a>")
+        parts.append(f"### {cat['icon']} {cat['title']}\n")
+        parts.append(f"- **Core Intuition:** {cat['concept']}")
+        parts.append(f"- **When to Apply:** {cat['when_to_use']}\n")
+        parts.append("| # | Problem Name | Difficulty | Solution | Approach & Key Takeaway |")
+        parts.append("|:---:|:---|:---:|:---|:---|")
+        
+        for q_dir, takeaway in cat["questions"]:
+            q_info = q_map.get(q_dir)
+            if not q_info:
+                continue
+            diff = q_info["difficulty"]
+            if diff == "Easy":
+                diff_badge = "🟢 `Easy`"
+            elif diff == "Medium":
+                diff_badge = "🟡 `Medium`"
+            else:
+                diff_badge = "🔴 `Hard`"
+            parts.append(f"| {q_info['num']} | [{q_info['title']}]({q_info['lc_url']}) | {diff_badge} | {q_info['solution_link']} | {takeaway} |")
+        parts.append("")
+        
+    return "\n".join(parts)
+
 def fetch_leetcode_tags(title_slug):
     """Fetch official topic tags from LeetCode GraphQL API."""
     query = """
@@ -646,6 +1043,11 @@ def rebuild_metadata():
             topic_breakdown_parts.append(f"| {q['num']} | [{q['title']}]({q['lc_url']}) | {diff_badge} | [Problem Notes]({q['rel_dir']}/) | {q['solution_link']} |")
         topic_breakdown_parts.append("")
 
+
+    q_map = {q["q_dir"]: q for q in questions}
+    curation_section_content = build_curation_section()
+    approaches_section_content = build_approaches_section(q_map)
+
     topic_breakdown_content = "\n".join(topic_breakdown_parts)
 
     # Generate tree diagram dynamically
@@ -693,6 +1095,12 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 | 🎯 **Total Solved** | **{total_count}** | **100%** |
 
 </div>
+
+---
+
+{curation_section_content}
+
+{approaches_section_content}
 
 ---
 

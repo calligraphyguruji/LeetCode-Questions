@@ -43,3 +43,11 @@ This is better than the route of [1,2,2,2,5], where the maximum absolute differe
 	<li><code>1 &lt;= rows, columns &lt;= 100</code></li>
 	<li><code>1 &lt;= heights[i][j] &lt;= 10<sup>6</sup></code></li>
 </ul>
+<!---LeetCode Approaches Start-->
+<hr>
+<h3>💡 Solutions & Approaches</h3>
+
+- [Approach 1 (C++)](1631-path-with-minimum-effort.cpp)
+- [Approach 2 (C++)](1631-path-with-minimum-effort-approach-2.cpp)
+
+<!---LeetCode Approaches End-->

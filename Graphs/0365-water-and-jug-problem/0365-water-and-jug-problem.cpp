@@ -2,9 +2,20 @@ class Solution {
 public:
     //Approach : BFS + 6 water jug cases
 
-    //Time Complexity = O(x * y)
-    //Space Complexity = O(x * y)
-    
+    //Time Complexity = O(x * y) =>
+    /* Maximum possible states = (x + 1) × (y + 1).
+    * Each state represents the amount of water (a, b) in the two jugs.
+    * BFS visits each state at most once using visited.
+    * For every state, we generate only 6 possible transitions → constant work.
+    * Therefore, TC = O(x × y).
+    */
+
+    //Space Complexity = O(x * y) => 
+    /* visited stores information for all possible (a, b) states → O(x × y).
+    * BFS queue can also contain up to O(x × y) states.
+    * Therefore, SC = O(x × y).
+    */
+
     bool canMeasureWater(int x, int y, int target) {
         //1.)base-case or edge-case
         if(x + y < target){

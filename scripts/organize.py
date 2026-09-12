@@ -572,10 +572,10 @@ def extract_approach_title(code_content):
     return None
 
 def extract_approach_num(code_content):
-    """Extract explicit approach number (e.g. Approach-1, Approach 2) if specified in code comments."""
+    """Extract explicit approach number (e.g. Approach-1, Approach 2, Method-2) if specified in code comments."""
     if not code_content:
         return None
-    m = re.search(r"(?i)(?://|#|/\*)\s*(?:approach|solution|method|strategy)[\s\-_]*(\d+)", code_content)
+    m = re.search(r"(?i)(?://|#|/\*)\s*(?:approach|solution|method|strategy)[\s\-_:]*(\d+)", code_content)
     if m:
         return int(m.group(1))
     return None
@@ -783,8 +783,12 @@ def clean_nested_directories():
                                 except Exception:
                                     pass
                             if not is_dup:
-                                new_name = get_next_approach_filename(q_path, f, src_content)
-                                shutil.copy2(src_f, os.path.join(q_path, new_name))
+                                app_num = extract_approach_num(src_content)
+                                if app_num is not None and app_num >= 2:
+                                    new_name = get_next_approach_filename(q_path, f, src_content)
+                                    shutil.copy2(src_f, os.path.join(q_path, new_name))
+                                else:
+                                    shutil.copy2(src_f, dst_f)
                         elif not os.path.exists(dst_f) or os.path.getsize(src_f) > 0:
                             shutil.copy2(src_f, dst_f)
                 shutil.rmtree(nested_q)
@@ -832,14 +836,23 @@ def move_or_merge_question(src, dst):
                         shutil.copy2(src_item, dst_item)
                         print(f"[Multi-Approach] Copied initial solution '{item}' -> '{dst_item}'")
                     else:
-                        new_name = get_next_approach_filename(dst, item, src_content)
-                        new_dst_path = os.path.join(dst, new_name)
-                        shutil.copy2(src_item, new_dst_path)
-                        print(f"[Multi-Approach] Saved new approach: '{item}' -> '{new_name}' in '{dst}'")
-                        try:
-                            subprocess.run(["git", "add", new_dst_path], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-                        except Exception:
-                            pass
+                        app_num = extract_approach_num(src_content)
+                        if app_num is not None and app_num >= 2:
+                            new_name = get_next_approach_filename(dst, item, src_content)
+                            new_dst_path = os.path.join(dst, new_name)
+                            shutil.copy2(src_item, new_dst_path)
+                            print(f"[Multi-Approach] Detected Approach-{app_num}/Method-{app_num} in comments. Saved new approach: '{item}' -> '{new_name}' in '{dst}'")
+                            try:
+                                subprocess.run(["git", "add", new_dst_path], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                            except Exception:
+                                pass
+                        else:
+                            shutil.copy2(src_item, dst_item)
+                            print(f"[Multi-Approach] Updating primary solution '{dst_item}' (no approach-2/method-2 heading comment detected).")
+                            try:
+                                subprocess.run(["git", "add", dst_item], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                            except Exception:
+                                pass
                 else:
                     shutil.copy2(src_item, dst_item)
             elif os.path.isdir(src_item) and not re.match(r"^\d+-", item):

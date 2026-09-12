@@ -48,3 +48,11 @@
 	<li>The number of nodes in the tree is in the range <code>[0, 100]</code>.</li>
 	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
+<!---LeetCode Approaches Start-->
+<hr>
+<h3>💡 Solutions & Approaches</h3>
+
+- [Approach 1 (C++)](0199-binary-tree-right-side-view.cpp)
+- [Approach 2 (C++)](0199-binary-tree-right-side-view-approach-2-bfs.cpp) — *BFS(Level Order Traversal)*
+
+<!---LeetCode Approaches End-->

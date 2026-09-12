@@ -545,7 +545,7 @@ This repository is created **purely for learning and educational purposes**. The
 
 ---
 
-⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
+⭐ If you find this repository helpful for your own DSA practice, feel free to star it! 
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics

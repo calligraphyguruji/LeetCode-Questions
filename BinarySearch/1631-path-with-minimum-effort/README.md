@@ -47,7 +47,7 @@ This is better than the route of [1,2,2,2,5], where the maximum absolute differe
 <hr>
 <h3>💡 Solutions & Approaches</h3>
 
-- [Approach 1 (C++)](1631-path-with-minimum-effort.cpp)
+- [Approach 1 (C++)](1631-path-with-minimum-effort.cpp) — *Dijkstra's Algorithm*
 - [Approach 2 (C++)](1631-path-with-minimum-effort-approach-2.cpp)
 - [Approach 3 (C++)](1631-path-with-minimum-effort-approach-3-dijkstras-algorithm.cpp) — *Dijkstra's Algorithm*
 

@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach-1 : Dijkstra's Algorithm
+    
+    //Time Complexity = O(m * n * logmn) =>
+    /* There are m * n cells in the grid.
+    * Each cell can be pushed into the min-heap multiple times in the worst case.
+    * Each heap operation (push/pop) takes O(log(m * n)).
+    */
+
+    //Space Complexity = O(m * n) =>
+    /* result[][] stores the minimum effort for every cell → O(m * n)
+    * Priority queue can contain up to O(m * n) cells.
+    * directions[] takes constant space.
+    */
+
 
     typedef pair<int, pair<int,int>> P;
     vector<vector<int>> directions{ {-1, 0}, {1, 0}, {0, -1}, {0, 1} };//up, down, left, right
@@ -28,6 +42,11 @@ public:
 
             int r = cell.first;
             int c = cell.second;
+
+            //optimization
+            if(r == m-1 && c == n-1){
+                return diff;
+            }
 
             //traverse in all 4 directions of curr cell
             for(auto dir : directions){

@@ -11,6 +11,22 @@
  */
 class Solution {
 public:
+    //Approach : BFS + Queue
+
+    //Time Complexity = O(n) => for n nodes
+    /* Every node is pushed into the queue once.
+    * Every node is popped from the queue once.
+    * Each node does constant work:
+    * check NULL
+    * push left child
+    * push right child
+    */
+
+    //Space Complexity = O(n) =>
+    /* Because of the queue:
+    * In the worst case, the queue can contain n nodes.
+    */
+
     bool isCompleteTree(TreeNode* root) {
         
         queue<TreeNode*> q;

@@ -11,6 +11,23 @@
  */
 class Solution {
 public:
+    //Approach : DFS + Hash Set
+
+    //Time Complexity = O(N + D) => N = number of tree nodes, D = number of nodes in to_delete
+    /* Hash Set creation → O(D)
+    * DFS visits every node once → O(N)
+    * set.find() → O(1) average
+    * Overall → O(N + D) = O(N)
+    */
+
+    //Space Complexity = O(N + D) => 
+    /* Hash Set → O(D)
+    * Recursion stack → O(H), worst case O(N)
+    * Answer vector → O(N)
+    * Overall → O(N)
+    */
+
+
     TreeNode* helperDFS(TreeNode* root, unordered_set<int>& set, vector<TreeNode*>& ans){
 
         if(root == NULL){

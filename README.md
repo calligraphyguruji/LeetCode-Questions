@@ -998,6 +998,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0662-maximum-width-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0662-maximum-width-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0703-kth-largest-element-in-a-stream) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0783-minimum-distance-between-bst-nodes) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1161-maximum-level-sum-of-a-binary-tree) |
@@ -1066,6 +1067,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0662-maximum-width-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0662-maximum-width-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0703-kth-largest-element-in-a-stream) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0783-minimum-distance-between-bst-nodes) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1161-maximum-level-sum-of-a-binary-tree) |
@@ -1341,6 +1343,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0841-keys-and-rooms) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0994-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/1091-shortest-path-in-binary-matrix) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1161-maximum-level-sum-of-a-binary-tree) |

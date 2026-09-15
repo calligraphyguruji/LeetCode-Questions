@@ -11,6 +11,19 @@
  */
 class Solution {
 public:
+    //Approach : DFS Inorder 
+
+    //Time Complexity = O(N) =>
+    /* O(N) — Each node is visited once.
+    */
+
+    //Space Complexity = O(H) =>
+    /* O(H) — Recursion stack, where H is the height of the tree.
+    * Worst case: O(N) for a skewed tree.
+    * Best case: O(log N) for a balanced tree.
+    */
+
+    
     bool checkPathDFS(TreeNode* root, int sum, int targetSum){
         
         //base-case or edge-case

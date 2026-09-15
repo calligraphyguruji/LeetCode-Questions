@@ -11,6 +11,22 @@
  */
 class Solution {
 public:
+    //Approach : PostOrder DFS (left -> right -> root)
+
+    //Time Complexity = O(N) =>
+    /* Each node is visited once.
+    * For every node, we perform constant-time work.
+    * Therefore, total time = O(N).
+    */
+
+    //Space Complexity = O(H) =>
+    /* Due to the recursion stack.
+    * H = height of the tree.
+    * Worst case (skewed tree): O(N).
+    * Best case (balanced tree): O(log N).
+    */
+
+    
     TreeNode* pruneTree(TreeNode* root) {
         //base-case or edge-case
         //if empty tree

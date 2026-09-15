@@ -11,6 +11,17 @@
  */
 class Solution {
 public:
+    //Approach : DFS + Backtracking
+
+    //Time Complexity = O(N) =>
+    /* O(N) — Each node is visited once.
+    * Plus path-copying cost for every valid path. 
+    */
+
+    //Space Complexity = O(H) =>
+    /* Recursion stack + current temp path.
+    * Output: O(K × H) for K valid paths.
+    */
     void pathDFS(TreeNode* root, int sum, int targetSum, vector<int>& temp, vector<vector<int>>& ans){
 
         //base-case or edge-case

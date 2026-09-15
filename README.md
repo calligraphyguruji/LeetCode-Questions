@@ -24,10 +24,10 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 39 | 22.8% |
-| 🟡 **Medium** | 114 | 66.7% |
+| 🟢 **Easy** | 40 | 23.3% |
+| 🟡 **Medium** | 114 | 66.3% |
 | 🔴 **Hard** | 18 | 10.5% |
-| 🎯 **Total Solved** | **171** | **100%** |
+| 🎯 **Total Solved** | **172** | **100%** |
 
 </div>
 
@@ -196,6 +196,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) | 🟡 `Medium` | [C++](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/0106-construct-binary-tree-from-inorder-and-postorder-traversal.cpp) | Postorder identifies root; inorder split gives subtree boundaries recursively |
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 `Easy` | [C++](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/0108-convert-sorted-array-to-binary-search-tree.cpp) | Midpoint divide-and-conquer to build height-balanced BST |
 | 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | 🟢 `Easy` | [C++](Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp) | Bottom-up height calculation with early $-1$ exit on subtree height differential $> 1$ |
+| 0112 | [Path Sum](https://leetcode.com/problems/path-sum) | 🟢 `Easy` | [C++](Trees/0112-path-sum/0112-path-sum.cpp) | Canonical Trees & Binary Search Trees problem |
 | 0114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 🟡 `Medium` | [C++](Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp) | Rewiring right pointers to preorder sequence with Morris-like constant space traversal |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 🟡 `Medium` | [C++](Trees/0116-populating-next-right-pointers-in-each-node/0116-populating-next-right-pointers-in-each-node.cpp) | Using established upper-level next pointers for $O(1)$ auxiliary space linkage |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 `Hard` | [C++](Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp) | Postorder tree DP computing maximum non-negative branch gain and updating global sum |
@@ -434,7 +435,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
-│   └── ... (29 problems)
+│   └── ... (30 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -553,6 +554,7 @@ public:
 | 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | [C++](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/0106-construct-binary-tree-from-inorder-and-postorder-traversal.cpp) |
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/) | [C++](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/0108-convert-sorted-array-to-binary-search-tree.cpp) |
 | 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0110-balanced-binary-tree/) | [C++](Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp) |
+| 0112 | [Path Sum](https://leetcode.com/problems/path-sum) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0112-path-sum/) | [C++](Trees/0112-path-sum/0112-path-sum.cpp) |
 | 0114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0114-flatten-binary-tree-to-linked-list/) | [C++](Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp) |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0116-populating-next-right-pointers-in-each-node/) | [C++](Trees/0116-populating-next-right-pointers-in-each-node/0116-populating-next-right-pointers-in-each-node.cpp) |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 🟢 `Easy` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0121-best-time-to-buy-and-sell-stock/) | [C++](DynamicProgramming/0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.cpp) |
@@ -725,7 +727,7 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (29)
+### 🌳 [Trees & Binary Search Trees](Trees/) (30)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -739,6 +741,7 @@ public:
 | 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 🟡 `Medium` | [Problem Notes](Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp) |
 | 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) | 🟡 `Medium` | [Problem Notes](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | [C++](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/0106-construct-binary-tree-from-inorder-and-postorder-traversal.cpp) |
 | 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | 🟢 `Easy` | [Problem Notes](Trees/0110-balanced-binary-tree/) | [C++](Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp) |
+| 0112 | [Path Sum](https://leetcode.com/problems/path-sum) | 🟢 `Easy` | [Problem Notes](Trees/0112-path-sum/) | [C++](Trees/0112-path-sum/0112-path-sum.cpp) |
 | 0114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 🟡 `Medium` | [Problem Notes](Trees/0114-flatten-binary-tree-to-linked-list/) | [C++](Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp) |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 🟡 `Medium` | [Problem Notes](Trees/0116-populating-next-right-pointers-in-each-node/) | [C++](Trees/0116-populating-next-right-pointers-in-each-node/0116-populating-next-right-pointers-in-each-node.cpp) |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 `Hard` | [Problem Notes](Trees/0124-binary-tree-maximum-path-sum/) | [C++](Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp) |
@@ -992,7 +995,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0110-balanced-binary-tree) |
-| [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0112-path-sum) |
+| [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0112-path-sum) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |
@@ -1064,7 +1067,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0110-balanced-binary-tree) |
-| [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0112-path-sum) |
+| [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0112-path-sum) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |
@@ -1338,7 +1341,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0101-symmetric-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0103-binary-tree-zigzag-level-order-traversal) |
-| [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0112-path-sum) |
+| [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0133-clone-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0199-binary-tree-right-side-view) |
@@ -1419,7 +1422,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0100-same-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0110-balanced-binary-tree) |
-| [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0112-path-sum) |
+| [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0112-path-sum) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |

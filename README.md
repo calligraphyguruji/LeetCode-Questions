@@ -24,10 +24,10 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 40 | 23.3% |
-| 🟡 **Medium** | 114 | 66.3% |
-| 🔴 **Hard** | 18 | 10.5% |
-| 🎯 **Total Solved** | **172** | **100%** |
+| 🟢 **Easy** | 40 | 23.1% |
+| 🟡 **Medium** | 115 | 66.5% |
+| 🔴 **Hard** | 18 | 10.4% |
+| 🎯 **Total Solved** | **173** | **100%** |
 
 </div>
 
@@ -170,6 +170,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 `Medium` | [C++](Backtracking/0078-subsets/0078-subsets.cpp) | Power set generation via cascading pick / don't pick binary decision tree |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search) | 🟡 `Medium` | [C++](Backtracking/0079-word-search/0079-word-search.cpp) | 2D grid DFS matching characters with in-place cell masking and unmasking |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii) | 🟡 `Medium` | [C++](Backtracking/0090-subsets-ii/0090-subsets-ii.cpp) | Generating unique subsets from arrays with duplicates by sorting and skipping identical elements |
+| 0113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | 🟡 `Medium` | [C++](Backtracking/0113-path-sum-ii/0113-path-sum-ii.cpp) | Canonical Backtracking problem |
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | 🟡 `Medium` | [C++](Backtracking/0131-palindrome-partitioning/0131-palindrome-partitioning.cpp) | Backtracking substring partitions with palindrome validation memoization |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) | Branching $+/-$ decision tree transformed to 0-1 knapsack subset sum |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) | Bitmask tracking of unique characters across recursive subset combinations |
@@ -431,7 +432,7 @@ LeetCode-Questions/
 ├── Backtracking/
 │   ├── 0037-sudoku-solver/
 │   ├── 0039-combination-sum/
-│   └── ... (11 problems)
+│   └── ... (12 problems)
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
@@ -555,6 +556,7 @@ public:
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/) | [C++](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/0108-convert-sorted-array-to-binary-search-tree.cpp) |
 | 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0110-balanced-binary-tree/) | [C++](Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp) |
 | 0112 | [Path Sum](https://leetcode.com/problems/path-sum) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0112-path-sum/) | [C++](Trees/0112-path-sum/0112-path-sum.cpp) |
+| 0113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0113-path-sum-ii/) | [C++](Backtracking/0113-path-sum-ii/0113-path-sum-ii.cpp) |
 | 0114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0114-flatten-binary-tree-to-linked-list/) | [C++](Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp) |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0116-populating-next-right-pointers-in-each-node/) | [C++](Trees/0116-populating-next-right-pointers-in-each-node/0116-populating-next-right-pointers-in-each-node.cpp) |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 🟢 `Easy` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0121-best-time-to-buy-and-sell-stock/) | [C++](DynamicProgramming/0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.cpp) |
@@ -711,7 +713,7 @@ public:
 | 1932 | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst) | 🔴 `Hard` | [Problem Notes](BinarySearch/1932-merge-bsts-to-create-single-bst/) | [C++](BinarySearch/1932-merge-bsts-to-create-single-bst/1932-merge-bsts-to-create-single-bst.cpp) |
 | 2064 | [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store) | 🟡 `Medium` | [Problem Notes](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/) | [C++](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/2064-minimized-maximum-of-products-distributed-to-any-store.cpp) |
 
-### 🔄 [Backtracking](Backtracking/) (11)
+### 🔄 [Backtracking](Backtracking/) (12)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -723,6 +725,7 @@ public:
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 `Medium` | [Problem Notes](Backtracking/0078-subsets/) | [C++](Backtracking/0078-subsets/0078-subsets.cpp) |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search) | 🟡 `Medium` | [Problem Notes](Backtracking/0079-word-search/) | [C++](Backtracking/0079-word-search/0079-word-search.cpp) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii) | 🟡 `Medium` | [Problem Notes](Backtracking/0090-subsets-ii/) | [C++](Backtracking/0090-subsets-ii/0090-subsets-ii.cpp) |
+| 0113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | 🟡 `Medium` | [Problem Notes](Backtracking/0113-path-sum-ii/) | [C++](Backtracking/0113-path-sum-ii/0113-path-sum-ii.cpp) |
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | 🟡 `Medium` | [Problem Notes](Backtracking/0131-palindrome-partitioning/) | [C++](Backtracking/0131-palindrome-partitioning/0131-palindrome-partitioning.cpp) |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
@@ -996,7 +999,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0112-path-sum) |
-| [0113-path-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0113-path-sum-ii) |
+| [0113-path-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |
@@ -1069,7 +1072,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0112-path-sum) |
-| [0113-path-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0113-path-sum-ii) |
+| [0113-path-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |
@@ -1273,7 +1276,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0078-subsets](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0078-subsets) |
 | [0079-word-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0079-word-search) |
 | [0090-subsets-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0090-subsets-ii) |
-| [0113-path-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0113-path-sum-ii) |
+| [0113-path-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0797-all-paths-from-source-to-target) |
@@ -1426,7 +1429,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0101-symmetric-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0112-path-sum) |
-| [0113-path-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0113-path-sum-ii) |
+| [0113-path-sum-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Backtracking/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |

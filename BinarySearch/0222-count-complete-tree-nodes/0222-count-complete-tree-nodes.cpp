@@ -11,6 +11,25 @@
  */
 class Solution {
 public:
+    //Approach : Binary Tree Height + Divide and Conquer
+
+    //Time Complexity = O(logn * logn) =>
+    /* 1. leftHeight() → follows only the left path
+    → O(log n)
+    2. rightHeight() → follows only the right path
+    → O(log n)
+    * countNodes() recursively goes down at most O(log n) levels because the tree is complete.
+    */
+
+
+    //Space Complexity = O(logn) =>
+    /* leftHeight() and rightHeight() use only while → O(1) extra space.
+    * countNodes() uses recursion.
+    * Complete binary tree height = O(log n).
+    * Therefore recursion stack = O(log n).
+    */
+
+
     int leftHeight(TreeNode* root){
 
         int h = 0;
@@ -41,10 +60,10 @@ public:
         }
         
         int lh = leftHeight(root->left);
-        int rh= rightHeight(root->right);
+        int rh = rightHeight(root->right);
 
-        if(lh == rh){
-            return (1 << (lh + 1)) - 1; // 1 << n = 2^n in Bit Manipulation //left shift
+        if(lh == rh){ //nodes = 2^(h+1) - 1
+            return (1 << (lh + 1)) - 1; // 1 << n = 2^n in Bit Manipulation //left shift 
         }
         else{
             return 1 + countNodes(root->left) + countNodes(root->right);

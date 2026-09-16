@@ -11,6 +11,24 @@
  */
 class Solution {
 public:
+    //Approach : DFS (Preorder)
+
+    //Time Complexity = O(n + m) =>
+    /* n = number of nodes in root1
+    * m = number of nodes in root2
+    * dfs(root1) visits every node → O(n)
+    * dfs(root2) visits every node → O(m)
+    * Comparing leaf1 == leaf2 takes O(L), where L is the number of leaves.
+    * Since L ≤ n,m, total remains: O(n + m)
+    */
+
+    //Space Complexity = O(n) =>
+    /* leaf1 stores up to n leaf values → O(n)
+    * leaf2 stores up to m leaf values → O(m)
+    * DFS recursion stack:
+        * Worst case skewed tree → O(n + m) 
+    */
+
     void dfs(TreeNode* root, vector<int>& leaf){
         //base-case
         if(root == NULL){
@@ -23,7 +41,7 @@ public:
             return;
         }
 
-        //recursively traverse the left subTree
+        //recursively traverse the left, right subTree
         dfs(root->left, leaf);
         dfs(root->right, leaf);
 

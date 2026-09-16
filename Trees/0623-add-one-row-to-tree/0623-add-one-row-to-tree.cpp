@@ -11,6 +11,16 @@
  */
 class Solution {
 public:
+    //Approach : BFS(Level Order Traversal)
+
+    //Time Complexity = O(N) => 
+    /* BFS may visit every node once.
+    */
+
+    //Space Complexity = O(N) =>
+    /* Queue can store up to N nodes in the worst case.
+    */
+
     TreeNode* addOneRow(TreeNode* root, int val, int depth) {
        
         //Special case
@@ -21,7 +31,7 @@ public:
             return newRoot;
         }
         
-        queue<TreeNode*> q; 
+        queue<TreeNode*> q; //queue for BFS
 
         q.push(root);
 

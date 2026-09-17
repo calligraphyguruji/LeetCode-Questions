@@ -1044,6 +1044,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0872-leaf-similar-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0872-leaf-similar-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0958-check-completeness-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1038-binary-search-tree-to-greater-sum-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1110-delete-nodes-and-return-forest) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1161-maximum-level-sum-of-a-binary-tree) |
@@ -1121,6 +1122,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0872-leaf-similar-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0872-leaf-similar-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0958-check-completeness-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1038-binary-search-tree-to-greater-sum-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1110-delete-nodes-and-return-forest) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1161-maximum-level-sum-of-a-binary-tree) |
@@ -1493,6 +1495,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0872-leaf-similar-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0872-leaf-similar-trees) |
 | [0886-possible-bipartition](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0886-possible-bipartition) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0947-most-stones-removed-with-same-row-or-column) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/1038-binary-search-tree-to-greater-sum-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1110-delete-nodes-and-return-forest) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1161-maximum-level-sum-of-a-binary-tree) |

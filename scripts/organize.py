@@ -130,6 +130,7 @@ PATTERN_CATEGORIES = [
         "questions": [
             ("0033-search-in-rotated-sorted-array", "Identifying which half is sorted to discard the other half in $O(\\log n)$"),
             ("0074-search-a-2d-matrix", "Standard binary search treating row-major 2D matrix as virtual flattened 1D array"),
+            ("0222-count-complete-tree-nodes", "Binary Tree Height + Divide and Conquer: compare left and right subtree heights to prune half the tree in $O(\\log^2 n)$"),
             ("0240-search-a-2d-matrix-ii", "Pruning search space starting from top-right corner using matrix row/col monotonicity"),
             ("0378-kth-smallest-element-in-a-sorted-matrix", "Binary search on value range with $O(n)$ row/col monotonic count subroutine"),
             ("0410-split-array-largest-sum", "Binary search on answer domain $[\\max(nums), \\sum(nums)]$ with greedy chunk validator"),
@@ -156,6 +157,7 @@ PATTERN_CATEGORIES = [
             ("0078-subsets", "Power set generation via cascading pick / don't pick binary decision tree"),
             ("0079-word-search", "2D grid DFS matching characters with in-place cell masking and unmasking"),
             ("0090-subsets-ii", "Generating unique subsets from arrays with duplicates by sorting and skipping identical elements"),
+            ("0113-path-sum-ii", "Backtracking DFS tracking current root-to-leaf path and collecting valid paths matching target sum"),
             ("0131-palindrome-partitioning", "Backtracking substring partitions with palindrome validation memoization"),
             ("0494-target-sum", "Branching $+/-$ decision tree transformed to 0-1 knapsack subset sum"),
             ("1239-maximum-length-of-a-concatenated-string-with-unique-characters", "Bitmask tracking of unique characters across recursive subset combinations"),
@@ -183,6 +185,7 @@ PATTERN_CATEGORIES = [
             ("0106-construct-binary-tree-from-inorder-and-postorder-traversal", "Postorder identifies root; inorder split gives subtree boundaries recursively"),
             ("0108-convert-sorted-array-to-binary-search-tree", "Midpoint divide-and-conquer to build height-balanced BST"),
             ("0110-balanced-binary-tree", "Bottom-up height calculation with early $-1$ exit on subtree height differential $> 1$"),
+            ("0112-path-sum", "DFS recursion subtracting node values along root-to-leaf paths until target sum is 0 at a leaf"),
             ("0114-flatten-binary-tree-to-linked-list", "Rewiring right pointers to preorder sequence with Morris-like constant space traversal"),
             ("0116-populating-next-right-pointers-in-each-node", "Using established upper-level next pointers for $O(1)$ auxiliary space linkage"),
             ("0124-binary-tree-maximum-path-sum", "Postorder tree DP computing maximum non-negative branch gain and updating global sum"),
@@ -196,10 +199,15 @@ PATTERN_CATEGORIES = [
             ("0450-delete-node-in-a-bst", "BST search and successor splicing upon removing two-child nodes"),
             ("0543-diameter-of-binary-tree", "Postorder depth calculation updating maximum left+right path"),
             ("0572-subtree-of-another-tree", "Recursive root matching with exact tree equivalence subroutine"),
+            ("0623-add-one-row-to-tree", "Level-order BFS traversing to depth - 1 to splice new row nodes between parent and children"),
             ("0662-maximum-width-of-binary-tree", "Zero-indexed heap-like coordinate tagging per level to prevent overflow"),
             ("0783-minimum-distance-between-bst-nodes", "Inorder traversal tracking running minimum difference between neighbors"),
+            ("0814-binary-tree-pruning", "Bottom-up postorder DFS recursively removing subtrees that do not contain a 1"),
+            ("0872-leaf-similar-trees", "DFS leaf-node collection comparing leaf value sequences of both binary trees"),
+            ("0958-check-completeness-of-a-binary-tree", "Level-order BFS verifying no non-null node appears after the first null node is encountered"),
             ("1008-construct-binary-search-tree-from-preorder-traversal", "Monotonic upper-bound recursive BST reconstruction in $O(n)$"),
             ("1038-binary-search-tree-to-greater-sum-tree", "Reverse inorder traversal (right-root-left) accumulating suffix sum"),
+            ("1110-delete-nodes-and-return-forest", "Postorder DFS disconnecting deleted nodes with hash set lookup and adding non-null children as new tree roots"),
             ("1161-maximum-level-sum-of-a-binary-tree", "BFS level summation tracking index with maximum aggregate sum"),
             ("1443-minimum-time-to-collect-all-apples-in-a-tree", "Bottom-up DFS summing round-trip edge costs for apple-bearing subtrees"),
             ("1519-number-of-nodes-in-the-sub-tree-with-the-same-label", "Postorder 26-length frequency array merging from child subtrees"),
@@ -215,6 +223,7 @@ PATTERN_CATEGORIES = [
         "concept": "Layer-by-layer exploration guaranteeing shortest paths in unweighted graphs or simulating simultaneous multi-source wave propagation.",
         "when_to_use": "Shortest path in unweighted graphs/grids, minimum step conversions, and simultaneous multi-point spread (fire, rot, infection).",
         "questions": [
+            ("0365-water-and-jug-problem", "State-space BFS exploring 6 fill, empty, and pour transitions between two jugs"),
             ("0433-minimum-genetic-mutation", "State graph BFS transforming gene strings one mutation at a time"),
             ("0542-01-matrix", "Multi-source BFS initialized with all zero cells computing distance outward"),
             ("0733-flood-fill", "Grid flood fill updating connected pixels of identical original color"),
@@ -420,6 +429,254 @@ Every problem in this repository has been hand-selected from battle-tested techn
 
 ---"""
 
+def extract_time_complexity(code_content):
+    """Extract explicit time complexity from code comments."""
+    if not code_content:
+        return None
+    patterns = [
+        r"(?i)(?://|#)\s*Time\s*Complexity\s*[:=\-–—]\s*([^\r\n=>]+)",
+        r"(?i)/\*\s*Time\s*Complexity\s*[:=\-–—]\s*([^\r\n=>\*]+)",
+    ]
+    for pat in patterns:
+        m = re.search(pat, code_content)
+        if m:
+            raw = m.group(1).strip()
+            raw = re.sub(r"[\r\n]", "", raw).strip()
+            raw = re.sub(r"\*/", "", raw).strip()
+            raw = raw.strip("-:;=> ")
+            m_o = re.search(r"(?i)O\s*\([^)]+\)", raw)
+            if m_o:
+                return m_o.group(0)
+            return raw
+    return None
+
+def extract_explanation(code_content):
+    """Extract explanation / intuition comment from code."""
+    if not code_content:
+        return None
+    patterns = [
+        r"(?i)(?://|#)\s*(?:explanation|intuition|takeaway|logic)\s*[:\-–—]\s*([^\r\n]+)",
+        r"(?i)/\*\s*(?:explanation|intuition|takeaway|logic)\s*[:\-–—]\s*(.+?)\*/",
+    ]
+    for pat in patterns:
+        m = re.search(pat, code_content)
+        if m:
+            raw = m.group(1).strip()
+            raw = re.sub(r"[\*\r\n]", "", raw).strip()
+            raw = raw.strip("-:; ")
+            if raw:
+                return raw
+    return None
+
+def clean_approach_title(raw):
+    """Clean and normalize raw approach titles extracted from comments."""
+    if not raw:
+        return ""
+    cleaned = re.sub(r"[\s\-:;=>]+$", "", raw).strip()
+    cleaned = re.sub(r"([A-Za-z0-9])\(", r"\1 (", cleaned)
+    cleaned = re.sub(r"\(\s+", "(", cleaned)
+    cleaned = re.sub(r"\s+\)", ")", cleaned)
+    cleaned = re.sub(r"(?i)\bmin-heap\b", "Min-Heap", cleaned)
+    cleaned = re.sub(r"(?i)\bmax-heap\b", "Max-Heap", cleaned)
+    return cleaned
+
+def clean_complexity_str(raw):
+    """Format complexity string to clean LaTeX math notation."""
+    if not raw:
+        return ""
+    cleaned = raw.strip()
+    cleaned = re.sub(r"(?i)O\s*\(\s*logn\s*\*\s*logn\s*\)", r"O(\\log^2 n)", cleaned)
+    cleaned = re.sub(r"(?i)O\s*\(\s*n\s*\*\s*logn\s*\)", r"O(n \\log n)", cleaned)
+    cleaned = re.sub(r"(?i)O\s*\(\s*nlogn\s*\)", r"O(n \\log n)", cleaned)
+    cleaned = re.sub(r"(?i)O\s*\(\s*logn\s*\)", r"O(\\log n)", cleaned)
+    cleaned = re.sub(r"(?i)O\s*\(\s*N\s*\)", r"O(n)", cleaned)
+    cleaned = re.sub(r"(?i)O\s*\(\s*H\s*\)", r"O(h)", cleaned)
+    cleaned = re.sub(r"(?i)O\s*\(\s*N\s*\+\s*D\s*\)", r"O(n + d)", cleaned)
+    cleaned = re.sub(r"(?i)O\s*\(\s*n\s*\+\s*m\s*\)", r"O(n + m)", cleaned)
+    cleaned = re.sub(r"(?i)O\s*\(\s*x\s*\*\s*y\s*\)", r"O(x \\times y)", cleaned)
+    if cleaned.startswith("O(") and not cleaned.startswith("$"):
+        return f"${cleaned}$"
+    return cleaned
+
+def format_dynamic_takeaway(q_dir, q_info):
+    """Dynamically build an accurate, descriptive approach & takeaway for any question."""
+    full_q_path = os.path.join(BASE_DIR, q_info.get("rel_dir", ""))
+    if not os.path.exists(full_q_path):
+        for folder, _, _, _ in TOPIC_CONFIG:
+            cand = os.path.join(BASE_DIR, folder, q_dir)
+            if os.path.isdir(cand):
+                full_q_path = cand
+                break
+
+    approach_title = None
+    time_comp = None
+    explanation = None
+
+    if os.path.exists(full_q_path):
+        sol_files = get_solution_files(full_q_path)
+        for sf in sol_files:
+            sf_path = os.path.join(full_q_path, sf)
+            try:
+                with open(sf_path, "r", encoding="utf-8", errors="ignore") as f:
+                    code_text = f.read()
+                if not approach_title:
+                    approach_title = extract_approach_title(code_text)
+                if not time_comp:
+                    time_comp = extract_time_complexity(code_text)
+                if not explanation:
+                    explanation = extract_explanation(code_text)
+            except Exception:
+                pass
+
+    if approach_title:
+        app_clean = clean_approach_title(approach_title)
+        comp_clean = clean_complexity_str(time_comp) if time_comp else ""
+        if explanation and comp_clean:
+            return f"{app_clean}: {explanation} in {comp_clean}"
+        elif explanation:
+            return f"{app_clean}: {explanation}"
+        elif comp_clean:
+            return f"{app_clean} in {comp_clean} time"
+        else:
+            return app_clean
+
+    # Fallback to code analysis heuristics (Never output "Canonical ... problem")
+    topic_display = q_info.get("topic_display", "Algorithmic")
+    topic_folder = q_info.get("topic_folder", "")
+    code_text = ""
+    if os.path.exists(full_q_path):
+        sol_files = get_solution_files(full_q_path)
+        if sol_files:
+            try:
+                with open(os.path.join(full_q_path, sol_files[0]), "r", encoding="utf-8", errors="ignore") as f:
+                    code_text = f.read()
+            except Exception:
+                pass
+
+    if "TreeNode" in code_text or topic_folder == "Trees":
+        if "queue" in code_text:
+            return "Level-order BFS queue traversal processing tree nodes by depth"
+        elif "postorder" in code_text.lower() or "leftHeight" in code_text:
+            return "Divide-and-conquer subtree height aggregation and DFS traversal"
+        return "Recursive DFS tree traversal with depth and invariant validation"
+    elif "ListNode" in code_text:
+        return "In-place linked list pointer manipulation with traversal pointers"
+    elif "priority_queue" in code_text:
+        return "Priority queue (min/max heap) maintaining optimal dynamic extremes"
+    elif "unordered_map" in code_text or "unordered_set" in code_text:
+        return "Hash map / set lookup achieving amortized $O(1)$ query and state tracking"
+    elif "stack" in code_text:
+        return "Monotonic / LIFO stack tracking boundary elements in linear time"
+    elif "vector<vector<" in code_text and "dp" in code_text:
+        return "Dynamic programming memoization / tabulation optimizing subproblem overlap"
+    elif "left" in code_text and "right" in code_text and "mid" in code_text:
+        return "Binary search divide-and-conquer on monotonic search space"
+    elif topic_folder == "Backtracking":
+        return "Backtracking state-space exploration with recursive decision branches and pruning"
+    elif topic_folder == "Graphs":
+        if "queue" in code_text:
+            return "Breadth-first search (BFS) queue exploring shortest paths / levels"
+        return "Depth-first search (DFS) traversing graph connectivity and components"
+    else:
+        return f"Optimal {topic_display} approach with clean asymptotic complexity"
+
+def classify_dynamic_question(q_dir, q_info, old_readme=""):
+    """Accurately classify a question into one of the PATTERN_CATEGORIES."""
+    topic_folder = q_info.get("topic_folder", "")
+    full_q_path = os.path.join(BASE_DIR, q_info.get("rel_dir", ""))
+    if not os.path.exists(full_q_path):
+        for folder, _, _, _ in TOPIC_CONFIG:
+            cand = os.path.join(BASE_DIR, folder, q_dir)
+            if os.path.isdir(cand):
+                full_q_path = cand
+                break
+
+    code_text = ""
+    if os.path.exists(full_q_path):
+        sol_files = get_solution_files(full_q_path)
+        if sol_files:
+            try:
+                with open(os.path.join(full_q_path, sol_files[0]), "r", encoding="utf-8", errors="ignore") as f:
+                    code_text = f.read()
+            except Exception:
+                pass
+
+    app_title = (extract_approach_title(code_text) or "").lower()
+
+    # 1. Approach comment heuristics
+    if any(kw in app_title for kw in ["two pointer", "2 pointer", "converging"]):
+        return "two-pointers"
+    if "sliding window" in app_title:
+        return "sliding-window"
+    if any(kw in app_title for kw in ["fast & slow", "slow & fast", "tortoise", "floyd"]):
+        return "fast-slow-pointers"
+    if any(kw in app_title for kw in ["prefix sum", "hash map", "frequency"]):
+        return "prefix-sum"
+    if any(kw in app_title for kw in ["monotonic stack", "monotonic queue", "next greater"]):
+        return "monotonic-stack-queue"
+    if "binary search" in app_title and "tree" not in app_title:
+        return "binary-search"
+    if "backtracking" in app_title:
+        return "backtracking"
+    if any(kw in app_title for kw in ["tree", "bst", "inorder", "preorder", "postorder", "leaf", "trie"]):
+        return "tree-traversals"
+    if any(kw in app_title for kw in ["union find", "union-find", "dsu", "disjoint set"]):
+        return "disjoint-set-union"
+    if any(kw in app_title for kw in ["dijkstra", "shortest path"]):
+        return "shortest-paths"
+    if "topological" in app_title:
+        return "topological-sort"
+    if "bfs" in app_title:
+        if topic_folder == "Trees" or "treenode" in code_text.lower():
+            return "tree-traversals"
+        return "graph-bfs"
+    if "dfs" in app_title:
+        if topic_folder == "Trees" or "treenode" in code_text.lower():
+            return "tree-traversals"
+        return "graph-dfs"
+    if any(kw in app_title for kw in ["dynamic programming", "memoization", "knapsack", "top-down", "bottom-up", "dp"]):
+        return "dynamic-programming"
+    if any(kw in app_title for kw in ["greedy", "interval"]):
+        return "greedy-intervals"
+    if any(kw in app_title for kw in ["heap", "priority queue"]):
+        return "heaps-priority-queues"
+    if "linked list" in app_title or "listnode" in code_text.lower():
+        return "linked-list-manipulation"
+    if "matrix" in app_title or "grid" in app_title:
+        return "matrix-manipulation"
+    if any(kw in app_title for kw in ["bit", "math", "power of"]):
+        return "bit-manipulation-math"
+
+    # 2. Topic folder heuristics
+    if topic_folder == "Trees" or "treenode" in code_text:
+        return "tree-traversals"
+    if topic_folder == "DynamicProgramming":
+        return "dynamic-programming"
+    if topic_folder == "Backtracking":
+        return "backtracking"
+    if topic_folder == "Heaps":
+        return "heaps-priority-queues"
+    if topic_folder == "Greedy":
+        return "greedy-intervals"
+    if topic_folder in ("BitManipulation", "Math"):
+        return "bit-manipulation-math"
+    if topic_folder == "BinarySearch":
+        return "binary-search"
+    if topic_folder == "Graphs":
+        if "queue" in code_text or "bfs" in code_text.lower():
+            return "graph-bfs"
+        return "graph-dfs"
+    if topic_folder == "Arrays":
+        if "sliding window" in code_text.lower():
+            return "sliding-window"
+        if "unordered_map" in code_text or "unordered_set" in code_text:
+            return "prefix-sum"
+        if "stack" in code_text:
+            return "monotonic-stack-queue"
+        return "two-pointers"
+
+    return "two-pointers"
+
 def build_approaches_section(q_map, old_readme=""):
     parts = []
     parts.append("## 🧩 Algorithmic Approaches & Patterns Directory\n")
@@ -439,33 +696,12 @@ def build_approaches_section(q_map, old_readme=""):
 
     # Dynamic classification for newly added questions
     dynamic_additions = {cat["id"]: [] for cat in PATTERN_CATEGORIES}
-    folder_to_cat = {
-        "binarysearch": "binary-search",
-        "backtracking": "backtracking",
-        "trees": "tree-traversals",
-        "graphs": "graph-dfs",
-        "dynamicprogramming": "dynamic-programming",
-        "heaps": "heaps-priority-queues",
-        "greedy": "greedy-intervals",
-        "bitmanipulation": "bit-manipulation-math",
-        "math": "bit-manipulation-math",
-        "arrays": "two-pointers"
-    }
 
     for q_dir, q_info in q_map.items():
         if q_dir not in curated_assigned:
-            target_cat_id = None
-            q_tags = get_tags_from_readme(q_dir, old_readme)
-            tags_str = " ".join(q_tags).lower()
-            for cat in PATTERN_CATEGORIES:
-                kws = cat.get("keywords", [])
-                if any(kw in tags_str for kw in kws):
-                    target_cat_id = cat["id"]
-                    break
-            if not target_cat_id:
-                target_cat_id = folder_to_cat.get(q_info.get("topic_folder", "").lower(), "two-pointers")
-            
-            dynamic_additions[target_cat_id].append((q_dir, f"Canonical {q_info.get('topic_display', 'DSA')} problem"))
+            target_cat_id = classify_dynamic_question(q_dir, q_info, old_readme)
+            takeaway = format_dynamic_takeaway(q_dir, q_info)
+            dynamic_additions[target_cat_id].append((q_dir, takeaway))
 
     for cat in PATTERN_CATEGORIES:
         parts.append(f"<a id=\"-{cat['id']}\"></a>")
@@ -723,15 +959,79 @@ def update_question_readme(q_dir_path, solutions):
 
 def classify_topic(title_slug, q_dir_name, old_readme=""):
     """Classify question into a target topic folder."""
+    # 1. Check code comments in the question directory at repository root or existing path
+    q_dir_path = os.path.join(BASE_DIR, q_dir_name)
+    code_text = ""
+    if os.path.isdir(q_dir_path):
+        sol_files = get_solution_files(q_dir_path)
+        if sol_files:
+            try:
+                with open(os.path.join(q_dir_path, sol_files[0]), "r", encoding="utf-8", errors="ignore") as scf:
+                    code_text = scf.read()
+            except Exception:
+                pass
+
+    if code_text:
+        # Check explicit //Topic comment
+        m_top = re.search(r"(?i)(?://|#)\s*topic\s*[:\-–—]\s*([^\r\n]+)", code_text)
+        if m_top:
+            top_raw = m_top.group(1).lower().strip()
+            topic_map = {
+                "binary search tree": "Trees",
+                "binary tree": "Trees",
+                "tree": "Trees",
+                "bst": "Trees",
+                "trie": "Trees",
+                "graph": "Graphs",
+                "bfs": "Graphs",
+                "dfs": "Graphs",
+                "backtracking": "Backtracking",
+                "binary search": "BinarySearch",
+                "dynamic programming": "DynamicProgramming",
+                "dp": "DynamicProgramming",
+                "heap": "Heaps",
+                "priority queue": "Heaps",
+                "greedy": "Greedy",
+                "bit manipulation": "BitManipulation",
+                "bit": "BitManipulation",
+                "math": "Math",
+                "two pointers": "Arrays",
+                "sliding window": "Arrays",
+                "linked list": "Arrays",
+                "stack": "Arrays",
+                "array": "Arrays",
+                "string": "Arrays",
+                "hash table": "Arrays",
+                "hash map": "Arrays",
+            }
+            for kw, fld in topic_map.items():
+                if kw in top_raw:
+                    return fld
+
+        if "struct TreeNode" in code_text or "TreeNode*" in code_text:
+            return "Trees"
+
+    # 2. Fetch tags from LeetCode or README
     tags = fetch_leetcode_tags(title_slug)
     if not tags and old_readme:
         tags = get_tags_from_readme(q_dir_name, old_readme)
-    
-    # Check against topic configuration
+
+    tags_lower = [t.lower() for t in tags]
+
+    # If title or tags indicate trees / BST
+    if "tree" in title_slug or any(t in ["tree", "binary tree", "binary search tree", "trie"] for t in tags_lower):
+        return "Trees"
+
+    # Check against topic configuration (handling "binary search" vs "binary search tree")
     for folder, _, _, keywords in TOPIC_CONFIG:
         for kw in keywords:
-            if any(kw in tag for tag in tags):
-                return folder
+            if kw == "binary search":
+                # Only match exact binary search tag, not "binary search tree"
+                if any(tag == "binary search" for tag in tags_lower):
+                    return folder
+            else:
+                if any(kw in tag for tag in tags_lower):
+                    return folder
             
     # Default fallback
     return "Arrays"

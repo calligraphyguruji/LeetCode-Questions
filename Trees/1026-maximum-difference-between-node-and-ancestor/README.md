@@ -29,3 +29,11 @@ Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 
 	<li>The number of nodes in the tree is in the range <code>[2, 5000]</code>.</li>
 	<li><code>0 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 </ul>
+<!---LeetCode Approaches Start-->
+<hr>
+<h3>💡 Solutions & Approaches</h3>
+
+- [Approach 1 (C++)](1026-maximum-difference-between-node-and-ancestor.cpp) — *Brute Force(Using two separate DFS)*
+- [Approach 2 (C++)](1026-maximum-difference-between-node-and-ancestor-approach-2-optimal.cpp) — *Optimal(DFS + Min/Max on Current Path)*
+
+<!---LeetCode Approaches End-->

@@ -11,6 +11,20 @@
  */
 class Solution {
 public:
+    //Approach-1 : Brute Force(Using two separate DFS)
+
+    //Time Complexity = O(n * n)
+    /* chooseAncestor() visits every node.
+    * For each chosen ancestor, findDescendants() may traverse its whole subtree.
+    * Worst case: O(n²)
+    */
+
+
+    //Space Complexity = O(h) =>
+    /* Recursion depth = tree height
+    * O(h) → worst case O(n). => height of skewed tree = n.
+    */
+
     int maxDiff = 0; //initialize with 0
 
     void findDescendants(TreeNode* node, int ancestor){

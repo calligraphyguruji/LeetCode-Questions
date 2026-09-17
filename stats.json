@@ -1,8 +1,8 @@
 {
   "leetcode": {
     "easy": 41,
-    "hard": 18,
-    "medium": 118,
+    "hard": 21,
+    "medium": 125,
     "shas": {
       "0096-unique-binary-search-trees": {
         "0096-unique-binary-search-trees.cpp": "2c5950e16c944dadc65b1aa29682f3f1873b2858",
@@ -888,7 +888,7 @@
         "difficulty": "medium"
       }
     },
-    "solved": 177,
+    "solved": 187,
     "streak": 63,
     "totalActiveDays": 177
   }

@@ -17,6 +17,7 @@ import urllib.request
 import subprocess
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LEETCODE_USERNAME = os.getenv("LEETCODE_USERNAME", "calligraphyguruji")
 
 TOPIC_CONFIG = [
     # (Folder, Display Name, Icon, Tag keywords)
@@ -757,6 +758,37 @@ def fetch_leetcode_tags(title_slug):
         print(f"[Warning] Failed to fetch tags for {title_slug} from LeetCode API: {e}")
         return []
 
+def fetch_user_streak(username=LEETCODE_USERNAME):
+    """Fetch user streak and activity calendar from LeetCode GraphQL API."""
+    query = """
+    query userProfileCalendar($username: String!) {
+      matchedUser(username: $username) {
+        userCalendar {
+          streak
+          totalActiveDays
+        }
+      }
+    }
+    """
+    url = "https://leetcode.com/graphql"
+    payload = json.dumps({"query": query, "variables": {"username": username}}).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=payload,
+        headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=8) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            cal = data.get("data", {}).get("matchedUser", {}).get("userCalendar", {})
+            return {
+                "streak": cal.get("streak", 0),
+                "totalActiveDays": cal.get("totalActiveDays", 0)
+            }
+    except Exception as e:
+        print(f"[Warning] Failed to fetch streak for {username} from LeetCode API: {e}")
+        return {"streak": 0, "totalActiveDays": 0}
+
 def get_tags_from_readme(q_dir_name, old_readme):
     """Fallback: extract topic tags from LeetHub table in root README.md."""
     topics = []
@@ -1336,8 +1368,26 @@ def rebuild_metadata():
     pct_med = f"{(med_count / total_count * 100):.1f}%" if total_count else "0%"
     pct_hard = f"{(hard_count / total_count * 100):.1f}%" if total_count else "0%"
     
-    # Update stats.json
+    # Fetch live streak from LeetCode
+    user_cal = fetch_user_streak()
+    current_streak = user_cal.get("streak", 0)
+    total_active_days = user_cal.get("totalActiveDays", 0)
+
+    # Fallback to stats.json cache if API fails
     stats_path = os.path.join(BASE_DIR, "stats.json")
+    if not current_streak and os.path.exists(stats_path):
+        try:
+            with open(stats_path, "r", encoding="utf-8") as f:
+                cached_stats = json.load(f).get("leetcode", {})
+                current_streak = cached_stats.get("streak", 0)
+                total_active_days = cached_stats.get("totalActiveDays", 0)
+        except Exception:
+            pass
+
+    if current_streak:
+        print(f"LeetCode Streak: {current_streak} Days | Total Active Days: {total_active_days}")
+
+    # Update stats.json
     if os.path.exists(stats_path):
         try:
             with open(stats_path, "r", encoding="utf-8") as f:
@@ -1347,6 +1397,9 @@ def rebuild_metadata():
             stats_data["leetcode"]["medium"] = med_count
             stats_data["leetcode"]["hard"] = hard_count
             stats_data["leetcode"]["solved"] = total_count
+            if current_streak:
+                stats_data["leetcode"]["streak"] = current_streak
+                stats_data["leetcode"]["totalActiveDays"] = total_active_days
             
             # Ensure shas has difficulty for all questions
             shas = stats_data["leetcode"].setdefault("shas", {})
@@ -1355,7 +1408,7 @@ def rebuild_metadata():
                     shas[q["q_dir"]]["difficulty"] = q["difficulty"].lower()
             with open(stats_path, "w", encoding="utf-8") as f:
                 json.dump(stats_data, f, indent=2)
-            print(f"Updated stats.json (Solved: {total_count})")
+            print(f"Updated stats.json (Solved: {total_count}, Streak: {current_streak})")
         except Exception as e:
             print(f"[Warning] Failed to update stats.json: {e}")
 
@@ -1433,6 +1486,24 @@ def rebuild_metadata():
             tree_lines.append(f"│   └── ... ({len(topic_qs)} problems)")
     tree_diagram = "\n".join(tree_lines)
 
+    streak_badges = ""
+    if current_streak:
+        streak_badges = (
+            f"<p align=\"center\">\n"
+            f"  <a href=\"https://leetcode.com/u/{LEETCODE_USERNAME}/\">\n"
+            f"    <img src=\"https://img.shields.io/badge/Current_Streak-{current_streak}_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white\" alt=\"LeetCode Streak\" />\n"
+            f"  </a>&nbsp;&nbsp;\n"
+            f"  <a href=\"https://leetcode.com/u/{LEETCODE_USERNAME}/\">\n"
+            f"    <img src=\"https://img.shields.io/badge/Active_Days-{total_active_days}_Days-blue?style=for-the-badge&logo=calendar&logoColor=white\" alt=\"Active Days\" />\n"
+            f"  </a>&nbsp;&nbsp;\n"
+            f"  <a href=\"https://leetcode.com/u/{LEETCODE_USERNAME}/\">\n"
+            f"    <img src=\"https://img.shields.io/badge/Problems_Solved-{total_count}-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white\" alt=\"Solved\" />\n"
+            f"  </a>\n"
+            f"</p>\n\n"
+        )
+    streak_row = f"\n| 🔥 **Current Streak** | **{current_streak} Days** | — |" if current_streak else ""
+    active_row = f"\n| 📅 **Total Active Days** | **{total_active_days} Days** | — |" if total_active_days else ""
+
     new_readme_text = f"""# 📚 LeetCode Solutions
 
 Welcome to my personal collection of **LeetCode problem solutions**, written primarily in **C++**. This repository serves as a structured log of my journey to strengthen my **Data Structures and Algorithms (DSA)** skills through consistent, hands-on practice.
@@ -1457,12 +1528,12 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <div align="center">
 
-| Metric | Count | Percentage |
+{streak_badges}| Metric | Count | Percentage |
 |:---|:---:|:---:|
 | 🟢 **Easy** | {easy_count} | {pct_easy} |
 | 🟡 **Medium** | {med_count} | {pct_med} |
 | 🔴 **Hard** | {hard_count} | {pct_hard} |
-| 🎯 **Total Solved** | **{total_count}** | **100%** |
+| 🎯 **Total Solved** | **{total_count}** | **100%** |{streak_row}{active_row}
 
 </div>
 

@@ -11,6 +11,22 @@
  */
 class Solution {
 public:
+    //Approach : Subtree Sum + Complement Sum
+
+    //Time Complexity = O(N) =>
+    /* O(n) — findTotalSum() visits every node once.
+    * O(n) — dfs() visits every node once.
+    * Overall: O(n)
+    */
+
+    //Space Complexity = O(h) =>
+    /* O(h) — recursion stack.
+    * h = height of the tree.
+    * Worst case (skewed tree): O(n)
+    * Balanced tree: O(log n)
+    */
+
+    
     typedef long long ll;
     ll totalSum = 0;
     ll ans = 0;

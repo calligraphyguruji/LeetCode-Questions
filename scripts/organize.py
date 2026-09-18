@@ -1418,22 +1418,7 @@ def rebuild_metadata():
     if os.path.exists(readme_path):
         with open(readme_path, "r", encoding="utf-8") as f:
             old_readme = f.read()
-            
-    topics_block_match = re.search(r"(<!---LeetCode Topics Start-->.*?<!---LeetCode Topics End-->)", old_readme, re.DOTALL)
-    if topics_block_match:
-        old_topics_block = topics_block_match.group(1)
-        def replace_link(m):
-            q_name = m.group(1)
-            if q_name in path_map:
-                return f"[{q_name}](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/{path_map[q_name]})"
-            return m.group(0)
-        new_topics_block = re.sub(
-            r"\[([0-9]{4}-[a-z0-9-]+)\]\(https://github.com/calligraphyguruji/LeetCode-Questions/tree/(?:master|main)/[0-9]{4}-[a-z0-9-]+\)",
-            replace_link,
-            old_topics_block
-        )
-    else:
-        new_topics_block = ""
+
         
     def get_diff_badge(diff):
         if diff == "Easy":
@@ -1637,8 +1622,6 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-{new_topics_block}
 """
 
     with open(readme_path, "w", encoding="utf-8") as f:

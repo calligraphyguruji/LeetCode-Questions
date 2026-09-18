@@ -9,6 +9,22 @@
  */
 class Solution {
 public:
+    //Approach : Parent Mapping(DFS) + BFS (Level Order Traversal)
+
+    //Time Complexity = O(N) =>
+    /* DFS visits every node once → O(N)
+    * BFS visits every node at most once → O(N)
+    * Overall → O(N) 
+    */
+
+    //Space Complexity = O(N) =>
+    /* Parent map → O(N)
+    * Queue → O(N) in worst case
+    * Visited set → O(N)
+    * Recursion stack → O(H)
+    */
+
+
     TreeNode* targetNode = NULL;
     unordered_map<TreeNode*, TreeNode* > par;
     

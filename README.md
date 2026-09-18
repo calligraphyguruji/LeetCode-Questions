@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-178_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-189-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-190-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 41 | 21.7% |
-| 🟡 **Medium** | 127 | 67.2% |
+| 🟢 **Easy** | 41 | 21.6% |
+| 🟡 **Medium** | 128 | 67.4% |
 | 🔴 **Hard** | 21 | 11.1% |
-| 🎯 **Total Solved** | **189** | **100%** |
+| 🎯 **Total Solved** | **190** | **100%** |
 | 🔥 **Current Streak** | **64 Days** | — |
 | 📅 **Total Active Days** | **178 Days** | — |
 
@@ -217,6 +217,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 🟡 `Medium` | [C++](Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp) | Rewiring right pointers to preorder sequence with Morris-like constant space traversal |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 🟡 `Medium` | [C++](Trees/0116-populating-next-right-pointers-in-each-node/0116-populating-next-right-pointers-in-each-node.cpp) | Using established upper-level next pointers for $O(1)$ auxiliary space linkage |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 `Hard` | [C++](Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp) | Postorder tree DP computing maximum non-negative branch gain and updating global sum |
+| 0129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 `Medium` | [C++](Trees/0129-sum-root-to-leaf-numbers/0129-sum-root-to-leaf-numbers.cpp) | Recursive DFS tree traversal with depth and invariant validation |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 `Easy` | [C++](Trees/0144-binary-tree-preorder-traversal/0144-binary-tree-preorder-traversal.cpp) | Root-left-right recursive and iterative stack traversal |
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 `Easy` | [C++](Trees/0145-binary-tree-postorder-traversal/0145-binary-tree-postorder-traversal.cpp) | Left-right-root postorder traversal with stack |
 | 0173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) | 🟡 `Medium` | [C++](BinarySearch/0173-binary-search-tree-iterator/0173-binary-search-tree-iterator.cpp) | Controlled inorder traversal with push-all-left stack in $O(h)$ memory |
@@ -466,7 +467,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
-│   └── ... (35 problems)
+│   └── ... (36 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -596,6 +597,7 @@ public:
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | 🟡 `Medium` | [💡 Greedy Algorithms](Greedy/) | [Problem](Greedy/0122-best-time-to-buy-and-sell-stock-ii/) | [C++](Greedy/0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp) |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0124-binary-tree-maximum-path-sum/) | [C++](Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp) |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0125-valid-palindrome/) | [C++](Arrays/0125-valid-palindrome/0125-valid-palindrome.cpp) |
+| 0129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0129-sum-root-to-leaf-numbers/) | [C++](Trees/0129-sum-root-to-leaf-numbers/0129-sum-root-to-leaf-numbers.cpp) |
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0131-palindrome-partitioning/) | [C++](Backtracking/0131-palindrome-partitioning/0131-palindrome-partitioning.cpp) |
 | 0132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0132-palindrome-partitioning-ii/) | [C++](DynamicProgramming/0132-palindrome-partitioning-ii/0132-palindrome-partitioning-ii.cpp) |
 | 0133 | [Clone Graph](https://leetcode.com/problems/clone-graph) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0133-clone-graph/) | [C++](Graphs/0133-clone-graph/0133-clone-graph.cpp) |
@@ -778,7 +780,7 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (35)
+### 🌳 [Trees & Binary Search Trees](Trees/) (36)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -796,6 +798,7 @@ public:
 | 0114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 🟡 `Medium` | [Problem Notes](Trees/0114-flatten-binary-tree-to-linked-list/) | [C++](Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp) |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 🟡 `Medium` | [Problem Notes](Trees/0116-populating-next-right-pointers-in-each-node/) | [C++](Trees/0116-populating-next-right-pointers-in-each-node/0116-populating-next-right-pointers-in-each-node.cpp) |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 `Hard` | [Problem Notes](Trees/0124-binary-tree-maximum-path-sum/) | [C++](Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp) |
+| 0129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 `Medium` | [Problem Notes](Trees/0129-sum-root-to-leaf-numbers/) | [C++](Trees/0129-sum-root-to-leaf-numbers/0129-sum-root-to-leaf-numbers.cpp) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 `Easy` | [Problem Notes](Trees/0144-binary-tree-preorder-traversal/) | [C++](Trees/0144-binary-tree-preorder-traversal/0144-binary-tree-preorder-traversal.cpp) |
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 `Easy` | [Problem Notes](Trees/0145-binary-tree-postorder-traversal/) | [C++](Trees/0145-binary-tree-postorder-traversal/0145-binary-tree-postorder-traversal.cpp) |
 | 0199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | 🟡 `Medium` | [Problem Notes](Trees/0199-binary-tree-right-side-view/) | [App 1](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.cpp) · [App 2](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-2-bfs.cpp "BFS(Level Order Traversal)") · [App 3](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-3-dfs.cpp "DFS(Preorder Traversal)") |
@@ -1066,7 +1069,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |
-| [0129-sum-root-to-leaf-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
@@ -1147,7 +1150,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |
-| [0129-sum-root-to-leaf-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0173-binary-search-tree-iterator) |
@@ -1514,7 +1517,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0124-binary-tree-maximum-path-sum) |
-| [0129-sum-root-to-leaf-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0129-sum-root-to-leaf-numbers) |
 | [0133-clone-graph](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0133-clone-graph) |
 | [0144-binary-tree-preorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0145-binary-tree-postorder-traversal) |

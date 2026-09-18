@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-63_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-64_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-177_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-178_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-188-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-189-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 41 | 21.8% |
-| 🟡 **Medium** | 126 | 67.0% |
-| 🔴 **Hard** | 21 | 11.2% |
-| 🎯 **Total Solved** | **188** | **100%** |
-| 🔥 **Current Streak** | **63 Days** | — |
-| 📅 **Total Active Days** | **177 Days** | — |
+| 🟢 **Easy** | 41 | 21.7% |
+| 🟡 **Medium** | 127 | 67.2% |
+| 🔴 **Hard** | 21 | 11.1% |
+| 🎯 **Total Solved** | **189** | **100%** |
+| 🔥 **Current Streak** | **64 Days** | — |
+| 📅 **Total Active Days** | **178 Days** | — |
 
 </div>
 
@@ -227,6 +227,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | 🟢 `Easy` | [C++](Trees/0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.cpp) | Postorder depth calculation updating maximum left+right path |
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 `Easy` | [C++](Trees/0572-subtree-of-another-tree/0572-subtree-of-another-tree.cpp) | Recursive root matching with exact tree equivalence subroutine |
 | 0623 | [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree) | 🟡 `Medium` | [C++](Trees/0623-add-one-row-to-tree/0623-add-one-row-to-tree.cpp) | Level-order BFS traversing to depth - 1 to splice new row nodes between parent and children |
+| 0652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) | 🟡 `Medium` | [C++](Trees/0652-find-duplicate-subtrees/0652-find-duplicate-subtrees.cpp) | Recursive DFS tree traversal with depth and invariant validation |
 | 0662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) | 🟡 `Medium` | [C++](Trees/0662-maximum-width-of-binary-tree/0662-maximum-width-of-binary-tree.cpp) | Zero-indexed heap-like coordinate tagging per level to prevent overflow |
 | 0783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 `Easy` | [C++](BinarySearch/0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp) | Inorder traversal tracking running minimum difference between neighbors |
 | 0814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning) | 🟡 `Medium` | [C++](Trees/0814-binary-tree-pruning/0814-binary-tree-pruning.cpp) | Bottom-up postorder DFS recursively removing subtrees that do not contain a 1 |
@@ -465,7 +466,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
-│   └── ... (34 problems)
+│   └── ... (35 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -664,6 +665,7 @@ public:
 | 0623 | [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0623-add-one-row-to-tree/) | [C++](Trees/0623-add-one-row-to-tree/0623-add-one-row-to-tree.cpp) |
 | 0646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0646-maximum-length-of-pair-chain/) | [C++](DynamicProgramming/0646-maximum-length-of-pair-chain/0646-maximum-length-of-pair-chain.cpp) |
 | 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0647-palindromic-substrings/) | [C++](DynamicProgramming/0647-palindromic-substrings/0647-palindromic-substrings.cpp) |
+| 0652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0652-find-duplicate-subtrees/) | [C++](Trees/0652-find-duplicate-subtrees/0652-find-duplicate-subtrees.cpp) |
 | 0662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0662-maximum-width-of-binary-tree/) | [C++](Trees/0662-maximum-width-of-binary-tree/0662-maximum-width-of-binary-tree.cpp) |
 | 0684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0684-redundant-connection/) | [C++](Graphs/0684-redundant-connection/0684-redundant-connection.cpp) |
 | 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0703-kth-largest-element-in-a-stream/) | [C++](BinarySearch/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp) |
@@ -776,7 +778,7 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (34)
+### 🌳 [Trees & Binary Search Trees](Trees/) (35)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -802,6 +804,7 @@ public:
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | 🟢 `Easy` | [Problem Notes](Trees/0543-diameter-of-binary-tree/) | [C++](Trees/0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.cpp) |
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 `Easy` | [Problem Notes](Trees/0572-subtree-of-another-tree/) | [C++](Trees/0572-subtree-of-another-tree/0572-subtree-of-another-tree.cpp) |
 | 0623 | [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree) | 🟡 `Medium` | [Problem Notes](Trees/0623-add-one-row-to-tree/) | [C++](Trees/0623-add-one-row-to-tree/0623-add-one-row-to-tree.cpp) |
+| 0652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) | 🟡 `Medium` | [Problem Notes](Trees/0652-find-duplicate-subtrees/) | [C++](Trees/0652-find-duplicate-subtrees/0652-find-duplicate-subtrees.cpp) |
 | 0662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/0662-maximum-width-of-binary-tree/) | [C++](Trees/0662-maximum-width-of-binary-tree/0662-maximum-width-of-binary-tree.cpp) |
 | 0814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning) | 🟡 `Medium` | [Problem Notes](Trees/0814-binary-tree-pruning/) | [C++](Trees/0814-binary-tree-pruning/0814-binary-tree-pruning.cpp) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 `Easy` | [Problem Notes](Trees/0872-leaf-similar-trees/) | [C++](Trees/0872-leaf-similar-trees/0872-leaf-similar-trees.cpp) |
@@ -1074,7 +1077,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0623-add-one-row-to-tree) |
-| [0652-find-duplicate-subtrees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0652-find-duplicate-subtrees) |
+| [0652-find-duplicate-subtrees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0662-maximum-width-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0703-kth-largest-element-in-a-stream) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0783-minimum-distance-between-bst-nodes) |
@@ -1154,7 +1157,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0450-delete-node-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0543-diameter-of-binary-tree) |
 | [0623-add-one-row-to-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0623-add-one-row-to-tree) |
-| [0652-find-duplicate-subtrees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0652-find-duplicate-subtrees) |
+| [0652-find-duplicate-subtrees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0662-maximum-width-of-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0703-kth-largest-element-in-a-stream) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/BinarySearch/0783-minimum-distance-between-bst-nodes) |
@@ -1394,7 +1397,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0496-next-greater-element-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Arrays/0567-permutation-in-string) |
-| [0652-find-duplicate-subtrees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0652-find-duplicate-subtrees) |
+| [0652-find-duplicate-subtrees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0652-find-duplicate-subtrees) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0947-most-stones-removed-with-same-row-or-column) |
 | [1110-delete-nodes-and-return-forest](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1110-delete-nodes-and-return-forest) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/1443-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -1524,7 +1527,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0547-number-of-provinces) |
 | [0623-add-one-row-to-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0623-add-one-row-to-tree) |
-| [0652-find-duplicate-subtrees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0652-find-duplicate-subtrees) |
+| [0652-find-duplicate-subtrees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Trees/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/calligraphyguruji/LeetCode-Questions/tree/main/Graphs/0733-flood-fill) |

@@ -11,6 +11,26 @@
  */
 class Solution {
 public:
+    //Approach : BFS(Level Order Traversal)
+
+
+    //Time Complexity = O(N) =>
+    /* N = number of nodes in the binary tree.
+    * Each node is:
+        * pushed into the queue once
+        * popped from the queue once
+        * checked once for whether it is a leaf.
+    * Therefore, total work is proportional to N.
+    */
+
+    //Space Complexity = O(N) =>
+    /* The extra space comes from the queue.
+    * In the worst case, the queue can contain many nodes from the same level.
+    * For example, in a nearly complete binary tree, the last level can contain about N/2 nodes.
+    * So the queue can hold O(N) nodes.
+    */
+
+
     int bfs(TreeNode* root, int depth){
         //base-case
         if(root == NULL) return 0; //depth = 0

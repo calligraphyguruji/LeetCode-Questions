@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-178_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-190-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-191-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 41 | 21.6% |
-| 🟡 **Medium** | 128 | 67.4% |
-| 🔴 **Hard** | 21 | 11.1% |
-| 🎯 **Total Solved** | **190** | **100%** |
+| 🟢 **Easy** | 42 | 22.0% |
+| 🟡 **Medium** | 128 | 67.0% |
+| 🔴 **Hard** | 21 | 11.0% |
+| 🎯 **Total Solved** | **191** | **100%** |
 | 🔥 **Current Streak** | **64 Days** | — |
 | 📅 **Total Active Days** | **178 Days** | — |
 
@@ -213,6 +213,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) | 🟡 `Medium` | [C++](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/0106-construct-binary-tree-from-inorder-and-postorder-traversal.cpp) | Postorder identifies root; inorder split gives subtree boundaries recursively |
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 `Easy` | [C++](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/0108-convert-sorted-array-to-binary-search-tree.cpp) | Midpoint divide-and-conquer to build height-balanced BST |
 | 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | 🟢 `Easy` | [C++](Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp) | Bottom-up height calculation with early $-1$ exit on subtree height differential $> 1$ |
+| 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 `Easy` | [C++](Trees/0111-minimum-depth-of-binary-tree/0111-minimum-depth-of-binary-tree.cpp) | Level-order BFS queue traversal processing tree nodes by depth |
 | 0112 | [Path Sum](https://leetcode.com/problems/path-sum) | 🟢 `Easy` | [C++](Trees/0112-path-sum/0112-path-sum.cpp) | DFS recursion subtracting node values along root-to-leaf paths until target sum is 0 at a leaf |
 | 0114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 🟡 `Medium` | [C++](Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp) | Rewiring right pointers to preorder sequence with Morris-like constant space traversal |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 🟡 `Medium` | [C++](Trees/0116-populating-next-right-pointers-in-each-node/0116-populating-next-right-pointers-in-each-node.cpp) | Using established upper-level next pointers for $O(1)$ auxiliary space linkage |
@@ -467,7 +468,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
-│   └── ... (36 problems)
+│   └── ... (37 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -589,6 +590,7 @@ public:
 | 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | [C++](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/0106-construct-binary-tree-from-inorder-and-postorder-traversal.cpp) |
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/) | [C++](BinarySearch/0108-convert-sorted-array-to-binary-search-tree/0108-convert-sorted-array-to-binary-search-tree.cpp) |
 | 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0110-balanced-binary-tree/) | [C++](Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp) |
+| 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0111-minimum-depth-of-binary-tree/) | [C++](Trees/0111-minimum-depth-of-binary-tree/0111-minimum-depth-of-binary-tree.cpp) |
 | 0112 | [Path Sum](https://leetcode.com/problems/path-sum) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0112-path-sum/) | [C++](Trees/0112-path-sum/0112-path-sum.cpp) |
 | 0113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0113-path-sum-ii/) | [C++](Backtracking/0113-path-sum-ii/0113-path-sum-ii.cpp) |
 | 0114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0114-flatten-binary-tree-to-linked-list/) | [C++](Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp) |
@@ -780,7 +782,7 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (36)
+### 🌳 [Trees & Binary Search Trees](Trees/) (37)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -794,6 +796,7 @@ public:
 | 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 🟡 `Medium` | [Problem Notes](Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp) |
 | 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) | 🟡 `Medium` | [Problem Notes](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | [C++](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/0106-construct-binary-tree-from-inorder-and-postorder-traversal.cpp) |
 | 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | 🟢 `Easy` | [Problem Notes](Trees/0110-balanced-binary-tree/) | [C++](Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp) |
+| 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 `Easy` | [Problem Notes](Trees/0111-minimum-depth-of-binary-tree/) | [C++](Trees/0111-minimum-depth-of-binary-tree/0111-minimum-depth-of-binary-tree.cpp) |
 | 0112 | [Path Sum](https://leetcode.com/problems/path-sum) | 🟢 `Easy` | [Problem Notes](Trees/0112-path-sum/) | [C++](Trees/0112-path-sum/0112-path-sum.cpp) |
 | 0114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 🟡 `Medium` | [Problem Notes](Trees/0114-flatten-binary-tree-to-linked-list/) | [C++](Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp) |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 🟡 `Medium` | [Problem Notes](Trees/0116-populating-next-right-pointers-in-each-node/) | [C++](Trees/0116-populating-next-right-pointers-in-each-node/0116-populating-next-right-pointers-in-each-node.cpp) |
@@ -997,23 +1000,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0111-minimum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0111-minimum-depth-of-binary-tree) |
-## Depth-First Search
-|  |
-| ------- |
-| [0111-minimum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0111-minimum-depth-of-binary-tree) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0111-minimum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0111-minimum-depth-of-binary-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0111-minimum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0111-minimum-depth-of-binary-tree) |
-<!---LeetCode Topics End-->

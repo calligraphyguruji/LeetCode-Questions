@@ -11,6 +11,34 @@
  */
 class Solution {
 public:
+    //Approach : Postorder DFS + Subtree Serialization using Unique IDs + HashMap Frequency Counting
+
+    //Time Complexity = O(n * logn) =>
+    /* For every node, we:
+    1. Visit it once using DFS → O(n) total.
+    2. Create the subtree key:
+        (node->val, leftID, rightID) -> O(1)
+
+    3. Search/insert this key in a map:
+        subtreeMap[key] => A map operation costs O(log n).
+    
+    Therefore:
+        n nodes × O(log n) = O(n * logn)
+    */
+
+    //Space Compexity = O(n) =>
+    /* We store information for up to n different subtrees:
+        subtreeMap
+        freqMap
+        Each can contain up to n entries → O(n).
+    * Also, the DFS recursion stack can be:
+        * Balanced tree → O(log n)
+        * Skewed tree → O(n)
+    
+    Overall : O(n) + O(logn) + O(n) = O(n)
+    */
+
+
     //(node val, leftID, rightID) = uniqueID
     map<tuple<int, int, int>, int> subtreeMap;
 

@@ -11,6 +11,19 @@
  */
 class Solution {
 public:
+    //Approach : BFS (Level Order Traversal) + Maximum Value Tracking
+
+    //Time Complexity = O(N) =>
+    /* Every node is visited exactly once.
+    */
+
+    
+    //Space Complexity = O(N) =>
+    /* The queue can hold up to N/2 nodes in the worst case (for a complete/balanced binary tree).
+    * The ans array stores one value per level, which takes O(H).
+    * Therefore, overall SC = O(N).
+    */ 
+
     void bfs(TreeNode* root, vector<int>& ans){
         //1.) base-case
         if(root == NULL){

@@ -1,6 +1,24 @@
 class Solution {
 public:
-       
+    //Approach : Parent Count + Root Detection + DFS Connectivity
+
+
+    //Time Complexity = O(n) =>
+    /* Build parent[] → O(n)
+    * Find root → O(n)
+    * DFS → O(n)
+    * Final visited check → O(n)
+    * Overall → O(n)
+    */
+
+    //Space Complexity = O(n) =>
+    /* 
+    * parent[] → O(n)
+    * visited[] → O(n)
+    * DFS recursion stack → O(n) in the worst case
+    */
+
+    
     //5.) perform dfs
     void dfs(int node, vector<bool>& visited, vector<int>& leftChild, vector<int>& rightChild){
         //base-case

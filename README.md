@@ -1009,3 +1009,23 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Tree
+|  |
+| ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0515-find-largest-value-in-each-tree-row) |
+## Depth-First Search
+|  |
+| ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0515-find-largest-value-in-each-tree-row) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0515-find-largest-value-in-each-tree-row) |
+## Binary Tree
+|  |
+| ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0515-find-largest-value-in-each-tree-row) |
+<!---LeetCode Topics End-->

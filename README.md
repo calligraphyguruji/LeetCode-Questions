@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-64_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-65_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-178_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-179_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-192-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-193-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 42 | 21.9% |
-| 🟡 **Medium** | 129 | 67.2% |
+| 🟢 **Easy** | 42 | 21.8% |
+| 🟡 **Medium** | 130 | 67.4% |
 | 🔴 **Hard** | 21 | 10.9% |
-| 🎯 **Total Solved** | **192** | **100%** |
-| 🔥 **Current Streak** | **64 Days** | — |
-| 📅 **Total Active Days** | **178 Days** | — |
+| 🎯 **Total Solved** | **193** | **100%** |
+| 🔥 **Current Streak** | **65 Days** | — |
+| 📅 **Total Active Days** | **179 Days** | — |
 
 </div>
 
@@ -242,6 +242,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1110 | [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest) | 🟡 `Medium` | [C++](Trees/1110-delete-nodes-and-return-forest/1110-delete-nodes-and-return-forest.cpp) | Postorder DFS disconnecting deleted nodes with hash set lookup and adding non-null children as new tree roots |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 `Medium` | [C++](Trees/1161-maximum-level-sum-of-a-binary-tree/1161-maximum-level-sum-of-a-binary-tree.cpp) | BFS level summation tracking index with maximum aggregate sum |
 | 1339 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree) | 🟡 `Medium` | [C++](Trees/1339-maximum-product-of-splitted-binary-tree/1339-maximum-product-of-splitted-binary-tree.cpp) | Subtree Sum + Complement Sum in $O(n)$ time |
+| 1361 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | 🟡 `Medium` | [C++](Trees/1361-validate-binary-tree-nodes/1361-validate-binary-tree-nodes.cpp) | Recursive DFS tree traversal with depth and invariant validation |
 | 1443 | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | 🟡 `Medium` | [C++](Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/1443-minimum-time-to-collect-all-apples-in-a-tree.cpp) | Bottom-up DFS summing round-trip edge costs for apple-bearing subtrees |
 | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | 🟡 `Medium` | [C++](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/1519-number-of-nodes-in-the-sub-tree-with-the-same-label.cpp) | Postorder 26-length frequency array merging from child subtrees |
 | 1932 | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst) | 🔴 `Hard` | [C++](BinarySearch/1932-merge-bsts-to-create-single-bst/1932-merge-bsts-to-create-single-bst.cpp) | BST root-leaf matching, cycle check, and global BST inorder validation |
@@ -469,7 +470,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
-│   └── ... (38 problems)
+│   └── ... (39 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -710,6 +711,7 @@ public:
 | 1334 | [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | [C++](Graphs/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.cpp) |
 | 1335 | [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/) | [C++](DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/1335-minimum-difficulty-of-a-job-schedule.cpp) |
 | 1339 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1339-maximum-product-of-splitted-binary-tree/) | [C++](Trees/1339-maximum-product-of-splitted-binary-tree/1339-maximum-product-of-splitted-binary-tree.cpp) |
+| 1361 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1361-validate-binary-tree-nodes/) | [C++](Trees/1361-validate-binary-tree-nodes/1361-validate-binary-tree-nodes.cpp) |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1392-longest-happy-prefix/) | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) |
 | 1420 | [Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | [C++](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons.cpp) |
 | 1443 | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/) | [C++](Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/1443-minimum-time-to-collect-all-apples-in-a-tree.cpp) |
@@ -784,7 +786,7 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (38)
+### 🌳 [Trees & Binary Search Trees](Trees/) (39)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -822,6 +824,7 @@ public:
 | 1110 | [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest) | 🟡 `Medium` | [Problem Notes](Trees/1110-delete-nodes-and-return-forest/) | [C++](Trees/1110-delete-nodes-and-return-forest/1110-delete-nodes-and-return-forest.cpp) |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/1161-maximum-level-sum-of-a-binary-tree/) | [C++](Trees/1161-maximum-level-sum-of-a-binary-tree/1161-maximum-level-sum-of-a-binary-tree.cpp) |
 | 1339 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/1339-maximum-product-of-splitted-binary-tree/) | [C++](Trees/1339-maximum-product-of-splitted-binary-tree/1339-maximum-product-of-splitted-binary-tree.cpp) |
+| 1361 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | 🟡 `Medium` | [Problem Notes](Trees/1361-validate-binary-tree-nodes/) | [C++](Trees/1361-validate-binary-tree-nodes/1361-validate-binary-tree-nodes.cpp) |
 | 1443 | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | 🟡 `Medium` | [Problem Notes](Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/) | [C++](Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/1443-minimum-time-to-collect-all-apples-in-a-tree.cpp) |
 | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | 🟡 `Medium` | [Problem Notes](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/) | [C++](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/1519-number-of-nodes-in-the-sub-tree-with-the-same-label.cpp) |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) | 🟡 `Medium` | [Problem Notes](Trees/1584-min-cost-to-connect-all-points/) | [C++](Trees/1584-min-cost-to-connect-all-points/1584-min-cost-to-connect-all-points.cpp) |
@@ -1003,31 +1006,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
-## Depth-First Search
-|  |
-| ------- |
-| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
-## Breadth-First Search
-|  |
-| ------- |
-| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
-## Union-Find
-|  |
-| ------- |
-| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
-## Graph Theory
-|  |
-| ------- |
-| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
-## Binary Tree
-|  |
-| ------- |
-| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
-<!---LeetCode Topics End-->

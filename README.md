@@ -1006,3 +1006,31 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Tree
+|  |
+| ------- |
+| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
+## Depth-First Search
+|  |
+| ------- |
+| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
+## Union-Find
+|  |
+| ------- |
+| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
+## Graph Theory
+|  |
+| ------- |
+| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
+## Binary Tree
+|  |
+| ------- |
+| [1361-validate-binary-tree-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1361-validate-binary-tree-nodes) |
+<!---LeetCode Topics End-->

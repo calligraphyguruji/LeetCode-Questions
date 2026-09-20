@@ -11,6 +11,19 @@
  */
 class Solution {
 public:
+    //Approach : DFS(Postorder)
+
+    //Time Complexity = O(n) =>
+    /* Each node is visited exactly once.
+    */
+
+    //Space Complexity = O(h) =>
+    /* Recursion stack can hold up to H nodes, where H is the height of the tree.
+    * Worst case (skewed tree): O(N)
+    * Balanced tree: O(log N)
+    */
+
+
     pair<int, int> dfs(TreeNode* node, int& ans){ //dfs is paired {sum, count}
         //base-case
         if(node == NULL){

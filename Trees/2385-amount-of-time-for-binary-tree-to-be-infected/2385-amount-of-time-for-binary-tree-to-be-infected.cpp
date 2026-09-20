@@ -12,6 +12,30 @@
 class Solution {
 public:
     //Approach : Parent map(DFS) + BFS
+
+    //Time Complexity = O(N) =>
+    /* DFS visits every node exactly once to:
+        * Store its parent in the parent map.
+        * Find the startNode. 
+        * So : N nodes -> O(N)
+
+    * BFS also visits every node once.
+    * For each node, we check at most 3 neighbors:
+        left
+        right
+        parent
+
+    * So : N nodes × 3 → O(N)
+    */
+
+    //Space Complexity = O(N) =>
+    /* We use extra space for:
+    * parent map → stores one parent for each node → O(N)
+    * visited set → stores each visited node → O(N)
+    * queue → can contain nodes from the current/next BFS levels → O(N) in the worst case
+    */
+
+
     unordered_map<TreeNode* , TreeNode*> parent;
     TreeNode* startNode = NULL;
 

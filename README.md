@@ -1015,3 +1015,27 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+## Tree
+|  |
+| ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+## Depth-First Search
+|  |
+| ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+## Binary Tree
+|  |
+| ------- |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+<!---LeetCode Topics End-->

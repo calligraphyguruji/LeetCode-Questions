@@ -11,6 +11,23 @@
  */
 class Solution {
 public:
+    //Approach : BFS(Level Order Traversal)
+
+    //Time Complexity = O(N) =>
+    /* We use BFS, so every node is visited exactly once.
+    * For each node, we perform constant-time operations: checking its left/right child and pushing/popping from the queue.
+    * Therefore, for N nodes: O(N)
+    */
+
+    //Space Complexity = O(W) => W = N/2 => O(N)
+    /*     The queue stores nodes of the current level.
+    * At most, the queue can contain W nodes, where W is the maximum number of nodes at any level.
+    * For example, in a complete binary tree, the last level can contain roughly N/2 nodes.
+
+    So: O(N)
+    */
+
+
     int findBottomLeftValue(TreeNode* root) {
         //base-case
         if(root == NULL) return -1;

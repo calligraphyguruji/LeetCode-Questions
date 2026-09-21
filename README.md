@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-181_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-198-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-199-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 42 | 21.2% |
-| 🟡 **Medium** | 135 | 68.2% |
+| 🟢 **Easy** | 42 | 21.1% |
+| 🟡 **Medium** | 136 | 68.3% |
 | 🔴 **Hard** | 21 | 10.6% |
-| 🎯 **Total Solved** | **198** | **100%** |
+| 🎯 **Total Solved** | **199** | **100%** |
 | 🔥 **Current Streak** | **67 Days** | — |
 | 📅 **Total Active Days** | **181 Days** | — |
 
@@ -227,6 +227,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟡 `Medium` | [C++](BinarySearch/0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.cpp) | BST navigation branching based on split across node value |
 | 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 `Medium` | [C++](Trees/0236-lowest-common-ancestor-of-a-binary-tree/0236-lowest-common-ancestor-of-a-binary-tree.cpp) | Postorder search bubbling up target nodes to first shared ancestor |
 | 0450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst) | 🟡 `Medium` | [C++](Trees/0450-delete-node-in-a-bst/0450-delete-node-in-a-bst.cpp) | BST search and successor splicing upon removing two-child nodes |
+| 0513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | 🟡 `Medium` | [C++](Trees/0513-find-bottom-left-tree-value/0513-find-bottom-left-tree-value.cpp) | Level-order BFS queue traversal processing tree nodes by depth |
 | 0515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) | 🟡 `Medium` | [C++](Trees/0515-find-largest-value-in-each-tree-row/0515-find-largest-value-in-each-tree-row.cpp) | BFS (Level Order Traversal) + Maximum Value Tracking in $O(n)$ time |
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | 🟢 `Easy` | [C++](Trees/0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.cpp) | Postorder depth calculation updating maximum left+right path |
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 `Easy` | [C++](Trees/0572-subtree-of-another-tree/0572-subtree-of-another-tree.cpp) | Recursive root matching with exact tree equivalence subroutine |
@@ -475,7 +476,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
-│   └── ... (44 problems)
+│   └── ... (45 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -665,6 +666,7 @@ public:
 | 0496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0496-next-greater-element-i/) | [C++](Arrays/0496-next-greater-element-i/0496-next-greater-element-i.cpp) |
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0503-next-greater-element-ii/) | [C++](Arrays/0503-next-greater-element-ii/0503-next-greater-element-ii.cpp) |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 `Easy` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0509-fibonacci-number/) | [C++](DynamicProgramming/0509-fibonacci-number/0509-fibonacci-number.cpp) |
+| 0513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0513-find-bottom-left-tree-value/) | [C++](Trees/0513-find-bottom-left-tree-value/0513-find-bottom-left-tree-value.cpp) |
 | 0515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0515-find-largest-value-in-each-tree-row/) | [C++](Trees/0515-find-largest-value-in-each-tree-row/0515-find-largest-value-in-each-tree-row.cpp) |
 | 0516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0516-longest-palindromic-subsequence/) | [C++](DynamicProgramming/0516-longest-palindromic-subsequence/0516-longest-palindromic-subsequence.cpp) |
 | 0540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0540-single-element-in-a-sorted-array/) | [C++](BinarySearch/0540-single-element-in-a-sorted-array/0540-single-element-in-a-sorted-array.cpp) |
@@ -796,7 +798,7 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (44)
+### 🌳 [Trees & Binary Search Trees](Trees/) (45)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -821,6 +823,7 @@ public:
 | 0199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | 🟡 `Medium` | [Problem Notes](Trees/0199-binary-tree-right-side-view/) | [App 1](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.cpp) · [App 2](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-2-bfs.cpp "BFS(Level Order Traversal)") · [App 3](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-3-dfs.cpp "DFS(Preorder Traversal)") |
 | 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/0236-lowest-common-ancestor-of-a-binary-tree/) | [C++](Trees/0236-lowest-common-ancestor-of-a-binary-tree/0236-lowest-common-ancestor-of-a-binary-tree.cpp) |
 | 0450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst) | 🟡 `Medium` | [Problem Notes](Trees/0450-delete-node-in-a-bst/) | [C++](Trees/0450-delete-node-in-a-bst/0450-delete-node-in-a-bst.cpp) |
+| 0513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | 🟡 `Medium` | [Problem Notes](Trees/0513-find-bottom-left-tree-value/) | [C++](Trees/0513-find-bottom-left-tree-value/0513-find-bottom-left-tree-value.cpp) |
 | 0515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) | 🟡 `Medium` | [Problem Notes](Trees/0515-find-largest-value-in-each-tree-row/) | [C++](Trees/0515-find-largest-value-in-each-tree-row/0515-find-largest-value-in-each-tree-row.cpp) |
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | 🟢 `Easy` | [Problem Notes](Trees/0543-diameter-of-binary-tree/) | [C++](Trees/0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.cpp) |
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 `Easy` | [Problem Notes](Trees/0572-subtree-of-another-tree/) | [C++](Trees/0572-subtree-of-another-tree/0572-subtree-of-another-tree.cpp) |
@@ -1021,23 +1024,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0513-find-bottom-left-tree-value](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0513-find-bottom-left-tree-value) |
-## Depth-First Search
-|  |
-| ------- |
-| [0513-find-bottom-left-tree-value](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0513-find-bottom-left-tree-value) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0513-find-bottom-left-tree-value](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0513-find-bottom-left-tree-value) |
-## Binary Tree
-|  |
-| ------- |
-| [0513-find-bottom-left-tree-value](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0513-find-bottom-left-tree-value) |
-<!---LeetCode Topics End-->

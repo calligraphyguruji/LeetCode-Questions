@@ -1018,3 +1018,23 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Tree
+|  |
+| ------- |
+| [0979-distribute-coins-in-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0979-distribute-coins-in-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0979-distribute-coins-in-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0979-distribute-coins-in-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0979-distribute-coins-in-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0979-distribute-coins-in-binary-tree) |
+## DP on Trees
+|  |
+| ------- |
+| [0979-distribute-coins-in-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0979-distribute-coins-in-binary-tree) |
+<!---LeetCode Topics End-->

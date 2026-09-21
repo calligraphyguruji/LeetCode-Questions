@@ -11,6 +11,21 @@
  */
 class Solution {
 public:
+    //Approach : DFS(Preorder) + Bitmasking
+
+    //Time Complexity = O(N) =>
+    /* We visit every node exactly once.
+    * At each node, toggling a bit and checking the mask take O(1).
+    * Therefore, for N nodes: O(N)
+    */
+ 
+    //Space Compleixty = O(H) =>
+    /* H = height of the binary tree.
+    * The DFS recursion stack can go as deep as the tree height.
+    * The mask is passed by value, but it is only an integer, so each recursive call uses O(1) extra space. 
+    */
+
+
     int ans = 0; //initially no nodes are pseudo-palindromic because we haven't started traversing
 
     void dfs(TreeNode* node, int mask){ //Preorder DFS : root, left, right

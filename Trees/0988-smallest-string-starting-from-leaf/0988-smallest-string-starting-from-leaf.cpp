@@ -10,7 +10,22 @@
  * };
  */
 class Solution {
-public:
+public: 
+    //Approach : DFS (Depth-First Search) + Backtracking + String Comparison
+
+    //Time Complexity = O(N * N) => N nodes × O(N) path operations 
+    /* N = number of nodes.
+    * DFS visits every node → O(N).
+    * At each leaf, reversing/comparing the path can take up to O(N).
+    * In a highly skewed tree, there can be O(N) leaf/path processing in the worst-case analysis.
+    */
+
+    //Space Complexity = O(N) =>
+    /* path can contain up to N characters for a skewed tree.
+    * Recursive DFS call stack can also reach N.
+    */
+
+    
     void dfs(TreeNode* node, string& path, string& ans){
         //base-case
         if(node == NULL) return;

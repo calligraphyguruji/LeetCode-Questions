@@ -1033,3 +1033,19 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Tree
+|  |
+| ------- |
+| [1609-even-odd-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1609-even-odd-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1609-even-odd-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1609-even-odd-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [1609-even-odd-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1609-even-odd-tree) |
+<!---LeetCode Topics End-->

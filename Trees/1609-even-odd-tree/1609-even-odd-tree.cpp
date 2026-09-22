@@ -11,6 +11,25 @@
  */
 class Solution {
 public:
+    //Approach : BFS(Level Order Traversal)
+
+    //Time Complexity = O(n) =>
+    /* n = total number of nodes in the tree.
+    * BFS visits each node exactly once.
+    * For every node, we perform only constant-time operations:
+        * Check odd/even value → O(1)
+        * Compare with prev → O(1)
+        * Push/pop from queue → O(1)
+    */
+
+    //Space Complexity = O(n) =>
+    /* We use a queue for BFS to store nodes that are waiting to be processed.
+    * In the worst case, the tree can be skewed or have a very large level.
+    * The queue can contain up to N/2 nodes at once.
+    * prev, level, and N use only O(1) extra space.
+    */
+
+
     bool isEvenOddTree(TreeNode* root) {
         //Step-1.
         queue<TreeNode*> q;

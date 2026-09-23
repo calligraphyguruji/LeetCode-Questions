@@ -11,7 +11,32 @@
  */
 class Solution {
 public:
+    //Approach : HashMap + ChildSet
+
+    //Time Complexity = O(n) =>
+    /* There are two main parts:
+    1. Processing all descriptions : O(n)
+        for (auto& d : descriptions)
+            There are N descriptions, and each operation inside the loop is average O(1) because we use unordered_map and unordered_set.
+
+    2. Finding the root : O(n)
+        for (auto& it : map)
+                There can be at most N + 1 unique nodes, so this takes O(N).
     
+    */
+
+    //Space Complexity = O(n) =>
+    /* We use two extra data structures:
+    1. unordered_map<int, TreeNode*> map
+        * Stores every unique node.
+        * A binary tree with N descriptions can have at most N + 1 nodes.
+        * Space: O(N)
+    2. unordered_set<int> childSet
+        * Stores every node that appears as a child.
+        * At most N values.
+        * Space: O(N)
+    */
+
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
         
         //1.)

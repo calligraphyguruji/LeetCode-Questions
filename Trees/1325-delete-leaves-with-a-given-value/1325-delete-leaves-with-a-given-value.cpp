@@ -11,6 +11,26 @@
  */
 class Solution {
 public:
+
+    //Approach : DFS (Postorder)
+
+    //Time Complexity = O(n) =>
+    /* Suppose the tree has N nodes.
+    * In the DFS, each node is visited exactly once.
+    * At every node, we do only constant-time operations:
+        * Check left subtree
+        * Check right subtree
+        * Check whether it is a leaf
+        * Compare node->val with target
+    * So : N nodes × O(1) work per node = O(N)
+    */
+
+    //Space Complexity = O(h) =>
+    /* The algorithm uses recursion, so the extra space comes from the recursion call stack.
+    * h = height of the binary tree.
+    * At any moment, the recursion stack contains at most h nodes.
+    */
+
     TreeNode* removeLeafNodes(TreeNode* root, int target) {
         
         //base-case

@@ -1036,3 +1036,23 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2196-create-binary-tree-from-descriptions) |
+## Hash Table
+|  |
+| ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2196-create-binary-tree-from-descriptions) |
+## Tree
+|  |
+| ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2196-create-binary-tree-from-descriptions) |
+## Binary Tree
+|  |
+| ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2196-create-binary-tree-from-descriptions) |
+<!---LeetCode Topics End-->

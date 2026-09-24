@@ -39,10 +39,10 @@ public:
 
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
         
-        //1.)
+        //1.)map to store val -> node
         unordered_map<int, TreeNode*> map;
 
-        //2.)
+        //2.) childset to store all the children
         unordered_set<int> childSet;
 
         //3.) traverse every description

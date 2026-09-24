@@ -24,10 +24,10 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-69_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-70_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-183_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-184_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
     <img src="https://img.shields.io/badge/Problems_Solved-204-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
@@ -40,8 +40,8 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 | 🟡 **Medium** | 140 | 68.6% |
 | 🔴 **Hard** | 21 | 10.3% |
 | 🎯 **Total Solved** | **204** | **100%** |
-| 🔥 **Current Streak** | **69 Days** | — |
-| 📅 **Total Active Days** | **183 Days** | — |
+| 🔥 **Current Streak** | **70 Days** | — |
+| 📅 **Total Active Days** | **184 Days** | — |
 
 </div>
 

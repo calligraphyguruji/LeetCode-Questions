@@ -13,6 +13,22 @@ class Solution {
 public:
     //Approach : Root-to-Node Path(DFS) + LCA(Lowest Common Ancestor)
     
+    //Time Complexity = O(n) = O(n) + O(n) + O(n) =>
+    /* There are three main operations:
+        1. DFS for startValue → O(n) in the worst case.
+        2. DFS for destValue → O(n) in the worst case.
+        3. Compare the two paths + construct answer → O(h), where h ≤ n.
+    */
+
+    //Space Complexity = O(n) = O(n) + O(n) + O(n) =>
+    /* There are mainly three things using extra space:
+    1. startPath → stores the path from root to startValue.
+        * In the worst case, the tree can be skewed, so it can contain O(n) characters.
+    2. destPath → stores the path from root to destValue.
+        * Again, at most O(n) characters.
+    3. DFS recursion stack → In the worst case, the tree can be completely skewed, giving a recursion depth of O(n).
+    */
+
     bool dfs(TreeNode* root, int target, string& path){//finds Root-to-Node path
         //base-case
         if(root == NULL) return false;

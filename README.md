@@ -1039,3 +1039,31 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Tree
+|  |
+| ------- |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Depth-First Search
+|  |
+| ------- |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Binary Tree
+|  |
+| ------- |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Binary Lifting
+|  |
+| ------- |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Lowest Common Ancestor
+|  |
+| ------- |
+| [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+<!---LeetCode Topics End-->

@@ -11,7 +11,27 @@
  */
 class Solution {
 public:
+    //Approach : Postorder DFS + Tree Dynamic Programming (Distance Tracking)
 
+    //Time Complexity = O(N × D²) = O(N × 10²) = O(100N) ≈ O(N) => D ≤ 10
+    /* At each node, we compare leaf distances from the left and right subtrees.
+    * DFS visits every node → O(N)
+    * At a node, comparing distances can take up to O(D²) because we only store distances up to distance.
+    * Updating the distance lists also takes O(D).
+    * Therefore:
+    * Time Complexity: O(N × D²)
+    * Since distance ≤ 10, this is effectively very efficient:
+    * O(N × 10²) = O(100N) ≈ O(N)
+    */
+
+
+    //Space Complexity = O(n + d ) = O(n + 10) = O(n) => d ≤ 10
+    /* We store the distances of leaf nodes at each level of the recursion.
+    * Since we only keep distances up to distance, and distance ≤ 10, the list can contain at most O(10) distances.
+    * The recursion stack can go up to N in the worst case (skewed tree).
+    * Therefore : SC = O(N + D) = O(N + 10)
+    */
+    
     vector<int> dfs(TreeNode* root, int distance, int& ans){
        
         //1.) Handle leaf nodes

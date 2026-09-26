@@ -11,6 +11,25 @@
  */
 class Solution {
 public:
+    //Approach : BFS(level order traversal)
+
+    //Time Complexity = O(N) =>
+    /* There are two main operations at every level:
+    1. Calculating levelSum: 
+        Every node is visited once across all levels → O(N).
+    2. Updating the nodes:
+        Again, every node is processed once across all levels → O(N).
+    */
+
+    //Space Compleixty = O(N) =>
+    /*We use:
+    1. Queue q to store nodes of the current/next level.
+        * In the worst case, a level can contain about N/2 nodes in a balanced binary tree.
+        * So: O(N)
+    2. Temporary queue temp:
+        This creates another copy of the current level.
+        * Worst case: O(N)
+    */
     void bfs(TreeNode* root){
         //base-case
         if(!root) return;

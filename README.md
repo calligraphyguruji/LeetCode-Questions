@@ -1051,27 +1051,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [2641-cousins-in-binary-tree-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2641-cousins-in-binary-tree-ii) |
-## Tree
-|  |
-| ------- |
-| [2641-cousins-in-binary-tree-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2641-cousins-in-binary-tree-ii) |
-## Depth-First Search
-|  |
-| ------- |
-| [2641-cousins-in-binary-tree-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2641-cousins-in-binary-tree-ii) |
-## Breadth-First Search
-|  |
-| ------- |
-| [2641-cousins-in-binary-tree-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2641-cousins-in-binary-tree-ii) |
-## Binary Tree
-|  |
-| ------- |
-| [2641-cousins-in-binary-tree-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2641-cousins-in-binary-tree-ii) |
-<!---LeetCode Topics End-->

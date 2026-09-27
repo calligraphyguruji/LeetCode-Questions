@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-187_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-208-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-209-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 43 | 20.7% |
-| 🟡 **Medium** | 144 | 69.2% |
-| 🔴 **Hard** | 21 | 10.1% |
-| 🎯 **Total Solved** | **208** | **100%** |
+| 🟢 **Easy** | 43 | 20.6% |
+| 🟡 **Medium** | 145 | 69.4% |
+| 🔴 **Hard** | 21 | 10.0% |
+| 🎯 **Total Solved** | **209** | **100%** |
 | 🔥 **Current Streak** | **73 Days** | — |
 | 📅 **Total Active Days** | **187 Days** | — |
 
@@ -238,6 +238,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning) | 🟡 `Medium` | [C++](Trees/0814-binary-tree-pruning/0814-binary-tree-pruning.cpp) | Bottom-up postorder DFS recursively removing subtrees that do not contain a 1 |
 | 0863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 `Medium` | [C++](Trees/0863-all-nodes-distance-k-in-binary-tree/0863-all-nodes-distance-k-in-binary-tree.cpp) | Parent Mapping (DFS) + BFS (Level Order Traversal) in $O(n)$ time |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 `Easy` | [C++](Trees/0872-leaf-similar-trees/0872-leaf-similar-trees.cpp) | DFS leaf-node collection comparing leaf value sequences of both binary trees |
+| 0951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 `Medium` | [C++](Trees/0951-flip-equivalent-binary-trees/0951-flip-equivalent-binary-trees.cpp) | Recursive DFS tree traversal with depth and invariant validation |
 | 0958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | 🟡 `Medium` | [C++](Trees/0958-check-completeness-of-a-binary-tree/0958-check-completeness-of-a-binary-tree.cpp) | Level-order BFS verifying no non-null node appears after the first null node is encountered |
 | 0979 | [Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree) | 🟡 `Medium` | [C++](Trees/0979-distribute-coins-in-binary-tree/0979-distribute-coins-in-binary-tree.cpp) | DFS (Postorder) in $O(n)$ time |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal) | 🟡 `Medium` | [C++](BinarySearch/1008-construct-binary-search-tree-from-preorder-traversal/1008-construct-binary-search-tree-from-preorder-traversal.cpp) | Monotonic upper-bound recursive BST reconstruction in $O(n)$ |
@@ -485,7 +486,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
-│   └── ... (53 problems)
+│   └── ... (54 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -709,6 +710,7 @@ public:
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0901-online-stock-span/) | [C++](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0912-sort-an-array/) | [C++](Heaps/0912-sort-an-array/0912-sort-an-array.cpp) |
 | 0947 | [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0947-most-stones-removed-with-same-row-or-column/) | [C++](Graphs/0947-most-stones-removed-with-same-row-or-column/0947-most-stones-removed-with-same-row-or-column.cpp) |
+| 0951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0951-flip-equivalent-binary-trees/) | [C++](Trees/0951-flip-equivalent-binary-trees/0951-flip-equivalent-binary-trees.cpp) |
 | 0958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0958-check-completeness-of-a-binary-tree/) | [C++](Trees/0958-check-completeness-of-a-binary-tree/0958-check-completeness-of-a-binary-tree.cpp) |
 | 0979 | [Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0979-distribute-coins-in-binary-tree/) | [C++](Trees/0979-distribute-coins-in-binary-tree/0979-distribute-coins-in-binary-tree.cpp) |
 | 0988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0988-smallest-string-starting-from-leaf/) | [C++](Trees/0988-smallest-string-starting-from-leaf/0988-smallest-string-starting-from-leaf.cpp) |
@@ -816,7 +818,7 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (53)
+### 🌳 [Trees & Binary Search Trees](Trees/) (54)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -851,6 +853,7 @@ public:
 | 0814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning) | 🟡 `Medium` | [Problem Notes](Trees/0814-binary-tree-pruning/) | [C++](Trees/0814-binary-tree-pruning/0814-binary-tree-pruning.cpp) |
 | 0863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 `Medium` | [Problem Notes](Trees/0863-all-nodes-distance-k-in-binary-tree/) | [C++](Trees/0863-all-nodes-distance-k-in-binary-tree/0863-all-nodes-distance-k-in-binary-tree.cpp) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 `Easy` | [Problem Notes](Trees/0872-leaf-similar-trees/) | [C++](Trees/0872-leaf-similar-trees/0872-leaf-similar-trees.cpp) |
+| 0951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 `Medium` | [Problem Notes](Trees/0951-flip-equivalent-binary-trees/) | [C++](Trees/0951-flip-equivalent-binary-trees/0951-flip-equivalent-binary-trees.cpp) |
 | 0958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/0958-check-completeness-of-a-binary-tree/) | [C++](Trees/0958-check-completeness-of-a-binary-tree/0958-check-completeness-of-a-binary-tree.cpp) |
 | 0979 | [Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/0979-distribute-coins-in-binary-tree/) | [C++](Trees/0979-distribute-coins-in-binary-tree/0979-distribute-coins-in-binary-tree.cpp) |
 | 0988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf) | 🟡 `Medium` | [Problem Notes](Trees/0988-smallest-string-starting-from-leaf/) | [C++](Trees/0988-smallest-string-starting-from-leaf/0988-smallest-string-starting-from-leaf.cpp) |
@@ -1051,19 +1054,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0951-flip-equivalent-binary-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0951-flip-equivalent-binary-trees) |
-## Depth-First Search
-|  |
-| ------- |
-| [0951-flip-equivalent-binary-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0951-flip-equivalent-binary-trees) |
-## Binary Tree
-|  |
-| ------- |
-| [0951-flip-equivalent-binary-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0951-flip-equivalent-binary-trees) |
-<!---LeetCode Topics End-->

@@ -11,7 +11,17 @@
  */
 class Solution {
 public:
-  
+    //Approach : Recusive DFS
+
+    //Time Complexity = O(n) =>
+    /* Each node is compared a constant number of times, so the total work is linear.
+    */
+
+    //Space Complexity = O(n) => 
+    /* due to the recursive call stack in the worst case.
+    * We don’t use any extra data structure like an array, queue, or map; the O(N) space comes from recursion.
+    */
+
     bool dfs(TreeNode* root1, TreeNode* root2){
         //2.) base-cases
         if(!root1 && !root2){

@@ -24,10 +24,10 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-72_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-73_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-186_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-187_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
     <img src="https://img.shields.io/badge/Problems_Solved-208-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
@@ -40,8 +40,8 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 | 🟡 **Medium** | 144 | 69.2% |
 | 🔴 **Hard** | 21 | 10.1% |
 | 🎯 **Total Solved** | **208** | **100%** |
-| 🔥 **Current Streak** | **72 Days** | — |
-| 📅 **Total Active Days** | **186 Days** | — |
+| 🔥 **Current Streak** | **73 Days** | — |
+| 📅 **Total Active Days** | **187 Days** | — |
 
 </div>
 
@@ -450,7 +450,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) | KMP Longest Proper Prefix which is also Suffix (LPS array) computation |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) | Stack-based or string buffer matching and popping target substring |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) | Direct single-pass calculation of tickets processed before position $k$ |
-| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) | Optimal Math & Number Theory approach with clean asymptotic complexity |
+| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) | Why do you need approach in adding two numbers just simply add? in $O(1)$ time |
 
 
 ---

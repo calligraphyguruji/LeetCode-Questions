@@ -1051,3 +1051,19 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Tree
+|  |
+| ------- |
+| [0951-flip-equivalent-binary-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0951-flip-equivalent-binary-trees) |
+## Depth-First Search
+|  |
+| ------- |
+| [0951-flip-equivalent-binary-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0951-flip-equivalent-binary-trees) |
+## Binary Tree
+|  |
+| ------- |
+| [0951-flip-equivalent-binary-trees](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0951-flip-equivalent-binary-trees) |
+<!---LeetCode Topics End-->

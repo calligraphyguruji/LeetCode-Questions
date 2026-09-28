@@ -92,7 +92,6 @@ To make revision structured and interview preparation fast, every question is in
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 🟡 `Medium` | [C++](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) | Left and right pointers swapping mirror elements towards the center |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) | Read/write two-pointer technique for in-place run-length encoding |
-| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 
 <a id="-sliding-window"></a>
 ### 🪟 Sliding Window (Fixed & Minimum Window)
@@ -135,6 +134,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 `Easy` | [C++](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) | Two-pass frequency mapping to detect first element with frequency 1 |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 `Medium` | [C++](Arrays/0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.cpp) | Prefix sum array paired with hash map of prefix frequencies: find count of $(prefix - k)$ in $O(n)$ |
 | 0652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) | 🟡 `Medium` | [C++](Trees/0652-find-duplicate-subtrees/0652-find-duplicate-subtrees.cpp) | Postorder DFS + Subtree Serialization using Unique IDs + HashMap Frequency Counting in $O(n \log n)$ time |
+| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) | Prefix Sum (Running Sum) in $O(n)$ time |
 | 1594 | [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix) | 🟡 `Medium` | [C++](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/1594-maximum-non-negative-product-in-a-matrix.cpp) | Prefix state matrix tracking both minimum (negative) and maximum products |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) | Frequency array / mathematical sum and square-sum formulas to pinpoint missing and duplicate numbers |
 

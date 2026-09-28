@@ -92,7 +92,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 🟡 `Medium` | [C++](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) | Left and right pointers swapping mirror elements towards the center |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) | Read/write two-pointer technique for in-place run-length encoding |
-| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
+| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) | Array Splitting + Two-Array Traversal in $O(n)$ time |
 
 <a id="-sliding-window"></a>
 ### 🪟 Sliding Window (Fixed & Minimum Window)

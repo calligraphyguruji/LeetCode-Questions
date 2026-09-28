@@ -1,5 +1,21 @@
 class Solution {
 public:
+    //Approach : Array Splitting + Two-Array Traversal
+
+    //Time Complexity = O(N) => O(N) + O(N) + O(N) = O(3N) = O(N)
+    /* There are 3 loops, but they run one after another:
+    1. First loop → copies N elements into x → O(N)
+    2. Second loop → copies N elements into y → O(N)
+    3. Third loop → adds 2N elements to ans → O(N)
+    */
+
+    //Space Complexity = O(N) => O(N) + O(N) + O(2N )= 4N = O(N)
+    /* We create 3 vectors:
+    * x → N elements
+    * y → N elements
+    * ans → 2N elements
+    */
+
     vector<int> shuffle(vector<int>& nums, int n) {
         
         //1.) Define all the necessary arrays

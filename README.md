@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-188_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-210-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-211-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 44 | 21.0% |
-| 🟡 **Medium** | 145 | 69.0% |
+| 🟢 **Easy** | 45 | 21.3% |
+| 🟡 **Medium** | 145 | 68.7% |
 | 🔴 **Hard** | 21 | 10.0% |
-| 🎯 **Total Solved** | **210** | **100%** |
+| 🎯 **Total Solved** | **211** | **100%** |
 | 🔥 **Current Streak** | **74 Days** | — |
 | 📅 **Total Active Days** | **188 Days** | — |
 
@@ -92,6 +92,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 🟡 `Medium` | [C++](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) | Left and right pointers swapping mirror elements towards the center |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) | Read/write two-pointer technique for in-place run-length encoding |
+| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 
 <a id="-sliding-window"></a>
 ### 🪟 Sliding Window (Fixed & Minimum Window)
@@ -514,7 +515,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (46 problems)
+│   └── ... (47 problems)
 ```
 
 Each problem folder contains:
@@ -740,6 +741,7 @@ public:
 | 1420 | [Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | [C++](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons.cpp) |
 | 1443 | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/) | [C++](Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/1443-minimum-time-to-collect-all-apples-in-a-tree.cpp) |
 | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/) | [C++](Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/1457-pseudo-palindromic-paths-in-a-binary-tree.cpp) |
+| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1470-shuffle-the-array/) | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1480-running-sum-of-1d-array/) | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) |
 | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/) | [C++](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/1519-number-of-nodes-in-the-sub-tree-with-the-same-label.cpp) |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1530-number-of-good-leaf-nodes-pairs/) | [C++](Trees/1530-number-of-good-leaf-nodes-pairs/1530-number-of-good-leaf-nodes-pairs.cpp) |
@@ -982,7 +984,7 @@ public:
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (46)
+### 📦 [Arrays & Hashing](Arrays/) (47)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1029,6 +1031,7 @@ public:
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0876-middle-of-the-linked-list/) | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | 🟡 `Medium` | [Problem Notes](Arrays/0901-online-stock-span/) | [C++](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [Problem Notes](Arrays/1392-longest-happy-prefix/) | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) |
+| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [Problem Notes](Arrays/1470-shuffle-the-array/) | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [Problem Notes](Arrays/1480-running-sum-of-1d-array/) | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [Problem Notes](Arrays/1910-remove-all-occurrences-of-a-substring/) | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [Problem Notes](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
@@ -1057,11 +1060,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1470-shuffle-the-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1470-shuffle-the-array) |
-<!---LeetCode Topics End-->

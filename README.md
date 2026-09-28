@@ -1057,3 +1057,11 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1470-shuffle-the-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1470-shuffle-the-array) |
+<!---LeetCode Topics End-->

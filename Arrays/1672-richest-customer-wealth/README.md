@@ -41,3 +41,11 @@ The 2nd customer is the richest with a wealth of 10.</pre>
 	<li><code>1 &lt;= m, n &lt;= 50</code></li>
 	<li><code>1 &lt;= accounts[i][j] &lt;= 100</code></li>
 </ul>
+<!---LeetCode Approaches Start-->
+<hr>
+<h3>💡 Solutions & Approaches</h3>
+
+- [Approach 1 (C++)](1672-richest-customer-wealth.cpp)
+- [Approach 2 (C++)](1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp) — *2D Array Traversal + Row Sum*
+
+<!---LeetCode Approaches End-->

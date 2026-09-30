@@ -94,7 +94,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) | Read/write two-pointer technique for in-place run-length encoding |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) | Array Splitting + Two-Array Traversal in $O(n)$ time |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") | 2D Array Traversal + Row Sum in $O(m * n)$ time |
-| 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
+| 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) | Direct Indexing / Array mapping in $O(n)$ time |
 
 <a id="-sliding-window"></a>
 ### 🪟 Sliding Window (Fixed & Minimum Window)

@@ -1,5 +1,22 @@
 class Solution {
 public:
+    //Approach : Direct Indexing / Array mapping
+    
+    //Time Complexity = O(n) =>
+    /* We traverse the nums array once using a single for loop.
+    * For each element, we perform:
+        nums[nums[i]]
+    * Array indexing takes O(1) time.
+    * Therefore: N iterations × O(1) work = O(N)
+    */
+
+    //Space Complexity = O(n) =>
+    /* We create a separate ans vector to store the result.
+    * If nums has N elements, ans will also contain N elements.
+    * So the extra space used is:
+        N elements → O(N)
+    */
+
     vector<int> buildArray(vector<int>& nums) {
         
         //Just go through the question

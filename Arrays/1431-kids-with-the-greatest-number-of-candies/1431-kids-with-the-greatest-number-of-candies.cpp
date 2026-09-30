@@ -1,5 +1,20 @@
 class Solution {
 public:
+    //Approach :  Find Maximum + Linear Traversal
+
+    //Time Complexity = O(n) =>
+    /* There are 2 loops:
+    1. First loop finds the maximum:
+        * Runs n times → O(n)
+    2. Second loop checks each kid:
+        * Runs n times → O(n)
+    */
+
+    //Space Complexity = O(n) =>
+    /* We create a boolean result array.
+    * It stores n boolean values.
+    */
+
     vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
         
         int n = candies.size();

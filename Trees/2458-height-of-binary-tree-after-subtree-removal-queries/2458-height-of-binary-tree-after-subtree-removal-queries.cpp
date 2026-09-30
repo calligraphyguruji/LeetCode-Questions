@@ -11,6 +11,30 @@
  */
 class Solution {
 public:
+    //Approach : DFS + Tree DP(Rerooting DP using DFS)
+
+    //Time Complexity = O(n + m) => n = number of nodes in the tree,     m = number of queries
+    /* We perform 3 main operations:
+    1. First DFS — calcHeight() :
+        Every node is visited exactly once. => TC : O(n)
+    2. Second DFS — calcAns() :
+        Again, every node is visited exactly once. => TC : O(n)
+    3. Process queries using loop :
+        We directly access ans[q], so each query takes O(1).
+        For m queries: TC = O(m)
+    */
+
+    //Space Complexity = O(n) => O(3n) = O(n + n + n)
+    /* We use three arrays:
+    * vector<int> depth;
+    * vector<int> subtreeHeight;
+    * vector<int> ans;
+    * Each has size n + 1.
+    depth          → O(n)
+    subtreeHeight  → O(n)
+    ans            → O(n)
+
+    */
 
     //global depth, subtreeHeight, ans
     vector<int> depth;

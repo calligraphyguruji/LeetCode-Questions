@@ -1075,3 +1075,23 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Tree
+|  |
+| ------- |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
+<!---LeetCode Topics End-->

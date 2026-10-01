@@ -1,37 +1,46 @@
 class Solution {
 public:
-    //Approach : Brute Force / Nested Loop Comparison
+    //Optimal Approach : Frequency Counting
 
-    //Time Complexity = O(n * n) =>
-    /* We use two nested loops:
-    *   for(int i = 0; i < n; i++) {
-            for(int j = 0; j < n; j++) {
+    //Time Complexity = O(n) =>
+    /* Count frequencies → O(N)
+    * Prefix sum → O(100), which is constant
+    * Build answer → O(n)
     */
 
     //Space Complexity = O(n) =>
     /* We create: vector<int> ans;
     * The answer array stores n elements.
+    * freq array → O(100), effectively constant
     */
 
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-        
+    
         int n = nums.size();
+
+        vector<int> freq(101, 0);//because the values are limited to 0–100.
+
+        //count the frequency of each number
+        for(int num : nums){
+            freq[num]++;
+        }
+
+        //convert freq into prefix count
+        for(int i = 1; i <= 100; i++){
+            freq[i] += freq[i-1];
+        }
 
         vector<int> ans; //to store output
 
-        
-        for(int i = 0; i < n; i++){
+        //find how many numbers are smaller
+        for(int num : nums){
             
-            //reset count after every next ith element
-            int count = 0; //to count how many numbers are smaller
-
-            for(int j = 0; j < n; j++){
-
-                if(j != i && nums[j] < nums[i]){
-                    count++;
-                }
+            if(num == 0){
+                ans.push_back(0);
             }
-            ans.push_back(count);
+            else{
+                ans.push_back(freq[num-1]);
+            }
         }
         
         //finally return the output

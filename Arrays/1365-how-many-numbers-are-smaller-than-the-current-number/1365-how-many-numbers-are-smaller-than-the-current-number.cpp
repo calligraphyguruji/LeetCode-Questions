@@ -1,5 +1,18 @@
 class Solution {
 public:
+    //Approach : Brute Force / Nested Loop Comparison
+
+    //Time Complexity = O(n * n) =>
+    /* We use two nested loops:
+    *   for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+    */
+
+    //Space Complexity = O(n) =>
+    /* We create: vector<int> ans;
+    * The answer array stores n elements.
+    */
+
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
         
         int n = nums.size();

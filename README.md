@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-191_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-216-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-217-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 49 | 22.7% |
-| 🟡 **Medium** | 145 | 67.1% |
-| 🔴 **Hard** | 22 | 10.2% |
-| 🎯 **Total Solved** | **216** | **100%** |
+| 🟢 **Easy** | 49 | 22.6% |
+| 🟡 **Medium** | 146 | 67.3% |
+| 🔴 **Hard** | 22 | 10.1% |
+| 🎯 **Total Solved** | **217** | **100%** |
 | 🔥 **Current Streak** | **77 Days** | — |
 | 📅 **Total Active Days** | **191 Days** | — |
 
@@ -267,6 +267,7 @@ To make revision structured and interview preparation fast, every question is in
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) | Tree DP returning longest branch and updating top-2 branch sum |
 | 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree) | 🟡 `Medium` | [C++](Trees/2265-count-nodes-equal-to-average-of-subtree/2265-count-nodes-equal-to-average-of-subtree.cpp) | DFS (Postorder) in $O(n)$ time |
 | 2385 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected) | 🟡 `Medium` | [C++](Trees/2385-amount-of-time-for-binary-tree-to-be-infected/2385-amount-of-time-for-binary-tree-to-be-infected.cpp) | Parent map (DFS) + BFS in $O(n)$ time |
+| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree) | 🟡 `Medium` | [C++](Trees/2415-reverse-odd-levels-of-binary-tree/2415-reverse-odd-levels-of-binary-tree.cpp) | BFS (level order) + Two-Pointer Reversal (left & right) |
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) | 🔴 `Hard` | [C++](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/2458-height-of-binary-tree-after-subtree-removal-queries.cpp) | DFS + Tree DP (Rerooting DP using DFS) in $O(n + m)$ time |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) | BFS (level order traversal) in $O(n)$ time |
 
@@ -493,7 +494,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
-│   └── ... (55 problems)
+│   └── ... (56 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -775,6 +776,7 @@ public:
 | 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2265-count-nodes-equal-to-average-of-subtree/) | [C++](Trees/2265-count-nodes-equal-to-average-of-subtree/2265-count-nodes-equal-to-average-of-subtree.cpp) |
 | 2316 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [C++](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.cpp) |
 | 2385 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2385-amount-of-time-for-binary-tree-to-be-infected/) | [C++](Trees/2385-amount-of-time-for-binary-tree-to-be-infected/2385-amount-of-time-for-binary-tree-to-be-infected.cpp) |
+| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2415-reverse-odd-levels-of-binary-tree/) | [C++](Trees/2415-reverse-odd-levels-of-binary-tree/2415-reverse-odd-levels-of-binary-tree.cpp) |
 | 2421 | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths) | 🔴 `Hard` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2421-number-of-good-paths/) | [C++](Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp) |
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/) | [C++](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/2458-height-of-binary-tree-after-subtree-removal-queries.cpp) |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2596-check-knight-tour-configuration/) | [C++](Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp) |
@@ -832,7 +834,7 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (55)
+### 🌳 [Trees & Binary Search Trees](Trees/) (56)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -889,6 +891,7 @@ public:
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [Problem Notes](Trees/2246-longest-path-with-different-adjacent-characters/) | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
 | 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree) | 🟡 `Medium` | [Problem Notes](Trees/2265-count-nodes-equal-to-average-of-subtree/) | [C++](Trees/2265-count-nodes-equal-to-average-of-subtree/2265-count-nodes-equal-to-average-of-subtree.cpp) |
 | 2385 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected) | 🟡 `Medium` | [Problem Notes](Trees/2385-amount-of-time-for-binary-tree-to-be-infected/) | [C++](Trees/2385-amount-of-time-for-binary-tree-to-be-infected/2385-amount-of-time-for-binary-tree-to-be-infected.cpp) |
+| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/2415-reverse-odd-levels-of-binary-tree/) | [C++](Trees/2415-reverse-odd-levels-of-binary-tree/2415-reverse-odd-levels-of-binary-tree.cpp) |
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) | 🔴 `Hard` | [Problem Notes](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/) | [C++](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/2458-height-of-binary-tree-after-subtree-removal-queries.cpp) |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [Problem Notes](Trees/2641-cousins-in-binary-tree-ii/) | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) |
 
@@ -1075,23 +1078,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [2415-reverse-odd-levels-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
-## Depth-First Search
-|  |
-| ------- |
-| [2415-reverse-odd-levels-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
-## Breadth-First Search
-|  |
-| ------- |
-| [2415-reverse-odd-levels-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [2415-reverse-odd-levels-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2415-reverse-odd-levels-of-binary-tree) |
-<!---LeetCode Topics End-->

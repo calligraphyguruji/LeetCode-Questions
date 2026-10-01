@@ -12,6 +12,29 @@
 class Solution {
 public:
     //Approach : BFS(level order) + Two-Pointer Reversal(left & right)
+ 
+    //Time Complexity = O(n) => O(2n) = O(n) + O(n)
+    /* Where n = number of nodes in the tree.
+    1. We visit every node exactly once using BFS.
+        Every node enters the queue and is removed once.
+    2. Reversing odd levels:
+        For odd levels, we use two pointers:
+            If a level contains K nodes, this takes approximately K/2 operations → O(K)
+            Across all odd levels, the total number of nodes is at most n.
+    */
+
+    //Space Complexity = O(n) => O(2n) = O(n) + O(n)
+    /* We use two extra data structures: 
+    1. Queue : The queue stores nodes of the current/next level.
+    * In a perfect binary tree, the last level can contain roughly n/2 nodes.
+    * So the queue can require: O(n)
+    2. Vector : vector<TreeNode*> nodes;
+    * This stores all nodes of the current level.
+    * The largest level can contain roughly n/2 nodes.
+    * So: O(n)
+    */
+
+
     TreeNode* reverseOddLevels(TreeNode* root) {
         
         //1.) queue for BFS
@@ -59,10 +82,11 @@ public:
                     right--;
                 }
             }                
-            //current level completed
+            //4.) current level completed
             level++;
         }
-
+        
+        //5.)
         return root;
     }
 };

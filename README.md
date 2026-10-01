@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-76_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-77_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-190_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-191_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-215-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-216-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 48 | 22.3% |
-| 🟡 **Medium** | 145 | 67.4% |
+| 🟢 **Easy** | 49 | 22.7% |
+| 🟡 **Medium** | 145 | 67.1% |
 | 🔴 **Hard** | 22 | 10.2% |
-| 🎯 **Total Solved** | **215** | **100%** |
-| 🔥 **Current Streak** | **76 Days** | — |
-| 📅 **Total Active Days** | **190 Days** | — |
+| 🎯 **Total Solved** | **216** | **100%** |
+| 🔥 **Current Streak** | **77 Days** | — |
+| 📅 **Total Active Days** | **191 Days** | — |
 
 </div>
 
@@ -92,6 +92,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 🟡 `Medium` | [C++](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) | Left and right pointers swapping mirror elements towards the center |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) | Read/write two-pointer technique for in-place run-length encoding |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number) | 🟢 `Easy` | [C++](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 `Easy` | [C++](Arrays/1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.cpp) | Find Maximum + Linear Traversal in $O(n)$ time |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) | Array Splitting + Two-Array Traversal in $O(n)$ time |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") | 2D Array Traversal + Row Sum in $O(m * n)$ time |
@@ -519,7 +520,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (50 problems)
+│   └── ... (51 problems)
 ```
 
 Each problem folder contains:
@@ -740,6 +741,7 @@ public:
 | 1335 | [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/) | [C++](DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/1335-minimum-difficulty-of-a-job-schedule.cpp) |
 | 1339 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1339-maximum-product-of-splitted-binary-tree/) | [C++](Trees/1339-maximum-product-of-splitted-binary-tree/1339-maximum-product-of-splitted-binary-tree.cpp) |
 | 1361 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1361-validate-binary-tree-nodes/) | [C++](Trees/1361-validate-binary-tree-nodes/1361-validate-binary-tree-nodes.cpp) |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/) | [C++](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp) |
 | 1367 | [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1367-linked-list-in-binary-tree/) | [C++](Trees/1367-linked-list-in-binary-tree/1367-linked-list-in-binary-tree.cpp) |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1392-longest-happy-prefix/) | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) |
 | 1420 | [Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | [C++](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons.cpp) |
@@ -993,7 +995,7 @@ public:
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (50)
+### 📦 [Arrays & Hashing](Arrays/) (51)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1039,6 +1041,7 @@ public:
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string) | 🟡 `Medium` | [Problem Notes](Arrays/0567-permutation-in-string/) | [C++](Arrays/0567-permutation-in-string/0567-permutation-in-string.cpp) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0876-middle-of-the-linked-list/) | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | 🟡 `Medium` | [Problem Notes](Arrays/0901-online-stock-span/) | [C++](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number) | 🟢 `Easy` | [Problem Notes](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/) | [C++](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp) |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [Problem Notes](Arrays/1392-longest-happy-prefix/) | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 `Easy` | [Problem Notes](Arrays/1431-kids-with-the-greatest-number-of-candies/) | [C++](Arrays/1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.cpp) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [Problem Notes](Arrays/1470-shuffle-the-array/) | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) |
@@ -1072,23 +1075,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
-## Hash Table
-|  |
-| ------- |
-| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
-## Sorting
-|  |
-| ------- |
-| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
-## Counting Sort
-|  |
-| ------- |
-| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
-<!---LeetCode Topics End-->

@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Brute Force / Nested Loop
+
+    //Time Complexity = O(n²) =>
+    /* Outer loop runs n times.
+    * For each element, the inner loop may scan up to n elements.
+    * break can make it faster in practice, but worst case remains O(n²).
+    */
+
+    //Space Complexity = O(n) =>
+    /* ans stores n elements → O(n).
+    * No other significant extra space.
+    */
+
+
     vector<int> finalPrices(vector<int>& prices) {
         
         int n = prices.size();

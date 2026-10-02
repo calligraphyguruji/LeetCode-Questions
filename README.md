@@ -1081,3 +1081,31 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
+## Tree
+|  |
+| ------- |
+| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
+## Design
+|  |
+| ------- |
+| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
+<!---LeetCode Topics End-->

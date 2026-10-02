@@ -1087,19 +1087,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
-## Stack
-|  |
-| ------- |
-| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
-## Monotonic Stack
-|  |
-| ------- |
-| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
-<!---LeetCode Topics End-->

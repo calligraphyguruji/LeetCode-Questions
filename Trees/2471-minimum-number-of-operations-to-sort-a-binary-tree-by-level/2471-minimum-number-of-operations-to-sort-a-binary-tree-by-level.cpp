@@ -11,6 +11,23 @@
  */
 class Solution {
 public:
+    //Approach : BFS + Cycle detection
+
+    //Time Complexity = O(n * logn) =>
+    /* BFS visits every node → O(n)
+    * Sorting each level → overall worst case O(n log n)
+    * Cycle detection → O(n)
+    */
+
+    //Space Complexity = O(n) =>
+    /* BFS queue → O(n)
+    * nodes array → O(n)
+    * sortedLevel → O(n)
+    * indexMap → O(n)
+    * visited → O(n)
+    */
+
+    
     int minimumOperations(TreeNode* root) {
         
         int ans = 0;

@@ -11,6 +11,21 @@
  */
 class FindElements {
 public:
+    //Approach : DFS + HashSet
+
+    //Time Complexity = O(n + q) =>
+    /* Constructor / Recovery: O(n) — visit every node once.
+    * find(): O(1) average — unordered_set lookup.
+    * Overall: O(n + q) average, where n = number of nodes and q = number of find() calls.
+    */
+
+    //Space Complexity = O(n) =>
+    /* Hash Set: O(n)
+    * DFS recursion stack: O(h), where h is tree height.
+    * Overall: O(n + h), which is effectively O(n).
+    */
+
+
     unordered_set<int> values;
 
     void recover(TreeNode* root, int val){

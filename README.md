@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-192_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-218-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-219-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 49 | 22.5% |
-| 🟡 **Medium** | 147 | 67.4% |
-| 🔴 **Hard** | 22 | 10.1% |
-| 🎯 **Total Solved** | **218** | **100%** |
+| 🟢 **Easy** | 49 | 22.4% |
+| 🟡 **Medium** | 148 | 67.6% |
+| 🔴 **Hard** | 22 | 10.0% |
+| 🎯 **Total Solved** | **219** | **100%** |
 | 🔥 **Current Streak** | **78 Days** | — |
 | 📅 **Total Active Days** | **192 Days** | — |
 
@@ -252,6 +252,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree) | 🟡 `Medium` | [C++](BinarySearch/1038-binary-search-tree-to-greater-sum-tree/1038-binary-search-tree-to-greater-sum-tree.cpp) | Reverse inorder traversal (right-root-left) accumulating suffix sum |
 | 1110 | [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest) | 🟡 `Medium` | [C++](Trees/1110-delete-nodes-and-return-forest/1110-delete-nodes-and-return-forest.cpp) | Postorder DFS disconnecting deleted nodes with hash set lookup and adding non-null children as new tree roots |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 `Medium` | [C++](Trees/1161-maximum-level-sum-of-a-binary-tree/1161-maximum-level-sum-of-a-binary-tree.cpp) | BFS level summation tracking index with maximum aggregate sum |
+| 1261 | [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | 🟡 `Medium` | [C++](Trees/1261-find-elements-in-a-contaminated-binary-tree/1261-find-elements-in-a-contaminated-binary-tree.cpp) | Recursive DFS tree traversal with depth and invariant validation |
 | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value) | 🟡 `Medium` | [C++](Trees/1325-delete-leaves-with-a-given-value/1325-delete-leaves-with-a-given-value.cpp) | DFS (Postorder) in $O(n)$ time |
 | 1339 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree) | 🟡 `Medium` | [C++](Trees/1339-maximum-product-of-splitted-binary-tree/1339-maximum-product-of-splitted-binary-tree.cpp) | Subtree Sum + Complement Sum in $O(n)$ time |
 | 1361 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | 🟡 `Medium` | [C++](Trees/1361-validate-binary-tree-nodes/1361-validate-binary-tree-nodes.cpp) | Parent Count + Root Detection + DFS Connectivity in $O(n)$ time |
@@ -495,7 +496,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0014-longest-common-prefix/
 │   ├── 0094-binary-tree-inorder-traversal/
-│   └── ... (57 problems)
+│   └── ... (58 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -736,6 +737,7 @@ public:
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1143-longest-common-subsequence/) | [C++](DynamicProgramming/1143-longest-common-subsequence/1143-longest-common-subsequence.cpp) |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1161-maximum-level-sum-of-a-binary-tree/) | [C++](Trees/1161-maximum-level-sum-of-a-binary-tree/1161-maximum-level-sum-of-a-binary-tree.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
+| 1261 | [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1261-find-elements-in-a-contaminated-binary-tree/) | [C++](Trees/1261-find-elements-in-a-contaminated-binary-tree/1261-find-elements-in-a-contaminated-binary-tree.cpp) |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | [C++](DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/1312-minimum-insertion-steps-to-make-a-string-palindrome.cpp) |
 | 1319 | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1319-number-of-operations-to-make-network-connected/) | [C++](Graphs/1319-number-of-operations-to-make-network-connected/1319-number-of-operations-to-make-network-connected.cpp) |
 | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1325-delete-leaves-with-a-given-value/) | [C++](Trees/1325-delete-leaves-with-a-given-value/1325-delete-leaves-with-a-given-value.cpp) |
@@ -836,7 +838,7 @@ public:
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum) | 🟡 `Medium` | [Problem Notes](Backtracking/0494-target-sum/) | [C++](Backtracking/0494-target-sum/0494-target-sum.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [Problem Notes](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (57)
+### 🌳 [Trees & Binary Search Trees](Trees/) (58)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -878,6 +880,7 @@ public:
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | 🟡 `Medium` | [Problem Notes](Trees/1026-maximum-difference-between-node-and-ancestor/) | [Approach 1](Trees/1026-maximum-difference-between-node-and-ancestor/1026-maximum-difference-between-node-and-ancestor.cpp "Brute Force(Using two separate DFS)") · [Approach 2](Trees/1026-maximum-difference-between-node-and-ancestor/1026-maximum-difference-between-node-and-ancestor-approach-2-optimal.cpp "Optimal(DFS + Min/Max on Current Path)") |
 | 1110 | [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest) | 🟡 `Medium` | [Problem Notes](Trees/1110-delete-nodes-and-return-forest/) | [C++](Trees/1110-delete-nodes-and-return-forest/1110-delete-nodes-and-return-forest.cpp) |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/1161-maximum-level-sum-of-a-binary-tree/) | [C++](Trees/1161-maximum-level-sum-of-a-binary-tree/1161-maximum-level-sum-of-a-binary-tree.cpp) |
+| 1261 | [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | 🟡 `Medium` | [Problem Notes](Trees/1261-find-elements-in-a-contaminated-binary-tree/) | [C++](Trees/1261-find-elements-in-a-contaminated-binary-tree/1261-find-elements-in-a-contaminated-binary-tree.cpp) |
 | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value) | 🟡 `Medium` | [Problem Notes](Trees/1325-delete-leaves-with-a-given-value/) | [C++](Trees/1325-delete-leaves-with-a-given-value/1325-delete-leaves-with-a-given-value.cpp) |
 | 1339 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/1339-maximum-product-of-splitted-binary-tree/) | [C++](Trees/1339-maximum-product-of-splitted-binary-tree/1339-maximum-product-of-splitted-binary-tree.cpp) |
 | 1361 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | 🟡 `Medium` | [Problem Notes](Trees/1361-validate-binary-tree-nodes/) | [C++](Trees/1361-validate-binary-tree-nodes/1361-validate-binary-tree-nodes.cpp) |
@@ -1081,31 +1084,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
-## Tree
-|  |
-| ------- |
-| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
-## Depth-First Search
-|  |
-| ------- |
-| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
-## Breadth-First Search
-|  |
-| ------- |
-| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
-## Design
-|  |
-| ------- |
-| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
-<!---LeetCode Topics End-->

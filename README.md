@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-78_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-79_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-192_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-193_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-220-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-221-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 50 | 22.7% |
-| 🟡 **Medium** | 148 | 67.3% |
+| 🟢 **Easy** | 50 | 22.6% |
+| 🟡 **Medium** | 149 | 67.4% |
 | 🔴 **Hard** | 22 | 10.0% |
-| 🎯 **Total Solved** | **220** | **100%** |
-| 🔥 **Current Streak** | **78 Days** | — |
-| 📅 **Total Active Days** | **192 Days** | — |
+| 🎯 **Total Solved** | **221** | **100%** |
+| 🔥 **Current Streak** | **79 Days** | — |
+| 📅 **Total Active Days** | **193 Days** | — |
 
 </div>
 
@@ -305,6 +305,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) | 🟡 `Medium` | [Approach 1](Graphs/0841-keys-and-rooms/0841-keys-and-rooms.cpp "BFS(Breadth First Search)") · [Approach 2](Graphs/0841-keys-and-rooms/0841-keys-and-rooms-approach-2-dfs.cpp "DFS") | DFS/BFS room reachability check starting from room 0 |
 | 0886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | 🟡 `Medium` | [C++](Graphs/0886-possible-bipartition/0886-possible-bipartition.cpp) | Modeling dislikes as graph edges and checking 2-colorability |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph) | 🟢 `Easy` | [C++](Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp) | BFS/DFS or DSU to verify path between source and destination |
+| 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) | 🟡 `Medium` | [C++](Graphs/2359-find-closest-node-to-given-two-nodes/2359-find-closest-node-to-given-two-nodes.cpp) | Depth-first search (DFS) traversing graph connectivity and components |
 
 <a id="-topological-sort"></a>
 ### 🧭 Topological Sort (DAG Dependency Resolution)
@@ -501,7 +502,7 @@ LeetCode-Questions/
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
-│   └── ... (31 problems)
+│   └── ... (32 problems)
 ├── DynamicProgramming/
 │   ├── 0005-longest-palindromic-substring/
 │   ├── 0042-trapping-rain-water/
@@ -780,6 +781,7 @@ public:
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2246-longest-path-with-different-adjacent-characters/) | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
 | 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2265-count-nodes-equal-to-average-of-subtree/) | [C++](Trees/2265-count-nodes-equal-to-average-of-subtree/2265-count-nodes-equal-to-average-of-subtree.cpp) |
 | 2316 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [C++](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.cpp) |
+| 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2359-find-closest-node-to-given-two-nodes/) | [C++](Graphs/2359-find-closest-node-to-given-two-nodes/2359-find-closest-node-to-given-two-nodes.cpp) |
 | 2385 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2385-amount-of-time-for-binary-tree-to-be-infected/) | [C++](Trees/2385-amount-of-time-for-binary-tree-to-be-infected/2385-amount-of-time-for-binary-tree-to-be-infected.cpp) |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2415-reverse-odd-levels-of-binary-tree/) | [C++](Trees/2415-reverse-odd-levels-of-binary-tree/2415-reverse-odd-levels-of-binary-tree.cpp) |
 | 2421 | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths) | 🔴 `Hard` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2421-number-of-good-paths/) | [C++](Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp) |
@@ -903,7 +905,7 @@ public:
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) | 🟡 `Medium` | [Problem Notes](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | [C++](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp) |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [Problem Notes](Trees/2641-cousins-in-binary-tree-ii/) | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) |
 
-### 🕸️ [Graphs & BFS/DFS](Graphs/) (31)
+### 🕸️ [Graphs & BFS/DFS](Graphs/) (32)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -936,6 +938,7 @@ public:
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph) | 🟢 `Easy` | [Problem Notes](Graphs/1971-find-if-path-exists-in-graph/) | [C++](Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp) |
 | 1976 | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) | 🟡 `Medium` | [Problem Notes](Graphs/1976-number-of-ways-to-arrive-at-destination/) | [C++](Graphs/1976-number-of-ways-to-arrive-at-destination/1976-number-of-ways-to-arrive-at-destination.cpp) |
 | 2316 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph) | 🟡 `Medium` | [Problem Notes](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [C++](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.cpp) |
+| 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) | 🟡 `Medium` | [Problem Notes](Graphs/2359-find-closest-node-to-given-two-nodes/) | [C++](Graphs/2359-find-closest-node-to-given-two-nodes/2359-find-closest-node-to-given-two-nodes.cpp) |
 | 2421 | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths) | 🔴 `Hard` | [Problem Notes](Graphs/2421-number-of-good-paths/) | [C++](Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp) |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration) | 🟡 `Medium` | [Problem Notes](Graphs/2596-check-knight-tour-configuration/) | [C++](Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp) |
 
@@ -1087,15 +1090,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Depth-First Search
-|  |
-| ------- |
-| [2359-find-closest-node-to-given-two-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2359-find-closest-node-to-given-two-nodes) |
-## Graph Theory
-|  |
-| ------- |
-| [2359-find-closest-node-to-given-two-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2359-find-closest-node-to-given-two-nodes) |
-<!---LeetCode Topics End-->

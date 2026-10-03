@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-193_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-221-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-222-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 50 | 22.6% |
-| 🟡 **Medium** | 149 | 67.4% |
-| 🔴 **Hard** | 22 | 10.0% |
-| 🎯 **Total Solved** | **221** | **100%** |
+| 🟢 **Easy** | 50 | 22.5% |
+| 🟡 **Medium** | 150 | 67.6% |
+| 🔴 **Hard** | 22 | 9.9% |
+| 🎯 **Total Solved** | **222** | **100%** |
 | 🔥 **Current Streak** | **79 Days** | — |
 | 📅 **Total Active Days** | **193 Days** | — |
 
@@ -306,6 +306,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | 🟡 `Medium` | [C++](Graphs/0886-possible-bipartition/0886-possible-bipartition.cpp) | Modeling dislikes as graph edges and checking 2-colorability |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph) | 🟢 `Easy` | [C++](Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp) | BFS/DFS or DSU to verify path between source and destination |
 | 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) | 🟡 `Medium` | [C++](Graphs/2359-find-closest-node-to-given-two-nodes/2359-find-closest-node-to-given-two-nodes.cpp) | Distance Tracking/ Graph Traversal in $O(n)$ time |
+| 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | 🟡 `Medium` | [C++](Graphs/2492-minimum-score-of-a-path-between-two-cities/2492-minimum-score-of-a-path-between-two-cities.cpp) | Hash map / set lookup achieving amortized $O(1)$ query and state tracking |
 
 <a id="-topological-sort"></a>
 ### 🧭 Topological Sort (DAG Dependency Resolution)
@@ -502,7 +503,7 @@ LeetCode-Questions/
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
-│   └── ... (32 problems)
+│   └── ... (33 problems)
 ├── DynamicProgramming/
 │   ├── 0005-longest-palindromic-substring/
 │   ├── 0042-trapping-rain-water/
@@ -787,6 +788,7 @@ public:
 | 2421 | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths) | 🔴 `Hard` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2421-number-of-good-paths/) | [C++](Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp) |
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/) | [C++](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/2458-height-of-binary-tree-after-subtree-removal-queries.cpp) |
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | [C++](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp) |
+| 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2492-minimum-score-of-a-path-between-two-cities/) | [C++](Graphs/2492-minimum-score-of-a-path-between-two-cities/2492-minimum-score-of-a-path-between-two-cities.cpp) |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2596-check-knight-tour-configuration/) | [C++](Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp) |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2641-cousins-in-binary-tree-ii/) | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
@@ -905,7 +907,7 @@ public:
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) | 🟡 `Medium` | [Problem Notes](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | [C++](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp) |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [Problem Notes](Trees/2641-cousins-in-binary-tree-ii/) | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) |
 
-### 🕸️ [Graphs & BFS/DFS](Graphs/) (32)
+### 🕸️ [Graphs & BFS/DFS](Graphs/) (33)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -940,6 +942,7 @@ public:
 | 2316 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph) | 🟡 `Medium` | [Problem Notes](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [C++](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.cpp) |
 | 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) | 🟡 `Medium` | [Problem Notes](Graphs/2359-find-closest-node-to-given-two-nodes/) | [C++](Graphs/2359-find-closest-node-to-given-two-nodes/2359-find-closest-node-to-given-two-nodes.cpp) |
 | 2421 | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths) | 🔴 `Hard` | [Problem Notes](Graphs/2421-number-of-good-paths/) | [C++](Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp) |
+| 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | 🟡 `Medium` | [Problem Notes](Graphs/2492-minimum-score-of-a-path-between-two-cities/) | [C++](Graphs/2492-minimum-score-of-a-path-between-two-cities/2492-minimum-score-of-a-path-between-two-cities.cpp) |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration) | 🟡 `Medium` | [Problem Notes](Graphs/2596-check-knight-tour-configuration/) | [C++](Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp) |
 
 ### 🧩 [Dynamic Programming](DynamicProgramming/) (27)
@@ -1090,23 +1093,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Depth-First Search
-|  |
-| ------- |
-| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
-## Breadth-First Search
-|  |
-| ------- |
-| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
-## Union-Find
-|  |
-| ------- |
-| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
-## Graph Theory
-|  |
-| ------- |
-| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
-<!---LeetCode Topics End-->

@@ -1,5 +1,31 @@
 class Solution {
 public:
+    //Approach : DFS-Connected Component Traversal
+
+    //Time Complexity: O(n + E) =>
+    /* n = number of cities
+    * E = number of roads
+    1. Building the adjacency list: O(E)
+    2. DFS: O(n + E)
+    * Each city is visited at most once → O(n)
+    * Each road is examined at most twice → O(E)
+    * So : O(E) + O(n + E) = O(n + E)
+    */
+
+    //Space Complexity: O(n + E) =>
+    /* We use:
+    1. Adjacency list
+        * Stores both directions of every road.
+        * O(n + E)
+    2. Visited array
+        * One boolean for every city.
+        * O(n)
+    3. Stack
+        * In the worst case, it can contain up to n cities.
+        * O(n)
+    */
+
+
     void dfs(int node, vector<vector<pair<int, int>>> & adj, vector<bool>& visited, int& ans){
         //mark current node visited
         visited[node] = true;

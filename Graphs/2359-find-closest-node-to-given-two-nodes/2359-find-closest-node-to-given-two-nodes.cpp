@@ -1,5 +1,21 @@
 class Solution {
 public:
+    //Approach : Distance Tracking/ Graph Traversal
+
+    //Time Complexity = O(n) =>
+    /* There are 3 main traversals:
+    1. Traverse from node1: O(n)
+    2. Traverse from node2: O(n)
+    3. Traverse all nodes to find the answer: O(n)   
+    */
+
+    //Space Complexity = O(n) =>
+    /* We use two distance arrays:
+    * Each contains n elements:
+    * dist1 → O(n)
+    * dist2 → O(n)
+    */
+
     int closestMeetingNode(vector<int>& edges, int node1, int node2) {
         
         int n = edges.size();

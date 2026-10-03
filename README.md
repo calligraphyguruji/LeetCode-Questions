@@ -305,7 +305,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) | 🟡 `Medium` | [Approach 1](Graphs/0841-keys-and-rooms/0841-keys-and-rooms.cpp "BFS(Breadth First Search)") · [Approach 2](Graphs/0841-keys-and-rooms/0841-keys-and-rooms-approach-2-dfs.cpp "DFS") | DFS/BFS room reachability check starting from room 0 |
 | 0886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | 🟡 `Medium` | [C++](Graphs/0886-possible-bipartition/0886-possible-bipartition.cpp) | Modeling dislikes as graph edges and checking 2-colorability |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph) | 🟢 `Easy` | [C++](Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp) | BFS/DFS or DSU to verify path between source and destination |
-| 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) | 🟡 `Medium` | [C++](Graphs/2359-find-closest-node-to-given-two-nodes/2359-find-closest-node-to-given-two-nodes.cpp) | Depth-first search (DFS) traversing graph connectivity and components |
+| 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) | 🟡 `Medium` | [C++](Graphs/2359-find-closest-node-to-given-two-nodes/2359-find-closest-node-to-given-two-nodes.cpp) | Distance Tracking/ Graph Traversal in $O(n)$ time |
 
 <a id="-topological-sort"></a>
 ### 🧭 Topological Sort (DAG Dependency Resolution)

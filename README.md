@@ -1090,15 +1090,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Depth-First Search
-|  |
-| ------- |
-| [2359-find-closest-node-to-given-two-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2359-find-closest-node-to-given-two-nodes) |
-## Graph Theory
-|  |
-| ------- |
-| [2359-find-closest-node-to-given-two-nodes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2359-find-closest-node-to-given-two-nodes) |
-<!---LeetCode Topics End-->

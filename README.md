@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-194_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-225-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-226-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 53 | 23.6% |
-| 🟡 **Medium** | 150 | 66.7% |
-| 🔴 **Hard** | 22 | 9.8% |
-| 🎯 **Total Solved** | **225** | **100%** |
+| 🟢 **Easy** | 54 | 23.9% |
+| 🟡 **Medium** | 150 | 66.4% |
+| 🔴 **Hard** | 22 | 9.7% |
+| 🎯 **Total Solved** | **226** | **100%** |
 | 🔥 **Current Streak** | **80 Days** | — |
 | 📅 **Total Active Days** | **194 Days** | — |
 
@@ -100,6 +100,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 `Easy` | [C++](Arrays/1528-shuffle-string/1528-shuffle-string.cpp) | Direct Indexing / Array Mapping in $O(n)$ time |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") | 2D Array Traversal + Row Sum in $O(m * n)$ time |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) | Direct Indexing / Array mapping in $O(n)$ time |
+| 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 
 <a id="-sliding-window"></a>
 ### 🪟 Sliding Window (Fixed & Minimum Window)
@@ -529,7 +530,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (55 problems)
+│   └── ... (56 problems)
 ```
 
 Each problem folder contains:
@@ -783,6 +784,7 @@ public:
 | 2064 | [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/) | [C++](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/2064-minimized-maximum-of-products-distributed-to-any-store.cpp) |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/) | [C++](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/2096-step-by-step-directions-from-a-binary-tree-node-to-another.cpp) |
+| 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2114-maximum-number-of-words-found-in-sentences/) | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) |
 | 2196 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2196-create-binary-tree-from-descriptions/) | [C++](Trees/2196-create-binary-tree-from-descriptions/2196-create-binary-tree-from-descriptions.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2246-longest-path-with-different-adjacent-characters/) | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
@@ -1018,7 +1020,7 @@ public:
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (55)
+### 📦 [Arrays & Hashing](Arrays/) (56)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1077,6 +1079,7 @@ public:
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [Problem Notes](Arrays/1910-remove-all-occurrences-of-a-substring/) | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [Problem Notes](Arrays/1920-build-array-from-permutation/) | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [Problem Notes](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
+| 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [Problem Notes](Arrays/2114-maximum-number-of-words-found-in-sentences/) | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) |
 
 ---
 
@@ -1102,15 +1105,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [2114-maximum-number-of-words-found-in-sentences](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2114-maximum-number-of-words-found-in-sentences) |
-## String
-|  |
-| ------- |
-| [2114-maximum-number-of-words-found-in-sentences](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2114-maximum-number-of-words-found-in-sentences) |
-<!---LeetCode Topics End-->

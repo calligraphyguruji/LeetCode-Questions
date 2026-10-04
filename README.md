@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-194_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-223-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-224-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 51 | 22.9% |
-| 🟡 **Medium** | 150 | 67.3% |
-| 🔴 **Hard** | 22 | 9.9% |
-| 🎯 **Total Solved** | **223** | **100%** |
+| 🟢 **Easy** | 52 | 23.2% |
+| 🟡 **Medium** | 150 | 67.0% |
+| 🔴 **Hard** | 22 | 9.8% |
+| 🎯 **Total Solved** | **224** | **100%** |
 | 🔥 **Current Streak** | **80 Days** | — |
 | 📅 **Total Active Days** | **194 Days** | — |
 
@@ -141,6 +141,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 `Easy` | [C++](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) | Two-pass frequency mapping to detect first element with frequency 1 |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 `Medium` | [C++](Arrays/0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.cpp) | Prefix sum array paired with hash map of prefix frequencies: find count of $(prefix - k)$ in $O(n)$ |
 | 0652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) | 🟡 `Medium` | [C++](Trees/0652-find-duplicate-subtrees/0652-find-duplicate-subtrees.cpp) | Postorder DFS + Subtree Serialization using Unique IDs + HashMap Frequency Counting in $O(n \log n)$ time |
+| 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 `Easy` | [C++](Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp) | Hash map / set lookup achieving amortized $O(1)$ query and state tracking |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) | Prefix Sum (Running Sum) in $O(n)$ time |
 | 1594 | [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix) | 🟡 `Medium` | [C++](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/1594-maximum-non-negative-product-in-a-matrix.cpp) | Prefix state matrix tracking both minimum (negative) and maximum products |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) | Frequency array / mathematical sum and square-sum formulas to pinpoint missing and duplicate numbers |
@@ -527,7 +528,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (53 problems)
+│   └── ... (54 problems)
 ```
 
 Each problem folder contains:
@@ -710,6 +711,7 @@ public:
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0704-binary-search/) | [C++](BinarySearch/0704-binary-search/0704-binary-search.cpp) |
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | 🟢 `Easy` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0733-flood-fill/) | [C++](Graphs/0733-flood-fill/0733-flood-fill.cpp) |
 | 0743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0743-network-delay-time/) | [C++](Graphs/0743-network-delay-time/0743-network-delay-time.cpp) |
+| 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0771-jewels-and-stones/) | [C++](Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp) |
 | 0783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0783-minimum-distance-between-bst-nodes/) | [C++](BinarySearch/0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp) |
 | 0785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0785-is-graph-bipartite/) | [C++](Graphs/0785-is-graph-bipartite/0785-is-graph-bipartite.cpp) |
 | 0787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0787-cheapest-flights-within-k-stops/) | [C++](Graphs/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.cpp) |
@@ -1014,7 +1016,7 @@ public:
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (53)
+### 📦 [Arrays & Hashing](Arrays/) (54)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1058,6 +1060,7 @@ public:
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 `Medium` | [Problem Notes](Arrays/0503-next-greater-element-ii/) | [C++](Arrays/0503-next-greater-element-ii/0503-next-greater-element-ii.cpp) |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 `Medium` | [Problem Notes](Arrays/0560-subarray-sum-equals-k/) | [C++](Arrays/0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.cpp) |
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string) | 🟡 `Medium` | [Problem Notes](Arrays/0567-permutation-in-string/) | [C++](Arrays/0567-permutation-in-string/0567-permutation-in-string.cpp) |
+| 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 `Easy` | [Problem Notes](Arrays/0771-jewels-and-stones/) | [C++](Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0876-middle-of-the-linked-list/) | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | 🟡 `Medium` | [Problem Notes](Arrays/0901-online-stock-span/) | [C++](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number) | 🟢 `Easy` | [Problem Notes](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/) | [C++](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp) |
@@ -1096,15 +1099,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [0771-jewels-and-stones](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0771-jewels-and-stones) |
-## String
-|  |
-| ------- |
-| [0771-jewels-and-stones](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0771-jewels-and-stones) |
-<!---LeetCode Topics End-->

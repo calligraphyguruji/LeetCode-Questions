@@ -1,6 +1,6 @@
 class Solution {
 public:
-    //Approach : Brute Force(Nested Loop) / String Traversal + Character Checking
+    //Approach : Optimal Approach (String Traversal + Character Checking)
 
     //Time Complexity = O(N) =>
     /* * Let N be the number of operations.

@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-195_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-227-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-228-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 55 | 24.2% |
-| 🟡 **Medium** | 150 | 66.1% |
-| 🔴 **Hard** | 22 | 9.7% |
-| 🎯 **Total Solved** | **227** | **100%** |
+| 🟢 **Easy** | 56 | 24.6% |
+| 🟡 **Medium** | 150 | 65.8% |
+| 🔴 **Hard** | 22 | 9.6% |
+| 🎯 **Total Solved** | **228** | **100%** |
 | 🔥 **Current Streak** | **81 Days** | — |
 | 📅 **Total Active Days** | **195 Days** | — |
 
@@ -467,6 +467,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) | Trial division or max integer power of three modulo check |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four) | 🟢 `Easy` | [C++](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) | Power of two check combined with bit position mask `0x55555555` |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) | KMP Longest Proper Prefix which is also Suffix (LPS array) computation |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) | Optimal Math & Number Theory approach with clean asymptotic complexity |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) | Stack-based or string buffer matching and popping target substring |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) | Direct single-pass calculation of tickets processed before position $k$ |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) | Why do you need approach in adding two numbers just simply add? in $O(1)$ time |
@@ -527,7 +528,7 @@ LeetCode-Questions/
 ├── Math/
 │   ├── 0002-add-two-numbers/
 │   ├── 0050-powx-n/
-│   └── ... (6 problems)
+│   └── ... (7 problems)
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
@@ -765,6 +766,7 @@ public:
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1470-shuffle-the-array/) | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) |
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1475-final-prices-with-a-special-discount-in-a-shop/) | [C++](Arrays/1475-final-prices-with-a-special-discount-in-a-shop/1475-final-prices-with-a-special-discount-in-a-shop.cpp) |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1480-running-sum-of-1d-array/) | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/1512-number-of-good-pairs/) | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) |
 | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/) | [C++](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/1519-number-of-nodes-in-the-sub-tree-with-the-same-label.cpp) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1528-shuffle-string/) | [C++](Arrays/1528-shuffle-string/1528-shuffle-string.cpp) |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1530-number-of-good-leaf-nodes-pairs/) | [C++](Trees/1530-number-of-good-leaf-nodes-pairs/1530-number-of-good-leaf-nodes-pairs.cpp) |
@@ -1011,7 +1013,7 @@ public:
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two) | 🟢 `Easy` | [Problem Notes](BitManipulation/0231-power-of-two/) | [C++](BitManipulation/0231-power-of-two/0231-power-of-two.cpp) |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four) | 🟢 `Easy` | [Problem Notes](BitManipulation/0342-power-of-four/) | [C++](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) |
 
-### 🔢 [Math & Number Theory](Math/) (6)
+### 🔢 [Math & Number Theory](Math/) (7)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1019,6 +1021,7 @@ public:
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 `Medium` | [Problem Notes](Math/0050-powx-n/) | [C++](Math/0050-powx-n/0050-powx-n.cpp) |
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 `Easy` | [Problem Notes](Math/0263-ugly-number/) | [C++](Math/0263-ugly-number/0263-ugly-number.cpp) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [Problem Notes](Math/0326-power-of-three/) | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [Problem Notes](Math/1512-number-of-good-pairs/) | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
@@ -1108,23 +1111,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1512-number-of-good-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1512-number-of-good-pairs) |
-## Hash Table
-|  |
-| ------- |
-| [1512-number-of-good-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1512-number-of-good-pairs) |
-## Math
-|  |
-| ------- |
-| [1512-number-of-good-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1512-number-of-good-pairs) |
-## Counting
-|  |
-| ------- |
-| [1512-number-of-good-pairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1512-number-of-good-pairs) |
-<!---LeetCode Topics End-->

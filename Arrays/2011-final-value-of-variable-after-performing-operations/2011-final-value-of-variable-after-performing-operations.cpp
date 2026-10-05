@@ -16,21 +16,16 @@ public:
 
     int finalValueAfterOperations(vector<string>& operations) {
         
-        int ans = 0;
+        int ans = 0;//initial value is zero
 
         for(int i = 0; i < operations.size(); i++){
 
-            for(int j = 0; j < operations[i].size(); j++){
-
-                if(operations[i][j] == '-'){
-                    ans--; //decrement
-                    break;
-                }
-                if(operations[i][j] == '+'){
-                    ans++;//increment
-                    break;
-                }
-            }
+           if(operations[i].find('+') != string::npos){ //string::npos means not found here => != string::npose means found
+             ans++; //increment
+           }
+           else{ // means '-' found => decrement
+            ans--; //decrement
+           }
         }
 
         //finally return the output

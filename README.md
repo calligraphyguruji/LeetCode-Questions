@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-80_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-81_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-194_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-195_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-226-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-227-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 54 | 23.9% |
-| 🟡 **Medium** | 150 | 66.4% |
+| 🟢 **Easy** | 55 | 24.2% |
+| 🟡 **Medium** | 150 | 66.1% |
 | 🔴 **Hard** | 22 | 9.7% |
-| 🎯 **Total Solved** | **226** | **100%** |
-| 🔥 **Current Streak** | **80 Days** | — |
-| 📅 **Total Active Days** | **194 Days** | — |
+| 🎯 **Total Solved** | **227** | **100%** |
+| 🔥 **Current Streak** | **81 Days** | — |
+| 📅 **Total Active Days** | **195 Days** | — |
 
 </div>
 
@@ -100,6 +100,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 `Easy` | [C++](Arrays/1528-shuffle-string/1528-shuffle-string.cpp) | Direct Indexing / Array Mapping in $O(n)$ time |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") | 2D Array Traversal + Row Sum in $O(m * n)$ time |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) | Direct Indexing / Array mapping in $O(n)$ time |
+| 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) | Brute Force (String Traversal + Space Counting) in $O(n)$ time |
 
 <a id="-sliding-window"></a>
@@ -530,7 +531,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (56 problems)
+│   └── ... (57 problems)
 ```
 
 Each problem folder contains:
@@ -780,6 +781,7 @@ public:
 | 1932 | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/1932-merge-bsts-to-create-single-bst/) | [C++](BinarySearch/1932-merge-bsts-to-create-single-bst/1932-merge-bsts-to-create-single-bst.cpp) |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph) | 🟢 `Easy` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1971-find-if-path-exists-in-graph/) | [C++](Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp) |
 | 1976 | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1976-number-of-ways-to-arrive-at-destination/) | [C++](Graphs/1976-number-of-ways-to-arrive-at-destination/1976-number-of-ways-to-arrive-at-destination.cpp) |
+| 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2011-final-value-of-variable-after-performing-operations/) | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | [C++](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/2035-partition-array-into-two-arrays-to-minimize-sum-difference.cpp) |
 | 2064 | [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/) | [C++](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/2064-minimized-maximum-of-products-distributed-to-any-store.cpp) |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
@@ -1020,7 +1022,7 @@ public:
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (56)
+### 📦 [Arrays & Hashing](Arrays/) (57)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1078,6 +1080,7 @@ public:
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Problem Notes](Arrays/1672-richest-customer-wealth/) | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [Problem Notes](Arrays/1910-remove-all-occurrences-of-a-substring/) | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [Problem Notes](Arrays/1920-build-array-from-permutation/) | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) |
+| 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [Problem Notes](Arrays/2011-final-value-of-variable-after-performing-operations/) | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [Problem Notes](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [Problem Notes](Arrays/2114-maximum-number-of-words-found-in-sentences/) | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) |
 
@@ -1105,19 +1108,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [2011-final-value-of-variable-after-performing-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2011-final-value-of-variable-after-performing-operations) |
-## String
-|  |
-| ------- |
-| [2011-final-value-of-variable-after-performing-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2011-final-value-of-variable-after-performing-operations) |
-## Simulation
-|  |
-| ------- |
-| [2011-final-value-of-variable-after-performing-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2011-final-value-of-variable-after-performing-operations) |
-<!---LeetCode Topics End-->

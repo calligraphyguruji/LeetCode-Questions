@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Brute Force(Nested Loop)
+
+    //Time Complexity = O(N²) =>
+    /*Outer loop → N
+    * Inner loop → up to N
+    * Therefore → N × N = O(N²)
+    */
+
+    //Space Complexity = O(1) =>
+    /* only countPairs and loop variables are used.
+    * No extra data structures are used.
+    */
+
+
     int numIdenticalPairs(vector<int>& nums) {
         
         int n = nums.size();

@@ -1,5 +1,15 @@
 class Solution {
 public:
+    //Approach : Simulation / Conditional Checking
+
+    //Time Complexity = O(N) =>
+    /* We check each number from 1 to N exactly once.
+    */
+
+    //Space Complexity = O(N) =>
+    /* We store N results in the ans vector.
+    */
+
     vector<string> fizzBuzz(int n) {
         
         vector<string> ans(n); //to store the output

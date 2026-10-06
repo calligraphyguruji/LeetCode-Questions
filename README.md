@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-196_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-229-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-230-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 57 | 24.9% |
-| 🟡 **Medium** | 150 | 65.5% |
+| 🟢 **Easy** | 58 | 25.2% |
+| 🟡 **Medium** | 150 | 65.2% |
 | 🔴 **Hard** | 22 | 9.6% |
-| 🎯 **Total Solved** | **229** | **100%** |
+| 🎯 **Total Solved** | **230** | **100%** |
 | 🔥 **Current Streak** | **82 Days** | — |
 | 📅 **Total Active Days** | **196 Days** | — |
 
@@ -466,6 +466,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 `Easy` | [C++](Math/0263-ugly-number/0263-ugly-number.cpp) | Repeated trial division by prime factors 2, 3, and 5 |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) | Trial division or max integer power of three modulo check |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four) | 🟢 `Easy` | [C++](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) | Power of two check combined with bit position mask `0x55555555` |
+| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 `Easy` | [C++](Math/0412-fizz-buzz/0412-fizz-buzz.cpp) | Optimal Math & Number Theory approach with clean asymptotic complexity |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | 🟢 `Easy` | [C++](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) | Simulation / Iterative Reduction in $O(log N)$ time |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) | KMP Longest Proper Prefix which is also Suffix (LPS array) computation |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) | Brute Force (Nested Loop) in $O(N²)$ time |
@@ -530,7 +531,7 @@ LeetCode-Questions/
 ├── Math/
 │   ├── 0002-add-two-numbers/
 │   ├── 0050-powx-n/
-│   └── ... (7 problems)
+│   └── ... (8 problems)
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
@@ -688,6 +689,7 @@ public:
 | 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix/) | [C++](BinarySearch/0378-kth-smallest-element-in-a-sorted-matrix/0378-kth-smallest-element-in-a-sorted-matrix.cpp) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0387-first-unique-character-in-a-string/) | [C++](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) |
 | 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0410-split-array-largest-sum/) | [C++](BinarySearch/0410-split-array-largest-sum/0410-split-array-largest-sum.cpp) |
+| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0412-fizz-buzz/) | [C++](Math/0412-fizz-buzz/0412-fizz-buzz.cpp) |
 | 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0430-flatten-a-multilevel-doubly-linked-list/) | [C++](Graphs/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
 | 0433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0433-minimum-genetic-mutation/) | [C++](Graphs/0433-minimum-genetic-mutation/0433-minimum-genetic-mutation.cpp) |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0443-string-compression/) | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) |
@@ -1017,7 +1019,7 @@ public:
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four) | 🟢 `Easy` | [Problem Notes](BitManipulation/0342-power-of-four/) | [C++](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | 🟢 `Easy` | [Problem Notes](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/) | [C++](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) |
 
-### 🔢 [Math & Number Theory](Math/) (7)
+### 🔢 [Math & Number Theory](Math/) (8)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1025,6 +1027,7 @@ public:
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 `Medium` | [Problem Notes](Math/0050-powx-n/) | [C++](Math/0050-powx-n/0050-powx-n.cpp) |
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 `Easy` | [Problem Notes](Math/0263-ugly-number/) | [C++](Math/0263-ugly-number/0263-ugly-number.cpp) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [Problem Notes](Math/0326-power-of-three/) | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) |
+| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 `Easy` | [Problem Notes](Math/0412-fizz-buzz/) | [C++](Math/0412-fizz-buzz/0412-fizz-buzz.cpp) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [Problem Notes](Math/1512-number-of-good-pairs/) | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
@@ -1115,19 +1118,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0412-fizz-buzz](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0412-fizz-buzz) |
-## String
-|  |
-| ------- |
-| [0412-fizz-buzz](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0412-fizz-buzz) |
-## Simulation
-|  |
-| ------- |
-| [0412-fizz-buzz](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0412-fizz-buzz) |
-<!---LeetCode Topics End-->

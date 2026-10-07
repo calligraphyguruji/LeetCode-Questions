@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-197_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-231-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-232-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 59 | 25.5% |
-| 🟡 **Medium** | 150 | 64.9% |
+| 🟢 **Easy** | 60 | 25.9% |
+| 🟡 **Medium** | 150 | 64.7% |
 | 🔴 **Hard** | 22 | 9.5% |
-| 🎯 **Total Solved** | **231** | **100%** |
+| 🎯 **Total Solved** | **232** | **100%** |
 | 🔥 **Current Streak** | **83 Days** | — |
 | 📅 **Total Active Days** | **197 Days** | — |
 
@@ -469,6 +469,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 `Easy` | [C++](Math/0412-fizz-buzz/0412-fizz-buzz.cpp) | Simulation / Conditional Checking in $O(n)$ time |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | 🟢 `Easy` | [C++](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) | Simulation / Iterative Reduction in $O(log N)$ time |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) | KMP Longest Proper Prefix which is also Suffix (LPS array) computation |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | 🟢 `Easy` | [C++](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp) | Optimal Bit Manipulation approach with clean asymptotic complexity |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) | Brute Force (Nested Loop) in $O(N²)$ time |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) | Stack-based or string buffer matching and popping target substring |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) | Direct single-pass calculation of tickets processed before position $k$ |
@@ -528,7 +529,7 @@ LeetCode-Questions/
 ├── BitManipulation/
 │   ├── 0231-power-of-two/
 │   ├── 0342-power-of-four/
-│   └── ... (3 problems)
+│   └── ... (4 problems)
 ├── Math/
 │   ├── 0002-add-two-numbers/
 │   ├── 0050-powx-n/
@@ -772,6 +773,7 @@ public:
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1470-shuffle-the-array/) | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) |
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1475-final-prices-with-a-special-discount-in-a-shop/) | [C++](Arrays/1475-final-prices-with-a-special-discount-in-a-shop/1475-final-prices-with-a-special-discount-in-a-shop.cpp) |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1480-running-sum-of-1d-array/) | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/1486-xor-operation-in-an-array/) | [C++](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/1512-number-of-good-pairs/) | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) |
 | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/) | [C++](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/1519-number-of-nodes-in-the-sub-tree-with-the-same-label.cpp) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1528-shuffle-string/) | [C++](Arrays/1528-shuffle-string/1528-shuffle-string.cpp) |
@@ -1013,13 +1015,14 @@ public:
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | 🟡 `Medium` | [Problem Notes](Greedy/0122-best-time-to-buy-and-sell-stock-ii/) | [C++](Greedy/0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp) |
 | 0134 | [Gas Station](https://leetcode.com/problems/gas-station) | 🟡 `Medium` | [Problem Notes](Greedy/0134-gas-station/) | [C++](Greedy/0134-gas-station/0134-gas-station.cpp) |
 
-### ⚡ [Bit Manipulation](BitManipulation/) (3)
+### ⚡ [Bit Manipulation](BitManipulation/) (4)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two) | 🟢 `Easy` | [Problem Notes](BitManipulation/0231-power-of-two/) | [C++](BitManipulation/0231-power-of-two/0231-power-of-two.cpp) |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four) | 🟢 `Easy` | [Problem Notes](BitManipulation/0342-power-of-four/) | [C++](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | 🟢 `Easy` | [Problem Notes](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/) | [C++](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | 🟢 `Easy` | [Problem Notes](BitManipulation/1486-xor-operation-in-an-array/) | [C++](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp) |
 
 ### 🔢 [Math & Number Theory](Math/) (9)
 
@@ -1121,15 +1124,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [1486-xor-operation-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1486-xor-operation-in-an-array) |
-## Bit Manipulation
-|  |
-| ------- |
-| [1486-xor-operation-in-an-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1486-xor-operation-in-an-array) |
-<!---LeetCode Topics End-->

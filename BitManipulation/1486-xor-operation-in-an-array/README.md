@@ -30,3 +30,11 @@ Where &quot;^&quot; corresponds to bitwise XOR operator.
 	<li><code>0 &lt;= start &lt;= 1000</code></li>
 	<li><code>n == nums.length</code></li>
 </ul>
+<!---LeetCode Approaches Start-->
+<hr>
+<h3>💡 Solutions & Approaches</h3>
+
+- [Approach 1 (C++)](1486-xor-operation-in-an-array.cpp) — *Brute Force (Running XOR)*
+- [Approach 2 (C++)](1486-xor-operation-in-an-array-approach-2-optimal-approach.cpp) — *Optimal Approach (XOR Pattern / Mathematical Optimization)*
+
+<!---LeetCode Approaches End-->

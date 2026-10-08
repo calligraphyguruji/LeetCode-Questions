@@ -1,11 +1,18 @@
 class Solution {
 public:
-    //Time Complexity = O( ) =>
-    /* 
+    //Approach : Binary Search on Answer
+
+    // Time Complexity = O(n² * log n) =>
+    /*
+    * Two nested loops run O(n^2) times.
+    * For each (a, b), binary search takes O(log n).
+    * Therefore, O(n² * log n).
     */
 
-    //Space Complexity = O( ) =>
-    /* 
+    // Space Complexity = O(1) =>
+    /*
+    * No extra data structures are used.
+    * Only a few variables are used.
     */
 
 
@@ -21,7 +28,7 @@ public:
 
                 int st = 1;
                 int end = n;
-
+                //binary search for c
                 while(st <= end){
 
                     int mid = st + (end-st)/2;

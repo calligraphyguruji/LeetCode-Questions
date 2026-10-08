@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-83_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-84_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-197_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-198_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-232-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-233-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 60 | 25.9% |
-| 🟡 **Medium** | 150 | 64.7% |
-| 🔴 **Hard** | 22 | 9.5% |
-| 🎯 **Total Solved** | **232** | **100%** |
-| 🔥 **Current Streak** | **83 Days** | — |
-| 📅 **Total Active Days** | **197 Days** | — |
+| 🟢 **Easy** | 61 | 26.2% |
+| 🟡 **Medium** | 150 | 64.4% |
+| 🔴 **Hard** | 22 | 9.4% |
+| 🎯 **Total Solved** | **233** | **100%** |
+| 🔥 **Current Streak** | **84 Days** | — |
+| 📅 **Total Active Days** | **198 Days** | — |
 
 </div>
 
@@ -472,6 +472,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | 🟢 `Easy` | [Approach 1](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp "Brute Force (Running XOR)") · [Approach 2](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array-approach-2-optimal-approach.cpp "Optimal Approach (XOR Pattern / Mathematical Optimization)") | Brute Force (Running XOR) in $O(n)$ time |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) | Brute Force (Nested Loop) in $O(N²)$ time |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) | Stack-based or string buffer matching and popping target substring |
+| 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples) | 🟢 `Easy` | [C++](Math/1925-count-square-sum-triples/1925-count-square-sum-triples.cpp) | Optimal Math & Number Theory approach with clean asymptotic complexity |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) | Direct single-pass calculation of tickets processed before position $k$ |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) | Why do you need approach in adding two numbers just simply add? in $O(1)$ time |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) | Direct Calculation in $O(1)$ time |
@@ -533,7 +534,7 @@ LeetCode-Questions/
 ├── Math/
 │   ├── 0002-add-two-numbers/
 │   ├── 0050-powx-n/
-│   └── ... (9 problems)
+│   └── ... (10 problems)
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
@@ -787,6 +788,7 @@ public:
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1910-remove-all-occurrences-of-a-substring/) | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) |
 | 1911 | [Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1911-maximum-alternating-subsequence-sum/) | [C++](DynamicProgramming/1911-maximum-alternating-subsequence-sum/1911-maximum-alternating-subsequence-sum.cpp) |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1920-build-array-from-permutation/) | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) |
+| 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/1925-count-square-sum-triples/) | [C++](Math/1925-count-square-sum-triples/1925-count-square-sum-triples.cpp) |
 | 1926 | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1926-nearest-exit-from-entrance-in-maze/) | [C++](Graphs/1926-nearest-exit-from-entrance-in-maze/1926-nearest-exit-from-entrance-in-maze.cpp) |
 | 1932 | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/1932-merge-bsts-to-create-single-bst/) | [C++](BinarySearch/1932-merge-bsts-to-create-single-bst/1932-merge-bsts-to-create-single-bst.cpp) |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph) | 🟢 `Easy` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1971-find-if-path-exists-in-graph/) | [C++](Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp) |
@@ -1024,7 +1026,7 @@ public:
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | 🟢 `Easy` | [Problem Notes](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/) | [C++](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | 🟢 `Easy` | [Problem Notes](BitManipulation/1486-xor-operation-in-an-array/) | [Approach 1](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp "Brute Force (Running XOR)") · [Approach 2](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array-approach-2-optimal-approach.cpp "Optimal Approach (XOR Pattern / Mathematical Optimization)") |
 
-### 🔢 [Math & Number Theory](Math/) (9)
+### 🔢 [Math & Number Theory](Math/) (10)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1034,6 +1036,7 @@ public:
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [Problem Notes](Math/0326-power-of-three/) | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 `Easy` | [Problem Notes](Math/0412-fizz-buzz/) | [C++](Math/0412-fizz-buzz/0412-fizz-buzz.cpp) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [Problem Notes](Math/1512-number-of-good-pairs/) | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) |
+| 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples) | 🟢 `Easy` | [Problem Notes](Math/1925-count-square-sum-triples/) | [C++](Math/1925-count-square-sum-triples/1925-count-square-sum-triples.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [Problem Notes](Math/2469-convert-the-temperature/) | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
@@ -1124,15 +1127,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [1925-count-square-sum-triples](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1925-count-square-sum-triples) |
-## Enumeration
-|  |
-| ------- |
-| [1925-count-square-sum-triples](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1925-count-square-sum-triples) |
-<!---LeetCode Topics End-->

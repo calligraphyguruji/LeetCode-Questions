@@ -1,5 +1,22 @@
 class Solution {
 public:
+    //Approach : Word Extraction and Positional Placement
+
+    //Time Complexity = O(n) => Here, n is the length of the input string.
+    /* 
+    * We traverse the input string once to extract and place the words.
+    * We traverse the vector to construct the answer.
+    * Both operations take linear time relative to the input size.
+    */
+
+
+    //Space Complexity = O(n) =>
+    /* The vector stores all extracted words.
+    * The word variable temporarily stores the current word.
+    * The ans string stores the final sentence.
+    */
+
+
     string sortSentence(string s) {
         
         vector<string> arr(10);

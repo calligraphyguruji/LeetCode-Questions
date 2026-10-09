@@ -1,11 +1,10 @@
 class Solution {
 public:
-    //Approach : Matrix Traversal (Primary and Secondary Diagonal Sum)
+    //Approach : Direct Diagonal Traversal
 
-    //Time Complexity = O(m * n) => m = row size, n = column size
-    /* Two nested loops are used.
-    * First loop goes upto m elements.
-    * Second loop goes upto n elements.
+    //Time Complexity = O(n) =>
+    /* A single loop traverses the matrix diagonals which goes upto n elments.
+    * Each iteration accesses two diagonal elements.
     */
 
     //Space Complexity =  O(1) =>
@@ -13,34 +12,27 @@ public:
     * Only a few variables are used.
     */
 
-    
+
     int diagonalSum(vector<vector<int>>& mat) {
         
-        int m = mat.size(); //row size
-        int n = mat[0].size(); //col size
+        int n = mat.size(); //row size
 
         int sum = 0;//to store the output
         
-        //traverse in the matrix
-        for(int i = 0; i < m; i++){
-            
-            for(int j = 0; j < n; j++){
+        //traverse in the matrix row wise
+        for(int i = 0; i < n; i++){           
                 
-                //primary diagonal
-                if(i == j){//check diagonal condition
-                    sum += mat[i][j];
-                }
+            //primary diagonal
+            sum += mat[i][i];
 
-                //secondary diagonal
-                if(i + j == n-1){
-                    sum += mat[i][j];
-                }
-            }
+            //secondary diagonal            
+            sum += mat[i][n - 1 - i];
+            
         }
 
         //remove duplicate center element for odd-sized matrices
-        if(m % 2 != 0){ //odd
-            sum -= mat[m/2][n/2];
+        if(n % 2 != 0){ //odd
+            sum -= mat[n/2][n/2];
         }
 
         //finally return the output

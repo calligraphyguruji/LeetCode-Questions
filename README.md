@@ -98,6 +98,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | 🟢 `Easy` | [C++](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) | Array Splitting + Two-Array Traversal in $O(n)$ time |
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 `Easy` | [C++](Arrays/1475-final-prices-with-a-special-discount-in-a-shop/1475-final-prices-with-a-special-discount-in-a-shop.cpp) | Brute Force / Nested Loop in $O(n²)$ time |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 `Easy` | [C++](Arrays/1528-shuffle-string/1528-shuffle-string.cpp) | Direct Indexing / Array Mapping in $O(n)$ time |
+| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 `Easy` | [C++](Arrays/1572-matrix-diagonal-sum/1572-matrix-diagonal-sum.cpp) | Direct Diagonal Traversal in $O(n)$ time |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") | 2D Array Traversal + Row Sum in $O(m * n)$ time |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) | Direct Indexing / Array mapping in $O(n)$ time |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) | Optimal Approach (String Traversal + Character Checking) in $O(n)$ time |
@@ -448,7 +449,6 @@ To make revision structured and interview preparation fast, every question is in
 |:---:|:---|:---:|:---|:---|
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | 🟡 `Medium` | [C++](Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp) | 4-boundary pointer shrinkage (top, bottom, left, right) peeling matrix layers in clockwise order |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 `Medium` | [C++](Arrays/0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) | Using first row and column as in-place $O(1)$ memory zero-marker flags |
-| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 `Easy` | [C++](Arrays/1572-matrix-diagonal-sum/1572-matrix-diagonal-sum.cpp) | Matrix Traversal (Primary and Secondary Diagonal Sum) in $O(m * n)$ time |
 
 <a id="-bit-manipulation-math"></a>
 ### ⚡ Bit Manipulation, Stacks & Mathematical Simulation

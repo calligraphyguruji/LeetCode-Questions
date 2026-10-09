@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-199_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-236-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-237-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 64 | 27.1% |
-| 🟡 **Medium** | 150 | 63.6% |
+| 🟢 **Easy** | 65 | 27.4% |
+| 🟡 **Medium** | 150 | 63.3% |
 | 🔴 **Hard** | 22 | 9.3% |
-| 🎯 **Total Solved** | **236** | **100%** |
+| 🎯 **Total Solved** | **237** | **100%** |
 | 🔥 **Current Streak** | **85 Days** | — |
 | 📅 **Total Active Days** | **199 Days** | — |
 
@@ -101,6 +101,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 `Easy` | [C++](Arrays/1572-matrix-diagonal-sum/1572-matrix-diagonal-sum.cpp) | Direct Diagonal Traversal in $O(n)$ time |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") | 2D Array Traversal + Row Sum in $O(m * n)$ time |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation) | 🟢 `Easy` | [C++](Arrays/1678-goal-parser-interpretation/1678-goal-parser-interpretation.cpp) | String Traversal with Conditional Matching in $O(n)$ time |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) | 🟢 `Easy` | [C++](Arrays/1768-merge-strings-alternately/1768-merge-strings-alternately.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) | Direct Indexing / Array mapping in $O(n)$ time |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) | Optimal Approach (String Traversal + Character Checking) in $O(n)$ time |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) | Brute Force (String Traversal + Space Counting) in $O(n)$ time |
@@ -541,7 +542,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (59 problems)
+│   └── ... (60 problems)
 ```
 
 Each problem folder contains:
@@ -791,6 +792,7 @@ public:
 | 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/1631-path-with-minimum-effort/) | [App 1](BinarySearch/1631-path-with-minimum-effort/1631-path-with-minimum-effort.cpp "Dijkstra's Algorithm") · [App 2](BinarySearch/1631-path-with-minimum-effort/1631-path-with-minimum-effort-approach-2.cpp) · [App 3](BinarySearch/1631-path-with-minimum-effort/1631-path-with-minimum-effort-approach-3-dijkstras-algorithm.cpp "Dijkstra's Algorithm") |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1672-richest-customer-wealth/) | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1678-goal-parser-interpretation/) | [C++](Arrays/1678-goal-parser-interpretation/1678-goal-parser-interpretation.cpp) |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1768-merge-strings-alternately/) | [C++](Arrays/1768-merge-strings-alternately/1768-merge-strings-alternately.cpp) |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1910-remove-all-occurrences-of-a-substring/) | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) |
 | 1911 | [Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1911-maximum-alternating-subsequence-sum/) | [C++](DynamicProgramming/1911-maximum-alternating-subsequence-sum/1911-maximum-alternating-subsequence-sum.cpp) |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1920-build-array-from-permutation/) | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) |
@@ -1048,7 +1050,7 @@ public:
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [Problem Notes](Math/2469-convert-the-temperature/) | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (59)
+### 📦 [Arrays & Hashing](Arrays/) (60)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1106,6 +1108,7 @@ public:
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 `Easy` | [Problem Notes](Arrays/1572-matrix-diagonal-sum/) | [C++](Arrays/1572-matrix-diagonal-sum/1572-matrix-diagonal-sum.cpp) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Problem Notes](Arrays/1672-richest-customer-wealth/) | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation) | 🟢 `Easy` | [Problem Notes](Arrays/1678-goal-parser-interpretation/) | [C++](Arrays/1678-goal-parser-interpretation/1678-goal-parser-interpretation.cpp) |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) | 🟢 `Easy` | [Problem Notes](Arrays/1768-merge-strings-alternately/) | [C++](Arrays/1768-merge-strings-alternately/1768-merge-strings-alternately.cpp) |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [Problem Notes](Arrays/1910-remove-all-occurrences-of-a-substring/) | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [Problem Notes](Arrays/1920-build-array-from-permutation/) | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [Problem Notes](Arrays/2011-final-value-of-variable-after-performing-operations/) | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) |
@@ -1136,15 +1139,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [1768-merge-strings-alternately](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1768-merge-strings-alternately) |
-## String
-|  |
-| ------- |
-| [1768-merge-strings-alternately](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1768-merge-strings-alternately) |
-<!---LeetCode Topics End-->

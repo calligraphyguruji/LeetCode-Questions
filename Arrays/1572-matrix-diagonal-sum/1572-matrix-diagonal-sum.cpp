@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Matrix Traversal (Primary and Secondary Diagonal Sum)
+
+    //Time Complexity = O(m * n) => m = row size, n = column size
+    /* Two nested loops are used.
+    * First loop goes upto m elements.
+    * Second loop goes upto n elements.
+    */
+
+    //Space Complexity =  O(1) =>
+    /* No extra data structure used to store.
+    * Only a few variables are used.
+    */
+
+    
     int diagonalSum(vector<vector<int>>& mat) {
         
         int m = mat.size(); //row size

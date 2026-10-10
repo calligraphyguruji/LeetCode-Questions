@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-200_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-239-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-240-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 67 | 28.0% |
-| 🟡 **Medium** | 150 | 62.8% |
+| 🟢 **Easy** | 68 | 28.3% |
+| 🟡 **Medium** | 150 | 62.5% |
 | 🔴 **Hard** | 22 | 9.2% |
-| 🎯 **Total Solved** | **239** | **100%** |
+| 🎯 **Total Solved** | **240** | **100%** |
 | 🔥 **Current Streak** | **86 Days** | — |
 | 📅 **Total Active Days** | **200 Days** | — |
 
@@ -99,6 +99,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 `Easy` | [C++](Arrays/1475-final-prices-with-a-special-discount-in-a-shop/1475-final-prices-with-a-special-discount-in-a-shop.cpp) | Brute Force / Nested Loop in $O(n²)$ time |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 `Easy` | [C++](Arrays/1528-shuffle-string/1528-shuffle-string.cpp) | Direct Indexing / Array Mapping in $O(n)$ time |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 `Easy` | [C++](Arrays/1572-matrix-diagonal-sum/1572-matrix-diagonal-sum.cpp) | Direct Diagonal Traversal in $O(n)$ time |
+| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 `Easy` | [C++](Arrays/1662-check-if-two-string-arrays-are-equivalent/1662-check-if-two-string-arrays-are-equivalent.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") | 2D Array Traversal + Row Sum in $O(m * n)$ time |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation) | 🟢 `Easy` | [C++](Arrays/1678-goal-parser-interpretation/1678-goal-parser-interpretation.cpp) | String Traversal with Conditional Matching in $O(n)$ time |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) | 🟢 `Easy` | [C++](Arrays/1768-merge-strings-alternately/1768-merge-strings-alternately.cpp) | Two-Pointer Traversal with Remaining String Concatenation in $O(n + m)$ time |
@@ -544,7 +545,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (62 problems)
+│   └── ... (63 problems)
 ```
 
 Each problem folder contains:
@@ -792,6 +793,7 @@ public:
 | 1594 | [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/) | [C++](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/1594-maximum-non-negative-product-in-a-matrix.cpp) |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1609-even-odd-tree/) | [C++](Trees/1609-even-odd-tree/1609-even-odd-tree.cpp) |
 | 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/1631-path-with-minimum-effort/) | [App 1](BinarySearch/1631-path-with-minimum-effort/1631-path-with-minimum-effort.cpp "Dijkstra's Algorithm") · [App 2](BinarySearch/1631-path-with-minimum-effort/1631-path-with-minimum-effort-approach-2.cpp) · [App 3](BinarySearch/1631-path-with-minimum-effort/1631-path-with-minimum-effort-approach-3-dijkstras-algorithm.cpp "Dijkstra's Algorithm") |
+| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1662-check-if-two-string-arrays-are-equivalent/) | [C++](Arrays/1662-check-if-two-string-arrays-are-equivalent/1662-check-if-two-string-arrays-are-equivalent.cpp) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1672-richest-customer-wealth/) | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1678-goal-parser-interpretation/) | [C++](Arrays/1678-goal-parser-interpretation/1678-goal-parser-interpretation.cpp) |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1768-merge-strings-alternately/) | [C++](Arrays/1768-merge-strings-alternately/1768-merge-strings-alternately.cpp) |
@@ -1054,7 +1056,7 @@ public:
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [Problem Notes](Math/2469-convert-the-temperature/) | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (62)
+### 📦 [Arrays & Hashing](Arrays/) (63)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1110,6 +1112,7 @@ public:
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [Problem Notes](Arrays/1480-running-sum-of-1d-array/) | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 `Easy` | [Problem Notes](Arrays/1528-shuffle-string/) | [C++](Arrays/1528-shuffle-string/1528-shuffle-string.cpp) |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 `Easy` | [Problem Notes](Arrays/1572-matrix-diagonal-sum/) | [C++](Arrays/1572-matrix-diagonal-sum/1572-matrix-diagonal-sum.cpp) |
+| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 `Easy` | [Problem Notes](Arrays/1662-check-if-two-string-arrays-are-equivalent/) | [C++](Arrays/1662-check-if-two-string-arrays-are-equivalent/1662-check-if-two-string-arrays-are-equivalent.cpp) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [Problem Notes](Arrays/1672-richest-customer-wealth/) | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation) | 🟢 `Easy` | [Problem Notes](Arrays/1678-goal-parser-interpretation/) | [C++](Arrays/1678-goal-parser-interpretation/1678-goal-parser-interpretation.cpp) |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) | 🟢 `Easy` | [Problem Notes](Arrays/1768-merge-strings-alternately/) | [C++](Arrays/1768-merge-strings-alternately/1768-merge-strings-alternately.cpp) |
@@ -1145,15 +1148,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
-## String
-|  |
-| ------- |
-| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
-<!---LeetCode Topics End-->

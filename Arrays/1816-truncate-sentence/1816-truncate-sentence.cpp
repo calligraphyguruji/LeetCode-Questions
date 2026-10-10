@@ -1,5 +1,17 @@
 class Solution {
 public:
+    //Approach : String Traversal with Space Counting
+
+    //Time Complexity = O(n) =>
+    /* We traverse the string s at most once, where n = no. of elements.
+    */
+
+    //Space Complexity = O(n) =>
+    /* The ans string stores the truncated sentence.
+    * atmost n elements.
+    */
+
+
     string truncateSentence(string s, int k) {
         
         string ans;//to store the output
@@ -12,12 +24,12 @@ public:
                 
                 countWords++;
 
-                if(countWords == k){
+                if(countWords == k){ //when reached to k
                     break;
                 }
             }
 
-            ans += s[i];
+            ans += s[i]; 
         }
 
 

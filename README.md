@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-201_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-241-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-242-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 69 | 28.6% |
-| 🟡 **Medium** | 150 | 62.2% |
+| 🟢 **Easy** | 70 | 28.9% |
+| 🟡 **Medium** | 150 | 62.0% |
 | 🔴 **Hard** | 22 | 9.1% |
-| 🎯 **Total Solved** | **241** | **100%** |
+| 🎯 **Total Solved** | **242** | **100%** |
 | 🔥 **Current Streak** | **87 Days** | — |
 | 📅 **Total Active Days** | **201 Days** | — |
 
@@ -93,6 +93,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) | Left and right pointers swapping mirror elements towards the center |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) | Read/write two-pointer technique for in-place run-length encoding |
 | 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | 🟢 `Easy` | [C++](Arrays/0709-to-lower-case/0709-to-lower-case.cpp) | In-place String Traversal in $O(n)$ time |
+| 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | 🟢 `Easy` | [C++](Arrays/0859-buddy-strings/0859-buddy-strings.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address) | 🟢 `Easy` | [C++](Arrays/1108-defanging-an-ip-address/1108-defanging-an-ip-address.cpp) | String Traversal + Character Replacement in $O(n)$ time |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number) | 🟢 `Easy` | [C++](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 `Easy` | [C++](Arrays/1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.cpp) | Find Maximum + Linear Traversal in $O(n)$ time |
@@ -546,7 +547,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (64 problems)
+│   └── ... (65 problems)
 ```
 
 Each problem folder contains:
@@ -739,6 +740,7 @@ public:
 | 0814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0814-binary-tree-pruning/) | [C++](Trees/0814-binary-tree-pruning/0814-binary-tree-pruning.cpp) |
 | 0841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0841-keys-and-rooms/) | [Approach 1](Graphs/0841-keys-and-rooms/0841-keys-and-rooms.cpp "BFS(Breadth First Search)") · [Approach 2](Graphs/0841-keys-and-rooms/0841-keys-and-rooms-approach-2-dfs.cpp "DFS") |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0852-peak-index-in-a-mountain-array/) | [C++](BinarySearch/0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) |
+| 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0859-buddy-strings/) | [C++](Arrays/0859-buddy-strings/0859-buddy-strings.cpp) |
 | 0863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0863-all-nodes-distance-k-in-binary-tree/) | [C++](Trees/0863-all-nodes-distance-k-in-binary-tree/0863-all-nodes-distance-k-in-binary-tree.cpp) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0872-leaf-similar-trees/) | [C++](Trees/0872-leaf-similar-trees/0872-leaf-similar-trees.cpp) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0876-middle-of-the-linked-list/) | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
@@ -1058,7 +1060,7 @@ public:
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [Problem Notes](Math/2469-convert-the-temperature/) | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (64)
+### 📦 [Arrays & Hashing](Arrays/) (65)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1104,6 +1106,7 @@ public:
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string) | 🟡 `Medium` | [Problem Notes](Arrays/0567-permutation-in-string/) | [C++](Arrays/0567-permutation-in-string/0567-permutation-in-string.cpp) |
 | 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | 🟢 `Easy` | [Problem Notes](Arrays/0709-to-lower-case/) | [C++](Arrays/0709-to-lower-case/0709-to-lower-case.cpp) |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 `Easy` | [Problem Notes](Arrays/0771-jewels-and-stones/) | [C++](Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp) |
+| 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | 🟢 `Easy` | [Problem Notes](Arrays/0859-buddy-strings/) | [C++](Arrays/0859-buddy-strings/0859-buddy-strings.cpp) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0876-middle-of-the-linked-list/) | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | 🟡 `Medium` | [Problem Notes](Arrays/0901-online-stock-span/) | [C++](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address) | 🟢 `Easy` | [Problem Notes](Arrays/1108-defanging-an-ip-address/) | [C++](Arrays/1108-defanging-an-ip-address/1108-defanging-an-ip-address.cpp) |
@@ -1151,15 +1154,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [0859-buddy-strings](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0859-buddy-strings) |
-## String
-|  |
-| ------- |
-| [0859-buddy-strings](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0859-buddy-strings) |
-<!---LeetCode Topics End-->

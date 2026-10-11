@@ -1,5 +1,20 @@
 class Solution {
 public:
+    //Approach : Mismatch Index Tracking + Frequency Array
+
+    //Time Complexity = O(n) =>
+    /* We traverse the strings to check their lengths, equality, duplicate characters, and mismatched indices.
+    * Each traversal takes O(n) time, where n is the length of the string.
+    * Therefore, the overall time complexity is O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* The frequency array always contains 26 elements, requiring constant space. = O(1)
+    * The indices vector stores at most two indices before returning false if a third mismatch is found.
+    * Therefore, the auxiliary space complexity is O(1).
+    */
+
+
     bool buddyStrings(string s, string goal) {
         
         int countSwaps = 0;

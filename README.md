@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-86_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-87_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-200_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-201_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-240-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-241-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 68 | 28.3% |
-| 🟡 **Medium** | 150 | 62.5% |
-| 🔴 **Hard** | 22 | 9.2% |
-| 🎯 **Total Solved** | **240** | **100%** |
-| 🔥 **Current Streak** | **86 Days** | — |
-| 📅 **Total Active Days** | **200 Days** | — |
+| 🟢 **Easy** | 69 | 28.6% |
+| 🟡 **Medium** | 150 | 62.2% |
+| 🔴 **Hard** | 22 | 9.1% |
+| 🎯 **Total Solved** | **241** | **100%** |
+| 🔥 **Current Streak** | **87 Days** | — |
+| 📅 **Total Active Days** | **201 Days** | — |
 
 </div>
 
@@ -92,6 +92,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 🟡 `Medium` | [C++](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) | Left and right pointers swapping mirror elements towards the center |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) | Read/write two-pointer technique for in-place run-length encoding |
+| 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | 🟢 `Easy` | [C++](Arrays/0709-to-lower-case/0709-to-lower-case.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address) | 🟢 `Easy` | [C++](Arrays/1108-defanging-an-ip-address/1108-defanging-an-ip-address.cpp) | String Traversal + Character Replacement in $O(n)$ time |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number) | 🟢 `Easy` | [C++](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 `Easy` | [C++](Arrays/1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.cpp) | Find Maximum + Linear Traversal in $O(n)$ time |
@@ -545,7 +546,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (63 problems)
+│   └── ... (64 problems)
 ```
 
 Each problem folder contains:
@@ -727,6 +728,7 @@ public:
 | 0684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0684-redundant-connection/) | [C++](Graphs/0684-redundant-connection/0684-redundant-connection.cpp) |
 | 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0703-kth-largest-element-in-a-stream/) | [C++](BinarySearch/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0704-binary-search/) | [C++](BinarySearch/0704-binary-search/0704-binary-search.cpp) |
+| 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0709-to-lower-case/) | [C++](Arrays/0709-to-lower-case/0709-to-lower-case.cpp) |
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | 🟢 `Easy` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0733-flood-fill/) | [C++](Graphs/0733-flood-fill/0733-flood-fill.cpp) |
 | 0743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0743-network-delay-time/) | [C++](Graphs/0743-network-delay-time/0743-network-delay-time.cpp) |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0771-jewels-and-stones/) | [C++](Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp) |
@@ -1056,7 +1058,7 @@ public:
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [Problem Notes](Math/2469-convert-the-temperature/) | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (63)
+### 📦 [Arrays & Hashing](Arrays/) (64)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1100,6 +1102,7 @@ public:
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 `Medium` | [Problem Notes](Arrays/0503-next-greater-element-ii/) | [C++](Arrays/0503-next-greater-element-ii/0503-next-greater-element-ii.cpp) |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 `Medium` | [Problem Notes](Arrays/0560-subarray-sum-equals-k/) | [C++](Arrays/0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.cpp) |
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string) | 🟡 `Medium` | [Problem Notes](Arrays/0567-permutation-in-string/) | [C++](Arrays/0567-permutation-in-string/0567-permutation-in-string.cpp) |
+| 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | 🟢 `Easy` | [Problem Notes](Arrays/0709-to-lower-case/) | [C++](Arrays/0709-to-lower-case/0709-to-lower-case.cpp) |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 `Easy` | [Problem Notes](Arrays/0771-jewels-and-stones/) | [C++](Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0876-middle-of-the-linked-list/) | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | 🟡 `Medium` | [Problem Notes](Arrays/0901-online-stock-span/) | [C++](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
@@ -1148,11 +1151,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0709-to-lower-case](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0709-to-lower-case) |
-<!---LeetCode Topics End-->

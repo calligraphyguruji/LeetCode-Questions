@@ -110,7 +110,7 @@ To make revision structured and interview preparation fast, every question is in
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) | Optimal Approach (String Traversal + Character Checking) in $O(n)$ time |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value) | 🟢 `Easy` | [C++](Arrays/2057-smallest-index-with-equal-value/2057-smallest-index-with-equal-value.cpp) | Linear Search in $O(n)$ time |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) | Brute Force (String Traversal + Space Counting) in $O(n)$ time |
-| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix) | 🟢 `Easy` | [C++](Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix) | 🟢 `Easy` | [C++](Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp) | String Search Using find () in $O(n * m)$ time |
 
 <a id="-sliding-window"></a>
 ### 🪟 Sliding Window (Fixed & Minimum Window)

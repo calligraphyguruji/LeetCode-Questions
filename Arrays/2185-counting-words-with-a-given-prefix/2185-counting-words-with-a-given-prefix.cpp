@@ -1,5 +1,16 @@
 class Solution {
 public:
+    //Approach : String Search Using find()
+
+    //Time Complexity = O(n * m) =>
+    /* O(n × m), where n is the number of words and m is the maximum word length.
+    */
+
+    //Space Complexity = O(1) =>
+    /* No extra data structure used for storage.
+    * Only a few variables used.
+    */
+
     int prefixCount(vector<string>& words, string pref) {
         
         int countPrefix = 0;

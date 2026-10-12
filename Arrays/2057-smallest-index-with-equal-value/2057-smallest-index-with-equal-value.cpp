@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Linear Search
+
+    //Time Complexity = O(n) =>
+    /* We traverse the array at most once.
+    * which consist upto n elements.
+    */
+
+
+    //Space Complexity = O(1) =>
+    /* No extra data structure used for storage.
+    * Only a few variables(i) used.
+    */
+
+
     int smallestEqual(vector<int>& nums) {
         
         //traverse in nums 

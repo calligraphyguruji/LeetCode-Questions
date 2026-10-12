@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-202_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-243-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-244-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 71 | 29.2% |
-| 🟡 **Medium** | 150 | 61.7% |
-| 🔴 **Hard** | 22 | 9.1% |
-| 🎯 **Total Solved** | **243** | **100%** |
+| 🟢 **Easy** | 72 | 29.5% |
+| 🟡 **Medium** | 150 | 61.5% |
+| 🔴 **Hard** | 22 | 9.0% |
+| 🎯 **Total Solved** | **244** | **100%** |
 | 🔥 **Current Streak** | **88 Days** | — |
 | 📅 **Total Active Days** | **202 Days** | — |
 
@@ -110,6 +110,7 @@ To make revision structured and interview preparation fast, every question is in
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) | Optimal Approach (String Traversal + Character Checking) in $O(n)$ time |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value) | 🟢 `Easy` | [C++](Arrays/2057-smallest-index-with-equal-value/2057-smallest-index-with-equal-value.cpp) | Linear Search in $O(n)$ time |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) | Brute Force (String Traversal + Space Counting) in $O(n)$ time |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix) | 🟢 `Easy` | [C++](Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 
 <a id="-sliding-window"></a>
 ### 🪟 Sliding Window (Fixed & Minimum Window)
@@ -548,7 +549,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (66 problems)
+│   └── ... (67 problems)
 ```
 
 Each problem folder contains:
@@ -819,6 +820,7 @@ public:
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/) | [C++](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/2096-step-by-step-directions-from-a-binary-tree-node-to-another.cpp) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2114-maximum-number-of-words-found-in-sentences/) | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2185-counting-words-with-a-given-prefix/) | [C++](Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp) |
 | 2196 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2196-create-binary-tree-from-descriptions/) | [C++](Trees/2196-create-binary-tree-from-descriptions/2196-create-binary-tree-from-descriptions.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2246-longest-path-with-different-adjacent-characters/) | [C++](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
@@ -1062,7 +1064,7 @@ public:
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [Problem Notes](Math/2469-convert-the-temperature/) | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (66)
+### 📦 [Arrays & Hashing](Arrays/) (67)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1132,6 +1134,7 @@ public:
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value) | 🟢 `Easy` | [Problem Notes](Arrays/2057-smallest-index-with-equal-value/) | [C++](Arrays/2057-smallest-index-with-equal-value/2057-smallest-index-with-equal-value.cpp) |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [Problem Notes](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [Problem Notes](Arrays/2114-maximum-number-of-words-found-in-sentences/) | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix) | 🟢 `Easy` | [Problem Notes](Arrays/2185-counting-words-with-a-given-prefix/) | [C++](Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp) |
 
 ---
 
@@ -1157,19 +1160,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [2185-counting-words-with-a-given-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2185-counting-words-with-a-given-prefix) |
-## String
-|  |
-| ------- |
-| [2185-counting-words-with-a-given-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2185-counting-words-with-a-given-prefix) |
-## String Matching
-|  |
-| ------- |
-| [2185-counting-words-with-a-given-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2185-counting-words-with-a-given-prefix) |
-<!---LeetCode Topics End-->

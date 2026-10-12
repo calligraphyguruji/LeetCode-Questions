@@ -1160,19 +1160,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [2185-counting-words-with-a-given-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2185-counting-words-with-a-given-prefix) |
-## String
-|  |
-| ------- |
-| [2185-counting-words-with-a-given-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2185-counting-words-with-a-given-prefix) |
-## String Matching
-|  |
-| ------- |
-| [2185-counting-words-with-a-given-prefix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2185-counting-words-with-a-given-prefix) |
-<!---LeetCode Topics End-->

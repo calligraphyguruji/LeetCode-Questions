@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Prefix Construction + Conditional Reversal
+
+    //Time Complexity = O(n) =>
+    /* We traverse the string character by character until ch is found or the string ends.
+    * Reversing the prefix takes O(n) time in the worst case.
+    * Therefore, the overall time complexity is O(n), where n is the length of the string.
+    */
+
+    //Space Complexity = O(n) =>
+    /* We create a separate string ans to store the prefix.
+    * In the worst case, ans stores all n characters of the string.
+    * Therefore, the space complexity is O(n).
+    */
+
     string reversePrefix(string word, char ch) {
 
         string ans; //to store the output

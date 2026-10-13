@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-88_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-89_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-202_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-203_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-244-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-245-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 72 | 29.5% |
-| 🟡 **Medium** | 150 | 61.5% |
+| 🟢 **Easy** | 73 | 29.8% |
+| 🟡 **Medium** | 150 | 61.2% |
 | 🔴 **Hard** | 22 | 9.0% |
-| 🎯 **Total Solved** | **244** | **100%** |
-| 🔥 **Current Streak** | **88 Days** | — |
-| 📅 **Total Active Days** | **202 Days** | — |
+| 🎯 **Total Solved** | **245** | **100%** |
+| 🔥 **Current Streak** | **89 Days** | — |
+| 📅 **Total Active Days** | **203 Days** | — |
 
 </div>
 
@@ -107,6 +107,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1816 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence) | 🟢 `Easy` | [C++](Arrays/1816-truncate-sentence/1816-truncate-sentence.cpp) | String Traversal with Space Counting in $O(n)$ time |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | 🟢 `Easy` | [C++](Arrays/1859-sorting-the-sentence/1859-sorting-the-sentence.cpp) | Word Extraction and Positional Placement in $O(n)$ time |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) | Direct Indexing / Array mapping in $O(n)$ time |
+| 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word) | 🟢 `Easy` | [C++](Arrays/2000-reverse-prefix-of-word/2000-reverse-prefix-of-word.cpp) | Optimal Arrays & Hashing approach with clean asymptotic complexity |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) | Optimal Approach (String Traversal + Character Checking) in $O(n)$ time |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value) | 🟢 `Easy` | [C++](Arrays/2057-smallest-index-with-equal-value/2057-smallest-index-with-equal-value.cpp) | Linear Search in $O(n)$ time |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) | Brute Force (String Traversal + Space Counting) in $O(n)$ time |
@@ -549,7 +550,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (67 problems)
+│   └── ... (68 problems)
 ```
 
 Each problem folder contains:
@@ -813,6 +814,7 @@ public:
 | 1932 | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/1932-merge-bsts-to-create-single-bst/) | [C++](BinarySearch/1932-merge-bsts-to-create-single-bst/1932-merge-bsts-to-create-single-bst.cpp) |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph) | 🟢 `Easy` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1971-find-if-path-exists-in-graph/) | [C++](Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp) |
 | 1976 | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1976-number-of-ways-to-arrive-at-destination/) | [C++](Graphs/1976-number-of-ways-to-arrive-at-destination/1976-number-of-ways-to-arrive-at-destination.cpp) |
+| 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2000-reverse-prefix-of-word/) | [C++](Arrays/2000-reverse-prefix-of-word/2000-reverse-prefix-of-word.cpp) |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2011-final-value-of-variable-after-performing-operations/) | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | [C++](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/2035-partition-array-into-two-arrays-to-minimize-sum-difference.cpp) |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2057-smallest-index-with-equal-value/) | [C++](Arrays/2057-smallest-index-with-equal-value/2057-smallest-index-with-equal-value.cpp) |
@@ -1064,7 +1066,7 @@ public:
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [Problem Notes](Math/2469-convert-the-temperature/) | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (67)
+### 📦 [Arrays & Hashing](Arrays/) (68)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1130,6 +1132,7 @@ public:
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | 🟢 `Easy` | [Problem Notes](Arrays/1859-sorting-the-sentence/) | [C++](Arrays/1859-sorting-the-sentence/1859-sorting-the-sentence.cpp) |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [Problem Notes](Arrays/1910-remove-all-occurrences-of-a-substring/) | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation) | 🟢 `Easy` | [Problem Notes](Arrays/1920-build-array-from-permutation/) | [C++](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) |
+| 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word) | 🟢 `Easy` | [Problem Notes](Arrays/2000-reverse-prefix-of-word/) | [C++](Arrays/2000-reverse-prefix-of-word/2000-reverse-prefix-of-word.cpp) |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [Problem Notes](Arrays/2011-final-value-of-variable-after-performing-operations/) | [C++](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value) | 🟢 `Easy` | [Problem Notes](Arrays/2057-smallest-index-with-equal-value/) | [C++](Arrays/2057-smallest-index-with-equal-value/2057-smallest-index-with-equal-value.cpp) |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [Problem Notes](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
@@ -1160,19 +1163,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Two Pointers
-|  |
-| ------- |
-| [2000-reverse-prefix-of-word](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2000-reverse-prefix-of-word) |
-## String
-|  |
-| ------- |
-| [2000-reverse-prefix-of-word](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2000-reverse-prefix-of-word) |
-## Stack
-|  |
-| ------- |
-| [2000-reverse-prefix-of-word](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2000-reverse-prefix-of-word) |
-<!---LeetCode Topics End-->

@@ -1,5 +1,18 @@
 class Solution {
 public:
+    //Approach : Mathematical Formula
+
+    //Time Complexity = O(1) =>
+    /* We perform only one subtraction: n - 1.
+    * The number of operations remains constant regardless of the input value of n.
+    */
+
+    
+    //Space Complexity = O(1) =>
+    /* We don’t use any additional variables, arrays, loops, or data structures.
+    * The algorithm requires constant extra space.
+    */
+
     int numberOfMatches(int n) {
         
         int matches = 0;

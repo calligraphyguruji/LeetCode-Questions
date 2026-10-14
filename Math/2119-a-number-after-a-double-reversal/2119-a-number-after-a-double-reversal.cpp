@@ -1,5 +1,21 @@
 class Solution {
 public:
+
+    //Approach : Two-Pass Digit Reversal Approach
+
+    //Time Complexity = O(logn) =>
+    /* The first while loop reverses the original number.
+    * The second while loop reverses the number again.
+    * A number with n digits takes O(log n) time relative to its numeric value because the number of digits is proportional to log(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* We use a fixed number of integer variables: original, reversed1, reversed2, and digit.
+    * No additional data structures are used to store.
+    * The number of variables remains constant regardless of the input size.
+    */
+
+
     bool isSameAfterReversals(int num) {
         
         int original = num; //store num to compare in last

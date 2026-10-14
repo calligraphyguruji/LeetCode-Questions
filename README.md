@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-204_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-246-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-247-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 74 | 30.1% |
-| 🟡 **Medium** | 150 | 61.0% |
+| 🟢 **Easy** | 75 | 30.4% |
+| 🟡 **Medium** | 150 | 60.7% |
 | 🔴 **Hard** | 22 | 8.9% |
-| 🎯 **Total Solved** | **246** | **100%** |
+| 🎯 **Total Solved** | **247** | **100%** |
 | 🔥 **Current Streak** | **90 Days** | — |
 | 📅 **Total Active Days** | **204 Days** | — |
 
@@ -479,6 +479,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) | Trial division or max integer power of three modulo check |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four) | 🟢 `Easy` | [C++](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) | Power of two check combined with bit position mask `0x55555555` |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 `Easy` | [C++](Math/0412-fizz-buzz/0412-fizz-buzz.cpp) | Simulation / Conditional Checking in $O(n)$ time |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer) | 🟢 `Easy` | [C++](Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer/1281-subtract-the-product-and-sum-of-digits-of-an-integer.cpp) | Optimal Math & Number Theory approach with clean asymptotic complexity |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 `Easy` | [C++](Math/1295-find-numbers-with-even-number-of-digits/1295-find-numbers-with-even-number-of-digits.cpp) | Digit Counting Using Repeated Division in $O(n * d)$ time |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | 🟢 `Easy` | [C++](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) | Simulation / Iterative Reduction in $O(log N)$ time |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix) | 🔴 `Hard` | [C++](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) | KMP Longest Proper Prefix which is also Suffix (LPS array) computation |
@@ -547,7 +548,7 @@ LeetCode-Questions/
 ├── Math/
 │   ├── 0002-add-two-numbers/
 │   ├── 0050-powx-n/
-│   └── ... (12 problems)
+│   └── ... (13 problems)
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
@@ -771,6 +772,7 @@ public:
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1161-maximum-level-sum-of-a-binary-tree/) | [C++](Trees/1161-maximum-level-sum-of-a-binary-tree/1161-maximum-level-sum-of-a-binary-tree.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
 | 1261 | [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1261-find-elements-in-a-contaminated-binary-tree/) | [C++](Trees/1261-find-elements-in-a-contaminated-binary-tree/1261-find-elements-in-a-contaminated-binary-tree.cpp) |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | [C++](Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer/1281-subtract-the-product-and-sum-of-digits-of-an-integer.cpp) |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/1295-find-numbers-with-even-number-of-digits/) | [C++](Math/1295-find-numbers-with-even-number-of-digits/1295-find-numbers-with-even-number-of-digits.cpp) |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | [C++](DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/1312-minimum-insertion-steps-to-make-a-string-palindrome.cpp) |
 | 1319 | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1319-number-of-operations-to-make-network-connected/) | [C++](Graphs/1319-number-of-operations-to-make-network-connected/1319-number-of-operations-to-make-network-connected.cpp) |
@@ -1052,7 +1054,7 @@ public:
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | 🟢 `Easy` | [Problem Notes](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/) | [C++](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | 🟢 `Easy` | [Problem Notes](BitManipulation/1486-xor-operation-in-an-array/) | [Approach 1](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp "Brute Force (Running XOR)") · [Approach 2](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array-approach-2-optimal-approach.cpp "Optimal Approach (XOR Pattern / Mathematical Optimization)") |
 
-### 🔢 [Math & Number Theory](Math/) (12)
+### 🔢 [Math & Number Theory](Math/) (13)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1061,6 +1063,7 @@ public:
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 `Easy` | [Problem Notes](Math/0263-ugly-number/) | [C++](Math/0263-ugly-number/0263-ugly-number.cpp) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three) | 🟢 `Easy` | [Problem Notes](Math/0326-power-of-three/) | [C++](Math/0326-power-of-three/0326-power-of-three.cpp) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 `Easy` | [Problem Notes](Math/0412-fizz-buzz/) | [C++](Math/0412-fizz-buzz/0412-fizz-buzz.cpp) |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer) | 🟢 `Easy` | [Problem Notes](Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | [C++](Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer/1281-subtract-the-product-and-sum-of-digits-of-an-integer.cpp) |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 `Easy` | [Problem Notes](Math/1295-find-numbers-with-even-number-of-digits/) | [C++](Math/1295-find-numbers-with-even-number-of-digits/1295-find-numbers-with-even-number-of-digits.cpp) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [Problem Notes](Math/1512-number-of-good-pairs/) | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples) | 🟢 `Easy` | [Problem Notes](Math/1925-count-square-sum-triples/) | [C++](Math/1925-count-square-sum-triples/1925-count-square-sum-triples.cpp) |
@@ -1166,11 +1169,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1281-subtract-the-product-and-sum-of-digits-of-an-integer) |
-<!---LeetCode Topics End-->

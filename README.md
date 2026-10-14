@@ -1172,3 +1172,15 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [1688-count-of-matches-in-tournament](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1688-count-of-matches-in-tournament) |
+## Simulation
+|  |
+| ------- |
+| [1688-count-of-matches-in-tournament](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1688-count-of-matches-in-tournament) |
+<!---LeetCode Topics End-->

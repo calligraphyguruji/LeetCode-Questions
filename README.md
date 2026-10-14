@@ -1172,11 +1172,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [1523-count-odd-numbers-in-an-interval-range](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1523-count-odd-numbers-in-an-interval-range) |
-<!---LeetCode Topics End-->

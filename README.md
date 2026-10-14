@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-89_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-90_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-203_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-204_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-245-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-246-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 73 | 29.8% |
-| 🟡 **Medium** | 150 | 61.2% |
-| 🔴 **Hard** | 22 | 9.0% |
-| 🎯 **Total Solved** | **245** | **100%** |
-| 🔥 **Current Streak** | **89 Days** | — |
-| 📅 **Total Active Days** | **203 Days** | — |
+| 🟢 **Easy** | 74 | 30.1% |
+| 🟡 **Medium** | 150 | 61.0% |
+| 🔴 **Hard** | 22 | 8.9% |
+| 🎯 **Total Solved** | **246** | **100%** |
+| 🔥 **Current Streak** | **90 Days** | — |
+| 📅 **Total Active Days** | **204 Days** | — |
 
 </div>
 
@@ -486,6 +486,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) | Brute Force (Nested Loop) in $O(N²)$ time |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) | Stack-based or string buffer matching and popping target substring |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) | Direct single-pass calculation of tickets processed before position $k$ |
+| 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal) | 🟢 `Easy` | [C++](Math/2119-a-number-after-a-double-reversal/2119-a-number-after-a-double-reversal.cpp) | Optimal Math & Number Theory approach with clean asymptotic complexity |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) | Why do you need approach in adding two numbers just simply add? in $O(1)$ time |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) | Direct Calculation in $O(1)$ time |
 
@@ -546,7 +547,7 @@ LeetCode-Questions/
 ├── Math/
 │   ├── 0002-add-two-numbers/
 │   ├── 0050-powx-n/
-│   └── ... (11 problems)
+│   └── ... (12 problems)
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
@@ -822,6 +823,7 @@ public:
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/) | [C++](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/2096-step-by-step-directions-from-a-binary-tree-node-to-another.cpp) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2114-maximum-number-of-words-found-in-sentences/) | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) |
+| 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2119-a-number-after-a-double-reversal/) | [C++](Math/2119-a-number-after-a-double-reversal/2119-a-number-after-a-double-reversal.cpp) |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2185-counting-words-with-a-given-prefix/) | [C++](Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp) |
 | 2196 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2196-create-binary-tree-from-descriptions/) | [C++](Trees/2196-create-binary-tree-from-descriptions/2196-create-binary-tree-from-descriptions.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
@@ -1050,7 +1052,7 @@ public:
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | 🟢 `Easy` | [Problem Notes](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/) | [C++](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | 🟢 `Easy` | [Problem Notes](BitManipulation/1486-xor-operation-in-an-array/) | [Approach 1](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp "Brute Force (Running XOR)") · [Approach 2](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array-approach-2-optimal-approach.cpp "Optimal Approach (XOR Pattern / Mathematical Optimization)") |
 
-### 🔢 [Math & Number Theory](Math/) (11)
+### 🔢 [Math & Number Theory](Math/) (12)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1062,6 +1064,7 @@ public:
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 `Easy` | [Problem Notes](Math/1295-find-numbers-with-even-number-of-digits/) | [C++](Math/1295-find-numbers-with-even-number-of-digits/1295-find-numbers-with-even-number-of-digits.cpp) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [Problem Notes](Math/1512-number-of-good-pairs/) | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples) | 🟢 `Easy` | [Problem Notes](Math/1925-count-square-sum-triples/) | [C++](Math/1925-count-square-sum-triples/1925-count-square-sum-triples.cpp) |
+| 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal) | 🟢 `Easy` | [Problem Notes](Math/2119-a-number-after-a-double-reversal/) | [C++](Math/2119-a-number-after-a-double-reversal/2119-a-number-after-a-double-reversal.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature) | 🟢 `Easy` | [Problem Notes](Math/2469-convert-the-temperature/) | [C++](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [Problem Notes](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
@@ -1163,11 +1166,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [2119-a-number-after-a-double-reversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2119-a-number-after-a-double-reversal) |
-<!---LeetCode Topics End-->

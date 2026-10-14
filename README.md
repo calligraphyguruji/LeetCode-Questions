@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-204_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-248-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-249-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 76 | 30.6% |
-| 🟡 **Medium** | 150 | 60.5% |
-| 🔴 **Hard** | 22 | 8.9% |
-| 🎯 **Total Solved** | **248** | **100%** |
+| 🟢 **Easy** | 77 | 30.9% |
+| 🟡 **Medium** | 150 | 60.2% |
+| 🔴 **Hard** | 22 | 8.8% |
+| 🎯 **Total Solved** | **249** | **100%** |
 | 🔥 **Current Streak** | **90 Days** | — |
 | 📅 **Total Active Days** | **204 Days** | — |
 
@@ -486,6 +486,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | 🟢 `Easy` | [Approach 1](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp "Brute Force (Running XOR)") · [Approach 2](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array-approach-2-optimal-approach.cpp "Optimal Approach (XOR Pattern / Mathematical Optimization)") | Brute Force (Running XOR) in $O(n)$ time |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) | Brute Force (Nested Loop) in $O(N²)$ time |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range) | 🟢 `Easy` | [C++](Math/1523-count-odd-numbers-in-an-interval-range/1523-count-odd-numbers-in-an-interval-range.cpp) | Brute Force (Linear Traversal) in $O(n)$ time |
+| 1688 | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament) | 🟢 `Easy` | [C++](Math/1688-count-of-matches-in-tournament/1688-count-of-matches-in-tournament.cpp) | Optimal Math & Number Theory approach with clean asymptotic complexity |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | 🟡 `Medium` | [C++](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) | Stack-based or string buffer matching and popping target substring |
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) | Direct single-pass calculation of tickets processed before position $k$ |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal) | 🟢 `Easy` | [C++](Math/2119-a-number-after-a-double-reversal/2119-a-number-after-a-double-reversal.cpp) | Two-Pass Digit Reversal Approach in $O(\log n)$ time |
@@ -549,7 +550,7 @@ LeetCode-Questions/
 ├── Math/
 │   ├── 0002-add-two-numbers/
 │   ├── 0050-powx-n/
-│   └── ... (14 problems)
+│   └── ... (15 problems)
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
@@ -808,6 +809,7 @@ public:
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1662-check-if-two-string-arrays-are-equivalent/) | [C++](Arrays/1662-check-if-two-string-arrays-are-equivalent/1662-check-if-two-string-arrays-are-equivalent.cpp) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1672-richest-customer-wealth/) | [Approach 1](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp) · [Approach 2](Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp "2D Array Traversal + Row Sum") |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1678-goal-parser-interpretation/) | [C++](Arrays/1678-goal-parser-interpretation/1678-goal-parser-interpretation.cpp) |
+| 1688 | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/1688-count-of-matches-in-tournament/) | [C++](Math/1688-count-of-matches-in-tournament/1688-count-of-matches-in-tournament.cpp) |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1768-merge-strings-alternately/) | [C++](Arrays/1768-merge-strings-alternately/1768-merge-strings-alternately.cpp) |
 | 1816 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1816-truncate-sentence/) | [C++](Arrays/1816-truncate-sentence/1816-truncate-sentence.cpp) |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1859-sorting-the-sentence/) | [C++](Arrays/1859-sorting-the-sentence/1859-sorting-the-sentence.cpp) |
@@ -1056,7 +1058,7 @@ public:
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | 🟢 `Easy` | [Problem Notes](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/) | [C++](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array) | 🟢 `Easy` | [Problem Notes](BitManipulation/1486-xor-operation-in-an-array/) | [Approach 1](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp "Brute Force (Running XOR)") · [Approach 2](BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array-approach-2-optimal-approach.cpp "Optimal Approach (XOR Pattern / Mathematical Optimization)") |
 
-### 🔢 [Math & Number Theory](Math/) (14)
+### 🔢 [Math & Number Theory](Math/) (15)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1069,6 +1071,7 @@ public:
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 `Easy` | [Problem Notes](Math/1295-find-numbers-with-even-number-of-digits/) | [C++](Math/1295-find-numbers-with-even-number-of-digits/1295-find-numbers-with-even-number-of-digits.cpp) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 `Easy` | [Problem Notes](Math/1512-number-of-good-pairs/) | [C++](Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp) |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range) | 🟢 `Easy` | [Problem Notes](Math/1523-count-odd-numbers-in-an-interval-range/) | [C++](Math/1523-count-odd-numbers-in-an-interval-range/1523-count-odd-numbers-in-an-interval-range.cpp) |
+| 1688 | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament) | 🟢 `Easy` | [Problem Notes](Math/1688-count-of-matches-in-tournament/) | [C++](Math/1688-count-of-matches-in-tournament/1688-count-of-matches-in-tournament.cpp) |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples) | 🟢 `Easy` | [Problem Notes](Math/1925-count-square-sum-triples/) | [C++](Math/1925-count-square-sum-triples/1925-count-square-sum-triples.cpp) |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal) | 🟢 `Easy` | [Problem Notes](Math/2119-a-number-after-a-double-reversal/) | [C++](Math/2119-a-number-after-a-double-reversal/2119-a-number-after-a-double-reversal.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 `Easy` | [Problem Notes](Math/2235-add-two-integers/) | [C++](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
@@ -1172,15 +1175,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [1688-count-of-matches-in-tournament](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1688-count-of-matches-in-tournament) |
-## Simulation
-|  |
-| ------- |
-| [1688-count-of-matches-in-tournament](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1688-count-of-matches-in-tournament) |
-<!---LeetCode Topics End-->

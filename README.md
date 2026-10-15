@@ -307,6 +307,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) | 🟡 `Medium` | [C++](Graphs/0994-rotting-oranges/0994-rotting-oranges.cpp) | Multi-source BFS spreading rot layer-by-layer to adjacent fresh oranges |
 | 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | 🟡 `Medium` | [Approach 1](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix.cpp "BFS(Breadth First Search)") · [Approach 2](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix-approach-2-dijkstras-algorithm.cpp "Dijkstra's Algorithm") | 8-directional BFS in binary grid to find shortest path to bottom-right |
 | 1926 | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze) | 🟡 `Medium` | [C++](Graphs/1926-nearest-exit-from-entrance-in-maze/1926-nearest-exit-from-entrance-in-maze.cpp) | Queue BFS stepping through open cells to nearest perimeter boundary |
+| 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [C++](Heaps/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) | BFS directly on the grid + health tracking in $O(m * n * health)$ time |
 
 <a id="-graph-dfs"></a>
 ### 🗺️ Graph DFS, Connectivity & Bipartite Graphs
@@ -430,7 +431,6 @@ To make revision structured and interview preparation fast, every question is in
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 `Medium` | [C++](Heaps/0347-top-k-frequent-elements/0347-top-k-frequent-elements.cpp) | Frequency map + min-heap or $O(n)$ bucket sort on counts |
 | 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 `Easy` | [C++](Heaps/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp) | Min-heap storing top $k$ elements; root holds $k$-th largest |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 `Medium` | [C++](Heaps/0912-sort-an-array/0912-sort-an-array.cpp) | Max-heap sort / divide-and-conquer sorting algorithms |
-| 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [C++](Heaps/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) | Optimal Heaps & Priority Queues approach with clean asymptotic complexity |
 
 <a id="-linked-list-manipulation"></a>
 ### 🪢 Linked List Pointer Surgery & In-Place Reversal

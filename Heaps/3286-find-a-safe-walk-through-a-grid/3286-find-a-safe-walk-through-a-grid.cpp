@@ -1,6 +1,21 @@
 class Solution {
 public:
-    vector<vector<int>> directions{ {-1,0}, {1, 0}, {0, -1}, {0, 1} };
+    //Approach : BFS directly on the grid + health tracking
+
+    //Time Complexity = O(m * n * health) =>
+    /* 1. There are m × n cells in the grid.
+    2. Each cell can potentially be reached with different health values, from 1 to the initial health.
+    3. Therefore, there can be up to m × n × health distinct states.
+    4. For each state, BFS explores 4 directions, which takes constant time, O(1).
+    */
+
+    //Space Complexity = O(m * n * health) =>
+    /* 1. The bestHealth matrix stores one value per cell, requiring O(m × n) space.
+    2. The queue stores states containing the row, column, and remaining health.
+    3. In the worst case, the queue can contain up to O(m × n × health) states.
+    */
+
+    vector<vector<int>> directions{ {-1,0}, {1, 0}, {0, -1}, {0, 1} }; //up, down, left, right
 
     bool findSafeWalk(vector<vector<int>>& grid, int health) {
         

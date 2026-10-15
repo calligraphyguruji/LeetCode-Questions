@@ -242,7 +242,8 @@ PATTERN_CATEGORIES = [
             ("0733-flood-fill", "Grid flood fill updating connected pixels of identical original color"),
             ("0994-rotting-oranges", "Multi-source BFS spreading rot layer-by-layer to adjacent fresh oranges"),
             ("1091-shortest-path-in-binary-matrix", "8-directional BFS in binary grid to find shortest path to bottom-right"),
-            ("1926-nearest-exit-from-entrance-in-maze", "Queue BFS stepping through open cells to nearest perimeter boundary")
+            ("1926-nearest-exit-from-entrance-in-maze", "Queue BFS stepping through open cells to nearest perimeter boundary"),
+            ("3286-find-a-safe-walk-through-a-grid", "BFS directly on grid tracking best remaining health state")
         ]
     },
     {
@@ -1003,10 +1004,29 @@ def update_question_readme(q_dir_path, solutions):
     except Exception as e:
         print(f"[Warning] Failed to update {q_readme_path}: {e}")
 
+QUESTION_TOPIC_OVERRIDES = {
+    "3286": "Graphs",
+    "find-a-safe-walk-through-a-grid": "Graphs",
+}
+
 def classify_topic(title_slug, q_dir_name, old_readme=""):
     """Classify question into a target topic folder."""
+    base_name = os.path.basename(q_dir_name) if q_dir_name else ""
+    q_num = base_name.split("-")[0] if base_name else ""
+    if q_num in QUESTION_TOPIC_OVERRIDES:
+        return QUESTION_TOPIC_OVERRIDES[q_num]
+    if title_slug in QUESTION_TOPIC_OVERRIDES:
+        return QUESTION_TOPIC_OVERRIDES[title_slug]
+
     # 1. Check code comments and structures in the question directory
     q_dir_path = os.path.join(BASE_DIR, q_dir_name)
+    if not os.path.isdir(q_dir_path):
+        for folder, _, _, _ in TOPIC_CONFIG:
+            cand = os.path.join(BASE_DIR, folder, base_name)
+            if os.path.isdir(cand):
+                q_dir_path = cand
+                break
+
     code_text = ""
     if os.path.isdir(q_dir_path):
         sol_files = get_solution_files(q_dir_path)
@@ -1060,8 +1080,9 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
         m_app = re.search(r"(?i)(?://|#)\s*(?:approach|method|strategy)(?:[\s\-_]*(?:\d+))?\s*[:\-–—]\s*([^\r\n]+)", code_text)
         if m_app:
             app_raw = m_app.group(1).lower().strip()
-            if any(kw in app_raw for kw in ["dijkstra", "prim", "kruskal", "mst", "topological", "bipartite", "2-coloring"]):
-                return "Graphs"
+            if any(kw in app_raw for kw in ["dijkstra", "prim", "kruskal", "mst", "topological", "bipartite", "2-coloring", "shortest path", "bfs", "0-1 bfs", "breadth first search", "breadth-first search"]):
+                if not any(kw in app_raw for kw in ["tree", "bst"]):
+                    return "Graphs"
             if any(kw in app_raw for kw in ["min-heap", "max-heap", "priority queue", "heap"]):
                 return "Heaps"
             if any(kw in app_raw for kw in ["memoization", "top-down", "bottom-up", "dynamic programming", "kadane"]):
@@ -1076,8 +1097,16 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
             return "Linked-List"
         if "heapify" in code_lower or "heapsort" in code_lower:
             return "Heaps"
-        if "priority_queue" in code_text and ("dijkstra" not in code_lower and "prim" not in code_lower):
+        # If priority_queue is used in a grid/graph shortest path or BFS traversal, classify as Graphs
+        if "priority_queue" in code_text:
+            is_grid_or_graph = any(kw in code_lower for kw in [
+                "dijkstra", "prim", "grid", "visited", "dirs", "directions", "shortest", "health", "dr[", "dc[", "drow", "dcol"
+            ])
+            if is_grid_or_graph and not any(kw in code_lower for kw in ["treenode", "bst"]):
+                return "Graphs"
             return "Heaps"
+        if ("deque" in code_text or "queue" in code_text) and any(kw in code_lower for kw in ["grid", "dirs", "directions", "health", "safe walk"]):
+            return "Graphs"
         if "vector<vector<int>> dp" in code_text or "int dp[" in code_text:
             return "DynamicProgramming"
 
@@ -1088,24 +1117,29 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
 
     tags_lower = [t.lower() for t in tags]
 
-    # Specific graph algorithms
-    if any(t in ["minimum spanning tree", "prim's algorithm", "kruskal's algorithm", "dijkstra's algorithm", "topological sort", "bipartite", "eulerian circuit"] for t in tags_lower):
-        return "Graphs"
-
     # If title or tags indicate trees / BST
     if "tree" in title_slug or any(t in ["tree", "binary tree", "binary search tree", "trie"] for t in tags_lower):
         return "Trees"
+
+    # Graph algorithms (Graph Theory, BFS, DFS, Shortest Path, Dijkstra, MST, etc.)
+    # Graph shortest-path problems often have 'heap (priority queue)' tag; prioritize Graphs over Heaps.
+    if any(t in [
+        "graph theory", "graph", "shortest path", "breadth-first search",
+        "minimum spanning tree", "prim's algorithm", "kruskal's algorithm",
+        "dijkstra's algorithm", "topological sort", "bipartite", "eulerian circuit"
+    ] for t in tags_lower):
+        return "Graphs"
 
     # Dynamic Programming
     if any(t in ["dynamic programming", "memoization", "knapsack problem", "complete knapsack"] for t in tags_lower):
         return "DynamicProgramming"
 
-    # Heap
+    # Heap (pure heap problems without graph/shortest path)
     if any(t in ["heap (priority queue)"] for t in tags_lower):
         return "Heaps"
 
     # Linked List
-    if any(t in ["linked list", "doubly-linked list"] for t in tags_lower) and not ("tree" in title_slug or any(t in ["tree", "binary tree", "binary search tree"] for t in tags_lower)):
+    if any(t in ["linked list", "doubly-linked list"] for t in tags_lower):
         return "Linked-List"
 
     # Check against topic configuration (handling "binary search" vs "binary search tree")
@@ -1265,9 +1299,31 @@ def move_or_merge_question(src, dst):
             except Exception:
                 pass
 
+def check_topic_overrides():
+    """If a question matching QUESTION_TOPIC_OVERRIDES is in the wrong topic folder, relocate it."""
+    moved_any = False
+    for item in os.listdir(BASE_DIR):
+        topic_path = os.path.join(BASE_DIR, item)
+        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github"]:
+            continue
+        for q_dir in sorted(os.listdir(topic_path)):
+            if not re.match(r"^\d+-", q_dir):
+                continue
+            q_num = q_dir.split("-")[0] if q_dir else ""
+            slug = q_dir.split("-", 1)[1] if "-" in q_dir else q_dir
+            target_topic = QUESTION_TOPIC_OVERRIDES.get(q_num) or QUESTION_TOPIC_OVERRIDES.get(slug)
+            if target_topic and target_topic != item:
+                src = os.path.join(topic_path, q_dir)
+                dst = os.path.join(BASE_DIR, target_topic, q_dir)
+                print(f"[Override Relocate] Moving '{q_dir}' from '{item}' to '{target_topic}'")
+                move_or_merge_question(src, dst)
+                moved_any = True
+    return moved_any
+
 def scan_and_reorganize():
     """Find any unorganized question directories at repo root and move/merge them."""
     clean_nested_directories()
+    overrides_moved = check_topic_overrides()
 
     root_entries = [
         d for d in os.listdir(BASE_DIR)
@@ -1275,8 +1331,9 @@ def scan_and_reorganize():
     ]
     
     if not root_entries:
-        print("No unorganized questions found at repository root.")
-        return False
+        if not overrides_moved:
+            print("No unorganized questions found at repository root.")
+        return overrides_moved
     
     old_readme = ""
     readme_path = os.path.join(BASE_DIR, "README.md")

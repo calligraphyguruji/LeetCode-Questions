@@ -42,9 +42,12 @@ TOPIC_CONFIG = [
         "number theory", "combinatorics", "geometry", "probability and statistics", "math"
     ]),
     ("Greedy", "Greedy Algorithms", "💡", ["greedy"]),
+    ("Linked-List", "Linked List", "🪢", [
+        "linked list", "doubly-linked list"
+    ]),
     ("Arrays", "Arrays & Hashing", "📦", [
         "array", "hash table", "matrix", "two pointers", "sliding window", 
-        "prefix sum", "sorting", "counting", "string", "linked list", "stack", "monotonic stack"
+        "prefix sum", "sorting", "counting", "string", "stack", "monotonic stack"
     ]),
 ]
 
@@ -569,7 +572,7 @@ def format_dynamic_takeaway(q_dir, q_info):
         elif "postorder" in code_text.lower() or "leftHeight" in code_text:
             return "Divide-and-conquer subtree height aggregation and DFS traversal"
         return "Recursive DFS tree traversal with depth and invariant validation"
-    elif "ListNode" in code_text:
+    elif "ListNode" in code_text or topic_folder == "Linked-List":
         return "In-place linked list pointer manipulation with traversal pointers"
     elif "priority_queue" in code_text:
         return "Priority queue (min/max heap) maintaining optimal dynamic extremes"
@@ -676,6 +679,8 @@ def classify_dynamic_question(q_dir, q_info, old_readme=""):
         if "queue" in code_text or "bfs" in code_text.lower():
             return "graph-bfs"
         return "graph-dfs"
+    if topic_folder == "Linked-List":
+        return "linked-list-manipulation"
     if topic_folder == "Arrays":
         if "sliding window" in code_text.lower():
             return "sliding-window"
@@ -1038,9 +1043,9 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
                 "bit manipulation": "BitManipulation",
                 "bit": "BitManipulation",
                 "math": "Math",
+                "linked list": "Linked-List",
                 "two pointers": "Arrays",
                 "sliding window": "Arrays",
-                "linked list": "Arrays",
                 "stack": "Arrays",
                 "array": "Arrays",
                 "string": "Arrays",
@@ -1067,8 +1072,8 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
             return "Graphs"
         if "struct TreeNode" in code_text or "TreeNode*" in code_text:
             return "Trees"
-        if "struct ListNode" in code_text or "ListNode*" in code_text or ("Node*" in code_text and "child" in code_text):
-            return "Arrays"
+        if "struct ListNode" in code_text or "ListNode*" in code_text or ("Node*" in code_text and "child" in code_text) or "LRUCache" in code_text:
+            return "Linked-List"
         if "heapify" in code_lower or "heapsort" in code_lower:
             return "Heaps"
         if "priority_queue" in code_text and ("dijkstra" not in code_lower and "prim" not in code_lower):
@@ -1098,6 +1103,10 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
     # Heap
     if any(t in ["heap (priority queue)"] for t in tags_lower):
         return "Heaps"
+
+    # Linked List
+    if any(t in ["linked list", "doubly-linked list"] for t in tags_lower) and not ("tree" in title_slug or any(t in ["tree", "binary tree", "binary search tree"] for t in tags_lower)):
+        return "Linked-List"
 
     # Check against topic configuration (handling "binary search" vs "binary search tree")
     for folder, _, _, keywords in TOPIC_CONFIG:

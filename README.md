@@ -135,11 +135,11 @@ To make revision structured and interview preparation fast, every question is in
 
 | # | Problem Name | Difficulty | Solution | Approach & Key Takeaway |
 |:---:|:---|:---:|:---|:---|
-| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 `Easy` | [C++](Arrays/0141-linked-list-cycle/0141-linked-list-cycle.cpp) | Floyd's cycle detection: fast and slow pointers meet if a cycle exists |
-| 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 `Medium` | [C++](Arrays/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) | Meeting point reset: reset one pointer to head to find exact cycle origin node |
-| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 `Easy` | [C++](Arrays/0234-palindrome-linked-list/0234-palindrome-linked-list.cpp) | Fast/slow pointers to find list midpoint + reverse second half in-place + compare |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 `Easy` | [C++](Linked-List/0141-linked-list-cycle/0141-linked-list-cycle.cpp) | Floyd's cycle detection: fast and slow pointers meet if a cycle exists |
+| 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 `Medium` | [C++](Linked-List/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) | Meeting point reset: reset one pointer to head to find exact cycle origin node |
+| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 `Easy` | [C++](Linked-List/0234-palindrome-linked-list/0234-palindrome-linked-list.cpp) | Fast/slow pointers to find list midpoint + reverse second half in-place + compare |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 `Medium` | [C++](Arrays/0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp) | Treating array indices and values as linked list nodes ($i \to nums[i]$) to detect cycle entrance |
-| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) | Fast pointer steps twice as fast; slow pointer lands on exact middle node |
+| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [C++](Linked-List/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) | Fast pointer steps twice as fast; slow pointer lands on exact middle node |
 
 <a id="-prefix-sum"></a>
 ### 📊 Prefix Sum & Frequency Maps
@@ -439,15 +439,15 @@ To make revision structured and interview preparation fast, every question is in
 
 | # | Problem Name | Difficulty | Solution | Approach & Key Takeaway |
 |:---:|:---|:---:|:---|:---|
-| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 `Easy` | [C++](Arrays/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) | Dummy head pointer splicing two sorted lists iteratively |
-| 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 `Medium` | [C++](Arrays/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) | Pairwise next-pointer swap using pre-node tracker |
-| 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 🔴 `Hard` | [C++](Arrays/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) | Reversing groups of $k$ nodes in-place while keeping remaining list intact |
-| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 `Medium` | [C++](Arrays/0061-rotate-list/0061-rotate-list.cpp) | Forming circle by connecting tail to head, then cutting at $(len - k \% len)$ |
-| 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 `Medium` | [C++](Arrays/0092-reverse-linked-list-ii/0092-reverse-linked-list-ii.cpp) | In-place pointer reversal for subsegment between positions left and right |
-| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | 🟡 `Medium` | [C++](Arrays/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) | Interweaving cloned nodes between originals for $O(1)$ extra space copy |
-| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache) | 🟡 `Medium` | [C++](Arrays/0146-lru-cache/0146-lru-cache.cpp) | Doubly linked list (for $O(1)$ eviction) coupled with hash map lookup |
-| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 `Easy` | [C++](Arrays/0206-reverse-linked-list/0206-reverse-linked-list.cpp) | Canonical 3-pointer (`prev`, `curr`, `next`) list reversal |
-| 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [C++](Arrays/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) | DFS traversal splicing child doubly linked lists between current and next |
+| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 `Easy` | [C++](Linked-List/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) | Dummy head pointer splicing two sorted lists iteratively |
+| 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 `Medium` | [C++](Linked-List/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) | Pairwise next-pointer swap using pre-node tracker |
+| 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 🔴 `Hard` | [C++](Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) | Reversing groups of $k$ nodes in-place while keeping remaining list intact |
+| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 `Medium` | [C++](Linked-List/0061-rotate-list/0061-rotate-list.cpp) | Forming circle by connecting tail to head, then cutting at $(len - k \% len)$ |
+| 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 `Medium` | [C++](Linked-List/0092-reverse-linked-list-ii/0092-reverse-linked-list-ii.cpp) | In-place pointer reversal for subsegment between positions left and right |
+| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | 🟡 `Medium` | [C++](Linked-List/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) | Interweaving cloned nodes between originals for $O(1)$ extra space copy |
+| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache) | 🟡 `Medium` | [C++](Linked-List/0146-lru-cache/0146-lru-cache.cpp) | Doubly linked list (for $O(1)$ eviction) coupled with hash map lookup |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 `Easy` | [C++](Linked-List/0206-reverse-linked-list/0206-reverse-linked-list.cpp) | Canonical 3-pointer (`prev`, `curr`, `next`) list reversal |
+| 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [C++](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) | DFS traversal splicing child doubly linked lists between current and next |
 
 <a id="-matrix-manipulation"></a>
 ### 🔲 Matrix Traversal & In-Place State Manipulation
@@ -468,7 +468,7 @@ To make revision structured and interview preparation fast, every question is in
 
 | # | Problem Name | Difficulty | Solution | Approach & Key Takeaway |
 |:---:|:---|:---:|:---|:---|
-| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 `Medium` | [C++](Arrays/0002-add-two-numbers/0002-add-two-numbers.cpp) | Simulating elementary grade-school addition with carry across linked lists |
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 `Medium` | [C++](Linked-List/0002-add-two-numbers/0002-add-two-numbers.cpp) | Simulating elementary grade-school addition with carry across linked lists |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 `Easy` | [C++](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) | Stack LIFO bracket matching for opening and closing symbols |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 `Medium` | [C++](Math/0050-powx-n/0050-powx-n.cpp) | Binary exponentiation reducing power calculation to $O(\log n)$ |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 `Medium` | [C++](Arrays/0155-min-stack/0155-min-stack.cpp) | Stack paired with secondary min-tracking stack for $O(1)$ getMin |
@@ -550,10 +550,14 @@ LeetCode-Questions/
 │   └── ... (15 problems)
 ├── Greedy/
 │   ├── 0134-gas-station/
+├── Linked-List/
+│   ├── 0002-add-two-numbers/
+│   ├── 0021-merge-two-sorted-lists/
+│   └── ... (14 problems)
 ├── Arrays/
 │   ├── 0001-two-sum/
-│   ├── 0002-add-two-numbers/
-│   └── ... (75 problems)
+│   ├── 0003-longest-substring-without-repeating-characters/
+│   └── ... (61 problems)
 ```
 
 Each problem folder contains:
@@ -598,7 +602,7 @@ public:
 | # | Problem Name | Difficulty | Primary Topic | Problem Details | Solution |
 |:---:|:---|:---:|:---|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0001-two-sum/) | [C++](Arrays/0001-two-sum/0001-two-sum.cpp) |
-| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0002-add-two-numbers/) | [C++](Arrays/0002-add-two-numbers/0002-add-two-numbers.cpp) |
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0002-add-two-numbers/) | [C++](Linked-List/0002-add-two-numbers/0002-add-two-numbers.cpp) |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0003-longest-substring-without-repeating-characters/) | [Java](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java) |
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0005-longest-palindromic-substring/) | [C++](DynamicProgramming/0005-longest-palindromic-substring/0005-longest-palindromic-substring.cpp) |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0011-container-with-most-water/) | [C++](Arrays/0011-container-with-most-water/0011-container-with-most-water.cpp) |
@@ -606,9 +610,9 @@ public:
 | 0015 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0015-3sum/) | [C++](Arrays/0015-3sum/0015-3sum.cpp) |
 | 0018 | [4Sum](https://leetcode.com/problems/4sum) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0018-4sum/) | [C++](Arrays/0018-4sum/0018-4sum.cpp) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0020-valid-parentheses/) | [C++](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) |
-| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0021-merge-two-sorted-lists/) | [C++](Arrays/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
-| 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0024-swap-nodes-in-pairs/) | [C++](Arrays/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) |
-| 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 🔴 `Hard` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0025-reverse-nodes-in-k-group/) | [C++](Arrays/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
+| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0021-merge-two-sorted-lists/) | [C++](Linked-List/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
+| 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0024-swap-nodes-in-pairs/) | [C++](Linked-List/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) |
+| 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 🔴 `Hard` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0025-reverse-nodes-in-k-group/) | [C++](Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
 | 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0031-next-permutation/) | [C++](Arrays/0031-next-permutation/0031-next-permutation.cpp) |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0033-search-in-rotated-sorted-array/) | [C++](BinarySearch/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp) |
 | 0037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | 🔴 `Hard` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0037-sudoku-solver/) | [C++](Backtracking/0037-sudoku-solver/0037-sudoku-solver.cpp) |
@@ -622,7 +626,7 @@ public:
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0053-maximum-subarray/) | [C++](DynamicProgramming/0053-maximum-subarray/0053-maximum-subarray.cpp) |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0054-spiral-matrix/) | [C++](Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp) |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0056-merge-intervals/) | [C++](Arrays/0056-merge-intervals/0056-merge-intervals.cpp) |
-| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0061-rotate-list/) | [C++](Arrays/0061-rotate-list/0061-rotate-list.cpp) |
+| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0061-rotate-list/) | [C++](Linked-List/0061-rotate-list/0061-rotate-list.cpp) |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0062-unique-paths/) | [C++](DynamicProgramming/0062-unique-paths/0062-unique-paths.cpp) |
 | 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0063-unique-paths-ii/) | [C++](DynamicProgramming/0063-unique-paths-ii/0063-unique-paths-ii.cpp) |
 | 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0072-edit-distance/) | [C++](DynamicProgramming/0072-edit-distance/0072-edit-distance.cpp) |
@@ -635,7 +639,7 @@ public:
 | 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | 🔴 `Hard` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0084-largest-rectangle-in-histogram/) | [C++](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0088-merge-sorted-array/) | [C++](Arrays/0088-merge-sorted-array/0088-merge-sorted-array.cpp) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0090-subsets-ii/) | [C++](Backtracking/0090-subsets-ii/0090-subsets-ii.cpp) |
-| 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0092-reverse-linked-list-ii/) | [C++](Arrays/0092-reverse-linked-list-ii/0092-reverse-linked-list-ii.cpp) |
+| 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0092-reverse-linked-list-ii/) | [C++](Linked-List/0092-reverse-linked-list-ii/0092-reverse-linked-list-ii.cpp) |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0094-binary-tree-inorder-traversal/) | [C++](Trees/0094-binary-tree-inorder-traversal/0094-binary-tree-inorder-traversal.cpp) |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0096-unique-binary-search-trees/) | [C++](Trees/0096-unique-binary-search-trees/0096-unique-binary-search-trees.cpp) |
 | 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0098-validate-binary-search-tree/) | [C++](Trees/0098-validate-binary-search-tree/0098-validate-binary-search-tree.cpp) |
@@ -662,12 +666,12 @@ public:
 | 0132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0132-palindrome-partitioning-ii/) | [C++](DynamicProgramming/0132-palindrome-partitioning-ii/0132-palindrome-partitioning-ii.cpp) |
 | 0133 | [Clone Graph](https://leetcode.com/problems/clone-graph) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0133-clone-graph/) | [C++](Graphs/0133-clone-graph/0133-clone-graph.cpp) |
 | 0134 | [Gas Station](https://leetcode.com/problems/gas-station) | 🟡 `Medium` | [💡 Greedy Algorithms](Greedy/) | [Problem](Greedy/0134-gas-station/) | [C++](Greedy/0134-gas-station/0134-gas-station.cpp) |
-| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0138-copy-list-with-random-pointer/) | [C++](Arrays/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) |
-| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0141-linked-list-cycle/) | [C++](Arrays/0141-linked-list-cycle/0141-linked-list-cycle.cpp) |
-| 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0142-linked-list-cycle-ii/) | [C++](Arrays/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) |
+| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0138-copy-list-with-random-pointer/) | [C++](Linked-List/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0141-linked-list-cycle/) | [C++](Linked-List/0141-linked-list-cycle/0141-linked-list-cycle.cpp) |
+| 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0142-linked-list-cycle-ii/) | [C++](Linked-List/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0144-binary-tree-preorder-traversal/) | [C++](Trees/0144-binary-tree-preorder-traversal/0144-binary-tree-preorder-traversal.cpp) |
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0145-binary-tree-postorder-traversal/) | [C++](Trees/0145-binary-tree-postorder-traversal/0145-binary-tree-postorder-traversal.cpp) |
-| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0146-lru-cache/) | [C++](Arrays/0146-lru-cache/0146-lru-cache.cpp) |
+| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0146-lru-cache/) | [C++](Linked-List/0146-lru-cache/0146-lru-cache.cpp) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0151-reverse-words-in-a-string/) | [C++](Arrays/0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0155-min-stack/) | [C++](Arrays/0155-min-stack/0155-min-stack.cpp) |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0169-majority-element/) | [C++](Arrays/0169-majority-element/0169-majority-element.cpp) |
@@ -675,7 +679,7 @@ public:
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0198-house-robber/) | [C++](DynamicProgramming/0198-house-robber/0198-house-robber.cpp) |
 | 0199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0199-binary-tree-right-side-view/) | [App 1](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.cpp) · [App 2](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-2-bfs.cpp "BFS(Level Order Traversal)") · [App 3](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-3-dfs.cpp "DFS(Preorder Traversal)") |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0200-number-of-islands/) | [C++](Graphs/0200-number-of-islands/0200-number-of-islands.cpp) |
-| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0206-reverse-linked-list/) | [C++](Arrays/0206-reverse-linked-list/0206-reverse-linked-list.cpp) |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0206-reverse-linked-list/) | [C++](Linked-List/0206-reverse-linked-list/0206-reverse-linked-list.cpp) |
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0207-course-schedule/) | [C++](Graphs/0207-course-schedule/0207-course-schedule.cpp) |
 | 0210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0210-course-schedule-ii/) | [C++](Graphs/0210-course-schedule-ii/0210-course-schedule-ii.cpp) |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0213-house-robber-ii/) | [C++](DynamicProgramming/0213-house-robber-ii/0213-house-robber-ii.cpp) |
@@ -685,7 +689,7 @@ public:
 | 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0230-kth-smallest-element-in-a-bst/) | [C++](Trees/0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.cpp) |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0231-power-of-two/) | [C++](BitManipulation/0231-power-of-two/0231-power-of-two.cpp) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0232-implement-queue-using-stacks/) | [C++](Arrays/0232-implement-queue-using-stacks/0232-implement-queue-using-stacks.cpp) |
-| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0234-palindrome-linked-list/) | [C++](Arrays/0234-palindrome-linked-list/0234-palindrome-linked-list.cpp) |
+| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0234-palindrome-linked-list/) | [C++](Linked-List/0234-palindrome-linked-list/0234-palindrome-linked-list.cpp) |
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0235-lowest-common-ancestor-of-a-binary-search-tree/) | [C++](Trees/0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.cpp) |
 | 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0236-lowest-common-ancestor-of-a-binary-tree/) | [C++](Trees/0236-lowest-common-ancestor-of-a-binary-tree/0236-lowest-common-ancestor-of-a-binary-tree.cpp) |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0238-product-of-array-except-self/) | [C++](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) |
@@ -708,7 +712,7 @@ public:
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0387-first-unique-character-in-a-string/) | [C++](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) |
 | 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0410-split-array-largest-sum/) | [C++](BinarySearch/0410-split-array-largest-sum/0410-split-array-largest-sum.cpp) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0412-fizz-buzz/) | [C++](Math/0412-fizz-buzz/0412-fizz-buzz.cpp) |
-| 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0430-flatten-a-multilevel-doubly-linked-list/) | [C++](Arrays/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
+| 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/) | [C++](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
 | 0433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0433-minimum-genetic-mutation/) | [C++](Graphs/0433-minimum-genetic-mutation/0433-minimum-genetic-mutation.cpp) |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0443-string-compression/) | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) |
 | 0450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0450-delete-node-in-a-bst/) | [C++](Trees/0450-delete-node-in-a-bst/0450-delete-node-in-a-bst.cpp) |
@@ -749,7 +753,7 @@ public:
 | 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0859-buddy-strings/) | [C++](Arrays/0859-buddy-strings/0859-buddy-strings.cpp) |
 | 0863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0863-all-nodes-distance-k-in-binary-tree/) | [C++](Trees/0863-all-nodes-distance-k-in-binary-tree/0863-all-nodes-distance-k-in-binary-tree.cpp) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0872-leaf-similar-trees/) | [C++](Trees/0872-leaf-similar-trees/0872-leaf-similar-trees.cpp) |
-| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0876-middle-of-the-linked-list/) | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
+| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0876-middle-of-the-linked-list/) | [C++](Linked-List/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 | 0886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0886-possible-bipartition/) | [C++](Graphs/0886-possible-bipartition/0886-possible-bipartition.cpp) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0901-online-stock-span/) | [C++](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0912-sort-an-array/) | [C++](Heaps/0912-sort-an-array/0912-sort-an-array.cpp) |
@@ -1072,51 +1076,57 @@ public:
 |:---:|:---|:---:|:---:|:---:|
 | 0134 | [Gas Station](https://leetcode.com/problems/gas-station) | 🟡 `Medium` | [Problem Notes](Greedy/0134-gas-station/) | [C++](Greedy/0134-gas-station/0134-gas-station.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (75)
+### 🪢 [Linked List](Linked-List/) (14)
+
+| # | Problem Name | Difficulty | Problem Details | Solution |
+|:---:|:---|:---:|:---:|:---:|
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 `Medium` | [Problem Notes](Linked-List/0002-add-two-numbers/) | [C++](Linked-List/0002-add-two-numbers/0002-add-two-numbers.cpp) |
+| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 `Easy` | [Problem Notes](Linked-List/0021-merge-two-sorted-lists/) | [C++](Linked-List/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
+| 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 `Medium` | [Problem Notes](Linked-List/0024-swap-nodes-in-pairs/) | [C++](Linked-List/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) |
+| 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 🔴 `Hard` | [Problem Notes](Linked-List/0025-reverse-nodes-in-k-group/) | [C++](Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
+| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 `Medium` | [Problem Notes](Linked-List/0061-rotate-list/) | [C++](Linked-List/0061-rotate-list/0061-rotate-list.cpp) |
+| 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 `Medium` | [Problem Notes](Linked-List/0092-reverse-linked-list-ii/) | [C++](Linked-List/0092-reverse-linked-list-ii/0092-reverse-linked-list-ii.cpp) |
+| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | 🟡 `Medium` | [Problem Notes](Linked-List/0138-copy-list-with-random-pointer/) | [C++](Linked-List/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 `Easy` | [Problem Notes](Linked-List/0141-linked-list-cycle/) | [C++](Linked-List/0141-linked-list-cycle/0141-linked-list-cycle.cpp) |
+| 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 `Medium` | [Problem Notes](Linked-List/0142-linked-list-cycle-ii/) | [C++](Linked-List/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) |
+| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache) | 🟡 `Medium` | [Problem Notes](Linked-List/0146-lru-cache/) | [C++](Linked-List/0146-lru-cache/0146-lru-cache.cpp) |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 `Easy` | [Problem Notes](Linked-List/0206-reverse-linked-list/) | [C++](Linked-List/0206-reverse-linked-list/0206-reverse-linked-list.cpp) |
+| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 `Easy` | [Problem Notes](Linked-List/0234-palindrome-linked-list/) | [C++](Linked-List/0234-palindrome-linked-list/0234-palindrome-linked-list.cpp) |
+| 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [Problem Notes](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/) | [C++](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
+| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Linked-List/0876-middle-of-the-linked-list/) | [C++](Linked-List/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
+
+### 📦 [Arrays & Hashing](Arrays/) (61)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | 🟢 `Easy` | [Problem Notes](Arrays/0001-two-sum/) | [C++](Arrays/0001-two-sum/0001-two-sum.cpp) |
-| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 `Medium` | [Problem Notes](Arrays/0002-add-two-numbers/) | [C++](Arrays/0002-add-two-numbers/0002-add-two-numbers.cpp) |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 `Medium` | [Problem Notes](Arrays/0003-longest-substring-without-repeating-characters/) | [Java](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java) |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 `Medium` | [Problem Notes](Arrays/0011-container-with-most-water/) | [C++](Arrays/0011-container-with-most-water/0011-container-with-most-water.cpp) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 `Easy` | [Problem Notes](Arrays/0014-longest-common-prefix/) | [C++](Arrays/0014-longest-common-prefix/0014-longest-common-prefix.cpp) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 `Medium` | [Problem Notes](Arrays/0015-3sum/) | [C++](Arrays/0015-3sum/0015-3sum.cpp) |
 | 0018 | [4Sum](https://leetcode.com/problems/4sum) | 🟡 `Medium` | [Problem Notes](Arrays/0018-4sum/) | [C++](Arrays/0018-4sum/0018-4sum.cpp) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 `Easy` | [Problem Notes](Arrays/0020-valid-parentheses/) | [C++](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) |
-| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 🟢 `Easy` | [Problem Notes](Arrays/0021-merge-two-sorted-lists/) | [C++](Arrays/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
-| 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 `Medium` | [Problem Notes](Arrays/0024-swap-nodes-in-pairs/) | [C++](Arrays/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) |
-| 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 🔴 `Hard` | [Problem Notes](Arrays/0025-reverse-nodes-in-k-group/) | [C++](Arrays/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
 | 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation) | 🟡 `Medium` | [Problem Notes](Arrays/0031-next-permutation/) | [C++](Arrays/0031-next-permutation/0031-next-permutation.cpp) |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | 🟡 `Medium` | [Problem Notes](Arrays/0049-group-anagrams/) | [C++](Arrays/0049-group-anagrams/0049-group-anagrams.cpp) |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | 🟡 `Medium` | [Problem Notes](Arrays/0054-spiral-matrix/) | [C++](Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp) |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 `Medium` | [Problem Notes](Arrays/0056-merge-intervals/) | [C++](Arrays/0056-merge-intervals/0056-merge-intervals.cpp) |
-| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 `Medium` | [Problem Notes](Arrays/0061-rotate-list/) | [C++](Arrays/0061-rotate-list/0061-rotate-list.cpp) |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 `Medium` | [Problem Notes](Arrays/0073-set-matrix-zeroes/) | [C++](Arrays/0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 `Medium` | [Problem Notes](Arrays/0075-sort-colors/) | [C++](Arrays/0075-sort-colors/0075-sort-colors.cpp) |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | 🔴 `Hard` | [Problem Notes](Arrays/0076-minimum-window-substring/) | [C++](Arrays/0076-minimum-window-substring/0076-minimum-window-substring.cpp) |
 | 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | 🔴 `Hard` | [Problem Notes](Arrays/0084-largest-rectangle-in-histogram/) | [C++](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 `Easy` | [Problem Notes](Arrays/0088-merge-sorted-array/) | [C++](Arrays/0088-merge-sorted-array/0088-merge-sorted-array.cpp) |
-| 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 `Medium` | [Problem Notes](Arrays/0092-reverse-linked-list-ii/) | [C++](Arrays/0092-reverse-linked-list-ii/0092-reverse-linked-list-ii.cpp) |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 `Easy` | [Problem Notes](Arrays/0125-valid-palindrome/) | [C++](Arrays/0125-valid-palindrome/0125-valid-palindrome.cpp) |
-| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | 🟡 `Medium` | [Problem Notes](Arrays/0138-copy-list-with-random-pointer/) | [C++](Arrays/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) |
-| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 `Easy` | [Problem Notes](Arrays/0141-linked-list-cycle/) | [C++](Arrays/0141-linked-list-cycle/0141-linked-list-cycle.cpp) |
-| 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 `Medium` | [Problem Notes](Arrays/0142-linked-list-cycle-ii/) | [C++](Arrays/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) |
-| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache) | 🟡 `Medium` | [Problem Notes](Arrays/0146-lru-cache/) | [C++](Arrays/0146-lru-cache/0146-lru-cache.cpp) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | 🟡 `Medium` | [Problem Notes](Arrays/0151-reverse-words-in-a-string/) | [C++](Arrays/0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 `Medium` | [Problem Notes](Arrays/0155-min-stack/) | [C++](Arrays/0155-min-stack/0155-min-stack.cpp) |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element) | 🟢 `Easy` | [Problem Notes](Arrays/0169-majority-element/) | [C++](Arrays/0169-majority-element/0169-majority-element.cpp) |
-| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0206-reverse-linked-list/) | [C++](Arrays/0206-reverse-linked-list/0206-reverse-linked-list.cpp) |
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 `Easy` | [Problem Notes](Arrays/0225-implement-stack-using-queues/) | [C++](Arrays/0225-implement-stack-using-queues/0225-implement-stack-using-queues.cpp) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 `Easy` | [Problem Notes](Arrays/0232-implement-queue-using-stacks/) | [C++](Arrays/0232-implement-queue-using-stacks/0232-implement-queue-using-stacks.cpp) |
-| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0234-palindrome-linked-list/) | [C++](Arrays/0234-palindrome-linked-list/0234-palindrome-linked-list.cpp) |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 🟡 `Medium` | [Problem Notes](Arrays/0238-product-of-array-except-self/) | [C++](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) | 🔴 `Hard` | [Problem Notes](Arrays/0239-sliding-window-maximum/) | [C++](Arrays/0239-sliding-window-maximum/0239-sliding-window-maximum.cpp) |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 `Easy` | [Problem Notes](Arrays/0242-valid-anagram/) | [C++](Arrays/0242-valid-anagram/0242-valid-anagram.cpp) |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 `Medium` | [Problem Notes](Arrays/0287-find-the-duplicate-number/) | [C++](Arrays/0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 `Easy` | [Problem Notes](Arrays/0344-reverse-string/) | [C++](Arrays/0344-reverse-string/0344-reverse-string.cpp) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 `Easy` | [Problem Notes](Arrays/0387-first-unique-character-in-a-string/) | [C++](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) |
-| 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [Problem Notes](Arrays/0430-flatten-a-multilevel-doubly-linked-list/) | [C++](Arrays/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression) | 🟡 `Medium` | [Problem Notes](Arrays/0443-string-compression/) | [C++](Arrays/0443-string-compression/0443-string-compression.cpp) |
 | 0493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) | 🔴 `Hard` | [Problem Notes](Arrays/0493-reverse-pairs/) | [C++](Arrays/0493-reverse-pairs/0493-reverse-pairs.cpp) |
 | 0496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 `Easy` | [Problem Notes](Arrays/0496-next-greater-element-i/) | [C++](Arrays/0496-next-greater-element-i/0496-next-greater-element-i.cpp) |
@@ -1126,7 +1136,6 @@ public:
 | 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | 🟢 `Easy` | [Problem Notes](Arrays/0709-to-lower-case/) | [C++](Arrays/0709-to-lower-case/0709-to-lower-case.cpp) |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 `Easy` | [Problem Notes](Arrays/0771-jewels-and-stones/) | [C++](Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp) |
 | 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | 🟢 `Easy` | [Problem Notes](Arrays/0859-buddy-strings/) | [C++](Arrays/0859-buddy-strings/0859-buddy-strings.cpp) |
-| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Arrays/0876-middle-of-the-linked-list/) | [C++](Arrays/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | 🟡 `Medium` | [Problem Notes](Arrays/0901-online-stock-span/) | [C++](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address) | 🟢 `Easy` | [Problem Notes](Arrays/1108-defanging-an-ip-address/) | [C++](Arrays/1108-defanging-an-ip-address/1108-defanging-an-ip-address.cpp) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number) | 🟢 `Easy` | [Problem Notes](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/) | [C++](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp) |

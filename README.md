@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-90_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-91_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-204_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-205_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-250-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-251-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 78 | 31.2% |
-| 🟡 **Medium** | 150 | 60.0% |
+| 🟢 **Easy** | 78 | 31.1% |
+| 🟡 **Medium** | 151 | 60.2% |
 | 🔴 **Hard** | 22 | 8.8% |
-| 🎯 **Total Solved** | **250** | **100%** |
-| 🔥 **Current Streak** | **90 Days** | — |
-| 📅 **Total Active Days** | **204 Days** | — |
+| 🎯 **Total Solved** | **251** | **100%** |
+| 🔥 **Current Streak** | **91 Days** | — |
+| 📅 **Total Active Days** | **205 Days** | — |
 
 </div>
 
@@ -430,6 +430,7 @@ To make revision structured and interview preparation fast, every question is in
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 `Medium` | [C++](Heaps/0347-top-k-frequent-elements/0347-top-k-frequent-elements.cpp) | Frequency map + min-heap or $O(n)$ bucket sort on counts |
 | 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 `Easy` | [C++](Heaps/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp) | Min-heap storing top $k$ elements; root holds $k$-th largest |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 `Medium` | [C++](Heaps/0912-sort-an-array/0912-sort-an-array.cpp) | Max-heap sort / divide-and-conquer sorting algorithms |
+| 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [C++](Heaps/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) | Optimal Heaps & Priority Queues approach with clean asymptotic complexity |
 
 <a id="-linked-list-manipulation"></a>
 ### 🪢 Linked List Pointer Surgery & In-Place Reversal
@@ -531,7 +532,7 @@ LeetCode-Questions/
 ├── Heaps/
 │   ├── 0215-kth-largest-element-in-an-array/
 │   ├── 0347-top-k-frequent-elements/
-│   └── ... (5 problems)
+│   └── ... (6 problems)
 ├── Backtracking/
 │   ├── 0037-sudoku-solver/
 │   ├── 0039-combination-sum/
@@ -851,6 +852,7 @@ public:
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2596-check-knight-tour-configuration/) | [C++](Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp) |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2641-cousins-in-binary-tree-ii/) | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
+| 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/3286-find-a-safe-walk-through-a-grid/) | [C++](Heaps/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) |
 
 ---
 
@@ -1002,7 +1004,7 @@ public:
 | 1911 | [Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum) | 🟡 `Medium` | [Problem Notes](DynamicProgramming/1911-maximum-alternating-subsequence-sum/) | [C++](DynamicProgramming/1911-maximum-alternating-subsequence-sum/1911-maximum-alternating-subsequence-sum.cpp) |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference) | 🔴 `Hard` | [Problem Notes](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | [C++](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/2035-partition-array-into-two-arrays-to-minimize-sum-difference.cpp) |
 
-### ⛰️ [Heaps & Priority Queues](Heaps/) (5)
+### ⛰️ [Heaps & Priority Queues](Heaps/) (6)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1011,6 +1013,7 @@ public:
 | 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | 🟡 `Medium` | [Problem Notes](Heaps/0378-kth-smallest-element-in-a-sorted-matrix/) | [C++](Heaps/0378-kth-smallest-element-in-a-sorted-matrix/0378-kth-smallest-element-in-a-sorted-matrix.cpp) |
 | 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 `Easy` | [Problem Notes](Heaps/0703-kth-largest-element-in-a-stream/) | [C++](Heaps/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 `Medium` | [Problem Notes](Heaps/0912-sort-an-array/) | [C++](Heaps/0912-sort-an-array/0912-sort-an-array.cpp) |
+| 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [Problem Notes](Heaps/3286-find-a-safe-walk-through-a-grid/) | [C++](Heaps/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) |
 
 ### 🔄 [Backtracking](Backtracking/) (11)
 
@@ -1185,31 +1188,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3286-find-a-safe-walk-through-a-grid) |
-## Breadth-First Search
-|  |
-| ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3286-find-a-safe-walk-through-a-grid) |
-## Graph Theory
-|  |
-| ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3286-find-a-safe-walk-through-a-grid) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3286-find-a-safe-walk-through-a-grid) |
-## Matrix
-|  |
-| ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3286-find-a-safe-walk-through-a-grid) |
-## Shortest Path
-|  |
-| ------- |
-| [3286-find-a-safe-walk-through-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3286-find-a-safe-walk-through-a-grid) |
-<!---LeetCode Topics End-->

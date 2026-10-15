@@ -21,24 +21,33 @@ LEETCODE_USERNAME = os.getenv("LEETCODE_USERNAME", "calligraphyguruji")
 
 TOPIC_CONFIG = [
     # (Folder, Display Name, Icon, Tag keywords)
-    ("BinarySearch", "Binary Search", "🔍", ["binary search"]),
-    ("Backtracking", "Backtracking", "🔄", ["backtracking"]),
-    ("Trees", "Trees & Binary Search Trees", "🌳", ["tree", "binary tree", "binary search tree", "trie", "tree traversal"]),
-    ("Graphs", "Graphs & BFS/DFS", "🕸️", [
-        "graph", "breadth-first search", "depth-first search", "union find", 
-        "union-find", "disjoint set", "topological sort", "shortest path", 
-        "bipartite", "eulerian circuit", "minimum spanning tree"
+    ("Trees", "Trees & Binary Search Trees", "🌳", [
+        "binary search tree", "binary tree", "tree traversal", "trie", "tree"
     ]),
-    ("DynamicProgramming", "Dynamic Programming", "🧩", ["dynamic programming", "memoization", "knapsack"]),
-    ("Heaps", "Heaps & Priority Queues", "⛰️", ["heap (priority queue)", "heap", "priority queue", "quickselect"]),
-    ("Greedy", "Greedy Algorithms", "💡", ["greedy"]),
+    ("Graphs", "Graphs & BFS/DFS", "🕸️", [
+        "graph theory", "graph", "union-find", "union find", "disjoint set",
+        "topological sort", "shortest path", "bipartite", "eulerian circuit",
+        "minimum spanning tree", "prim's algorithm", "kruskal's algorithm", "dijkstra's algorithm"
+    ]),
+    ("DynamicProgramming", "Dynamic Programming", "🧩", [
+        "dynamic programming", "memoization", "knapsack problem", "complete knapsack", "knapsack"
+    ]),
+    ("Heaps", "Heaps & Priority Queues", "⛰️", [
+        "heap (priority queue)", "heap", "priority queue", "quickselect"
+    ]),
+    ("Backtracking", "Backtracking", "🔄", ["backtracking"]),
+    ("BinarySearch", "Binary Search", "🔍", ["binary search"]),
     ("BitManipulation", "Bit Manipulation", "⚡", ["bit manipulation", "bitmask"]),
-    ("Math", "Math & Number Theory", "🔢", ["math", "number theory", "combinatorics", "geometry", "probability and statistics"]),
+    ("Math", "Math & Number Theory", "🔢", [
+        "number theory", "combinatorics", "geometry", "probability and statistics", "math"
+    ]),
+    ("Greedy", "Greedy Algorithms", "💡", ["greedy"]),
     ("Arrays", "Arrays & Hashing", "📦", [
         "array", "hash table", "matrix", "two pointers", "sliding window", 
-        "prefix sum", "sorting", "counting", "string"
+        "prefix sum", "sorting", "counting", "string", "linked list", "stack", "monotonic stack"
     ]),
 ]
+
 
 PATTERN_CATEGORIES = [
     {
@@ -991,7 +1000,7 @@ def update_question_readme(q_dir_path, solutions):
 
 def classify_topic(title_slug, q_dir_name, old_readme=""):
     """Classify question into a target topic folder."""
-    # 1. Check code comments in the question directory at repository root or existing path
+    # 1. Check code comments and structures in the question directory
     q_dir_path = os.path.join(BASE_DIR, q_dir_name)
     code_text = ""
     if os.path.isdir(q_dir_path):
@@ -1015,6 +1024,8 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
                 "bst": "Trees",
                 "trie": "Trees",
                 "graph": "Graphs",
+                "topological": "Graphs",
+                "dijkstra": "Graphs",
                 "bfs": "Graphs",
                 "dfs": "Graphs",
                 "backtracking": "Backtracking",
@@ -1040,8 +1051,30 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
                 if kw in top_raw:
                     return fld
 
+        # Check explicit //Approach comment
+        m_app = re.search(r"(?i)(?://|#)\s*(?:approach|method|strategy)(?:[\s\-_]*(?:\d+))?\s*[:\-–—]\s*([^\r\n]+)", code_text)
+        if m_app:
+            app_raw = m_app.group(1).lower().strip()
+            if any(kw in app_raw for kw in ["dijkstra", "prim", "kruskal", "mst", "topological", "bipartite", "2-coloring"]):
+                return "Graphs"
+            if any(kw in app_raw for kw in ["min-heap", "max-heap", "priority queue", "heap"]):
+                return "Heaps"
+            if any(kw in app_raw for kw in ["memoization", "top-down", "bottom-up", "dynamic programming", "kadane"]):
+                return "DynamicProgramming"
+
+        code_lower = code_text.lower()
+        if "primsalgo" in code_lower or "dijkstra" in code_lower:
+            return "Graphs"
         if "struct TreeNode" in code_text or "TreeNode*" in code_text:
             return "Trees"
+        if "struct ListNode" in code_text or "ListNode*" in code_text or ("Node*" in code_text and "child" in code_text):
+            return "Arrays"
+        if "heapify" in code_lower or "heapsort" in code_lower:
+            return "Heaps"
+        if "priority_queue" in code_text and ("dijkstra" not in code_lower and "prim" not in code_lower):
+            return "Heaps"
+        if "vector<vector<int>> dp" in code_text or "int dp[" in code_text:
+            return "DynamicProgramming"
 
     # 2. Fetch tags from LeetCode or README
     tags = fetch_leetcode_tags(title_slug)
@@ -1050,9 +1083,21 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
 
     tags_lower = [t.lower() for t in tags]
 
+    # Specific graph algorithms
+    if any(t in ["minimum spanning tree", "prim's algorithm", "kruskal's algorithm", "dijkstra's algorithm", "topological sort", "bipartite", "eulerian circuit"] for t in tags_lower):
+        return "Graphs"
+
     # If title or tags indicate trees / BST
     if "tree" in title_slug or any(t in ["tree", "binary tree", "binary search tree", "trie"] for t in tags_lower):
         return "Trees"
+
+    # Dynamic Programming
+    if any(t in ["dynamic programming", "memoization", "knapsack problem", "complete knapsack"] for t in tags_lower):
+        return "DynamicProgramming"
+
+    # Heap
+    if any(t in ["heap (priority queue)"] for t in tags_lower):
+        return "Heaps"
 
     # Check against topic configuration (handling "binary search" vs "binary search tree")
     for folder, _, _, keywords in TOPIC_CONFIG:
@@ -1067,6 +1112,7 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
             
     # Default fallback
     return "Arrays"
+
 
 def find_existing_topic(q_dir_name):
     """Check if question already exists in any topic folder."""

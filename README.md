@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-205_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-251-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-252-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 78 | 31.1% |
-| 🟡 **Medium** | 151 | 60.2% |
-| 🔴 **Hard** | 22 | 8.8% |
-| 🎯 **Total Solved** | **251** | **100%** |
+| 🟢 **Easy** | 79 | 31.3% |
+| 🟡 **Medium** | 151 | 59.9% |
+| 🔴 **Hard** | 22 | 8.7% |
+| 🎯 **Total Solved** | **252** | **100%** |
 | 🔥 **Current Streak** | **91 Days** | — |
 | 📅 **Total Active Days** | **205 Days** | — |
 
@@ -291,6 +291,7 @@ To make revision structured and interview preparation fast, every question is in
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) | 🔴 `Hard` | [C++](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/2458-height-of-binary-tree-after-subtree-removal-queries.cpp) | DFS + Tree DP (Rerooting DP using DFS) in $O(n + m)$ time |
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) | 🟡 `Medium` | [C++](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp) | BFS + Cycle detection in $O(n \log n)$ time |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) | BFS (level order traversal) in $O(n)$ time |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i) | 🟢 `Easy` | [C++](Trees/2913-subarrays-distinct-element-sum-of-squares-i/2913-subarrays-distinct-element-sum-of-squares-i.cpp) | Recursive DFS tree traversal with depth and invariant validation |
 
 <a id="-graph-bfs"></a>
 ### 🕸️ Graph BFS & Multi-Source BFS
@@ -520,7 +521,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0094-binary-tree-inorder-traversal/
 │   ├── 0096-unique-binary-search-trees/
-│   └── ... (68 problems)
+│   └── ... (69 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -851,6 +852,7 @@ public:
 | 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2492-minimum-score-of-a-path-between-two-cities/) | [C++](Graphs/2492-minimum-score-of-a-path-between-two-cities/2492-minimum-score-of-a-path-between-two-cities.cpp) |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2596-check-knight-tour-configuration/) | [C++](Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp) |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2641-cousins-in-binary-tree-ii/) | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2913-subarrays-distinct-element-sum-of-squares-i/) | [C++](Trees/2913-subarrays-distinct-element-sum-of-squares-i/2913-subarrays-distinct-element-sum-of-squares-i.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 | 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3286-find-a-safe-walk-through-a-grid/) | [C++](Graphs/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) |
 
@@ -858,7 +860,7 @@ public:
 
 ## 📂 Topic-wise Problem Breakdown
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (68)
+### 🌳 [Trees & Binary Search Trees](Trees/) (69)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -930,6 +932,7 @@ public:
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) | 🔴 `Hard` | [Problem Notes](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/) | [C++](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/2458-height-of-binary-tree-after-subtree-removal-queries.cpp) |
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) | 🟡 `Medium` | [Problem Notes](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | [C++](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp) |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [Problem Notes](Trees/2641-cousins-in-binary-tree-ii/) | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i) | 🟢 `Easy` | [Problem Notes](Trees/2913-subarrays-distinct-element-sum-of-squares-i/) | [C++](Trees/2913-subarrays-distinct-element-sum-of-squares-i/2913-subarrays-distinct-element-sum-of-squares-i.cpp) |
 
 ### 🕸️ [Graphs & BFS/DFS](Graphs/) (34)
 
@@ -1188,23 +1191,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
-## Hash Table
-|  |
-| ------- |
-| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
-## Binary Indexed Tree
-|  |
-| ------- |
-| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
-## Segment Tree
-|  |
-| ------- |
-| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
-<!---LeetCode Topics End-->

@@ -1194,23 +1194,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
-## Hash Table
-|  |
-| ------- |
-| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
-## Binary Indexed Tree
-|  |
-| ------- |
-| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
-## Segment Tree
-|  |
-| ------- |
-| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
-<!---LeetCode Topics End-->

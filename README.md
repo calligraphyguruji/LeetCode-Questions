@@ -292,7 +292,7 @@ To make revision structured and interview preparation fast, every question is in
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) | 🟡 `Medium` | [C++](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp) | BFS + Cycle detection in $O(n \log n)$ time |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | 🟡 `Medium` | [C++](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) | BFS (level order traversal) in $O(n)$ time |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i) | 🟢 `Easy` | [C++](Trees/2913-subarrays-distinct-element-sum-of-squares-i/2913-subarrays-distinct-element-sum-of-squares-i.cpp) | Brute Force + Set in $O(n * n)$ time |
-| 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii) | 🔴 `Hard` | [C++](Trees/2916-subarrays-distinct-element-sum-of-squares-ii/2916-subarrays-distinct-element-sum-of-squares-ii.cpp) | Recursive DFS tree traversal with depth and invariant validation |
+| 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii) | 🔴 `Hard` | [C++](Trees/2916-subarrays-distinct-element-sum-of-squares-ii/2916-subarrays-distinct-element-sum-of-squares-ii.cpp) | Segment Tree with Lazy Propagation + Range Updates in $O(n logn)$ time |
 
 <a id="-graph-bfs"></a>
 ### 🕸️ Graph BFS & Multi-Source BFS

@@ -1,5 +1,24 @@
 class Solution {
 public:
+    //Approach : Segment Tree with Lazy Propagation + Range Updates
+
+    //Time Complexity = O(n logn) =>
+    /* 1. The for loop runs n times, once for each array element. Therefore, its complexity is O(n) iterations.
+    2. In each iteration, updateRange() updates a range in the segment tree.
+    3. A segment tree with lazy propagation performs a range update in O(log n) time for a standard range-update implementation.
+    4. Accessing SqSumSeg[0] takes O(1) time because the root stores the sum of squares for the entire array of tracked values.
+    5. Updating pastSeenIdx takes O(1) time.
+    * Therefore : n iterations × O(log n) per update = O(n logn)
+    */
+
+    //Space Complexity = O(n + MAX_VALUE) => 
+    /* SqSumSeg stores the sum of squared values for each segment.
+    * SumSeg stores the sum of values for each segment.
+    * lazyTree stores pending updates.
+    * Each array requires O(n) space.
+    */
+
+
     typedef long long ll;
     const int M = 1e9 + 7; //10^9 + 7
     int n; //global : to use in all the other functions

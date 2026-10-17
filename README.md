@@ -1194,3 +1194,19 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
+## Hash Table
+|  |
+| ------- |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
+## Sorting
+|  |
+| ------- |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
+<!---LeetCode Topics End-->

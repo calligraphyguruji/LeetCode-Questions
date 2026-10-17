@@ -1,5 +1,21 @@
 class Solution {
 public:
+    //Approach : Sorting + Cycle detection
+
+    //Time Complexity = O(n logn) => O(n logn) + O(n) + O(n)
+    /* 1. Calculate digit sums: Each number has at most 10 digits because nums[i] <= 10^9. Therefore, digitSum() takes O(1) time per number.
+    2. Sorting: Sorting n elements takes O(n log n) time. The comparator calculates digit sums in O(1) time.
+    3. Create index map: Iterating through nums takes O(n) time on average.
+    4. Cycle detection: Each element is visited at most once, taking O(n) time.
+    */
+
+    //Space Complexity = O(n) =>
+    /* 1. Sorted array: Stores n elements → O(n).
+    2. Unordered map: Stores the original index of each element → O(n).
+    3. Visited array: Tracks whether each element has been visited → O(n).
+    */
+
+
     //1.) create func. for digit sum
     int digitSum(int num){
         

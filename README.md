@@ -160,7 +160,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) | Prefix Sum (Running Sum) in $O(n)$ time |
 | 1594 | [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix) | 🟡 `Medium` | [C++](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/1594-maximum-non-negative-product-in-a-matrix.cpp) | Prefix state matrix tracking both minimum (negative) and maximum products |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) | Frequency array / mathematical sum and square-sum formulas to pinpoint missing and duplicate numbers |
-| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum) | 🟡 `Medium` | [C++](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/3551-minimum-swaps-to-sort-by-digit-sum.cpp) | Hash map / set lookup achieving amortized $O(1)$ query and state tracking |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum) | 🟡 `Medium` | [C++](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/3551-minimum-swaps-to-sort-by-digit-sum.cpp) | Sorting + Cycle detection in $O(n logn)$ time |
 
 <a id="-monotonic-stack-queue"></a>
 ### 🥞 Monotonic Stack & Monotonic Queue

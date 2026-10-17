@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-92_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-93_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-206_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-207_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-253-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-254-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 79 | 31.2% |
-| 🟡 **Medium** | 151 | 59.7% |
+| 🟢 **Easy** | 79 | 31.1% |
+| 🟡 **Medium** | 152 | 59.8% |
 | 🔴 **Hard** | 23 | 9.1% |
-| 🎯 **Total Solved** | **253** | **100%** |
-| 🔥 **Current Streak** | **92 Days** | — |
-| 📅 **Total Active Days** | **206 Days** | — |
+| 🎯 **Total Solved** | **254** | **100%** |
+| 🔥 **Current Streak** | **93 Days** | — |
+| 📅 **Total Active Days** | **207 Days** | — |
 
 </div>
 
@@ -160,6 +160,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 `Easy` | [C++](Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp) | Prefix Sum (Running Sum) in $O(n)$ time |
 | 1594 | [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix) | 🟡 `Medium` | [C++](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/1594-maximum-non-negative-product-in-a-matrix.cpp) | Prefix state matrix tracking both minimum (negative) and maximum products |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) | Frequency array / mathematical sum and square-sum formulas to pinpoint missing and duplicate numbers |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum) | 🟡 `Medium` | [C++](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/3551-minimum-swaps-to-sort-by-digit-sum.cpp) | Hash map / set lookup achieving amortized $O(1)$ query and state tracking |
 
 <a id="-monotonic-stack-queue"></a>
 ### 🥞 Monotonic Stack & Monotonic Queue
@@ -560,7 +561,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (61 problems)
+│   └── ... (62 problems)
 ```
 
 Each problem folder contains:
@@ -857,6 +858,7 @@ public:
 | 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2916-subarrays-distinct-element-sum-of-squares-ii/) | [C++](Trees/2916-subarrays-distinct-element-sum-of-squares-ii/2916-subarrays-distinct-element-sum-of-squares-ii.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2965-find-missing-and-repeated-values/) | [C++](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 | 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3286-find-a-safe-walk-through-a-grid/) | [C++](Graphs/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/) | [C++](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/3551-minimum-swaps-to-sort-by-digit-sum.cpp) |
 
 ---
 
@@ -1104,7 +1106,7 @@ public:
 | 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [Problem Notes](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/) | [C++](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Linked-List/0876-middle-of-the-linked-list/) | [C++](Linked-List/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (61)
+### 📦 [Arrays & Hashing](Arrays/) (62)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1169,6 +1171,7 @@ public:
 | 2073 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | 🟢 `Easy` | [Problem Notes](Arrays/2073-time-needed-to-buy-tickets/) | [C++](Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [Problem Notes](Arrays/2114-maximum-number-of-words-found-in-sentences/) | [C++](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix) | 🟢 `Easy` | [Problem Notes](Arrays/2185-counting-words-with-a-given-prefix/) | [C++](Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp) |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum) | 🟡 `Medium` | [Problem Notes](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/) | [C++](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/3551-minimum-swaps-to-sort-by-digit-sum.cpp) |
 
 ---
 
@@ -1194,19 +1197,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
-## Hash Table
-|  |
-| ------- |
-| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
-## Sorting
-|  |
-| ------- |
-| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
-<!---LeetCode Topics End-->

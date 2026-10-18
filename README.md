@@ -24,24 +24,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-93_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-94_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-207_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-208_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-254-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-255-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 79 | 31.1% |
-| 🟡 **Medium** | 152 | 59.8% |
-| 🔴 **Hard** | 23 | 9.1% |
-| 🎯 **Total Solved** | **254** | **100%** |
-| 🔥 **Current Streak** | **93 Days** | — |
-| 📅 **Total Active Days** | **207 Days** | — |
+| 🟢 **Easy** | 79 | 31.0% |
+| 🟡 **Medium** | 152 | 59.6% |
+| 🔴 **Hard** | 24 | 9.4% |
+| 🎯 **Total Solved** | **255** | **100%** |
+| 🔥 **Current Streak** | **94 Days** | — |
+| 📅 **Total Active Days** | **208 Days** | — |
 
 </div>
 
@@ -281,6 +281,7 @@ To make revision structured and interview preparation fast, every question is in
 | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree) | 🟡 `Medium` | [C++](Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/1457-pseudo-palindromic-paths-in-a-binary-tree.cpp) | DFS (Preorder) + Bitmasking in $O(n)$ time |
 | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | 🟡 `Medium` | [C++](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/1519-number-of-nodes-in-the-sub-tree-with-the-same-label.cpp) | Postorder 26-length frequency array merging from child subtrees |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs) | 🟡 `Medium` | [C++](Trees/1530-number-of-good-leaf-nodes-pairs/1530-number-of-good-leaf-nodes-pairs.cpp) | Postorder DFS + Tree Dynamic Programming (Distance Tracking) in $O(N × D²)$ time |
+| 1569 | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst) | 🔴 `Hard` | [C++](Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/1569-number-of-ways-to-reorder-array-to-get-same-bst.cpp) | Recursive DFS tree traversal with depth and invariant validation |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree) | 🟡 `Medium` | [C++](Trees/1609-even-odd-tree/1609-even-odd-tree.cpp) | BFS (Level Order Traversal) in $O(n)$ time |
 | 1932 | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst) | 🔴 `Hard` | [C++](Trees/1932-merge-bsts-to-create-single-bst/1932-merge-bsts-to-create-single-bst.cpp) | BST root-leaf matching, cycle check, and global BST inorder validation |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) | 🟡 `Medium` | [C++](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/2096-step-by-step-directions-from-a-binary-tree-node-to-another.cpp) | Root-to-Node Path (DFS) + LCA (Lowest Common Ancestor) in $O(n)$ time |
@@ -523,7 +524,7 @@ LeetCode-Questions/
 ├── Trees/
 │   ├── 0094-binary-tree-inorder-traversal/
 │   ├── 0096-unique-binary-search-trees/
-│   └── ... (70 problems)
+│   └── ... (71 problems)
 ├── Graphs/
 │   ├── 0133-clone-graph/
 │   ├── 0200-number-of-islands/
@@ -808,6 +809,7 @@ public:
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1528-shuffle-string/) | [C++](Arrays/1528-shuffle-string/1528-shuffle-string.cpp) |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1530-number-of-good-leaf-nodes-pairs/) | [C++](Trees/1530-number-of-good-leaf-nodes-pairs/1530-number-of-good-leaf-nodes-pairs.cpp) |
 | 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1547-minimum-cost-to-cut-a-stick/) | [C++](DynamicProgramming/1547-minimum-cost-to-cut-a-stick/1547-minimum-cost-to-cut-a-stick.cpp) |
+| 1569 | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | [C++](Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/1569-number-of-ways-to-reorder-array-to-get-same-bst.cpp) |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1572-matrix-diagonal-sum/) | [C++](Arrays/1572-matrix-diagonal-sum/1572-matrix-diagonal-sum.cpp) |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1584-min-cost-to-connect-all-points/) | [C++](Graphs/1584-min-cost-to-connect-all-points/1584-min-cost-to-connect-all-points.cpp) |
 | 1594 | [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/) | [C++](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/1594-maximum-non-negative-product-in-a-matrix.cpp) |
@@ -864,7 +866,7 @@ public:
 
 ## 📂 Topic-wise Problem Breakdown
 
-### 🌳 [Trees & Binary Search Trees](Trees/) (70)
+### 🌳 [Trees & Binary Search Trees](Trees/) (71)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -925,6 +927,7 @@ public:
 | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree) | 🟡 `Medium` | [Problem Notes](Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/) | [C++](Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/1457-pseudo-palindromic-paths-in-a-binary-tree.cpp) |
 | 1519 | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label) | 🟡 `Medium` | [Problem Notes](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/) | [C++](Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/1519-number-of-nodes-in-the-sub-tree-with-the-same-label.cpp) |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs) | 🟡 `Medium` | [Problem Notes](Trees/1530-number-of-good-leaf-nodes-pairs/) | [C++](Trees/1530-number-of-good-leaf-nodes-pairs/1530-number-of-good-leaf-nodes-pairs.cpp) |
+| 1569 | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst) | 🔴 `Hard` | [Problem Notes](Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | [C++](Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/1569-number-of-ways-to-reorder-array-to-get-same-bst.cpp) |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree) | 🟡 `Medium` | [Problem Notes](Trees/1609-even-odd-tree/) | [C++](Trees/1609-even-odd-tree/1609-even-odd-tree.cpp) |
 | 1932 | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst) | 🔴 `Hard` | [Problem Notes](Trees/1932-merge-bsts-to-create-single-bst/) | [C++](Trees/1932-merge-bsts-to-create-single-bst/1932-merge-bsts-to-create-single-bst.cpp) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) | 🟡 `Medium` | [Problem Notes](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/) | [C++](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/2096-step-by-step-directions-from-a-binary-tree-node-to-another.cpp) |
@@ -1197,51 +1200,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Math
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Divide and Conquer
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Dynamic Programming
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Tree
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Union-Find
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Binary Search Tree
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Memoization
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Combinatorics
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Binary Tree
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-## Fermat's Little Theorem
-|  |
-| ------- |
-| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
-<!---LeetCode Topics End-->

@@ -6,6 +6,10 @@ Welcome to my personal collection of **LeetCode problem solutions**, written pri
 
 ---
 
+## 🧭 Quick Navigation
+
+[📌 About](#-about-this-repository) • [📊 Progress](#-progress-dashboard) • [🧠 NeetCode 150](#neetcode-150--progress-tracker) • [📚 Topics](#-topic-wise-problem-breakdown) • [💻 Solutions](#-complete-problem-index)
+
 ## 📌 About This Repository
 
 This repository contains my solutions to various LeetCode problems, organized by topic and difficulty. It is structured for rapid reference, revision, and technical interview preparation. Each solution includes:

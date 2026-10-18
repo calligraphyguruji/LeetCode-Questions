@@ -1,59 +1,87 @@
-name: Auto Organize LeetCode Questions
+name: Update LeetCode Progress
 
 on:
   push:
-    branches:
-      - main
-    paths-ignore:
-      - '.github/**'
+    paths:
+      - '**/*.cpp'
+      - '**/*.cc'
+      - '**/*.cxx'
+      - '**/*.c'
+      - '**/*.py'
+      - '**/*.java'
+      - '**/*.js'
+      - '**/*.ts'
+      - '**/*.go'
+      - '**/*.rs'
+      - '**/*.kt'
+      - '**/*.cs'
+      - '**/*.swift'
+      - '**/*.rb'
+      - '**/*.scala'
+      - '**/*.php'
+      - '**/README.md'
+      - 'neetcode150.json'
+      - '.github/workflows/organize.yml'
   workflow_dispatch:
-    inputs:
-      multi_approach:
-        description: 'Preserve multiple approaches in separate files'
-        required: false
-        default: true
-        type: boolean
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: organize-questions
+  group: leetcode-progress-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   organize:
+    # Follow the repository's configured default branch, including after renames.
+    if: github.ref_type == 'branch' && github.ref_name == github.event.repository.default_branch && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    # Prevent infinite loop if committed by github-actions
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    permissions:
+      contents: write
     steps:
-      - name: Checkout Repository
+      - name: Checkout latest branch
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Run Question Organizer
+      - name: Validate tracker
         env:
-          MULTI_APPROACH: ${{ inputs.multi_approach || 'true' }}
-        run: |
-          python3 scripts/organize.py
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python3 -m unittest discover -s tests -v
 
-      - name: Commit and Push Changes
+      - name: Refresh README
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python3 organize.py
+
+      - name: Commit generated README only
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          
-          if [ -n "$(git status --porcelain)" ]; then
-            git add -A
-            git commit -m "Auto-organize LeetCode questions and multi-approach solutions [skip ci]"
-            git pull --rebase origin main
-            git push
-          else
-            echo "No changes to commit."
+          if git diff --quiet -- README.md; then
+            echo "README is already current."
+            exit 0
           fi
+          git diff -- README.md > readme-update.patch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- README.md
+          git commit -m "docs: refresh LeetCode progress [skip ci]"
+          # Never force-push or rebase over newer work. A concurrent push fails safely.
+          if ! git push origin "HEAD:$TARGET_BRANCH"; then
+            echo '::error::README push rejected. Check branch protection, token write access, or a concurrent push. Download the generated patch artifact or rerun after resolving the restriction.'
+            exit 1
+          fi
+
+      - name: Preserve README patch if publishing fails
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: readme-update
+          path: readme-update.patch
+          if-no-files-found: ignore

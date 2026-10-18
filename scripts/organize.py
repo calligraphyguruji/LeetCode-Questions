@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-Automated LeetCode Question Organizer
-- Detects newly pushed questions at the root of the repository (format: \d{4}-*)
-- Classifies them into the appropriate topic folder using LeetCode GraphQL / README tags
-- Reorganizes directories using git mv
-- Dynamically updates README.md (Dashboard, Repository Structure, and Problem Index)
-- Updates stats.json
+Offline LeetCode progress generator.
+
+Default execution recursively scans solutions, refreshes the Complete Problem
+Index and updates the marked NeetCode 150 tracker without moving any files.
+Legacy classification/reorganization and dashboard helpers below are retained
+for compatibility but are not called by the safe default entry point.
 """
+
+from __future__ import annotations
 
 import os
 import re
@@ -15,6 +17,11 @@ import json
 import shutil
 import urllib.request
 import subprocess
+from dataclasses import dataclass, field
+from pathlib import Path
+from urllib.parse import quote
+import argparse
+import html
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEETCODE_USERNAME = os.getenv("LEETCODE_USERNAME", "calligraphyguruji")
@@ -1740,13 +1747,288 @@ This repository is created **purely for learning and educational purposes**. The
         f.write(new_readme_text)
     print("Updated README.md successfully.")
 
-def main():
-    moved = scan_and_reorganize()
-    rebuild_metadata()
-    if moved:
-        print("[Done] Repository restructured and index updated.")
-    else:
-        print("[Done] All questions are already organized.")
+# NeetCode tracking is deliberately offline and never moves or rewrites solutions.
 
-if __name__ == "__main__":
-    main()
+TRACKER_START = '<!-- NEETCODE150:START -->'
+TRACKER_END = '<!-- NEETCODE150:END -->'
+IGNORED_DIRECTORIES = {'.git', '.github', '.venv', 'venv', 'node_modules',
+                       '__pycache__', 'scripts', 'tests', 'build', 'dist'}
+
+
+@dataclass
+class ProblemIdentity:
+    number: int
+    title: str
+    slug: str
+    difficulty: str = 'Unknown'
+    aliases: set[str] = field(default_factory=set)
+
+
+@dataclass
+class RepositoryScan:
+    solutions: dict[int, list[Path]] = field(default_factory=dict)
+    identities: dict[int, ProblemIdentity] = field(default_factory=dict)
+    ambiguous: list[str] = field(default_factory=list)
+    unidentified: list[str] = field(default_factory=list)
+    metadata_notes: list[str] = field(default_factory=list)
+    discovered: int = 0
+
+
+def normalized_title(value: str) -> str:
+    """Normalize punctuation, case and separators, without fuzzy matching."""
+    return re.sub(r'[^a-z0-9]', '', html.unescape(value).casefold())
+
+
+def load_neetcode_data(path: Path) -> dict:
+    data = json.loads(path.read_text(encoding='utf-8'))
+    if data.get('schema_version') != 1:
+        raise ValueError('Unsupported roadmap dataset schema')
+    rows, topics = data['questions'], data['topics']
+    if len(rows) != 150 or len(topics) != 18 or len(set(topics)) != 18:
+        raise ValueError('Expected exactly 150 questions and 18 unique topics')
+    if len({q['leetcode_id'] for q in rows}) != 150 or len({q['url'] for q in rows}) != 150:
+        raise ValueError('Duplicate NeetCode problems')
+    if [q['sequence'] for q in rows] != list(range(1, 151)):
+        raise ValueError('Invalid question sequence')
+    topic_indices = []
+    for q in rows:
+        if any(not isinstance(q[key], str) or not q[key].strip() for key in ('title', 'leetcode_title')):
+            raise ValueError('Missing title')
+        if type(q['leetcode_id']) is not int or q['leetcode_id'] <= 0:
+            raise ValueError('Invalid LeetCode identifier')
+        if q['difficulty'] not in {'Easy', 'Medium', 'Hard'}:
+            raise ValueError('Invalid difficulty')
+        if not re.fullmatch(r'https://leetcode\.com/problems/[a-z0-9-]+/', q['url']):
+            raise ValueError('Invalid LeetCode URL')
+        topic_indices.append(topics.index(q['topic']))
+    if sorted(topic_indices) != topic_indices or set(topic_indices) != set(range(18)):
+        raise ValueError('Invalid topic ordering or empty topic')
+    return data
+
+
+def numbered_name(name: str) -> tuple[int | None, str]:
+    # Do not interpret titles such as 3Sum and 2-D Dynamic Programming as IDs.
+    match = re.match(r'^(\d{1,5})(?:[-_ .]+(.*)|$)', name)
+    if not match or not int(match[1]):
+        return None, name
+    return int(match[1]), match[2] or ''
+
+
+def scan_repository(root: Path, data: dict) -> RepositoryScan:
+    result = RepositoryScan()
+    for q in data['questions']:
+        result.identities[q['leetcode_id']] = ProblemIdentity(
+            q['leetcode_id'], q['leetcode_title'], q['url'].rstrip('/').split('/')[-1],
+            q['difficulty'], {normalized_title(q['title']), normalized_title(q['leetcode_title'])})
+    files = []
+    metadata = {}
+    for directory, dirs, names in os.walk(root, followlinks=False):
+        dirs[:] = sorted(d for d in dirs if d not in IGNORED_DIRECTORIES
+                         and not d.startswith('.') and not (Path(directory) / d).is_symlink())
+        parent = Path(directory)
+        if parent != root and 'README.md' in names:
+            text = (parent / 'README.md').read_text(encoding='utf-8', errors='replace')
+            header = re.search(r'<h2>\s*<a href="https://leetcode\.com/problems/([a-z0-9-]+)/?[^\"]*">(.*?)</a>', text, re.S)
+            number, folder_title = numbered_name(parent.name)
+            if header and number:
+                title = re.sub(r'^\d+\.\s*', '', html.unescape(re.sub('<[^>]+>', '', header[2]))).strip()
+                difficulty = re.search(r'<h3>(Easy|Medium|Hard)</h3>', text)
+                identity = result.identities.get(number)
+                slug = header[1]
+                if identity and slug != identity.slug:
+                    result.ambiguous.append(f'{parent.relative_to(root)}: folder ID conflicts with README URL')
+                    metadata[parent] = None
+                    continue
+                if not identity:
+                    # Historical LeetHub headings can use internal database IDs.
+                    # Require the folder title to agree with the canonical URL.
+                    if normalized_title(folder_title) != normalized_title(slug):
+                        result.ambiguous.append(f'{parent.relative_to(root)}: folder title conflicts with README URL')
+                        metadata[parent] = None
+                        continue
+                    identity = ProblemIdentity(number, title, slug,
+                                               difficulty[1] if difficulty else 'Unknown')
+                    result.identities[number] = identity
+                identity.aliases.update({normalized_title(title), normalized_title(slug)})
+                metadata[parent] = number
+                heading_id = re.match(r'(\d+)\.', header[2])
+                if heading_id and int(heading_id[1]) != number:
+                    result.metadata_notes.append(f'{parent.relative_to(root)}: README heading ID {heading_id[1]}; folder/URL identify {number}')
+        for name in sorted(names):
+            path = parent / name
+            if path.suffix.lower() in CODE_EXTENSIONS and not path.is_symlink() and path.name != 'organize.py':
+                files.append(path)
+    by_title: dict[str, set[int]] = {}
+    by_slug: dict[str, set[int]] = {}
+    for number, identity in result.identities.items():
+        for alias in identity.aliases | {normalized_title(identity.title), normalized_title(identity.slug)}:
+            by_title.setdefault(alias, set()).add(number)
+        by_slug.setdefault(identity.slug, set()).add(number)
+    for path in sorted(files):
+        text = path.read_text(encoding='utf-8', errors='replace')
+        # Documentation and comment-only placeholders never establish a solution.
+        uncommented = re.sub(r'/\*.*?\*/|//[^\n]*|^[ \t]*#[^\n]*', '', text, flags=re.S | re.M)
+        if not uncommented.strip():
+            result.unidentified.append(f'{path.relative_to(root)}: empty/comment-only file')
+            continue
+        result.discovered += 1
+        candidates: set[int] = set()
+        conflicting = False
+        for parent in path.parents:
+            if parent == root:
+                break
+            if parent in metadata:
+                if metadata[parent] is None:
+                    conflicting = True
+                else:
+                    candidates.add(metadata[parent])
+            num, title = numbered_name(parent.name)
+            if num:
+                candidates.add(num)
+                break
+            elif (parent.name not in {t[0] for t in TOPIC_CONFIG}
+                  and normalized_title(parent.name) not in {normalized_title(t) for t in data['topics']}
+                  and normalized_title(title) in by_title):
+                candidates.update(by_title[normalized_title(title)])
+                break
+        num, title = numbered_name(path.stem)
+        if num:
+            candidates.add(num)
+        # Strip only explicit approach suffixes; avoid loose substring matches.
+        title = re.split(r'(?i)[-_ ]+approach[-_ ]*\d+', title)[0]
+        title_matches = by_title.get(normalized_title(title), set())
+        candidates.update(title_matches)
+        for slug in re.findall(r'https?://(?:www\.)?leetcode\.com/problems/([a-z0-9-]+)', text):
+            if slug in by_slug:
+                candidates.update(by_slug[slug])
+            elif candidates:
+                # An unknown problem URL contradicts any known candidate URL.
+                if any(n in result.identities and result.identities[n].slug != slug for n in candidates):
+                    conflicting = True
+        for explicit in re.findall(r'(?im)(?:leetcode|problem\s*(?:id|number|#))\s*[:#.-]?\s*(\d+)\b', text):
+            candidates.add(int(explicit))
+        for labeled_title in re.findall(r'(?im)^\s*(?://|#|\*)\s*(?:problem|title)\s*:\s*([^\n]+)', text):
+            candidates.update(by_title.get(normalized_title(labeled_title.strip()), set()))
+        if conflicting or len(candidates) > 1:
+            result.ambiguous.append(f'{path.relative_to(root)}: conflicting identities {sorted(candidates)}')
+        elif candidates:
+            number = next(iter(candidates))
+            result.solutions.setdefault(number, []).append(path.relative_to(root))
+            if number not in result.identities:
+                slug = re.sub(r'[^a-z0-9]+', '-', title.casefold()).strip('-')
+                result.identities[number] = ProblemIdentity(number, title.replace('_', ' ').replace('-', ' ').strip() or f'LeetCode {number}', slug)
+        else:
+            result.unidentified.append(str(path.relative_to(root)))
+    return result
+
+
+def solution_links(paths: list[Path]) -> str:
+    return ' · '.join(f'[Solution{f" {i}" if len(paths) > 1 else ""}]({quote(p.as_posix(), safe="/")})'
+                      for i, p in enumerate(paths, 1)) or '—'
+
+
+def topic_progress(data: dict, scan: RepositoryScan) -> list[tuple[str, int, int]]:
+    return [(topic, sum(q['topic'] == topic for q in data['questions']),
+             sum(q['topic'] == topic and q['leetcode_id'] in scan.solutions for q in data['questions']))
+            for topic in data['topics']]
+
+
+def render_tracker(data: dict, scan: RepositoryScan) -> str:
+    solved = sum(q['leetcode_id'] in scan.solutions for q in data['questions'])
+    pct = solved / 150 * 100
+    filled = solved * 20 // 150
+    lines = [TRACKER_START, '## NeetCode 150 — Progress Tracker', '',
+             f'**Total Questions:** 150 · **Solved Questions:** {solved} · **Remaining Questions:** {150 - solved}', '',
+             f'**Completion:** {pct:.1f}%', '',
+             f'Progress: {"█" * filled}{"░" * (20 - filled)} {pct:.1f}%', '',
+             f'Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified {data["verified_on"]}. '
+             'Topics follow the current official practice order; the roadmap itself is a dependency graph. '
+             'Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.', '',
+             'Generated from existing solution files. Run `python3 organize.py` to refresh; do not edit this block manually. '
+             'See [maintenance and verification notes](docs/neetcode150.md).', '']
+    for topic, total, count in topic_progress(data, scan):
+        lines += [f'### {topic} — {count}/{total} Solved ({count / total * 100:.1f}%)', '',
+                  '| # | Problem | Difficulty | LeetCode Link | Solved | Solution |',
+                  '|---:|:---|:---:|:---:|:---:|:---|']
+        for q in data['questions']:
+            if q['topic'] == topic:
+                paths = scan.solutions.get(q['leetcode_id'], [])
+                lines.append(f'| {q["sequence"]} | {q["title"]} | {q["difficulty"]} | [LeetCode #{q["leetcode_id"]}]({q["url"]}) | {"✅ Yes" if paths else "❌ No"} | {solution_links(paths)} |')
+        lines.append('')
+    lines.append(TRACKER_END)
+    return '\n'.join(lines)
+
+
+def replace_tracker(readme: str, block: str) -> str:
+    starts, ends = readme.count(TRACKER_START), readme.count(TRACKER_END)
+    if starts == ends == 0:
+        return readme + ('\n' if readme.endswith('\n') else '\n\n') + block + '\n'
+    if starts != 1 or ends != 1 or readme.index(TRACKER_END) < readme.index(TRACKER_START):
+        raise ValueError('Malformed or duplicate tracker markers; README left untouched')
+    start, end = readme.index(TRACKER_START), readme.index(TRACKER_END) + len(TRACKER_END)
+    return readme[:start] + block + readme[end:]
+
+
+def refresh_problem_index(readme: str, scan: RepositoryScan) -> str:
+    """Refresh only the existing index table, preserving its heading and other prose."""
+    heading = '## 📋 Complete Problem Index'
+    if heading not in readme:
+        return readme
+    start = readme.index(heading) + len(heading)
+    next_heading = re.search(r'^## ', readme[start:], re.M)
+    end = start + next_heading.start() if next_heading else len(readme)
+    section = readme[start:end]
+    table = re.search(r'^\| # \|[^\n]*\n(?:\|[^\n]*\n)+', section, re.M)
+    if not table:
+        return readme
+    rows = ['| # | Problem Name | Difficulty | Topic | Problem Details | Solution |',
+            '|:---:|:---|:---:|:---|:---:|:---|']
+    for number, paths in sorted(scan.solutions.items()):
+        identity = scan.identities[number]
+        primary = paths[0]
+        folder = primary.parts[0] if len(primary.parts) > 1 else ''
+        config = next((t for t in TOPIC_CONFIG if t[0] == folder), None)
+        topic = f'[{config[2]} {config[1]}]({quote(folder)}/)' if config else (folder or 'Root')
+        title = identity.title.replace('|', '\\|')
+        problem = f'[{title}](https://leetcode.com/problems/{identity.slug}/)' if identity.slug else title
+        badge = {'Easy': '🟢', 'Medium': '🟡', 'Hard': '🔴'}.get(identity.difficulty, '—')
+        notes = f'[Problem]({quote(primary.parent.as_posix(), safe="/")}/)' if primary.parent != Path('.') else '—'
+        rows.append(f'| {number:04d} | {problem} | {badge} `{identity.difficulty}` | {topic} | {notes} | {solution_links(paths)} |')
+    replacement = '\n'.join(rows) + '\n'
+    return readme[:start] + section[:table.start()] + replacement + section[table.end():] + readme[end:]
+
+
+def update_tracking(root: Path) -> tuple[dict, RepositoryScan, bool]:
+    data = load_neetcode_data(root / 'neetcode150.json')
+    scan = scan_repository(root, data)
+    path = root / 'README.md'
+    original = path.read_bytes().decode('utf-8') if path.exists() else ''
+    # Validate markers before touching any generated content.
+    updated = replace_tracker(original, render_tracker(data, scan))
+    updated = refresh_problem_index(updated, scan)
+    changed = updated != original
+    if changed:
+        path.write_bytes(updated.encode('utf-8'))
+    return data, scan, changed
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description='Refresh offline LeetCode index and NeetCode 150 progress without moving solutions.')
+    parser.parse_args()
+    try:
+        data, scan, changed = update_tracking(Path(BASE_DIR))
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        print(f'[Error] {exc}', file=sys.stderr)
+        return 1
+    solved = sum(q['leetcode_id'] in scan.solutions for q in data['questions'])
+    print(f'{scan.discovered} solution files; {len(scan.solutions)} unique problems; NeetCode 150: {solved}/150 ({solved / 150:.1%}).')
+    print('README updated.' if changed else 'README unchanged.')
+    for message in scan.ambiguous + scan.unidentified:
+        print(f'[Review] {message}')
+    if scan.metadata_notes:
+        print(f'{len(scan.metadata_notes)} historical README heading IDs resolved using folder IDs and canonical URLs.')
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

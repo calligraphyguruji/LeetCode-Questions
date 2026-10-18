@@ -30,16 +30,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-208_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-255-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-256-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 79 | 31.0% |
-| 🟡 **Medium** | 152 | 59.6% |
+| 🟢 **Easy** | 80 | 31.2% |
+| 🟡 **Medium** | 152 | 59.4% |
 | 🔴 **Hard** | 24 | 9.4% |
-| 🎯 **Total Solved** | **255** | **100%** |
+| 🎯 **Total Solved** | **256** | **100%** |
 | 🔥 **Current Streak** | **94 Days** | — |
 | 📅 **Total Active Days** | **208 Days** | — |
 
@@ -151,6 +151,7 @@ To make revision structured and interview preparation fast, every question is in
 |:---:|:---|:---:|:---|:---|
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | 🟡 `Medium` | [C++](Arrays/0049-group-anagrams/0049-group-anagrams.cpp) | Categorize strings by canonical sorted key or 26-character frequency signature |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element) | 🟢 `Easy` | [C++](Arrays/0169-majority-element/0169-majority-element.cpp) | Boyer-Moore Voting Algorithm: tracking candidate and net score in $O(1)$ auxiliary space |
+| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 `Easy` | [C++](Arrays/0217-contains-duplicate/0217-contains-duplicate.cpp) | Hashing using unordered_set in $O(n)$ time |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 `Easy` | [C++](Arrays/0242-valid-anagram/0242-valid-anagram.cpp) | Fixed 26-character frequency count matching between two strings |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 `Easy` | [C++](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) | Two-pass frequency mapping to detect first element with frequency 1 |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 `Medium` | [C++](Arrays/0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.cpp) | Prefix sum array paired with hash map of prefix frequencies: find count of $(prefix - k)$ in $O(n)$ |
@@ -562,7 +563,7 @@ LeetCode-Questions/
 ├── Arrays/
 │   ├── 0001-two-sum/
 │   ├── 0003-longest-substring-without-repeating-characters/
-│   └── ... (62 problems)
+│   └── ... (63 problems)
 ```
 
 Each problem folder contains:
@@ -689,6 +690,7 @@ public:
 | 0210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0210-course-schedule-ii/) | [C++](Graphs/0210-course-schedule-ii/0210-course-schedule-ii.cpp) |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0213-house-robber-ii/) | [C++](DynamicProgramming/0213-house-robber-ii/0213-house-robber-ii.cpp) |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0215-kth-largest-element-in-an-array/) | [C++](Heaps/0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.cpp) |
+| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0217-contains-duplicate/) | [C++](Arrays/0217-contains-duplicate/0217-contains-duplicate.cpp) |
 | 0222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0222-count-complete-tree-nodes/) | [C++](Trees/0222-count-complete-tree-nodes/0222-count-complete-tree-nodes.cpp) |
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0225-implement-stack-using-queues/) | [C++](Arrays/0225-implement-stack-using-queues/0225-implement-stack-using-queues.cpp) |
 | 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0230-kth-smallest-element-in-a-bst/) | [C++](Trees/0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.cpp) |
@@ -1109,7 +1111,7 @@ public:
 | 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟡 `Medium` | [Problem Notes](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/) | [C++](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 `Easy` | [Problem Notes](Linked-List/0876-middle-of-the-linked-list/) | [C++](Linked-List/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 
-### 📦 [Arrays & Hashing](Arrays/) (62)
+### 📦 [Arrays & Hashing](Arrays/) (63)
 
 | # | Problem Name | Difficulty | Problem Details | Solution |
 |:---:|:---|:---:|:---:|:---:|
@@ -1133,6 +1135,7 @@ public:
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | 🟡 `Medium` | [Problem Notes](Arrays/0151-reverse-words-in-a-string/) | [C++](Arrays/0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 `Medium` | [Problem Notes](Arrays/0155-min-stack/) | [C++](Arrays/0155-min-stack/0155-min-stack.cpp) |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element) | 🟢 `Easy` | [Problem Notes](Arrays/0169-majority-element/) | [C++](Arrays/0169-majority-element/0169-majority-element.cpp) |
+| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 `Easy` | [Problem Notes](Arrays/0217-contains-duplicate/) | [C++](Arrays/0217-contains-duplicate/0217-contains-duplicate.cpp) |
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 `Easy` | [Problem Notes](Arrays/0225-implement-stack-using-queues/) | [C++](Arrays/0225-implement-stack-using-queues/0225-implement-stack-using-queues.cpp) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 `Easy` | [Problem Notes](Arrays/0232-implement-queue-using-stacks/) | [C++](Arrays/0232-implement-queue-using-stacks/0232-implement-queue-using-stacks.cpp) |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 🟡 `Medium` | [Problem Notes](Arrays/0238-product-of-array-except-self/) | [C++](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) |
@@ -1200,19 +1203,3 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0217-contains-duplicate](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0217-contains-duplicate) |
-## Hash Table
-|  |
-| ------- |
-| [0217-contains-duplicate](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0217-contains-duplicate) |
-## Sorting
-|  |
-| ------- |
-| [0217-contains-duplicate](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0217-contains-duplicate) |
-<!---LeetCode Topics End-->

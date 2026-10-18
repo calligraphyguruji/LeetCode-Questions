@@ -1203,3 +1203,23 @@ This repository is created **purely for learning and educational purposes**. The
 ---
 
 ⭐ If you find this repository helpful for your own DSA practice, feel free to star it! A collection of LeetCode questions to ace the coding interview!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
+## Hash Table
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
+## String
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
+## Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0049-group-anagrams) |
+<!---LeetCode Topics End-->

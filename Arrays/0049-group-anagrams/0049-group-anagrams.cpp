@@ -1,5 +1,21 @@
 class Solution {
 public:
+    //Approach : Hashing (Hash Map + Frequency Count)
+
+    //Time Complexity = O(n * k) => n = number of strings in strs, k = maximum length of a string.
+    /* Outer loop goes upto n for n elements : O(n)
+    * Inner loop :Each string takes O(k) to count frequencies and O(26) to generate its key. O(k)
+    */
+
+    //Space Complexity = O(n * k) =>
+    /* Hash map stores frequency keys and groups of strings. : O(n * k)
+    * The frequency array takes O(1) extra space (26 characters).
+    * Why O(n × k)? unordered_map<string, vector<string>> mp;
+    * Keys: In the worst case, there are n unique frequency keys. Each key has a fixed length of 26 frequency entries, so total key space is O(n).
+    * Values: The hashmap stores all n original strings. If each string has at most k characters, the total space for strings is O(n × k).
+    */
+
+
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         
         int n = strs.size();

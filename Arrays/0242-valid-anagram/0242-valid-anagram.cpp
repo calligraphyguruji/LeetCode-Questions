@@ -1,27 +1,39 @@
 class Solution {
 public:
-    //Time Complexity = O(n) => for traversing on array
-    //Space Complexity = O(1) => extra bucket array but of constant(26 chars.)
-    //very much easy problem
     bool isAnagram(string s, string t) {
-        //edge case
-        if(s.length() != t.length()) return false ;
+         
+        int n = s.length();
 
-        int bucketArray[26] = {0} ; //bucket array to store freq.
-
-        //traverse the string
-        for(int i=0 ; i<s.length() ; i++){
-            bucketArray[ s[i] -'a']++ ; //++ for string 1
-            bucketArray[ t[i] -'a']-- ; //-- for string 2
+        //edge-case
+        if(s.length() != t.length()){
+            return false;
         }
 
-        //check in bucketArray freq. stored
-        for(int b : bucketArray){
-            if(b != 0)
-              return false ; //if freq. > 0 return false 
+        //make a freq. Map array to store freq. of each char of s & t
+        vector<int> freq(26); //26 chars. size (a to z)
+        
+        for(int i = 0; i < n; i++){
+            
+            //increment freq of char in s
+            freq[s[i] - 'a']++;
+            
+            //decrement freq of same char in t
+            freq[t[i] - 'a']--;
         }
 
-        //otherwise
-        return true ;
+        //After decrement freq. of same chars. from t 
+        //if any element is non-zero in freq 
+        //it means not an anagram
+        for(int i = 0; i < 26; i++){
+
+            if(freq[i] != 0){
+                return false;
+            }
+        }
+        
+
+        //if in above check no false found      
+        return true;
+
     }
 };

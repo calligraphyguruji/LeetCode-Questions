@@ -30,7 +30,7 @@ public:
               
         }
 
-        //finally if no true found in abovec checks
+        //finally if no true found in above checks
         return false;
        
     }

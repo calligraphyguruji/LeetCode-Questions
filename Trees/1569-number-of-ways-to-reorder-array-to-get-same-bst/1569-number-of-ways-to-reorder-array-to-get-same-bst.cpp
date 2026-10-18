@@ -1,5 +1,18 @@
 class Solution {
 public:
+    //Approach : 
+
+    //Time Complexity = O(n²) =>
+    /* 1. Building Pascal’s Triangle — O(n²)
+    * 2. Recursive solve() — O(n²) Total work: n + (n-1) + (n-2) + ... + 1
+    */
+
+    //Space Complexity = O(n²) =>
+    /* 1. Pascal’s Triangle — O(n²)
+    * 2. Recursive Calls and Subarrays — O(n²) worst case
+    */
+
+
     typedef long long ll;
 
     ll M = 1e9 + 7; //10^9 + 7
@@ -18,7 +31,8 @@ public:
         int root = nums[0]; //first element is always root
 
         vector<int> leftSub, rightSub;
-
+        
+        //Fill the leftSub & rightSub
         for(int i = 1; i < n; i++){
 
             if(nums[i] < root){
@@ -29,9 +43,10 @@ public:
                 rightSub.push_back(nums[i]);
             }
         }
-
-        ll x = solve(leftSub) % M;
-        ll y = solve(rightSub) % M;
+        
+        //Calc. no. of ways of leftSub & rightSub
+        ll x = solve(leftSub) % M; //x ways for left
+        ll y = solve(rightSub) % M;//y ways for left
 
         ll z = PT[n-1][leftSub.size()] % M; //n-1C(left.size())
 

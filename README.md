@@ -34,16 +34,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-209_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-258-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-259-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 81 | 31.4% |
-| 🟡 **Medium** | 153 | 59.3% |
+| 🟢 **Easy** | 81 | 31.3% |
+| 🟡 **Medium** | 154 | 59.5% |
 | 🔴 **Hard** | 24 | 9.3% |
-| 🎯 **Total Solved** | **258** | **100%** |
+| 🎯 **Total Solved** | **259** | **100%** |
 | 🔥 **Current Streak** | **95 Days** | — |
 | 📅 **Total Active Days** | **209 Days** | — |
 
@@ -672,6 +672,7 @@ public:
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0122-best-time-to-buy-and-sell-stock-ii/) | [Solution](DynamicProgramming/0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp) |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0124-binary-tree-maximum-path-sum/) | [Solution](Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp) |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0125-valid-palindrome/) | [Solution](Arrays/0125-valid-palindrome/0125-valid-palindrome.cpp) |
+| 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0128-longest-consecutive-sequence/) | [Solution](Arrays/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.cpp) |
 | 0129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0129-sum-root-to-leaf-numbers/) | [Solution](Trees/0129-sum-root-to-leaf-numbers/0129-sum-root-to-leaf-numbers.cpp) |
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0131-palindrome-partitioning/) | [Solution](Backtracking/0131-palindrome-partitioning/0131-palindrome-partitioning.cpp) |
 | 0132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0132-palindrome-partitioning-ii/) | [Solution](DynamicProgramming/0132-palindrome-partitioning-ii/0132-palindrome-partitioning-ii.cpp) |
@@ -1272,17 +1273,17 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 76 · **Remaining Questions:** 74
+**Total Questions:** 150 · **Solved Questions:** 77 · **Remaining Questions:** 73
 
-**Completion:** 50.7%
+**Completion:** 51.3%
 
-Progress: ██████████░░░░░░░░░░ 50.7%
+Progress: ██████████░░░░░░░░░░ 51.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
 Generated from existing solution files. Run `python3 organize.py` to refresh; do not edit this block manually. See [maintenance and verification notes](docs/neetcode150.md).
 
-### Arrays & Hashing — 7/9 Solved (77.8%)
+### Arrays & Hashing — 8/9 Solved (88.9%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1294,7 +1295,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 6 | Encode and Decode Strings | Medium | [LeetCode #271](https://leetcode.com/problems/encode-and-decode-strings/) | ❌ No | — |
 | 7 | Product of Array Except Self | Medium | [LeetCode #238](https://leetcode.com/problems/product-of-array-except-self/) | ✅ Yes | [Solution](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) |
 | 8 | Valid Sudoku | Medium | [LeetCode #36](https://leetcode.com/problems/valid-sudoku/) | ✅ Yes | [Solution](Arrays/0036-valid-sudoku/0036-valid-sudoku.cpp) |
-| 9 | Longest Consecutive Sequence | Medium | [LeetCode #128](https://leetcode.com/problems/longest-consecutive-sequence/) | ❌ No | — |
+| 9 | Longest Consecutive Sequence | Medium | [LeetCode #128](https://leetcode.com/problems/longest-consecutive-sequence/) | ✅ Yes | [Solution](Arrays/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.cpp) |
 
 ### Two Pointers — 4/5 Solved (80.0%)
 

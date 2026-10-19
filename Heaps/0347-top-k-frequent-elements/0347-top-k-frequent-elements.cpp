@@ -1,5 +1,22 @@
 class Solution {
 public:
+    //Approach : Hash Map (Frequency Counting) + Min Heap (Priority Queue)
+ 
+    //Time Complexity = O(n * logk) =>
+    /* Frequency Map: O(n) average time to count frequencies.
+    * Heap Operations: O(m log k), where m is the number of unique elements.
+    * Extract Elements: O(k log k).
+    * Overall: O(n log k) for k ≥ 2, since m ≤ n.
+    */
+
+    //Space Complexity = O(n + k) =>
+    /* Hash Map: O(n) in the worst case.
+    * Min Heap: O(k).
+    * Output Vector: O(k).
+    * Overall: O(n + k) = O(n) since k ≤ n
+    */
+
+
     typedef pair<int,int> P;
     vector<int> topKFrequent(vector<int>& nums, int k) {
         

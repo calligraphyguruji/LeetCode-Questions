@@ -1,5 +1,20 @@
 class Solution {
 public:
+    //Approach : Hashing using unordered_set
+
+    //Time Complexity = O(n) =>
+    /* Inserting elements into unordered_set → O(n).
+    * Traversing unique elements → O(n).
+    * All while loops combined → O(n), since each consecutive sequence is traversed only once.
+    * Total: O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* unordered_set stores at most n unique elements → O(n).
+    * Additional variables → O(1).
+    * Total: O(n).
+    */
+
     int longestConsecutive(vector<int>& nums) {
         
         //1.)

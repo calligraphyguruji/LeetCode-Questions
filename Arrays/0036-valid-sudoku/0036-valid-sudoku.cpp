@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Hashing (Using Unordered Sets)
+
+    //Time Complexity = O(1) =>
+    /* We traverse exactly 9 × 9 = 81 cells.
+    * Each hash set lookup and insertion takes O(1) average time.
+    * Since the board size is fixed, the overall time complexity is O(1).
+    */
+
+    //Space Complexity = O(1) =>
+    /* We maintain 9 sets for rows, 9 for columns, and 9 for sub-boxes.
+    * Each set stores at most 9 digits.
+    * Since the storage requirement is fixed, the overall space complexity is O(1).
+    */
+
     bool isValidSudoku(vector<vector<char>>& board) {
         
         int m = board.size();//row size

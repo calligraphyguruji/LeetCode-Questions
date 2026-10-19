@@ -34,16 +34,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-209_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-257-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-258-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 81 | 31.5% |
-| 🟡 **Medium** | 152 | 59.1% |
+| 🟢 **Easy** | 81 | 31.4% |
+| 🟡 **Medium** | 153 | 59.3% |
 | 🔴 **Hard** | 24 | 9.3% |
-| 🎯 **Total Solved** | **257** | **100%** |
+| 🎯 **Total Solved** | **258** | **100%** |
 | 🔥 **Current Streak** | **95 Days** | — |
 | 📅 **Total Active Days** | **209 Days** | — |
 
@@ -625,6 +625,7 @@ public:
 | 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 `Hard` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0025-reverse-nodes-in-k-group/) | [Solution](Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
 | 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0031-next-permutation/) | [Solution](Arrays/0031-next-permutation/0031-next-permutation.cpp) |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0033-search-in-rotated-sorted-array/) | [Solution](BinarySearch/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp) |
+| 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0036-valid-sudoku/) | [Solution](Arrays/0036-valid-sudoku/0036-valid-sudoku.cpp) |
 | 0037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | 🔴 `Hard` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0037-sudoku-solver/) | [Solution](Backtracking/0037-sudoku-solver/0037-sudoku-solver.cpp) |
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0039-combination-sum/) | [Solution](Backtracking/0039-combination-sum/0039-combination-sum.cpp) |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0040-combination-sum-ii/) | [Solution](Backtracking/0040-combination-sum-ii/0040-combination-sum-ii.cpp) |
@@ -1265,17 +1266,17 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 75 · **Remaining Questions:** 75
+**Total Questions:** 150 · **Solved Questions:** 76 · **Remaining Questions:** 74
 
-**Completion:** 50.0%
+**Completion:** 50.7%
 
-Progress: ██████████░░░░░░░░░░ 50.0%
+Progress: ██████████░░░░░░░░░░ 50.7%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
 Generated from existing solution files. Run `python3 organize.py` to refresh; do not edit this block manually. See [maintenance and verification notes](docs/neetcode150.md).
 
-### Arrays & Hashing — 6/9 Solved (66.7%)
+### Arrays & Hashing — 7/9 Solved (77.8%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1286,7 +1287,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 5 | Top K Frequent Elements | Medium | [LeetCode #347](https://leetcode.com/problems/top-k-frequent-elements/) | ✅ Yes | [Solution](Heaps/0347-top-k-frequent-elements/0347-top-k-frequent-elements.cpp) |
 | 6 | Encode and Decode Strings | Medium | [LeetCode #271](https://leetcode.com/problems/encode-and-decode-strings/) | ❌ No | — |
 | 7 | Product of Array Except Self | Medium | [LeetCode #238](https://leetcode.com/problems/product-of-array-except-self/) | ✅ Yes | [Solution](Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp) |
-| 8 | Valid Sudoku | Medium | [LeetCode #36](https://leetcode.com/problems/valid-sudoku/) | ❌ No | — |
+| 8 | Valid Sudoku | Medium | [LeetCode #36](https://leetcode.com/problems/valid-sudoku/) | ✅ Yes | [Solution](Arrays/0036-valid-sudoku/0036-valid-sudoku.cpp) |
 | 9 | Longest Consecutive Sequence | Medium | [LeetCode #128](https://leetcode.com/problems/longest-consecutive-sequence/) | ❌ No | — |
 
 ### Two Pointers — 4/5 Solved (80.0%)

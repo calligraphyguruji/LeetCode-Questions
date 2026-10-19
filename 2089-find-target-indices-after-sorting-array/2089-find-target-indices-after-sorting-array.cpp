@@ -1,5 +1,22 @@
 class Solution {
 public:
+    //Approach :  Sorting + Binary Search (Lower Bound) + Linear Traversal
+
+    //Time Complexity = O(n * logn) =>
+    /* Sorting: O(n log n) to sort the array.
+    * Binary Search: O(log n) to find the first occurrence of the target.
+    * Linear Traversal: O(k) to collect all target indices, where k ≤ n.
+    * Overall: O(n log n).
+    */
+
+    //Space Complexity = O(logn) =>
+    /* Sorting: O(log n) auxiliary space for the recursion stack of typical C++ std::sort implementations.
+    * Binary Search: O(1) extra space.
+    * Output Vector: O(k) to store target indices.
+    * Overall: O(log n) auxiliary space, excluding the output vector.
+    */
+
+
     vector<int> targetIndices(vector<int>& nums, int target) {
         
         int n = nums.size();

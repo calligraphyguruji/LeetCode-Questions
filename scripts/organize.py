@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Offline LeetCode progress generator.
+LeetCode repository organizer and profile dashboard synchronizer.
 
-Default execution recursively scans solutions, refreshes the Complete Problem
-Index and updates the marked NeetCode 150 tracker without moving any files.
-Legacy classification/reorganization and dashboard helpers below are retained
-for compatibility but are not called by the safe default entry point.
+Default execution organizes incoming root problem folders, recursively scans
+solutions, refreshes the Complete Problem Index and marked NeetCode 150 tracker.
+The profile dashboard is refreshed separately from file-based inventories.
+Use --offline to skip profile requests. Legacy full-template dashboard helpers
+are retained for compatibility but are not used by the entry point.
 """
 
 from __future__ import annotations
@@ -2079,7 +2080,8 @@ def update_tracking(root: Path) -> tuple[dict, RepositoryScan, bool]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description='Organize LeetCode questions, refresh index and NeetCode 150 progress.')
-    parser.parse_args()
+    parser.add_argument('--offline', action='store_true', help='Preserve profile statistics without making a profile request.')
+    args = parser.parse_args()
     try:
         moved = scan_and_reorganize()
         data, scan, changed = update_tracking(Path(BASE_DIR))
@@ -2095,6 +2097,22 @@ def main() -> int:
         print(f'[Review] {message}')
     if scan.metadata_notes:
         print(f'{len(scan.metadata_notes)} historical README heading IDs resolved using folder IDs and canonical URLs.')
+    if not args.offline:
+        # Support both existing entry points without a new production pipeline.
+        if __package__:
+            from .profile_stats import refresh_dashboard
+        else:
+            from profile_stats import refresh_dashboard
+        profile = refresh_dashboard(Path(BASE_DIR))
+        if not profile['verified'] and os.environ.get('GITHUB_ACTIONS') == 'true':
+            print('::warning::LeetCode profile could not be verified; previous dashboard values were retained.')
+        summary_path = os.environ.get('GITHUB_STEP_SUMMARY')
+        if summary_path:
+            with open(summary_path, 'a', encoding='utf-8') as summary:
+                summary.write(f'## LeetCode progress refresh\n\nRepository: {len(scan.solutions)} unique stored problems; '
+                              f'NeetCode 150: {solved}/150.\n\n{profile["message"]}\n\n'
+                              f'Live profile verified: {profile["verified"]}. '
+                              f'Dashboard changed: {profile["changed"]}.\n')
     return 0
 
 

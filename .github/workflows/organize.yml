@@ -21,7 +21,11 @@ on:
       - '**/*.php'
       - '**/README.md'
       - 'neetcode150.json'
+      - 'stats.json'
       - '.github/workflows/organize.yml'
+  schedule:
+    # Refresh profile-only changes every six hours, away from the hour boundary.
+    - cron: '17 0,6,12,18 * * *'
   workflow_dispatch:
 
 permissions:
@@ -34,7 +38,7 @@ concurrency:
 jobs:
   organize:
     # Follow the repository's configured default branch, including after renames.
-    if: github.ref_type == 'branch' && github.ref_name == github.event.repository.default_branch && github.actor != 'github-actions[bot]'
+    if: github.ref_type == 'branch' && github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -57,32 +61,35 @@ jobs:
       - name: Organize questions and refresh progress
         env:
           PYTHONDONTWRITEBYTECODE: '1'
+          LEETCODE_USERNAME: calligraphyguruji
         run: python3 organize.py
 
       - name: Commit organized solutions and updated progress
         env:
           TARGET_BRANCH: ${{ github.ref_name }}
         run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "Repository is already organized and progress is up to date."
-            exit 0
-          fi
-          git diff > changes.patch
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
+          # Include new files, but keep the patch itself outside the repository.
+          git diff --cached --binary > "$RUNNER_TEMP/leetcode-update.patch"
+          if git diff --cached --quiet; then
+            echo "Repository and profile dashboard are unchanged." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
           git commit -m "Auto-organize LeetCode questions and update progress [skip ci]"
           # Never force-push or rebase over newer work. A concurrent push fails safely.
           if ! git push origin "HEAD:$TARGET_BRANCH"; then
             echo '::error::Push rejected. Check branch protection, token write access, or a concurrent push. Download the generated patch artifact or rerun after resolving the restriction.'
             exit 1
           fi
+          echo "Published generated changes to $TARGET_BRANCH." >> "$GITHUB_STEP_SUMMARY"
 
       - name: Preserve patch if publishing fails
         if: failure()
         uses: actions/upload-artifact@v4
         with:
           name: update-patch
-          path: changes.patch
+          path: ${{ runner.temp }}/leetcode-update.patch
           if-no-files-found: ignore
 

@@ -1214,6 +1214,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Array
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Binary Search
@@ -1249,6 +1250,10 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

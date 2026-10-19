@@ -34,16 +34,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-209_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-259-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-260-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 81 | 31.3% |
-| 🟡 **Medium** | 154 | 59.5% |
-| 🔴 **Hard** | 24 | 9.3% |
-| 🎯 **Total Solved** | **259** | **100%** |
+| 🟢 **Easy** | 81 | 31.2% |
+| 🟡 **Medium** | 155 | 59.6% |
+| 🔴 **Hard** | 24 | 9.2% |
+| 🎯 **Total Solved** | **260** | **100%** |
 | 🔥 **Current Streak** | **95 Days** | — |
 | 📅 **Total Active Days** | **209 Days** | — |
 
@@ -721,6 +721,7 @@ public:
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0347-top-k-frequent-elements/) | [Solution](Heaps/0347-top-k-frequent-elements/0347-top-k-frequent-elements.cpp) |
 | 0365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0365-water-and-jug-problem/) | [Solution](Graphs/0365-water-and-jug-problem/0365-water-and-jug-problem.cpp) |
 | 0368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0368-largest-divisible-subset/) | [Solution](DynamicProgramming/0368-largest-divisible-subset/0368-largest-divisible-subset.cpp) |
+| 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 `Medium` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0371-sum-of-two-integers/) | [Solution](BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp) |
 | 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0378-kth-smallest-element-in-a-sorted-matrix/) | [Solution](Heaps/0378-kth-smallest-element-in-a-sorted-matrix/0378-kth-smallest-element-in-a-sorted-matrix.cpp) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0387-first-unique-character-in-a-string/) | [Solution](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) |
 | 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0410-split-array-largest-sum/) | [Solution](BinarySearch/0410-split-array-largest-sum/0410-split-array-largest-sum.cpp) |
@@ -1281,11 +1282,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 77 · **Remaining Questions:** 73
+**Total Questions:** 150 · **Solved Questions:** 78 · **Remaining Questions:** 72
 
-**Completion:** 51.3%
+**Completion:** 52.0%
 
-Progress: ██████████░░░░░░░░░░ 51.3%
+Progress: ██████████░░░░░░░░░░ 52.0%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1506,7 +1507,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 134 | Meeting Rooms II | Medium | [LeetCode #253](https://leetcode.com/problems/meeting-rooms-ii/) | ❌ No | — |
 | 135 | Minimum Interval to Include Each Query | Hard | [LeetCode #1851](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | ❌ No | — |
 
-### Bit Manipulation — 0/7 Solved (0.0%)
+### Bit Manipulation — 1/7 Solved (14.3%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1515,7 +1516,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 138 | Counting Bits | Easy | [LeetCode #338](https://leetcode.com/problems/counting-bits/) | ❌ No | — |
 | 139 | Reverse Bits | Easy | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | ❌ No | — |
 | 140 | Missing Number | Easy | [LeetCode #268](https://leetcode.com/problems/missing-number/) | ❌ No | — |
-| 141 | Sum of Two Integers | Medium | [LeetCode #371](https://leetcode.com/problems/sum-of-two-integers/) | ❌ No | — |
+| 141 | Sum of Two Integers | Medium | [LeetCode #371](https://leetcode.com/problems/sum-of-two-integers/) | ✅ Yes | [Solution](BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp) |
 | 142 | Reverse Integer | Medium | [LeetCode #7](https://leetcode.com/problems/reverse-integer/) | ❌ No | — |
 
 ### Math & Geometry — 3/8 Solved (37.5%)

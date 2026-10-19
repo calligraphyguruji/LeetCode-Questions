@@ -1016,20 +1016,64 @@ QUESTION_TOPIC_OVERRIDES = {
     "find-a-safe-walk-through-a-grid": "Graphs",
 }
 
-def classify_topic(title_slug, q_dir_name, old_readme=""):
+NEETCODE_TOPIC_TO_FOLDER = {
+    "Arrays & Hashing": "Arrays",
+    "Two Pointers": "Arrays",
+    "Sliding Window": "Arrays",
+    "Stack": "Arrays",
+    "Binary Search": "BinarySearch",
+    "Linked List": "Linked-List",
+    "Trees": "Trees",
+    "Tries": "Trees",
+    "Backtracking": "Backtracking",
+    "Heap / Priority Queue": "Heaps",
+    "Graphs": "Graphs",
+    "1-D Dynamic Programming": "DynamicProgramming",
+    "Intervals": "Arrays",
+    "Greedy": "Greedy",
+    "Advanced Graphs": "Graphs",
+    "2-D Dynamic Programming": "DynamicProgramming",
+    "Bit Manipulation": "BitManipulation",
+    "Math & Geometry": "Math",
+}
+
+def classify_topic(title_slug, q_dir_name="", old_readme="", base_dir=None):
     """Classify question into a target topic folder."""
-    base_name = os.path.basename(q_dir_name) if q_dir_name else ""
-    q_num = base_name.split("-")[0] if base_name else ""
+    target_base = base_dir if base_dir is not None else BASE_DIR
+    if isinstance(q_dir_name, int):
+        q_num = str(q_dir_name)
+        base_name = str(q_dir_name)
+        q_dir_name = str(q_dir_name)
+    else:
+        base_name = os.path.basename(q_dir_name) if q_dir_name else ""
+        q_num = base_name.split("-")[0] if base_name else ""
     if q_num in QUESTION_TOPIC_OVERRIDES:
         return QUESTION_TOPIC_OVERRIDES[q_num]
     if title_slug in QUESTION_TOPIC_OVERRIDES:
         return QUESTION_TOPIC_OVERRIDES[title_slug]
 
+    # Check NeetCode 150 offline dataset
+    neetcode_path = os.path.join(target_base, "neetcode150.json")
+    if os.path.exists(neetcode_path):
+        try:
+            with open(neetcode_path, "r", encoding="utf-8") as ncf:
+                nc_data = json.load(ncf)
+            q_num_int = int(q_num) if q_num.isdigit() else None
+            for q in nc_data.get("questions", []):
+                if (q_num_int is not None and q.get("leetcode_id") == q_num_int) or \
+                   (title_slug and q.get("titleSlug") == title_slug) or \
+                   (title_slug and f"/{title_slug}/" in q.get("url", "")):
+                    topic = q.get("topic")
+                    if topic in NEETCODE_TOPIC_TO_FOLDER:
+                        return NEETCODE_TOPIC_TO_FOLDER[topic]
+        except Exception:
+            pass
+
     # 1. Check code comments and structures in the question directory
-    q_dir_path = os.path.join(BASE_DIR, q_dir_name)
+    q_dir_path = os.path.join(target_base, q_dir_name)
     if not os.path.isdir(q_dir_path):
         for folder, _, _, _ in TOPIC_CONFIG:
-            cand = os.path.join(BASE_DIR, folder, base_name)
+            cand = os.path.join(target_base, folder, base_name)
             if os.path.isdir(cand):
                 q_dir_path = cand
                 break
@@ -1164,23 +1208,27 @@ def classify_topic(title_slug, q_dir_name, old_readme=""):
     return "Arrays"
 
 
-def find_existing_topic(q_dir_name):
+def find_existing_topic(q_dir_name, base_dir=None):
     """Check if question already exists in any topic folder."""
-    for item in os.listdir(BASE_DIR):
-        topic_path = os.path.join(BASE_DIR, item)
-        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github"]:
+    if base_dir is None:
+        base_dir = BASE_DIR
+    for item in os.listdir(base_dir):
+        topic_path = os.path.join(base_dir, item)
+        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github", "tests"]:
             continue
         candidate = os.path.join(topic_path, q_dir_name)
         if os.path.isdir(candidate):
             return item
     return None
 
-def clean_nested_directories():
+def clean_nested_directories(base_dir=None):
     """Find and flatten any accidental nested question directories (e.g. Topic/Q/Q)."""
+    if base_dir is None:
+        base_dir = BASE_DIR
     cleaned_any = False
-    for item in os.listdir(BASE_DIR):
-        topic_path = os.path.join(BASE_DIR, item)
-        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github"]:
+    for item in os.listdir(base_dir):
+        topic_path = os.path.join(base_dir, item)
+        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github", "tests"]:
             continue
         for q_dir in os.listdir(topic_path):
             q_path = os.path.join(topic_path, q_dir)
@@ -1221,15 +1269,17 @@ def clean_nested_directories():
                             shutil.copy2(src_f, dst_f)
                 shutil.rmtree(nested_q)
                 try:
-                    subprocess.run(["git", "rm", "-r", "--cached", "--ignore-unmatch", os.path.relpath(nested_q, BASE_DIR)],
-                                   cwd=BASE_DIR, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                    subprocess.run(["git", "rm", "-r", "--cached", "--ignore-unmatch", os.path.relpath(nested_q, base_dir)],
+                                   cwd=base_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                 except Exception:
                     pass
                 cleaned_any = True
     return cleaned_any
 
-def move_or_merge_question(src, dst):
+def move_or_merge_question(src, dst, base_dir=None):
     """Move directory, or merge files if dst already exists (handling multiple approaches)."""
+    if base_dir is None:
+        base_dir = BASE_DIR
     if os.path.exists(dst):
         print(f"Destination '{dst}' already exists. Merging updated files from resubmission...")
         for item in os.listdir(src):
@@ -1271,14 +1321,14 @@ def move_or_merge_question(src, dst):
                             shutil.copy2(src_item, new_dst_path)
                             print(f"[Multi-Approach] Detected Approach-{app_num}/Method-{app_num} in comments. Saved new approach: '{item}' -> '{new_name}' in '{dst}'")
                             try:
-                                subprocess.run(["git", "add", new_dst_path], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                                subprocess.run(["git", "add", new_dst_path], cwd=base_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                             except Exception:
                                 pass
                         else:
                             shutil.copy2(src_item, dst_item)
                             print(f"[Multi-Approach] Updating primary solution '{dst_item}' (no approach-2/method-2 heading comment detected).")
                             try:
-                                subprocess.run(["git", "add", dst_item], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                                subprocess.run(["git", "add", dst_item], cwd=base_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                             except Exception:
                                 pass
                 else:
@@ -1287,31 +1337,33 @@ def move_or_merge_question(src, dst):
                 shutil.copytree(src_item, dst_item, dirs_exist_ok=True)
         shutil.rmtree(src)
         try:
-            subprocess.run(["git", "rm", "-r", "--cached", "--ignore-unmatch", os.path.relpath(src, BASE_DIR)],
-                           cwd=BASE_DIR, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            subprocess.run(["git", "rm", "-r", "--cached", "--ignore-unmatch", os.path.relpath(src, base_dir)],
+                           cwd=base_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         except Exception:
             pass
         try:
-            subprocess.run(["git", "add", dst], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            subprocess.run(["git", "add", dst], cwd=base_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         except Exception:
             pass
     else:
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         try:
-            subprocess.run(["git", "mv", src, dst], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            subprocess.run(["git", "mv", src, dst], cwd=base_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         except (subprocess.CalledProcessError, FileNotFoundError):
             shutil.move(src, dst)
             try:
-                subprocess.run(["git", "add", dst], cwd=BASE_DIR, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                subprocess.run(["git", "add", dst], cwd=base_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             except Exception:
                 pass
 
-def check_topic_overrides():
+def check_topic_overrides(base_dir=None):
     """If a question matching QUESTION_TOPIC_OVERRIDES is in the wrong topic folder, relocate it."""
+    if base_dir is None:
+        base_dir = BASE_DIR
     moved_any = False
-    for item in os.listdir(BASE_DIR):
-        topic_path = os.path.join(BASE_DIR, item)
-        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github"]:
+    for item in os.listdir(base_dir):
+        topic_path = os.path.join(base_dir, item)
+        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github", "tests"]:
             continue
         for q_dir in sorted(os.listdir(topic_path)):
             if not re.match(r"^\d+-", q_dir):
@@ -1321,20 +1373,22 @@ def check_topic_overrides():
             target_topic = QUESTION_TOPIC_OVERRIDES.get(q_num) or QUESTION_TOPIC_OVERRIDES.get(slug)
             if target_topic and target_topic != item:
                 src = os.path.join(topic_path, q_dir)
-                dst = os.path.join(BASE_DIR, target_topic, q_dir)
+                dst = os.path.join(base_dir, target_topic, q_dir)
                 print(f"[Override Relocate] Moving '{q_dir}' from '{item}' to '{target_topic}'")
-                move_or_merge_question(src, dst)
+                move_or_merge_question(src, dst, base_dir)
                 moved_any = True
     return moved_any
 
-def scan_and_reorganize():
+def scan_and_reorganize(base_dir=None):
     """Find any unorganized question directories at repo root and move/merge them."""
-    clean_nested_directories()
-    overrides_moved = check_topic_overrides()
+    if base_dir is None:
+        base_dir = BASE_DIR
+    clean_nested_directories(base_dir)
+    overrides_moved = check_topic_overrides(base_dir)
 
     root_entries = [
-        d for d in os.listdir(BASE_DIR)
-        if os.path.isdir(os.path.join(BASE_DIR, d)) and re.match(r"^\d+-", d)
+        d for d in os.listdir(base_dir)
+        if os.path.isdir(os.path.join(base_dir, d)) and re.match(r"^\d+-", d)
     ]
     
     if not root_entries:
@@ -1343,30 +1397,31 @@ def scan_and_reorganize():
         return overrides_moved
     
     old_readme = ""
-    readme_path = os.path.join(BASE_DIR, "README.md")
+    readme_path = os.path.join(base_dir, "README.md")
     if os.path.exists(readme_path):
         with open(readme_path, "r", encoding="utf-8") as f:
             old_readme = f.read()
             
     moved_any = False
     for q_dir in sorted(root_entries):
-        existing_topic = find_existing_topic(q_dir)
+        existing_topic = find_existing_topic(q_dir, base_dir)
         if existing_topic:
             topic_folder = existing_topic
             print(f"Problem '{q_dir}' already exists in topic '{topic_folder}' (resubmission).")
         else:
             parts = q_dir.split("-", 1)
             slug = parts[1] if len(parts) > 1 else parts[0]
-            topic_folder = classify_topic(slug, q_dir, old_readme)
+            topic_folder = classify_topic(slug, q_dir, old_readme, base_dir)
         
-        src = os.path.join(BASE_DIR, q_dir)
-        dst = os.path.join(BASE_DIR, topic_folder, q_dir)
+        src = os.path.join(base_dir, q_dir)
+        dst = os.path.join(base_dir, topic_folder, q_dir)
         
         print(f"Organizing '{q_dir}' -> '{topic_folder}/{q_dir}'")
-        move_or_merge_question(src, dst)
+        move_or_merge_question(src, dst, base_dir)
         moved_any = True
         
     return moved_any
+
 
 def rebuild_metadata():
     """Scan all topic folders, rebuild README.md and update stats.json."""
@@ -1751,6 +1806,8 @@ This repository is created **purely for learning and educational purposes**. The
 
 TRACKER_START = '<!-- NEETCODE150:START -->'
 TRACKER_END = '<!-- NEETCODE150:END -->'
+LEETHUB_TOPICS_START = '<!---LeetCode Topics Start-->'
+LEETHUB_TOPICS_END = '<!---LeetCode Topics End-->'
 IGNORED_DIRECTORIES = {'.git', '.github', '.venv', 'venv', 'node_modules',
                        '__pycache__', 'scripts', 'tests', 'build', 'dist'}
 
@@ -2003,6 +2060,14 @@ def update_tracking(root: Path) -> tuple[dict, RepositoryScan, bool]:
     scan = scan_repository(root, data)
     path = root / 'README.md'
     original = path.read_bytes().decode('utf-8') if path.exists() else ''
+
+    # Ensure LeetHub topic tag section is present before NeetCode tracker
+    # to protect LeetHub from confusing tracker tables with legacy topics.
+    if LEETHUB_TOPICS_START not in original and TRACKER_START in original:
+        leethub_block = f'{LEETHUB_TOPICS_START}\n# LeetCode Topics\n{LEETHUB_TOPICS_END}\n\n'
+        idx = original.index(TRACKER_START)
+        original = original[:idx] + leethub_block + original[idx:]
+
     # Validate markers before touching any generated content.
     updated = replace_tracker(original, render_tracker(data, scan))
     updated = refresh_problem_index(updated, scan)
@@ -2013,15 +2078,18 @@ def update_tracking(root: Path) -> tuple[dict, RepositoryScan, bool]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description='Refresh offline LeetCode index and NeetCode 150 progress without moving solutions.')
+    parser = argparse.ArgumentParser(description='Organize LeetCode questions, refresh index and NeetCode 150 progress.')
     parser.parse_args()
     try:
+        moved = scan_and_reorganize()
         data, scan, changed = update_tracking(Path(BASE_DIR))
     except (OSError, ValueError, KeyError, TypeError) as exc:
         print(f'[Error] {exc}', file=sys.stderr)
         return 1
     solved = sum(q['leetcode_id'] in scan.solutions for q in data['questions'])
     print(f'{scan.discovered} solution files; {len(scan.solutions)} unique problems; NeetCode 150: {solved}/150 ({solved / 150:.1%}).')
+    if moved:
+        print('Questions reorganized into topic folders.')
     print('README updated.' if changed else 'README unchanged.')
     for message in scan.ambiguous + scan.unidentified:
         print(f'[Review] {message}')
@@ -2032,3 +2100,4 @@ def main() -> int:
 
 if __name__ == '__main__':
     sys.exit(main())
+

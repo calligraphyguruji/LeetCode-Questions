@@ -198,6 +198,65 @@ class TrackerTests(unittest.TestCase):
         self.assertEqual(rendered.count('\n### '), 18)
         self.assertEqual(rendered.count('✅ Yes'), sum(q['leetcode_id'] in scan.solutions for q in DATA['questions']))
 
+    def test_scan_and_reorganize_moves_root_solution(self):
+        # Simulate LeetHub pushing a new problem folder to root
+        root_problem = self.root / '0001-two-sum'
+        root_problem.mkdir(parents=True, exist_ok=True)
+        (root_problem / 'solution.py').write_text('def twoSum(): pass\n')
+        (root_problem / 'README.md').write_text('# 1. Two Sum\n')
+
+        with patch('urllib.request.urlopen', side_effect=AssertionError('Network forbidden')):
+            tracker.scan_and_reorganize(base_dir=self.root)
+
+        # Should move to Arrays/0001-two-sum
+        target_dir = self.root / 'Arrays' / '0001-two-sum'
+        self.assertTrue(target_dir.is_dir())
+        self.assertTrue((target_dir / 'solution.py').is_file())
+        self.assertFalse(root_problem.exists())
+
+    def test_classify_topic_offline_neetcode(self):
+        with patch('urllib.request.urlopen', side_effect=AssertionError('Network forbidden')):
+            # Problem 1 is Two Sum -> Arrays & Hashing -> Arrays
+            topic = tracker.classify_topic('two-sum', 1, base_dir=self.root)
+            self.assertEqual(topic, 'Arrays')
+            # Problem 206 is Reverse Linked List -> Linked List -> Linked-List
+            topic = tracker.classify_topic('reverse-linked-list', 206, base_dir=self.root)
+            self.assertEqual(topic, 'Linked-List')
+            # Problem 704 is Binary Search -> Binary Search -> BinarySearch
+            topic = tracker.classify_topic('binary-search', 704, base_dir=self.root)
+            self.assertEqual(topic, 'BinarySearch')
+
+    def test_leethub_topics_marker_ensured(self):
+        path = self.root / 'README.md'
+        path.write_text('# My repo\n\n' + tracker.TRACKER_START + '\nold\n' + tracker.TRACKER_END)
+        tracker.update_tracking(self.root)
+        content = path.read_text()
+        self.assertIn(tracker.LEETHUB_TOPICS_START, content)
+        self.assertIn(tracker.LEETHUB_TOPICS_END, content)
+        self.assertTrue(content.index(tracker.LEETHUB_TOPICS_START) < content.index(tracker.TRACKER_START))
+
+    def test_full_pipeline_idempotency(self):
+        # Set up a root problem and run both steps
+        root_problem = self.root / '0001-two-sum'
+        root_problem.mkdir(parents=True, exist_ok=True)
+        (root_problem / 'solution.py').write_text('def twoSum(): pass\n')
+
+        with patch('urllib.request.urlopen', side_effect=AssertionError('Network forbidden')):
+            tracker.scan_and_reorganize(base_dir=self.root)
+            tracker.update_tracking(self.root)
+
+        # Snapshot file state
+        readme_mtime = (self.root / 'README.md').stat().st_mtime_ns
+        readme_content = (self.root / 'README.md').read_text()
+
+        # Second run should do nothing
+        with patch('urllib.request.urlopen', side_effect=AssertionError('Network forbidden')):
+            tracker.scan_and_reorganize(base_dir=self.root)
+            _, _, changed = tracker.update_tracking(self.root)
+
+        self.assertFalse(changed)
+        self.assertEqual(readme_content, (self.root / 'README.md').read_text())
+
 
 if __name__ == '__main__':
     unittest.main()

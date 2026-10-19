@@ -54,34 +54,35 @@ jobs:
           PYTHONDONTWRITEBYTECODE: '1'
         run: python3 -m unittest discover -s tests -v
 
-      - name: Refresh README
+      - name: Organize questions and refresh progress
         env:
           PYTHONDONTWRITEBYTECODE: '1'
         run: python3 organize.py
 
-      - name: Commit generated README only
+      - name: Commit organized solutions and updated progress
         env:
           TARGET_BRANCH: ${{ github.ref_name }}
         run: |
-          if git diff --quiet -- README.md; then
-            echo "README is already current."
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Repository is already organized and progress is up to date."
             exit 0
           fi
-          git diff -- README.md > readme-update.patch
+          git diff > changes.patch
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- README.md
-          git commit -m "docs: refresh LeetCode progress [skip ci]"
+          git add -A
+          git commit -m "Auto-organize LeetCode questions and update progress [skip ci]"
           # Never force-push or rebase over newer work. A concurrent push fails safely.
           if ! git push origin "HEAD:$TARGET_BRANCH"; then
-            echo '::error::README push rejected. Check branch protection, token write access, or a concurrent push. Download the generated patch artifact or rerun after resolving the restriction.'
+            echo '::error::Push rejected. Check branch protection, token write access, or a concurrent push. Download the generated patch artifact or rerun after resolving the restriction.'
             exit 1
           fi
 
-      - name: Preserve README patch if publishing fails
+      - name: Preserve patch if publishing fails
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: readme-update
-          path: readme-update.patch
+          name: update-patch
+          path: changes.patch
           if-no-files-found: ignore
+

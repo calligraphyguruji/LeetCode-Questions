@@ -34,16 +34,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-210_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-261-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-262-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 81 | 31.0% |
-| 🟡 **Medium** | 155 | 59.4% |
-| 🔴 **Hard** | 25 | 9.6% |
-| 🎯 **Total Solved** | **261** | **100%** |
+| 🟢 **Easy** | 81 | 30.9% |
+| 🟡 **Medium** | 156 | 59.5% |
+| 🔴 **Hard** | 25 | 9.5% |
+| 🎯 **Total Solved** | **262** | **100%** |
 | 🔥 **Current Streak** | **96 Days** | — |
 | 📅 **Total Active Days** | **210 Days** | — |
 
@@ -686,6 +686,7 @@ public:
 | 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0146-lru-cache/) | [Solution](Linked-List/0146-lru-cache/0146-lru-cache.cpp) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0151-reverse-words-in-a-string/) | [Solution](Arrays/0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0155-min-stack/) | [Solution](Arrays/0155-min-stack/0155-min-stack.cpp) |
+| 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0167-two-sum-ii-input-array-is-sorted/) | [Solution](Arrays/0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.cpp) |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0169-majority-element/) | [Solution](Arrays/0169-majority-element/0169-majority-element.cpp) |
 | 0173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0173-binary-search-tree-iterator/) | [Solution](Trees/0173-binary-search-tree-iterator/0173-binary-search-tree-iterator.cpp) |
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0198-house-robber/) | [Solution](DynamicProgramming/0198-house-robber/0198-house-robber.cpp) |
@@ -1301,11 +1302,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 78 · **Remaining Questions:** 72
+**Total Questions:** 150 · **Solved Questions:** 79 · **Remaining Questions:** 71
 
-**Completion:** 52.0%
+**Completion:** 52.7%
 
-Progress: ██████████░░░░░░░░░░ 52.0%
+Progress: ██████████░░░░░░░░░░ 52.7%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1325,12 +1326,12 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 8 | Valid Sudoku | Medium | [LeetCode #36](https://leetcode.com/problems/valid-sudoku/) | ✅ Yes | [Solution](Arrays/0036-valid-sudoku/0036-valid-sudoku.cpp) |
 | 9 | Longest Consecutive Sequence | Medium | [LeetCode #128](https://leetcode.com/problems/longest-consecutive-sequence/) | ✅ Yes | [Solution](Arrays/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.cpp) |
 
-### Two Pointers — 4/5 Solved (80.0%)
+### Two Pointers — 5/5 Solved (100.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 10 | Valid Palindrome | Easy | [LeetCode #125](https://leetcode.com/problems/valid-palindrome/) | ✅ Yes | [Solution](Arrays/0125-valid-palindrome/0125-valid-palindrome.cpp) |
-| 11 | Two Sum II Input Array Is Sorted | Medium | [LeetCode #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | ❌ No | — |
+| 11 | Two Sum II Input Array Is Sorted | Medium | [LeetCode #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | ✅ Yes | [Solution](Arrays/0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.cpp) |
 | 12 | 3Sum | Medium | [LeetCode #15](https://leetcode.com/problems/3sum/) | ✅ Yes | [Solution](Arrays/0015-3sum/0015-3sum.cpp) |
 | 13 | Container With Most Water | Medium | [LeetCode #11](https://leetcode.com/problems/container-with-most-water/) | ✅ Yes | [Solution](Arrays/0011-container-with-most-water/0011-container-with-most-water.cpp) |
 | 14 | Trapping Rain Water | Hard | [LeetCode #42](https://leetcode.com/problems/trapping-rain-water/) | ✅ Yes | [Solution](DynamicProgramming/0042-trapping-rain-water/0042-trapping-rain-water.cpp) |

@@ -2,6 +2,26 @@ class Solution {
 public:
     // !DISCLAIMER : NOT FOR BEGINNERS
     
+    //Approach : Sorting + Divisor Enumeration + KMP-Based Cyclic Rotation Matching
+
+    //Time Complexity = O(n log n + n × d(n)) =>
+    /* Sorting the array: O(n log n).
+    * Checking possible divisors: O(n).
+    * For each valid divisor k:
+        * Number of blocks = n/k.
+        * KMP matching per block = O(k).
+        * Total = (n/k) × O(k) = O(n).
+    * Checking all divisors = O(n × d(n)).
+    */
+
+    //Space Complexity = O(n) =>
+    /* Sorted array: O(n).
+    * Temporary blocks: O(k).
+    * LPS array: O(k).
+    * Maximum k = n.
+    */
+
+
     //Build LPS array
     vector<int> buildLPS(vector<int>& pattern){
         int m = pattern.size();

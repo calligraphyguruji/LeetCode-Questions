@@ -1285,6 +1285,14 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

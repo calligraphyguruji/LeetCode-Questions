@@ -28,24 +28,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-95_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-96_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-209_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-210_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-260-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-261-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 81 | 31.2% |
-| 🟡 **Medium** | 155 | 59.6% |
-| 🔴 **Hard** | 24 | 9.2% |
-| 🎯 **Total Solved** | **260** | **100%** |
-| 🔥 **Current Streak** | **95 Days** | — |
-| 📅 **Total Active Days** | **209 Days** | — |
+| 🟢 **Easy** | 81 | 31.0% |
+| 🟡 **Medium** | 155 | 59.4% |
+| 🔴 **Hard** | 25 | 9.6% |
+| 🎯 **Total Solved** | **261** | **100%** |
+| 🔥 **Current Streak** | **96 Days** | — |
+| 📅 **Total Active Days** | **210 Days** | — |
 
 </div>
 
@@ -871,6 +871,7 @@ public:
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2965-find-missing-and-repeated-values/) | [Solution](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 | 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3286-find-a-safe-walk-through-a-grid/) | [Solution](Graphs/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) |
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/) | [Solution](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/3551-minimum-swaps-to-sort-by-digit-sum.cpp) |
+| 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 `Hard` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3886-sum-of-sortable-integers/) | [Solution](Math/3886-sum-of-sortable-integers/3886-sum-of-sortable-integers.cpp) |
 
 ---
 

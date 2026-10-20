@@ -1,34 +1,52 @@
 class Solution {
 public:
-    bool isAlphanumeric(char ch){
-        //check if ch is between (a-z) or (0-9)
-        if( (ch >= '0' && ch <= '9') || 
-        (tolower(ch) >= 'a' && tolower(ch) <= 'z') ){
-            return true ;
-
+    bool isAlphaNumeric(char ch){
+        //if char is from 0-9 and a to z => alphanumeric
+        if( (ch >= '0' && ch <= '9') ||
+            (tolower(ch) >= 'a' && tolower(ch) <= 'z') ){
+                return true;
         }
-        return false ;
+        
+        //else
+        return false;
 
     }
     bool isPalindrome(string s) {
-       
-       int st = 0 , end = s.length()-1 ;
+        
+        //edge-case : if empty string
+        if(s.empty()){
+            return true;
+        }
 
-       while( st < end){ //here st = end is not required
-         if(!isAlphanumeric(s[st])){
-            st++ ; continue ;
-         }
-         if(!isAlphanumeric(s[end])){
-            end-- ; continue ;
-         }
-         if(tolower(s[st]) != tolower(s[end]) ){
-            return false ;//if match not found
-         }
-         st++ ; end-- ;
+        
+        int n = s.length();
+        int start = 0;
+        int end = n-1;
 
-       }
-       //if match found(while loop doesn't executed)
-       return true ;
+        while(start < end){//here st == end is not required
 
+            //Skip non-alphanumeric chars.
+            if(!isAlphaNumeric(s[start])){
+                start++;
+                continue;
+            }
+            if(!isAlphaNumeric(s[end])){
+                end--;
+                continue;
+            }
+
+            //If curr char. matched then check next char
+            //s[start] with s[end] => move start & end
+            if(tolower(s[start]) == tolower(s[end])){
+                start++;
+                end--;
+            }
+            else{
+                return false;
+            }
+        }
+
+        //if full string processed and no false found
+        return true;
     }
 };

@@ -1,5 +1,20 @@
 class Solution {
 public:
+    //Approach : Greedy + Min & Max char obervation
+
+    //Time Complexity = O(n) =>
+    /* is_sorted() → O(n)
+    * min_element() and max_element() → O(n)
+    * count() → O(n)
+    * Remaining comparisons → O(1)
+    * Total: O(n)
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only a constant number of variables are used.
+    * Total: O(1)
+    */
+
     int minOperations(string s) {
         
         //1.) Find length n & Find mn & mx

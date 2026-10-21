@@ -1,5 +1,25 @@
 class Solution {
 public:
+    //Approach : Sorting + Two Pointers
+
+    //Time Complexity = O(n²) =>
+    /* Sorting: sort(nums.begin(), nums.end()) takes O(n log n) time.
+    * Outer Loop: Runs at most n - 2 times → O(n).
+    * Inner While Loop (Two Pointers): left and right move toward each other, taking at most O(n) time for each fixed i.
+    * Skipping Duplicates: Takes O(n) per outer iteration in total, already included in the two-pointer traversal.
+    * Total: O(n log n) + O(n × n) = O(n²).
+    */
+
+    //Space Complexity = O(log n) Auxiliary Space =>
+    /* Two Pointers: left and right require O(1) space.
+    * Other Variables: i, n, and sum require O(1) space.
+    * Sorting: C++ std::sort() typically uses O(log n) auxiliary stack space.
+    * Output Vector: ans can store up to O(n²) unique triplets.
+    * Total Auxiliary Space: O(log n) including sorting, but excluding output.
+    * Total Space Including Output: O(n²) in the worst case.
+    */
+
+
     vector<vector<int>> threeSum(vector<int>& nums) {
         
         int n = nums.size();
@@ -25,7 +45,7 @@ public:
             while(left < right){
             
                 int sum = nums[i] + nums[left] + nums[right];
-                
+
                 //Case-1: if sum > 0 => move to left because we need a smaller sum
                 if(sum > 0){
                     right--;

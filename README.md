@@ -1297,6 +1297,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
+| [3863-minimum-operations-to-sort-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3863-minimum-operations-to-sort-a-string) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

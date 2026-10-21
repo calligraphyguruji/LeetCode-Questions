@@ -1220,6 +1220,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0036-valid-sudoku) |
 | [0128-longest-consecutive-sequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -1235,6 +1236,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0015-3sum) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
@@ -1292,6 +1294,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## String

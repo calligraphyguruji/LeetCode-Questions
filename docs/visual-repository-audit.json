@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "audit_date": "2026-10-23",
-  "baseline_commit": "9b306a9",
-  "problem_folders": 257,
-  "solution_files": 266,
-  "cpp_files": 265,
+  "baseline_commit": "a58b92967806cc2a40817283aceb76c229289989",
+  "problem_folders": 264,
+  "solution_files": 273,
+  "cpp_files": 272,
   "topics": {
-    "Arrays": 63,
+    "Arrays": 68,
     "Backtracking": 11,
     "BinarySearch": 9,
-    "BitManipulation": 4,
+    "BitManipulation": 5,
     "DynamicProgramming": 30,
     "Graphs": 34,
     "Greedy": 1,
     "Heaps": 5,
     "Linked-List": 14,
-    "Math": 15,
+    "Math": 16,
     "Trees": 71
   },
   "problems": [
@@ -157,6 +157,16 @@
       "readme": "BinarySearch/0033-search-in-rotated-sorted-array/README.md",
       "solutions": [
         "BinarySearch/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp"
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Valid Sudoku",
+      "slug": "valid-sudoku",
+      "folder": "Arrays/0036-valid-sudoku",
+      "readme": "Arrays/0036-valid-sudoku/README.md",
+      "solutions": [
+        "Arrays/0036-valid-sudoku/0036-valid-sudoku.cpp"
       ]
     },
     {
@@ -620,6 +630,16 @@
       ]
     },
     {
+      "number": 128,
+      "title": "Longest Consecutive Sequence",
+      "slug": "longest-consecutive-sequence",
+      "folder": "Arrays/0128-longest-consecutive-sequence",
+      "readme": "Arrays/0128-longest-consecutive-sequence/README.md",
+      "solutions": [
+        "Arrays/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.cpp"
+      ]
+    },
+    {
       "number": 129,
       "title": "Sum Root to Leaf Numbers",
       "slug": "sum-root-to-leaf-numbers",
@@ -747,6 +767,16 @@
       "readme": "Arrays/0155-min-stack/README.md",
       "solutions": [
         "Arrays/0155-min-stack/0155-min-stack.cpp"
+      ]
+    },
+    {
+      "number": 167,
+      "title": "Two Sum II - Input Array Is Sorted",
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "folder": "Arrays/0167-two-sum-ii-input-array-is-sorted",
+      "readme": "Arrays/0167-two-sum-ii-input-array-is-sorted/README.md",
+      "solutions": [
+        "Arrays/0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.cpp"
       ]
     },
     {
@@ -1099,6 +1129,16 @@
       "readme": "DynamicProgramming/0368-largest-divisible-subset/README.md",
       "solutions": [
         "DynamicProgramming/0368-largest-divisible-subset/0368-largest-divisible-subset.cpp"
+      ]
+    },
+    {
+      "number": 371,
+      "title": "Sum of Two Integers",
+      "slug": "sum-of-two-integers",
+      "folder": "BitManipulation/0371-sum-of-two-integers",
+      "readme": "BitManipulation/0371-sum-of-two-integers/README.md",
+      "solutions": [
+        "BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp"
       ]
     },
     {
@@ -2597,6 +2637,36 @@
       "solutions": [
         "Arrays/3551-minimum-swaps-to-sort-by-digit-sum/3551-minimum-swaps-to-sort-by-digit-sum.cpp"
       ]
+    },
+    {
+      "number": 3863,
+      "title": "Minimum Operations to Sort a String",
+      "slug": "minimum-operations-to-sort-a-string",
+      "folder": "Arrays/3863-minimum-operations-to-sort-a-string",
+      "readme": "Arrays/3863-minimum-operations-to-sort-a-string/README.md",
+      "solutions": [
+        "Arrays/3863-minimum-operations-to-sort-a-string/3863-minimum-operations-to-sort-a-string.cpp"
+      ]
+    },
+    {
+      "number": 3886,
+      "title": "Sum of Sortable Integers",
+      "slug": "sum-of-sortable-integers",
+      "folder": "Math/3886-sum-of-sortable-integers",
+      "readme": "Math/3886-sum-of-sortable-integers/README.md",
+      "solutions": [
+        "Math/3886-sum-of-sortable-integers/3886-sum-of-sortable-integers.cpp"
+      ]
+    },
+    {
+      "number": 3942,
+      "title": "Minimum Operations to Sort a Permutation",
+      "slug": "minimum-operations-to-sort-a-permutation",
+      "folder": "Arrays/3942-minimum-operations-to-sort-a-permutation",
+      "readme": "Arrays/3942-minimum-operations-to-sort-a-permutation/README.md",
+      "solutions": [
+        "Arrays/3942-minimum-operations-to-sort-a-permutation/3942-minimum-operations-to-sort-a-permutation.cpp"
+      ]
     }
   ],
   "source_folder": "LeetCode-Img-Soln",
@@ -2612,40 +2682,16 @@
     ".png": 1,
     ".txt": 1
   },
+  "source_files": 290,
   "source_images": 276,
-  "matched_images": 251,
-  "matched_problems": 145,
-  "confirmed_represented_problems": 149,
+  "matched_images": 261,
+  "matched_problems": 150,
+  "confirmed_represented_problems": 150,
   "additional_unverified_numbered_candidates": [
     3863,
-    3886,
     3942
   ],
   "unmatched_images": [
-    {
-      "source": "LeetCode-Img-Soln/128-Longest-Consecutive-Seq.jpg",
-      "reason": "LeetCode #128: no verified existing solution folder with README"
-    },
-    {
-      "source": "LeetCode-Img-Soln/167-Two-Sum-II-Input-Sorted.jpg",
-      "reason": "LeetCode #167: no verified existing solution folder with README"
-    },
-    {
-      "source": "LeetCode-Img-Soln/36-Valid-Sudoku-Part-I.jpg",
-      "reason": "LeetCode #36: no verified existing solution folder with README"
-    },
-    {
-      "source": "LeetCode-Img-Soln/36-Valid-Sudoku-Part-II.jpg",
-      "reason": "LeetCode #36: no verified existing solution folder with README"
-    },
-    {
-      "source": "LeetCode-Img-Soln/371-Sum-of-Two-Int-Part-I.jpg",
-      "reason": "LeetCode #371: no verified existing solution folder with README"
-    },
-    {
-      "source": "LeetCode-Img-Soln/371-Sum-of-Two-Int-Part-II.jpg",
-      "reason": "LeetCode #371: no verified existing solution folder with README"
-    },
     {
       "source": "LeetCode-Img-Soln/3863-Min-Op-to-Sort-String-Part-I.jpg",
       "reason": "Unverified abbreviated title for #3863; manual review required"
@@ -2653,22 +2699,6 @@
     {
       "source": "LeetCode-Img-Soln/3863-Min-Op-to-Sort-String-Part-II.jpg",
       "reason": "Unverified abbreviated title for #3863; manual review required"
-    },
-    {
-      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-I.jpg",
-      "reason": "Unverified abbreviated title for #3886; manual review required"
-    },
-    {
-      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-II.jpg",
-      "reason": "Unverified abbreviated title for #3886; manual review required"
-    },
-    {
-      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-III.jpg",
-      "reason": "Unverified abbreviated title for #3886; manual review required"
-    },
-    {
-      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-IV.jpg",
-      "reason": "Unverified abbreviated title for #3886; manual review required"
     },
     {
       "source": "LeetCode-Img-Soln/3942-Min-Op-to-Sort-Nums-Part-I.jpg",
@@ -2724,178 +2754,34 @@
     }
   ],
   "verification": {
-    "image_matching": "PASS",
-    "readme_links": "PASS",
-    "multipart_order": "PASS",
-    "duplicate_images": "PASS",
-    "cpp_preserved": "PASS",
-    "readme_content_preserved": "PASS",
-    "idempotency": "PASS",
-    "hash_integrity": "PASS",
-    "existing_cpp_files": 265,
-    "problem_folders": 257,
-    "images": 251,
-    "readmes": 145,
-    "source_images": 276,
-    "unmatched": 25,
-    "unchanged_original_files": 390,
-    "changed_original_files": [
-      ".github/workflows/organize.yml",
-      "Arrays/0003-longest-substring-without-repeating-characters/README.md",
-      "Arrays/0014-longest-common-prefix/README.md",
-      "Arrays/0049-group-anagrams/README.md",
-      "Arrays/0056-merge-intervals/README.md",
-      "Arrays/0073-set-matrix-zeroes/README.md",
-      "Arrays/0076-minimum-window-substring/README.md",
-      "Arrays/0225-implement-stack-using-queues/README.md",
-      "Arrays/0239-sliding-window-maximum/README.md",
-      "Arrays/0242-valid-anagram/README.md",
-      "Arrays/0387-first-unique-character-in-a-string/README.md",
-      "Arrays/0493-reverse-pairs/README.md",
-      "Arrays/0503-next-greater-element-ii/README.md",
-      "Arrays/0560-subarray-sum-equals-k/README.md",
-      "Arrays/1392-longest-happy-prefix/README.md",
-      "Arrays/3551-minimum-swaps-to-sort-by-digit-sum/README.md",
-      "Backtracking/0040-combination-sum-ii/README.md",
-      "Backtracking/0046-permutations/README.md",
-      "Backtracking/0078-subsets/README.md",
-      "Backtracking/0079-word-search/README.md",
-      "Backtracking/0090-subsets-ii/README.md",
-      "Backtracking/0494-target-sum/README.md",
-      "Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/README.md",
-      "BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/README.md",
-      "DynamicProgramming/0005-longest-palindromic-substring/README.md",
-      "DynamicProgramming/0062-unique-paths/README.md",
-      "DynamicProgramming/0072-edit-distance/README.md",
-      "DynamicProgramming/0122-best-time-to-buy-and-sell-stock-ii/README.md",
-      "DynamicProgramming/0132-palindrome-partitioning-ii/README.md",
-      "DynamicProgramming/0198-house-robber/README.md",
-      "DynamicProgramming/0213-house-robber-ii/README.md",
-      "DynamicProgramming/0279-perfect-squares/README.md",
-      "DynamicProgramming/0300-longest-increasing-subsequence/README.md",
-      "DynamicProgramming/0322-coin-change/README.md",
-      "DynamicProgramming/0368-largest-divisible-subset/README.md",
-      "DynamicProgramming/0516-longest-palindromic-subsequence/README.md",
-      "DynamicProgramming/1048-longest-string-chain/README.md",
-      "DynamicProgramming/1092-shortest-common-supersequence/README.md",
-      "DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/README.md",
-      "DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/README.md",
-      "DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/README.md",
-      "DynamicProgramming/1547-minimum-cost-to-cut-a-stick/README.md",
-      "DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/README.md",
-      "DynamicProgramming/1911-maximum-alternating-subsequence-sum/README.md",
-      "DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/README.md",
-      "Graphs/0133-clone-graph/README.md",
-      "Graphs/0207-course-schedule/README.md",
-      "Graphs/0210-course-schedule-ii/README.md",
-      "Graphs/0365-water-and-jug-problem/README.md",
-      "Graphs/0433-minimum-genetic-mutation/README.md",
-      "Graphs/0542-01-matrix/README.md",
-      "Graphs/0684-redundant-connection/README.md",
-      "Graphs/0733-flood-fill/README.md",
-      "Graphs/0743-network-delay-time/README.md",
-      "Graphs/0785-is-graph-bipartite/README.md",
-      "Graphs/0787-cheapest-flights-within-k-stops/README.md",
-      "Graphs/0797-all-paths-from-source-to-target/README.md",
-      "Graphs/0841-keys-and-rooms/README.md",
-      "Graphs/0886-possible-bipartition/README.md",
-      "Graphs/0947-most-stones-removed-with-same-row-or-column/README.md",
-      "Graphs/0990-satisfiability-of-equality-equations/README.md",
-      "Graphs/0994-rotting-oranges/README.md",
-      "Graphs/1061-lexicographically-smallest-equivalent-string/README.md",
-      "Graphs/1091-shortest-path-in-binary-matrix/README.md",
-      "Graphs/1319-number-of-operations-to-make-network-connected/README.md",
-      "Graphs/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/README.md",
-      "Graphs/1631-path-with-minimum-effort/README.md",
-      "Graphs/1926-nearest-exit-from-entrance-in-maze/README.md",
-      "Graphs/1971-find-if-path-exists-in-graph/README.md",
-      "Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/README.md",
-      "Graphs/2359-find-closest-node-to-given-two-nodes/README.md",
-      "Graphs/2421-number-of-good-paths/README.md",
-      "Graphs/2492-minimum-score-of-a-path-between-two-cities/README.md",
-      "Graphs/2596-check-knight-tour-configuration/README.md",
-      "Graphs/3286-find-a-safe-walk-through-a-grid/README.md",
-      "Heaps/0215-kth-largest-element-in-an-array/README.md",
-      "Heaps/0347-top-k-frequent-elements/README.md",
-      "Heaps/0378-kth-smallest-element-in-a-sorted-matrix/README.md",
-      "Heaps/0703-kth-largest-element-in-a-stream/README.md",
-      "Linked-List/0092-reverse-linked-list-ii/README.md",
-      "Linked-List/0234-palindrome-linked-list/README.md",
-      "Trees/0096-unique-binary-search-trees/README.md",
-      "Trees/0098-validate-binary-search-tree/README.md",
-      "Trees/0099-recover-binary-search-tree/README.md",
-      "Trees/0100-same-tree/README.md",
-      "Trees/0101-symmetric-tree/README.md",
-      "Trees/0102-binary-tree-level-order-traversal/README.md",
-      "Trees/0103-binary-tree-zigzag-level-order-traversal/README.md",
-      "Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/README.md",
-      "Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/README.md",
-      "Trees/0108-convert-sorted-array-to-binary-search-tree/README.md",
-      "Trees/0111-minimum-depth-of-binary-tree/README.md",
-      "Trees/0112-path-sum/README.md",
-      "Trees/0113-path-sum-ii/README.md",
-      "Trees/0114-flatten-binary-tree-to-linked-list/README.md",
-      "Trees/0116-populating-next-right-pointers-in-each-node/README.md",
-      "Trees/0124-binary-tree-maximum-path-sum/README.md",
-      "Trees/0129-sum-root-to-leaf-numbers/README.md",
-      "Trees/0144-binary-tree-preorder-traversal/README.md",
-      "Trees/0145-binary-tree-postorder-traversal/README.md",
-      "Trees/0173-binary-search-tree-iterator/README.md",
-      "Trees/0199-binary-tree-right-side-view/README.md",
-      "Trees/0222-count-complete-tree-nodes/README.md",
-      "Trees/0230-kth-smallest-element-in-a-bst/README.md",
-      "Trees/0235-lowest-common-ancestor-of-a-binary-search-tree/README.md",
-      "Trees/0236-lowest-common-ancestor-of-a-binary-tree/README.md",
-      "Trees/0450-delete-node-in-a-bst/README.md",
-      "Trees/0513-find-bottom-left-tree-value/README.md",
-      "Trees/0515-find-largest-value-in-each-tree-row/README.md",
-      "Trees/0543-diameter-of-binary-tree/README.md",
-      "Trees/0572-subtree-of-another-tree/README.md",
-      "Trees/0623-add-one-row-to-tree/README.md",
-      "Trees/0652-find-duplicate-subtrees/README.md",
-      "Trees/0662-maximum-width-of-binary-tree/README.md",
-      "Trees/0783-minimum-distance-between-bst-nodes/README.md",
-      "Trees/0814-binary-tree-pruning/README.md",
-      "Trees/0863-all-nodes-distance-k-in-binary-tree/README.md",
-      "Trees/0872-leaf-similar-trees/README.md",
-      "Trees/0951-flip-equivalent-binary-trees/README.md",
-      "Trees/0958-check-completeness-of-a-binary-tree/README.md",
-      "Trees/0979-distribute-coins-in-binary-tree/README.md",
-      "Trees/0988-smallest-string-starting-from-leaf/README.md",
-      "Trees/1008-construct-binary-search-tree-from-preorder-traversal/README.md",
-      "Trees/1026-maximum-difference-between-node-and-ancestor/README.md",
-      "Trees/1038-binary-search-tree-to-greater-sum-tree/README.md",
-      "Trees/1110-delete-nodes-and-return-forest/README.md",
-      "Trees/1161-maximum-level-sum-of-a-binary-tree/README.md",
-      "Trees/1261-find-elements-in-a-contaminated-binary-tree/README.md",
-      "Trees/1325-delete-leaves-with-a-given-value/README.md",
-      "Trees/1339-maximum-product-of-splitted-binary-tree/README.md",
-      "Trees/1361-validate-binary-tree-nodes/README.md",
-      "Trees/1367-linked-list-in-binary-tree/README.md",
-      "Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/README.md",
-      "Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/README.md",
-      "Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/README.md",
-      "Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/README.md",
-      "Trees/1609-even-odd-tree/README.md",
-      "Trees/1932-merge-bsts-to-create-single-bst/README.md",
-      "Trees/2196-create-binary-tree-from-descriptions/README.md",
-      "Trees/2246-longest-path-with-different-adjacent-characters/README.md",
-      "Trees/2265-count-nodes-equal-to-average-of-subtree/README.md",
-      "Trees/2385-amount-of-time-for-binary-tree-to-be-infected/README.md",
-      "Trees/2415-reverse-odd-levels-of-binary-tree/README.md",
-      "Trees/2458-height-of-binary-tree-after-subtree-removal-queries/README.md",
-      "Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/README.md",
-      "Trees/2916-subarrays-distinct-element-sum-of-squares-ii/README.md",
-      "scripts/organize.py"
-    ],
-    "root_readme_unchanged": true
+    "image_matching": "PASS: 261 published images agree with folder IDs, canonical README URLs, filenames and reviewed title mappings",
+    "readme_links": "PASS: 261 relative embedded image links resolve",
+    "multipart_ordering": "PASS: every published block matches sorted explicit part numbers; Roman and numeric fixtures executed",
+    "no_duplicate_images": "PASS: 261 unique SHA-256 values and destinations",
+    "existing_cpp_files_preserved": "PASS: all 272 tracked C++ files match baseline bytes and paths",
+    "existing_readme_content_preserved": "PASS: all 265 tracked README files match baseline bytes",
+    "idempotency": "PASS: two full organizer --offline runs preserved all 1109 non-cache repository file bytes, paths and mtimes; 0 copies and README updates",
+    "image_integrity": "PASS: all 261 source, destination and manifest SHA-256 values agree",
+    "future_automation": "PASS: fixture tests for new images, pending images before future problems, resubmission preservation, deduplication and full organizer execution",
+    "github_actions_validation": "PASS locally: Ruby YAML parser and explicit assertions of triggers, permissions, concurrency, branch, no-op/loop guards and non-force push. Live run NOT VERIFIED",
+    "regression_tests": "77 passed; 1 existing loopback test skipped (sandbox prohibits socket binding); 78 discovered",
+    "coderabbit_review": "NOT RUN: CLI 0.7.6 signed out; manual source review completed",
+    "github_rendering": "NOT VERIFIED: local relative links and hashes validated; current GitHub rendering not established",
+    "ci_checkout": "PASS: all 30 visual tests passed in an isolated tracked-file checkout without matched source originals and with a pending root #112 resubmission"
   },
   "regression_tests": {
-    "executed": 77,
-    "passed": 76,
-    "skipped": 1,
-    "skip_reason": "Existing loopback HTTP-server test: Operation not permitted"
+    "discovered": 78,
+    "passed": 77,
+    "skipped": 1
   },
-  "workflow_validation": "PASS: local YAML and configuration checks; live run unavailable",
-  "publication": "Push rejected (fetch first): remote main contains newer commits. Follow-up git fetch origin main failed: Could not resolve host: github.com. No force push attempted."
+  "workflow_validation": "Ruby YAML syntax and explicit local behavioral assertions passed; existing workflow unchanged",
+  "publication": {
+    "branch": "main",
+    "status": "NOT PUSHED: git push origin HEAD:main failed because github.com could not be resolved; follow-up fetch and DNS lookup also failed",
+    "tracked_changes_after_commit": 0,
+    "retained_untracked_source_files": 277,
+    "ahead_of_cached_origin_main": 1,
+    "live_actions": "NOT VERIFIED",
+    "live_github_rendering": "NOT VERIFIED"
+  }
 }

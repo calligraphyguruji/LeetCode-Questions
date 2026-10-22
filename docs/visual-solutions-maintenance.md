@@ -50,9 +50,16 @@ canonical slug, source SHA-256, explicit part, and destination. Keep this manife
 versioned. Published copies can be verified and READMEs restored even when
 original matched source images are absent from a checkout. Original files are
 never automatically deleted. The initial migration retains all originals locally;
-only the 23 unresolved solution images are versioned in the source folder, so they
+only the 13 unresolved solution images are versioned in the source folder, so they
 can be retried when a matching question is solved. Verified originals are not
 stored twice in Git. Unrelated source files are left untracked and untouched.
+
+The test suite checks every committed manifest entry against the current problem
+identity, destination hash, README image links and multipart ordering. It also
+checks original source hashes when those files are available locally. The audit
+currently verifies 261 images across 150 problems; see
+[`visual-solution-audit.md`](visual-solution-audit.md) for the complete mapping and
+15 unmatched images (13 solution/algorithm pages and two unrelated images).
 
 Matching never creates a problem folder or reclassifies a question. Files with
 unknown/conflicting identities, absent folders, duplicate candidate folders, or

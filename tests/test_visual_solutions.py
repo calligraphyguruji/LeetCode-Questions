@@ -1,5 +1,6 @@
 """Offline safety and lifecycle tests for visual solution integration."""
 import json
+from collections import defaultdict
 from pathlib import Path
 import tempfile
 import unittest
@@ -10,6 +11,52 @@ from scripts import visual_solutions as v
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = o.load_neetcode_data(ROOT / 'neetcode150.json')
+
+
+class PublishedVisualTests(unittest.TestCase):
+    def test_repository_manifest_identity_hashes_and_readmes(self):
+        """Validate published assets even in CI without the original source images."""
+        scan = o.scan_repository(ROOT, DATA)
+        index = v.build_problem_index(ROOT, scan)
+        # CI tests run before organization. A root LeetHub resubmission must not
+        # make its already published topic folder appear ambiguous here.
+        for problem in index.values():
+            problem['folders'] = [folder for folder in problem['folders']
+                                  if len(Path(folder).parts) > 1]
+        manifest = json.loads((ROOT / v.MANIFEST).read_text(encoding='utf-8'))
+        aliases = json.loads((ROOT / v.ALIASES).read_text(encoding='utf-8'))
+        self.assertEqual(manifest['schema_version'], 1)
+        sources, destinations, owners = set(), {}, {}
+        grouped = defaultdict(dict)
+        for entry in manifest['images']:
+            with self.subTest(source=entry['source']):
+                self.assertNotIn(entry['source'], sources)
+                sources.add(entry['source'])
+                problem, reason = v.find_matching_problem(
+                    Path(entry['source']).name, index, aliases, scan.identities)
+                self.assertIsNotNone(problem, reason)
+                self.assertEqual(entry['number'], problem['number'])
+                self.assertEqual(entry['slug'], problem['slug'])
+                folder = problem['folders'][0]
+                self.assertEqual(Path(entry['destination']).parent, Path(folder) / 'images')
+                destination = v.safe_path(ROOT, entry['destination'])
+                self.assertEqual(v.digest(destination), entry['sha256'])
+                source = v.safe_path(ROOT, entry['source'])
+                if source.exists():
+                    self.assertEqual(v.digest(source), entry['sha256'])
+                self.assertEqual(owners.setdefault(entry['sha256'], entry['number']), entry['number'])
+                self.assertEqual(destinations.setdefault(entry['destination'], entry['sha256']), entry['sha256'])
+                grouped[folder][entry['destination']] = entry
+        for folder, entries in grouped.items():
+            with self.subTest(folder=folder):
+                selected = sorted(entries.values(), key=lambda e: (
+                    e['part'] if e['part'] is not None else 0, e['destination']))
+                original = (ROOT / folder / 'README.md').read_bytes().decode('utf-8')
+                self.assertEqual(original.count(v.HEADING), 1)
+                self.assertTrue(v.visual_block(original))
+                self.assertEqual(v.validate_image_references(ROOT / folder), len(selected))
+                # A regenerated block must preserve exactly the published links and order.
+                self.assertEqual(v.plan_readme(original, selected, selected[0]['title']), original)
 
 
 class VisualTests(unittest.TestCase):

@@ -37,10 +37,10 @@
 </ul>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ### Part 2
 
@@ -50,4 +50,56 @@
 
 ![Coin Change — Part 3](./images/solution-part-3.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(amount x n)
+Space Complexity = O(amount)
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./0322-coin-change.cpp)
+
+```cpp
+class Solution {
+public:
+    //Time Complexity = O(amount x n)
+    //Space Complexity = O(amount)
+    int coinChange(vector<int>& coins, int amount) {
+        //edge case
+        if(amount == 0)
+            return 0 ;
+
+        //create dp array
+        vector<int> dp(amount+1, INT_MAX) ;
+        dp[0] = 0 ; //start with 0 
+
+        //fill dp array
+        for(int i=1 ; i<=amount ; i++){
+            //try every coin
+            for(int coin : coins){
+
+                if(coin <= i && dp[i-coin] != INT_MAX){
+                    dp[i] = min(dp[i], 1 + dp[i-coin]) ;
+                }
+            }
+         
+        }
+
+        //after filling decide answer/result
+        if(dp[amount] == INT_MAX)
+            return -1 ;
+
+        else{
+            return dp[amount] ;
+        }     
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

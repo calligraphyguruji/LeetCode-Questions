@@ -36,11 +36,74 @@
 <p><strong>Note:</strong> This question is the same as 538: <a href="https://leetcode.com/problems/convert-bst-to-greater-tree/" target="_blank">https://leetcode.com/problems/convert-bst-to-greater-tree/</a></p>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ![Binary Search Tree to Greater Sum Tree — Visual Solution](./images/solution.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n)
+Space Complexity = O(H) => recursion stack height(height of the tree)
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./1038-binary-search-tree-to-greater-sum-tree.cpp)
+
+```cpp
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    //Time Complexity = O(n)
+    //Space Complexity = O(H) => recursion stack height(height of the tree)
+    //O(logn) => for balanced tree
+    //O(n) => for skewed tree
+    void optSolution(TreeNode* root, int &sum){
+        //for empty tree
+        if(root == NULL) return ;
+
+        //reversed inorder traversal 
+        //1.) traverse in right 
+        optSolution(root->right,sum) ;
+        
+        //update sum
+        sum += root->val ;
+
+        //update new root->val to sum
+        root->val = sum ;
+
+        //2.) traverse in left 
+        optSolution(root->left,sum) ;
+
+    }
+    TreeNode* bstToGst(TreeNode* root) {
+        //sum var to store sum
+        int sum = 0 ;
+
+        //func. call to optSolution
+        optSolution(root,sum) ;
+
+        return root ;
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

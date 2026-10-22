@@ -49,6 +49,14 @@ class PublishedVisualTests(unittest.TestCase):
                 grouped[folder][entry['destination']] = entry
         for folder, entries in grouped.items():
             with self.subTest(folder=folder):
+                problem = next(p for p in index.values() if folder in p['folders'])
+                # Folder-local images may be added without an inbox/manifest entry.
+                for image in (ROOT / folder / 'images').iterdir():
+                    if image.is_file() and image.suffix.lower() in v.EXTENSIONS:
+                        relative = image.relative_to(ROOT).as_posix()
+                        entries.setdefault(relative, {
+                            'destination': relative, 'part': v.parse_image_name(image.name).part,
+                            'title': problem['title']})
                 selected = sorted(entries.values(), key=lambda e: (
                     e['part'] if e['part'] is not None else 0, e['destination']))
                 original = (ROOT / folder / 'README.md').read_bytes().decode('utf-8')
@@ -56,7 +64,8 @@ class PublishedVisualTests(unittest.TestCase):
                 self.assertTrue(v.visual_block(original))
                 self.assertEqual(v.validate_image_references(ROOT / folder), len(selected))
                 # A regenerated block must preserve exactly the published links and order.
-                self.assertEqual(v.plan_readme(original, selected, selected[0]['title']), original)
+                self.assertEqual(v.plan_readme(original, selected, selected[0]['title'],
+                                               v.problem_solutions(ROOT, scan, problem['number'], folder)), original)
 
 
 class VisualTests(unittest.TestCase):
@@ -345,6 +354,119 @@ class VisualTests(unittest.TestCase):
         self.assertTrue(source.is_file())
         self.assertTrue(loose.is_file())
         self.assertEqual(before, self.snapshot())
+
+    def test_exact_code_refresh_and_outside_content_preserved(self):
+        self.image('1-Two-Sum.jpg')
+        folder = self.root / 'Arrays/0001-two-sum'
+        cpp, readme = folder / 'solution.cpp', folder / 'README.md'
+        # Preserve CRLF, Unicode, trailing spaces and a missing terminal newline.
+        source = '// Approach: Hashing\r\n// Time Complexity = O(n)\r\n// Space Complexity: O(n)\r\nclass Solution { /* π ``` */ };  '
+        cpp.write_bytes(source.encode())
+        description = readme.read_bytes()
+        self.run_images()
+        text = readme.read_bytes().decode()
+        self.assertTrue(text.startswith(description.decode()))
+        self.assertIn(v.fenced(source, 'cpp'), text)
+        self.assertIn('[View Original C++ File](./solution.cpp)', text)
+        self.assertLess(text.index('![Two Sum'), text.index('## 💻 C++ Solution'))
+        self.assertIn('## 💡 Approach', text)
+        self.assertIn('## ⏱️ Complexity Analysis', text)
+        readme.write_bytes((text + '\nManual notes after generated block.\n').encode())
+        outside = lambda t: t.replace(v.visual_block(t), '', 1)
+        previous = readme.read_bytes().decode()
+        changed = source + '\r\n// Updated implementation'
+        cpp.write_bytes(changed.encode())
+        self.assertEqual(self.run_images()['readmes_updated'], 1)
+        updated = readme.read_bytes().decode()
+        self.assertEqual(outside(previous), outside(updated))
+        self.assertIn(v.fenced(changed, 'cpp'), updated)
+        self.assertNotIn(v.fenced(source, 'cpp'), updated)
+        self.assertEqual(cpp.read_bytes(), changed.encode())
+        self.assertEqual(self.run_images()['readmes_updated'], 0)
+
+    def test_no_invented_metadata_or_readme_for_no_images(self):
+        readme = self.root / 'Arrays/0001-two-sum/README.md'
+        before = readme.read_bytes()
+        self.run_images()
+        self.assertEqual(readme.read_bytes(), before)
+        self.image('1-Two-Sum.jpg')
+        self.run_images()
+        text = readme.read_text()
+        self.assertNotIn('## 💡 Approach', text)
+        self.assertNotIn('## ⏱️ Complexity Analysis', text)
+        self.assertIn('```cpp', text)
+        self.assertEqual(v.comment_metadata('const char *s = "// Approach: fake";'), ([], []))
+        self.assertEqual(v.comment_metadata('auto s = R"tag(\n// Approach: fake\n/* Time Complexity: fake */\n)tag";'), ([], []))
+
+    def test_migration_changes_only_legacy_block(self):
+        readme = self.root / 'Arrays/0001-two-sum/README.md'
+        legacy = v.LEGACY_START + '\n' + v.LEGACY_HEADING + '\n' + v.LEGACY_END
+        original = readme.read_text() + legacy + '\nManual suffix\n'
+        readme.write_text(original)
+        self.image('1-Two-Sum.jpg')
+        self.run_images()
+        updated = readme.read_text()
+        self.assertEqual(original.replace(legacy, ''), updated.replace(v.visual_block(updated), ''))
+        self.assertNotIn(v.LEGACY_START, updated)
+        self.assertEqual(updated.count(v.START), 1)
+
+    def test_direct_images_added_removed_and_last_image_removed(self):
+        folder = self.root / 'Arrays/0001-two-sum'
+        images = folder / 'images'
+        images.mkdir()
+        for part in [10, 2, 1]:
+            (images / f'solution-part-{part}.jpg').write_bytes(str(part).encode())
+        self.run_images()
+        text = (folder / 'README.md').read_text()
+        self.assertLess(text.index('### Part 2\n'), text.index('### Part 10\n'))
+        (images / 'solution-part-2.jpg').unlink()
+        self.run_images()
+        self.assertNotIn('solution-part-2.jpg', (folder / 'README.md').read_text())
+        for image in images.iterdir():
+            image.unlink()
+        self.run_images()
+        text = (folder / 'README.md').read_text()
+        self.assertNotIn(v.HEADING, text)
+        self.assertIn('```cpp', text)
+        self.assertEqual(self.run_images()['readmes_updated'], 0)
+
+    def test_deleted_imported_image_not_restored_from_local_original(self):
+        self.image('1-Two-Sum.jpg')
+        result = self.run_images()
+        destination = self.root / result['entries'][0]['destination']
+        destination.unlink()
+        self.run_images()
+        before = self.snapshot()
+        result = self.run_images()
+        self.assertEqual(before, self.snapshot())
+        self.assertFalse(destination.exists())
+        self.assertNotIn('![', (destination.parent.parent / 'README.md').read_text())
+        self.assertFalse(result['entries'])
+
+    def test_multiple_cpp_implementations_embedded_exactly(self):
+        self.image('1-Two-Sum.jpg')
+        folder = self.root / 'Arrays/0001-two-sum'
+        second = folder / '0001-two-sum-approach-2.cpp'
+        second.write_text('// Approach: Second algorithm\nclass Solution { public: int answer() { return 2; } };')
+        self.run_images()
+        text = (folder / 'README.md').read_text()
+        for cpp in folder.glob('*.cpp'):
+            self.assertIn(v.fenced(cpp.read_text(), 'cpp'), text)
+            self.assertIn(f'[View Original C++ File](./{cpp.name})', text)
+        self.assertEqual(text.count('## 💻 C++ Solution'), 1)
+
+    def test_java_only_problem_uses_existing_source(self):
+        folder = self.root / 'Arrays/0001-two-sum'
+        (folder / 'solution.cpp').unlink()
+        code = 'class Solution { public int answer() { return 1; } }'
+        (folder / 'solution.java').write_text(code)
+        self.image('1-Two-Sum.jpg')
+        self.run_images()
+        text = (folder / 'README.md').read_text()
+        self.assertIn('## 💻 Java Solution', text)
+        self.assertIn(v.fenced(code, 'java'), text)
+        self.assertIn('[View Original Java File](./solution.java)', text)
+        self.assertNotIn('C++', text)
 
     def test_part_parser_does_not_strip_problem_series(self):
         for name, title, part in [('House Robber-II.jpg', 'House Robber-II', None),

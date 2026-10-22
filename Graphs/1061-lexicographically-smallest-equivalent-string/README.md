@@ -56,10 +56,10 @@ So only the second letter &#39;o&#39; in baseStr is changed to &#39;d&#39;, the 
 </ul>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ### Part 1
 
@@ -69,4 +69,104 @@ So only the second letter &#39;o&#39; in baseStr is changed to &#39;d&#39;, the 
 
 ![Lexicographically Smallest Equivalent String — Part 2](./images/solution-part-2.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## 💡 Approach
+
+```text
+Approach : DFS + Graph(connected components)
+```
+
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(m * (V + E)) =>
+Space Complexity = O(V + E) =>
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./1061-lexicographically-smallest-equivalent-string.cpp)
+
+```cpp
+class Solution {
+public:
+    //Approach : DFS + Graph(connected components)
+
+    //Time Complexity = O(m * (V + E)) =>
+    /*     m = length of baseStr.
+    * For each character in baseStr, we run DFS.
+    * One DFS visits:
+    * V vertices → O(V)
+    * E edges → O(E)
+    * So one DFS = O(V + E).
+    * We do it m times.
+    */
+
+    //Space Complexity = O(V + E) =>
+    /* adj stores all vertices and edges → O(V + E).
+    * visited array → O(V).
+    * DFS recursion stack → O(V).
+    * Dominated by adjacency list.
+    */
+
+
+    char dfsFindMin(unordered_map<char, vector<char>>& adj, char curr_ch, vector<int>& visited){
+        //mark curr_ch true
+        visited[curr_ch - 'a'] = 1;
+
+        char minChar = curr_ch;//assume curr_ch is min
+
+        //traverse all neighs of curr_ch
+        for(char& v : adj[curr_ch]){
+            if(visited[v - 'a'] == 0){
+                minChar = min(minChar, dfsFindMin(adj, v, visited));
+            }
+        }
+
+        return minChar;
+    }
+    string smallestEquivalentString(string s1, string s2, string baseStr) {
+        int n = s1.length();
+        int m = baseStr.length();
+
+
+        //1.) Build graph using adjacency list
+        unordered_map<char, vector<char>> adj;
+
+        for(int i=0; i<n; i++){
+            int u = s1[i];
+            int v = s2[i];
+
+            //make undirected graph connections : both directions
+            adj[u].push_back(v); //u---->v
+            adj[v].push_back(u); //v--->u
+        }
+
+        //2.) declare result var
+        string result;
+
+        //3.) traverse all m elements in baseStr and perform DFS
+        for(int i=0; i<m; i++){
+            char ch = baseStr[i];
+
+            vector<int> visited(26, 0);//array for 26 alphabets
+            //0 == false
+            //1 == true
+
+            char minChar = dfsFindMin(adj, ch, visited);
+
+            result.push_back(minChar);
+        }
+
+        //5.) finally return output
+        return result;
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

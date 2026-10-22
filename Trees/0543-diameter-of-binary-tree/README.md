@@ -29,10 +29,10 @@
 </ul>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ### Part 1
 
@@ -46,4 +46,59 @@
 
 ![Diameter of Binary Tree — Part 3](./images/solution-part-3.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n*n) => cause in diameter func. for currDiam height func. is calling
+Space Complexity = O(1)
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./0543-diameter-of-binary-tree.cpp)
+
+```cpp
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    //Time Complexity = O(n*n) => cause in diameter func. for currDiam height func. is calling
+    //Space Complexity = O(1)
+    int height(TreeNode* root){
+        //base case
+        if(root == NULL) return 0 ;
+
+        //for left
+        int leftHt = height(root->left) ;
+        //for right
+        int rightHt = height(root->right) ;
+
+        return max(leftHt, rightHt) + 1 ;
+    }
+    int diameterOfBinaryTree(TreeNode* root) {
+        //base case
+        if(root == NULL) return 0 ;
+
+        int leftDiam = diameterOfBinaryTree(root->left) ;
+        int rightDiam = diameterOfBinaryTree(root->right) ;
+        int currDiam = height(root->left) + height(root->right) ;
+
+        return max(currDiam, max(leftDiam, rightDiam)) ;
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

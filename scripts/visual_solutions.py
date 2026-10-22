@@ -17,9 +17,12 @@ SOURCE = 'LeetCode-Img-Soln'
 MANIFEST = 'docs/visual-solutions.json'
 ALIASES = 'docs/visual-title-aliases.json'
 EXTENSIONS = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.avif', '.bmp'}
-START = '<!-- visual-solutions:start -->'
-END = '<!-- visual-solutions:end -->'
-HEADING = '## 🧠 Visual Solution & Explanation'
+START = '<!-- AUTO-GENERATED-SOLUTION-START -->'
+END = '<!-- AUTO-GENERATED-SOLUTION-END -->'
+LEGACY_START = '<!-- visual-solutions:start -->'
+LEGACY_END = '<!-- visual-solutions:end -->'
+HEADING = '## 🧠 Visual Solution & Intuition'
+LEGACY_HEADING = '## 🧠 Visual Solution & Explanation'
 ROMAN = {'i': 1, 'ii': 2, 'iii': 3, 'iv': 4, 'v': 5, 'vi': 6,
          'vii': 7, 'viii': 8, 'ix': 9, 'x': 10}
 
@@ -159,22 +162,27 @@ def find_matching_problem(filename: str, index: dict, aliases: dict, identities:
 
 
 def visual_block(text: str) -> str:
-    if text.count(START) != text.count(END) or text.count(START) > 1:
-        raise ValueError('Malformed or duplicate visual solution markers')
-    if START not in text:
-        return ''
-    start, end = text.index(START), text.index(END)
-    if end < start:
-        raise ValueError('Reversed visual solution markers')
-    return text[start:end + len(END)]
+    blocks = []
+    for start_marker, end_marker in [(START, END), (LEGACY_START, LEGACY_END)]:
+        if text.count(start_marker) != text.count(end_marker) or text.count(start_marker) > 1:
+            raise ValueError('Malformed or duplicate visual solution markers')
+        if start_marker not in text:
+            continue
+        start, end = text.index(start_marker), text.index(end_marker)
+        if end < start:
+            raise ValueError('Reversed visual solution markers')
+        blocks.append(text[start:end + len(end_marker)])
+    if len(blocks) > 1:
+        raise ValueError('Duplicate legacy and current visual solution markers')
+    return blocks[0] if blocks else ''
 
 
 def preserve_visual_section(incoming: str, existing: str) -> str:
-    """A fresh LeetHub README must retain the destination's visual block."""
+    """A fresh LeetHub README must retain the destination's managed block."""
     old = visual_block(existing)
     new = visual_block(incoming)
     if old and not new:
-        if HEADING in incoming:
+        if HEADING in incoming or LEGACY_HEADING in incoming:
             raise ValueError('Unmanaged visual section needs manual review before README merge')
         return incoming + ('\n' if incoming.endswith('\n\n') else '\n\n') + old + '\n'
     if old and new and old != new:
@@ -182,28 +190,85 @@ def preserve_visual_section(incoming: str, existing: str) -> str:
     return incoming
 
 
-def plan_readme(original: str, entries: list[dict], title: str) -> str:
+def fenced(text: str, language: str) -> str:
+    # A source comment can itself contain Markdown fences. Choose a longer fence.
+    size = max([3] + [len(m[0]) + 1 for m in re.finditer(r'`{3,}', text)])
+    fence = '`' * size
+    return fence + language + '\n' + text + ('' if text.endswith('\n') else '\n') + fence
+
+
+def comment_metadata(source: str) -> tuple[list[str], list[str]]:
+    """Quote explicit labeled comment lines; never infer claims from algorithms."""
+    # Skip string/character literals so labels in executable strings are ignored.
+    tokens = re.finditer(r'R"(?P<raw_delim>[^\s()\\]{0,16})\(.*?\)(?P=raw_delim)"|"(?:\\.|[^"\\])*"|\'(?:\\.|[^\'\\])*\'|//[^\r\n]*|/\*.*?\*/', source, re.S)
+    approach, complexity = [], []
+    for token in tokens:
+        comment = token[0]
+        if not comment.startswith(('//', '/*')):
+            continue
+        for line in comment.removeprefix('//').removeprefix('/*').removesuffix('*/').splitlines():
+            line = line.strip().lstrip('*').strip()
+            if re.match(r'(?i)^approach(?:[ \t-]*\d+)?[ \t]*[:=][ \t]*\S', line):
+                approach.append(line)
+            elif re.match(r'(?i)^(?:time|space)[ \t]+complexity[ \t]*[:=][ \t]*\S', line):
+                complexity.append(line)
+    return approach, complexity
+
+
+def problem_solutions(root: Path, scan, number: int, folder: str) -> list[tuple[str, str]]:
+    paths = [p for p in scan.solutions[number]
+             if p.parent.as_posix() == folder and p.suffix.lower() == '.cpp']
+    if not paths:
+        paths = [p for p in scan.solutions[number]
+                 if p.parent.as_posix() == folder and p.suffix.lower() == '.java']
+    paths.sort(key=lambda p: (p.stem != Path(folder).name, p.name))
+    return [(p.name, safe_path(root, p.as_posix()).read_bytes().decode('utf-8')) for p in paths]
+
+
+def plan_readme(original: str, entries: list[dict], title: str,
+                solutions: list[tuple[str, str]] = ()) -> str:
     current = visual_block(original)
-    outside = original.replace(current, '') if current else original
-    if HEADING in outside:
+    outside = original.replace(current, '', 1) if current else original
+    if HEADING in outside or LEGACY_HEADING in outside:
         raise ValueError('Unmanaged visual heading already exists; manual review required')
-    links = [f'./images/{quote(Path(entry["destination"]).name)}' for entry in entries]
+    links = [f'./images/{quote(Path(entry["destination"]).name)}'
+             for entry in entries]
     if any(link in outside for link in links):
         raise ValueError('Image already embedded outside managed section; manual review required')
-    lines = [START, '---', '', HEADING, '']
-    # Preserve explicit part numbers, even if Part I is missing (e.g. Coin Change).
-    multipart = len(entries) > 1 or entries[0]['part'] is not None
-    clean_title = re.sub(r'[\[\]\n\r]', '', title)
-    for entry, link in zip(entries, links):
-        part = entry['part']
-        label = f'Part {part}' if part is not None else 'Visual Solution'
-        if multipart:
-            lines.extend([f'### {label}', ''])
-        lines.extend([f'![{clean_title} — {label}]({link})', ''])
+    lines = [START, '---', '']
+    if entries:
+        lines.extend([HEADING, ''])
+        multipart = len(entries) > 1 or entries[0]['part'] is not None
+        clean_title = re.sub(r'[\[\]\n\r]', '', title)
+        for entry, link in zip(entries, links):
+            part = entry['part']
+            label = f'Part {part}' if part is not None else 'Visual Solution'
+            if multipart:
+                lines.extend([f'### {label}', ''])
+            lines.extend([f'![{clean_title} — {label}]({link})', ''])
+    # Metadata belongs to its source file when multiple implementations exist.
+    if len(solutions) == 1:
+        approach, complexity = comment_metadata(solutions[0][1])
+        for heading, comments in [('## 💡 Approach', approach),
+                                  ('## ⏱️ Complexity Analysis', complexity)]:
+            if comments:
+                lines.extend(['---', '', heading, '', fenced('\n'.join(comments), 'text'), ''])
+    if solutions:
+        language, label = ('java', 'Java') if solutions[0][0].endswith('.java') else ('cpp', 'C++')
+        lines.extend(['---', '', f'## 💻 {label} Solution', ''])
+        for filename, code in solutions:
+            if len(solutions) > 1:
+                lines.extend([f'### {filename}', ''])
+                approach, complexity = comment_metadata(code)
+                for heading, comments in [('#### 💡 Approach', approach),
+                                          ('#### ⏱️ Complexity Analysis', complexity)]:
+                    if comments:
+                        lines.extend([heading, '', fenced('\n'.join(comments), 'text'), ''])
+            lines.extend([f'[View Original {label} File](./{quote(filename)})', '', fenced(code, language), ''])
     lines.append(END)
     block = '\n'.join(lines)
     if current:
-        return original.replace(current, block)
+        return original.replace(current, block, 1)
     return original + ('\n' if original.endswith('\n\n') else '\n\n') + block + '\n'
 
 
@@ -211,8 +276,6 @@ def validate_image_references(problem_dir: Path) -> int:
     text = (problem_dir / 'README.md').read_bytes().decode('utf-8')
     block = visual_block(text)
     links = re.findall(r'!\[[^\]]*\]\((\./images/[^)]+)\)', block)
-    if block and not links:
-        raise ValueError(f'Visual block contains no image links: {problem_dir}')
     if len(links) != len(set(links)):
         raise ValueError(f'Duplicate visual links: {problem_dir}')
     for link in links:
@@ -232,6 +295,16 @@ def integrate_images(root: Path, scan, *, dry_run: bool = False) -> dict:
     entries = {entry['source']: dict(entry) for entry in existing}
     if len(entries) != len(existing):
         raise ValueError('Duplicate source paths in visual manifest')
+    removed_sources = set(manifest.get('removed_sources', []))
+    for source, entry in list(entries.items()):
+        problem = index.get(entry['number'])
+        if problem and len(problem['folders']) == 1:
+            # Topic moves carry images with the folder.
+            destination = (Path(problem['folders'][0]) / 'images' / Path(entry['destination']).name).as_posix()
+            entry['destination'] = destination
+            if not safe_path(root, destination).exists():
+                removed_sources.add(source)
+                del entries[source]
     source_dir = safe_path(root, SOURCE)
     images = sorted(p for p in source_dir.rglob('*') if p.is_file()
                     and p.suffix.lower() in EXTENSIONS) if source_dir.exists() else []
@@ -242,6 +315,8 @@ def integrate_images(root: Path, scan, *, dry_run: bool = False) -> dict:
     for path in images:
         relative = path.relative_to(root).as_posix()
         safe_path(root, relative)
+        if relative in removed_sources:
+            continue
         problem, reason = find_matching_problem(path.name, index, aliases, scan.identities)
         if not problem:
             if relative in entries:
@@ -310,16 +385,34 @@ def integrate_images(root: Path, scan, *, dry_run: bool = False) -> dict:
             if not any(dst == destination for _, dst in copies):
                 copies.append((source, destination))
         grouped[problem['folders'][0]][entry['destination']] = entry
+    for problem in index.values():
+        if len(problem['folders']) != 1:
+            continue
+        folder = problem['folders'][0]
+        image_dir = safe_path(root, folder + '/images')
+        if image_dir.exists():
+            for image in sorted(image_dir.iterdir()):
+                if image.is_file() and image.suffix.lower() in EXTENSIONS:
+                    relative = image.relative_to(root).as_posix()
+                    safe_path(root, relative)
+                    grouped[folder].setdefault(relative, {
+                        'destination': relative, 'part': parse_image_name(image.name).part,
+                        'title': problem['title'], 'sha256': digest(image)})
+        if visual_block(safe_path(root, folder + '/README.md').read_bytes().decode('utf-8')):
+            grouped.setdefault(folder, {})
+    by_folder = {p['folders'][0]: p for p in index.values() if len(p['folders']) == 1}
     readmes = []
     for folder, destinations in sorted(grouped.items()):
         selected = sorted(destinations.values(), key=lambda e: (
             e['part'] if e['part'] is not None else 0, e['destination']))
         path = safe_path(root, folder + '/README.md')
         original = path.read_bytes().decode('utf-8')
-        updated = plan_readme(original, selected, selected[0]['title'])
+        problem = by_folder[folder]
+        solutions = problem_solutions(root, scan, problem['number'], folder)
+        updated = plan_readme(original, selected, problem['title'], solutions)
         if updated != original:
             readmes.append((path, updated))
-    serialized = json.dumps({'schema_version': 1, 'images': sorted(entries.values(),
+    serialized = json.dumps({'schema_version': 1, 'removed_sources': sorted(removed_sources), 'images': sorted(entries.values(),
                             key=lambda e: (e['number'], e['source']))}, indent=2, ensure_ascii=False) + '\n'
     if not dry_run:
         for src, dst in copies:
@@ -331,12 +424,13 @@ def integrate_images(root: Path, scan, *, dry_run: bool = False) -> dict:
                 raise ValueError(f'Image copy failed hash validation: {dst}')
         for path, content in readmes:
             write_if_changed(path, content)
-        if entries or (root / MANIFEST).exists():
+        if entries or removed_sources or (root / MANIFEST).exists():
             write_if_changed(root / MANIFEST, serialized)
         for folder in grouped:
             validate_image_references(root / folder)
-    return {'discovered': len(images), 'matched': len(images) - len(unmatched),
-            'unmatched': unmatched, 'problems': len(grouped), 'copied': len(copies),
+    return {'discovered': len(images), 'matched': len(images) - len(unmatched) - sum(p.relative_to(root).as_posix() in removed_sources for p in images),
+            'unmatched': unmatched, 'problems': len(grouped), 'integrated_images': sum(len(v) for v in grouped.values()),
+            'modified_readmes': [p.relative_to(root).as_posix() for p, _ in readmes], 'copied': len(copies),
             'readmes_updated': len(readmes), 'entries': sorted(entries.values(),
                                                               key=lambda e: (e['number'], e['source']))}
 

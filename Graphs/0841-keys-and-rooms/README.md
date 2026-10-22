@@ -47,11 +47,145 @@ Since we were able to visit every room, we return true.
 <!---LeetCode Approaches End-->
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ![Keys and Rooms — Visual Solution](./images/solution.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## 💻 C++ Solution
+
+### 0841-keys-and-rooms.cpp
+
+#### ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(V + E)
+Space Complexity = O(V + E) =>
+```
+
+[View Original C++ File](./0841-keys-and-rooms.cpp)
+
+```cpp
+class Solution {
+public:
+    //Method-2 : BFS(Breadth First Search)
+
+    //Time Complexity = O(V + E)
+    /* V = number of rooms(Vertices)
+    * E = total number of keys across all rooms(Edges)
+    */
+
+    //Space Complexity = O(V + E) =>
+    /* V = number of rooms(Vertices)
+    * E = total number of keys across all rooms(Edges)
+    */
+
+    
+    void BFS(vector<vector<int>>& rooms, int src, vector<bool>& visited){
+    
+        queue<int>q ;
+
+        //start BFS from src
+        q.push(src);
+        visited[src] = true;
+
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+            
+            //traverse in neighbors of node
+            for(auto& V : rooms[node]){
+                if(!visited[V]){ //not visited
+                    q.push(V);
+                    visited[V] = true;
+                }
+            }
+        }
+
+        
+    }
+    bool canVisitAllRooms(vector<vector<int>>& rooms) {
+        int n = rooms.size();
+
+        vector<bool> visited(n, false);
+
+        //func. call to BFS
+        BFS(rooms, 0, visited);
+
+        //check in visited : if all true => true , else => false
+        for(bool x : visited){
+            if(x == false){//any room x : false
+                return false;
+            }
+
+        }
+        
+        return true;
+    }
+};
+```
+
+### 0841-keys-and-rooms-approach-2-dfs.cpp
+
+#### 💡 Approach
+
+```text
+Approach-1 : DFS
+```
+
+#### ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(V + E)
+Space Complexity = O(V + E) =>
+```
+
+[View Original C++ File](./0841-keys-and-rooms-approach-2-dfs.cpp)
+
+```cpp
+class Solution {
+public:
+    //Approach-1 : DFS
+    //Time Complexity = O(V + E)
+    //Space Complexity = O(V + E) =>
+    /* V = number of rooms
+    * E = total number of keys/edges across all rooms
+    */
+
+    void DFS(vector<vector<int>>& rooms, int src, vector<bool>& visited){
+        //mark source in visited true : because room 0 is unlocked
+        visited[src] = true;
+        
+        //traverse in neighbors of source
+        for(int &node : rooms[src]){
+            if(!visited[node]){
+                DFS(rooms, node, visited);
+            }
+        }
+    }
+    bool canVisitAllRooms(vector<vector<int>>& rooms) {
+        int n = rooms.size();
+
+        vector<bool> visited(n, false);
+
+        //func. call to DFS
+        DFS(rooms, 0, visited);
+
+        //check in visited : if all true => true , else => false
+        for(bool x : visited){
+            if(x == false){//any room x : false
+                return false;
+            }
+
+        }
+        
+        return true;
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

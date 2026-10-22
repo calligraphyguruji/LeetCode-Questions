@@ -49,10 +49,10 @@ Stones [0,0] and [1,1] cannot be removed since they do not share a row/column wi
 </ul>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ### Part 1
 
@@ -62,4 +62,72 @@ Stones [0,0] and [1,1] cannot be removed since they do not share a row/column wi
 
 ![Most Stones Removed with Same Row or Column — Part 2](./images/solution-part-2.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n²)
+Space Complexity = O(n)
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./0947-most-stones-removed-with-same-row-or-column.cpp)
+
+```cpp
+class Solution {
+public:
+    //Time Complexity = O(n²)
+    //Space Complexity = O(n)
+    void dfs(vector<vector<int>>& stones, int idx, vector<bool>& vis){
+
+        //mark curr idx true
+        vis[idx] = true ;
+        
+        //check every other stone
+        for(int i=0 ; i<stones.size() ; i++){
+            int r = stones[idx][0] ;
+            int c = stones[idx][1] ;
+
+            //compare curr stone with every node
+            if( (vis[i] == false) && (stones[i][0] == r || stones[i][1] == c) ){
+                
+                dfs(stones, i, vis) ;
+            }
+        }
+
+    }
+    int removeStones(vector<vector<int>>& stones) {
+        int n = stones.size() ;
+
+        //1.) create visited array
+        vector<bool> vis(n, false) ;
+
+        //2.) initialize group count 
+        int group = 0 ; 
+
+        //3.) traverse all stones
+        for(int i=0 ; i<n ; i++){
+            
+            if(vis[i] == true)
+                continue ;
+
+            else{ //explore unvisited stones using DFS
+                dfs(stones, i, vis) ;
+            }
+            group++ ; //after each dfs increase group count
+        }
+
+
+
+        //7.) Computer answer
+        return n - group ;
+
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

@@ -29,11 +29,55 @@ The second 1&#39;s next greater number needs to search circularly, which is also
 </ul>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ![Next Greater Element II — Visual Solution](./images/solution.jpeg)
 
-<!-- visual-solutions:end -->
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n+n) = O(2n) = O(n) => cause traversing whole array
+Space Complexity = O(n) => cause using extra data structure => " stack " ;
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./0503-next-greater-element-ii.cpp)
+
+```cpp
+class Solution {
+public: 
+    //Time Complexity = O(n+n) = O(2n) = O(n) => cause traversing whole array 
+    //Space Complexity = O(n) => cause using extra data structure => " stack " ;
+    vector<int> nextGreaterElements(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> ans(n, -1); //to store all nextG
+        stack<int> st; //to find nextG
+        //traverse 2 times for circular array
+        for (int i = 2 * n - 1; i >= 0; i--) {
+            while (!st.empty() && st.top() <= nums[i % n]) {
+                st.pop(); //remove elements lesser than current
+            }
+            //check if stack is empty then ans = -1
+            //else ans = st.top() 
+            if (i < n) {
+                ans[i] = st.empty() ? -1 : st.top();
+                //ternary statement for above checks
+            }
+            //push current element in the stack
+            st.push(nums[i % n]);
+        }
+
+        return ans; //very important to return all the nextG vector
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

@@ -28,10 +28,10 @@
 </ul>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ### Part 1
 
@@ -41,4 +41,92 @@
 
 ![Check Completeness of a Binary Tree — Part 2](./images/solution-part-2.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## 💡 Approach
+
+```text
+Approach : BFS + Queue
+```
+
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n) => for n nodes
+Space Complexity = O(n) =>
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./0958-check-completeness-of-a-binary-tree.cpp)
+
+```cpp
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    //Approach : BFS + Queue
+
+    //Time Complexity = O(n) => for n nodes
+    /* Every node is pushed into the queue once.
+    * Every node is popped from the queue once.
+    * Each node does constant work:
+    * check NULL
+    * push left child
+    * push right child
+    */
+
+    //Space Complexity = O(n) =>
+    /* Because of the queue:
+    * In the worst case, the queue can contain n nodes.
+    */
+
+    bool isCompleteTree(TreeNode* root) {
+        
+        queue<TreeNode*> q;
+        
+        //1.)
+        q.push(root);
+        
+        bool foundNull = false;
+
+        while(!q.empty()){
+            //2.)
+            TreeNode* node = q.front();
+            q.pop();
+            //3.)
+            if(node != NULL){
+                //3.a)
+                if(foundNull == true){
+                    return false;
+                }
+                
+                //3.b)
+                q.push(node->left);
+                q.push(node->right);
+            }
+            else{//means node is null
+                foundNull = true;
+            }
+        }
+        
+        //4.) If no non-NULL node is found after NULL, tree is complete.
+        return true;
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

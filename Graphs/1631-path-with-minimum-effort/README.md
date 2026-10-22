@@ -54,10 +54,10 @@ This is better than the route of [1,2,2,2,5], where the maximum absolute differe
 <!---LeetCode Approaches End-->
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ### Part 1
 
@@ -71,4 +71,260 @@ This is better than the route of [1,2,2,2,5], where the maximum absolute differe
 
 ![Path With Minimum Effort — Part 3](./images/solution-part-3.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## 💻 C++ Solution
+
+### 1631-path-with-minimum-effort.cpp
+
+#### 💡 Approach
+
+```text
+Approach-1 : Dijkstra's Algorithm
+```
+
+#### ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(m * n * logmn) =>
+Space Complexity = O(m * n) =>
+```
+
+[View Original C++ File](./1631-path-with-minimum-effort.cpp)
+
+```cpp
+class Solution {
+public:
+    //Approach-1 : Dijkstra's Algorithm
+    
+    //Time Complexity = O(m * n * logmn) =>
+    /* There are m * n cells in the grid.
+    * Each cell can be pushed into the min-heap multiple times in the worst case.
+    * Each heap operation (push/pop) takes O(log(m * n)).
+    */
+
+    //Space Complexity = O(m * n) =>
+    /* result[][] stores the minimum effort for every cell → O(m * n)
+    * Priority queue can contain up to O(m * n) cells.
+    * directions[] takes constant space.
+    */
+
+
+    typedef pair<int, pair<int,int>> P;
+    vector<vector<int>> directions{ {-1, 0}, {1, 0}, {0, -1}, {0, 1} };//up, down, left, right
+    int minimumEffortPath(vector<vector<int>>& heights) {
+        
+        int m = heights.size();//row size
+        int n = heights[0].size(); //column size
+
+        priority_queue<P, vector<P>, greater<P> > pq; //minHeap
+
+        vector<vector<int>> result(m, vector<int>(n, INT_MAX));
+
+        auto isSafe = [&](int r, int c){
+            return (r >= 0 && r < m && c >= 0 && c < n);
+        };
+
+        //push src in result & minHeap
+        result[0][0] = 0;
+        pq.push({0, {0,0}});
+
+        while(!pq.empty()){
+
+            int diff = pq.top().first;
+            auto cell = pq.top().second;
+            pq.pop();
+
+            int r = cell.first;
+            int c = cell.second;
+
+            //optimization
+            if(r == m-1 && c == n-1){
+                return diff;
+            }
+
+            //traverse in all 4 directions of curr cell
+            for(auto dir : directions){
+                int i = r + dir[0]; //row wise => up, down
+                int j = c + dir[1]; //column wise => left, right
+                
+                //check if isSafe() to visit (i, j)
+                if(isSafe(i, j)){
+                    int absDiff = abs(heights[r][c] - heights[i][j]);
+                    int maxDiff = max(diff, absDiff);
+
+                    //now in result push min and also in minHeap
+                    if(result[i][j] > maxDiff){ //if result is greater than curr maxDiff means this is min
+                        result[i][j] = maxDiff;
+
+                        pq.push({maxDiff, {i, j}});
+                    }
+                } 
+
+            }
+
+        }
+
+        //finally return the maxDiff value of (m-1, n-1) cell in result
+        return result[m-1][n-1];
+    }
+};
+```
+
+### 1631-path-with-minimum-effort-approach-2.cpp
+
+[View Original C++ File](./1631-path-with-minimum-effort-approach-2.cpp)
+
+```cpp
+class Solution {
+public:
+
+    typedef pair<int, pair<int,int>> P;
+    vector<vector<int>> directions{ {-1, 0}, {1, 0}, {0, -1}, {0, 1} };//up, down, left, right
+    int minimumEffortPath(vector<vector<int>>& heights) {
+        
+        int m = heights.size();//row size
+        int n = heights[0].size(); //column size
+
+        priority_queue<P, vector<P>, greater<P> > pq; //minHeap
+
+        vector<vector<int>> result(m, vector<int>(n, INT_MAX));
+
+        auto isSafe = [&](int r, int c){
+            return (r >= 0 && r < m && c >= 0 && c < n);
+        };
+
+        //push src in result & minHeap
+        result[0][0] = 0;
+        pq.push({0, {0,0}});
+
+        while(!pq.empty()){
+
+            int diff = pq.top().first;
+            auto cell = pq.top().second;
+            pq.pop();
+
+            int r = cell.first;
+            int c = cell.second;
+
+            //optimization
+            if(r == m-1 && c == n-1){
+                return diff;
+            }
+
+            //traverse in all 4 directions of curr cell
+            for(auto dir : directions){
+                int i = r + dir[0]; //row wise => up, down
+                int j = c + dir[1]; //column wise => left, right
+                
+                //check if isSafe() to visit (i, j)
+                if(isSafe(i, j)){
+                    int absDiff = abs(heights[r][c] - heights[i][j]);
+                    int maxDiff = max(diff, absDiff);
+
+                    //now in result push min and also in minHeap
+                    if(result[i][j] > maxDiff){ //if result is greater than curr maxDiff means this is min
+                        result[i][j] = maxDiff;
+
+                        pq.push({maxDiff, {i, j}});
+                    }
+                } 
+
+            }
+
+        }
+
+        //finally return the maxDiff value of (m-1, n-1) cell in result
+        return result[m-1][n-1];
+    }
+};
+```
+
+### 1631-path-with-minimum-effort-approach-3-dijkstras-algorithm.cpp
+
+#### 💡 Approach
+
+```text
+Approach-1 : Dijkstra's Algorithm
+```
+
+#### ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(m * n * logmn)
+Space Complexity = O(m * n)
+```
+
+[View Original C++ File](./1631-path-with-minimum-effort-approach-3-dijkstras-algorithm.cpp)
+
+```cpp
+class Solution {
+public:
+    //Approach-1 : Dijkstra's Algorithm
+    
+    //Time Complexity = O(m * n * logmn)
+
+    //Space Complexity = O(m * n)
+
+    typedef pair<int, pair<int,int>> P;
+    vector<vector<int>> directions{ {-1, 0}, {1, 0}, {0, -1}, {0, 1} };//up, down, left, right
+    int minimumEffortPath(vector<vector<int>>& heights) {
+        
+        int m = heights.size();//row size
+        int n = heights[0].size(); //column size
+
+        priority_queue<P, vector<P>, greater<P> > pq; //minHeap
+
+        vector<vector<int>> result(m, vector<int>(n, INT_MAX));
+
+        auto isSafe = [&](int r, int c){
+            return (r >= 0 && r < m && c >= 0 && c < n);
+        };
+
+        //push src in result & minHeap
+        result[0][0] = 0;
+        pq.push({0, {0,0}});
+
+        while(!pq.empty()){
+
+            int diff = pq.top().first;
+            auto cell = pq.top().second;
+            pq.pop();
+
+            int r = cell.first;
+            int c = cell.second;
+
+            //optimization
+            if(r == m-1 && c == n-1){
+                return diff;
+            }
+
+            //traverse in all 4 directions of curr cell
+            for(auto dir : directions){
+                int i = r + dir[0]; //row wise => up, down
+                int j = c + dir[1]; //column wise => left, right
+                
+                //check if isSafe() to visit (i, j)
+                if(isSafe(i, j)){
+                    int absDiff = abs(heights[r][c] - heights[i][j]);
+                    int maxDiff = max(diff, absDiff);
+
+                    //now in result push min and also in minHeap
+                    if(result[i][j] > maxDiff){ //if result is greater than curr maxDiff means this is min
+                        result[i][j] = maxDiff;
+
+                        pq.push({maxDiff, {i, j}});
+                    }
+                } 
+
+            }
+
+        }
+
+        //finally return the maxDiff value of (m-1, n-1) cell in result
+        return result[m-1][n-1];
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

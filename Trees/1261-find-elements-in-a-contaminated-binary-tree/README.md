@@ -75,10 +75,10 @@ findElements.find(5); // return True
 </ul>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ### Part 1
 
@@ -88,4 +88,95 @@ findElements.find(5); // return True
 
 ![Find Elements in a Contaminated Binary Tree — Part 2](./images/solution-part-2.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## 💡 Approach
+
+```text
+Approach : DFS + HashSet
+```
+
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n + q) =>
+Space Complexity = O(n) =>
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./1261-find-elements-in-a-contaminated-binary-tree.cpp)
+
+```cpp
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class FindElements {
+public:
+    //Approach : DFS + HashSet
+
+    //Time Complexity = O(n + q) =>
+    /* Constructor / Recovery: O(n) — visit every node once.
+    * find(): O(1) average — unordered_set lookup.
+    * Overall: O(n + q) average, where n = number of nodes and q = number of find() calls.
+    */
+
+    //Space Complexity = O(n) =>
+    /* Hash Set: O(n)
+    * DFS recursion stack: O(h), where h is tree height.
+    * Overall: O(n + h), which is effectively O(n).
+    */
+
+
+    unordered_set<int> values;
+
+    void recover(TreeNode* root, int val){
+
+        //base-case
+        if(root == NULL) return;
+
+        root->val = val;
+
+        values.insert(val);
+        
+        //if tree has left => val = 2*val + 1
+        recover(root->left, 2*val + 1);
+
+        //if tree has right => val = 2*val + 2
+        recover(root->right, 2*val + 2);
+
+    }
+    FindElements(TreeNode* root) {
+        
+        //intial val = 0
+
+        recover(root, 0);
+    }
+    
+    bool find(int target) {
+        
+        //check whether target exists in the set
+        return values.count(target) > 0; 
+    }
+};
+
+/**
+ * Your FindElements object will be instantiated and called as such:
+ * FindElements* obj = new FindElements(root);
+ * bool param_1 = obj->find(target);
+ */
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

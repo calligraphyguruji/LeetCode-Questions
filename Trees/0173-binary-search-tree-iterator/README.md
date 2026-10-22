@@ -50,10 +50,10 @@ bSTIterator.hasNext(); // return False
 </ul>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ### Part 1
 
@@ -63,4 +63,58 @@ bSTIterator.hasNext(); // return False
 
 ![Binary Search Tree Iterator — Part 2](./images/solution-part-2.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./0173-binary-search-tree-iterator.cpp)
+
+```cpp
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class BSTIterator {
+public: 
+    //S.C. = O(H) => H = height of the tree
+    stack<TreeNode*> st ;
+    void storeLeftNodes(TreeNode* root){
+        while(root != NULL){
+            st.push(root) ;
+            root = root->left ;
+        }
+    }
+    BSTIterator(TreeNode* root) { //T.C. = O(n)
+        storeLeftNodes(root) ;
+    }
+    
+    int next() { //T.C. = O(n)
+        TreeNode* ans = st.top() ;
+        st.pop() ;
+
+        storeLeftNodes(ans->right) ;
+
+        return ans->val ; //return int val of ans
+    }
+    
+    bool hasNext() { //T.C. = O(1)
+        return st.size() > 0 ;
+    }
+};
+
+/**
+ * Your BSTIterator object will be instantiated and called as such:
+ * BSTIterator* obj = new BSTIterator(root);
+ * int param_1 = obj->next();
+ * bool param_2 = obj->hasNext();
+ */
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

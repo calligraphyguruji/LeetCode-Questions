@@ -56,16 +56,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Validate tracker
-        env:
-          PYTHONDONTWRITEBYTECODE: '1'
-        run: python3 -m unittest discover -s tests -v
-
-      - name: Organize questions, integrate images, and refresh progress
+      - name: Organize questions, integrate images and C++ code, and refresh progress
         env:
           PYTHONDONTWRITEBYTECODE: '1'
           LEETCODE_USERNAME: calligraphyguruji
         run: python3 organize.py
+
+      - name: Validate generated READMEs and tracker
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python3 -m unittest discover -s tests -v
 
       - name: Commit organized solutions and updated progress
         env:

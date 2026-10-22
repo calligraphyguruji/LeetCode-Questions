@@ -39,10 +39,10 @@
 <p><strong>Follow up:</strong> Could you use search pruning to make your solution faster with a larger <code>board</code>?</p>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ### Part 1
 
@@ -52,4 +52,74 @@
 
 ![Word Search — Part 2](./images/solution-part-2.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(m × n × 4^L) => O(4^L) move in 4 directions
+Space Complexity = O(L) => recursive stack depth = L(length of word)
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./0079-word-search.cpp)
+
+```cpp
+class Solution {
+public:
+    //Time Complexity = O(m × n × 4^L) => O(4^L) move in 4 directions
+    //Space Complexity = O(L) => recursive stack depth = L(length of word)
+    
+    bool find(vector<vector<char>>& board, int i, int j, int idx,string &word, int m, int n ){
+        //basecase
+        if(idx == word.size()) return true ; //found
+        //edge cases
+        if(i < 0 || j < 0 || i >= m || j >= n || board[i][j] == '$'){
+            return false ; 
+        }
+
+        if(board[i][j] != word[idx]) return false ;
+       
+        //mark visited
+        char temp = board[i][j] ; //store in temp
+        board[i][j] = '$' ;
+        //main backtracking step 
+        // manually checking 4 directions(to save extra space)
+        if(find(board, i+1, j, idx+1, word, m, n)) return true; //move up
+        if(find(board, i-1, j, idx+1, word, m, n)) return true; //move down
+        if(find(board, i, j+1, idx+1, word, m, n)) return true; //move right
+        if(find(board, i, j-1, idx+1, word, m, n)) return true; //move left
+
+
+        //update again for next iterations or checks
+        board[i][j] = temp ;
+        
+        //if not found in upper loop then
+        return false ;
+
+    }
+
+
+    bool exist(vector<vector<char>>& board, string word) {
+       int m = board.size() ; //row size
+       int n = board[0].size() ; //col size
+
+        //Traverse the 2d matrix
+        for(int i=0 ; i<m ; i++){
+            for(int j=0 ; j<n ; j++){
+                if(board[i][j] == word[0] && find(board,i,j,0,word,m,n)){
+                    return true ; //found
+                }
+
+            }
+        }
+
+        return false ; //if not found in upper loop
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

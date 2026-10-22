@@ -30,11 +30,64 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 </ul>
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ![House Robber — Visual Solution](./images/solution.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n)
+Space Complexity = O(n)
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./0198-house-robber.cpp)
+
+```cpp
+class Solution {
+public:
+    //Method-1 : Top-Down Approach(Recursion + Memoization)
+
+    //Time Complexity = O(n)
+    //Space Complexity = O(n)
+    
+    int dp[101] ; //memoization dp array
+
+    int solve(vector<int>& nums, int i, int n){
+        //1.) Handle base case
+        if(i >= n) return 0 ;
+
+        //2.) check memoization array
+        if(dp[i] != -1){
+            return dp[i] ;
+        }
+
+        //3.) we have two choices
+        int rob = nums[i] + solve(nums, i+2, n) ;
+
+        int dont = solve(nums, i+1, n) ;
+
+        //return the max. ans
+        return dp[i] = max({rob , dont}) ;
+    }
+    int rob(vector<int>& nums) {
+
+        int n = nums.size() ;
+
+        memset(dp, -1, sizeof(dp)) ;//fill memoization array with -1
+
+        return solve(nums, 0, n) ;
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

@@ -59,11 +59,222 @@
 <!---LeetCode Approaches End-->
 
 
-<!-- visual-solutions:start -->
+<!-- AUTO-GENERATED-SOLUTION-START -->
 ---
 
-## 🧠 Visual Solution & Explanation
+## 🧠 Visual Solution & Intuition
 
 ![Binary Tree Right Side View — Visual Solution](./images/solution.jpg)
 
-<!-- visual-solutions:end -->
+---
+
+## 💻 C++ Solution
+
+### 0199-binary-tree-right-side-view.cpp
+
+[View Original C++ File](./0199-binary-tree-right-side-view.cpp)
+
+```cpp
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    vector<int> rightSideView(TreeNode* root) {
+
+        //base-case
+        if(root == NULL){
+            return {};
+        }
+
+        vector<int> ans; //to store rightmost nodes value
+
+        //create a queue
+        queue<TreeNode*> q;
+
+        //1.) push root in queue
+        q.push(root);
+
+        while(!q.empty()){
+            int levelSize = q.size(); //curr level size
+
+            for(int i=0; i<levelSize; i++){//traverse in curr level
+                TreeNode* node = q.front();
+                q.pop();
+                
+                //add the last node in ans
+                if(i == levelSize-1){
+                    ans.push_back(node->val);
+                }
+
+                //push left, right child of node
+                if(node->left != NULL){
+                    q.push(node->left);
+                }
+
+                if(node->right != NULL){
+                    q.push(node->right);
+                }
+            }
+        }
+
+        return ans;
+    }
+};
+```
+
+### 0199-binary-tree-right-side-view-approach-2-bfs.cpp
+
+#### 💡 Approach
+
+```text
+Approach-1 : BFS(Level Order Traversal)
+```
+
+#### ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n) => visiting n nodes
+Space Complexity = O(n) => extra ans vector used to store nodes value
+```
+
+[View Original C++ File](./0199-binary-tree-right-side-view-approach-2-bfs.cpp)
+
+```cpp
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    //Approach-1 : BFS(Level Order Traversal)
+
+    //Time Complexity = O(n) => visiting n nodes
+    //Space Complexity = O(n) => extra ans vector used to store nodes value
+
+
+    vector<int> rightSideView(TreeNode* root) {
+
+        //base-case
+        if(root == NULL){
+            return {};
+        }
+
+        vector<int> ans; //to store rightmost nodes value
+
+        //create a queue
+        queue<TreeNode*> q;
+
+        //1.) push root in queue
+        q.push(root);
+
+        while(!q.empty()){
+            int levelSize = q.size(); //curr level size
+
+            for(int i=0; i<levelSize; i++){//traverse in curr level
+                TreeNode* node = q.front();
+                q.pop();
+                
+                //add the last node in ans
+                if(i == levelSize-1){
+                    ans.push_back(node->val);
+                }
+
+                //push left, right child of node
+                if(node->left != NULL){
+                    q.push(node->left);
+                }
+
+                if(node->right != NULL){
+                    q.push(node->right);
+                }
+            }
+        }
+
+        return ans;
+    }
+};
+```
+
+### 0199-binary-tree-right-side-view-approach-3-dfs.cpp
+
+#### 💡 Approach
+
+```text
+Approach-2 : DFS(Preorder Traversal)
+```
+
+#### ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(h) => visiting n nodes
+Space Complexity = O(h) => extra ans vector used to store nodes value
+```
+
+[View Original C++ File](./0199-binary-tree-right-side-view-approach-3-dfs.cpp)
+
+```cpp
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    //Approach-2 : DFS(Preorder Traversal)
+
+    //Time Complexity = O(h) => visiting n nodes
+    //Space Complexity = O(h) => extra ans vector used to store nodes value
+    
+    void solve(TreeNode* root, int depth, vector<int>& ans){
+        //base case: empty tree
+        if(root == NULL){
+            return;
+        }
+        
+        if(depth == ans.size()){ //right node of this depth
+            ans.push_back(root->val);
+        }
+
+        //recursively traverse :
+        //1.) right subTree
+        solve(root->right, depth+1, ans);
+
+        //2.) left subTree
+        solve(root->left, depth+1, ans);
+    }
+    vector<int> rightSideView(TreeNode* root) {
+
+        vector<int> ans; //to store rightmost nodes value
+
+        int depth = 0;
+
+        solve(root, depth, ans);
+
+        return ans;
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

@@ -1,29 +1,36 @@
 class Solution {
 public:
-    //Time Complexity = O(n)
-    //Space Complexity = O(1)
     int maxArea(vector<int>& height) {
-       int n = height.size() ;
-    
-    int maxWater = 0 ;
-    int left = 0, right = n-1 ;
-    
-    while(left < right){
         
-      int  width = right-left ;
-        
-      int ht = min(height[left], height[right]) ;
-        
-      int  currWater = width*ht ;
-        
-        maxWater = max(maxWater,currWater) ;
-       
-       height[left] < height[right] ? left++ : right-- ;
-       //ternary operator to check cases in single line
-       //favorite replacement of if else sometimes
-        
-    }
-    
-    return maxWater ; 
+        int n = height.size();
+
+        //Step-1: Initialize two pointers
+        int left = 0;
+        int right = n-1;
+
+        int maxWater = 0;//to store the output
+
+        //Step-2: Traverse height array using two pointers
+        while(left < right){
+            
+            int width = right - left;//because right index is greater hence width should be positive.
+            int currHeight = min(height[left], height[right]);
+
+            int currArea = width * currHeight;
+
+            maxWater = max(maxWater, currArea);//update maxWater
+
+            //Step-7 : move pointer where height is minimum
+            if(height[left] < height[right]){
+                left++;
+            }
+            else{
+                right--;
+            }
+        }
+
+
+        //finally return the output
+        return maxWater;
     }
 };

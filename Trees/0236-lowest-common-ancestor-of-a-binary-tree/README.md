@@ -36,3 +36,19 @@
 	<li><code>p != q</code></li>
 	<li><code>p</code> and <code>q</code> will exist in the tree.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Lowest Common Ancestor of a Binary Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Lowest Common Ancestor of a Binary Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

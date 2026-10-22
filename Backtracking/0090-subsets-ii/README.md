@@ -17,3 +17,19 @@
 	<li><code>1 &lt;= nums.length &lt;= 10</code></li>
 	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Subsets II — Part 1](./images/solution-part-1.jpeg)
+
+### Part 2
+
+![Subsets II — Part 2](./images/solution-part-2.jpeg)
+
+<!-- visual-solutions:end -->

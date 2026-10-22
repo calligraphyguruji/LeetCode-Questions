@@ -33,3 +33,13 @@ Notice that the answer must be a substring, &quot;pwke&quot; is a subsequence an
 	<li><code>0 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>s</code> consists of English letters, digits, symbols and spaces.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Longest Substring Without Repeating Characters — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

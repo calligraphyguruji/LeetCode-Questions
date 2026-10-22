@@ -40,3 +40,19 @@
 	<li>The number of nodes in the list will be in the range <code>[1, 100]</code>.</li>
 	<li><code>1 &lt;= Node.val&nbsp;&lt;= 100</code>&nbsp;for each node in the linked list and binary tree.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Linked List in Binary Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Linked List in Binary Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

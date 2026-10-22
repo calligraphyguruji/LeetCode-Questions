@@ -60,3 +60,19 @@ class Node {
 	<li>There are no repeated edges and no self-loops in the graph.</li>
 	<li>The Graph is connected and all nodes can be visited starting from the given node.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Clone Graph — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Clone Graph — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

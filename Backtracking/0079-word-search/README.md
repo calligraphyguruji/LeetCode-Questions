@@ -37,3 +37,19 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you use search pruning to make your solution faster with a larger <code>board</code>?</p>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Word Search — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Word Search — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

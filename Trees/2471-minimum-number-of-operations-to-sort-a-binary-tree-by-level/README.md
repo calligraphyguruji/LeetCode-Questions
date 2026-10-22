@@ -49,3 +49,19 @@ It can be proven that 3 is the minimum number of operations needed.
 	<li><code>1 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 	<li>All the values of the tree are <strong>unique</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Minimum Number of Operations to Sort a Binary Tree by Level — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Minimum Number of Operations to Sort a Binary Tree by Level — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

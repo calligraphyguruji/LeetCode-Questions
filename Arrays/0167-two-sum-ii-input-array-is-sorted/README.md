@@ -43,3 +43,13 @@
 	<li><code>-1000 &lt;= target &lt;= 1000</code></li>
 	<li>The tests are generated such that there is <strong>exactly one solution</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Two Sum II - Input Array Is Sorted — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

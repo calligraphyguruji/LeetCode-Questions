@@ -17,6 +17,7 @@ This repository contains my solutions to various LeetCode problems, organized by
 - Time and Space complexity analysis
 - Clean, optimal C++ code implementation
 - Full problem statements and constraints
+- Visual handwritten algorithmic diagrams and walkthroughs (where available)
 
 The goal is simple: **practice daily, think deeply, and get better at solving problems one step at a time.**
 

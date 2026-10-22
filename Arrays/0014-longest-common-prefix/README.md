@@ -26,3 +26,13 @@
 	<li><code>0 &lt;= strs[i].length &lt;= 200</code></li>
 	<li><code>strs[i]</code> consists of only lowercase English letters if it is non-empty.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Longest Common Prefix — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

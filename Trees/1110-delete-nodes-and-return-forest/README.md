@@ -28,3 +28,19 @@
 	<li><code>to_delete.length &lt;= 1000</code></li>
 	<li><code>to_delete</code> contains distinct values between <code>1</code> and <code>1000</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Delete Nodes And Return Forest — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Delete Nodes And Return Forest — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

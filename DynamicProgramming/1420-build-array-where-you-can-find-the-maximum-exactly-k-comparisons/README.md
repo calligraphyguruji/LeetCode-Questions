@@ -44,3 +44,18 @@
 	<li><code>0 &lt;= k &lt;= n</code></li>
 </ul>
 
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Build Array Where You Can Find The Maximum Exactly K Comparisons — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Build Array Where You Can Find The Maximum Exactly K Comparisons — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

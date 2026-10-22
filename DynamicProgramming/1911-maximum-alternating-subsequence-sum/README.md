@@ -43,3 +43,18 @@
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Maximum Alternating Subsequence Sum — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Maximum Alternating Subsequence Sum — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

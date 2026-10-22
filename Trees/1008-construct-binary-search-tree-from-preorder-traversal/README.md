@@ -29,3 +29,13 @@
 	<li><code>1 &lt;= preorder[i] &lt;= 1000</code></li>
 	<li>All the values of <code>preorder</code> are <strong>unique</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Construct Binary Search Tree from Preorder Traversal — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

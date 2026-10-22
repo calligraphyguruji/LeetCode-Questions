@@ -1,0 +1,311 @@
+"""Offline safety and lifecycle tests for visual solution integration."""
+import json
+from pathlib import Path
+import tempfile
+import unittest
+from unittest.mock import patch
+
+from scripts import organize as o
+from scripts import visual_solutions as v
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = o.load_neetcode_data(ROOT / 'neetcode150.json')
+
+
+class VisualTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name).resolve()
+        (self.root / 'neetcode150.json').write_text(json.dumps(DATA))
+        (self.root / 'README.md').write_text('# Repository\n')
+        self.problem(1, 'two-sum', 'Two Sum')
+        self.problem(112, 'path-sum', 'Path Sum', 'Trees')
+        self.problem(113, 'path-sum-ii', 'Path Sum II', 'Trees')
+        (self.root / 'docs').mkdir()
+        (self.root / v.ALIASES).write_bytes((ROOT / v.ALIASES).read_bytes())
+
+    def problem(self, number, slug, title, topic='Arrays'):
+        path = self.root / topic / f'{number:04d}-{slug}'
+        path.mkdir(parents=True, exist_ok=True)
+        (path / 'README.md').write_text(
+            f'<h2><a href="https://leetcode.com/problems/{slug}/">{number}. {title}</a></h2>'
+            '<h3>Medium</h3>\n\nKeep statement, examples, constraints and [code](solution.cpp).\n')
+        (path / 'solution.cpp').write_text('class Solution { public: int answer() { return 1; } };\n')
+        return path
+
+    def image(self, name, content=b'\xff\xd8\xffexample-jpeg-bytes'):
+        path = self.root / v.SOURCE / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(content)
+        return path
+
+    def run_images(self, dry_run=False):
+        with patch('urllib.request.urlopen', side_effect=AssertionError('Network forbidden')):
+            scan = o.scan_repository(self.root, DATA)
+            return v.integrate_images(self.root, scan, dry_run=dry_run)
+
+    def snapshot(self):
+        return {p.relative_to(self.root).as_posix(): (p.read_bytes(), p.stat().st_mtime_ns)
+                for p in self.root.rglob('*') if p.is_file()}
+
+    def test_number_and_title_disagreement(self):
+        self.image('112-Two-Sum.jpg')
+        result = self.run_images()
+        self.assertEqual(result['matched'], 0)
+        self.assertIn('conflict', result['unmatched'][0]['reason'])
+        self.assertFalse(list(self.root.rglob('images')))
+
+    def test_path_sum_problems_stay_separate(self):
+        self.image('112-Path-Sum-Part-I.jpg', b'112')
+        self.image('113-Path-Sum-Part-II.jpg', b'113')
+        result = self.run_images()
+        self.assertEqual([e['number'] for e in result['entries']], [112, 113])
+        for entry in result['entries']:
+            self.assertIn(f'{entry["number"]:04d}-', entry['destination'])
+            self.assertEqual(v.digest(self.root / entry['source']), v.digest(self.root / entry['destination']))
+
+    def test_unreviewed_path_sum_number_conflict(self):
+        self.image('113-Path-Sum-Part-I.jpg')
+        self.assertEqual(self.run_images()['matched'], 0)
+
+    def test_exact_title_and_abbreviation(self):
+        self.problem(111, 'minimum-depth-of-binary-tree', 'Minimum Depth of Binary Tree', 'Trees')
+        self.image('111-Min-Depth-of-BT.jpg')
+        self.assertEqual(self.run_images()['entries'][0]['number'], 111)
+
+    def test_title_only_and_trailing_id(self):
+        self.problem(122, 'best-time-to-buy-and-sell-stock-ii', 'Best Time to Buy and Sell Stock II')
+        self.image('Two Sum.png', b'1')
+        self.image('Best time to buy sell stocks -122.jpg', b'122')
+        self.assertEqual([e['number'] for e in self.run_images()['entries']], [1, 122])
+
+    def test_01_matrix_is_not_problem_one(self):
+        self.image('01 Matrix Part-I.jpg')
+        self.assertEqual(self.run_images()['matched'], 0)
+        self.problem(542, '01-matrix', '01 Matrix', 'Graphs')
+        self.assertEqual(self.run_images()['entries'][0]['number'], 542)
+
+    def test_roman_and_numeric_part_order(self):
+        for part in ['III', 'I', '10', 'II', 'IV']:
+            self.image(f'1-Two-Sum-Part-{part}.jpg', part.encode())
+        self.run_images()
+        text = (self.root / 'Arrays/0001-two-sum/README.md').read_text()
+        positions = [text.index(f'### Part {part}\n') for part in [1, 2, 3, 4, 10]]
+        self.assertEqual(positions, sorted(positions))
+        self.assertEqual(v.validate_image_references(self.root / 'Arrays/0001-two-sum'), 5)
+
+    def test_dry_run_writes_nothing(self):
+        self.image('1-Two-Sum.jpg')
+        before = self.snapshot()
+        self.assertEqual(self.run_images(dry_run=True)['copied'], 1)
+        self.assertEqual(before, self.snapshot())
+
+    def test_idempotency_preserves_mtimes_and_original_content(self):
+        source = self.image('1-Two-Sum.jpg')
+        readme = self.root / 'Arrays/0001-two-sum/README.md'
+        original = readme.read_bytes()
+        cpp = readme.parent / 'solution.cpp'
+        code = cpp.read_bytes()
+        self.run_images()
+        before = self.snapshot()
+        second = self.run_images()
+        self.assertEqual(second['copied'], 0)
+        self.assertEqual(second['readmes_updated'], 0)
+        self.assertEqual(before, self.snapshot())
+        self.assertTrue(readme.read_bytes().startswith(original))
+        self.assertEqual(cpp.read_bytes(), code)
+        self.assertTrue(source.is_file())
+
+    def test_future_image_then_future_problem(self):
+        self.image('36-Valid-Sudoku-Part-I.jpg')
+        self.assertEqual(self.run_images()['matched'], 0)
+        self.assertFalse(list(self.root.rglob('0036-*')))
+        self.problem(36, 'valid-sudoku', 'Valid Sudoku')
+        self.assertEqual(self.run_images()['matched'], 1)
+        self.image('36-Valid-Sudoku-Part-II.jpg', b'new-page')
+        self.assertEqual(self.run_images()['copied'], 1)
+        self.assertEqual(v.validate_image_references(self.root / 'Arrays/0036-valid-sudoku'), 2)
+
+    def test_duplicate_bytes_one_destination_and_one_reference(self):
+        self.image('1-Two-Sum-Part-I.jpg')
+        self.image('1-Two-Sum-Part-II.jpg')
+        result = self.run_images()
+        self.assertEqual(len({e['destination'] for e in result['entries']}), 1)
+        self.assertEqual(v.validate_image_references(self.root / 'Arrays/0001-two-sum'), 1)
+
+    def test_preexisting_identical_image_reused(self):
+        src = self.image('1-Two-Sum.jpg')
+        path = self.root / 'Arrays/0001-two-sum/images/original photo.jpg'
+        path.parent.mkdir()
+        path.write_bytes(src.read_bytes())
+        result = self.run_images()
+        self.assertEqual(result['copied'], 0)
+        self.assertEqual(result['entries'][0]['destination'], path.relative_to(self.root).as_posix())
+        self.assertIn('original%20photo.jpg', (path.parent.parent / 'README.md').read_text())
+        self.assertEqual(v.validate_image_references(path.parent.parent), 1)
+
+    def test_conflicting_existing_filename_never_overwritten(self):
+        self.image('1-Two-Sum.jpg')
+        path = self.root / 'Arrays/0001-two-sum/images/solution.jpg'
+        path.parent.mkdir()
+        path.write_bytes(b'keep')
+        result = self.run_images()
+        self.assertEqual(path.read_bytes(), b'keep')
+        self.assertNotEqual(result['entries'][0]['destination'], path.relative_to(self.root).as_posix())
+        self.assertEqual(self.run_images()['copied'], 0)
+
+    def test_missing_sources_supported_and_corruption_detected(self):
+        src = self.image('1-Two-Sum.jpg')
+        result = self.run_images()
+        src.unlink()
+        before = self.snapshot()
+        self.run_images()
+        self.assertEqual(before, self.snapshot())
+        dst = self.root / result['entries'][0]['destination']
+        dst.write_bytes(b'corrupted')
+        with self.assertRaisesRegex(ValueError, 'refusing overwrite'):
+            self.run_images()
+        self.assertEqual(dst.read_bytes(), b'corrupted')
+
+    def test_changed_source_fails_without_overwriting(self):
+        src = self.image('1-Two-Sum.jpg')
+        self.run_images()
+        src.write_bytes(b'replacement')
+        before = self.snapshot()
+        with self.assertRaisesRegex(ValueError, 'source changed'):
+            self.run_images()
+        self.assertEqual(before, self.snapshot())
+
+    def test_unknown_and_unsupported_files_untouched(self):
+        self.image('mystery.jpg')
+        self.image('not-a-solution.txt', b'leave alone')
+        before = self.snapshot()
+        result = self.run_images()
+        self.assertEqual(result['discovered'], 1)
+        self.assertEqual(len(result['unmatched']), 1)
+        self.assertEqual(before, self.snapshot())
+
+    def test_preflight_bad_readme_prevents_all_copies(self):
+        self.image('1-Two-Sum.jpg')
+        path = self.root / 'Arrays/0001-two-sum/README.md'
+        path.write_text(path.read_text() + v.START)
+        before = self.snapshot()
+        with self.assertRaisesRegex(ValueError, 'markers'):
+            self.run_images()
+        self.assertEqual(before, self.snapshot())
+
+    def test_unmanaged_visual_section_not_duplicated(self):
+        self.image('1-Two-Sum.jpg')
+        path = self.root / 'Arrays/0001-two-sum/README.md'
+        path.write_text(path.read_text() + '\n' + v.HEADING)
+        with self.assertRaisesRegex(ValueError, 'Unmanaged'):
+            self.run_images()
+        self.assertFalse((path.parent / 'images').exists())
+
+    def test_ambiguous_existing_folders_not_chosen(self):
+        self.problem(1, 'two-sum', 'Two Sum', 'Other')
+        self.image('1-Two-Sum.jpg')
+        result = self.run_images()
+        self.assertEqual(result['matched'], 0)
+        self.assertIn('multiple', result['unmatched'][0]['reason'])
+
+    def test_identical_bytes_across_different_problems_fail(self):
+        self.image('1-Two-Sum.jpg')
+        self.image('112-Path-Sum.jpg')
+        with self.assertRaisesRegex(ValueError, 'different problems'):
+            self.run_images()
+        self.assertFalse(list(self.root.rglob('images')))
+
+    def test_resubmitted_readme_keeps_visuals_without_source(self):
+        src_image = self.image('1-Two-Sum.jpg')
+        self.run_images()
+        src_image.unlink()
+        dst = self.root / 'Arrays/0001-two-sum'
+        block = v.visual_block((dst / 'README.md').read_text())
+        incoming = self.problem(1, 'two-sum', 'Two Sum', '.')
+        with patch('urllib.request.urlopen', side_effect=AssertionError('Network forbidden')):
+            o.scan_and_reorganize(base_dir=self.root)
+        self.assertFalse(incoming.exists())
+        self.assertIn(block, (dst / 'README.md').read_text())
+        self.run_images()
+        self.assertEqual(v.validate_image_references(dst), 1)
+
+    def test_nested_cleanup_preserves_image_subdirectories(self):
+        dst = self.root / 'Arrays/0001-two-sum'
+        nested = dst / dst.name
+        (nested / 'images').mkdir(parents=True)
+        (nested / 'images/notes.jpg').write_bytes(b'preserve nested image')
+        with patch('subprocess.run'):
+            o.clean_nested_directories(self.root)
+        self.assertFalse(nested.exists())
+        self.assertEqual((dst / 'images/notes.jpg').read_bytes(), b'preserve nested image')
+
+    def test_resubmission_image_conflict_preserves_both_folders(self):
+        src_image = self.image('1-Two-Sum.jpg')
+        self.run_images()
+        src = self.problem(1, 'two-sum', 'Two Sum', '.')
+        (src / 'images').mkdir()
+        (src / 'images/solution.jpg').write_bytes(b'different image')
+        before = self.snapshot()
+        with self.assertRaisesRegex(ValueError, 'Conflicting incoming image'):
+            o.move_or_merge_question(str(src), str(self.root / 'Arrays/0001-two-sum'), self.root)
+        self.assertEqual(before, self.snapshot())
+        self.assertTrue(src_image.exists())
+
+    def test_different_managed_readme_sections_require_review(self):
+        old = v.START + '\n![Old](./images/old.jpg)\n' + v.END
+        new = v.START + '\n![New](./images/new.jpg)\n' + v.END
+        with self.assertRaisesRegex(ValueError, 'Conflicting visual sections'):
+            v.preserve_visual_section(new, old)
+
+    def test_symlink_source_rejected_without_writes(self):
+        src = self.image('1-Two-Sum.jpg')
+        target = self.root / 'external.jpg'
+        src.rename(target)
+        src.symlink_to(target)
+        with self.assertRaisesRegex(ValueError, 'Symlink'):
+            self.run_images()
+        self.assertFalse(list(self.root.rglob('images')))
+
+    def test_full_organizer_pipeline_integrates_after_move(self):
+        src = self.problem(36, 'valid-sudoku', 'Valid Sudoku', '.')
+        self.image('36-Valid-Sudoku-Part-I.jpg')
+        with patch.object(o, 'BASE_DIR', str(self.root)), patch('sys.argv', ['organize.py', '--offline']):
+            self.assertEqual(o.main(), 0)
+        self.assertFalse(src.exists())
+        before = self.snapshot()
+        with patch.object(o, 'BASE_DIR', str(self.root)), patch('sys.argv', ['organize.py', '--offline']):
+            self.assertEqual(o.main(), 0)
+        self.assertEqual(before, self.snapshot())
+
+    def test_broken_relative_link_detected(self):
+        self.image('1-Two-Sum.jpg')
+        result = self.run_images()
+        (self.root / result['entries'][0]['destination']).unlink()
+        with self.assertRaisesRegex(ValueError, 'Missing image'):
+            v.validate_image_references(self.root / 'Arrays/0001-two-sum')
+
+    def test_topic_override_does_not_move_source_images_or_loose_images(self):
+        source = self.image('3286-Find-Safe-Walk-Grid-Part-I.jpg')
+        loose = self.root / 'Graphs/3286-Find-Safe-Walk-Grid-Part-II.jpg'
+        loose.parent.mkdir()
+        loose.write_bytes(b'leave loose files alone')
+        before = self.snapshot()
+        with patch('subprocess.run') as git:
+            o.scan_and_reorganize(base_dir=self.root)
+        git.assert_not_called()
+        self.assertTrue(source.is_file())
+        self.assertTrue(loose.is_file())
+        self.assertEqual(before, self.snapshot())
+
+    def test_part_parser_does_not_strip_problem_series(self):
+        for name, title, part in [('House Robber-II.jpg', 'House Robber-II', None),
+                                  ('Subsets_II_Part_I.jpeg', 'Subsets_II', 1),
+                                  ('SubArray Sum Equals K Part_II.jpeg', 'SubArray Sum Equals K', 2)]:
+            parsed = v.parse_image_name(name)
+            self.assertEqual((parsed.title, parsed.part), (title, part))
+
+
+if __name__ == '__main__':
+    unittest.main()

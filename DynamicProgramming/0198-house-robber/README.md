@@ -28,3 +28,13 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
 	<li><code>0 &lt;= nums[i] &lt;= 400</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![House Robber — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

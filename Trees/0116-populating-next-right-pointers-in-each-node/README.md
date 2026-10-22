@@ -44,3 +44,13 @@ struct Node {
 	<li>You may only use constant extra space.</li>
 	<li>The recursive approach is fine. You may assume implicit stack space does not count as extra space for this problem.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Populating Next Right Pointers in Each Node — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

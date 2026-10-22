@@ -34,3 +34,19 @@ Window position                Max
 	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Sliding Window Maximum — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Sliding Window Maximum — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

@@ -34,3 +34,19 @@
 	<li>The number of nodes in each tree is in the range <code>[0, 100]</code>.</li>
 	<li>Each tree will have <strong>unique node values</strong> in the range <code>[0, 99]</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Flip Equivalent Binary Trees — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Flip Equivalent Binary Trees — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

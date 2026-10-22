@@ -54,3 +54,19 @@ So only the second letter &#39;o&#39; in baseStr is changed to &#39;d&#39;, the 
 	<li><code>s1.length == s2.length</code></li>
 	<li><code>s1</code>, <code>s2</code>, and <code>baseStr</code> consist of lowercase English letters.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Lexicographically Smallest Equivalent String — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Lexicographically Smallest Equivalent String — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

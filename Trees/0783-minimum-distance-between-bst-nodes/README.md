@@ -25,3 +25,13 @@
 
 <p>&nbsp;</p>
 <p><strong>Note:</strong> This question is the same as 530: <a href="https://leetcode.com/problems/minimum-absolute-difference-in-bst/" target="_blank">https://leetcode.com/problems/minimum-absolute-difference-in-bst/</a></p>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Minimum Distance Between BST Nodes — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

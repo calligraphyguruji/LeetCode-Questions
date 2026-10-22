@@ -24,3 +24,18 @@
 	<li><code>s</code> consist of only digits and English letters.</li>
 </ul>
 
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Longest Palindromic Substring — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Longest Palindromic Substring — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

@@ -38,3 +38,19 @@
 	<li><code>0 &lt;= sum(nums[i]) &lt;= 1000</code></li>
 	<li><code>-1000 &lt;= target &lt;= 1000</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Target Sum — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Target Sum — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

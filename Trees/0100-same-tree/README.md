@@ -31,3 +31,19 @@
 	<li>The number of nodes in both trees is in the range <code>[0, 100]</code>.</li>
 	<li><code>-10<sup>4</sup> &lt;= Node.val &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Same Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Same Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

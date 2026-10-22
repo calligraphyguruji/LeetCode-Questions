@@ -45,3 +45,18 @@
 	<li><code>words[i]</code> only consists of lowercase English letters.</li>
 </ul>
 
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Longest String Chain — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Longest String Chain — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

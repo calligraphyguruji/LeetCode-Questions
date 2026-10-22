@@ -37,3 +37,19 @@
 	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>5</sup>]</code>.</li>
 	<li><code>1 &lt;= Node.val &lt;= 9</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Pseudo-Palindromic Paths in a Binary Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Pseudo-Palindromic Paths in a Binary Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

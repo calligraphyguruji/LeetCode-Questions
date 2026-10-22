@@ -18,3 +18,19 @@
 	<li><code>-1000 &lt;= nums[i] &lt;= 1000</code></li>
 	<li><code>-10<sup>7</sup> &lt;= k &lt;= 10<sup>7</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Subarray Sum Equals K — Part 1](./images/solution-part-1.jpeg)
+
+### Part 2
+
+![Subarray Sum Equals K — Part 2](./images/solution-part-2.jpeg)
+
+<!-- visual-solutions:end -->

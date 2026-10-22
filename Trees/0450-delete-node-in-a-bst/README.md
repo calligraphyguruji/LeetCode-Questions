@@ -47,3 +47,19 @@ Please notice that another valid answer is [5,2,6,null,4,null,7] and it&#39;s al
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you solve it with time complexity <code>O(height of tree)</code>?</p>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Delete Node in a BST — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Delete Node in a BST — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

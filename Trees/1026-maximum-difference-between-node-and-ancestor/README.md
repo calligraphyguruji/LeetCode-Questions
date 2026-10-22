@@ -37,3 +37,19 @@ Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 
 - [Approach 2 (C++)](1026-maximum-difference-between-node-and-ancestor-approach-2-optimal.cpp) — *Optimal(DFS + Min/Max on Current Path)*
 
 <!---LeetCode Approaches End-->
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Maximum Difference Between Node and Ancestor — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Maximum Difference Between Node and Ancestor — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

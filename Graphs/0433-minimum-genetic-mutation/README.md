@@ -35,3 +35,19 @@
 	<li><code>startGene.length == endGene.length == bank[i].length == 8</code></li>
 	<li><code>startGene</code>, <code>endGene</code>, and <code>bank[i]</code> consist of only the characters <code>[&#39;A&#39;, &#39;C&#39;, &#39;G&#39;, &#39;T&#39;]</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Minimum Genetic Mutation — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Minimum Genetic Mutation — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

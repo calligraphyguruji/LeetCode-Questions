@@ -1,0 +1,434 @@
+{
+  "allnodesdistancekbinarytree": {
+    "number": 863,
+    "slug": "all-nodes-distance-k-in-binary-tree"
+  },
+  "allpathsfromsourcetarget": {
+    "number": 797,
+    "slug": "all-paths-from-source-to-target"
+  },
+  "amountoftimetoinfect": {
+    "number": 2385,
+    "slug": "amount-of-time-for-binary-tree-to-be-infected"
+  },
+  "besttimetobuysellstocks": {
+    "number": 122,
+    "slug": "best-time-to-buy-and-sell-stock-ii"
+  },
+  "binarysearchtreeiterator": {
+    "number": 173,
+    "slug": "binary-search-tree-iterator"
+  },
+  "binarysearchtreetogstoptimal": {
+    "number": 1038,
+    "slug": "binary-search-tree-to-greater-sum-tree"
+  },
+  "binarytreezigzaglevelordertraversal": {
+    "number": 103,
+    "slug": "binary-tree-zigzag-level-order-traversal"
+  },
+  "buildarraylishard": {
+    "number": 1420,
+    "slug": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons"
+  },
+  "cheapesflights": {
+    "number": 787,
+    "slug": "cheapest-flights-within-k-stops"
+  },
+  "cheapestflights": {
+    "number": 787,
+    "slug": "cheapest-flights-within-k-stops"
+  },
+  "checkcompletenessbinarytree": {
+    "number": 958,
+    "slug": "check-completeness-of-a-binary-tree"
+  },
+  "combinationsumii": {
+    "number": 40,
+    "slug": "combination-sum-ii"
+  },
+  "constructabinarytreefrompreinordertraversal": {
+    "number": 105,
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal"
+  },
+  "constructbinarysearchtreefrompreorder": {
+    "number": 1008,
+    "slug": "construct-binary-search-tree-from-preorder-traversal"
+  },
+  "constructbinarytreefrominorderpostorder": {
+    "number": 106,
+    "slug": "construct-binary-tree-from-inorder-and-postorder-traversal"
+  },
+  "constructbinarytreefrompreinordertraversal": {
+    "number": 105,
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal"
+  },
+  "countnodesequaltoavg": {
+    "number": 2265,
+    "slug": "count-nodes-equal-to-average-of-subtree"
+  },
+  "countunreachablenodes": {
+    "number": 2316,
+    "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph"
+  },
+  "courseschedulecyclegraph": {
+    "number": 207,
+    "slug": "course-schedule"
+  },
+  "createbinarytreefromdescription": {
+    "number": 2196,
+    "slug": "create-binary-tree-from-descriptions"
+  },
+  "deleteanodeinbinarysearchtree": {
+    "number": 450,
+    "slug": "delete-node-in-a-bst"
+  },
+  "deleteleavesbinarytree": {
+    "number": 1325,
+    "slug": "delete-leaves-with-a-given-value"
+  },
+  "diameteroftree": {
+    "number": 543,
+    "slug": "diameter-of-binary-tree"
+  },
+  "diamteroftree": {
+    "number": 543,
+    "slug": "diameter-of-binary-tree"
+  },
+  "distributedcoinsbinarytree": {
+    "number": 979,
+    "slug": "distribute-coins-in-binary-tree"
+  },
+  "filename:113-Path-Sum-Part-II.jpg": {
+    "number": 113,
+    "slug": "path-sum-ii"
+  },
+  "findclosestnodetogiven": {
+    "number": 2359,
+    "slug": "find-closest-node-to-given-two-nodes"
+  },
+  "findelementsincontaminatedbinarytree": {
+    "number": 1261,
+    "slug": "find-elements-in-a-contaminated-binary-tree"
+  },
+  "findlargestvalueinlevel": {
+    "number": 515,
+    "slug": "find-largest-value-in-each-tree-row"
+  },
+  "findpath": {
+    "number": 1971,
+    "slug": "find-if-path-exists-in-graph"
+  },
+  "findsafewalkgrid": {
+    "number": 3286,
+    "slug": "find-a-safe-walk-through-a-grid"
+  },
+  "firstuniquecharacterinstring": {
+    "number": 387,
+    "slug": "first-unique-character-in-a-string"
+  },
+  "flattenbinarysearchtreetolinkedlist": {
+    "number": 114,
+    "slug": "flatten-binary-tree-to-linked-list"
+  },
+  "flipequivalentbinarytree": {
+    "number": 951,
+    "slug": "flip-equivalent-binary-trees"
+  },
+  "floodfillalgorithm": {
+    "number": 733,
+    "slug": "flood-fill"
+  },
+  "heightaftersubtreeremoval": {
+    "number": 2458,
+    "slug": "height-of-binary-tree-after-subtree-removal-queries"
+  },
+  "houserobberi": {
+    "number": 198,
+    "slug": "house-robber"
+  },
+  "implementationstackusingqueues": {
+    "number": 225,
+    "slug": "implement-stack-using-queues"
+  },
+  "kmplongesthappyprefix": {
+    "number": 1392,
+    "slug": "longest-happy-prefix"
+  },
+  "knightstourconfiguration": {
+    "number": 2596,
+    "slug": "check-knight-tour-configuration"
+  },
+  "kthlargestelementinarray": {
+    "number": 215,
+    "slug": "kth-largest-element-in-an-array"
+  },
+  "kthlargestinstream": {
+    "number": 703,
+    "slug": "kth-largest-element-in-a-stream"
+  },
+  "kthsmallestinasortedmatrix": {
+    "number": 378,
+    "slug": "kth-smallest-element-in-a-sorted-matrix"
+  },
+  "kthsmallestinbinarysearchtree": {
+    "number": 230,
+    "slug": "kth-smallest-element-in-a-bst"
+  },
+  "levelordertraversal": {
+    "number": 102,
+    "slug": "binary-tree-level-order-traversal"
+  },
+  "lexicographicalsmallestequivalent": {
+    "number": 1061,
+    "slug": "lexicographically-smallest-equivalent-string"
+  },
+  "linkedlistbinarytree": {
+    "number": 1367,
+    "slug": "linked-list-in-binary-tree"
+  },
+  "longestconsecutivesequence": {
+    "number": 128,
+    "slug": "longest-consecutive-sequence"
+  },
+  "longestpalindromicsequence": {
+    "number": 516,
+    "slug": "longest-palindromic-subsequence"
+  },
+  "longestpathwithdiffcharacters": {
+    "number": 2246,
+    "slug": "longest-path-with-different-adjacent-characters"
+  },
+  "longestsubstringwithoutrepeatingcharacters": {
+    "number": 3,
+    "slug": "longest-substring-without-repeating-characters"
+  },
+  "lowestcommonancestor": {
+    "number": 236,
+    "slug": "lowest-common-ancestor-of-a-binary-tree"
+  },
+  "lowestcommonancestorofbinarysearchtree": {
+    "number": 235,
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree"
+  },
+  "maxdiffbwnodesancestor": {
+    "number": 1026,
+    "slug": "maximum-difference-between-node-and-ancestor"
+  },
+  "maximumalternatiingsum": {
+    "number": 1911,
+    "slug": "maximum-alternating-subsequence-sum"
+  },
+  "maximumalternatingsum": {
+    "number": 1911,
+    "slug": "maximum-alternating-subsequence-sum"
+  },
+  "maximumlengthofaconcatenatedstring": {
+    "number": 1239,
+    "slug": "maximum-length-of-a-concatenated-string-with-unique-characters"
+  },
+  "maximumlevelsum": {
+    "number": 1161,
+    "slug": "maximum-level-sum-of-a-binary-tree"
+  },
+  "maximumnonnegative": {
+    "number": 1594,
+    "slug": "maximum-non-negative-product-in-a-matrix"
+  },
+  "maximumnonnegativeproduct": {
+    "number": 1594,
+    "slug": "maximum-non-negative-product-in-a-matrix"
+  },
+  "maximumpathsum": {
+    "number": 124,
+    "slug": "binary-tree-maximum-path-sum"
+  },
+  "maximumwidthofbinarytree": {
+    "number": 662,
+    "slug": "maximum-width-of-binary-tree"
+  },
+  "maxproductofsplittedbinarytree": {
+    "number": 1339,
+    "slug": "maximum-product-of-splitted-binary-tree"
+  },
+  "mergebsts": {
+    "number": 1932,
+    "slug": "merge-bsts-to-create-single-bst"
+  },
+  "minimizedmaximumproducts": {
+    "number": 2064,
+    "slug": "minimized-maximum-of-products-distributed-to-any-store"
+  },
+  "minimumcosttocutastick": {
+    "number": 1547,
+    "slug": "minimum-cost-to-cut-a-stick"
+  },
+  "minimumdepthofbinarytree": {
+    "number": 111,
+    "slug": "minimum-depth-of-binary-tree"
+  },
+  "minimumdifficultytoscheduleajob": {
+    "number": 1335,
+    "slug": "minimum-difficulty-of-a-job-schedule"
+  },
+  "minimumdistbwtwobinarysearchtreenodes": {
+    "number": 783,
+    "slug": "minimum-distance-between-bst-nodes"
+  },
+  "minimuminsertionstepstopalindrome": {
+    "number": 1312,
+    "slug": "minimum-insertion-steps-to-make-a-string-palindrome"
+  },
+  "minimumoperationstosortbinarytreelevel": {
+    "number": 2471,
+    "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level"
+  },
+  "minimumscorepath": {
+    "number": 2492,
+    "slug": "minimum-score-of-a-path-between-two-cities"
+  },
+  "minimumswapssortdigitsum": {
+    "number": 3551,
+    "slug": "minimum-swaps-to-sort-by-digit-sum"
+  },
+  "minimumtimetocollectallapples": {
+    "number": 1443,
+    "slug": "minimum-time-to-collect-all-apples-in-a-tree"
+  },
+  "moststonesremoved": {
+    "number": 947,
+    "slug": "most-stones-removed-with-same-row-or-column"
+  },
+  "nearestexitfromentrance": {
+    "number": 1926,
+    "slug": "nearest-exit-from-entrance-in-maze"
+  },
+  "nextgreaterelement": {
+    "number": 503,
+    "slug": "next-greater-element-ii"
+  },
+  "noofgoodpaths": {
+    "number": 2421,
+    "slug": "number-of-good-paths"
+  },
+  "noofnodeswithsamelables": {
+    "number": 1519,
+    "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label"
+  },
+  "noofoperartionstoconnect": {
+    "number": 1319,
+    "slug": "number-of-operations-to-make-network-connected"
+  },
+  "noofwaysreorderbinarysearchtree": {
+    "number": 1569,
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst"
+  },
+  "partitionarrayintotwoarrays": {
+    "number": 2035,
+    "slug": "partition-array-into-two-arrays-to-minimize-sum-difference"
+  },
+  "pathwithminimumeffort": {
+    "number": 1631,
+    "slug": "path-with-minimum-effort"
+  },
+  "populatingnextrightineachnode": {
+    "number": 116,
+    "slug": "populating-next-right-pointers-in-each-node"
+  },
+  "postordertraversal": {
+    "number": 145,
+    "slug": "binary-tree-postorder-traversal"
+  },
+  "premutationsofarray": {
+    "number": 46,
+    "slug": "permutations"
+  },
+  "preordertraversal": {
+    "number": 144,
+    "slug": "binary-tree-preorder-traversal"
+  },
+  "printallsubsets": {
+    "number": 78,
+    "slug": "subsets"
+  },
+  "pseudopalindromicpaths": {
+    "number": 1457,
+    "slug": "pseudo-palindromic-paths-in-a-binary-tree"
+  },
+  "recoverbinarysearchtree": {
+    "number": 99,
+    "slug": "recover-binary-search-tree"
+  },
+  "reverseoddlevels": {
+    "number": 2415,
+    "slug": "reverse-odd-levels-of-binary-tree"
+  },
+  "reversethelinkedlistii": {
+    "number": 92,
+    "slug": "reverse-linked-list-ii"
+  },
+  "satisfiabilityofequalityeqns": {
+    "number": 990,
+    "slug": "satisfiability-of-equality-equations"
+  },
+  "shortestpathinmatrix": {
+    "number": 1091,
+    "slug": "shortest-path-in-binary-matrix"
+  },
+  "slidingwindowmaximum": {
+    "number": 239,
+    "slug": "sliding-window-maximum"
+  },
+  "smalleststringleafroot": {
+    "number": 988,
+    "slug": "smallest-string-starting-from-leaf"
+  },
+  "sortedarraytobinarysearchtree": {
+    "number": 108,
+    "slug": "convert-sorted-array-to-binary-search-tree"
+  },
+  "subarraysdistinctelemsum": {
+    "number": 2916,
+    "slug": "subarrays-distinct-element-sum-of-squares-ii"
+  },
+  "sumoftwointeger": {
+    "number": 371,
+    "slug": "sum-of-two-integers"
+  },
+  "topkfreqelements": {
+    "number": 347,
+    "slug": "top-k-frequent-elements"
+  },
+  "twosumiiinputsorted": {
+    "number": 167,
+    "slug": "two-sum-ii-input-array-is-sorted"
+  },
+  "uniquebsts": {
+    "number": 96,
+    "slug": "unique-binary-search-trees"
+  },
+  "usingdijkstrafindthecityminimumneighs": {
+    "number": 1334,
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance"
+  },
+  "usingdijsktrafindthecitywithminimumneighs": {
+    "number": 1334,
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance"
+  },
+  "validatebinarysearchtree": {
+    "number": 98,
+    "slug": "validate-binary-search-tree"
+  },
+  "validatebinarytree": {
+    "number": 1361,
+    "slug": "validate-binary-tree-nodes"
+  },
+  "validsudoku": {
+    "number": 36,
+    "slug": "valid-sudoku"
+  },
+  "waterjug": {
+    "number": 365,
+    "slug": "water-and-jug-problem"
+  }
+}

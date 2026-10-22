@@ -29,3 +29,13 @@
 	<li>All the elements of <code>graph[i]</code> are <strong>unique</strong>.</li>
 	<li>The input graph is <strong>guaranteed</strong> to be a <strong>DAG</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![All Paths From Source to Target — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

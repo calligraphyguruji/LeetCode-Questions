@@ -52,3 +52,23 @@ This is better than the route of [1,2,2,2,5], where the maximum absolute differe
 - [Approach 3 (C++)](1631-path-with-minimum-effort-approach-3-dijkstras-algorithm.cpp) — *Dijkstra's Algorithm*
 
 <!---LeetCode Approaches End-->
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Path With Minimum Effort — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Path With Minimum Effort — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Path With Minimum Effort — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

@@ -47,3 +47,19 @@ Stones [0,0] and [1,1] cannot be removed since they do not share a row/column wi
 	<li><code>0 &lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= 10<sup>4</sup></code></li>
 	<li>No two stones are at the same coordinate point.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Most Stones Removed with Same Row or Column — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Most Stones Removed with Same Row or Column — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

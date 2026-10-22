@@ -35,3 +35,19 @@
 	<li>A simple improvement uses <code>O(m + n)</code> space, but still not the best solution.</li>
 	<li>Could you devise a constant space solution?</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Set Matrix Zeroes — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Set Matrix Zeroes — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

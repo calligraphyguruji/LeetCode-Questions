@@ -46,3 +46,23 @@
 	<li><code>1 &lt;= nums[i] &lt;= nums.length</code></li>
 	<li>All integers in <code>nums</code> are <strong>distinct</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Number of Ways to Reorder Array to Get Same BST — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Number of Ways to Reorder Array to Get Same BST — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Number of Ways to Reorder Array to Get Same BST — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

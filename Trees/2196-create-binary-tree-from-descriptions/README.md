@@ -38,3 +38,19 @@ The resulting binary tree is shown in the diagram.
 	<li><code>0 &lt;= isLeft<sub>i</sub> &lt;= 1</code></li>
 	<li>The binary tree described by <code>descriptions</code> is valid.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Create Binary Tree From Descriptions — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Create Binary Tree From Descriptions — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

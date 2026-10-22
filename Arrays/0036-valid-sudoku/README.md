@@ -55,3 +55,19 @@
 	<li><code>board[i].length == 9</code></li>
 	<li><code>board[i][j]</code> is a digit <code>1-9</code> or <code>&#39;.&#39;</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Valid Sudoku — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Valid Sudoku — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

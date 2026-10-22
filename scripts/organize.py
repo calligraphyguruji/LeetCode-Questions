@@ -1215,7 +1215,7 @@ def find_existing_topic(q_dir_name, base_dir=None):
         base_dir = BASE_DIR
     for item in os.listdir(base_dir):
         topic_path = os.path.join(base_dir, item)
-        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github", "tests"]:
+        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github", "tests", "LeetCode-Img-Soln"]:
             continue
         candidate = os.path.join(topic_path, q_dir_name)
         if os.path.isdir(candidate):
@@ -1229,7 +1229,7 @@ def clean_nested_directories(base_dir=None):
     cleaned_any = False
     for item in os.listdir(base_dir):
         topic_path = os.path.join(base_dir, item)
-        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github", "tests"]:
+        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github", "tests", "LeetCode-Img-Soln"]:
             continue
         for q_dir in os.listdir(topic_path):
             q_path = os.path.join(topic_path, q_dir)
@@ -1238,42 +1238,8 @@ def clean_nested_directories(base_dir=None):
             nested_q = os.path.join(q_path, q_dir)
             if os.path.isdir(nested_q):
                 print(f"[Cleanup] Found nested directory '{nested_q}', flattening...")
-                for f in os.listdir(nested_q):
-                    src_f = os.path.join(nested_q, f)
-                    dst_f = os.path.join(q_path, f)
-                    if os.path.isfile(src_f):
-                        ext = os.path.splitext(f)[1].lower()
-                        if ext in CODE_EXTENSIONS and os.path.exists(dst_f):
-                            try:
-                                with open(src_f, "r", encoding="utf-8", errors="ignore") as sf:
-                                    src_content = sf.read()
-                            except Exception:
-                                src_content = ""
-                            is_dup = False
-                            for ex_f in get_solution_files(q_path):
-                                ex_path = os.path.join(q_path, ex_f)
-                                try:
-                                    with open(ex_path, "r", encoding="utf-8", errors="ignore") as ef:
-                                        if is_content_identical(src_content, ef.read()):
-                                            is_dup = True
-                                            break
-                                except Exception:
-                                    pass
-                            if not is_dup:
-                                app_num = extract_approach_num(src_content)
-                                if app_num is not None and app_num >= 2:
-                                    new_name = get_next_approach_filename(q_path, f, src_content)
-                                    shutil.copy2(src_f, os.path.join(q_path, new_name))
-                                else:
-                                    shutil.copy2(src_f, dst_f)
-                        elif not os.path.exists(dst_f) or os.path.getsize(src_f) > 0:
-                            shutil.copy2(src_f, dst_f)
-                shutil.rmtree(nested_q)
-                try:
-                    subprocess.run(["git", "rm", "-r", "--cached", "--ignore-unmatch", os.path.relpath(nested_q, base_dir)],
-                                   cwd=base_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-                except Exception:
-                    pass
+                # Use the same guarded merge as a resubmission, including images/.
+                move_or_merge_question(nested_q, q_path, base_dir)
                 cleaned_any = True
     return cleaned_any
 
@@ -1282,6 +1248,24 @@ def move_or_merge_question(src, dst, base_dir=None):
     if base_dir is None:
         base_dir = BASE_DIR
     if os.path.exists(dst):
+        if __package__:
+            from .visual_solutions import preserve_visual_section, digest
+        else:
+            from visual_solutions import preserve_visual_section, digest
+        # Fail before merging if an incoming image would replace different bytes.
+        incoming_images = Path(src) / 'images'
+        if incoming_images.exists():
+            for image in incoming_images.rglob('*'):
+                if image.is_file():
+                    target = Path(dst) / 'images' / image.relative_to(incoming_images)
+                    if target.exists() and digest(image) != digest(target):
+                        raise ValueError(f'Conflicting incoming image; preserved both folders: {target}')
+        readme_update = None
+        incoming_readme, current_readme = Path(src) / 'README.md', Path(dst) / 'README.md'
+        if incoming_readme.exists() and current_readme.exists():
+            readme_update = preserve_visual_section(
+                incoming_readme.read_bytes().decode('utf-8'),
+                current_readme.read_bytes().decode('utf-8'))
         print(f"Destination '{dst}' already exists. Merging updated files from resubmission...")
         for item in os.listdir(src):
             src_item = os.path.join(src, item)
@@ -1332,6 +1316,8 @@ def move_or_merge_question(src, dst, base_dir=None):
                                 subprocess.run(["git", "add", dst_item], cwd=base_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                             except Exception:
                                 pass
+                elif item == 'README.md' and readme_update is not None:
+                    Path(dst_item).write_bytes(readme_update.encode('utf-8'))
                 else:
                     shutil.copy2(src_item, dst_item)
             elif os.path.isdir(src_item) and not re.match(r"^\d+-", item):
@@ -1364,10 +1350,10 @@ def check_topic_overrides(base_dir=None):
     moved_any = False
     for item in os.listdir(base_dir):
         topic_path = os.path.join(base_dir, item)
-        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github", "tests"]:
+        if not os.path.isdir(topic_path) or item.startswith(".") or item in ["scripts", ".github", "tests", "LeetCode-Img-Soln"]:
             continue
         for q_dir in sorted(os.listdir(topic_path)):
-            if not re.match(r"^\d+-", q_dir):
+            if not os.path.isdir(os.path.join(topic_path, q_dir)) or not re.match(r"^\d+-", q_dir):
                 continue
             q_num = q_dir.split("-")[0] if q_dir else ""
             slug = q_dir.split("-", 1)[1] if "-" in q_dir else q_dir
@@ -1810,7 +1796,8 @@ TRACKER_END = '<!-- NEETCODE150:END -->'
 LEETHUB_TOPICS_START = '<!---LeetCode Topics Start-->'
 LEETHUB_TOPICS_END = '<!---LeetCode Topics End-->'
 IGNORED_DIRECTORIES = {'.git', '.github', '.venv', 'venv', 'node_modules',
-                       '__pycache__', 'scripts', 'tests', 'build', 'dist'}
+                       '__pycache__', 'scripts', 'tests', 'build', 'dist',
+                       'LeetCode-Img-Soln', 'images'}
 
 
 @dataclass
@@ -2085,6 +2072,11 @@ def main() -> int:
     try:
         moved = scan_and_reorganize()
         data, scan, changed = update_tracking(Path(BASE_DIR))
+        if __package__:
+            from .visual_solutions import integrate_images, print_result
+        else:
+            from visual_solutions import integrate_images, print_result
+        print_result(integrate_images(Path(BASE_DIR), scan))
     except (OSError, ValueError, KeyError, TypeError) as exc:
         print(f'[Error] {exc}', file=sys.stderr)
         return 1

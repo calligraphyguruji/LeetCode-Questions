@@ -40,3 +40,19 @@ exection -&gt; execution (insert &#39;u&#39;)
 	<li><code>0 &lt;= word1.length, word2.length &lt;= 500</code></li>
 	<li><code>word1</code> and <code>word2</code> consist of lowercase English letters.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Edit Distance — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Edit Distance — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

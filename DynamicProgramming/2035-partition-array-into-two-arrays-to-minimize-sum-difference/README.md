@@ -38,3 +38,23 @@ The absolute difference between the sums of the arrays is abs((2 + 4 + -9) - (-1
 	<li><code>nums.length == 2 * n</code></li>
 	<li><code>-10<sup>7</sup> &lt;= nums[i] &lt;= 10<sup>7</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Partition Array Into Two Arrays to Minimize Sum Difference — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Partition Array Into Two Arrays to Minimize Sum Difference — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Partition Array Into Two Arrays to Minimize Sum Difference — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

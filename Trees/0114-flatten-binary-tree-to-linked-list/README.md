@@ -37,3 +37,18 @@
 
 <p>&nbsp;</p>
 <strong>Follow up:</strong> Can you flatten the tree in-place (with <code>O(1)</code> extra space)?
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Flatten Binary Tree to Linked List — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Flatten Binary Tree to Linked List — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

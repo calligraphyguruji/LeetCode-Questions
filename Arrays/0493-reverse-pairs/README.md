@@ -36,3 +36,23 @@
 	<li><code>1 &lt;= nums.length &lt;= 5 * 10<sup>4</sup></code></li>
 	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Reverse Pairs — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Reverse Pairs — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Reverse Pairs — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

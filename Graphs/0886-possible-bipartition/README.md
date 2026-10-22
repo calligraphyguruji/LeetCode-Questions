@@ -29,3 +29,19 @@
 	<li><code>1 &lt;= a<sub>i</sub> &lt; b<sub>i</sub> &lt;= n</code></li>
 	<li>All the pairs of <code>dislikes</code> are <strong>unique</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Possible Bipartition — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Possible Bipartition — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

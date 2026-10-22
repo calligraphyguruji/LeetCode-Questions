@@ -46,3 +46,19 @@ The sub-tree of node 0 contains nodes 0, 1, 2 and 3, all with label &#39;b&#39;,
 	<li><code>labels.length == n</code></li>
 	<li><code>labels</code> is consisting of only of lowercase English letters.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Number of Nodes in the Sub-Tree With the Same Label — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Number of Nodes in the Sub-Tree With the Same Label — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

@@ -40,3 +40,19 @@
 	<li>There are no repeated connections.</li>
 	<li>No two computers are connected by more than one cable.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Number of Operations to Make Network Connected — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Number of Operations to Make Network Connected — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

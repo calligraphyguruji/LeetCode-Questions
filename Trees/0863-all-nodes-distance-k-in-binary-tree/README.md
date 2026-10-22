@@ -28,3 +28,19 @@ Explanation: The nodes that are a distance 2 from the target node (with value 5)
 	<li><code>target</code> is the value of one of the nodes in the tree.</li>
 	<li><code>0 &lt;= k &lt;= 1000</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![All Nodes Distance K in Binary Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![All Nodes Distance K in Binary Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

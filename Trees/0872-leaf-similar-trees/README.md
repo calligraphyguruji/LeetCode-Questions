@@ -30,3 +30,13 @@
 	<li>The number of nodes in each tree will be in the range <code>[1, 200]</code>.</li>
 	<li>Both of the given trees will have values in the range <code>[0, 200]</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Leaf-Similar Trees — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

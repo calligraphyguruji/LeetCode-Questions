@@ -60,3 +60,19 @@
 	<li><code>1 &lt;= health &lt;= m + n</code></li>
 	<li><code>grid[i][j]</code> is either 0 or 1.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Find a Safe Walk Through a Grid — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Find a Safe Walk Through a Grid — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

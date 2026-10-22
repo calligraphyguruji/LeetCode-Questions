@@ -50,3 +50,18 @@ The city 0 has 1 neighboring city at a distanceThreshold = 2.
 	<li>All pairs <code>(from<sub>i</sub>, to<sub>i</sub>)</code> are distinct.</li>
 </ul>
 
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Find the City With the Smallest Number of Neighbors at a Threshold Distance — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Find the City With the Smallest Number of Neighbors at a Threshold Distance — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

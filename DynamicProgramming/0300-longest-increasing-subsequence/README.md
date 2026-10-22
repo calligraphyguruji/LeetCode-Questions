@@ -33,3 +33,19 @@
 
 <p>&nbsp;</p>
 <p><b>Follow up:</b>&nbsp;Can you come up with an algorithm that runs in&nbsp;<code>O(n log(n))</code> time complexity?</p>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Longest Increasing Subsequence — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Longest Increasing Subsequence — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

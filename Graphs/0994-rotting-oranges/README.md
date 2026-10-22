@@ -43,3 +43,19 @@
 	<li><code>1 &lt;= m, n &lt;= 10</code></li>
 	<li><code>grid[i][j]</code> is <code>0</code>, <code>1</code>, or <code>2</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Rotting Oranges — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Rotting Oranges — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

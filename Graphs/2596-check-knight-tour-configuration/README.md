@@ -32,3 +32,13 @@
 	<li><code>0 &lt;= grid[row][col] &lt; n * n</code></li>
 	<li>All integers in <code>grid</code> are <strong>unique</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Check Knight Tour Configuration — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

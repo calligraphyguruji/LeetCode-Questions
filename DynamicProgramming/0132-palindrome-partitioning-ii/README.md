@@ -32,3 +32,19 @@
 	<li><code>1 &lt;= s.length &lt;= 2000</code></li>
 	<li><code>s</code> consists of lowercase English letters only.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Palindrome Partitioning II — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Palindrome Partitioning II — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

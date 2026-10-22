@@ -37,3 +37,19 @@ There are much ordering with total cost &lt;= 25, for example, the order [4, 6, 
 	<li><code>1 &lt;= cuts[i] &lt;= n - 1</code></li>
 	<li>All the integers in <code>cuts</code> array are <strong>distinct</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Minimum Cost to Cut a Stick — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Minimum Cost to Cut a Stick — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

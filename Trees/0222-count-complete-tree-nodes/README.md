@@ -34,3 +34,13 @@
 	<li><code>0 &lt;= Node.val &lt;= 5 * 10<sup>4</sup></code></li>
 	<li>The tree is guaranteed to be <strong>complete</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Count Complete Tree Nodes — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

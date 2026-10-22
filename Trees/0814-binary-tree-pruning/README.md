@@ -34,3 +34,19 @@ The diagram on the right represents the answer.
 	<li>The number of nodes in the tree is in the range <code>[1, 200]</code>.</li>
 	<li><code>Node.val</code> is either <code>0</code> or <code>1</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Binary Tree Pruning — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Binary Tree Pruning — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

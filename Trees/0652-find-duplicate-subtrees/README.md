@@ -33,3 +33,19 @@
 	<li>The number of the nodes in the tree will be in the range <code>[1, 5000]</code></li>
 	<li><code>-200 &lt;= Node.val &lt;= 200</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Find Duplicate Subtrees — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Find Duplicate Subtrees — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

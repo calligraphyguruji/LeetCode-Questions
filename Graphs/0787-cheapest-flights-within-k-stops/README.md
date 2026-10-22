@@ -48,3 +48,19 @@ The optimal path with no stops from city 0 to 2 is marked in red and has cost 50
 	<li><code>0 &lt;= src, dst, k &lt; n</code></li>
 	<li><code>src != dst</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Cheapest Flights Within K Stops — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Cheapest Flights Within K Stops — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

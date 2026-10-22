@@ -27,3 +27,19 @@
 	<li><code>preorder</code> is <strong>guaranteed</strong> to be the preorder traversal of the tree.</li>
 	<li><code>inorder</code> is <strong>guaranteed</strong> to be the inorder traversal of the tree.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Construct Binary Tree from Preorder and Inorder Traversal — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Construct Binary Tree from Preorder and Inorder Traversal — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

@@ -31,3 +31,19 @@
 	<li>There are no repeated edges.</li>
 	<li>The given graph is connected.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Redundant Connection — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Redundant Connection — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

@@ -31,3 +31,19 @@
 
 <p>&nbsp;</p>
 <p><strong>Note:</strong> This question is the same as 1765: <a href="https://leetcode.com/problems/map-of-highest-peak/description/" target="_blank">https://leetcode.com/problems/map-of-highest-peak/</a></p>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![01 Matrix — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![01 Matrix — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

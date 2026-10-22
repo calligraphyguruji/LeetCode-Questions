@@ -43,3 +43,19 @@ It can be shown that no other path has less score.
 	<li>There are no repeated edges.</li>
 	<li>There is at least one path between <code>1</code> and <code>n</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Minimum Score of a Path Between Two Cities — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Minimum Score of a Path Between Two Cities — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

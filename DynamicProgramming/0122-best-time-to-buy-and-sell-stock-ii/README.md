@@ -39,3 +39,13 @@ Total profit is 4.
 	<li><code>1 &lt;= prices.length &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>0 &lt;= prices[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Best Time to Buy and Sell Stock II — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

@@ -36,3 +36,19 @@
 	<li>There are no duplicate edges.</li>
 	<li>There are no self edges.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Find if Path Exists in Graph — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Find if Path Exists in Graph — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

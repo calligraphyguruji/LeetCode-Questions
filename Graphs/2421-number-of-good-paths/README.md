@@ -55,3 +55,23 @@ There are 2 additional good paths: 0 -&gt; 1 and 2 -&gt; 3.
 	<li><code>a<sub>i</sub> != b<sub>i</sub></code></li>
 	<li><code>edges</code> represents a valid tree.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Number of Good Paths — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Number of Good Paths — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Number of Good Paths — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

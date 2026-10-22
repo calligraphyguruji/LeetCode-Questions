@@ -20,6 +20,9 @@ on:
       - '**/*.scala'
       - '**/*.php'
       - '**/README.md'
+      - 'LeetCode-Img-Soln/**'
+      - '**/images/**'
+      - 'docs/visual-*.json'
       - 'neetcode150.json'
       - 'stats.json'
       - '.github/workflows/organize.yml'
@@ -58,7 +61,7 @@ jobs:
           PYTHONDONTWRITEBYTECODE: '1'
         run: python3 -m unittest discover -s tests -v
 
-      - name: Organize questions and refresh progress
+      - name: Organize questions, integrate images, and refresh progress
         env:
           PYTHONDONTWRITEBYTECODE: '1'
           LEETCODE_USERNAME: calligraphyguruji

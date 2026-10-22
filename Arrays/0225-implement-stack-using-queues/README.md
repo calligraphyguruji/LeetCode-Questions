@@ -46,3 +46,13 @@ myStack.empty(); // return False
 
 <p>&nbsp;</p>
 <p><strong>Follow-up:</strong> Can you implement the stack using only one queue?</p>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Implement Stack using Queues — Visual Solution](./images/solution.jpeg)
+
+<!-- visual-solutions:end -->

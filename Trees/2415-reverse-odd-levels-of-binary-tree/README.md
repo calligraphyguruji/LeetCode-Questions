@@ -49,3 +49,19 @@ The nodes at level 3 were 1, 1, 1, 1, 2, 2, 2, 2, and are 2, 2, 2, 2, 1, 1, 1, 1
 	<li><code>0 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 	<li><code>root</code> is a <strong>perfect</strong> binary tree.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Reverse Odd Levels of Binary Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Reverse Odd Levels of Binary Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

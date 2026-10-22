@@ -36,3 +36,13 @@
 	<li><code>p != q</code></li>
 	<li><code>p</code> and <code>q</code> will exist in the BST.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Lowest Common Ancestor of a Binary Search Tree — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

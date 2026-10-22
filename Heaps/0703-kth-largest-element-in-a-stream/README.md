@@ -55,3 +55,13 @@ kthLargest.add(9); // return 8</div>
 	<li><code>-10<sup>4</sup> &lt;= val &lt;= 10<sup>4</sup></code></li>
 	<li>At most <code>10<sup>4</sup></code> calls will be made to <code>add</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Kth Largest Element in a Stream — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

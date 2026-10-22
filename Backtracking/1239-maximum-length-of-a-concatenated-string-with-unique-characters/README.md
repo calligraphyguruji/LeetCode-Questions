@@ -44,3 +44,19 @@ Maximum length is 4.
 	<li><code>1 &lt;= arr[i].length &lt;= 26</code></li>
 	<li><code>arr[i]</code> contains only lowercase English letters.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Maximum Length of a Concatenated String with Unique Characters — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Maximum Length of a Concatenated String with Unique Characters — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

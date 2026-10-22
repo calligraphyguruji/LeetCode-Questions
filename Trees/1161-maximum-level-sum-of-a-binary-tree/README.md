@@ -29,3 +29,19 @@ So we return the level with the maximum sum which is level 2.
 	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
 	<li><code>-10<sup>5</sup> &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Maximum Level Sum of a Binary Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Maximum Level Sum of a Binary Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

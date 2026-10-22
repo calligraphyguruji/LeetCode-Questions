@@ -34,3 +34,19 @@
 	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
 	<li><code>-1 &lt;= leftChild[i], rightChild[i] &lt;= n - 1</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Validate Binary Tree Nodes — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Validate Binary Tree Nodes — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

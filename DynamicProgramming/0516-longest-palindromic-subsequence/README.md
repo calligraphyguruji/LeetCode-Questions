@@ -26,3 +26,13 @@
 	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
 	<li><code>s</code> consists only of lowercase English letters.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Longest Palindromic Subsequence — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

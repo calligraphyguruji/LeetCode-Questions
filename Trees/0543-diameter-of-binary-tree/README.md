@@ -27,3 +27,23 @@
 	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
 	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Diameter of Binary Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Diameter of Binary Tree — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Diameter of Binary Tree — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

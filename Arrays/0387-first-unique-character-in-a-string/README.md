@@ -36,3 +36,13 @@
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>s</code> consists of only lowercase English letters.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![First Unique Character in a String — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

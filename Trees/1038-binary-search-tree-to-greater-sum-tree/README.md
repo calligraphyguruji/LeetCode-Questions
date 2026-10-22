@@ -34,3 +34,13 @@
 
 <p>&nbsp;</p>
 <p><strong>Note:</strong> This question is the same as 538: <a href="https://leetcode.com/problems/convert-bst-to-greater-tree/" target="_blank">https://leetcode.com/problems/convert-bst-to-greater-tree/</a></p>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Binary Search Tree to Greater Sum Tree — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

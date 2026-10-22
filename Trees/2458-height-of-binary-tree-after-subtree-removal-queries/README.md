@@ -50,3 +50,23 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
 	<li><code>1 &lt;= queries[i] &lt;= n</code></li>
 	<li><code>queries[i] != root.val</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Height of Binary Tree After Subtree Removal Queries — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Height of Binary Tree After Subtree Removal Queries — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Height of Binary Tree After Subtree Removal Queries — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

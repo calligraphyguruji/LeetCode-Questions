@@ -37,3 +37,19 @@ The maximum of those two distances is 2. It can be proven that we cannot get a n
 	<li><code>edges[i] != i</code></li>
 	<li><code>0 &lt;= node1, node2 &lt; n</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Find Closest Node to Given Two Nodes — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Find Closest Node to Given Two Nodes — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

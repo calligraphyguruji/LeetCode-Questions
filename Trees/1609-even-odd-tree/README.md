@@ -49,3 +49,19 @@ Node values in level 2 must be in strictly increasing order, so the tree is not 
 	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>5</sup>]</code>.</li>
 	<li><code>1 &lt;= Node.val &lt;= 10<sup>6</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Even Odd Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Even Odd Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

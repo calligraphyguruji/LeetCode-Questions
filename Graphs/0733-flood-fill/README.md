@@ -51,3 +51,13 @@
 	<li><code>0 &lt;= sr &lt; m</code></li>
 	<li><code>0 &lt;= sc &lt; n</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Flood Fill — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

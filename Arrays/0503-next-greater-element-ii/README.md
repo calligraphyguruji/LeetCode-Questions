@@ -27,3 +27,13 @@ The second 1&#39;s next greater number needs to search circularly, which is also
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Next Greater Element II — Visual Solution](./images/solution.jpeg)
+
+<!-- visual-solutions:end -->

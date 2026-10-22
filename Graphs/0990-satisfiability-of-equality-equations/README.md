@@ -31,3 +31,13 @@ There is no way to assign the variables to satisfy both equations.
 	<li><code>equations[i][2]</code> is <code>&#39;=&#39;</code>.</li>
 	<li><code>equations[i][3]</code> is a lowercase letter.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Satisfiability of Equality Equations — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

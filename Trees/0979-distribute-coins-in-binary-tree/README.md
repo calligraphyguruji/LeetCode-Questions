@@ -30,3 +30,19 @@
 	<li><code>0 &lt;= Node.val &lt;= n</code></li>
 	<li>The sum of all <code>Node.val</code> is <code>n</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Distribute Coins in Binary Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Distribute Coins in Binary Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

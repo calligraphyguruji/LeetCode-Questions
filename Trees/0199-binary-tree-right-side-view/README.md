@@ -57,3 +57,13 @@
 - [Approach 3 (C++)](0199-binary-tree-right-side-view-approach-3-dfs.cpp) — *DFS(Preorder Traversal)*
 
 <!---LeetCode Approaches End-->
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Binary Tree Right Side View — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

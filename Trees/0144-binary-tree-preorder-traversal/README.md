@@ -51,3 +51,13 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Recursive solution is trivial, could you do it iteratively?</p>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Binary Tree Preorder Traversal — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

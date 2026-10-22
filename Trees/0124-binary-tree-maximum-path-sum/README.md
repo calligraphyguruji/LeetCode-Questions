@@ -28,3 +28,19 @@
 	<li>The number of nodes in the tree is in the range <code>[1, 3 * 10<sup>4</sup>]</code>.</li>
 	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Binary Tree Maximum Path Sum — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Binary Tree Maximum Path Sum — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

@@ -22,3 +22,13 @@
 	<li>The number of nodes in the tree will be in the range <code>[0, 10<sup>4</sup>]</code>.</li>
 	<li><code>-2<sup>31</sup> &lt;= Node.val &lt;= 2<sup>31</sup> - 1</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Find Largest Value in Each Tree Row — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

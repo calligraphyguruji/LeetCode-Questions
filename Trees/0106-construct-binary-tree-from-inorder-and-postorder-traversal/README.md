@@ -27,3 +27,13 @@
 	<li><code>inorder</code> is <strong>guaranteed</strong> to be the inorder traversal of the tree.</li>
 	<li><code>postorder</code> is <strong>guaranteed</strong> to be the postorder traversal of the tree.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Construct Binary Tree from Inorder and Postorder Traversal — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

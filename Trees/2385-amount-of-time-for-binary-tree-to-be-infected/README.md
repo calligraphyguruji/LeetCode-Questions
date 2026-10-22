@@ -41,3 +41,19 @@ It takes 4 minutes for the whole tree to be infected so we return 4.
 	<li>Each node has a <strong>unique</strong> value.</li>
 	<li>A node with a value of <code>start</code> exists in the tree.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Amount of Time for Binary Tree to Be Infected — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Amount of Time for Binary Tree to Be Infected — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

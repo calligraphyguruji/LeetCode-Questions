@@ -36,3 +36,23 @@
 	<li><code>0 &lt;= a<sub>i</sub> &lt; b<sub>i</sub> &lt;= n - 1</code></li>
 	<li><code>hasApple.length == n</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Minimum Time to Collect All Apples in a Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Minimum Time to Collect All Apples in a Tree — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Minimum Time to Collect All Apples in a Tree — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

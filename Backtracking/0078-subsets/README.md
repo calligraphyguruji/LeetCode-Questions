@@ -25,3 +25,13 @@
 	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
 	<li>All the numbers of&nbsp;<code>nums</code> are <strong>unique</strong>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Subsets — Visual Solution](./images/solution.jpeg)
+
+<!-- visual-solutions:end -->

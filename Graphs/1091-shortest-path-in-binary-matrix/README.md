@@ -48,3 +48,23 @@
 - [Approach 2 (C++)](1091-shortest-path-in-binary-matrix-approach-2-dijkstras-algorithm.cpp) — *Dijkstra's Algorithm*
 
 <!---LeetCode Approaches End-->
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Shortest Path in Binary Matrix — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Shortest Path in Binary Matrix — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Shortest Path in Binary Matrix — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

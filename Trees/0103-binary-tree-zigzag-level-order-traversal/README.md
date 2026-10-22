@@ -29,3 +29,13 @@
 	<li>The number of nodes in the tree is in the range <code>[0, 2000]</code>.</li>
 	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Binary Tree Zigzag Level Order Traversal — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

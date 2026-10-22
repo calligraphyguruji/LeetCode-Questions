@@ -37,3 +37,19 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Your algorithm&#39;s time complexity must be better than <code>O(n log n)</code>, where n is the array&#39;s size.</p>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Top K Frequent Elements — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Top K Frequent Elements — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

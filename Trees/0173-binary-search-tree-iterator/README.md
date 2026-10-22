@@ -48,3 +48,19 @@ bSTIterator.hasNext(); // return False
 <ul>
 	<li>Could you implement <code>next()</code> and <code>hasNext()</code> to run in average <code>O(1)</code> time and use&nbsp;<code>O(h)</code> memory, where <code>h</code> is the height of the tree?</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Binary Search Tree Iterator — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Binary Search Tree Iterator — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

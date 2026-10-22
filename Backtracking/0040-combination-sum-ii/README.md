@@ -37,3 +37,19 @@
 	<li><code>1 &lt;=&nbsp;candidates[i] &lt;= 50</code></li>
 	<li><code>1 &lt;= target &lt;= 30</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Combination Sum II — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Combination Sum II — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

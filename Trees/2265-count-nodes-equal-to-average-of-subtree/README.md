@@ -36,3 +36,19 @@ For the node with value 6: The average of its subtree is 6 / 1 = 6.
 	<li>The number of nodes in the tree is in the range <code>[1, 1000]</code>.</li>
 	<li><code>0 &lt;= Node.val &lt;= 1000</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Count Nodes Equal to Average of Subtree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Count Nodes Equal to Average of Subtree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

@@ -73,3 +73,19 @@ findElements.find(5); // return True
 	<li>Total calls of <code>find()</code> is between <code>[1, 10<sup>4</sup>]</code></li>
 	<li><code>0 &lt;= target &lt;= 10<sup>6</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Find Elements in a Contaminated Binary Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Find Elements in a Contaminated Binary Tree — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

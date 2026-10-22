@@ -32,3 +32,19 @@ Therefore, we return 14.
 	<li><code>a<sub>i</sub> != b<sub>i</sub></code></li>
 	<li>There are no repeated edges.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Count Unreachable Pairs of Nodes in an Undirected Graph — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Count Unreachable Pairs of Nodes in an Undirected Graph — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

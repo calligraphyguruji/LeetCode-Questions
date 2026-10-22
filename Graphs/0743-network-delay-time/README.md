@@ -36,3 +36,19 @@
 	<li><code>0 &lt;= w<sub>i</sub> &lt;= 100</code></li>
 	<li>All the pairs <code>(u<sub>i</sub>, v<sub>i</sub>)</code> are <strong>unique</strong>. (i.e., no multiple edges.)</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Network Delay Time — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Network Delay Time — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

@@ -40,3 +40,19 @@ After removing, new nodes become leaf nodes with value (target = 2) (Picture in 
 	<li>The number of nodes in the tree is in the range <code>[1, 3000]</code>.</li>
 	<li><code>1 &lt;= Node.val, target &lt;= 1000</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Delete Leaves With a Given Value — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Delete Leaves With a Given Value — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

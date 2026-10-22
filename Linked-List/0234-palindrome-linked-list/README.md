@@ -25,3 +25,12 @@
 
 <p>&nbsp;</p>
 <strong>Follow up:</strong> Could you do it in <code>O(n)</code> time and <code>O(1)</code> space?
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Palindrome Linked List — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

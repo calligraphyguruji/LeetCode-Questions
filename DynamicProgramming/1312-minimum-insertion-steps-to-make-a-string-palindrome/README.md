@@ -37,3 +37,18 @@
 	<li><code>s</code> consists of lowercase English letters.</li>
 </ul>
 
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Minimum Insertion Steps to Make a String Palindrome — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Minimum Insertion Steps to Make a String Palindrome — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

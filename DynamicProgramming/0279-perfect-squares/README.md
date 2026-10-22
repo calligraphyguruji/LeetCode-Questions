@@ -25,3 +25,13 @@
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Perfect Squares — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

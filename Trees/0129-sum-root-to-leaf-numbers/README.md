@@ -42,3 +42,13 @@ Therefore, sum = 495 + 491 + 40 = <code>1026</code>.
 	<li><code>0 &lt;= Node.val &lt;= 9</code></li>
 	<li>The depth of the tree will not exceed <code>10</code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Sum Root to Leaf Numbers — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

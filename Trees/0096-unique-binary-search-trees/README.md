@@ -21,3 +21,19 @@
 <ul>
 	<li><code>1 &lt;= n &lt;= 19</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Unique Binary Search Trees — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Unique Binary Search Trees — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

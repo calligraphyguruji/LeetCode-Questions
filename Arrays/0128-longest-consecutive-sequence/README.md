@@ -32,3 +32,13 @@
 	<li><code>0 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Longest Consecutive Sequence — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

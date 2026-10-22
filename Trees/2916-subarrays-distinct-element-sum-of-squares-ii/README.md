@@ -46,3 +46,23 @@ The sum of the squares of the distinct counts in all subarrays is equal to 1<sup
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Subarrays Distinct Element Sum of Squares II — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Subarrays Distinct Element Sum of Squares II — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Subarrays Distinct Element Sum of Squares II — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

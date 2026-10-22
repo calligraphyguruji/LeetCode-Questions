@@ -64,3 +64,23 @@ The resulting tree is shown above. This is the only valid operation that can be 
 	<li>All the trees in the input are <strong>valid BSTs</strong>.</li>
 	<li><code>1 &lt;= TreeNode.val &lt;= 5 * 10<sup>4</sup></code>.</li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Merge BSTs to Create Single BST — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Merge BSTs to Create Single BST — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Merge BSTs to Create Single BST — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

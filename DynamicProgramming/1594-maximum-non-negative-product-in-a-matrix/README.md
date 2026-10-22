@@ -40,3 +40,19 @@
 	<li><code>1 &lt;= m, n &lt;= 15</code></li>
 	<li><code>-4 &lt;= grid[i][j] &lt;= 4</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Maximum Non Negative Product in a Matrix — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Maximum Non Negative Product in a Matrix — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

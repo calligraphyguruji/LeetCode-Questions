@@ -1,0 +1,2615 @@
+{
+  "schema_version": 1,
+  "images": [
+    {
+      "source": "LeetCode-Img-Soln/Longest Substring without repeating chars..jpg",
+      "number": 3,
+      "title": "Longest Substring Without Repeating Characters",
+      "slug": "longest-substring-without-repeating-characters",
+      "part": null,
+      "destination": "Arrays/0003-longest-substring-without-repeating-characters/images/solution.jpg",
+      "sha256": "238287da9e9cb87c98ef653826ef27107f98f9849cad40aff2ba3831eb157e03",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Longest Palindromic Substring Part-I.jpg",
+      "number": 5,
+      "title": "Longest Palindromic Substring",
+      "slug": "longest-palindromic-substring",
+      "part": 1,
+      "destination": "DynamicProgramming/0005-longest-palindromic-substring/images/solution-part-1.jpg",
+      "sha256": "799547d780c2d43601e0a2a07129c48a6c5cf7174a32bc180874752753f233bd",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Longest Palindromic Substring Part-II.jpg",
+      "number": 5,
+      "title": "Longest Palindromic Substring",
+      "slug": "longest-palindromic-substring",
+      "part": 2,
+      "destination": "DynamicProgramming/0005-longest-palindromic-substring/images/solution-part-2.jpg",
+      "sha256": "feeb2d9dd79bf0805ab222cbfe65eab0c9a20286b7a9706e26b392732e9df5dc",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Longest Common Prefix.jpg",
+      "number": 14,
+      "title": "Longest Common Prefix",
+      "slug": "longest-common-prefix",
+      "part": null,
+      "destination": "Arrays/0014-longest-common-prefix/images/solution.jpg",
+      "sha256": "8f218f2c1a763074ec6cd70cb9ba0b1439398cd758de8cfbddbe301e52699fa5",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/36-Valid-Sudoku-Part-I.jpg",
+      "number": 36,
+      "title": "Valid Sudoku",
+      "slug": "valid-sudoku",
+      "part": 1,
+      "destination": "Arrays/0036-valid-sudoku/images/solution-part-1.jpg",
+      "sha256": "4b6ec2077e98f144e7fecb65335d42b92c127efde030a6e98ce2a3a72bb50fd0",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/36-Valid-Sudoku-Part-II.jpg",
+      "number": 36,
+      "title": "Valid Sudoku",
+      "slug": "valid-sudoku",
+      "part": 2,
+      "destination": "Arrays/0036-valid-sudoku/images/solution-part-2.jpg",
+      "sha256": "f4e68ad447ff3b524828369912a6c26e80a5841faaf49db77897312762e9b0d5",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Combination Sum-II Part-1.jpg",
+      "number": 40,
+      "title": "Combination Sum II",
+      "slug": "combination-sum-ii",
+      "part": 1,
+      "destination": "Backtracking/0040-combination-sum-ii/images/solution-part-1.jpg",
+      "sha256": "d32b0194d22afea2892fa0cbe2672d60244549dc6bb29c649225263b9b052b99",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Combination Sum-II Part-2.jpg",
+      "number": 40,
+      "title": "Combination Sum II",
+      "slug": "combination-sum-ii",
+      "part": 2,
+      "destination": "Backtracking/0040-combination-sum-ii/images/solution-part-2.jpg",
+      "sha256": "3b7b762664faf26a4082e933d90c5bd5cba8ca055dddebb87b04a0dcfb54d439",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Premutations of array.jpeg",
+      "number": 46,
+      "title": "Permutations",
+      "slug": "permutations",
+      "part": null,
+      "destination": "Backtracking/0046-permutations/images/solution.jpeg",
+      "sha256": "420dddf381bcd315431f6b548018204670b8f0bc432540acae1e328947205383",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Group Anagrams.jpg",
+      "number": 49,
+      "title": "Group Anagrams",
+      "slug": "group-anagrams",
+      "part": null,
+      "destination": "Arrays/0049-group-anagrams/images/solution.jpg",
+      "sha256": "ef4752fddd5639846118bfec32c88518bd8b5625bd80d79604884877e6723e84",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Merge Intervals.jpg",
+      "number": 56,
+      "title": "Merge Intervals",
+      "slug": "merge-intervals",
+      "part": null,
+      "destination": "Arrays/0056-merge-intervals/images/solution.jpg",
+      "sha256": "c5ff46d3ea98ea5cb034442776ea7f38b1223551e8e71bfe2ef25dae062180f3",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Unique Paths Part-I.jpg",
+      "number": 62,
+      "title": "Unique Paths",
+      "slug": "unique-paths",
+      "part": 1,
+      "destination": "DynamicProgramming/0062-unique-paths/images/solution-part-1.jpg",
+      "sha256": "74bcacdf031b4fd09d2f0073034ad85055758136474dcc3268c7bfa883472b25",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Unique Paths Part-II.jpg",
+      "number": 62,
+      "title": "Unique Paths",
+      "slug": "unique-paths",
+      "part": 2,
+      "destination": "DynamicProgramming/0062-unique-paths/images/solution-part-2.jpg",
+      "sha256": "8387f1b7b3f1abc242f64c388415355d2f81c72152ae34444b32d1416734a7af",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Edit Distance Part-I.jpg",
+      "number": 72,
+      "title": "Edit Distance",
+      "slug": "edit-distance",
+      "part": 1,
+      "destination": "DynamicProgramming/0072-edit-distance/images/solution-part-1.jpg",
+      "sha256": "8d090f1782f8f0cd2329fa16a44fd463970858cffdb8ae903aa2e341bc5d8331",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Edit Distance Part-II.jpg",
+      "number": 72,
+      "title": "Edit Distance",
+      "slug": "edit-distance",
+      "part": 2,
+      "destination": "DynamicProgramming/0072-edit-distance/images/solution-part-2.jpg",
+      "sha256": "ad46fa9c5da45ec653c40dfd1576ec5b6df349f065238343f598e9e261752f40",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Set Matrix Zeroes Part-I.jpg",
+      "number": 73,
+      "title": "Set Matrix Zeroes",
+      "slug": "set-matrix-zeroes",
+      "part": 1,
+      "destination": "Arrays/0073-set-matrix-zeroes/images/solution-part-1.jpg",
+      "sha256": "bebed948163b0552661e95cf25136861e0a7354be39ff707c42ca8c1cce26b06",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Set Matrix Zeroes Part-II.jpg",
+      "number": 73,
+      "title": "Set Matrix Zeroes",
+      "slug": "set-matrix-zeroes",
+      "part": 2,
+      "destination": "Arrays/0073-set-matrix-zeroes/images/solution-part-2.jpg",
+      "sha256": "708fe58a787ac89b28f1dc694c371f648ece92887ec5a2b9345b20521482328c",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Min Window Substring Part-I.jpg",
+      "number": 76,
+      "title": "Minimum Window Substring",
+      "slug": "minimum-window-substring",
+      "part": 1,
+      "destination": "Arrays/0076-minimum-window-substring/images/solution-part-1.jpg",
+      "sha256": "2e9ccdc53a6abbf09563620c9474964df6cc067b7f7de657326ac5e1bd68411b",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Min Window Substring Part-II.jpg",
+      "number": 76,
+      "title": "Minimum Window Substring",
+      "slug": "minimum-window-substring",
+      "part": 2,
+      "destination": "Arrays/0076-minimum-window-substring/images/solution-part-2.jpg",
+      "sha256": "ecd7ec87e80aeaaf13660f3dec808dc41b38d723a369a9c969e870eabd490006",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Min Window Substring Part-III.jpg",
+      "number": 76,
+      "title": "Minimum Window Substring",
+      "slug": "minimum-window-substring",
+      "part": 3,
+      "destination": "Arrays/0076-minimum-window-substring/images/solution-part-3.jpg",
+      "sha256": "500a991b85113bd84e682cec0688be6a2e310b6c321d2ba734f186a68735cd95",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Print All subsets.jpeg",
+      "number": 78,
+      "title": "Subsets",
+      "slug": "subsets",
+      "part": null,
+      "destination": "Backtracking/0078-subsets/images/solution.jpeg",
+      "sha256": "45dc5b17e49003cc790060e2854e82a89dc52b8eabc8ff530463e3808bf6ebe2",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Word Search Part-I.jpg",
+      "number": 79,
+      "title": "Word Search",
+      "slug": "word-search",
+      "part": 1,
+      "destination": "Backtracking/0079-word-search/images/solution-part-1.jpg",
+      "sha256": "cc1efa7e40488296725f4780baeeca213e26338b56dc692f55d9969746633aa6",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Word Search Part-II.jpg",
+      "number": 79,
+      "title": "Word Search",
+      "slug": "word-search",
+      "part": 2,
+      "destination": "Backtracking/0079-word-search/images/solution-part-2.jpg",
+      "sha256": "646258c903ae65c27afa113be0453066f76c1f18592b09384beac2dd230d3b89",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Subsets-II-Part_II.jpeg",
+      "number": 90,
+      "title": "Subsets II",
+      "slug": "subsets-ii",
+      "part": 2,
+      "destination": "Backtracking/0090-subsets-ii/images/solution-part-2.jpeg",
+      "sha256": "eba538ddd8c3ee192cd7e7a37fe3bb441f7f72b97c38f1ded4b7946e40d7f949",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Subsets_II_Part_I.jpeg",
+      "number": 90,
+      "title": "Subsets II",
+      "slug": "subsets-ii",
+      "part": 1,
+      "destination": "Backtracking/0090-subsets-ii/images/solution-part-1.jpeg",
+      "sha256": "ed18d0b034e9921abfcd6c1dffffd512364badce4f3c27a348af7275b26a0afb",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Reverse the Linked List-II.jpg",
+      "number": 92,
+      "title": "Reverse Linked List II",
+      "slug": "reverse-linked-list-ii",
+      "part": null,
+      "destination": "Linked-List/0092-reverse-linked-list-ii/images/solution.jpg",
+      "sha256": "49bd2390f528f32f331c3d7d8ece5394232451ce0730c29d72b8db232c306d61",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Unique BSTs Part-I.jpg",
+      "number": 96,
+      "title": "Unique Binary Search Trees",
+      "slug": "unique-binary-search-trees",
+      "part": 1,
+      "destination": "Trees/0096-unique-binary-search-trees/images/solution-part-1.jpg",
+      "sha256": "ad806851b4c010148a8076b4ae0f8a7d7bbbc2f43810b13fb60be3431e4d643a",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Unique BSTs Part-II.jpg",
+      "number": 96,
+      "title": "Unique Binary Search Trees",
+      "slug": "unique-binary-search-trees",
+      "part": 2,
+      "destination": "Trees/0096-unique-binary-search-trees/images/solution-part-2.jpg",
+      "sha256": "4afcb6bdf9df7db5864d377492c48d10362393cb4350c8460d069d350d9779e6",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Validate BST.jpg",
+      "number": 98,
+      "title": "Validate Binary Search Tree",
+      "slug": "validate-binary-search-tree",
+      "part": null,
+      "destination": "Trees/0098-validate-binary-search-tree/images/solution.jpg",
+      "sha256": "78104ceda33c0f555c96ce80567c80bc7f041b249f19523937b3c77c6bfdf076",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Recover BST Part-I.jpg",
+      "number": 99,
+      "title": "Recover Binary Search Tree",
+      "slug": "recover-binary-search-tree",
+      "part": 1,
+      "destination": "Trees/0099-recover-binary-search-tree/images/solution-part-1.jpg",
+      "sha256": "abc75bffc7844e0931175eeff5ebcffa678752776ff4efe73f51d25d57210956",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Recover BST Part-II.jpg",
+      "number": 99,
+      "title": "Recover Binary Search Tree",
+      "slug": "recover-binary-search-tree",
+      "part": 2,
+      "destination": "Trees/0099-recover-binary-search-tree/images/solution-part-2.jpg",
+      "sha256": "bfe60cb14fe69a9c05b27735aca1a4611118c65e8c0290a96b2d574ee6c7ce32",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Recover BST Part-III.jpg",
+      "number": 99,
+      "title": "Recover Binary Search Tree",
+      "slug": "recover-binary-search-tree",
+      "part": 3,
+      "destination": "Trees/0099-recover-binary-search-tree/images/solution-part-3.jpg",
+      "sha256": "919dc2b0fe6c3fc4202f6d169ea41769fea1d0ac9ef078857584e03bf6ff1726",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Same Tree Part-I.jpg",
+      "number": 100,
+      "title": "Same Tree",
+      "slug": "same-tree",
+      "part": 1,
+      "destination": "Trees/0100-same-tree/images/solution-part-1.jpg",
+      "sha256": "c469e25a7625c194ac2ce10e946812c47d43b3af6dc3ebf8c889984fed0d10a2",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Same Tree Part-II.jpg",
+      "number": 100,
+      "title": "Same Tree",
+      "slug": "same-tree",
+      "part": 2,
+      "destination": "Trees/0100-same-tree/images/solution-part-2.jpg",
+      "sha256": "8317239cfaa49e4175fbd629e7680029163e2f6301ea3a26e766769e07c38c62",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Symmetric tree.jpg",
+      "number": 101,
+      "title": "Symmetric Tree",
+      "slug": "symmetric-tree",
+      "part": null,
+      "destination": "Trees/0101-symmetric-tree/images/solution.jpg",
+      "sha256": "82336532a4d264a380b4537c0352bcc82e362d56f786619131277c3513801e80",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Level Order Traversal.jpg",
+      "number": 102,
+      "title": "Binary Tree Level Order Traversal",
+      "slug": "binary-tree-level-order-traversal",
+      "part": null,
+      "destination": "Trees/0102-binary-tree-level-order-traversal/images/solution.jpg",
+      "sha256": "53539f4d496b2282a32121347f4b7379c818e6482e54fbcf95341388fbdceb31",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/BT Zigzag Level Order Traversal.jpg",
+      "number": 103,
+      "title": "Binary Tree Zigzag Level Order Traversal",
+      "slug": "binary-tree-zigzag-level-order-traversal",
+      "part": null,
+      "destination": "Trees/0103-binary-tree-zigzag-level-order-traversal/images/solution.jpg",
+      "sha256": "dcae1b64665cf14914598b7b3ccdf28cf32507b9a69ed2f21bccfecd66abeddd",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Construct BT from pre & inorder traversal part-i.jpg",
+      "number": 105,
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "part": 1,
+      "destination": "Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/images/solution-part-1.jpg",
+      "sha256": "9f8f4228854aac0474c05b1588ec801bc1ff86a6125af766075b7d210a0fd480",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Construct a bt from pre & inorder traversal part-II.jpg",
+      "number": 105,
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "part": 2,
+      "destination": "Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/images/solution-part-2.jpg",
+      "sha256": "b9f364aa876ad886bfa9e6ee42fdff5ffef1ae87dc1d8c0c53a15420077ea50f",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Construct BT from inorder & postorder.jpg",
+      "number": 106,
+      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "part": null,
+      "destination": "Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/images/solution.jpg",
+      "sha256": "2e14d9345f3efe3c88a8fd67dbf07bcfa9bb3446797e89e022d9c2c2c7a2e57c",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Sorted Array to BST.jpg",
+      "number": 108,
+      "title": "Convert Sorted Array to Binary Search Tree",
+      "slug": "convert-sorted-array-to-binary-search-tree",
+      "part": null,
+      "destination": "Trees/0108-convert-sorted-array-to-binary-search-tree/images/solution.jpg",
+      "sha256": "7b89c5d94196e09950c29c22dbe649eb21a5842502fdac68f08f38a0c1bb045f",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/111-Min-Depth-of-BT.jpg",
+      "number": 111,
+      "title": "Minimum Depth of Binary Tree",
+      "slug": "minimum-depth-of-binary-tree",
+      "part": null,
+      "destination": "Trees/0111-minimum-depth-of-binary-tree/images/solution.jpg",
+      "sha256": "b86d55ca82152972b1c95844929758002ead78b74b0d3e874abdca3cca3f2e85",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/112-Path-Sum-Part-I.jpg",
+      "number": 112,
+      "title": "Path Sum",
+      "slug": "path-sum",
+      "part": 1,
+      "destination": "Trees/0112-path-sum/images/solution-part-1.jpg",
+      "sha256": "38290f151a0fb48f4560b2eda3b5ae8db338501d87f4303071e24fcd2afe5ea6",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/113-Path-Sum-Part-II.jpg",
+      "number": 113,
+      "title": "Path Sum II",
+      "slug": "path-sum-ii",
+      "part": 2,
+      "destination": "Trees/0113-path-sum-ii/images/solution-part-2.jpg",
+      "sha256": "8ab5d5eafc5ce6549d6a5cea034d3a8ce806366e634fd0972fe9da6b9a592f22",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Flatten BST to LinkedList Part-I.jpg",
+      "number": 114,
+      "title": "Flatten Binary Tree to Linked List",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "part": 1,
+      "destination": "Trees/0114-flatten-binary-tree-to-linked-list/images/solution-part-1.jpg",
+      "sha256": "2d36ec7b69130cc25371f661466008da8e018636c437299af3f202c209963b5d",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Flatten BST to LinkedList Part-II.jpg",
+      "number": 114,
+      "title": "Flatten Binary Tree to Linked List",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "part": 2,
+      "destination": "Trees/0114-flatten-binary-tree-to-linked-list/images/solution-part-2.jpg",
+      "sha256": "086bc4286e388ae453254968a82abcbec47fcb069d4f8ca72d768dd28b65841a",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Populating Next Right in Each Node.jpg",
+      "number": 116,
+      "title": "Populating Next Right Pointers in Each Node",
+      "slug": "populating-next-right-pointers-in-each-node",
+      "part": null,
+      "destination": "Trees/0116-populating-next-right-pointers-in-each-node/images/solution.jpg",
+      "sha256": "ba359b0ac8da61b502429583517296ffec2105c4dbc9ef3147a26d1411c19f1d",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Best time to buy sell stocks -122.jpg",
+      "number": 122,
+      "title": "Best Time to Buy and Sell Stock II",
+      "slug": "best-time-to-buy-and-sell-stock-ii",
+      "part": null,
+      "destination": "DynamicProgramming/0122-best-time-to-buy-and-sell-stock-ii/images/solution.jpg",
+      "sha256": "31f51d685420ec0f5fd27aa690f53964e319eb4d54d78fc972582d52eb2fe582",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Maximum Path Sum Part-I.jpg",
+      "number": 124,
+      "title": "Binary Tree Maximum Path Sum",
+      "slug": "binary-tree-maximum-path-sum",
+      "part": 1,
+      "destination": "Trees/0124-binary-tree-maximum-path-sum/images/solution-part-1.jpg",
+      "sha256": "68202740b0840e47f41609579451443d191fbf32a61a7ac3ca0b85c59078831f",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Maximum Path Sum Part-II.jpg",
+      "number": 124,
+      "title": "Binary Tree Maximum Path Sum",
+      "slug": "binary-tree-maximum-path-sum",
+      "part": 2,
+      "destination": "Trees/0124-binary-tree-maximum-path-sum/images/solution-part-2.jpg",
+      "sha256": "50a8373ea0f1a4ff3a97fc2766a58029c0c1c8ae79e8f1676ee9a4a846371ad8",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/128-Longest-Consecutive-Seq.jpg",
+      "number": 128,
+      "title": "Longest Consecutive Sequence",
+      "slug": "longest-consecutive-sequence",
+      "part": null,
+      "destination": "Arrays/0128-longest-consecutive-sequence/images/solution.jpg",
+      "sha256": "051ce7e976cb9523dd3d3c8861ca02e9ef73de76535dec470423e18dedff7fd9",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/129-Sum-Root-to-leaf-Numbers.jpg",
+      "number": 129,
+      "title": "Sum Root to Leaf Numbers",
+      "slug": "sum-root-to-leaf-numbers",
+      "part": null,
+      "destination": "Trees/0129-sum-root-to-leaf-numbers/images/solution.jpg",
+      "sha256": "f6e4d352477efb5b9e68a6f01c4fb4121128c5faea83dbce056e68ab67e9a469",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Palindrome Partitioning-II Part-I.jpg",
+      "number": 132,
+      "title": "Palindrome Partitioning II",
+      "slug": "palindrome-partitioning-ii",
+      "part": 1,
+      "destination": "DynamicProgramming/0132-palindrome-partitioning-ii/images/solution-part-1.jpg",
+      "sha256": "aacac655d7180e521d7c545063e01b46f8d5e40493637d94d0fa18302e58f56f",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Palindrome Partitioning-II Part-II.jpg",
+      "number": 132,
+      "title": "Palindrome Partitioning II",
+      "slug": "palindrome-partitioning-ii",
+      "part": 2,
+      "destination": "DynamicProgramming/0132-palindrome-partitioning-ii/images/solution-part-2.jpg",
+      "sha256": "6944f0796aef285943d3332c72b13e175aa015cacbf7a02e38542ba3653ae08e",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Clone graph Part-I.jpg",
+      "number": 133,
+      "title": "Clone Graph",
+      "slug": "clone-graph",
+      "part": 1,
+      "destination": "Graphs/0133-clone-graph/images/solution-part-1.jpg",
+      "sha256": "b7da7278e1966599ee01e41ef60aa7b10e5be68f434b37faea817af9917b3eb5",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Clone graph Part-II.jpg",
+      "number": 133,
+      "title": "Clone Graph",
+      "slug": "clone-graph",
+      "part": 2,
+      "destination": "Graphs/0133-clone-graph/images/solution-part-2.jpg",
+      "sha256": "b1a891f1c026a600a2d0552e2164ec1e5536418c5a059f37472afd79c5e749b3",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Preorder Traversal.jpg",
+      "number": 144,
+      "title": "Binary Tree Preorder Traversal",
+      "slug": "binary-tree-preorder-traversal",
+      "part": null,
+      "destination": "Trees/0144-binary-tree-preorder-traversal/images/solution.jpg",
+      "sha256": "2d138ee5548078cbf7c872272b4dd4b1fff8dc190cf2b66af0281cda74d51499",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/PostOrder traversal.jpg",
+      "number": 145,
+      "title": "Binary Tree Postorder Traversal",
+      "slug": "binary-tree-postorder-traversal",
+      "part": null,
+      "destination": "Trees/0145-binary-tree-postorder-traversal/images/solution.jpg",
+      "sha256": "99c0b0958ad5c5fb43912e5864d5da0aea52d928c3f2d9d8b0f8bcc0e79ab927",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/167-Two-Sum-II-Input-Sorted.jpg",
+      "number": 167,
+      "title": "Two Sum II - Input Array Is Sorted",
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "part": null,
+      "destination": "Arrays/0167-two-sum-ii-input-array-is-sorted/images/solution.jpg",
+      "sha256": "fbec3e51079d770cba0f855aa61573c8c3a989d0bad17c326754faf60e6cb633",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/BST Iterator Part-I.jpg",
+      "number": 173,
+      "title": "Binary Search Tree Iterator",
+      "slug": "binary-search-tree-iterator",
+      "part": 1,
+      "destination": "Trees/0173-binary-search-tree-iterator/images/solution-part-1.jpg",
+      "sha256": "ac74abd509383d60535277650d8c023850700614ce8366a17ef737fe84a7fcbd",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/BST iterator Part-II.jpg",
+      "number": 173,
+      "title": "Binary Search Tree Iterator",
+      "slug": "binary-search-tree-iterator",
+      "part": 2,
+      "destination": "Trees/0173-binary-search-tree-iterator/images/solution-part-2.jpg",
+      "sha256": "d4ec78bacbf2188193d63adf70e8f7e6064915ade1e811e9d40f4ef24e4952d8",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/House Robber-I.jpg",
+      "number": 198,
+      "title": "House Robber",
+      "slug": "house-robber",
+      "part": null,
+      "destination": "DynamicProgramming/0198-house-robber/images/solution.jpg",
+      "sha256": "2aa26f6c20cc2a3c505c4d5d3b25203639f5fbdb1c76c8933736283663906d42",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/199-Binary-tree-right-side-view.jpg",
+      "number": 199,
+      "title": "Binary Tree Right Side View",
+      "slug": "binary-tree-right-side-view",
+      "part": null,
+      "destination": "Trees/0199-binary-tree-right-side-view/images/solution.jpg",
+      "sha256": "a7ecf09b8c48340d62b0a1edc4065c1caff4af6612ee3f51af54def1c90d9372",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Course Schedule - Cycle Graph.jpg",
+      "number": 207,
+      "title": "Course Schedule",
+      "slug": "course-schedule",
+      "part": null,
+      "destination": "Graphs/0207-course-schedule/images/solution.jpg",
+      "sha256": "5a0d16483e55f8c26b6c95b40812c3157725def469d7d0f3a90994b300af2c99",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Course Schedule-II.jpg",
+      "number": 210,
+      "title": "Course Schedule II",
+      "slug": "course-schedule-ii",
+      "part": null,
+      "destination": "Graphs/0210-course-schedule-ii/images/solution.jpg",
+      "sha256": "dfb88b5ffb22822d3ba214fd0562a0d07cc7eb348516b036945552dec445827b",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/House Robber-II.jpg",
+      "number": 213,
+      "title": "House Robber II",
+      "slug": "house-robber-ii",
+      "part": null,
+      "destination": "DynamicProgramming/0213-house-robber-ii/images/solution.jpg",
+      "sha256": "fbc6a3c931ea1dbc0e25d15c8b2c0f9132318c079e20b096622b29c0c6110c41",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/215-kth-largest-element-in-array.jpg",
+      "number": 215,
+      "title": "Kth Largest Element in an Array",
+      "slug": "kth-largest-element-in-an-array",
+      "part": null,
+      "destination": "Heaps/0215-kth-largest-element-in-an-array/images/solution.jpg",
+      "sha256": "129f080876ea48016f293ad06d0f5065fe0c343ca1f7a2eea0407478c789d0c6",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/222-Count-complete-tree-nodes.jpg",
+      "number": 222,
+      "title": "Count Complete Tree Nodes",
+      "slug": "count-complete-tree-nodes",
+      "part": null,
+      "destination": "Trees/0222-count-complete-tree-nodes/images/solution.jpg",
+      "sha256": "16037778969b88926b417e6d223b632039dedf8bf4ae70a99987cf5cbc005c4b",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Implementation Stack using queues.jpeg",
+      "number": 225,
+      "title": "Implement Stack using Queues",
+      "slug": "implement-stack-using-queues",
+      "part": null,
+      "destination": "Arrays/0225-implement-stack-using-queues/images/solution.jpeg",
+      "sha256": "21b67c33e2f035f720fee8f7f7ea693ba544f915dbb817eb5166b2b63c490cdb",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Kth Smallest in BST.jpg",
+      "number": 230,
+      "title": "Kth Smallest Element in a BST",
+      "slug": "kth-smallest-element-in-a-bst",
+      "part": null,
+      "destination": "Trees/0230-kth-smallest-element-in-a-bst/images/solution.jpg",
+      "sha256": "c36a5b8133ff5b2799b2b0028879b39f47fe4b6dfb04fa5cd6abf395f77d30b4",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Palindrome Linked List.jpg",
+      "number": 234,
+      "title": "Palindrome Linked List",
+      "slug": "palindrome-linked-list",
+      "part": null,
+      "destination": "Linked-List/0234-palindrome-linked-list/images/solution.jpg",
+      "sha256": "443a0529901eaf749e8d83784c4263927ea14f7db4dc16e8f2ff5dde392d1603",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Lowest Common Ancestor of BST.jpg",
+      "number": 235,
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "part": null,
+      "destination": "Trees/0235-lowest-common-ancestor-of-a-binary-search-tree/images/solution.jpg",
+      "sha256": "123fcf7063248714602669fcddfc0ef3d1cba708cf98f1deb9943b1fb40d5e33",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Lowest Common Ancestor Part-I.jpg",
+      "number": 236,
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "part": 1,
+      "destination": "Trees/0236-lowest-common-ancestor-of-a-binary-tree/images/solution-part-1.jpg",
+      "sha256": "0ffa5d893d24a760fed583ec29d47cb2fe7bb7750271205f07724202ffd09220",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Lowest Common Ancestor Part-II.jpg",
+      "number": 236,
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "part": 2,
+      "destination": "Trees/0236-lowest-common-ancestor-of-a-binary-tree/images/solution-part-2.jpg",
+      "sha256": "28c4514f743dd7625226d15fb73de0a77b443821dbc48e0ec3d2c46ede87ce96",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Sliding window max part-i.jpg",
+      "number": 239,
+      "title": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "part": 1,
+      "destination": "Arrays/0239-sliding-window-maximum/images/solution-part-1.jpg",
+      "sha256": "ffcdfa4a043fac98b3ddf64dfcd1d9723d68452f6a544c92fd02c43d32df7aef",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Sliding window max part-ii.jpg",
+      "number": 239,
+      "title": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "part": 2,
+      "destination": "Arrays/0239-sliding-window-maximum/images/solution-part-2.jpg",
+      "sha256": "04cf1f8165d5953f2674c106858a9ec50f8878db2a2fa098d0de88c340970e94",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Valid Anagram.jpg",
+      "number": 242,
+      "title": "Valid Anagram",
+      "slug": "valid-anagram",
+      "part": null,
+      "destination": "Arrays/0242-valid-anagram/images/solution.jpg",
+      "sha256": "807d9a2d997afc703862ad66ca2186f4749222984a62837aa1154fde6d8fd7c4",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/279-Perfect Squares.jpg",
+      "number": 279,
+      "title": "Perfect Squares",
+      "slug": "perfect-squares",
+      "part": null,
+      "destination": "DynamicProgramming/0279-perfect-squares/images/solution.jpg",
+      "sha256": "3717f0c1a5bb5c6d49d03f917034d14ca2c28e96f2db06c0e24a6567e703ce4f",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Longest Increasing Subsequence Part-I.jpg",
+      "number": 300,
+      "title": "Longest Increasing Subsequence",
+      "slug": "longest-increasing-subsequence",
+      "part": 1,
+      "destination": "DynamicProgramming/0300-longest-increasing-subsequence/images/solution-part-1.jpg",
+      "sha256": "23ef870ec23485e6a41a25c0eeed8d690a803ef8ebe30771aaa55a1522a87aa7",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Longest Increasing Subsequence Part-II.jpg",
+      "number": 300,
+      "title": "Longest Increasing Subsequence",
+      "slug": "longest-increasing-subsequence",
+      "part": 2,
+      "destination": "DynamicProgramming/0300-longest-increasing-subsequence/images/solution-part-2.jpg",
+      "sha256": "477ca3aff694d6c838d20c74b3a4d82042a209b42914bb9dc6f9108d456662ca",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Coin change part-II.jpg",
+      "number": 322,
+      "title": "Coin Change",
+      "slug": "coin-change",
+      "part": 2,
+      "destination": "DynamicProgramming/0322-coin-change/images/solution-part-2.jpg",
+      "sha256": "d2018e807b94ae63e80776e0975a7ced3f270c23071068f8e9faa8fd33ba46f1",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Coin change part-III.jpg",
+      "number": 322,
+      "title": "Coin Change",
+      "slug": "coin-change",
+      "part": 3,
+      "destination": "DynamicProgramming/0322-coin-change/images/solution-part-3.jpg",
+      "sha256": "92a878277c25e25fd175125656b9891ca2ae21bdfad3dba67d02d0154874ce17",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Top K freq elements part-I.jpg",
+      "number": 347,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "part": 1,
+      "destination": "Heaps/0347-top-k-frequent-elements/images/solution-part-1.jpg",
+      "sha256": "7b2c135c927dd642896ff96b4553cefc0e5222348d80b06cb11a3cc82ef197de",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Top K freq elements part-II.jpg",
+      "number": 347,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "part": 2,
+      "destination": "Heaps/0347-top-k-frequent-elements/images/solution-part-2.jpg",
+      "sha256": "e03425a5d386c931bd2da8439e56626702e1590d1d1f5fa7aab70c0d569c2331",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/365-water-jug-part-I.jpg",
+      "number": 365,
+      "title": "Water and Jug Problem",
+      "slug": "water-and-jug-problem",
+      "part": 1,
+      "destination": "Graphs/0365-water-and-jug-problem/images/solution-part-1.jpg",
+      "sha256": "8537b3409a3dc7ad4aa49f2a2e044479c504f644691c9b22d73390a38b874bfb",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/365-water-jug-part-II.jpg",
+      "number": 365,
+      "title": "Water and Jug Problem",
+      "slug": "water-and-jug-problem",
+      "part": 2,
+      "destination": "Graphs/0365-water-and-jug-problem/images/solution-part-2.jpg",
+      "sha256": "dcbc3fce75bdaa146e905121c9d306003862de9df001aa9e66376f24eb61d224",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Largest Divisible Subset Part-I.jpg",
+      "number": 368,
+      "title": "Largest Divisible Subset",
+      "slug": "largest-divisible-subset",
+      "part": 1,
+      "destination": "DynamicProgramming/0368-largest-divisible-subset/images/solution-part-1.jpg",
+      "sha256": "d9c6a38fb1ff22fe866a230a3f9dee7e8ed6392c3578686d0112f24a3ee54fa6",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Largest Divisible Subset Part-II.jpg",
+      "number": 368,
+      "title": "Largest Divisible Subset",
+      "slug": "largest-divisible-subset",
+      "part": 2,
+      "destination": "DynamicProgramming/0368-largest-divisible-subset/images/solution-part-2.jpg",
+      "sha256": "f9d5aedb579fcacb92562929742bfd5bbd6750eb78935fe7de126a98a29d9770",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Largest Divisible Subset Part-III.jpg",
+      "number": 368,
+      "title": "Largest Divisible Subset",
+      "slug": "largest-divisible-subset",
+      "part": 3,
+      "destination": "DynamicProgramming/0368-largest-divisible-subset/images/solution-part-3.jpg",
+      "sha256": "2538d600f02939eda07b76f116250255b5e6dca8c9e2cd55427010c7b0c98cf7",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/371-Sum-of-Two-Int-Part-I.jpg",
+      "number": 371,
+      "title": "Sum of Two Integers",
+      "slug": "sum-of-two-integers",
+      "part": 1,
+      "destination": "BitManipulation/0371-sum-of-two-integers/images/solution-part-1.jpg",
+      "sha256": "401431fe060fe89085d6645ca84297697b96796f46f64036f8e6a24fb9b15b84",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/371-Sum-of-Two-Int-Part-II.jpg",
+      "number": 371,
+      "title": "Sum of Two Integers",
+      "slug": "sum-of-two-integers",
+      "part": 2,
+      "destination": "BitManipulation/0371-sum-of-two-integers/images/solution-part-2.jpg",
+      "sha256": "f7eb238b598ffb87a08b9abcd505a7a3582c8e5d6b9553242ddfb3258bef859d",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Kth smallest in a sorted matrix.jpg",
+      "number": 378,
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "slug": "kth-smallest-element-in-a-sorted-matrix",
+      "part": null,
+      "destination": "Heaps/0378-kth-smallest-element-in-a-sorted-matrix/images/solution.jpg",
+      "sha256": "4491e4819cf15832dabe32a4bffaba10cf606a768c99141c05ed9156796cb2aa",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/First unique character in string.jpg",
+      "number": 387,
+      "title": "First Unique Character in a String",
+      "slug": "first-unique-character-in-a-string",
+      "part": null,
+      "destination": "Arrays/0387-first-unique-character-in-a-string/images/solution.jpg",
+      "sha256": "0160315d5e2012d75daffb9113a7c7c163f48a88fe710a8dd0ed475b2277fdfb",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/433-Min-Genetic-Mutation-Part-I.jpg",
+      "number": 433,
+      "title": "Minimum Genetic Mutation",
+      "slug": "minimum-genetic-mutation",
+      "part": 1,
+      "destination": "Graphs/0433-minimum-genetic-mutation/images/solution-part-1.jpg",
+      "sha256": "b7b07b39687943a65bc2ba3835f6e8a2a1088da77317d883ea18838af731a4e0",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/433-Min-Genetic-Mutation-Part-II.jpg",
+      "number": 433,
+      "title": "Minimum Genetic Mutation",
+      "slug": "minimum-genetic-mutation",
+      "part": 2,
+      "destination": "Graphs/0433-minimum-genetic-mutation/images/solution-part-2.jpg",
+      "sha256": "b916becaa2d2bf37a08e1967a5c717f2f4d1ce5e5f9efd02d65b93f13caa960d",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Delete a Node in BST Part-I.jpg",
+      "number": 450,
+      "title": "Delete Node in a BST",
+      "slug": "delete-node-in-a-bst",
+      "part": 1,
+      "destination": "Trees/0450-delete-node-in-a-bst/images/solution-part-1.jpg",
+      "sha256": "45f98a2374f71cee1d2950bdb0ba59917fc52f40b6b8822c2d17e5c440841f96",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Delete a Node in BST Part-II.jpg",
+      "number": 450,
+      "title": "Delete Node in a BST",
+      "slug": "delete-node-in-a-bst",
+      "part": 2,
+      "destination": "Trees/0450-delete-node-in-a-bst/images/solution-part-2.jpg",
+      "sha256": "abf11269278ff14dc8d741a9878b491893399ce09e4a4ad0ba0336b0401d75b8",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Reverse Pairs Part-I.jpg",
+      "number": 493,
+      "title": "Reverse Pairs",
+      "slug": "reverse-pairs",
+      "part": 1,
+      "destination": "Arrays/0493-reverse-pairs/images/solution-part-1.jpg",
+      "sha256": "cfd0d764a8db12f8c268d5a4e5e15d746a221977eaa45f1cf9fcfd340ae893ed",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Reverse Pairs Part-II.jpg",
+      "number": 493,
+      "title": "Reverse Pairs",
+      "slug": "reverse-pairs",
+      "part": 2,
+      "destination": "Arrays/0493-reverse-pairs/images/solution-part-2.jpg",
+      "sha256": "d4db5076633ba133e462773981df1dd3dd362deb0d4546fe0daf19f0eb9fdb8e",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Reverse Pairs Part-III.jpg",
+      "number": 493,
+      "title": "Reverse Pairs",
+      "slug": "reverse-pairs",
+      "part": 3,
+      "destination": "Arrays/0493-reverse-pairs/images/solution-part-3.jpg",
+      "sha256": "0cdb4d89a17ce071c3e41fa2a1fc82dfd9594d0d0685f75b8767b28e81dd6a33",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Target Sum Part-I.jpg",
+      "number": 494,
+      "title": "Target Sum",
+      "slug": "target-sum",
+      "part": 1,
+      "destination": "Backtracking/0494-target-sum/images/solution-part-1.jpg",
+      "sha256": "47a6882e57e18d8734ee66ff35f9b9a3dd81fd0c686fcb2fa159d0d589ff01fd",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Target Sum Part-II.jpg",
+      "number": 494,
+      "title": "Target Sum",
+      "slug": "target-sum",
+      "part": 2,
+      "destination": "Backtracking/0494-target-sum/images/solution-part-2.jpg",
+      "sha256": "78b2c68d16241bdf891a48ba9345b2e99b0c849260aeb8a42daba2b5e491da77",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Next Greater Element.jpeg",
+      "number": 503,
+      "title": "Next Greater Element II",
+      "slug": "next-greater-element-ii",
+      "part": null,
+      "destination": "Arrays/0503-next-greater-element-ii/images/solution.jpeg",
+      "sha256": "ed113e85ea0c1af16d5f328b94991c1492e11b676717ab68e40c9ecb3ea38b3f",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/513-Find-Bottom-Left-Tree-Value.jpg",
+      "number": 513,
+      "title": "Find Bottom Left Tree Value",
+      "slug": "find-bottom-left-tree-value",
+      "part": null,
+      "destination": "Trees/0513-find-bottom-left-tree-value/images/solution.jpg",
+      "sha256": "a9ecb393d0b6d6c76ba2a7dde3f78dce3cae50604d89700f191bff46c3229a2e",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/515-Find-Largest-Value-in-Level.jpg",
+      "number": 515,
+      "title": "Find Largest Value in Each Tree Row",
+      "slug": "find-largest-value-in-each-tree-row",
+      "part": null,
+      "destination": "Trees/0515-find-largest-value-in-each-tree-row/images/solution.jpg",
+      "sha256": "e9ccba4b5f6ecdbef9a70fcda9c752edb30c9e9d22c6bf86894f3c19dbda0116",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Longest Palindromic Sequence.jpg",
+      "number": 516,
+      "title": "Longest Palindromic Subsequence",
+      "slug": "longest-palindromic-subsequence",
+      "part": null,
+      "destination": "DynamicProgramming/0516-longest-palindromic-subsequence/images/solution.jpg",
+      "sha256": "b4e24acbb16f6e6e9cddd37eec38dca3aab977a611e96d4a740043928eb7211d",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/01 Matrix Part-I.jpg",
+      "number": 542,
+      "title": "01 Matrix",
+      "slug": "01-matrix",
+      "part": 1,
+      "destination": "Graphs/0542-01-matrix/images/solution-part-1.jpg",
+      "sha256": "16a25d2e176f6d10cf01293d575ce3904678dd3d9f358850659187fd3e19e6ce",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/01 Matrix Part-II.jpg",
+      "number": 542,
+      "title": "01 Matrix",
+      "slug": "01-matrix",
+      "part": 2,
+      "destination": "Graphs/0542-01-matrix/images/solution-part-2.jpg",
+      "sha256": "01cfbec44006b6b9bd708a0c30b93f93046b6a71250745b4850f9b9f39a73278",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Diameter of Tree Part-II.jpg",
+      "number": 543,
+      "title": "Diameter of Binary Tree",
+      "slug": "diameter-of-binary-tree",
+      "part": 2,
+      "destination": "Trees/0543-diameter-of-binary-tree/images/solution-part-2.jpg",
+      "sha256": "1e9cdd49adad87a8a138bbc135b18b5f1a31189b31b8831dc178b85010c93ed5",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Diameter of Tree Part-III.jpg",
+      "number": 543,
+      "title": "Diameter of Binary Tree",
+      "slug": "diameter-of-binary-tree",
+      "part": 3,
+      "destination": "Trees/0543-diameter-of-binary-tree/images/solution-part-3.jpg",
+      "sha256": "fa935ab7199669516da56e63e7a714db38a82547dc372746f37adfb15950bc77",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Diamter of Tree Part-I.jpg",
+      "number": 543,
+      "title": "Diameter of Binary Tree",
+      "slug": "diameter-of-binary-tree",
+      "part": 1,
+      "destination": "Trees/0543-diameter-of-binary-tree/images/solution-part-1.jpg",
+      "sha256": "659c6d865eaa634e45cd54c900ec8f42aba9de17954950eef1f384d1e014fdef",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/SubArray Sum Equals K Part_II.jpeg",
+      "number": 560,
+      "title": "Subarray Sum Equals K",
+      "slug": "subarray-sum-equals-k",
+      "part": 2,
+      "destination": "Arrays/0560-subarray-sum-equals-k/images/solution-part-2.jpeg",
+      "sha256": "bea1398f56bf0d16130216c046903509b2204f36b85fb6bd30fec283c046fcd4",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/SubArray Sum equals K_Part-I.jpeg",
+      "number": 560,
+      "title": "Subarray Sum Equals K",
+      "slug": "subarray-sum-equals-k",
+      "part": 1,
+      "destination": "Arrays/0560-subarray-sum-equals-k/images/solution-part-1.jpeg",
+      "sha256": "7abea873f20b30f36eeb4e61c2b712169200839f0c7fc09701965a4839128be3",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/subTree of Another Tree.jpg",
+      "number": 572,
+      "title": "Subtree of Another Tree",
+      "slug": "subtree-of-another-tree",
+      "part": null,
+      "destination": "Trees/0572-subtree-of-another-tree/images/solution.jpg",
+      "sha256": "bf5d10007037ea3d038f36a803838cbf8b24c4df99b348525993fa09fdff2a2d",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/623-Add-one-row-to-Tree-Part-I.jpg",
+      "number": 623,
+      "title": "Add One Row to Tree",
+      "slug": "add-one-row-to-tree",
+      "part": 1,
+      "destination": "Trees/0623-add-one-row-to-tree/images/solution-part-1.jpg",
+      "sha256": "475ec912f11baafed0c1947687d1bc6bfc28fc710350470044868580c57bbb91",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/623-Add-one-row-to-Tree-Part-II.jpg",
+      "number": 623,
+      "title": "Add One Row to Tree",
+      "slug": "add-one-row-to-tree",
+      "part": 2,
+      "destination": "Trees/0623-add-one-row-to-tree/images/solution-part-2.jpg",
+      "sha256": "4e5a686a0afcfd427f7d9777463ad780f3ae43ce101e03b6539aebcaa9a91f90",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/652-Find-Duplicate-Subtrees-Part-I.jpg",
+      "number": 652,
+      "title": "Find Duplicate Subtrees",
+      "slug": "find-duplicate-subtrees",
+      "part": 1,
+      "destination": "Trees/0652-find-duplicate-subtrees/images/solution-part-1.jpg",
+      "sha256": "077f4f95f18b278a3a1908bcf1b91456ce30f7044f7191d11e9b5e1f5884a10e",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/652-Find-Duplicate-Subtrees-Part-II.jpg",
+      "number": 652,
+      "title": "Find Duplicate Subtrees",
+      "slug": "find-duplicate-subtrees",
+      "part": 2,
+      "destination": "Trees/0652-find-duplicate-subtrees/images/solution-part-2.jpg",
+      "sha256": "b5dfdfc49e7c62988ea36f9bb285d3b7441baa3ab533bc7037ca20dfa493a8ce",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Max Width of Binary Tree.jpg",
+      "number": 662,
+      "title": "Maximum Width of Binary Tree",
+      "slug": "maximum-width-of-binary-tree",
+      "part": null,
+      "destination": "Trees/0662-maximum-width-of-binary-tree/images/solution.jpg",
+      "sha256": "982f682dc4e5510e84012c619137a76cc6396d164dc17860b3e899bebca55f82",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Redundant Connection Part-I.jpg",
+      "number": 684,
+      "title": "Redundant Connection",
+      "slug": "redundant-connection",
+      "part": 1,
+      "destination": "Graphs/0684-redundant-connection/images/solution-part-1.jpg",
+      "sha256": "a4565a52ca36cf8095eb0f4b16849788953f808f93473628b4497782051909b5",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Redundant Connection Part-II.jpg",
+      "number": 684,
+      "title": "Redundant Connection",
+      "slug": "redundant-connection",
+      "part": 2,
+      "destination": "Graphs/0684-redundant-connection/images/solution-part-2.jpg",
+      "sha256": "398f9d93a053b57da8cb082acb3fb1756600b35c80dae86f63b86e5de2055802",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Kth Largest in Stream.jpg",
+      "number": 703,
+      "title": "Kth Largest Element in a Stream",
+      "slug": "kth-largest-element-in-a-stream",
+      "part": null,
+      "destination": "Heaps/0703-kth-largest-element-in-a-stream/images/solution.jpg",
+      "sha256": "ef466fdf5707962d6c68a1e1c17c6b5a862016c08d2fa6bf68ed24977ff3632c",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Flood Fill Algorithm.jpg",
+      "number": 733,
+      "title": "Flood Fill",
+      "slug": "flood-fill",
+      "part": null,
+      "destination": "Graphs/0733-flood-fill/images/solution.jpg",
+      "sha256": "0ce34cc607e838eafa8400a110657adb33104b91b87d66f57396eddfed682210",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/743-Network-delay-time-Part-I.jpg",
+      "number": 743,
+      "title": "Network Delay Time",
+      "slug": "network-delay-time",
+      "part": 1,
+      "destination": "Graphs/0743-network-delay-time/images/solution-part-1.jpg",
+      "sha256": "87b34d24810b8ab0d75d9daeddefc55b528f8242ea49d94634858dcabc5c35c3",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/743-Network-delay-time-Part-II.jpg",
+      "number": 743,
+      "title": "Network Delay Time",
+      "slug": "network-delay-time",
+      "part": 2,
+      "destination": "Graphs/0743-network-delay-time/images/solution-part-2.jpg",
+      "sha256": "ffa8df4b604536d6ef907dc7ba1bd216eae8ed8618ba08fe1f971b901d8d5ca6",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Min Dist b:w two BST nodes.jpg",
+      "number": 783,
+      "title": "Minimum Distance Between BST Nodes",
+      "slug": "minimum-distance-between-bst-nodes",
+      "part": null,
+      "destination": "Trees/0783-minimum-distance-between-bst-nodes/images/solution.jpg",
+      "sha256": "5376e31d0788d51bc929b6c36be82eb755d2afa05cf8394975687995c17f7dc7",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Is graph Bipartite.jpg",
+      "number": 785,
+      "title": "Is Graph Bipartite?",
+      "slug": "is-graph-bipartite",
+      "part": null,
+      "destination": "Graphs/0785-is-graph-bipartite/images/solution.jpg",
+      "sha256": "bc7b271a723711efcdf6ebfaafc139f41bf9cc8838269e1fc27203446851695e",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Cheapes Flights Part-II.jpg",
+      "number": 787,
+      "title": "Cheapest Flights Within K Stops",
+      "slug": "cheapest-flights-within-k-stops",
+      "part": 2,
+      "destination": "Graphs/0787-cheapest-flights-within-k-stops/images/solution-part-2.jpg",
+      "sha256": "6f21b5a1c462b01b07b3770e605557bcbd72f85471573a15e90d3b9d62ddf85b",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Cheapest Flights Part-I.jpg",
+      "number": 787,
+      "title": "Cheapest Flights Within K Stops",
+      "slug": "cheapest-flights-within-k-stops",
+      "part": 1,
+      "destination": "Graphs/0787-cheapest-flights-within-k-stops/images/solution-part-1.jpg",
+      "sha256": "d8f870c2e4986a9c5230c8ced5b42de001ed76d43d564935f98fb63e6ad8dede",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/797-All-Paths-from-src-target.jpg",
+      "number": 797,
+      "title": "All Paths From Source to Target",
+      "slug": "all-paths-from-source-to-target",
+      "part": null,
+      "destination": "Graphs/0797-all-paths-from-source-to-target/images/solution.jpg",
+      "sha256": "0b6e4fefa8b67c583461935f6914f1c4fa798397d3f42dc1fc5d8dd48a7f5c93",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/814-Binary-tree-Pruning-Part-I.jpg",
+      "number": 814,
+      "title": "Binary Tree Pruning",
+      "slug": "binary-tree-pruning",
+      "part": 1,
+      "destination": "Trees/0814-binary-tree-pruning/images/solution-part-1.jpg",
+      "sha256": "5eb89d130be77acc4497be8541a3741b1415a13d5ec29330444367f3acae1578",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/814-Binary-tree-Pruning-Part-II.jpg",
+      "number": 814,
+      "title": "Binary Tree Pruning",
+      "slug": "binary-tree-pruning",
+      "part": 2,
+      "destination": "Trees/0814-binary-tree-pruning/images/solution-part-2.jpg",
+      "sha256": "b97f7395dc05b96d0143704601f1949219f29d8a9af9264d94efb5d2bcb40c2b",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/841-Keys-and-Rooms.jpg",
+      "number": 841,
+      "title": "Keys and Rooms",
+      "slug": "keys-and-rooms",
+      "part": null,
+      "destination": "Graphs/0841-keys-and-rooms/images/solution.jpg",
+      "sha256": "54da2b8e67bbd398548c88173ec6a17a67cd399dae332940533d56c8817af2ae",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/863-All-Nodes-Distance-k-BT-Part-I.jpg",
+      "number": 863,
+      "title": "All Nodes Distance K in Binary Tree",
+      "slug": "all-nodes-distance-k-in-binary-tree",
+      "part": 1,
+      "destination": "Trees/0863-all-nodes-distance-k-in-binary-tree/images/solution-part-1.jpg",
+      "sha256": "287a5d36e655020f2359c24a3e53d2585a3e84a6737b0f9b2356145055080019",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/863-All-Nodes-Distance-k-BT-Part-II.jpg",
+      "number": 863,
+      "title": "All Nodes Distance K in Binary Tree",
+      "slug": "all-nodes-distance-k-in-binary-tree",
+      "part": 2,
+      "destination": "Trees/0863-all-nodes-distance-k-in-binary-tree/images/solution-part-2.jpg",
+      "sha256": "8d92a3c93d5b794c11fca01e9cf9046eb85ef708f0a21f9576478d90958393c8",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/872-Leaf-Similar-Trees.jpg",
+      "number": 872,
+      "title": "Leaf-Similar Trees",
+      "slug": "leaf-similar-trees",
+      "part": null,
+      "destination": "Trees/0872-leaf-similar-trees/images/solution.jpg",
+      "sha256": "f659d9d4db39cd2722d6c30d275580783e2cd308090cea7d3be0ed3bb949257b",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/886-Possible-Bipartition-Part-I.jpg",
+      "number": 886,
+      "title": "Possible Bipartition",
+      "slug": "possible-bipartition",
+      "part": 1,
+      "destination": "Graphs/0886-possible-bipartition/images/solution-part-1.jpg",
+      "sha256": "ba2131ff7876be098a6addded1899634c9879b8e0b8d2efff0b9bba350aca89b",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/886-Possible-Bipartition-Part-II.jpg",
+      "number": 886,
+      "title": "Possible Bipartition",
+      "slug": "possible-bipartition",
+      "part": 2,
+      "destination": "Graphs/0886-possible-bipartition/images/solution-part-2.jpg",
+      "sha256": "c95cd91b131077776fd630fc1b0212aeb6834cb72f503527f9a9a2224749f7ce",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Most stones removed Part-I.jpg",
+      "number": 947,
+      "title": "Most Stones Removed with Same Row or Column",
+      "slug": "most-stones-removed-with-same-row-or-column",
+      "part": 1,
+      "destination": "Graphs/0947-most-stones-removed-with-same-row-or-column/images/solution-part-1.jpg",
+      "sha256": "fe8af983af6338ec638197025bcc70f41380c60b1eb0b068ca218da0b3505be0",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Most stones removed part-II.jpg",
+      "number": 947,
+      "title": "Most Stones Removed with Same Row or Column",
+      "slug": "most-stones-removed-with-same-row-or-column",
+      "part": 2,
+      "destination": "Graphs/0947-most-stones-removed-with-same-row-or-column/images/solution-part-2.jpg",
+      "sha256": "f6202d123790f92742b19256d355930163034c189d5130eb13e8739a6e349543",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/951-Flip-Equivalent-BT-part-I.jpg",
+      "number": 951,
+      "title": "Flip Equivalent Binary Trees",
+      "slug": "flip-equivalent-binary-trees",
+      "part": 1,
+      "destination": "Trees/0951-flip-equivalent-binary-trees/images/solution-part-1.jpg",
+      "sha256": "0e325a146512aaf12448b5f94ac6a562d7f398ff0668a60e004835d32a0368b0",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/951-Flip-Equivalent-BT-part-II.jpg",
+      "number": 951,
+      "title": "Flip Equivalent Binary Trees",
+      "slug": "flip-equivalent-binary-trees",
+      "part": 2,
+      "destination": "Trees/0951-flip-equivalent-binary-trees/images/solution-part-2.jpg",
+      "sha256": "d27a45b371c48e7bcae2b9c90a3dd26cfaf50b2913f67a521a01ddf908d3bc0b",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/958-Check-Completeness-BT-Part-I.jpg",
+      "number": 958,
+      "title": "Check Completeness of a Binary Tree",
+      "slug": "check-completeness-of-a-binary-tree",
+      "part": 1,
+      "destination": "Trees/0958-check-completeness-of-a-binary-tree/images/solution-part-1.jpg",
+      "sha256": "b865b177d7d7a28a95fa9145c47cdc6e69af43d76b712b06517b4ca517dbb5f0",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/958-Check-Completeness-BT-Part-II.jpg",
+      "number": 958,
+      "title": "Check Completeness of a Binary Tree",
+      "slug": "check-completeness-of-a-binary-tree",
+      "part": 2,
+      "destination": "Trees/0958-check-completeness-of-a-binary-tree/images/solution-part-2.jpg",
+      "sha256": "61700b2216f52db4d3c5c15dec179e19816b46b5a656028a5dce6013eaf4939b",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/979-Distributed-Coins-BT-Part-I.jpg",
+      "number": 979,
+      "title": "Distribute Coins in Binary Tree",
+      "slug": "distribute-coins-in-binary-tree",
+      "part": 1,
+      "destination": "Trees/0979-distribute-coins-in-binary-tree/images/solution-part-1.jpg",
+      "sha256": "9af8dacd0fda704ae80caf43f3dc6850fc362b26969e874dad37a17a3f5768ab",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/979-Distributed-Coins-BT-Part-II.jpg",
+      "number": 979,
+      "title": "Distribute Coins in Binary Tree",
+      "slug": "distribute-coins-in-binary-tree",
+      "part": 2,
+      "destination": "Trees/0979-distribute-coins-in-binary-tree/images/solution-part-2.jpg",
+      "sha256": "91a1b73d2acb36908f31a265fa1b87af1b306a6d7a6b75506a2334c8e0708364",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/988-Smallest-String-Leaf-Root-Part-I.jpg",
+      "number": 988,
+      "title": "Smallest String Starting From Leaf",
+      "slug": "smallest-string-starting-from-leaf",
+      "part": 1,
+      "destination": "Trees/0988-smallest-string-starting-from-leaf/images/solution-part-1.jpg",
+      "sha256": "204c859f1e2ba8c8c4e5c3b0ff31e8d2775fdbb6c08ae08349be38d9582f968c",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/988-Smallest-String-Leaf-Root-Part-II.jpg",
+      "number": 988,
+      "title": "Smallest String Starting From Leaf",
+      "slug": "smallest-string-starting-from-leaf",
+      "part": 2,
+      "destination": "Trees/0988-smallest-string-starting-from-leaf/images/solution-part-2.jpg",
+      "sha256": "0f25b5d68075bc7f5f9c145cdeda6be10966f4b656c97980afeb00e395e91d07",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/990-Satisfiability-of-Equality-Eqns.jpg",
+      "number": 990,
+      "title": "Satisfiability of Equality Equations",
+      "slug": "satisfiability-of-equality-equations",
+      "part": null,
+      "destination": "Graphs/0990-satisfiability-of-equality-equations/images/solution.jpg",
+      "sha256": "c16cf16a114cdec169c30a1e5a68123b572cb5a4db37ecd48458a67353312737",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Rotting Oranges Part-I.jpg",
+      "number": 994,
+      "title": "Rotting Oranges",
+      "slug": "rotting-oranges",
+      "part": 1,
+      "destination": "Graphs/0994-rotting-oranges/images/solution-part-1.jpg",
+      "sha256": "699b0f1160397bf45a0dadc5d13d319bb8125e132bb9959e9808ae2428201174",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Rotting Oranges Part-II.jpg",
+      "number": 994,
+      "title": "Rotting Oranges",
+      "slug": "rotting-oranges",
+      "part": 2,
+      "destination": "Graphs/0994-rotting-oranges/images/solution-part-2.jpg",
+      "sha256": "8a711b2dcce27434f42856006337c1ff060c330301095a1f0eca474db46eca83",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Construct BST from preorder.jpg",
+      "number": 1008,
+      "title": "Construct Binary Search Tree from Preorder Traversal",
+      "slug": "construct-binary-search-tree-from-preorder-traversal",
+      "part": null,
+      "destination": "Trees/1008-construct-binary-search-tree-from-preorder-traversal/images/solution.jpg",
+      "sha256": "6ac265127e40c383b3a1ac8171d73eca9b3b118b3732f6d6a1518b30519201b8",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1026-MaxDiff-Bw-Nodes-Ancestor-Part-I.jpg",
+      "number": 1026,
+      "title": "Maximum Difference Between Node and Ancestor",
+      "slug": "maximum-difference-between-node-and-ancestor",
+      "part": 1,
+      "destination": "Trees/1026-maximum-difference-between-node-and-ancestor/images/solution-part-1.jpg",
+      "sha256": "405c64488d0192ff621c106f9d5d14562e3ac31045078839bd5bcb4527e35b38",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1026-MaxDiff-Bw-Nodes-Ancestor-Part-II.jpg",
+      "number": 1026,
+      "title": "Maximum Difference Between Node and Ancestor",
+      "slug": "maximum-difference-between-node-and-ancestor",
+      "part": 2,
+      "destination": "Trees/1026-maximum-difference-between-node-and-ancestor/images/solution-part-2.jpg",
+      "sha256": "a4c686182e41f6cbe1dcb68c5777a6b8d4b2264fb44fca519dad8a6eaa033b35",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/BST to GST Optimal.jpg",
+      "number": 1038,
+      "title": "Binary Search Tree to Greater Sum Tree",
+      "slug": "binary-search-tree-to-greater-sum-tree",
+      "part": null,
+      "destination": "Trees/1038-binary-search-tree-to-greater-sum-tree/images/solution.jpg",
+      "sha256": "e0114814788e1bab8ac086382572bc4f5ed19c9caf1fe94ea4b6cb29639002de",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Longest String Chain Part-I.jpg",
+      "number": 1048,
+      "title": "Longest String Chain",
+      "slug": "longest-string-chain",
+      "part": 1,
+      "destination": "DynamicProgramming/1048-longest-string-chain/images/solution-part-1.jpg",
+      "sha256": "93b4a7733fb86392492d65b53476b55f9fe98a83005bd2d70dd76906172f7fd0",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Longest String Chain Part-II.jpg",
+      "number": 1048,
+      "title": "Longest String Chain",
+      "slug": "longest-string-chain",
+      "part": 2,
+      "destination": "DynamicProgramming/1048-longest-string-chain/images/solution-part-2.jpg",
+      "sha256": "ef827f78ceba6d6c7a10bf846e8bf935c6e09606b1ec923780711cc5a32f2f09",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1061-Lexicographical-smallest-equivalent-Part-I.jpg",
+      "number": 1061,
+      "title": "Lexicographically Smallest Equivalent String",
+      "slug": "lexicographically-smallest-equivalent-string",
+      "part": 1,
+      "destination": "Graphs/1061-lexicographically-smallest-equivalent-string/images/solution-part-1.jpg",
+      "sha256": "8ba737bdbc2a81095188b5b87240660c90fe92923d58008500d070acfc9feada",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1061-Lexicographical-smallest-equivalent-Part-II.jpg",
+      "number": 1061,
+      "title": "Lexicographically Smallest Equivalent String",
+      "slug": "lexicographically-smallest-equivalent-string",
+      "part": 2,
+      "destination": "Graphs/1061-lexicographically-smallest-equivalent-string/images/solution-part-2.jpg",
+      "sha256": "5ca06db29d57a042468a8a2765ca4d3a552e7a995e4a88b36149a01b1c62a8d6",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1091-Shortest-Path-in-Matrix-Part-I.jpg",
+      "number": 1091,
+      "title": "Shortest Path in Binary Matrix",
+      "slug": "shortest-path-in-binary-matrix",
+      "part": 1,
+      "destination": "Graphs/1091-shortest-path-in-binary-matrix/images/solution-part-1.jpg",
+      "sha256": "74389bc8ce1f3ca6cf33d546a7502c9f442fe82f6ebd6a8c0391dcf2ef6f80f2",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1091-Shortest-Path-in-Matrix-Part-II.jpg",
+      "number": 1091,
+      "title": "Shortest Path in Binary Matrix",
+      "slug": "shortest-path-in-binary-matrix",
+      "part": 2,
+      "destination": "Graphs/1091-shortest-path-in-binary-matrix/images/solution-part-2.jpg",
+      "sha256": "d905b87101821eba342b88a6be86aa16802f0f5aabf34739916e647abfbafa5d",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1091-Shortest-Path-in-Matrix-Part-III.jpg",
+      "number": 1091,
+      "title": "Shortest Path in Binary Matrix",
+      "slug": "shortest-path-in-binary-matrix",
+      "part": 3,
+      "destination": "Graphs/1091-shortest-path-in-binary-matrix/images/solution-part-3.jpg",
+      "sha256": "2a79a7925ca2aed4257f1cf0ed07072959354260faa7bb7ed35c24a9c8c3d576",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Shortest Common SuperSequence Part-I.jpg",
+      "number": 1092,
+      "title": "Shortest Common Supersequence",
+      "slug": "shortest-common-supersequence",
+      "part": 1,
+      "destination": "DynamicProgramming/1092-shortest-common-supersequence/images/solution-part-1.jpg",
+      "sha256": "9d1610c1db4080b0f6dda91530e9496af2d2f1eab7a8bef2dd57bf79986ac6b9",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Shortest Common SuperSequence Part-II.jpg",
+      "number": 1092,
+      "title": "Shortest Common Supersequence",
+      "slug": "shortest-common-supersequence",
+      "part": 2,
+      "destination": "DynamicProgramming/1092-shortest-common-supersequence/images/solution-part-2.jpg",
+      "sha256": "1bb904c461a2ff7c11ca1affeb1af23eafe397dec1d894e139d2ea25ba85cd20",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Shortest Common SuperSequence part-III.jpg",
+      "number": 1092,
+      "title": "Shortest Common Supersequence",
+      "slug": "shortest-common-supersequence",
+      "part": 3,
+      "destination": "DynamicProgramming/1092-shortest-common-supersequence/images/solution-part-3.jpg",
+      "sha256": "6f3172fceb28ae61e6b7b092ccadbfbdb0e4f5788a3cac755632caeecb670083",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1110-Delete-Nodes-and-Return-Forest-Part-I.jpg",
+      "number": 1110,
+      "title": "Delete Nodes And Return Forest",
+      "slug": "delete-nodes-and-return-forest",
+      "part": 1,
+      "destination": "Trees/1110-delete-nodes-and-return-forest/images/solution-part-1.jpg",
+      "sha256": "8d2d8ad9713f9b20f924034b02de1c9506ea8656cb1f02f6a4ccfe61776ccda7",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1110-Delete-Nodes-and-Return-Forest-Part-II.jpg",
+      "number": 1110,
+      "title": "Delete Nodes And Return Forest",
+      "slug": "delete-nodes-and-return-forest",
+      "part": 2,
+      "destination": "Trees/1110-delete-nodes-and-return-forest/images/solution-part-2.jpg",
+      "sha256": "c031b3569bb1ecfe9c24799b36d0c323401348560309dea1e140f8fb5a7e388c",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Max Level Sum Part-I.jpg",
+      "number": 1161,
+      "title": "Maximum Level Sum of a Binary Tree",
+      "slug": "maximum-level-sum-of-a-binary-tree",
+      "part": 1,
+      "destination": "Trees/1161-maximum-level-sum-of-a-binary-tree/images/solution-part-1.jpg",
+      "sha256": "750bd2349245c1f0537bacff63590c52af82d25b779e7f81285d0c5c3e87d611",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Max Level Sum Part-II.jpg",
+      "number": 1161,
+      "title": "Maximum Level Sum of a Binary Tree",
+      "slug": "maximum-level-sum-of-a-binary-tree",
+      "part": 2,
+      "destination": "Trees/1161-maximum-level-sum-of-a-binary-tree/images/solution-part-2.jpg",
+      "sha256": "90dae5d6424f4a01282866345da7cec77ee9a7b2bc14ad473de1f5a82c0daa38",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1239 Max length of a concatenated string Part-I.jpg",
+      "number": 1239,
+      "title": "Maximum Length of a Concatenated String with Unique Characters",
+      "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+      "part": 1,
+      "destination": "Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/images/solution-part-1.jpg",
+      "sha256": "43919fbd668117e544ba74cee747dc46ee570458807056a59426581383d81fe2",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1239 Max length of a concatenated string Part-II.jpg",
+      "number": 1239,
+      "title": "Maximum Length of a Concatenated String with Unique Characters",
+      "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+      "part": 2,
+      "destination": "Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/images/solution-part-2.jpg",
+      "sha256": "fa5ecc1fb17b0638a1af4e76023302ecb27bcf805144b3ca7e21ce1ee623187d",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1261-Find-Elements-in-Contaminated-BT-part-I.jpg",
+      "number": 1261,
+      "title": "Find Elements in a Contaminated Binary Tree",
+      "slug": "find-elements-in-a-contaminated-binary-tree",
+      "part": 1,
+      "destination": "Trees/1261-find-elements-in-a-contaminated-binary-tree/images/solution-part-1.jpg",
+      "sha256": "e95d19bc7e5620bbed61212ad0f8d0df7e3f78daff493123e5ecc1b199b8e7ef",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1261-Find-Elements-in-Contaminated-BT-part-II.jpg",
+      "number": 1261,
+      "title": "Find Elements in a Contaminated Binary Tree",
+      "slug": "find-elements-in-a-contaminated-binary-tree",
+      "part": 2,
+      "destination": "Trees/1261-find-elements-in-a-contaminated-binary-tree/images/solution-part-2.jpg",
+      "sha256": "07f48d01b31979d14f5041740a1ff3a05d01a3556469d6b6386d1722743a7147",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Min Insertion Steps to Palindrome Part-I.jpg",
+      "number": 1312,
+      "title": "Minimum Insertion Steps to Make a String Palindrome",
+      "slug": "minimum-insertion-steps-to-make-a-string-palindrome",
+      "part": 1,
+      "destination": "DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/images/solution-part-1.jpg",
+      "sha256": "78c2b48700ff9f80080027679fefaaf7bf3af3602fbbe42f95148af7d2a0faee",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Min Insertion Steps to Palindrome Part-II.jpg",
+      "number": 1312,
+      "title": "Minimum Insertion Steps to Make a String Palindrome",
+      "slug": "minimum-insertion-steps-to-make-a-string-palindrome",
+      "part": 2,
+      "destination": "DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/images/solution-part-2.jpg",
+      "sha256": "b9ddc75b528d1ae2e885c9bb66db85ccdcb698f7a382c9bd8d120be08b72a85d",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1319-No-of-Operartions-to-connect-Part-I.jpg",
+      "number": 1319,
+      "title": "Number of Operations to Make Network Connected",
+      "slug": "number-of-operations-to-make-network-connected",
+      "part": 1,
+      "destination": "Graphs/1319-number-of-operations-to-make-network-connected/images/solution-part-1.jpg",
+      "sha256": "08f53c50e94ca4b7fb8f767887f69d7928c45ba9be47e0cdfb394c5fcc7c464e",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1319-No-of-Operartions-to-connect-Part-II.jpg",
+      "number": 1319,
+      "title": "Number of Operations to Make Network Connected",
+      "slug": "number-of-operations-to-make-network-connected",
+      "part": 2,
+      "destination": "Graphs/1319-number-of-operations-to-make-network-connected/images/solution-part-2.jpg",
+      "sha256": "09e5a634206bbe42a1bc17c2aa625e7261b1d299337d28f3913702e86d6ff82e",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1325-Delete-Leaves-BT-Part-I.jpg",
+      "number": 1325,
+      "title": "Delete Leaves With a Given Value",
+      "slug": "delete-leaves-with-a-given-value",
+      "part": 1,
+      "destination": "Trees/1325-delete-leaves-with-a-given-value/images/solution-part-1.jpg",
+      "sha256": "52b8baf41e775128a607097582b24e2aa1f595f8ca5719045d73d27cc0dd92e2",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1325-Delete-Leaves-BT-Part-II.jpg",
+      "number": 1325,
+      "title": "Delete Leaves With a Given Value",
+      "slug": "delete-leaves-with-a-given-value",
+      "part": 2,
+      "destination": "Trees/1325-delete-leaves-with-a-given-value/images/solution-part-2.jpg",
+      "sha256": "3dfe6d5624f931924991e269d509ac8a1394adff1441a8b56fce18b261055d1c",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Using Dijkstra Find the city min neighs Part-II.jpg",
+      "number": 1334,
+      "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+      "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "part": 2,
+      "destination": "Graphs/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/images/solution-part-2.jpg",
+      "sha256": "e99df2e4c31c5a95a780332fae99314be60c3b2ad6e2e99a62abf934cc398831",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Using Dijsktra Find the city with min neighs Part-I.jpg",
+      "number": 1334,
+      "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+      "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "part": 1,
+      "destination": "Graphs/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/images/solution-part-1.jpg",
+      "sha256": "bda525781d3dd2c319496ddf29dcc6879818f3723952266e26223ef140341e55",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1335 Minimum Difficulty to schedule a job Part-I.jpg",
+      "number": 1335,
+      "title": "Minimum Difficulty of a Job Schedule",
+      "slug": "minimum-difficulty-of-a-job-schedule",
+      "part": 1,
+      "destination": "DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/images/solution-part-1.jpg",
+      "sha256": "581b8c324e12d436dff3870e5c6ab08d302a3e665e7ba073ccf537adb362c1a5",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1335 Minimum Difficulty to schedule a job Part-II.jpg",
+      "number": 1335,
+      "title": "Minimum Difficulty of a Job Schedule",
+      "slug": "minimum-difficulty-of-a-job-schedule",
+      "part": 2,
+      "destination": "DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/images/solution-part-2.jpg",
+      "sha256": "5b80f8315ebde3b502a4dc1dffdadab1b40f2f6d2a102047b82d0e1b562bf773",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1339-MaxProduct-of-Splitted-BT-Part-I.jpg",
+      "number": 1339,
+      "title": "Maximum Product of Splitted Binary Tree",
+      "slug": "maximum-product-of-splitted-binary-tree",
+      "part": 1,
+      "destination": "Trees/1339-maximum-product-of-splitted-binary-tree/images/solution-part-1.jpg",
+      "sha256": "5612c90991545fd32f34b6d559471708e99e2b719848f514690c46355006c87e",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1339-MaxProduct-of-Splitted-BT-Part-II.jpg",
+      "number": 1339,
+      "title": "Maximum Product of Splitted Binary Tree",
+      "slug": "maximum-product-of-splitted-binary-tree",
+      "part": 2,
+      "destination": "Trees/1339-maximum-product-of-splitted-binary-tree/images/solution-part-2.jpg",
+      "sha256": "c62d810f76213a542702ae3cb83a99b207561c8bb3c23ff2c0b3290a95bf21d8",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1361-Validate-Binary-tree-Part-I.jpg",
+      "number": 1361,
+      "title": "Validate Binary Tree Nodes",
+      "slug": "validate-binary-tree-nodes",
+      "part": 1,
+      "destination": "Trees/1361-validate-binary-tree-nodes/images/solution-part-1.jpg",
+      "sha256": "d63afc496173b33642eddeadd804e62c17019f995eafc235646cfb5cf0f4bc21",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1361-Validate-Binary-tree-Part-II.jpg",
+      "number": 1361,
+      "title": "Validate Binary Tree Nodes",
+      "slug": "validate-binary-tree-nodes",
+      "part": 2,
+      "destination": "Trees/1361-validate-binary-tree-nodes/images/solution-part-2.jpg",
+      "sha256": "9819688e2a5776e0d42615eb4f2261ccc8a7a923a2af334959a7c906d34e3ec6",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1367-Linked-List-BT-Part-I.jpg",
+      "number": 1367,
+      "title": "Linked List in Binary Tree",
+      "slug": "linked-list-in-binary-tree",
+      "part": 1,
+      "destination": "Trees/1367-linked-list-in-binary-tree/images/solution-part-1.jpg",
+      "sha256": "e2120d968783b4d600dd4ce175aa2c0ccc2f888ec0b890e3704f9f02ab6f5815",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1367-Linked-List-BT-Part-II.jpg",
+      "number": 1367,
+      "title": "Linked List in Binary Tree",
+      "slug": "linked-list-in-binary-tree",
+      "part": 2,
+      "destination": "Trees/1367-linked-list-in-binary-tree/images/solution-part-2.jpg",
+      "sha256": "9952e62e4d595b3aac2e267d44d6b2ffc69034cc9b43fc2ea01622560c9a6d60",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/KMP(longest happy prefix) Part-I.jpg",
+      "number": 1392,
+      "title": "Longest Happy Prefix",
+      "slug": "longest-happy-prefix",
+      "part": 1,
+      "destination": "Arrays/1392-longest-happy-prefix/images/solution-part-1.jpg",
+      "sha256": "4c3dff2207d40c116872e86d23c353f97f5f1df693d84610a4aa96e43bb134ac",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/KMP(longest happy prefix) Part-II.jpg",
+      "number": 1392,
+      "title": "Longest Happy Prefix",
+      "slug": "longest-happy-prefix",
+      "part": 2,
+      "destination": "Arrays/1392-longest-happy-prefix/images/solution-part-2.jpg",
+      "sha256": "f1a60c699db7a974b0c8032eea7db4e2d162c69054c8d16488b9b730569f3c2b",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Build Array LIS Hard Part-I.jpg",
+      "number": 1420,
+      "title": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+      "slug": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+      "part": 1,
+      "destination": "DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/images/solution-part-1.jpg",
+      "sha256": "9be7e8116792b2190a3a587be1ed7c5e51bc30b45bf0a9c11f571bd51143f0ed",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Build Array LIS Hard Part-II.jpg",
+      "number": 1420,
+      "title": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+      "slug": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+      "part": 2,
+      "destination": "DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/images/solution-part-2.jpg",
+      "sha256": "8cb0ef0db7a41fbeef19f5136cdbf81ad47d3475f433744dde558813ac871815",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1443-min-time-to-collect-all-apples-Part-I.jpg",
+      "number": 1443,
+      "title": "Minimum Time to Collect All Apples in a Tree",
+      "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+      "part": 1,
+      "destination": "Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/images/solution-part-1.jpg",
+      "sha256": "e0d057bf344fdc9833d33c21f305e4083d799f82720eb9575a4aea79d8a1280f",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1443-min-time-to-collect-all-apples-Part-II.jpg",
+      "number": 1443,
+      "title": "Minimum Time to Collect All Apples in a Tree",
+      "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+      "part": 2,
+      "destination": "Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/images/solution-part-2.jpg",
+      "sha256": "d0a8e47a4f08facacd2d5c00b12d506a59f69b05009b75fb0a542460d484ebe4",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1443-min-time-to-collect-all-apples-Part-III.jpg",
+      "number": 1443,
+      "title": "Minimum Time to Collect All Apples in a Tree",
+      "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+      "part": 3,
+      "destination": "Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/images/solution-part-3.jpg",
+      "sha256": "af1369048c51cf9d178160cc242307403139eb8d307064edec479ea7b6b58e92",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1457-Pseudo-Palindromic-Paths-Part-I.jpg",
+      "number": 1457,
+      "title": "Pseudo-Palindromic Paths in a Binary Tree",
+      "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+      "part": 1,
+      "destination": "Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/images/solution-part-1.jpg",
+      "sha256": "73187ea04869717fd8a164d874031ce8efcd895c4c29a5a284a5e42da7fcfa17",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1457-Pseudo-Palindromic-Paths-Part-II.jpg",
+      "number": 1457,
+      "title": "Pseudo-Palindromic Paths in a Binary Tree",
+      "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+      "part": 2,
+      "destination": "Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/images/solution-part-2.jpg",
+      "sha256": "e18d192f648cfd0f1724e045803b5678f4f3fceb8a188b1e21327e9e52b5727d",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1519-No-of-Nodes-with-Same-Lables-Part-I.jpg",
+      "number": 1519,
+      "title": "Number of Nodes in the Sub-Tree With the Same Label",
+      "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+      "part": 1,
+      "destination": "Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/images/solution-part-1.jpg",
+      "sha256": "6b6c3104394d4db9b909eeb9988a62e973039cf602be18ee6048d8e198fddaa7",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1519-No-of-Nodes-with-Same-Lables-Part-II.jpg",
+      "number": 1519,
+      "title": "Number of Nodes in the Sub-Tree With the Same Label",
+      "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+      "part": 2,
+      "destination": "Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/images/solution-part-2.jpg",
+      "sha256": "dca577128b713564146aa7987233faf7f65b890b7c6f93931862388a7785d643",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/MIn Cost to cut a stick Part-I.jpg",
+      "number": 1547,
+      "title": "Minimum Cost to Cut a Stick",
+      "slug": "minimum-cost-to-cut-a-stick",
+      "part": 1,
+      "destination": "DynamicProgramming/1547-minimum-cost-to-cut-a-stick/images/solution-part-1.jpg",
+      "sha256": "18adacc3d55122b46b55c427fc88b4709ba00f58a30c2af2d3cd368d5bfe2140",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Min cost to cut a stick Part-II.jpg",
+      "number": 1547,
+      "title": "Minimum Cost to Cut a Stick",
+      "slug": "minimum-cost-to-cut-a-stick",
+      "part": 2,
+      "destination": "DynamicProgramming/1547-minimum-cost-to-cut-a-stick/images/solution-part-2.jpg",
+      "sha256": "74218b561914622c1f0f5d68cdd2a4762806901bba94ef35be662b4321d85bb5",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1569-No-of-ways-Reorder-BST-Part-I.jpg",
+      "number": 1569,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "part": 1,
+      "destination": "Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/images/solution-part-1.jpg",
+      "sha256": "e30885dedf1e7c0aba1e24b39b93209d2741eea279678ce342e5908278a6045a",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1569-No-of-ways-Reorder-BST-Part-II.jpg",
+      "number": 1569,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "part": 2,
+      "destination": "Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/images/solution-part-2.jpg",
+      "sha256": "674693dd5dd86740dc70853abf39b0fb644443cf5bab3ed86ccb4980ac5e39ba",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1569-No-of-ways-Reorder-BST-Part-III.jpg",
+      "number": 1569,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "part": 3,
+      "destination": "Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/images/solution-part-3.jpg",
+      "sha256": "623efd43cc0e1b288ebfaddba232282198bceed73094d2541e21a8382c6693b5",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Max Non-negative Part-II.jpg",
+      "number": 1594,
+      "title": "Maximum Non Negative Product in a Matrix",
+      "slug": "maximum-non-negative-product-in-a-matrix",
+      "part": 2,
+      "destination": "DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/images/solution-part-2.jpg",
+      "sha256": "5a5d833fef8d0d040e2d6d71905f713fbf363f1a937d0ab5061566a02d33ec70",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Max Non-negative Product Part-I.jpg",
+      "number": 1594,
+      "title": "Maximum Non Negative Product in a Matrix",
+      "slug": "maximum-non-negative-product-in-a-matrix",
+      "part": 1,
+      "destination": "DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/images/solution-part-1.jpg",
+      "sha256": "555511379fa81699506cdb2f580e9a778f365329f601266665a447f0aca1cb0b",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1609-Even-Odd-Tree-Part-I.jpg",
+      "number": 1609,
+      "title": "Even Odd Tree",
+      "slug": "even-odd-tree",
+      "part": 1,
+      "destination": "Trees/1609-even-odd-tree/images/solution-part-1.jpg",
+      "sha256": "1edabc4af261e66a7fd57ef148c4dff194dc0ff2ccf8450834d7728736298770",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1609-Even-Odd-Tree-Part-II.jpg",
+      "number": 1609,
+      "title": "Even Odd Tree",
+      "slug": "even-odd-tree",
+      "part": 2,
+      "destination": "Trees/1609-even-odd-tree/images/solution-part-2.jpg",
+      "sha256": "6f2f23fb1cbbf653d5bfef93b7fc538d6d2510829a7eecb1cc27ce9d9a3a17a4",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1631-Path-with-Min-Effort-Part-I.jpg",
+      "number": 1631,
+      "title": "Path With Minimum Effort",
+      "slug": "path-with-minimum-effort",
+      "part": 1,
+      "destination": "Graphs/1631-path-with-minimum-effort/images/solution-part-1.jpg",
+      "sha256": "56b08122c40ec485e98d8da09ca6a62e5d0748e623de723b2632e5c262446e9a",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1631-Path-with-Min-Effort-Part-II.jpg",
+      "number": 1631,
+      "title": "Path With Minimum Effort",
+      "slug": "path-with-minimum-effort",
+      "part": 2,
+      "destination": "Graphs/1631-path-with-minimum-effort/images/solution-part-2.jpg",
+      "sha256": "10ac147e8f50a90a3b856654f578e1975c158be8c9636b2539249c9bea7e36f9",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1631-Path-with-Min-Effort-Part-III.jpg",
+      "number": 1631,
+      "title": "Path With Minimum Effort",
+      "slug": "path-with-minimum-effort",
+      "part": 3,
+      "destination": "Graphs/1631-path-with-minimum-effort/images/solution-part-3.jpg",
+      "sha256": "448feacfd68439282b242d4c866a6b882f90e6e1dd9015a64feb74fbdbcd0b43",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Max Alternatiing Sum Part-I.jpg",
+      "number": 1911,
+      "title": "Maximum Alternating Subsequence Sum",
+      "slug": "maximum-alternating-subsequence-sum",
+      "part": 1,
+      "destination": "DynamicProgramming/1911-maximum-alternating-subsequence-sum/images/solution-part-1.jpg",
+      "sha256": "cf66ce4aa0e0ada12474c15dfa3632e62c63c4b05c7041a3a0a0c69a6c558af3",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Max Alternating Sum Part-II.jpg",
+      "number": 1911,
+      "title": "Maximum Alternating Subsequence Sum",
+      "slug": "maximum-alternating-subsequence-sum",
+      "part": 2,
+      "destination": "DynamicProgramming/1911-maximum-alternating-subsequence-sum/images/solution-part-2.jpg",
+      "sha256": "2053f208c13049804c3392946882af391f69b4b202298ee5528d66a47a899434",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1926-Nearest-Exit-from-Entrance.jpg",
+      "number": 1926,
+      "title": "Nearest Exit from Entrance in Maze",
+      "slug": "nearest-exit-from-entrance-in-maze",
+      "part": null,
+      "destination": "Graphs/1926-nearest-exit-from-entrance-in-maze/images/solution.jpg",
+      "sha256": "ca0ef63b82b0a87acd3b5cf6f8b5adc90b4507e26e1d3ced2c80b84cff44b136",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Merge BSTs Part-I.jpg",
+      "number": 1932,
+      "title": "Merge BSTs to Create Single BST",
+      "slug": "merge-bsts-to-create-single-bst",
+      "part": 1,
+      "destination": "Trees/1932-merge-bsts-to-create-single-bst/images/solution-part-1.jpg",
+      "sha256": "9665281a67d7e5ece3b6f2863a2c67d7f3fc9e5202c05694b2ab7edc133f491b",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Merge BSTs Part-II.jpg",
+      "number": 1932,
+      "title": "Merge BSTs to Create Single BST",
+      "slug": "merge-bsts-to-create-single-bst",
+      "part": 2,
+      "destination": "Trees/1932-merge-bsts-to-create-single-bst/images/solution-part-2.jpg",
+      "sha256": "d7b4c53c2f9739efe0ae851cec7a8f0e9de42b02c23a4c34e841edb101461910",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Merge BSTs Part-III.jpg",
+      "number": 1932,
+      "title": "Merge BSTs to Create Single BST",
+      "slug": "merge-bsts-to-create-single-bst",
+      "part": 3,
+      "destination": "Trees/1932-merge-bsts-to-create-single-bst/images/solution-part-3.jpg",
+      "sha256": "46808ae700f19013b2db1294f9aea88bf4f7bb8eb1ece0353b0321a941c986ea",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1971-Find-Path-Part-I.jpg",
+      "number": 1971,
+      "title": "Find if Path Exists in Graph",
+      "slug": "find-if-path-exists-in-graph",
+      "part": 1,
+      "destination": "Graphs/1971-find-if-path-exists-in-graph/images/solution-part-1.jpg",
+      "sha256": "66adfabd092bedca4866381c52165597ac16b60e9ed5a83e1e432b1883011beb",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/1971-Find-Path-Part-II.jpg",
+      "number": 1971,
+      "title": "Find if Path Exists in Graph",
+      "slug": "find-if-path-exists-in-graph",
+      "part": 2,
+      "destination": "Graphs/1971-find-if-path-exists-in-graph/images/solution-part-2.jpg",
+      "sha256": "0ec58a68e2f35f94d42ddc7b7cae55076a71eed9650c8874e08945ead9ee2133",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2035 Partition Array into two Arrays Part-I.jpg",
+      "number": 2035,
+      "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+      "part": 1,
+      "destination": "DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/images/solution-part-1.jpg",
+      "sha256": "f9ee1d807c75809e59640a81af2e67dce7fa3ca2c99401a936cba26df95772e9",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2035 Partition Array into two Arrays Part-II.jpg",
+      "number": 2035,
+      "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+      "part": 2,
+      "destination": "DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/images/solution-part-2.jpg",
+      "sha256": "a5586f3a2a6c6db1b58558531b9a16040063fea1840bb1d473f59938f6cf3757",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2035 Partition Array into two Arrays Part-III.jpg",
+      "number": 2035,
+      "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+      "part": 3,
+      "destination": "DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/images/solution-part-3.jpg",
+      "sha256": "b5f869833b2f5060e47081b6f557fb9492c3c7e59dbcfab3bed9f745c23812fa",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Minimized Maximum Products Part-I.jpg",
+      "number": 2064,
+      "title": "Minimized Maximum of Products Distributed to Any Store",
+      "slug": "minimized-maximum-of-products-distributed-to-any-store",
+      "part": 1,
+      "destination": "BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/images/solution-part-1.jpg",
+      "sha256": "8cda377f9d88768b3a67306afcd1c09d9b4eef9d7ad04808ac97ceade1437546",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Minimized Maximum Products Part-II.jpg",
+      "number": 2064,
+      "title": "Minimized Maximum of Products Distributed to Any Store",
+      "slug": "minimized-maximum-of-products-distributed-to-any-store",
+      "part": 2,
+      "destination": "BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/images/solution-part-2.jpg",
+      "sha256": "22163a0141d1d8a1a8fea32564bd5de1b8f2f677ab480937c97ef09796701d0b",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2196-Create-BT-from-description-Part-I.jpg",
+      "number": 2196,
+      "title": "Create Binary Tree From Descriptions",
+      "slug": "create-binary-tree-from-descriptions",
+      "part": 1,
+      "destination": "Trees/2196-create-binary-tree-from-descriptions/images/solution-part-1.jpg",
+      "sha256": "ac45d8813c736660b5eebcf070be6940d9cc6bd9841494b79223db63237e305a",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2196-Create-BT-from-description-Part-II.jpg",
+      "number": 2196,
+      "title": "Create Binary Tree From Descriptions",
+      "slug": "create-binary-tree-from-descriptions",
+      "part": 2,
+      "destination": "Trees/2196-create-binary-tree-from-descriptions/images/solution-part-2.jpg",
+      "sha256": "d74af04bf3f1e13bfc6d16aae1515d68d3e67752cd8eed664a684c01cfa6d44b",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2246-Longest-Path-with-diff-chars-Part-I.jpg",
+      "number": 2246,
+      "title": "Longest Path With Different Adjacent Characters",
+      "slug": "longest-path-with-different-adjacent-characters",
+      "part": 1,
+      "destination": "Trees/2246-longest-path-with-different-adjacent-characters/images/solution-part-1.jpg",
+      "sha256": "fd657fcd626a3f0c8481689d5b0a039dd1167dc273238b90d5fbe15187045c55",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2246-Longest-Path-with-diff-chars-Part-II.jpg",
+      "number": 2246,
+      "title": "Longest Path With Different Adjacent Characters",
+      "slug": "longest-path-with-different-adjacent-characters",
+      "part": 2,
+      "destination": "Trees/2246-longest-path-with-different-adjacent-characters/images/solution-part-2.jpg",
+      "sha256": "cd7797c952082105965fc201421aec68253af6579901f27b5f33476f288f92ce",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2265-Count-Nodes-Equal-to-avg-Part-I.jpg",
+      "number": 2265,
+      "title": "Count Nodes Equal to Average of Subtree",
+      "slug": "count-nodes-equal-to-average-of-subtree",
+      "part": 1,
+      "destination": "Trees/2265-count-nodes-equal-to-average-of-subtree/images/solution-part-1.jpg",
+      "sha256": "edfc27f3787b79a816d71a7ba79434389dd2595e53270b27e328eec638752729",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2265-Count-Nodes-Equal-to-avg-Part-II.jpg",
+      "number": 2265,
+      "title": "Count Nodes Equal to Average of Subtree",
+      "slug": "count-nodes-equal-to-average-of-subtree",
+      "part": 2,
+      "destination": "Trees/2265-count-nodes-equal-to-average-of-subtree/images/solution-part-2.jpg",
+      "sha256": "2d95d6f9d8ba8b66dd779ece1a30bd3aafbecf353db69dd9a82b376e11db3e4f",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2316-Count-unreachable-nodes-Part-I.jpg",
+      "number": 2316,
+      "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+      "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+      "part": 1,
+      "destination": "Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/images/solution-part-1.jpg",
+      "sha256": "75b5b154b4a49a76687ea2dd3c1391924da5d6df9fc1c3e799f30c8957839826",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2316-Count-unreachable-nodes-Part-II.jpg",
+      "number": 2316,
+      "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+      "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+      "part": 2,
+      "destination": "Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/images/solution-part-2.jpg",
+      "sha256": "1ef575a28d2bd8910eb8bbd6756fdbe18e1772724cca14a92915ec1f492d33bc",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2359-Find-Closest-Node-to-Given-Part-I.jpg",
+      "number": 2359,
+      "title": "Find Closest Node to Given Two Nodes",
+      "slug": "find-closest-node-to-given-two-nodes",
+      "part": 1,
+      "destination": "Graphs/2359-find-closest-node-to-given-two-nodes/images/solution-part-1.jpg",
+      "sha256": "456ab538a01e28fb9cd609cc9d6cb3f3d10c7cbef2ece0d87e94693c321228f9",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2359-Find-Closest-Node-to-Given-Part-II.jpg",
+      "number": 2359,
+      "title": "Find Closest Node to Given Two Nodes",
+      "slug": "find-closest-node-to-given-two-nodes",
+      "part": 2,
+      "destination": "Graphs/2359-find-closest-node-to-given-two-nodes/images/solution-part-2.jpg",
+      "sha256": "cbd66d3769e790b91ae802739b8cc94302d97c258ac43d9d0cae8c9afcedeb99",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2385-Amount-of-Time-to-infect-Part-I.jpg",
+      "number": 2385,
+      "title": "Amount of Time for Binary Tree to Be Infected",
+      "slug": "amount-of-time-for-binary-tree-to-be-infected",
+      "part": 1,
+      "destination": "Trees/2385-amount-of-time-for-binary-tree-to-be-infected/images/solution-part-1.jpg",
+      "sha256": "db38a17eccc6fff1e0b60440e37a833c4b2fc65b24ef9298b90dd920ae4bb3e3",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2385-Amount-of-Time-to-infect-Part-II.jpg",
+      "number": 2385,
+      "title": "Amount of Time for Binary Tree to Be Infected",
+      "slug": "amount-of-time-for-binary-tree-to-be-infected",
+      "part": 2,
+      "destination": "Trees/2385-amount-of-time-for-binary-tree-to-be-infected/images/solution-part-2.jpg",
+      "sha256": "28a8dfc18cedac7b1ea44295a3e2e650d5d08374b7eab2cb3bc68ca42ecd3f28",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2415-Reverse-Odd-levels-Part-I.jpg",
+      "number": 2415,
+      "title": "Reverse Odd Levels of Binary Tree",
+      "slug": "reverse-odd-levels-of-binary-tree",
+      "part": 1,
+      "destination": "Trees/2415-reverse-odd-levels-of-binary-tree/images/solution-part-1.jpg",
+      "sha256": "8aa81a38c41ad9c860d5b8ff7245f97c8cb63aea61ef418104447821243348ed",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2415-Reverse-Odd-levels-Part-II.jpg",
+      "number": 2415,
+      "title": "Reverse Odd Levels of Binary Tree",
+      "slug": "reverse-odd-levels-of-binary-tree",
+      "part": 2,
+      "destination": "Trees/2415-reverse-odd-levels-of-binary-tree/images/solution-part-2.jpg",
+      "sha256": "fc277ee32873a08abfefbc7939bd74a29928a4f93884c8f08afeb4a94fbe0033",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2421-No-of-Good-Paths-Part-I.jpg",
+      "number": 2421,
+      "title": "Number of Good Paths",
+      "slug": "number-of-good-paths",
+      "part": 1,
+      "destination": "Graphs/2421-number-of-good-paths/images/solution-part-1.jpg",
+      "sha256": "83b0505d20a518982e7aaa8062a31e13c8d5e323757c0dea98f240fddcfba915",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2421-No-of-Good-Paths-Part-II.jpg",
+      "number": 2421,
+      "title": "Number of Good Paths",
+      "slug": "number-of-good-paths",
+      "part": 2,
+      "destination": "Graphs/2421-number-of-good-paths/images/solution-part-2.jpg",
+      "sha256": "1073bff554ce4a520a095716f7eba40fe732420877f35ebf6b51d07c92ea91b3",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2421-No-of-Good-Paths-Part-III.jpg",
+      "number": 2421,
+      "title": "Number of Good Paths",
+      "slug": "number-of-good-paths",
+      "part": 3,
+      "destination": "Graphs/2421-number-of-good-paths/images/solution-part-3.jpg",
+      "sha256": "4600b61e32eef3aecca588c4d618ac76ce6e6d2418ca77ad065c9840c8243b10",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2458-Height-After-Subtree-Removal-Part-I.jpg",
+      "number": 2458,
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "slug": "height-of-binary-tree-after-subtree-removal-queries",
+      "part": 1,
+      "destination": "Trees/2458-height-of-binary-tree-after-subtree-removal-queries/images/solution-part-1.jpg",
+      "sha256": "2c4488cc2377e03b81a1af8e7f36ae84de6e642d3d94d86e31aa14efb4bb49f2",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2458-Height-After-Subtree-Removal-Part-II.jpg",
+      "number": 2458,
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "slug": "height-of-binary-tree-after-subtree-removal-queries",
+      "part": 2,
+      "destination": "Trees/2458-height-of-binary-tree-after-subtree-removal-queries/images/solution-part-2.jpg",
+      "sha256": "55ed28c7160220b3b87a24762e7207a7da8f108a663b34894e0495df8267c9bc",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2458-Height-After-Subtree-Removal-Part-III.jpg",
+      "number": 2458,
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "slug": "height-of-binary-tree-after-subtree-removal-queries",
+      "part": 3,
+      "destination": "Trees/2458-height-of-binary-tree-after-subtree-removal-queries/images/solution-part-3.jpg",
+      "sha256": "236c2cb4080a4011a47ab1e8fd444351006b14747232db111de8cd5d497c44b0",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2471-Min-Operations-to-sort-BT-level-Part-I.jpg",
+      "number": 2471,
+      "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+      "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+      "part": 1,
+      "destination": "Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/images/solution-part-1.jpg",
+      "sha256": "39e2937a97644db14c306ca2a591c889b24e9c8b00f4765e511862153e6723da",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2471-Min-Operations-to-sort-BT-level-Part-II.jpg",
+      "number": 2471,
+      "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+      "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+      "part": 2,
+      "destination": "Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/images/solution-part-2.jpg",
+      "sha256": "4e9eb5b2936fb4ba03a2e1cd42611b051496d7568e15742eac99e0b16917d8b3",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2492-Min-Score-Path-Part-I.jpg",
+      "number": 2492,
+      "title": "Minimum Score of a Path Between Two Cities",
+      "slug": "minimum-score-of-a-path-between-two-cities",
+      "part": 1,
+      "destination": "Graphs/2492-minimum-score-of-a-path-between-two-cities/images/solution-part-1.jpg",
+      "sha256": "06ddf852d8dbb23e07cdb18ea6700cad512264e04aec7f36c1a93108f1b36f75",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2492-Min-Score-Path-Part-II.jpg",
+      "number": 2492,
+      "title": "Minimum Score of a Path Between Two Cities",
+      "slug": "minimum-score-of-a-path-between-two-cities",
+      "part": 2,
+      "destination": "Graphs/2492-minimum-score-of-a-path-between-two-cities/images/solution-part-2.jpg",
+      "sha256": "f59d9a9630715fd147fa26e8b390ad3a974daa9563314c111a0a3e13de3d7ee2",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Knights tour Configuration.jpg",
+      "number": 2596,
+      "title": "Check Knight Tour Configuration",
+      "slug": "check-knight-tour-configuration",
+      "part": null,
+      "destination": "Graphs/2596-check-knight-tour-configuration/images/solution.jpg",
+      "sha256": "18bb5029dd1aea08328060f78517f3040f42682c5194638ec78c55e41c0a1b10",
+      "evidence": "Unique exact/reviewed title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2916-Subarrays-Distinct-Elem-Sum-Part-I.jpg",
+      "number": 2916,
+      "title": "Subarrays Distinct Element Sum of Squares II",
+      "slug": "subarrays-distinct-element-sum-of-squares-ii",
+      "part": 1,
+      "destination": "Trees/2916-subarrays-distinct-element-sum-of-squares-ii/images/solution-part-1.jpg",
+      "sha256": "23726bc7900e7b95e53a23f7d997ec5f3f5170ba56d372a8e6664b1bd806bcf1",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2916-Subarrays-Distinct-Elem-Sum-Part-II.jpg",
+      "number": 2916,
+      "title": "Subarrays Distinct Element Sum of Squares II",
+      "slug": "subarrays-distinct-element-sum-of-squares-ii",
+      "part": 2,
+      "destination": "Trees/2916-subarrays-distinct-element-sum-of-squares-ii/images/solution-part-2.jpg",
+      "sha256": "4102aac6c205cdfacdc165021a3aded514f744185122eed63adca11110966fb7",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2916-Subarrays-Distinct-Elem-Sum-Part-III.jpg",
+      "number": 2916,
+      "title": "Subarrays Distinct Element Sum of Squares II",
+      "slug": "subarrays-distinct-element-sum-of-squares-ii",
+      "part": 3,
+      "destination": "Trees/2916-subarrays-distinct-element-sum-of-squares-ii/images/solution-part-3.jpg",
+      "sha256": "ccbe3cee0606a19a845dac995ebaa31d84134fbff9dda6e40795cedea4fa93f4",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3286-Find-Safe-Walk-Grid-Part-I.jpg",
+      "number": 3286,
+      "title": "Find a Safe Walk Through a Grid",
+      "slug": "find-a-safe-walk-through-a-grid",
+      "part": 1,
+      "destination": "Graphs/3286-find-a-safe-walk-through-a-grid/images/solution-part-1.jpg",
+      "sha256": "49673867ae8d0d0be2e4949efed0ad596f3b22eb1356c72efb6429f12e84af0e",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3286-Find-Safe-Walk-Grid-Part-II.jpg",
+      "number": 3286,
+      "title": "Find a Safe Walk Through a Grid",
+      "slug": "find-a-safe-walk-through-a-grid",
+      "part": 2,
+      "destination": "Graphs/3286-find-a-safe-walk-through-a-grid/images/solution-part-2.jpg",
+      "sha256": "330e36eed1b5acdc90bc5a86bb5427a8b049261448215c0c19a432b5afc846ef",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3551-Min-Swaps-Sort-DigitSum-Part-I.jpg",
+      "number": 3551,
+      "title": "Minimum Swaps to Sort by Digit Sum",
+      "slug": "minimum-swaps-to-sort-by-digit-sum",
+      "part": 1,
+      "destination": "Arrays/3551-minimum-swaps-to-sort-by-digit-sum/images/solution-part-1.jpg",
+      "sha256": "5c81b4fe89e70b2aed6bf7253e9f462e833afbfafe428751aa789a351366daa4",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3551-Min-Swaps-Sort-DigitSum-Part-II.jpg",
+      "number": 3551,
+      "title": "Minimum Swaps to Sort by Digit Sum",
+      "slug": "minimum-swaps-to-sort-by-digit-sum",
+      "part": 2,
+      "destination": "Arrays/3551-minimum-swaps-to-sort-by-digit-sum/images/solution-part-2.jpg",
+      "sha256": "3149cd0bbeb6243ab457f1a4f3b37edd1f9e8ae5b01383d7a582d1902bb13808",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-I.jpg",
+      "number": 3886,
+      "title": "Sum of Sortable Integers",
+      "slug": "sum-of-sortable-integers",
+      "part": 1,
+      "destination": "Math/3886-sum-of-sortable-integers/images/solution-part-1.jpg",
+      "sha256": "5fd65e1a8be565a510994cdb571394c798f310afd382d3dc5f8603a592c2ce57",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-II.jpg",
+      "number": 3886,
+      "title": "Sum of Sortable Integers",
+      "slug": "sum-of-sortable-integers",
+      "part": 2,
+      "destination": "Math/3886-sum-of-sortable-integers/images/solution-part-2.jpg",
+      "sha256": "2198a4a620cfa8152cdb1f39e9f9e988cb7aa33d4d6984da773522f5df460652",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-III.jpg",
+      "number": 3886,
+      "title": "Sum of Sortable Integers",
+      "slug": "sum-of-sortable-integers",
+      "part": 3,
+      "destination": "Math/3886-sum-of-sortable-integers/images/solution-part-3.jpg",
+      "sha256": "72821dfe0e0a1142a22591a3fb876c52a926186711150e4fb81cf3462b64dc45",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-IV.jpg",
+      "number": 3886,
+      "title": "Sum of Sortable Integers",
+      "slug": "sum-of-sortable-integers",
+      "part": 4,
+      "destination": "Math/3886-sum-of-sortable-integers/images/solution-part-4.jpg",
+      "sha256": "f7de7af3fd1a6cc0e2fd23cd4986d8fb956e8a67a49f53a0e844c0ad45a5cb04",
+      "evidence": "Exact number and verified title"
+    }
+  ]
+}

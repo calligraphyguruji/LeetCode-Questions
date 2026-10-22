@@ -66,3 +66,27 @@
 	<li><code>1 &lt;= n == nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Sum of Sortable Integers — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Sum of Sortable Integers — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Sum of Sortable Integers — Part 3](./images/solution-part-3.jpg)
+
+### Part 4
+
+![Sum of Sortable Integers — Part 4](./images/solution-part-4.jpg)
+
+<!-- visual-solutions:end -->

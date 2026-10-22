@@ -35,3 +35,15 @@
 	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
 	<li><code>-1000 &lt;= targetSum &lt;= 1000</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 2
+
+![Path Sum II — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

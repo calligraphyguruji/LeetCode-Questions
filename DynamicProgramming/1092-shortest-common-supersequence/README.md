@@ -29,3 +29,22 @@ The answer provided is the shortest such string that satisfies these properties.
 	<li><code>str1</code> and <code>str2</code> consist of lowercase English letters.</li>
 </ul>
 
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Shortest Common Supersequence — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Shortest Common Supersequence — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Shortest Common Supersequence — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

@@ -51,3 +51,19 @@ The maximum number of products given to any store is max(100000) = 100000.
 	<li><code>1 &lt;= m &lt;= n &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= quantities[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Minimized Maximum of Products Distributed to Any Store — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Minimized Maximum of Products Distributed to Any Store — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

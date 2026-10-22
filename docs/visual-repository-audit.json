@@ -1,0 +1,2901 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-23",
+  "baseline_commit": "9b306a9",
+  "problem_folders": 257,
+  "solution_files": 266,
+  "cpp_files": 265,
+  "topics": {
+    "Arrays": 63,
+    "Backtracking": 11,
+    "BinarySearch": 9,
+    "BitManipulation": 4,
+    "DynamicProgramming": 30,
+    "Graphs": 34,
+    "Greedy": 1,
+    "Heaps": 5,
+    "Linked-List": 14,
+    "Math": 15,
+    "Trees": 71
+  },
+  "problems": [
+    {
+      "number": 1,
+      "title": "Two Sum",
+      "slug": "two-sum",
+      "folder": "Arrays/0001-two-sum",
+      "readme": "Arrays/0001-two-sum/README.md",
+      "solutions": [
+        "Arrays/0001-two-sum/0001-two-sum.cpp"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add Two Numbers",
+      "slug": "add-two-numbers",
+      "folder": "Linked-List/0002-add-two-numbers",
+      "readme": "Linked-List/0002-add-two-numbers/README.md",
+      "solutions": [
+        "Linked-List/0002-add-two-numbers/0002-add-two-numbers.cpp"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Longest Substring Without Repeating Characters",
+      "slug": "longest-substring-without-repeating-characters",
+      "folder": "Arrays/0003-longest-substring-without-repeating-characters",
+      "readme": "Arrays/0003-longest-substring-without-repeating-characters/README.md",
+      "solutions": [
+        "Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Longest Palindromic Substring",
+      "slug": "longest-palindromic-substring",
+      "folder": "DynamicProgramming/0005-longest-palindromic-substring",
+      "readme": "DynamicProgramming/0005-longest-palindromic-substring/README.md",
+      "solutions": [
+        "DynamicProgramming/0005-longest-palindromic-substring/0005-longest-palindromic-substring.cpp"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Container With Most Water",
+      "slug": "container-with-most-water",
+      "folder": "Arrays/0011-container-with-most-water",
+      "readme": "Arrays/0011-container-with-most-water/README.md",
+      "solutions": [
+        "Arrays/0011-container-with-most-water/0011-container-with-most-water.cpp"
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Longest Common Prefix",
+      "slug": "longest-common-prefix",
+      "folder": "Arrays/0014-longest-common-prefix",
+      "readme": "Arrays/0014-longest-common-prefix/README.md",
+      "solutions": [
+        "Arrays/0014-longest-common-prefix/0014-longest-common-prefix.cpp"
+      ]
+    },
+    {
+      "number": 15,
+      "title": "3Sum",
+      "slug": "3sum",
+      "folder": "Arrays/0015-3sum",
+      "readme": "Arrays/0015-3sum/README.md",
+      "solutions": [
+        "Arrays/0015-3sum/0015-3sum.cpp"
+      ]
+    },
+    {
+      "number": 18,
+      "title": "4Sum",
+      "slug": "4sum",
+      "folder": "Arrays/0018-4sum",
+      "readme": "Arrays/0018-4sum/README.md",
+      "solutions": [
+        "Arrays/0018-4sum/0018-4sum.cpp"
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Valid Parentheses",
+      "slug": "valid-parentheses",
+      "folder": "Arrays/0020-valid-parentheses",
+      "readme": "Arrays/0020-valid-parentheses/README.md",
+      "solutions": [
+        "Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp"
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Merge Two Sorted Lists",
+      "slug": "merge-two-sorted-lists",
+      "folder": "Linked-List/0021-merge-two-sorted-lists",
+      "readme": "Linked-List/0021-merge-two-sorted-lists/README.md",
+      "solutions": [
+        "Linked-List/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp"
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Swap Nodes in Pairs",
+      "slug": "swap-nodes-in-pairs",
+      "folder": "Linked-List/0024-swap-nodes-in-pairs",
+      "readme": "Linked-List/0024-swap-nodes-in-pairs/README.md",
+      "solutions": [
+        "Linked-List/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp"
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Reverse Nodes in k-Group",
+      "slug": "reverse-nodes-in-k-group",
+      "folder": "Linked-List/0025-reverse-nodes-in-k-group",
+      "readme": "Linked-List/0025-reverse-nodes-in-k-group/README.md",
+      "solutions": [
+        "Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp"
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Next Permutation",
+      "slug": "next-permutation",
+      "folder": "Arrays/0031-next-permutation",
+      "readme": "Arrays/0031-next-permutation/README.md",
+      "solutions": [
+        "Arrays/0031-next-permutation/0031-next-permutation.cpp"
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Search in Rotated Sorted Array",
+      "slug": "search-in-rotated-sorted-array",
+      "folder": "BinarySearch/0033-search-in-rotated-sorted-array",
+      "readme": "BinarySearch/0033-search-in-rotated-sorted-array/README.md",
+      "solutions": [
+        "BinarySearch/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp"
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Sudoku Solver",
+      "slug": "sudoku-solver",
+      "folder": "Backtracking/0037-sudoku-solver",
+      "readme": "Backtracking/0037-sudoku-solver/README.md",
+      "solutions": [
+        "Backtracking/0037-sudoku-solver/0037-sudoku-solver.cpp"
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Combination Sum",
+      "slug": "combination-sum",
+      "folder": "Backtracking/0039-combination-sum",
+      "readme": "Backtracking/0039-combination-sum/README.md",
+      "solutions": [
+        "Backtracking/0039-combination-sum/0039-combination-sum.cpp"
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Combination Sum II",
+      "slug": "combination-sum-ii",
+      "folder": "Backtracking/0040-combination-sum-ii",
+      "readme": "Backtracking/0040-combination-sum-ii/README.md",
+      "solutions": [
+        "Backtracking/0040-combination-sum-ii/0040-combination-sum-ii.cpp"
+      ]
+    },
+    {
+      "number": 42,
+      "title": "Trapping Rain Water",
+      "slug": "trapping-rain-water",
+      "folder": "DynamicProgramming/0042-trapping-rain-water",
+      "readme": "DynamicProgramming/0042-trapping-rain-water/README.md",
+      "solutions": [
+        "DynamicProgramming/0042-trapping-rain-water/0042-trapping-rain-water.cpp"
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Permutations",
+      "slug": "permutations",
+      "folder": "Backtracking/0046-permutations",
+      "readme": "Backtracking/0046-permutations/README.md",
+      "solutions": [
+        "Backtracking/0046-permutations/0046-permutations.cpp"
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Group Anagrams",
+      "slug": "group-anagrams",
+      "folder": "Arrays/0049-group-anagrams",
+      "readme": "Arrays/0049-group-anagrams/README.md",
+      "solutions": [
+        "Arrays/0049-group-anagrams/0049-group-anagrams.cpp"
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Pow(x, n)",
+      "slug": "powx-n",
+      "folder": "Math/0050-powx-n",
+      "readme": "Math/0050-powx-n/README.md",
+      "solutions": [
+        "Math/0050-powx-n/0050-powx-n.cpp"
+      ]
+    },
+    {
+      "number": 51,
+      "title": "N-Queens",
+      "slug": "n-queens",
+      "folder": "Backtracking/0051-n-queens",
+      "readme": "Backtracking/0051-n-queens/README.md",
+      "solutions": [
+        "Backtracking/0051-n-queens/0051-n-queens.cpp"
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Maximum Subarray",
+      "slug": "maximum-subarray",
+      "folder": "DynamicProgramming/0053-maximum-subarray",
+      "readme": "DynamicProgramming/0053-maximum-subarray/README.md",
+      "solutions": [
+        "DynamicProgramming/0053-maximum-subarray/0053-maximum-subarray.cpp"
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Spiral Matrix",
+      "slug": "spiral-matrix",
+      "folder": "Arrays/0054-spiral-matrix",
+      "readme": "Arrays/0054-spiral-matrix/README.md",
+      "solutions": [
+        "Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp"
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Merge Intervals",
+      "slug": "merge-intervals",
+      "folder": "Arrays/0056-merge-intervals",
+      "readme": "Arrays/0056-merge-intervals/README.md",
+      "solutions": [
+        "Arrays/0056-merge-intervals/0056-merge-intervals.cpp"
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Rotate List",
+      "slug": "rotate-list",
+      "folder": "Linked-List/0061-rotate-list",
+      "readme": "Linked-List/0061-rotate-list/README.md",
+      "solutions": [
+        "Linked-List/0061-rotate-list/0061-rotate-list.cpp"
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Unique Paths",
+      "slug": "unique-paths",
+      "folder": "DynamicProgramming/0062-unique-paths",
+      "readme": "DynamicProgramming/0062-unique-paths/README.md",
+      "solutions": [
+        "DynamicProgramming/0062-unique-paths/0062-unique-paths.cpp"
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Unique Paths II",
+      "slug": "unique-paths-ii",
+      "folder": "DynamicProgramming/0063-unique-paths-ii",
+      "readme": "DynamicProgramming/0063-unique-paths-ii/README.md",
+      "solutions": [
+        "DynamicProgramming/0063-unique-paths-ii/0063-unique-paths-ii.cpp"
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Edit Distance",
+      "slug": "edit-distance",
+      "folder": "DynamicProgramming/0072-edit-distance",
+      "readme": "DynamicProgramming/0072-edit-distance/README.md",
+      "solutions": [
+        "DynamicProgramming/0072-edit-distance/0072-edit-distance.cpp"
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Set Matrix Zeroes",
+      "slug": "set-matrix-zeroes",
+      "folder": "Arrays/0073-set-matrix-zeroes",
+      "readme": "Arrays/0073-set-matrix-zeroes/README.md",
+      "solutions": [
+        "Arrays/0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp"
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Search a 2D Matrix",
+      "slug": "search-a-2d-matrix",
+      "folder": "BinarySearch/0074-search-a-2d-matrix",
+      "readme": "BinarySearch/0074-search-a-2d-matrix/README.md",
+      "solutions": [
+        "BinarySearch/0074-search-a-2d-matrix/0074-search-a-2d-matrix.cpp"
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Sort Colors",
+      "slug": "sort-colors",
+      "folder": "Arrays/0075-sort-colors",
+      "readme": "Arrays/0075-sort-colors/README.md",
+      "solutions": [
+        "Arrays/0075-sort-colors/0075-sort-colors.cpp"
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Minimum Window Substring",
+      "slug": "minimum-window-substring",
+      "folder": "Arrays/0076-minimum-window-substring",
+      "readme": "Arrays/0076-minimum-window-substring/README.md",
+      "solutions": [
+        "Arrays/0076-minimum-window-substring/0076-minimum-window-substring.cpp"
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Subsets",
+      "slug": "subsets",
+      "folder": "Backtracking/0078-subsets",
+      "readme": "Backtracking/0078-subsets/README.md",
+      "solutions": [
+        "Backtracking/0078-subsets/0078-subsets.cpp"
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Word Search",
+      "slug": "word-search",
+      "folder": "Backtracking/0079-word-search",
+      "readme": "Backtracking/0079-word-search/README.md",
+      "solutions": [
+        "Backtracking/0079-word-search/0079-word-search.cpp"
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Largest Rectangle in Histogram",
+      "slug": "largest-rectangle-in-histogram",
+      "folder": "Arrays/0084-largest-rectangle-in-histogram",
+      "readme": "Arrays/0084-largest-rectangle-in-histogram/README.md",
+      "solutions": [
+        "Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp"
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Merge Sorted Array",
+      "slug": "merge-sorted-array",
+      "folder": "Arrays/0088-merge-sorted-array",
+      "readme": "Arrays/0088-merge-sorted-array/README.md",
+      "solutions": [
+        "Arrays/0088-merge-sorted-array/0088-merge-sorted-array.cpp"
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Subsets II",
+      "slug": "subsets-ii",
+      "folder": "Backtracking/0090-subsets-ii",
+      "readme": "Backtracking/0090-subsets-ii/README.md",
+      "solutions": [
+        "Backtracking/0090-subsets-ii/0090-subsets-ii.cpp"
+      ]
+    },
+    {
+      "number": 92,
+      "title": "Reverse Linked List II",
+      "slug": "reverse-linked-list-ii",
+      "folder": "Linked-List/0092-reverse-linked-list-ii",
+      "readme": "Linked-List/0092-reverse-linked-list-ii/README.md",
+      "solutions": [
+        "Linked-List/0092-reverse-linked-list-ii/0092-reverse-linked-list-ii.cpp"
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Binary Tree Inorder Traversal",
+      "slug": "binary-tree-inorder-traversal",
+      "folder": "Trees/0094-binary-tree-inorder-traversal",
+      "readme": "Trees/0094-binary-tree-inorder-traversal/README.md",
+      "solutions": [
+        "Trees/0094-binary-tree-inorder-traversal/0094-binary-tree-inorder-traversal.cpp"
+      ]
+    },
+    {
+      "number": 96,
+      "title": "Unique Binary Search Trees",
+      "slug": "unique-binary-search-trees",
+      "folder": "Trees/0096-unique-binary-search-trees",
+      "readme": "Trees/0096-unique-binary-search-trees/README.md",
+      "solutions": [
+        "Trees/0096-unique-binary-search-trees/0096-unique-binary-search-trees.cpp"
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Validate Binary Search Tree",
+      "slug": "validate-binary-search-tree",
+      "folder": "Trees/0098-validate-binary-search-tree",
+      "readme": "Trees/0098-validate-binary-search-tree/README.md",
+      "solutions": [
+        "Trees/0098-validate-binary-search-tree/0098-validate-binary-search-tree.cpp"
+      ]
+    },
+    {
+      "number": 99,
+      "title": "Recover Binary Search Tree",
+      "slug": "recover-binary-search-tree",
+      "folder": "Trees/0099-recover-binary-search-tree",
+      "readme": "Trees/0099-recover-binary-search-tree/README.md",
+      "solutions": [
+        "Trees/0099-recover-binary-search-tree/0099-recover-binary-search-tree.cpp"
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Same Tree",
+      "slug": "same-tree",
+      "folder": "Trees/0100-same-tree",
+      "readme": "Trees/0100-same-tree/README.md",
+      "solutions": [
+        "Trees/0100-same-tree/0100-same-tree.cpp"
+      ]
+    },
+    {
+      "number": 101,
+      "title": "Symmetric Tree",
+      "slug": "symmetric-tree",
+      "folder": "Trees/0101-symmetric-tree",
+      "readme": "Trees/0101-symmetric-tree/README.md",
+      "solutions": [
+        "Trees/0101-symmetric-tree/0101-symmetric-tree.cpp"
+      ]
+    },
+    {
+      "number": 102,
+      "title": "Binary Tree Level Order Traversal",
+      "slug": "binary-tree-level-order-traversal",
+      "folder": "Trees/0102-binary-tree-level-order-traversal",
+      "readme": "Trees/0102-binary-tree-level-order-traversal/README.md",
+      "solutions": [
+        "Trees/0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.cpp"
+      ]
+    },
+    {
+      "number": 103,
+      "title": "Binary Tree Zigzag Level Order Traversal",
+      "slug": "binary-tree-zigzag-level-order-traversal",
+      "folder": "Trees/0103-binary-tree-zigzag-level-order-traversal",
+      "readme": "Trees/0103-binary-tree-zigzag-level-order-traversal/README.md",
+      "solutions": [
+        "Trees/0103-binary-tree-zigzag-level-order-traversal/0103-binary-tree-zigzag-level-order-traversal.cpp"
+      ]
+    },
+    {
+      "number": 105,
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "folder": "Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "readme": "Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/README.md",
+      "solutions": [
+        "Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp"
+      ]
+    },
+    {
+      "number": 106,
+      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "folder": "Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal",
+      "readme": "Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/README.md",
+      "solutions": [
+        "Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/0106-construct-binary-tree-from-inorder-and-postorder-traversal.cpp"
+      ]
+    },
+    {
+      "number": 108,
+      "title": "Convert Sorted Array to Binary Search Tree",
+      "slug": "convert-sorted-array-to-binary-search-tree",
+      "folder": "Trees/0108-convert-sorted-array-to-binary-search-tree",
+      "readme": "Trees/0108-convert-sorted-array-to-binary-search-tree/README.md",
+      "solutions": [
+        "Trees/0108-convert-sorted-array-to-binary-search-tree/0108-convert-sorted-array-to-binary-search-tree.cpp"
+      ]
+    },
+    {
+      "number": 110,
+      "title": "Balanced Binary Tree",
+      "slug": "balanced-binary-tree",
+      "folder": "Trees/0110-balanced-binary-tree",
+      "readme": "Trees/0110-balanced-binary-tree/README.md",
+      "solutions": [
+        "Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 111,
+      "title": "Minimum Depth of Binary Tree",
+      "slug": "minimum-depth-of-binary-tree",
+      "folder": "Trees/0111-minimum-depth-of-binary-tree",
+      "readme": "Trees/0111-minimum-depth-of-binary-tree/README.md",
+      "solutions": [
+        "Trees/0111-minimum-depth-of-binary-tree/0111-minimum-depth-of-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 112,
+      "title": "Path Sum",
+      "slug": "path-sum",
+      "folder": "Trees/0112-path-sum",
+      "readme": "Trees/0112-path-sum/README.md",
+      "solutions": [
+        "Trees/0112-path-sum/0112-path-sum.cpp"
+      ]
+    },
+    {
+      "number": 113,
+      "title": "Path Sum II",
+      "slug": "path-sum-ii",
+      "folder": "Trees/0113-path-sum-ii",
+      "readme": "Trees/0113-path-sum-ii/README.md",
+      "solutions": [
+        "Trees/0113-path-sum-ii/0113-path-sum-ii.cpp"
+      ]
+    },
+    {
+      "number": 114,
+      "title": "Flatten Binary Tree to Linked List",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "folder": "Trees/0114-flatten-binary-tree-to-linked-list",
+      "readme": "Trees/0114-flatten-binary-tree-to-linked-list/README.md",
+      "solutions": [
+        "Trees/0114-flatten-binary-tree-to-linked-list/0114-flatten-binary-tree-to-linked-list.cpp"
+      ]
+    },
+    {
+      "number": 116,
+      "title": "Populating Next Right Pointers in Each Node",
+      "slug": "populating-next-right-pointers-in-each-node",
+      "folder": "Trees/0116-populating-next-right-pointers-in-each-node",
+      "readme": "Trees/0116-populating-next-right-pointers-in-each-node/README.md",
+      "solutions": [
+        "Trees/0116-populating-next-right-pointers-in-each-node/0116-populating-next-right-pointers-in-each-node.cpp"
+      ]
+    },
+    {
+      "number": 121,
+      "title": "Best Time to Buy and Sell Stock",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "folder": "DynamicProgramming/0121-best-time-to-buy-and-sell-stock",
+      "readme": "DynamicProgramming/0121-best-time-to-buy-and-sell-stock/README.md",
+      "solutions": [
+        "DynamicProgramming/0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.cpp"
+      ]
+    },
+    {
+      "number": 122,
+      "title": "Best Time to Buy and Sell Stock II",
+      "slug": "best-time-to-buy-and-sell-stock-ii",
+      "folder": "DynamicProgramming/0122-best-time-to-buy-and-sell-stock-ii",
+      "readme": "DynamicProgramming/0122-best-time-to-buy-and-sell-stock-ii/README.md",
+      "solutions": [
+        "DynamicProgramming/0122-best-time-to-buy-and-sell-stock-ii/0122-best-time-to-buy-and-sell-stock-ii.cpp"
+      ]
+    },
+    {
+      "number": 124,
+      "title": "Binary Tree Maximum Path Sum",
+      "slug": "binary-tree-maximum-path-sum",
+      "folder": "Trees/0124-binary-tree-maximum-path-sum",
+      "readme": "Trees/0124-binary-tree-maximum-path-sum/README.md",
+      "solutions": [
+        "Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp"
+      ]
+    },
+    {
+      "number": 125,
+      "title": "Valid Palindrome",
+      "slug": "valid-palindrome",
+      "folder": "Arrays/0125-valid-palindrome",
+      "readme": "Arrays/0125-valid-palindrome/README.md",
+      "solutions": [
+        "Arrays/0125-valid-palindrome/0125-valid-palindrome.cpp"
+      ]
+    },
+    {
+      "number": 129,
+      "title": "Sum Root to Leaf Numbers",
+      "slug": "sum-root-to-leaf-numbers",
+      "folder": "Trees/0129-sum-root-to-leaf-numbers",
+      "readme": "Trees/0129-sum-root-to-leaf-numbers/README.md",
+      "solutions": [
+        "Trees/0129-sum-root-to-leaf-numbers/0129-sum-root-to-leaf-numbers.cpp"
+      ]
+    },
+    {
+      "number": 131,
+      "title": "Palindrome Partitioning",
+      "slug": "palindrome-partitioning",
+      "folder": "Backtracking/0131-palindrome-partitioning",
+      "readme": "Backtracking/0131-palindrome-partitioning/README.md",
+      "solutions": [
+        "Backtracking/0131-palindrome-partitioning/0131-palindrome-partitioning.cpp"
+      ]
+    },
+    {
+      "number": 132,
+      "title": "Palindrome Partitioning II",
+      "slug": "palindrome-partitioning-ii",
+      "folder": "DynamicProgramming/0132-palindrome-partitioning-ii",
+      "readme": "DynamicProgramming/0132-palindrome-partitioning-ii/README.md",
+      "solutions": [
+        "DynamicProgramming/0132-palindrome-partitioning-ii/0132-palindrome-partitioning-ii.cpp"
+      ]
+    },
+    {
+      "number": 133,
+      "title": "Clone Graph",
+      "slug": "clone-graph",
+      "folder": "Graphs/0133-clone-graph",
+      "readme": "Graphs/0133-clone-graph/README.md",
+      "solutions": [
+        "Graphs/0133-clone-graph/0133-clone-graph.cpp"
+      ]
+    },
+    {
+      "number": 134,
+      "title": "Gas Station",
+      "slug": "gas-station",
+      "folder": "Greedy/0134-gas-station",
+      "readme": "Greedy/0134-gas-station/README.md",
+      "solutions": [
+        "Greedy/0134-gas-station/0134-gas-station.cpp"
+      ]
+    },
+    {
+      "number": 138,
+      "title": "Copy List with Random Pointer",
+      "slug": "copy-list-with-random-pointer",
+      "folder": "Linked-List/0138-copy-list-with-random-pointer",
+      "readme": "Linked-List/0138-copy-list-with-random-pointer/README.md",
+      "solutions": [
+        "Linked-List/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp"
+      ]
+    },
+    {
+      "number": 141,
+      "title": "Linked List Cycle",
+      "slug": "linked-list-cycle",
+      "folder": "Linked-List/0141-linked-list-cycle",
+      "readme": "Linked-List/0141-linked-list-cycle/README.md",
+      "solutions": [
+        "Linked-List/0141-linked-list-cycle/0141-linked-list-cycle.cpp"
+      ]
+    },
+    {
+      "number": 142,
+      "title": "Linked List Cycle II",
+      "slug": "linked-list-cycle-ii",
+      "folder": "Linked-List/0142-linked-list-cycle-ii",
+      "readme": "Linked-List/0142-linked-list-cycle-ii/README.md",
+      "solutions": [
+        "Linked-List/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp"
+      ]
+    },
+    {
+      "number": 144,
+      "title": "Binary Tree Preorder Traversal",
+      "slug": "binary-tree-preorder-traversal",
+      "folder": "Trees/0144-binary-tree-preorder-traversal",
+      "readme": "Trees/0144-binary-tree-preorder-traversal/README.md",
+      "solutions": [
+        "Trees/0144-binary-tree-preorder-traversal/0144-binary-tree-preorder-traversal.cpp"
+      ]
+    },
+    {
+      "number": 145,
+      "title": "Binary Tree Postorder Traversal",
+      "slug": "binary-tree-postorder-traversal",
+      "folder": "Trees/0145-binary-tree-postorder-traversal",
+      "readme": "Trees/0145-binary-tree-postorder-traversal/README.md",
+      "solutions": [
+        "Trees/0145-binary-tree-postorder-traversal/0145-binary-tree-postorder-traversal.cpp"
+      ]
+    },
+    {
+      "number": 146,
+      "title": "LRU Cache",
+      "slug": "lru-cache",
+      "folder": "Linked-List/0146-lru-cache",
+      "readme": "Linked-List/0146-lru-cache/README.md",
+      "solutions": [
+        "Linked-List/0146-lru-cache/0146-lru-cache.cpp"
+      ]
+    },
+    {
+      "number": 151,
+      "title": "Reverse Words in a String",
+      "slug": "reverse-words-in-a-string",
+      "folder": "Arrays/0151-reverse-words-in-a-string",
+      "readme": "Arrays/0151-reverse-words-in-a-string/README.md",
+      "solutions": [
+        "Arrays/0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp"
+      ]
+    },
+    {
+      "number": 155,
+      "title": "Min Stack",
+      "slug": "min-stack",
+      "folder": "Arrays/0155-min-stack",
+      "readme": "Arrays/0155-min-stack/README.md",
+      "solutions": [
+        "Arrays/0155-min-stack/0155-min-stack.cpp"
+      ]
+    },
+    {
+      "number": 169,
+      "title": "Majority Element",
+      "slug": "majority-element",
+      "folder": "Arrays/0169-majority-element",
+      "readme": "Arrays/0169-majority-element/README.md",
+      "solutions": [
+        "Arrays/0169-majority-element/0169-majority-element.cpp"
+      ]
+    },
+    {
+      "number": 173,
+      "title": "Binary Search Tree Iterator",
+      "slug": "binary-search-tree-iterator",
+      "folder": "Trees/0173-binary-search-tree-iterator",
+      "readme": "Trees/0173-binary-search-tree-iterator/README.md",
+      "solutions": [
+        "Trees/0173-binary-search-tree-iterator/0173-binary-search-tree-iterator.cpp"
+      ]
+    },
+    {
+      "number": 198,
+      "title": "House Robber",
+      "slug": "house-robber",
+      "folder": "DynamicProgramming/0198-house-robber",
+      "readme": "DynamicProgramming/0198-house-robber/README.md",
+      "solutions": [
+        "DynamicProgramming/0198-house-robber/0198-house-robber.cpp"
+      ]
+    },
+    {
+      "number": 199,
+      "title": "Binary Tree Right Side View",
+      "slug": "binary-tree-right-side-view",
+      "folder": "Trees/0199-binary-tree-right-side-view",
+      "readme": "Trees/0199-binary-tree-right-side-view/README.md",
+      "solutions": [
+        "Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-2-bfs.cpp",
+        "Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-3-dfs.cpp",
+        "Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.cpp"
+      ]
+    },
+    {
+      "number": 200,
+      "title": "Number of Islands",
+      "slug": "number-of-islands",
+      "folder": "Graphs/0200-number-of-islands",
+      "readme": "Graphs/0200-number-of-islands/README.md",
+      "solutions": [
+        "Graphs/0200-number-of-islands/0200-number-of-islands.cpp"
+      ]
+    },
+    {
+      "number": 206,
+      "title": "Reverse Linked List",
+      "slug": "reverse-linked-list",
+      "folder": "Linked-List/0206-reverse-linked-list",
+      "readme": "Linked-List/0206-reverse-linked-list/README.md",
+      "solutions": [
+        "Linked-List/0206-reverse-linked-list/0206-reverse-linked-list.cpp"
+      ]
+    },
+    {
+      "number": 207,
+      "title": "Course Schedule",
+      "slug": "course-schedule",
+      "folder": "Graphs/0207-course-schedule",
+      "readme": "Graphs/0207-course-schedule/README.md",
+      "solutions": [
+        "Graphs/0207-course-schedule/0207-course-schedule.cpp"
+      ]
+    },
+    {
+      "number": 210,
+      "title": "Course Schedule II",
+      "slug": "course-schedule-ii",
+      "folder": "Graphs/0210-course-schedule-ii",
+      "readme": "Graphs/0210-course-schedule-ii/README.md",
+      "solutions": [
+        "Graphs/0210-course-schedule-ii/0210-course-schedule-ii.cpp"
+      ]
+    },
+    {
+      "number": 213,
+      "title": "House Robber II",
+      "slug": "house-robber-ii",
+      "folder": "DynamicProgramming/0213-house-robber-ii",
+      "readme": "DynamicProgramming/0213-house-robber-ii/README.md",
+      "solutions": [
+        "DynamicProgramming/0213-house-robber-ii/0213-house-robber-ii.cpp"
+      ]
+    },
+    {
+      "number": 215,
+      "title": "Kth Largest Element in an Array",
+      "slug": "kth-largest-element-in-an-array",
+      "folder": "Heaps/0215-kth-largest-element-in-an-array",
+      "readme": "Heaps/0215-kth-largest-element-in-an-array/README.md",
+      "solutions": [
+        "Heaps/0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.cpp"
+      ]
+    },
+    {
+      "number": 217,
+      "title": "Contains Duplicate",
+      "slug": "contains-duplicate",
+      "folder": "Arrays/0217-contains-duplicate",
+      "readme": "Arrays/0217-contains-duplicate/README.md",
+      "solutions": [
+        "Arrays/0217-contains-duplicate/0217-contains-duplicate.cpp"
+      ]
+    },
+    {
+      "number": 222,
+      "title": "Count Complete Tree Nodes",
+      "slug": "count-complete-tree-nodes",
+      "folder": "Trees/0222-count-complete-tree-nodes",
+      "readme": "Trees/0222-count-complete-tree-nodes/README.md",
+      "solutions": [
+        "Trees/0222-count-complete-tree-nodes/0222-count-complete-tree-nodes.cpp"
+      ]
+    },
+    {
+      "number": 225,
+      "title": "Implement Stack using Queues",
+      "slug": "implement-stack-using-queues",
+      "folder": "Arrays/0225-implement-stack-using-queues",
+      "readme": "Arrays/0225-implement-stack-using-queues/README.md",
+      "solutions": [
+        "Arrays/0225-implement-stack-using-queues/0225-implement-stack-using-queues.cpp"
+      ]
+    },
+    {
+      "number": 230,
+      "title": "Kth Smallest Element in a BST",
+      "slug": "kth-smallest-element-in-a-bst",
+      "folder": "Trees/0230-kth-smallest-element-in-a-bst",
+      "readme": "Trees/0230-kth-smallest-element-in-a-bst/README.md",
+      "solutions": [
+        "Trees/0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.cpp"
+      ]
+    },
+    {
+      "number": 231,
+      "title": "Power of Two",
+      "slug": "power-of-two",
+      "folder": "BitManipulation/0231-power-of-two",
+      "readme": "BitManipulation/0231-power-of-two/README.md",
+      "solutions": [
+        "BitManipulation/0231-power-of-two/0231-power-of-two.cpp"
+      ]
+    },
+    {
+      "number": 232,
+      "title": "Implement Queue using Stacks",
+      "slug": "implement-queue-using-stacks",
+      "folder": "Arrays/0232-implement-queue-using-stacks",
+      "readme": "Arrays/0232-implement-queue-using-stacks/README.md",
+      "solutions": [
+        "Arrays/0232-implement-queue-using-stacks/0232-implement-queue-using-stacks.cpp"
+      ]
+    },
+    {
+      "number": 234,
+      "title": "Palindrome Linked List",
+      "slug": "palindrome-linked-list",
+      "folder": "Linked-List/0234-palindrome-linked-list",
+      "readme": "Linked-List/0234-palindrome-linked-list/README.md",
+      "solutions": [
+        "Linked-List/0234-palindrome-linked-list/0234-palindrome-linked-list.cpp"
+      ]
+    },
+    {
+      "number": 235,
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "folder": "Trees/0235-lowest-common-ancestor-of-a-binary-search-tree",
+      "readme": "Trees/0235-lowest-common-ancestor-of-a-binary-search-tree/README.md",
+      "solutions": [
+        "Trees/0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.cpp"
+      ]
+    },
+    {
+      "number": 236,
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "folder": "Trees/0236-lowest-common-ancestor-of-a-binary-tree",
+      "readme": "Trees/0236-lowest-common-ancestor-of-a-binary-tree/README.md",
+      "solutions": [
+        "Trees/0236-lowest-common-ancestor-of-a-binary-tree/0236-lowest-common-ancestor-of-a-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 238,
+      "title": "Product of Array Except Self",
+      "slug": "product-of-array-except-self",
+      "folder": "Arrays/0238-product-of-array-except-self",
+      "readme": "Arrays/0238-product-of-array-except-self/README.md",
+      "solutions": [
+        "Arrays/0238-product-of-array-except-self/0238-product-of-array-except-self.cpp"
+      ]
+    },
+    {
+      "number": 239,
+      "title": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "folder": "Arrays/0239-sliding-window-maximum",
+      "readme": "Arrays/0239-sliding-window-maximum/README.md",
+      "solutions": [
+        "Arrays/0239-sliding-window-maximum/0239-sliding-window-maximum.cpp"
+      ]
+    },
+    {
+      "number": 240,
+      "title": "Search a 2D Matrix II",
+      "slug": "search-a-2d-matrix-ii",
+      "folder": "BinarySearch/0240-search-a-2d-matrix-ii",
+      "readme": "BinarySearch/0240-search-a-2d-matrix-ii/README.md",
+      "solutions": [
+        "BinarySearch/0240-search-a-2d-matrix-ii/0240-search-a-2d-matrix-ii.cpp"
+      ]
+    },
+    {
+      "number": 242,
+      "title": "Valid Anagram",
+      "slug": "valid-anagram",
+      "folder": "Arrays/0242-valid-anagram",
+      "readme": "Arrays/0242-valid-anagram/README.md",
+      "solutions": [
+        "Arrays/0242-valid-anagram/0242-valid-anagram.cpp"
+      ]
+    },
+    {
+      "number": 263,
+      "title": "Ugly Number",
+      "slug": "ugly-number",
+      "folder": "Math/0263-ugly-number",
+      "readme": "Math/0263-ugly-number/README.md",
+      "solutions": [
+        "Math/0263-ugly-number/0263-ugly-number.cpp"
+      ]
+    },
+    {
+      "number": 264,
+      "title": "Ugly Number II",
+      "slug": "ugly-number-ii",
+      "folder": "DynamicProgramming/0264-ugly-number-ii",
+      "readme": "DynamicProgramming/0264-ugly-number-ii/README.md",
+      "solutions": [
+        "DynamicProgramming/0264-ugly-number-ii/0264-ugly-number-ii.cpp"
+      ]
+    },
+    {
+      "number": 279,
+      "title": "Perfect Squares",
+      "slug": "perfect-squares",
+      "folder": "DynamicProgramming/0279-perfect-squares",
+      "readme": "DynamicProgramming/0279-perfect-squares/README.md",
+      "solutions": [
+        "DynamicProgramming/0279-perfect-squares/0279-perfect-squares.cpp"
+      ]
+    },
+    {
+      "number": 287,
+      "title": "Find the Duplicate Number",
+      "slug": "find-the-duplicate-number",
+      "folder": "Arrays/0287-find-the-duplicate-number",
+      "readme": "Arrays/0287-find-the-duplicate-number/README.md",
+      "solutions": [
+        "Arrays/0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp"
+      ]
+    },
+    {
+      "number": 300,
+      "title": "Longest Increasing Subsequence",
+      "slug": "longest-increasing-subsequence",
+      "folder": "DynamicProgramming/0300-longest-increasing-subsequence",
+      "readme": "DynamicProgramming/0300-longest-increasing-subsequence/README.md",
+      "solutions": [
+        "DynamicProgramming/0300-longest-increasing-subsequence/0300-longest-increasing-subsequence.cpp"
+      ]
+    },
+    {
+      "number": 322,
+      "title": "Coin Change",
+      "slug": "coin-change",
+      "folder": "DynamicProgramming/0322-coin-change",
+      "readme": "DynamicProgramming/0322-coin-change/README.md",
+      "solutions": [
+        "DynamicProgramming/0322-coin-change/0322-coin-change.cpp"
+      ]
+    },
+    {
+      "number": 326,
+      "title": "Power of Three",
+      "slug": "power-of-three",
+      "folder": "Math/0326-power-of-three",
+      "readme": "Math/0326-power-of-three/README.md",
+      "solutions": [
+        "Math/0326-power-of-three/0326-power-of-three.cpp"
+      ]
+    },
+    {
+      "number": 342,
+      "title": "Power of Four",
+      "slug": "power-of-four",
+      "folder": "BitManipulation/0342-power-of-four",
+      "readme": "BitManipulation/0342-power-of-four/README.md",
+      "solutions": [
+        "BitManipulation/0342-power-of-four/0342-power-of-four.cpp"
+      ]
+    },
+    {
+      "number": 344,
+      "title": "Reverse String",
+      "slug": "reverse-string",
+      "folder": "Arrays/0344-reverse-string",
+      "readme": "Arrays/0344-reverse-string/README.md",
+      "solutions": [
+        "Arrays/0344-reverse-string/0344-reverse-string.cpp"
+      ]
+    },
+    {
+      "number": 347,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "folder": "Heaps/0347-top-k-frequent-elements",
+      "readme": "Heaps/0347-top-k-frequent-elements/README.md",
+      "solutions": [
+        "Heaps/0347-top-k-frequent-elements/0347-top-k-frequent-elements.cpp"
+      ]
+    },
+    {
+      "number": 365,
+      "title": "Water and Jug Problem",
+      "slug": "water-and-jug-problem",
+      "folder": "Graphs/0365-water-and-jug-problem",
+      "readme": "Graphs/0365-water-and-jug-problem/README.md",
+      "solutions": [
+        "Graphs/0365-water-and-jug-problem/0365-water-and-jug-problem.cpp"
+      ]
+    },
+    {
+      "number": 368,
+      "title": "Largest Divisible Subset",
+      "slug": "largest-divisible-subset",
+      "folder": "DynamicProgramming/0368-largest-divisible-subset",
+      "readme": "DynamicProgramming/0368-largest-divisible-subset/README.md",
+      "solutions": [
+        "DynamicProgramming/0368-largest-divisible-subset/0368-largest-divisible-subset.cpp"
+      ]
+    },
+    {
+      "number": 378,
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "slug": "kth-smallest-element-in-a-sorted-matrix",
+      "folder": "Heaps/0378-kth-smallest-element-in-a-sorted-matrix",
+      "readme": "Heaps/0378-kth-smallest-element-in-a-sorted-matrix/README.md",
+      "solutions": [
+        "Heaps/0378-kth-smallest-element-in-a-sorted-matrix/0378-kth-smallest-element-in-a-sorted-matrix.cpp"
+      ]
+    },
+    {
+      "number": 387,
+      "title": "First Unique Character in a String",
+      "slug": "first-unique-character-in-a-string",
+      "folder": "Arrays/0387-first-unique-character-in-a-string",
+      "readme": "Arrays/0387-first-unique-character-in-a-string/README.md",
+      "solutions": [
+        "Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp"
+      ]
+    },
+    {
+      "number": 410,
+      "title": "Split Array Largest Sum",
+      "slug": "split-array-largest-sum",
+      "folder": "BinarySearch/0410-split-array-largest-sum",
+      "readme": "BinarySearch/0410-split-array-largest-sum/README.md",
+      "solutions": [
+        "BinarySearch/0410-split-array-largest-sum/0410-split-array-largest-sum.cpp"
+      ]
+    },
+    {
+      "number": 412,
+      "title": "Fizz Buzz",
+      "slug": "fizz-buzz",
+      "folder": "Math/0412-fizz-buzz",
+      "readme": "Math/0412-fizz-buzz/README.md",
+      "solutions": [
+        "Math/0412-fizz-buzz/0412-fizz-buzz.cpp"
+      ]
+    },
+    {
+      "number": 430,
+      "title": "Flatten a Multilevel Doubly Linked List",
+      "slug": "flatten-a-multilevel-doubly-linked-list",
+      "folder": "Linked-List/0430-flatten-a-multilevel-doubly-linked-list",
+      "readme": "Linked-List/0430-flatten-a-multilevel-doubly-linked-list/README.md",
+      "solutions": [
+        "Linked-List/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp"
+      ]
+    },
+    {
+      "number": 433,
+      "title": "Minimum Genetic Mutation",
+      "slug": "minimum-genetic-mutation",
+      "folder": "Graphs/0433-minimum-genetic-mutation",
+      "readme": "Graphs/0433-minimum-genetic-mutation/README.md",
+      "solutions": [
+        "Graphs/0433-minimum-genetic-mutation/0433-minimum-genetic-mutation.cpp"
+      ]
+    },
+    {
+      "number": 443,
+      "title": "String Compression",
+      "slug": "string-compression",
+      "folder": "Arrays/0443-string-compression",
+      "readme": "Arrays/0443-string-compression/README.md",
+      "solutions": [
+        "Arrays/0443-string-compression/0443-string-compression.cpp"
+      ]
+    },
+    {
+      "number": 450,
+      "title": "Delete Node in a BST",
+      "slug": "delete-node-in-a-bst",
+      "folder": "Trees/0450-delete-node-in-a-bst",
+      "readme": "Trees/0450-delete-node-in-a-bst/README.md",
+      "solutions": [
+        "Trees/0450-delete-node-in-a-bst/0450-delete-node-in-a-bst.cpp"
+      ]
+    },
+    {
+      "number": 493,
+      "title": "Reverse Pairs",
+      "slug": "reverse-pairs",
+      "folder": "Arrays/0493-reverse-pairs",
+      "readme": "Arrays/0493-reverse-pairs/README.md",
+      "solutions": [
+        "Arrays/0493-reverse-pairs/0493-reverse-pairs.cpp"
+      ]
+    },
+    {
+      "number": 494,
+      "title": "Target Sum",
+      "slug": "target-sum",
+      "folder": "Backtracking/0494-target-sum",
+      "readme": "Backtracking/0494-target-sum/README.md",
+      "solutions": [
+        "Backtracking/0494-target-sum/0494-target-sum.cpp"
+      ]
+    },
+    {
+      "number": 496,
+      "title": "Next Greater Element I",
+      "slug": "next-greater-element-i",
+      "folder": "Arrays/0496-next-greater-element-i",
+      "readme": "Arrays/0496-next-greater-element-i/README.md",
+      "solutions": [
+        "Arrays/0496-next-greater-element-i/0496-next-greater-element-i.cpp"
+      ]
+    },
+    {
+      "number": 503,
+      "title": "Next Greater Element II",
+      "slug": "next-greater-element-ii",
+      "folder": "Arrays/0503-next-greater-element-ii",
+      "readme": "Arrays/0503-next-greater-element-ii/README.md",
+      "solutions": [
+        "Arrays/0503-next-greater-element-ii/0503-next-greater-element-ii.cpp"
+      ]
+    },
+    {
+      "number": 509,
+      "title": "Fibonacci Number",
+      "slug": "fibonacci-number",
+      "folder": "DynamicProgramming/0509-fibonacci-number",
+      "readme": "DynamicProgramming/0509-fibonacci-number/README.md",
+      "solutions": [
+        "DynamicProgramming/0509-fibonacci-number/0509-fibonacci-number.cpp"
+      ]
+    },
+    {
+      "number": 513,
+      "title": "Find Bottom Left Tree Value",
+      "slug": "find-bottom-left-tree-value",
+      "folder": "Trees/0513-find-bottom-left-tree-value",
+      "readme": "Trees/0513-find-bottom-left-tree-value/README.md",
+      "solutions": [
+        "Trees/0513-find-bottom-left-tree-value/0513-find-bottom-left-tree-value.cpp"
+      ]
+    },
+    {
+      "number": 515,
+      "title": "Find Largest Value in Each Tree Row",
+      "slug": "find-largest-value-in-each-tree-row",
+      "folder": "Trees/0515-find-largest-value-in-each-tree-row",
+      "readme": "Trees/0515-find-largest-value-in-each-tree-row/README.md",
+      "solutions": [
+        "Trees/0515-find-largest-value-in-each-tree-row/0515-find-largest-value-in-each-tree-row.cpp"
+      ]
+    },
+    {
+      "number": 516,
+      "title": "Longest Palindromic Subsequence",
+      "slug": "longest-palindromic-subsequence",
+      "folder": "DynamicProgramming/0516-longest-palindromic-subsequence",
+      "readme": "DynamicProgramming/0516-longest-palindromic-subsequence/README.md",
+      "solutions": [
+        "DynamicProgramming/0516-longest-palindromic-subsequence/0516-longest-palindromic-subsequence.cpp"
+      ]
+    },
+    {
+      "number": 540,
+      "title": "Single Element in a Sorted Array",
+      "slug": "single-element-in-a-sorted-array",
+      "folder": "BinarySearch/0540-single-element-in-a-sorted-array",
+      "readme": "BinarySearch/0540-single-element-in-a-sorted-array/README.md",
+      "solutions": [
+        "BinarySearch/0540-single-element-in-a-sorted-array/0540-single-element-in-a-sorted-array.cpp"
+      ]
+    },
+    {
+      "number": 542,
+      "title": "01 Matrix",
+      "slug": "01-matrix",
+      "folder": "Graphs/0542-01-matrix",
+      "readme": "Graphs/0542-01-matrix/README.md",
+      "solutions": [
+        "Graphs/0542-01-matrix/0542-01-matrix.cpp"
+      ]
+    },
+    {
+      "number": 543,
+      "title": "Diameter of Binary Tree",
+      "slug": "diameter-of-binary-tree",
+      "folder": "Trees/0543-diameter-of-binary-tree",
+      "readme": "Trees/0543-diameter-of-binary-tree/README.md",
+      "solutions": [
+        "Trees/0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 547,
+      "title": "Number of Provinces",
+      "slug": "number-of-provinces",
+      "folder": "Graphs/0547-number-of-provinces",
+      "readme": "Graphs/0547-number-of-provinces/README.md",
+      "solutions": [
+        "Graphs/0547-number-of-provinces/0547-number-of-provinces.cpp"
+      ]
+    },
+    {
+      "number": 560,
+      "title": "Subarray Sum Equals K",
+      "slug": "subarray-sum-equals-k",
+      "folder": "Arrays/0560-subarray-sum-equals-k",
+      "readme": "Arrays/0560-subarray-sum-equals-k/README.md",
+      "solutions": [
+        "Arrays/0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.cpp"
+      ]
+    },
+    {
+      "number": 567,
+      "title": "Permutation in String",
+      "slug": "permutation-in-string",
+      "folder": "Arrays/0567-permutation-in-string",
+      "readme": "Arrays/0567-permutation-in-string/README.md",
+      "solutions": [
+        "Arrays/0567-permutation-in-string/0567-permutation-in-string.cpp"
+      ]
+    },
+    {
+      "number": 572,
+      "title": "Subtree of Another Tree",
+      "slug": "subtree-of-another-tree",
+      "folder": "Trees/0572-subtree-of-another-tree",
+      "readme": "Trees/0572-subtree-of-another-tree/README.md",
+      "solutions": [
+        "Trees/0572-subtree-of-another-tree/0572-subtree-of-another-tree.cpp"
+      ]
+    },
+    {
+      "number": 623,
+      "title": "Add One Row to Tree",
+      "slug": "add-one-row-to-tree",
+      "folder": "Trees/0623-add-one-row-to-tree",
+      "readme": "Trees/0623-add-one-row-to-tree/README.md",
+      "solutions": [
+        "Trees/0623-add-one-row-to-tree/0623-add-one-row-to-tree.cpp"
+      ]
+    },
+    {
+      "number": 646,
+      "title": "Maximum Length of Pair Chain",
+      "slug": "maximum-length-of-pair-chain",
+      "folder": "DynamicProgramming/0646-maximum-length-of-pair-chain",
+      "readme": "DynamicProgramming/0646-maximum-length-of-pair-chain/README.md",
+      "solutions": [
+        "DynamicProgramming/0646-maximum-length-of-pair-chain/0646-maximum-length-of-pair-chain.cpp"
+      ]
+    },
+    {
+      "number": 647,
+      "title": "Palindromic Substrings",
+      "slug": "palindromic-substrings",
+      "folder": "DynamicProgramming/0647-palindromic-substrings",
+      "readme": "DynamicProgramming/0647-palindromic-substrings/README.md",
+      "solutions": [
+        "DynamicProgramming/0647-palindromic-substrings/0647-palindromic-substrings.cpp"
+      ]
+    },
+    {
+      "number": 652,
+      "title": "Find Duplicate Subtrees",
+      "slug": "find-duplicate-subtrees",
+      "folder": "Trees/0652-find-duplicate-subtrees",
+      "readme": "Trees/0652-find-duplicate-subtrees/README.md",
+      "solutions": [
+        "Trees/0652-find-duplicate-subtrees/0652-find-duplicate-subtrees.cpp"
+      ]
+    },
+    {
+      "number": 662,
+      "title": "Maximum Width of Binary Tree",
+      "slug": "maximum-width-of-binary-tree",
+      "folder": "Trees/0662-maximum-width-of-binary-tree",
+      "readme": "Trees/0662-maximum-width-of-binary-tree/README.md",
+      "solutions": [
+        "Trees/0662-maximum-width-of-binary-tree/0662-maximum-width-of-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 684,
+      "title": "Redundant Connection",
+      "slug": "redundant-connection",
+      "folder": "Graphs/0684-redundant-connection",
+      "readme": "Graphs/0684-redundant-connection/README.md",
+      "solutions": [
+        "Graphs/0684-redundant-connection/0684-redundant-connection.cpp"
+      ]
+    },
+    {
+      "number": 703,
+      "title": "Kth Largest Element in a Stream",
+      "slug": "kth-largest-element-in-a-stream",
+      "folder": "Heaps/0703-kth-largest-element-in-a-stream",
+      "readme": "Heaps/0703-kth-largest-element-in-a-stream/README.md",
+      "solutions": [
+        "Heaps/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp"
+      ]
+    },
+    {
+      "number": 704,
+      "title": "Binary Search",
+      "slug": "binary-search",
+      "folder": "BinarySearch/0704-binary-search",
+      "readme": "BinarySearch/0704-binary-search/README.md",
+      "solutions": [
+        "BinarySearch/0704-binary-search/0704-binary-search.cpp"
+      ]
+    },
+    {
+      "number": 709,
+      "title": "To Lower Case",
+      "slug": "to-lower-case",
+      "folder": "Arrays/0709-to-lower-case",
+      "readme": "Arrays/0709-to-lower-case/README.md",
+      "solutions": [
+        "Arrays/0709-to-lower-case/0709-to-lower-case.cpp"
+      ]
+    },
+    {
+      "number": 733,
+      "title": "Flood Fill",
+      "slug": "flood-fill",
+      "folder": "Graphs/0733-flood-fill",
+      "readme": "Graphs/0733-flood-fill/README.md",
+      "solutions": [
+        "Graphs/0733-flood-fill/0733-flood-fill.cpp"
+      ]
+    },
+    {
+      "number": 743,
+      "title": "Network Delay Time",
+      "slug": "network-delay-time",
+      "folder": "Graphs/0743-network-delay-time",
+      "readme": "Graphs/0743-network-delay-time/README.md",
+      "solutions": [
+        "Graphs/0743-network-delay-time/0743-network-delay-time.cpp"
+      ]
+    },
+    {
+      "number": 771,
+      "title": "Jewels and Stones",
+      "slug": "jewels-and-stones",
+      "folder": "Arrays/0771-jewels-and-stones",
+      "readme": "Arrays/0771-jewels-and-stones/README.md",
+      "solutions": [
+        "Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp"
+      ]
+    },
+    {
+      "number": 783,
+      "title": "Minimum Distance Between BST Nodes",
+      "slug": "minimum-distance-between-bst-nodes",
+      "folder": "Trees/0783-minimum-distance-between-bst-nodes",
+      "readme": "Trees/0783-minimum-distance-between-bst-nodes/README.md",
+      "solutions": [
+        "Trees/0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp"
+      ]
+    },
+    {
+      "number": 785,
+      "title": "Is Graph Bipartite?",
+      "slug": "is-graph-bipartite",
+      "folder": "Graphs/0785-is-graph-bipartite",
+      "readme": "Graphs/0785-is-graph-bipartite/README.md",
+      "solutions": [
+        "Graphs/0785-is-graph-bipartite/0785-is-graph-bipartite.cpp"
+      ]
+    },
+    {
+      "number": 787,
+      "title": "Cheapest Flights Within K Stops",
+      "slug": "cheapest-flights-within-k-stops",
+      "folder": "Graphs/0787-cheapest-flights-within-k-stops",
+      "readme": "Graphs/0787-cheapest-flights-within-k-stops/README.md",
+      "solutions": [
+        "Graphs/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.cpp"
+      ]
+    },
+    {
+      "number": 797,
+      "title": "All Paths From Source to Target",
+      "slug": "all-paths-from-source-to-target",
+      "folder": "Graphs/0797-all-paths-from-source-to-target",
+      "readme": "Graphs/0797-all-paths-from-source-to-target/README.md",
+      "solutions": [
+        "Graphs/0797-all-paths-from-source-to-target/0797-all-paths-from-source-to-target.cpp"
+      ]
+    },
+    {
+      "number": 814,
+      "title": "Binary Tree Pruning",
+      "slug": "binary-tree-pruning",
+      "folder": "Trees/0814-binary-tree-pruning",
+      "readme": "Trees/0814-binary-tree-pruning/README.md",
+      "solutions": [
+        "Trees/0814-binary-tree-pruning/0814-binary-tree-pruning.cpp"
+      ]
+    },
+    {
+      "number": 841,
+      "title": "Keys and Rooms",
+      "slug": "keys-and-rooms",
+      "folder": "Graphs/0841-keys-and-rooms",
+      "readme": "Graphs/0841-keys-and-rooms/README.md",
+      "solutions": [
+        "Graphs/0841-keys-and-rooms/0841-keys-and-rooms-approach-2-dfs.cpp",
+        "Graphs/0841-keys-and-rooms/0841-keys-and-rooms.cpp"
+      ]
+    },
+    {
+      "number": 852,
+      "title": "Peak Index in a Mountain Array",
+      "slug": "peak-index-in-a-mountain-array",
+      "folder": "BinarySearch/0852-peak-index-in-a-mountain-array",
+      "readme": "BinarySearch/0852-peak-index-in-a-mountain-array/README.md",
+      "solutions": [
+        "BinarySearch/0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp"
+      ]
+    },
+    {
+      "number": 859,
+      "title": "Buddy Strings",
+      "slug": "buddy-strings",
+      "folder": "Arrays/0859-buddy-strings",
+      "readme": "Arrays/0859-buddy-strings/README.md",
+      "solutions": [
+        "Arrays/0859-buddy-strings/0859-buddy-strings.cpp"
+      ]
+    },
+    {
+      "number": 863,
+      "title": "All Nodes Distance K in Binary Tree",
+      "slug": "all-nodes-distance-k-in-binary-tree",
+      "folder": "Trees/0863-all-nodes-distance-k-in-binary-tree",
+      "readme": "Trees/0863-all-nodes-distance-k-in-binary-tree/README.md",
+      "solutions": [
+        "Trees/0863-all-nodes-distance-k-in-binary-tree/0863-all-nodes-distance-k-in-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 872,
+      "title": "Leaf-Similar Trees",
+      "slug": "leaf-similar-trees",
+      "folder": "Trees/0872-leaf-similar-trees",
+      "readme": "Trees/0872-leaf-similar-trees/README.md",
+      "solutions": [
+        "Trees/0872-leaf-similar-trees/0872-leaf-similar-trees.cpp"
+      ]
+    },
+    {
+      "number": 876,
+      "title": "Middle of the Linked List",
+      "slug": "middle-of-the-linked-list",
+      "folder": "Linked-List/0876-middle-of-the-linked-list",
+      "readme": "Linked-List/0876-middle-of-the-linked-list/README.md",
+      "solutions": [
+        "Linked-List/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp"
+      ]
+    },
+    {
+      "number": 886,
+      "title": "Possible Bipartition",
+      "slug": "possible-bipartition",
+      "folder": "Graphs/0886-possible-bipartition",
+      "readme": "Graphs/0886-possible-bipartition/README.md",
+      "solutions": [
+        "Graphs/0886-possible-bipartition/0886-possible-bipartition.cpp"
+      ]
+    },
+    {
+      "number": 901,
+      "title": "Online Stock Span",
+      "slug": "online-stock-span",
+      "folder": "Arrays/0901-online-stock-span",
+      "readme": "Arrays/0901-online-stock-span/README.md",
+      "solutions": [
+        "Arrays/0901-online-stock-span/0901-online-stock-span.cpp"
+      ]
+    },
+    {
+      "number": 912,
+      "title": "Sort an Array",
+      "slug": "sort-an-array",
+      "folder": "Heaps/0912-sort-an-array",
+      "readme": "Heaps/0912-sort-an-array/README.md",
+      "solutions": [
+        "Heaps/0912-sort-an-array/0912-sort-an-array.cpp"
+      ]
+    },
+    {
+      "number": 947,
+      "title": "Most Stones Removed with Same Row or Column",
+      "slug": "most-stones-removed-with-same-row-or-column",
+      "folder": "Graphs/0947-most-stones-removed-with-same-row-or-column",
+      "readme": "Graphs/0947-most-stones-removed-with-same-row-or-column/README.md",
+      "solutions": [
+        "Graphs/0947-most-stones-removed-with-same-row-or-column/0947-most-stones-removed-with-same-row-or-column.cpp"
+      ]
+    },
+    {
+      "number": 951,
+      "title": "Flip Equivalent Binary Trees",
+      "slug": "flip-equivalent-binary-trees",
+      "folder": "Trees/0951-flip-equivalent-binary-trees",
+      "readme": "Trees/0951-flip-equivalent-binary-trees/README.md",
+      "solutions": [
+        "Trees/0951-flip-equivalent-binary-trees/0951-flip-equivalent-binary-trees.cpp"
+      ]
+    },
+    {
+      "number": 958,
+      "title": "Check Completeness of a Binary Tree",
+      "slug": "check-completeness-of-a-binary-tree",
+      "folder": "Trees/0958-check-completeness-of-a-binary-tree",
+      "readme": "Trees/0958-check-completeness-of-a-binary-tree/README.md",
+      "solutions": [
+        "Trees/0958-check-completeness-of-a-binary-tree/0958-check-completeness-of-a-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 979,
+      "title": "Distribute Coins in Binary Tree",
+      "slug": "distribute-coins-in-binary-tree",
+      "folder": "Trees/0979-distribute-coins-in-binary-tree",
+      "readme": "Trees/0979-distribute-coins-in-binary-tree/README.md",
+      "solutions": [
+        "Trees/0979-distribute-coins-in-binary-tree/0979-distribute-coins-in-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 988,
+      "title": "Smallest String Starting From Leaf",
+      "slug": "smallest-string-starting-from-leaf",
+      "folder": "Trees/0988-smallest-string-starting-from-leaf",
+      "readme": "Trees/0988-smallest-string-starting-from-leaf/README.md",
+      "solutions": [
+        "Trees/0988-smallest-string-starting-from-leaf/0988-smallest-string-starting-from-leaf.cpp"
+      ]
+    },
+    {
+      "number": 990,
+      "title": "Satisfiability of Equality Equations",
+      "slug": "satisfiability-of-equality-equations",
+      "folder": "Graphs/0990-satisfiability-of-equality-equations",
+      "readme": "Graphs/0990-satisfiability-of-equality-equations/README.md",
+      "solutions": [
+        "Graphs/0990-satisfiability-of-equality-equations/0990-satisfiability-of-equality-equations.cpp"
+      ]
+    },
+    {
+      "number": 994,
+      "title": "Rotting Oranges",
+      "slug": "rotting-oranges",
+      "folder": "Graphs/0994-rotting-oranges",
+      "readme": "Graphs/0994-rotting-oranges/README.md",
+      "solutions": [
+        "Graphs/0994-rotting-oranges/0994-rotting-oranges.cpp"
+      ]
+    },
+    {
+      "number": 1008,
+      "title": "Construct Binary Search Tree from Preorder Traversal",
+      "slug": "construct-binary-search-tree-from-preorder-traversal",
+      "folder": "Trees/1008-construct-binary-search-tree-from-preorder-traversal",
+      "readme": "Trees/1008-construct-binary-search-tree-from-preorder-traversal/README.md",
+      "solutions": [
+        "Trees/1008-construct-binary-search-tree-from-preorder-traversal/1008-construct-binary-search-tree-from-preorder-traversal.cpp"
+      ]
+    },
+    {
+      "number": 1026,
+      "title": "Maximum Difference Between Node and Ancestor",
+      "slug": "maximum-difference-between-node-and-ancestor",
+      "folder": "Trees/1026-maximum-difference-between-node-and-ancestor",
+      "readme": "Trees/1026-maximum-difference-between-node-and-ancestor/README.md",
+      "solutions": [
+        "Trees/1026-maximum-difference-between-node-and-ancestor/1026-maximum-difference-between-node-and-ancestor-approach-2-optimal.cpp",
+        "Trees/1026-maximum-difference-between-node-and-ancestor/1026-maximum-difference-between-node-and-ancestor.cpp"
+      ]
+    },
+    {
+      "number": 1038,
+      "title": "Binary Search Tree to Greater Sum Tree",
+      "slug": "binary-search-tree-to-greater-sum-tree",
+      "folder": "Trees/1038-binary-search-tree-to-greater-sum-tree",
+      "readme": "Trees/1038-binary-search-tree-to-greater-sum-tree/README.md",
+      "solutions": [
+        "Trees/1038-binary-search-tree-to-greater-sum-tree/1038-binary-search-tree-to-greater-sum-tree.cpp"
+      ]
+    },
+    {
+      "number": 1048,
+      "title": "Longest String Chain",
+      "slug": "longest-string-chain",
+      "folder": "DynamicProgramming/1048-longest-string-chain",
+      "readme": "DynamicProgramming/1048-longest-string-chain/README.md",
+      "solutions": [
+        "DynamicProgramming/1048-longest-string-chain/1048-longest-string-chain.cpp"
+      ]
+    },
+    {
+      "number": 1061,
+      "title": "Lexicographically Smallest Equivalent String",
+      "slug": "lexicographically-smallest-equivalent-string",
+      "folder": "Graphs/1061-lexicographically-smallest-equivalent-string",
+      "readme": "Graphs/1061-lexicographically-smallest-equivalent-string/README.md",
+      "solutions": [
+        "Graphs/1061-lexicographically-smallest-equivalent-string/1061-lexicographically-smallest-equivalent-string.cpp"
+      ]
+    },
+    {
+      "number": 1091,
+      "title": "Shortest Path in Binary Matrix",
+      "slug": "shortest-path-in-binary-matrix",
+      "folder": "Graphs/1091-shortest-path-in-binary-matrix",
+      "readme": "Graphs/1091-shortest-path-in-binary-matrix/README.md",
+      "solutions": [
+        "Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix-approach-2-dijkstras-algorithm.cpp",
+        "Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix.cpp"
+      ]
+    },
+    {
+      "number": 1092,
+      "title": "Shortest Common Supersequence",
+      "slug": "shortest-common-supersequence",
+      "folder": "DynamicProgramming/1092-shortest-common-supersequence",
+      "readme": "DynamicProgramming/1092-shortest-common-supersequence/README.md",
+      "solutions": [
+        "DynamicProgramming/1092-shortest-common-supersequence/1092-shortest-common-supersequence.cpp"
+      ]
+    },
+    {
+      "number": 1108,
+      "title": "Defanging an IP Address",
+      "slug": "defanging-an-ip-address",
+      "folder": "Arrays/1108-defanging-an-ip-address",
+      "readme": "Arrays/1108-defanging-an-ip-address/README.md",
+      "solutions": [
+        "Arrays/1108-defanging-an-ip-address/1108-defanging-an-ip-address.cpp"
+      ]
+    },
+    {
+      "number": 1110,
+      "title": "Delete Nodes And Return Forest",
+      "slug": "delete-nodes-and-return-forest",
+      "folder": "Trees/1110-delete-nodes-and-return-forest",
+      "readme": "Trees/1110-delete-nodes-and-return-forest/README.md",
+      "solutions": [
+        "Trees/1110-delete-nodes-and-return-forest/1110-delete-nodes-and-return-forest.cpp"
+      ]
+    },
+    {
+      "number": 1143,
+      "title": "Longest Common Subsequence",
+      "slug": "longest-common-subsequence",
+      "folder": "DynamicProgramming/1143-longest-common-subsequence",
+      "readme": "DynamicProgramming/1143-longest-common-subsequence/README.md",
+      "solutions": [
+        "DynamicProgramming/1143-longest-common-subsequence/1143-longest-common-subsequence.cpp"
+      ]
+    },
+    {
+      "number": 1161,
+      "title": "Maximum Level Sum of a Binary Tree",
+      "slug": "maximum-level-sum-of-a-binary-tree",
+      "folder": "Trees/1161-maximum-level-sum-of-a-binary-tree",
+      "readme": "Trees/1161-maximum-level-sum-of-a-binary-tree/README.md",
+      "solutions": [
+        "Trees/1161-maximum-level-sum-of-a-binary-tree/1161-maximum-level-sum-of-a-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 1239,
+      "title": "Maximum Length of a Concatenated String with Unique Characters",
+      "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+      "folder": "Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters",
+      "readme": "Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/README.md",
+      "solutions": [
+        "Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp"
+      ]
+    },
+    {
+      "number": 1261,
+      "title": "Find Elements in a Contaminated Binary Tree",
+      "slug": "find-elements-in-a-contaminated-binary-tree",
+      "folder": "Trees/1261-find-elements-in-a-contaminated-binary-tree",
+      "readme": "Trees/1261-find-elements-in-a-contaminated-binary-tree/README.md",
+      "solutions": [
+        "Trees/1261-find-elements-in-a-contaminated-binary-tree/1261-find-elements-in-a-contaminated-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 1281,
+      "title": "Subtract the Product and Sum of Digits of an Integer",
+      "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+      "folder": "Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer",
+      "readme": "Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer/README.md",
+      "solutions": [
+        "Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer/1281-subtract-the-product-and-sum-of-digits-of-an-integer.cpp"
+      ]
+    },
+    {
+      "number": 1295,
+      "title": "Find Numbers with Even Number of Digits",
+      "slug": "find-numbers-with-even-number-of-digits",
+      "folder": "Math/1295-find-numbers-with-even-number-of-digits",
+      "readme": "Math/1295-find-numbers-with-even-number-of-digits/README.md",
+      "solutions": [
+        "Math/1295-find-numbers-with-even-number-of-digits/1295-find-numbers-with-even-number-of-digits.cpp"
+      ]
+    },
+    {
+      "number": 1312,
+      "title": "Minimum Insertion Steps to Make a String Palindrome",
+      "slug": "minimum-insertion-steps-to-make-a-string-palindrome",
+      "folder": "DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome",
+      "readme": "DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/README.md",
+      "solutions": [
+        "DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/1312-minimum-insertion-steps-to-make-a-string-palindrome.cpp"
+      ]
+    },
+    {
+      "number": 1319,
+      "title": "Number of Operations to Make Network Connected",
+      "slug": "number-of-operations-to-make-network-connected",
+      "folder": "Graphs/1319-number-of-operations-to-make-network-connected",
+      "readme": "Graphs/1319-number-of-operations-to-make-network-connected/README.md",
+      "solutions": [
+        "Graphs/1319-number-of-operations-to-make-network-connected/1319-number-of-operations-to-make-network-connected.cpp"
+      ]
+    },
+    {
+      "number": 1325,
+      "title": "Delete Leaves With a Given Value",
+      "slug": "delete-leaves-with-a-given-value",
+      "folder": "Trees/1325-delete-leaves-with-a-given-value",
+      "readme": "Trees/1325-delete-leaves-with-a-given-value/README.md",
+      "solutions": [
+        "Trees/1325-delete-leaves-with-a-given-value/1325-delete-leaves-with-a-given-value.cpp"
+      ]
+    },
+    {
+      "number": 1334,
+      "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+      "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "folder": "Graphs/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "readme": "Graphs/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/README.md",
+      "solutions": [
+        "Graphs/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.cpp"
+      ]
+    },
+    {
+      "number": 1335,
+      "title": "Minimum Difficulty of a Job Schedule",
+      "slug": "minimum-difficulty-of-a-job-schedule",
+      "folder": "DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule",
+      "readme": "DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/README.md",
+      "solutions": [
+        "DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/1335-minimum-difficulty-of-a-job-schedule.cpp"
+      ]
+    },
+    {
+      "number": 1339,
+      "title": "Maximum Product of Splitted Binary Tree",
+      "slug": "maximum-product-of-splitted-binary-tree",
+      "folder": "Trees/1339-maximum-product-of-splitted-binary-tree",
+      "readme": "Trees/1339-maximum-product-of-splitted-binary-tree/README.md",
+      "solutions": [
+        "Trees/1339-maximum-product-of-splitted-binary-tree/1339-maximum-product-of-splitted-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 1342,
+      "title": "Number of Steps to Reduce a Number to Zero",
+      "slug": "number-of-steps-to-reduce-a-number-to-zero",
+      "folder": "BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero",
+      "readme": "BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/README.md",
+      "solutions": [
+        "BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp"
+      ]
+    },
+    {
+      "number": 1361,
+      "title": "Validate Binary Tree Nodes",
+      "slug": "validate-binary-tree-nodes",
+      "folder": "Trees/1361-validate-binary-tree-nodes",
+      "readme": "Trees/1361-validate-binary-tree-nodes/README.md",
+      "solutions": [
+        "Trees/1361-validate-binary-tree-nodes/1361-validate-binary-tree-nodes.cpp"
+      ]
+    },
+    {
+      "number": 1365,
+      "title": "How Many Numbers Are Smaller Than the Current Number",
+      "slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "folder": "Arrays/1365-how-many-numbers-are-smaller-than-the-current-number",
+      "readme": "Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/README.md",
+      "solutions": [
+        "Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp"
+      ]
+    },
+    {
+      "number": 1367,
+      "title": "Linked List in Binary Tree",
+      "slug": "linked-list-in-binary-tree",
+      "folder": "Trees/1367-linked-list-in-binary-tree",
+      "readme": "Trees/1367-linked-list-in-binary-tree/README.md",
+      "solutions": [
+        "Trees/1367-linked-list-in-binary-tree/1367-linked-list-in-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 1392,
+      "title": "Longest Happy Prefix",
+      "slug": "longest-happy-prefix",
+      "folder": "Arrays/1392-longest-happy-prefix",
+      "readme": "Arrays/1392-longest-happy-prefix/README.md",
+      "solutions": [
+        "Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp"
+      ]
+    },
+    {
+      "number": 1420,
+      "title": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+      "slug": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+      "folder": "DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+      "readme": "DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/README.md",
+      "solutions": [
+        "DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons.cpp"
+      ]
+    },
+    {
+      "number": 1431,
+      "title": "Kids With the Greatest Number of Candies",
+      "slug": "kids-with-the-greatest-number-of-candies",
+      "folder": "Arrays/1431-kids-with-the-greatest-number-of-candies",
+      "readme": "Arrays/1431-kids-with-the-greatest-number-of-candies/README.md",
+      "solutions": [
+        "Arrays/1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.cpp"
+      ]
+    },
+    {
+      "number": 1443,
+      "title": "Minimum Time to Collect All Apples in a Tree",
+      "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+      "folder": "Trees/1443-minimum-time-to-collect-all-apples-in-a-tree",
+      "readme": "Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/README.md",
+      "solutions": [
+        "Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/1443-minimum-time-to-collect-all-apples-in-a-tree.cpp"
+      ]
+    },
+    {
+      "number": 1457,
+      "title": "Pseudo-Palindromic Paths in a Binary Tree",
+      "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+      "folder": "Trees/1457-pseudo-palindromic-paths-in-a-binary-tree",
+      "readme": "Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/README.md",
+      "solutions": [
+        "Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/1457-pseudo-palindromic-paths-in-a-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 1470,
+      "title": "Shuffle the Array",
+      "slug": "shuffle-the-array",
+      "folder": "Arrays/1470-shuffle-the-array",
+      "readme": "Arrays/1470-shuffle-the-array/README.md",
+      "solutions": [
+        "Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp"
+      ]
+    },
+    {
+      "number": 1475,
+      "title": "Final Prices With a Special Discount in a Shop",
+      "slug": "final-prices-with-a-special-discount-in-a-shop",
+      "folder": "Arrays/1475-final-prices-with-a-special-discount-in-a-shop",
+      "readme": "Arrays/1475-final-prices-with-a-special-discount-in-a-shop/README.md",
+      "solutions": [
+        "Arrays/1475-final-prices-with-a-special-discount-in-a-shop/1475-final-prices-with-a-special-discount-in-a-shop.cpp"
+      ]
+    },
+    {
+      "number": 1480,
+      "title": "Running Sum of 1d Array",
+      "slug": "running-sum-of-1d-array",
+      "folder": "Arrays/1480-running-sum-of-1d-array",
+      "readme": "Arrays/1480-running-sum-of-1d-array/README.md",
+      "solutions": [
+        "Arrays/1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.cpp"
+      ]
+    },
+    {
+      "number": 1486,
+      "title": "XOR Operation in an Array",
+      "slug": "xor-operation-in-an-array",
+      "folder": "BitManipulation/1486-xor-operation-in-an-array",
+      "readme": "BitManipulation/1486-xor-operation-in-an-array/README.md",
+      "solutions": [
+        "BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array-approach-2-optimal-approach.cpp",
+        "BitManipulation/1486-xor-operation-in-an-array/1486-xor-operation-in-an-array.cpp"
+      ]
+    },
+    {
+      "number": 1512,
+      "title": "Number of Good Pairs",
+      "slug": "number-of-good-pairs",
+      "folder": "Math/1512-number-of-good-pairs",
+      "readme": "Math/1512-number-of-good-pairs/README.md",
+      "solutions": [
+        "Math/1512-number-of-good-pairs/1512-number-of-good-pairs.cpp"
+      ]
+    },
+    {
+      "number": 1519,
+      "title": "Number of Nodes in the Sub-Tree With the Same Label",
+      "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+      "folder": "Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label",
+      "readme": "Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/README.md",
+      "solutions": [
+        "Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/1519-number-of-nodes-in-the-sub-tree-with-the-same-label.cpp"
+      ]
+    },
+    {
+      "number": 1523,
+      "title": "Count Odd Numbers in an Interval Range",
+      "slug": "count-odd-numbers-in-an-interval-range",
+      "folder": "Math/1523-count-odd-numbers-in-an-interval-range",
+      "readme": "Math/1523-count-odd-numbers-in-an-interval-range/README.md",
+      "solutions": [
+        "Math/1523-count-odd-numbers-in-an-interval-range/1523-count-odd-numbers-in-an-interval-range.cpp"
+      ]
+    },
+    {
+      "number": 1528,
+      "title": "Shuffle String",
+      "slug": "shuffle-string",
+      "folder": "Arrays/1528-shuffle-string",
+      "readme": "Arrays/1528-shuffle-string/README.md",
+      "solutions": [
+        "Arrays/1528-shuffle-string/1528-shuffle-string.cpp"
+      ]
+    },
+    {
+      "number": 1530,
+      "title": "Number of Good Leaf Nodes Pairs",
+      "slug": "number-of-good-leaf-nodes-pairs",
+      "folder": "Trees/1530-number-of-good-leaf-nodes-pairs",
+      "readme": "Trees/1530-number-of-good-leaf-nodes-pairs/README.md",
+      "solutions": [
+        "Trees/1530-number-of-good-leaf-nodes-pairs/1530-number-of-good-leaf-nodes-pairs.cpp"
+      ]
+    },
+    {
+      "number": 1547,
+      "title": "Minimum Cost to Cut a Stick",
+      "slug": "minimum-cost-to-cut-a-stick",
+      "folder": "DynamicProgramming/1547-minimum-cost-to-cut-a-stick",
+      "readme": "DynamicProgramming/1547-minimum-cost-to-cut-a-stick/README.md",
+      "solutions": [
+        "DynamicProgramming/1547-minimum-cost-to-cut-a-stick/1547-minimum-cost-to-cut-a-stick.cpp"
+      ]
+    },
+    {
+      "number": 1569,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "folder": "Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst",
+      "readme": "Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/README.md",
+      "solutions": [
+        "Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/1569-number-of-ways-to-reorder-array-to-get-same-bst.cpp"
+      ]
+    },
+    {
+      "number": 1572,
+      "title": "Matrix Diagonal Sum",
+      "slug": "matrix-diagonal-sum",
+      "folder": "Arrays/1572-matrix-diagonal-sum",
+      "readme": "Arrays/1572-matrix-diagonal-sum/README.md",
+      "solutions": [
+        "Arrays/1572-matrix-diagonal-sum/1572-matrix-diagonal-sum.cpp"
+      ]
+    },
+    {
+      "number": 1584,
+      "title": "Min Cost to Connect All Points",
+      "slug": "min-cost-to-connect-all-points",
+      "folder": "Graphs/1584-min-cost-to-connect-all-points",
+      "readme": "Graphs/1584-min-cost-to-connect-all-points/README.md",
+      "solutions": [
+        "Graphs/1584-min-cost-to-connect-all-points/1584-min-cost-to-connect-all-points.cpp"
+      ]
+    },
+    {
+      "number": 1594,
+      "title": "Maximum Non Negative Product in a Matrix",
+      "slug": "maximum-non-negative-product-in-a-matrix",
+      "folder": "DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix",
+      "readme": "DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/README.md",
+      "solutions": [
+        "DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/1594-maximum-non-negative-product-in-a-matrix.cpp"
+      ]
+    },
+    {
+      "number": 1609,
+      "title": "Even Odd Tree",
+      "slug": "even-odd-tree",
+      "folder": "Trees/1609-even-odd-tree",
+      "readme": "Trees/1609-even-odd-tree/README.md",
+      "solutions": [
+        "Trees/1609-even-odd-tree/1609-even-odd-tree.cpp"
+      ]
+    },
+    {
+      "number": 1631,
+      "title": "Path With Minimum Effort",
+      "slug": "path-with-minimum-effort",
+      "folder": "Graphs/1631-path-with-minimum-effort",
+      "readme": "Graphs/1631-path-with-minimum-effort/README.md",
+      "solutions": [
+        "Graphs/1631-path-with-minimum-effort/1631-path-with-minimum-effort-approach-2.cpp",
+        "Graphs/1631-path-with-minimum-effort/1631-path-with-minimum-effort-approach-3-dijkstras-algorithm.cpp",
+        "Graphs/1631-path-with-minimum-effort/1631-path-with-minimum-effort.cpp"
+      ]
+    },
+    {
+      "number": 1662,
+      "title": "Check If Two String Arrays are Equivalent",
+      "slug": "check-if-two-string-arrays-are-equivalent",
+      "folder": "Arrays/1662-check-if-two-string-arrays-are-equivalent",
+      "readme": "Arrays/1662-check-if-two-string-arrays-are-equivalent/README.md",
+      "solutions": [
+        "Arrays/1662-check-if-two-string-arrays-are-equivalent/1662-check-if-two-string-arrays-are-equivalent.cpp"
+      ]
+    },
+    {
+      "number": 1672,
+      "title": "Richest Customer Wealth",
+      "slug": "richest-customer-wealth",
+      "folder": "Arrays/1672-richest-customer-wealth",
+      "readme": "Arrays/1672-richest-customer-wealth/README.md",
+      "solutions": [
+        "Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth-approach-2-2d-array-traversal.cpp",
+        "Arrays/1672-richest-customer-wealth/1672-richest-customer-wealth.cpp"
+      ]
+    },
+    {
+      "number": 1678,
+      "title": "Goal Parser Interpretation",
+      "slug": "goal-parser-interpretation",
+      "folder": "Arrays/1678-goal-parser-interpretation",
+      "readme": "Arrays/1678-goal-parser-interpretation/README.md",
+      "solutions": [
+        "Arrays/1678-goal-parser-interpretation/1678-goal-parser-interpretation.cpp"
+      ]
+    },
+    {
+      "number": 1688,
+      "title": "Count of Matches in Tournament",
+      "slug": "count-of-matches-in-tournament",
+      "folder": "Math/1688-count-of-matches-in-tournament",
+      "readme": "Math/1688-count-of-matches-in-tournament/README.md",
+      "solutions": [
+        "Math/1688-count-of-matches-in-tournament/1688-count-of-matches-in-tournament.cpp"
+      ]
+    },
+    {
+      "number": 1716,
+      "title": "Calculate Money in Leetcode Bank",
+      "slug": "calculate-money-in-leetcode-bank",
+      "folder": "Math/1716-calculate-money-in-leetcode-bank",
+      "readme": "Math/1716-calculate-money-in-leetcode-bank/README.md",
+      "solutions": [
+        "Math/1716-calculate-money-in-leetcode-bank/1716-calculate-money-in-leetcode-bank.cpp"
+      ]
+    },
+    {
+      "number": 1768,
+      "title": "Merge Strings Alternately",
+      "slug": "merge-strings-alternately",
+      "folder": "Arrays/1768-merge-strings-alternately",
+      "readme": "Arrays/1768-merge-strings-alternately/README.md",
+      "solutions": [
+        "Arrays/1768-merge-strings-alternately/1768-merge-strings-alternately.cpp"
+      ]
+    },
+    {
+      "number": 1816,
+      "title": "Truncate Sentence",
+      "slug": "truncate-sentence",
+      "folder": "Arrays/1816-truncate-sentence",
+      "readme": "Arrays/1816-truncate-sentence/README.md",
+      "solutions": [
+        "Arrays/1816-truncate-sentence/1816-truncate-sentence.cpp"
+      ]
+    },
+    {
+      "number": 1859,
+      "title": "Sorting the Sentence",
+      "slug": "sorting-the-sentence",
+      "folder": "Arrays/1859-sorting-the-sentence",
+      "readme": "Arrays/1859-sorting-the-sentence/README.md",
+      "solutions": [
+        "Arrays/1859-sorting-the-sentence/1859-sorting-the-sentence.cpp"
+      ]
+    },
+    {
+      "number": 1910,
+      "title": "Remove All Occurrences of a Substring",
+      "slug": "remove-all-occurrences-of-a-substring",
+      "folder": "Arrays/1910-remove-all-occurrences-of-a-substring",
+      "readme": "Arrays/1910-remove-all-occurrences-of-a-substring/README.md",
+      "solutions": [
+        "Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp"
+      ]
+    },
+    {
+      "number": 1911,
+      "title": "Maximum Alternating Subsequence Sum",
+      "slug": "maximum-alternating-subsequence-sum",
+      "folder": "DynamicProgramming/1911-maximum-alternating-subsequence-sum",
+      "readme": "DynamicProgramming/1911-maximum-alternating-subsequence-sum/README.md",
+      "solutions": [
+        "DynamicProgramming/1911-maximum-alternating-subsequence-sum/1911-maximum-alternating-subsequence-sum.cpp"
+      ]
+    },
+    {
+      "number": 1920,
+      "title": "Build Array from Permutation",
+      "slug": "build-array-from-permutation",
+      "folder": "Arrays/1920-build-array-from-permutation",
+      "readme": "Arrays/1920-build-array-from-permutation/README.md",
+      "solutions": [
+        "Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp"
+      ]
+    },
+    {
+      "number": 1925,
+      "title": "Count Square Sum Triples",
+      "slug": "count-square-sum-triples",
+      "folder": "Math/1925-count-square-sum-triples",
+      "readme": "Math/1925-count-square-sum-triples/README.md",
+      "solutions": [
+        "Math/1925-count-square-sum-triples/1925-count-square-sum-triples.cpp"
+      ]
+    },
+    {
+      "number": 1926,
+      "title": "Nearest Exit from Entrance in Maze",
+      "slug": "nearest-exit-from-entrance-in-maze",
+      "folder": "Graphs/1926-nearest-exit-from-entrance-in-maze",
+      "readme": "Graphs/1926-nearest-exit-from-entrance-in-maze/README.md",
+      "solutions": [
+        "Graphs/1926-nearest-exit-from-entrance-in-maze/1926-nearest-exit-from-entrance-in-maze.cpp"
+      ]
+    },
+    {
+      "number": 1932,
+      "title": "Merge BSTs to Create Single BST",
+      "slug": "merge-bsts-to-create-single-bst",
+      "folder": "Trees/1932-merge-bsts-to-create-single-bst",
+      "readme": "Trees/1932-merge-bsts-to-create-single-bst/README.md",
+      "solutions": [
+        "Trees/1932-merge-bsts-to-create-single-bst/1932-merge-bsts-to-create-single-bst.cpp"
+      ]
+    },
+    {
+      "number": 1971,
+      "title": "Find if Path Exists in Graph",
+      "slug": "find-if-path-exists-in-graph",
+      "folder": "Graphs/1971-find-if-path-exists-in-graph",
+      "readme": "Graphs/1971-find-if-path-exists-in-graph/README.md",
+      "solutions": [
+        "Graphs/1971-find-if-path-exists-in-graph/1971-find-if-path-exists-in-graph.cpp"
+      ]
+    },
+    {
+      "number": 1976,
+      "title": "Number of Ways to Arrive at Destination",
+      "slug": "number-of-ways-to-arrive-at-destination",
+      "folder": "Graphs/1976-number-of-ways-to-arrive-at-destination",
+      "readme": "Graphs/1976-number-of-ways-to-arrive-at-destination/README.md",
+      "solutions": [
+        "Graphs/1976-number-of-ways-to-arrive-at-destination/1976-number-of-ways-to-arrive-at-destination.cpp"
+      ]
+    },
+    {
+      "number": 2000,
+      "title": "Reverse Prefix of Word",
+      "slug": "reverse-prefix-of-word",
+      "folder": "Arrays/2000-reverse-prefix-of-word",
+      "readme": "Arrays/2000-reverse-prefix-of-word/README.md",
+      "solutions": [
+        "Arrays/2000-reverse-prefix-of-word/2000-reverse-prefix-of-word.cpp"
+      ]
+    },
+    {
+      "number": 2011,
+      "title": "Final Value of Variable After Performing Operations",
+      "slug": "final-value-of-variable-after-performing-operations",
+      "folder": "Arrays/2011-final-value-of-variable-after-performing-operations",
+      "readme": "Arrays/2011-final-value-of-variable-after-performing-operations/README.md",
+      "solutions": [
+        "Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp"
+      ]
+    },
+    {
+      "number": 2035,
+      "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+      "folder": "DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference",
+      "readme": "DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/README.md",
+      "solutions": [
+        "DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/2035-partition-array-into-two-arrays-to-minimize-sum-difference.cpp"
+      ]
+    },
+    {
+      "number": 2057,
+      "title": "Smallest Index With Equal Value",
+      "slug": "smallest-index-with-equal-value",
+      "folder": "Arrays/2057-smallest-index-with-equal-value",
+      "readme": "Arrays/2057-smallest-index-with-equal-value/README.md",
+      "solutions": [
+        "Arrays/2057-smallest-index-with-equal-value/2057-smallest-index-with-equal-value.cpp"
+      ]
+    },
+    {
+      "number": 2064,
+      "title": "Minimized Maximum of Products Distributed to Any Store",
+      "slug": "minimized-maximum-of-products-distributed-to-any-store",
+      "folder": "BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store",
+      "readme": "BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/README.md",
+      "solutions": [
+        "BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/2064-minimized-maximum-of-products-distributed-to-any-store.cpp"
+      ]
+    },
+    {
+      "number": 2073,
+      "title": "Time Needed to Buy Tickets",
+      "slug": "time-needed-to-buy-tickets",
+      "folder": "Arrays/2073-time-needed-to-buy-tickets",
+      "readme": "Arrays/2073-time-needed-to-buy-tickets/README.md",
+      "solutions": [
+        "Arrays/2073-time-needed-to-buy-tickets/2073-time-needed-to-buy-tickets.cpp"
+      ]
+    },
+    {
+      "number": 2089,
+      "title": "Find Target Indices After Sorting Array",
+      "slug": "find-target-indices-after-sorting-array",
+      "folder": "BinarySearch/2089-find-target-indices-after-sorting-array",
+      "readme": "BinarySearch/2089-find-target-indices-after-sorting-array/README.md",
+      "solutions": [
+        "BinarySearch/2089-find-target-indices-after-sorting-array/2089-find-target-indices-after-sorting-array.cpp"
+      ]
+    },
+    {
+      "number": 2096,
+      "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+      "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+      "folder": "Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another",
+      "readme": "Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/README.md",
+      "solutions": [
+        "Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/2096-step-by-step-directions-from-a-binary-tree-node-to-another.cpp"
+      ]
+    },
+    {
+      "number": 2114,
+      "title": "Maximum Number of Words Found in Sentences",
+      "slug": "maximum-number-of-words-found-in-sentences",
+      "folder": "Arrays/2114-maximum-number-of-words-found-in-sentences",
+      "readme": "Arrays/2114-maximum-number-of-words-found-in-sentences/README.md",
+      "solutions": [
+        "Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp"
+      ]
+    },
+    {
+      "number": 2119,
+      "title": "A Number After a Double Reversal",
+      "slug": "a-number-after-a-double-reversal",
+      "folder": "Math/2119-a-number-after-a-double-reversal",
+      "readme": "Math/2119-a-number-after-a-double-reversal/README.md",
+      "solutions": [
+        "Math/2119-a-number-after-a-double-reversal/2119-a-number-after-a-double-reversal.cpp"
+      ]
+    },
+    {
+      "number": 2185,
+      "title": "Counting Words With a Given Prefix",
+      "slug": "counting-words-with-a-given-prefix",
+      "folder": "Arrays/2185-counting-words-with-a-given-prefix",
+      "readme": "Arrays/2185-counting-words-with-a-given-prefix/README.md",
+      "solutions": [
+        "Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp"
+      ]
+    },
+    {
+      "number": 2196,
+      "title": "Create Binary Tree From Descriptions",
+      "slug": "create-binary-tree-from-descriptions",
+      "folder": "Trees/2196-create-binary-tree-from-descriptions",
+      "readme": "Trees/2196-create-binary-tree-from-descriptions/README.md",
+      "solutions": [
+        "Trees/2196-create-binary-tree-from-descriptions/2196-create-binary-tree-from-descriptions.cpp"
+      ]
+    },
+    {
+      "number": 2235,
+      "title": "Add Two Integers",
+      "slug": "add-two-integers",
+      "folder": "Math/2235-add-two-integers",
+      "readme": "Math/2235-add-two-integers/README.md",
+      "solutions": [
+        "Math/2235-add-two-integers/2235-add-two-integers.cpp"
+      ]
+    },
+    {
+      "number": 2246,
+      "title": "Longest Path With Different Adjacent Characters",
+      "slug": "longest-path-with-different-adjacent-characters",
+      "folder": "Trees/2246-longest-path-with-different-adjacent-characters",
+      "readme": "Trees/2246-longest-path-with-different-adjacent-characters/README.md",
+      "solutions": [
+        "Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp"
+      ]
+    },
+    {
+      "number": 2265,
+      "title": "Count Nodes Equal to Average of Subtree",
+      "slug": "count-nodes-equal-to-average-of-subtree",
+      "folder": "Trees/2265-count-nodes-equal-to-average-of-subtree",
+      "readme": "Trees/2265-count-nodes-equal-to-average-of-subtree/README.md",
+      "solutions": [
+        "Trees/2265-count-nodes-equal-to-average-of-subtree/2265-count-nodes-equal-to-average-of-subtree.cpp"
+      ]
+    },
+    {
+      "number": 2316,
+      "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+      "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+      "folder": "Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+      "readme": "Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/README.md",
+      "solutions": [
+        "Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.cpp"
+      ]
+    },
+    {
+      "number": 2359,
+      "title": "Find Closest Node to Given Two Nodes",
+      "slug": "find-closest-node-to-given-two-nodes",
+      "folder": "Graphs/2359-find-closest-node-to-given-two-nodes",
+      "readme": "Graphs/2359-find-closest-node-to-given-two-nodes/README.md",
+      "solutions": [
+        "Graphs/2359-find-closest-node-to-given-two-nodes/2359-find-closest-node-to-given-two-nodes.cpp"
+      ]
+    },
+    {
+      "number": 2385,
+      "title": "Amount of Time for Binary Tree to Be Infected",
+      "slug": "amount-of-time-for-binary-tree-to-be-infected",
+      "folder": "Trees/2385-amount-of-time-for-binary-tree-to-be-infected",
+      "readme": "Trees/2385-amount-of-time-for-binary-tree-to-be-infected/README.md",
+      "solutions": [
+        "Trees/2385-amount-of-time-for-binary-tree-to-be-infected/2385-amount-of-time-for-binary-tree-to-be-infected.cpp"
+      ]
+    },
+    {
+      "number": 2415,
+      "title": "Reverse Odd Levels of Binary Tree",
+      "slug": "reverse-odd-levels-of-binary-tree",
+      "folder": "Trees/2415-reverse-odd-levels-of-binary-tree",
+      "readme": "Trees/2415-reverse-odd-levels-of-binary-tree/README.md",
+      "solutions": [
+        "Trees/2415-reverse-odd-levels-of-binary-tree/2415-reverse-odd-levels-of-binary-tree.cpp"
+      ]
+    },
+    {
+      "number": 2421,
+      "title": "Number of Good Paths",
+      "slug": "number-of-good-paths",
+      "folder": "Graphs/2421-number-of-good-paths",
+      "readme": "Graphs/2421-number-of-good-paths/README.md",
+      "solutions": [
+        "Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp"
+      ]
+    },
+    {
+      "number": 2458,
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "slug": "height-of-binary-tree-after-subtree-removal-queries",
+      "folder": "Trees/2458-height-of-binary-tree-after-subtree-removal-queries",
+      "readme": "Trees/2458-height-of-binary-tree-after-subtree-removal-queries/README.md",
+      "solutions": [
+        "Trees/2458-height-of-binary-tree-after-subtree-removal-queries/2458-height-of-binary-tree-after-subtree-removal-queries.cpp"
+      ]
+    },
+    {
+      "number": 2469,
+      "title": "Convert the Temperature",
+      "slug": "convert-the-temperature",
+      "folder": "Math/2469-convert-the-temperature",
+      "readme": "Math/2469-convert-the-temperature/README.md",
+      "solutions": [
+        "Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp"
+      ]
+    },
+    {
+      "number": 2471,
+      "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+      "slug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+      "folder": "Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+      "readme": "Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/README.md",
+      "solutions": [
+        "Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp"
+      ]
+    },
+    {
+      "number": 2492,
+      "title": "Minimum Score of a Path Between Two Cities",
+      "slug": "minimum-score-of-a-path-between-two-cities",
+      "folder": "Graphs/2492-minimum-score-of-a-path-between-two-cities",
+      "readme": "Graphs/2492-minimum-score-of-a-path-between-two-cities/README.md",
+      "solutions": [
+        "Graphs/2492-minimum-score-of-a-path-between-two-cities/2492-minimum-score-of-a-path-between-two-cities.cpp"
+      ]
+    },
+    {
+      "number": 2596,
+      "title": "Check Knight Tour Configuration",
+      "slug": "check-knight-tour-configuration",
+      "folder": "Graphs/2596-check-knight-tour-configuration",
+      "readme": "Graphs/2596-check-knight-tour-configuration/README.md",
+      "solutions": [
+        "Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp"
+      ]
+    },
+    {
+      "number": 2641,
+      "title": "Cousins in Binary Tree II",
+      "slug": "cousins-in-binary-tree-ii",
+      "folder": "Trees/2641-cousins-in-binary-tree-ii",
+      "readme": "Trees/2641-cousins-in-binary-tree-ii/README.md",
+      "solutions": [
+        "Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp"
+      ]
+    },
+    {
+      "number": 2913,
+      "title": "Subarrays Distinct Element Sum of Squares I",
+      "slug": "subarrays-distinct-element-sum-of-squares-i",
+      "folder": "Trees/2913-subarrays-distinct-element-sum-of-squares-i",
+      "readme": "Trees/2913-subarrays-distinct-element-sum-of-squares-i/README.md",
+      "solutions": [
+        "Trees/2913-subarrays-distinct-element-sum-of-squares-i/2913-subarrays-distinct-element-sum-of-squares-i.cpp"
+      ]
+    },
+    {
+      "number": 2916,
+      "title": "Subarrays Distinct Element Sum of Squares II",
+      "slug": "subarrays-distinct-element-sum-of-squares-ii",
+      "folder": "Trees/2916-subarrays-distinct-element-sum-of-squares-ii",
+      "readme": "Trees/2916-subarrays-distinct-element-sum-of-squares-ii/README.md",
+      "solutions": [
+        "Trees/2916-subarrays-distinct-element-sum-of-squares-ii/2916-subarrays-distinct-element-sum-of-squares-ii.cpp"
+      ]
+    },
+    {
+      "number": 2965,
+      "title": "Find Missing and Repeated Values",
+      "slug": "find-missing-and-repeated-values",
+      "folder": "Math/2965-find-missing-and-repeated-values",
+      "readme": "Math/2965-find-missing-and-repeated-values/README.md",
+      "solutions": [
+        "Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp"
+      ]
+    },
+    {
+      "number": 3286,
+      "title": "Find a Safe Walk Through a Grid",
+      "slug": "find-a-safe-walk-through-a-grid",
+      "folder": "Graphs/3286-find-a-safe-walk-through-a-grid",
+      "readme": "Graphs/3286-find-a-safe-walk-through-a-grid/README.md",
+      "solutions": [
+        "Graphs/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp"
+      ]
+    },
+    {
+      "number": 3551,
+      "title": "Minimum Swaps to Sort by Digit Sum",
+      "slug": "minimum-swaps-to-sort-by-digit-sum",
+      "folder": "Arrays/3551-minimum-swaps-to-sort-by-digit-sum",
+      "readme": "Arrays/3551-minimum-swaps-to-sort-by-digit-sum/README.md",
+      "solutions": [
+        "Arrays/3551-minimum-swaps-to-sort-by-digit-sum/3551-minimum-swaps-to-sort-by-digit-sum.cpp"
+      ]
+    }
+  ],
+  "source_folder": "LeetCode-Img-Soln",
+  "source_file_types": {
+    "(none)": 1,
+    ".bak": 1,
+    ".dmg": 1,
+    ".docx": 3,
+    ".jpeg": 9,
+    ".jpg": 266,
+    ".md": 1,
+    ".pdf": 6,
+    ".png": 1,
+    ".txt": 1
+  },
+  "source_images": 276,
+  "matched_images": 251,
+  "matched_problems": 145,
+  "confirmed_represented_problems": 149,
+  "additional_unverified_numbered_candidates": [
+    3863,
+    3886,
+    3942
+  ],
+  "unmatched_images": [
+    {
+      "source": "LeetCode-Img-Soln/128-Longest-Consecutive-Seq.jpg",
+      "reason": "LeetCode #128: no verified existing solution folder with README"
+    },
+    {
+      "source": "LeetCode-Img-Soln/167-Two-Sum-II-Input-Sorted.jpg",
+      "reason": "LeetCode #167: no verified existing solution folder with README"
+    },
+    {
+      "source": "LeetCode-Img-Soln/36-Valid-Sudoku-Part-I.jpg",
+      "reason": "LeetCode #36: no verified existing solution folder with README"
+    },
+    {
+      "source": "LeetCode-Img-Soln/36-Valid-Sudoku-Part-II.jpg",
+      "reason": "LeetCode #36: no verified existing solution folder with README"
+    },
+    {
+      "source": "LeetCode-Img-Soln/371-Sum-of-Two-Int-Part-I.jpg",
+      "reason": "LeetCode #371: no verified existing solution folder with README"
+    },
+    {
+      "source": "LeetCode-Img-Soln/371-Sum-of-Two-Int-Part-II.jpg",
+      "reason": "LeetCode #371: no verified existing solution folder with README"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3863-Min-Op-to-Sort-String-Part-I.jpg",
+      "reason": "Unverified abbreviated title for #3863; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3863-Min-Op-to-Sort-String-Part-II.jpg",
+      "reason": "Unverified abbreviated title for #3863; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-I.jpg",
+      "reason": "Unverified abbreviated title for #3886; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-II.jpg",
+      "reason": "Unverified abbreviated title for #3886; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-III.jpg",
+      "reason": "Unverified abbreviated title for #3886; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3886-Sum-of-Sortable-Integers-Part-IV.jpg",
+      "reason": "Unverified abbreviated title for #3886; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3942-Min-Op-to-Sort-Nums-Part-I.jpg",
+      "reason": "Unverified abbreviated title for #3942; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3942-Min-Op-to-Sort-Nums-Part-II.jpg",
+      "reason": "Unverified abbreviated title for #3942; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Dijkstra's Algorithm.jpg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Heap Sort Part-I.jpg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Heap Sort Part-II.jpg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/IMG_20260619_123722.jpg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Merge Sort Part-I.jpg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Merge Sort Part-II.jpg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Prim's Agorithm Part-II.jpg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Prim's Algorithm Part-I.jpg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Prim's Algorithm Part-III.jpg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/Resume Aman.png",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    },
+    {
+      "source": "LeetCode-Img-Soln/SessClassDiagram.jpeg",
+      "reason": "No unique exact or reviewed title match; manual review required"
+    }
+  ],
+  "verification": {
+    "image_matching": "PASS",
+    "readme_links": "PASS",
+    "multipart_order": "PASS",
+    "duplicate_images": "PASS",
+    "cpp_preserved": "PASS",
+    "readme_content_preserved": "PASS",
+    "idempotency": "PASS",
+    "hash_integrity": "PASS",
+    "existing_cpp_files": 265,
+    "problem_folders": 257,
+    "images": 251,
+    "readmes": 145,
+    "source_images": 276,
+    "unmatched": 25,
+    "unchanged_original_files": 390,
+    "changed_original_files": [
+      ".github/workflows/organize.yml",
+      "Arrays/0003-longest-substring-without-repeating-characters/README.md",
+      "Arrays/0014-longest-common-prefix/README.md",
+      "Arrays/0049-group-anagrams/README.md",
+      "Arrays/0056-merge-intervals/README.md",
+      "Arrays/0073-set-matrix-zeroes/README.md",
+      "Arrays/0076-minimum-window-substring/README.md",
+      "Arrays/0225-implement-stack-using-queues/README.md",
+      "Arrays/0239-sliding-window-maximum/README.md",
+      "Arrays/0242-valid-anagram/README.md",
+      "Arrays/0387-first-unique-character-in-a-string/README.md",
+      "Arrays/0493-reverse-pairs/README.md",
+      "Arrays/0503-next-greater-element-ii/README.md",
+      "Arrays/0560-subarray-sum-equals-k/README.md",
+      "Arrays/1392-longest-happy-prefix/README.md",
+      "Arrays/3551-minimum-swaps-to-sort-by-digit-sum/README.md",
+      "Backtracking/0040-combination-sum-ii/README.md",
+      "Backtracking/0046-permutations/README.md",
+      "Backtracking/0078-subsets/README.md",
+      "Backtracking/0079-word-search/README.md",
+      "Backtracking/0090-subsets-ii/README.md",
+      "Backtracking/0494-target-sum/README.md",
+      "Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/README.md",
+      "BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/README.md",
+      "DynamicProgramming/0005-longest-palindromic-substring/README.md",
+      "DynamicProgramming/0062-unique-paths/README.md",
+      "DynamicProgramming/0072-edit-distance/README.md",
+      "DynamicProgramming/0122-best-time-to-buy-and-sell-stock-ii/README.md",
+      "DynamicProgramming/0132-palindrome-partitioning-ii/README.md",
+      "DynamicProgramming/0198-house-robber/README.md",
+      "DynamicProgramming/0213-house-robber-ii/README.md",
+      "DynamicProgramming/0279-perfect-squares/README.md",
+      "DynamicProgramming/0300-longest-increasing-subsequence/README.md",
+      "DynamicProgramming/0322-coin-change/README.md",
+      "DynamicProgramming/0368-largest-divisible-subset/README.md",
+      "DynamicProgramming/0516-longest-palindromic-subsequence/README.md",
+      "DynamicProgramming/1048-longest-string-chain/README.md",
+      "DynamicProgramming/1092-shortest-common-supersequence/README.md",
+      "DynamicProgramming/1312-minimum-insertion-steps-to-make-a-string-palindrome/README.md",
+      "DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/README.md",
+      "DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/README.md",
+      "DynamicProgramming/1547-minimum-cost-to-cut-a-stick/README.md",
+      "DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/README.md",
+      "DynamicProgramming/1911-maximum-alternating-subsequence-sum/README.md",
+      "DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/README.md",
+      "Graphs/0133-clone-graph/README.md",
+      "Graphs/0207-course-schedule/README.md",
+      "Graphs/0210-course-schedule-ii/README.md",
+      "Graphs/0365-water-and-jug-problem/README.md",
+      "Graphs/0433-minimum-genetic-mutation/README.md",
+      "Graphs/0542-01-matrix/README.md",
+      "Graphs/0684-redundant-connection/README.md",
+      "Graphs/0733-flood-fill/README.md",
+      "Graphs/0743-network-delay-time/README.md",
+      "Graphs/0785-is-graph-bipartite/README.md",
+      "Graphs/0787-cheapest-flights-within-k-stops/README.md",
+      "Graphs/0797-all-paths-from-source-to-target/README.md",
+      "Graphs/0841-keys-and-rooms/README.md",
+      "Graphs/0886-possible-bipartition/README.md",
+      "Graphs/0947-most-stones-removed-with-same-row-or-column/README.md",
+      "Graphs/0990-satisfiability-of-equality-equations/README.md",
+      "Graphs/0994-rotting-oranges/README.md",
+      "Graphs/1061-lexicographically-smallest-equivalent-string/README.md",
+      "Graphs/1091-shortest-path-in-binary-matrix/README.md",
+      "Graphs/1319-number-of-operations-to-make-network-connected/README.md",
+      "Graphs/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/README.md",
+      "Graphs/1631-path-with-minimum-effort/README.md",
+      "Graphs/1926-nearest-exit-from-entrance-in-maze/README.md",
+      "Graphs/1971-find-if-path-exists-in-graph/README.md",
+      "Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/README.md",
+      "Graphs/2359-find-closest-node-to-given-two-nodes/README.md",
+      "Graphs/2421-number-of-good-paths/README.md",
+      "Graphs/2492-minimum-score-of-a-path-between-two-cities/README.md",
+      "Graphs/2596-check-knight-tour-configuration/README.md",
+      "Graphs/3286-find-a-safe-walk-through-a-grid/README.md",
+      "Heaps/0215-kth-largest-element-in-an-array/README.md",
+      "Heaps/0347-top-k-frequent-elements/README.md",
+      "Heaps/0378-kth-smallest-element-in-a-sorted-matrix/README.md",
+      "Heaps/0703-kth-largest-element-in-a-stream/README.md",
+      "Linked-List/0092-reverse-linked-list-ii/README.md",
+      "Linked-List/0234-palindrome-linked-list/README.md",
+      "Trees/0096-unique-binary-search-trees/README.md",
+      "Trees/0098-validate-binary-search-tree/README.md",
+      "Trees/0099-recover-binary-search-tree/README.md",
+      "Trees/0100-same-tree/README.md",
+      "Trees/0101-symmetric-tree/README.md",
+      "Trees/0102-binary-tree-level-order-traversal/README.md",
+      "Trees/0103-binary-tree-zigzag-level-order-traversal/README.md",
+      "Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/README.md",
+      "Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/README.md",
+      "Trees/0108-convert-sorted-array-to-binary-search-tree/README.md",
+      "Trees/0111-minimum-depth-of-binary-tree/README.md",
+      "Trees/0112-path-sum/README.md",
+      "Trees/0113-path-sum-ii/README.md",
+      "Trees/0114-flatten-binary-tree-to-linked-list/README.md",
+      "Trees/0116-populating-next-right-pointers-in-each-node/README.md",
+      "Trees/0124-binary-tree-maximum-path-sum/README.md",
+      "Trees/0129-sum-root-to-leaf-numbers/README.md",
+      "Trees/0144-binary-tree-preorder-traversal/README.md",
+      "Trees/0145-binary-tree-postorder-traversal/README.md",
+      "Trees/0173-binary-search-tree-iterator/README.md",
+      "Trees/0199-binary-tree-right-side-view/README.md",
+      "Trees/0222-count-complete-tree-nodes/README.md",
+      "Trees/0230-kth-smallest-element-in-a-bst/README.md",
+      "Trees/0235-lowest-common-ancestor-of-a-binary-search-tree/README.md",
+      "Trees/0236-lowest-common-ancestor-of-a-binary-tree/README.md",
+      "Trees/0450-delete-node-in-a-bst/README.md",
+      "Trees/0513-find-bottom-left-tree-value/README.md",
+      "Trees/0515-find-largest-value-in-each-tree-row/README.md",
+      "Trees/0543-diameter-of-binary-tree/README.md",
+      "Trees/0572-subtree-of-another-tree/README.md",
+      "Trees/0623-add-one-row-to-tree/README.md",
+      "Trees/0652-find-duplicate-subtrees/README.md",
+      "Trees/0662-maximum-width-of-binary-tree/README.md",
+      "Trees/0783-minimum-distance-between-bst-nodes/README.md",
+      "Trees/0814-binary-tree-pruning/README.md",
+      "Trees/0863-all-nodes-distance-k-in-binary-tree/README.md",
+      "Trees/0872-leaf-similar-trees/README.md",
+      "Trees/0951-flip-equivalent-binary-trees/README.md",
+      "Trees/0958-check-completeness-of-a-binary-tree/README.md",
+      "Trees/0979-distribute-coins-in-binary-tree/README.md",
+      "Trees/0988-smallest-string-starting-from-leaf/README.md",
+      "Trees/1008-construct-binary-search-tree-from-preorder-traversal/README.md",
+      "Trees/1026-maximum-difference-between-node-and-ancestor/README.md",
+      "Trees/1038-binary-search-tree-to-greater-sum-tree/README.md",
+      "Trees/1110-delete-nodes-and-return-forest/README.md",
+      "Trees/1161-maximum-level-sum-of-a-binary-tree/README.md",
+      "Trees/1261-find-elements-in-a-contaminated-binary-tree/README.md",
+      "Trees/1325-delete-leaves-with-a-given-value/README.md",
+      "Trees/1339-maximum-product-of-splitted-binary-tree/README.md",
+      "Trees/1361-validate-binary-tree-nodes/README.md",
+      "Trees/1367-linked-list-in-binary-tree/README.md",
+      "Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/README.md",
+      "Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/README.md",
+      "Trees/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/README.md",
+      "Trees/1569-number-of-ways-to-reorder-array-to-get-same-bst/README.md",
+      "Trees/1609-even-odd-tree/README.md",
+      "Trees/1932-merge-bsts-to-create-single-bst/README.md",
+      "Trees/2196-create-binary-tree-from-descriptions/README.md",
+      "Trees/2246-longest-path-with-different-adjacent-characters/README.md",
+      "Trees/2265-count-nodes-equal-to-average-of-subtree/README.md",
+      "Trees/2385-amount-of-time-for-binary-tree-to-be-infected/README.md",
+      "Trees/2415-reverse-odd-levels-of-binary-tree/README.md",
+      "Trees/2458-height-of-binary-tree-after-subtree-removal-queries/README.md",
+      "Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/README.md",
+      "Trees/2916-subarrays-distinct-element-sum-of-squares-ii/README.md",
+      "scripts/organize.py"
+    ],
+    "root_readme_unchanged": true
+  },
+  "regression_tests": {
+    "executed": 77,
+    "passed": 76,
+    "skipped": 1,
+    "skip_reason": "Existing loopback HTTP-server test: Operation not permitted"
+  },
+  "workflow_validation": "PASS: local YAML and configuration checks; live run unavailable",
+  "publication": "Push rejected (fetch first): remote main contains newer commits. Follow-up git fetch origin main failed: Could not resolve host: github.com. No force push attempted."
+}

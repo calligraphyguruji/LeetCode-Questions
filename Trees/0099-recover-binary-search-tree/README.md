@@ -27,3 +27,22 @@
 
 <p>&nbsp;</p>
 <strong>Follow up:</strong> A solution using <code>O(n)</code> space is pretty straight-forward. Could you devise a constant <code>O(1)</code> space solution?
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Recover Binary Search Tree — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Recover Binary Search Tree — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Recover Binary Search Tree — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

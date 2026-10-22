@@ -35,3 +35,19 @@
 	<li><code>1 &lt;= coins[i] &lt;= 2<sup>31</sup> - 1</code></li>
 	<li><code>0 &lt;= amount &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 2
+
+![Coin Change — Part 2](./images/solution-part-2.jpg)
+
+### Part 3
+
+![Coin Change — Part 3](./images/solution-part-3.jpg)
+
+<!-- visual-solutions:end -->

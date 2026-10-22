@@ -27,3 +27,12 @@
 
 <p>&nbsp;</p>
 <strong>Follow up:</strong> Could you do it in one pass?
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Reverse Linked List II — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

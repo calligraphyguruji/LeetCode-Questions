@@ -45,3 +45,13 @@ Since we were able to visit every room, we return true.
 - [Approach 2 (C++)](0841-keys-and-rooms-approach-2-dfs.cpp) — *DFS*
 
 <!---LeetCode Approaches End-->
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+![Keys and Rooms — Visual Solution](./images/solution.jpg)
+
+<!-- visual-solutions:end -->

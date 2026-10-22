@@ -39,3 +39,19 @@
 	<li>The number of nodes in the tree is in the range <code>[1, 8500]</code>.</li>
 	<li><code>0 &lt;= Node.val &lt;= 25</code></li>
 </ul>
+
+
+<!-- visual-solutions:start -->
+---
+
+## 🧠 Visual Solution & Explanation
+
+### Part 1
+
+![Smallest String Starting From Leaf — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Smallest String Starting From Leaf — Part 2](./images/solution-part-2.jpg)
+
+<!-- visual-solutions:end -->

@@ -1,30 +1,50 @@
 class Solution {
 public:
-     //Time Complexity = O(n) => single 2 pointer loop
-     //Space Complexity = O(1) => no extra data structure used.
-    int trap(vector<int>& ht) {
-        int n = ht.size() ;
-        int ans = 0 ;
-        //2 pointer approach : left , right
-        int l = 0 , r = n-1 ;
-        int lmax = 0 , rmax = 0 ;
+    int trap(vector<int>& height) {
+        
+        int n = height.size();
 
-        while(l < r){
-            lmax = max(lmax, ht[l]) ;
-            rmax = max(rmax, ht[r]) ;
+        //Step-1: Initialize two pointers
+        int left = 0;
+        int right = n-1;
+         
+        //Step-2: Initialize maximum heights
+        int leftMax = 0;
+        int rightMax = 0;
 
-            //check min of rmax, lmax
-            if(lmax < rmax){
-                ans += (lmax - ht[l]) ;
-                l++ ; //update by +1
+        int totalWater = 0;
+        
+        //Step-3: Traverse the array using two pointers
+        while(left < right){
+            
+            //Case-1: if left bar is smaller
+            if(height[left] <= height[right]){
+
+                //update leftMax
+                leftMax = max(leftMax, height[left]);
+
+                //Calc. total trapped water
+                totalWater += leftMax - height[left];
+
+                //move left pointer
+                left++;
             }
+            //Case-2: if right bar is smaller
             else{
-                ans += (rmax - ht[r]) ;
-                r-- ; //update by -1
+
+                //update leftMax
+                rightMax = max(rightMax, height[right]);
+
+                //Calc. total trapped water
+                totalWater += rightMax - height[right];
+
+                //move right pointer
+                right--;
             }
+            
         }
 
-        return ans ; //very important to return the ans
-
+        //Finally return the totalWater trapped
+        return totalWater;
     }
 };

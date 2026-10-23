@@ -1,8 +1,22 @@
 class Solution {
 public:
+    //Approach : Bitwise AND of misplaced elements
+
+    //Time Complexity = O(n) =>
+    /* Single traversal of the array → O(n).
+    * Each comparison and Bitwise AND operation → O(1).
+    * Total: O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only two extra variables, k and n.
+    * No additional arrays or data structures.
+    * Total: O(1).
+    */
+    
     int sortPermutation(vector<int>& nums) {
         
-        //1.) 
+        //1.) Initialize variables
         int k = -1;
         int n = nums.size();
 

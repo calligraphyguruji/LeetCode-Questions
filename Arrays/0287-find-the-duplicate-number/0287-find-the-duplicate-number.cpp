@@ -1,6 +1,18 @@
 class Solution {
 public:
     // Approach: Floyd's Cycle Detection (Slow-Fast Pointers)
+    
+    //Time Complexity = O(n) =>
+    /* Phase 1: Detecting the cycle takes O(n) time.
+    * Phase 2: Finding the cycle’s entry point takes O(n) time.
+    * Total: O(n) + O(n) = O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only two pointers (tortoise and hare) are used.
+    * No additional arrays, sets, or maps are required.
+    * Total: O(1) auxiliary space.
+    */
 
     int findDuplicate(vector<int>& nums) {
         

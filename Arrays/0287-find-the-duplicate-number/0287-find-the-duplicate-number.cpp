@@ -1,26 +1,32 @@
 class Solution {
 public:
-    //Time Complexity = O(n) => cause traversing n elements in the array
-    //Space Complexity = O(1) => no extra data structure used for storing
-    int findDuplicate(vector<int>& arr) {
-        //Slow-Fast Pointer Approach
-        int slow = arr[0] , fast = arr[0] ;
+    // Approach: Floyd's Cycle Detection (Slow-Fast Pointers)
 
-        do{
-            slow = arr[slow] ;//update by 1 or +1
-            fast = arr[arr[fast]] ;//update by 2 or +2
-        } while(slow != fast) ;
-
-        //again re-initialize slow with arr[0]
-        slow = arr[0] ;
+    int findDuplicate(vector<int>& nums) {
         
-        //this slow or fast will meet at repeating value
-        while(slow != fast){
-            slow = arr[slow] ; //update by 1 or +1
-            fast = arr[fast] ; //update by 1 or +1
+        //Step-1 : Initialize variables
+        int hare = nums[0];
+        int tortoise = nums[0];
+
+        //Step-2: Detect the cycle
+        do{
+            tortoise = nums[tortoise]; //move 1 step
+            hare = nums[nums[hare]]; //move 2 steps
+        }while(tortoise != hare);
+        
+        //Step-3 : Find the entry point of cycle
+        tortoise = nums[0];
+        
+        //when hare = tortoise loop stops that is the entry point of cycle
+        while(tortoise != hare){
+            tortoise = nums[tortoise]; //move 1 step
+            hare = nums[hare]; //move 1 step
         }
-        return slow ; 
-        //here you can return slow or fast anyone
-        //both will indicate the same repeating value
+        
+
+        //Step -4 : Duplicate Number(Return the entry point of cycle)
+        //either retun tortoise or hare. both indicate the same index
+        return hare;
+          
     }
 };

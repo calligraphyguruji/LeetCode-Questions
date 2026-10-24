@@ -1,6 +1,19 @@
 class Solution {
 public:
-    //Approach : Sliding Window
+    //Approach : Sliding Window / Two Pointers + Greedy
+
+    //Time Complexity = O(n) =>
+    /* Initializing pointers takes O(1).
+    * The right pointer traverses the array once → O(n).
+    * Profit calculation and comparison take O(1) per iteration.
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only four variables are used: n, left, right, and maxProfit.
+    * No additional arrays or data structures are created.
+    */
+
+
     int maxProfit(vector<int>& prices) {
        
        int n = prices.size();

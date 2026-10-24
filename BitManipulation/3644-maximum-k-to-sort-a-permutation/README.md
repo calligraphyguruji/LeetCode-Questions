@@ -49,3 +49,87 @@
 	<li><code>0 &lt;= nums[i] &lt;= n - 1</code></li>
 	<li><code>nums</code> is a permutation of integers from <code>0</code> to <code>n - 1</code>.</li>
 </ul>
+
+
+<!-- AUTO-GENERATED-SOLUTION-START -->
+---
+
+## 🧠 Visual Solution & Intuition
+
+### Part 1
+
+![Maximum K to Sort a Permutation — Part 1](./images/solution-part-1.jpg)
+
+### Part 2
+
+![Maximum K to Sort a Permutation — Part 2](./images/solution-part-2.jpg)
+
+---
+
+## 💡 Approach
+
+```text
+Approach : Bitwise AND of misplaced elements
+```
+
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n) =>
+Space Complexity = O(1) =>
+```
+
+---
+
+## 💻 C++ Solution
+
+[View Original C++ File](./3644-maximum-k-to-sort-a-permutation.cpp)
+
+```cpp
+class Solution {
+public:
+    //Approach : Bitwise AND of misplaced elements
+
+    //Time Complexity = O(n) =>
+    /* Single traversal of the array → O(n).
+    * Each comparison and Bitwise AND operation → O(1).
+    * Total: O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only two extra variables, k and n.
+    * No additional arrays or data structures.
+    * Total: O(1).
+    */
+    
+    int sortPermutation(vector<int>& nums) {
+        
+        //1.) Initialize variables
+        int k = -1;
+        int n = nums.size();
+
+        //2.) traverse the nums array
+        for(int i = 0; i < n; i++){
+
+            if(nums[i] != i){//3.) find misplaced elem
+                
+                //4.) calc. misplaced elements
+                if(k == -1){
+                    k = nums[i];
+                }
+                else{
+                    k &= nums[i];
+                }
+            }
+        }
+       
+
+        //5.) Return the answer
+        return k == -1 ? 0 : k;       
+    }
+};
+```
+
+<!-- AUTO-GENERATED-SOLUTION-END -->

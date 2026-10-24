@@ -2373,6 +2373,26 @@
       "evidence": "Exact number and verified title"
     },
     {
+      "source": "LeetCode-Img-Soln/2409-Count-Days-Together-Part-I.jpg",
+      "number": 2409,
+      "title": "Count Days Spent Together",
+      "slug": "count-days-spent-together",
+      "part": 1,
+      "destination": "Math/2409-count-days-spent-together/images/solution-part-1.jpg",
+      "sha256": "7b4646a3408082e2e443a8dcd1bc0683d1593a3c311da8599889d345f5cdf3b9",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/2409-Count-Days-Together-Part-II.jpg",
+      "number": 2409,
+      "title": "Count Days Spent Together",
+      "slug": "count-days-spent-together",
+      "part": 2,
+      "destination": "Math/2409-count-days-spent-together/images/solution-part-2.jpg",
+      "sha256": "845b5e1206a33cb3dacf6461cd9f3f3be63c74d8afcc8e6136fced27cb6eb788",
+      "evidence": "Exact number and verified title"
+    },
+    {
       "source": "LeetCode-Img-Soln/2415-Reverse-Odd-levels-Part-I.jpg",
       "number": 2415,
       "title": "Reverse Odd Levels of Binary Tree",
@@ -2570,6 +2590,26 @@
       "part": 2,
       "destination": "Arrays/3551-minimum-swaps-to-sort-by-digit-sum/images/solution-part-2.jpg",
       "sha256": "3149cd0bbeb6243ab457f1a4f3b37edd1f9e8ae5b01383d7a582d1902bb13808",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3644-Max-K-to-Sort-Permuation-Part-I.jpg",
+      "number": 3644,
+      "title": "Maximum K to Sort a Permutation",
+      "slug": "maximum-k-to-sort-a-permutation",
+      "part": 1,
+      "destination": "BitManipulation/3644-maximum-k-to-sort-a-permutation/images/solution-part-1.jpg",
+      "sha256": "764da43fa71a71ec5985fb3c427a09e42c61adced090ae44fe70b895fd7486d4",
+      "evidence": "Exact number and verified title"
+    },
+    {
+      "source": "LeetCode-Img-Soln/3644-Max-K-to-Sort-Permuation-Part-II.jpg",
+      "number": 3644,
+      "title": "Maximum K to Sort a Permutation",
+      "slug": "maximum-k-to-sort-a-permutation",
+      "part": 2,
+      "destination": "BitManipulation/3644-maximum-k-to-sort-a-permutation/images/solution-part-2.jpg",
+      "sha256": "e2f1983e17830fe3ba5f6c24f785d96b7d80cadea0c78f8f3484ffea4bea9cf4",
       "evidence": "Exact number and verified title"
     },
     {

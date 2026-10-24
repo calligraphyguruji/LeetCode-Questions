@@ -103,6 +103,22 @@
     "number": 113,
     "slug": "path-sum-ii"
   },
+  "filename:2409-Count-Days-Together-Part-I.jpg": {
+    "number": 2409,
+    "slug": "count-days-spent-together"
+  },
+  "filename:2409-Count-Days-Together-Part-II.jpg": {
+    "number": 2409,
+    "slug": "count-days-spent-together"
+  },
+  "filename:3644-Max-K-to-Sort-Permuation-Part-I.jpg": {
+    "number": 3644,
+    "slug": "maximum-k-to-sort-a-permutation"
+  },
+  "filename:3644-Max-K-to-Sort-Permuation-Part-II.jpg": {
+    "number": 3644,
+    "slug": "maximum-k-to-sort-a-permutation"
+  },
   "findclosestnodetogiven": {
     "number": 2359,
     "slug": "find-closest-node-to-given-two-nodes"

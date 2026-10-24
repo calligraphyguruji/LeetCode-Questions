@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-214_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-266-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-267-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 82 | 30.8% |
-| 🟡 **Medium** | 159 | 59.8% |
+| 🟢 **Easy** | 83 | 31.1% |
+| 🟡 **Medium** | 159 | 59.6% |
 | 🔴 **Hard** | 25 | 9.4% |
-| 🎯 **Total Solved** | **266** | **100%** |
+| 🎯 **Total Solved** | **267** | **100%** |
 | 🔥 **Current Streak** | **100 Days** | — |
 | 📅 **Total Active Days** | **214 Days** | — |
 
@@ -861,6 +861,7 @@ public:
 | 2359 | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2359-find-closest-node-to-given-two-nodes/) | [Solution](Graphs/2359-find-closest-node-to-given-two-nodes/2359-find-closest-node-to-given-two-nodes.cpp) |
 | 2385 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2385-amount-of-time-for-binary-tree-to-be-infected/) | [Solution](Trees/2385-amount-of-time-for-binary-tree-to-be-infected/2385-amount-of-time-for-binary-tree-to-be-infected.cpp) |
 | 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2409-count-days-spent-together/) | [Solution](Math/2409-count-days-spent-together/2409-count-days-spent-together.cpp) |
+| 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2413-smallest-even-multiple/) | [Solution](Math/2413-smallest-even-multiple/2413-smallest-even-multiple.cpp) |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2415-reverse-odd-levels-of-binary-tree/) | [Solution](Trees/2415-reverse-odd-levels-of-binary-tree/2415-reverse-odd-levels-of-binary-tree.cpp) |
 | 2421 | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/) | 🔴 `Hard` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2421-number-of-good-paths/) | [Solution](Graphs/2421-number-of-good-paths/2421-number-of-good-paths.cpp) |
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/) | [Solution](Trees/2458-height-of-binary-tree-after-subtree-removal-queries/2458-height-of-binary-tree-after-subtree-removal-queries.cpp) |

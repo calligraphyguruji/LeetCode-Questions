@@ -1,25 +1,38 @@
 class Solution {
 public:
-    //Method-1 : Greedy + Single Pass (One-Pass) Approach
-
-    //Time Complexity = O(n) => visiting all the n elements in prices.
-    //Space Complexity = O(1) => no extra data structures used to store.
+    //Approach : Sliding Window
     int maxProfit(vector<int>& prices) {
-       int maxProfit = 0, bestBuy = prices[0] ;
-    
-    for(int i=1 ; i<prices.size() ; i++){
-        
-        if(prices[i] > bestBuy){
+       
+       int n = prices.size();
+
+       //Initialize two pointers
+       int left = 0; //buying day
+       int right = 1;//selling day
+
+       int maxProfit = 0;
+
+        // Step-2: Traverse using sliding window
+        while(right < n){
             
-            maxProfit = max(maxProfit, prices[i]-bestBuy) ;
+            // Case-1: Profitable transaction
+            if(prices[left] < prices[right]){
+
+                int currProfit = prices[right] - prices[left];
+                
+                maxProfit = max(maxProfit, currProfit);            
+ 
+            }
+
+            //Case-2 : Found a cheaper buying prices
+            else{ //prices[left] > prices[right]
+                left = right;//because right(buying) is smaller now 
+            }
+
+            // Step-3: Move selling pointer forward
+            right++;
         }
-        
-        bestBuy = min(bestBuy,prices[i]) ;
-        
-        
-    }
-    
-    
-    return maxProfit ; 
+
+        // Step-4: Finally Return maximum profit
+        return maxProfit;
     }
 };

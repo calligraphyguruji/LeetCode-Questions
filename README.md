@@ -1294,6 +1294,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |
 | [2409-count-days-spent-together](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2409-count-days-spent-together) |
+| [2413-smallest-even-multiple](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2413-smallest-even-multiple) |
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
 ## Bit Manipulation
 |  |
@@ -1345,6 +1346,10 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
+## Number Theory
+|  |
+| ------- |
+| [2413-smallest-even-multiple](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2413-smallest-even-multiple) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

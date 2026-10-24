@@ -1291,6 +1291,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |
+| [2409-count-days-spent-together](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2409-count-days-spent-together) |
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
 ## Bit Manipulation
 |  |
@@ -1315,6 +1316,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
+| [2409-count-days-spent-together](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2409-count-days-spent-together) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3863-minimum-operations-to-sort-a-string) |
 ## Greedy
 |  |

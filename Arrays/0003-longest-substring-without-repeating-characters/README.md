@@ -44,48 +44,58 @@ Notice that the answer must be a substring, &quot;pwke&quot; is a subsequence an
 
 ---
 
-## ⏱️ Complexity Analysis
+## 💡 Approach
 
 ```text
-Time Complexity = O(n) => cause traversing whole string on n elements once
-Space Complexity = O(1) => cause charSet(HashSet) is of only 256 chars (constant space) .
+Approach : Sliding Window + HashSet
 ```
 
 ---
 
-## 💻 Java Solution
+## 💻 C++ Solution
 
-[View Original Java File](./0003-longest-substring-without-repeating-characters.java)
+[View Original C++ File](./0003-longest-substring-without-repeating-characters.cpp)
 
-```java
+```cpp
 class Solution {
-    //Time Complexity = O(n) => cause traversing whole string on n elements once
-    //Space Complexity = O(1) => cause charSet(HashSet) is of only 256 chars (constant space) .
+public:
+    //Approach : Sliding Window + HashSet
 
+    
+    int lengthOfLongestSubstring(string s) {
+        
+        //Step-1: Initialize variables
+        int n = s.length();
 
-    //Method : 2 Pointer Approach (left, right)
-    public int lengthOfLongestSubstring(String s) {
-        //create a Hashset of chars.
-        Set<Character> charSet = new HashSet<>() ;
+        int left = 0;
 
-        int maxLength = 0 ;
-        int left = 0 ; //initialize left with 0 idx
-        //make a moving right pointer with loop
-        for(int right = 0 ; right<s.length(); right++){
+        int maxLength = 0;
 
-            //check if repeating element then remove
-            while(charSet.contains(s.charAt(right))){
-                charSet.remove(s.charAt(left)) ; //removing form Hashset
-                left++ ; //update the left 
+        unordered_set<char> currWindow;
+
+        //Step-2: Expand the sliding window using right
+        for(int right = 0; right < n; right++){
+
+            //Step-3: Remove Duplicates
+            while(currWindow.count(s[right])){
+
+                currWindow.erase(s[left]);// Remove the leftmost character from the set
+                left++;//move the left pointer to shorten the window size
+
             }
 
-            charSet.add(s.charAt(right)) ;
-            maxLength = Math.max(maxLength, (right-left + 1)) ;
+            //Step-4: Add current character to window
+            currWindow.insert(s[right]);
+
+            //Step-5: Update maxLength
+            maxLength = max(maxLength, right - left + 1);
         }
 
-        return maxLength ; //length of longest non repeating substring
+
+        //Step-6 : Return the answer
+        return maxLength;
     }
-}
+};
 ```
 
 <!-- AUTO-GENERATED-SOLUTION-END -->

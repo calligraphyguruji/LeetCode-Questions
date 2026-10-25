@@ -1,5 +1,21 @@
 class Solution {
 public:
+    //Approach : DFS + Boundary Flood Fill
+
+    //Time Complexity = O(m * n) => m = no. of rows, n = no. of columns
+    /* 1. Boundary Traversal: We traverse the first/last rows and columns → O(m + n).
+    2. Boundary DFS: Each boundary-connected land cell is visited at most once → O(m × n) in the worst case.
+    3. Grid Traversal: We iterate through all m × n cells → O(m × n).
+    4. Closed Island DFS: Each remaining land cell is visited at most once → O(m × n) in the worst case.
+    */
+
+    //Space Complexity = O(m * n) =>
+    /* 1. DFS Recursion Stack: In the worst case, DFS may recursively explore m × n connected land cells → O(m × n).
+    2. Visited Array: Not required because we mark visited land directly in the grid (0 → 1) → O(1) extra space.
+    3. Variables: Only m, n, i, j, and count are used → O(1).
+    */
+
+
     //Step-2:
     void dfs(vector<vector<int>>& grid, int i, int j){
         

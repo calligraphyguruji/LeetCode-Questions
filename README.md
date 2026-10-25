@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-215_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-268-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-269-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 83 | 31.0% |
-| 🟡 **Medium** | 160 | 59.7% |
+| 🟢 **Easy** | 83 | 30.9% |
+| 🟡 **Medium** | 161 | 59.9% |
 | 🔴 **Hard** | 25 | 9.3% |
-| 🎯 **Total Solved** | **268** | **100%** |
+| 🎯 **Total Solved** | **269** | **100%** |
 | 🔥 **Current Streak** | **101 Days** | — |
 | 📅 **Total Active Days** | **215 Days** | — |
 
@@ -728,6 +728,7 @@ public:
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0387-first-unique-character-in-a-string/) | [Solution](Arrays/0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.cpp) |
 | 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0410-split-array-largest-sum/) | [Solution](BinarySearch/0410-split-array-largest-sum/0410-split-array-largest-sum.cpp) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0412-fizz-buzz/) | [Solution](Math/0412-fizz-buzz/0412-fizz-buzz.cpp) |
+| 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0424-longest-repeating-character-replacement/) | [Solution](Arrays/0424-longest-repeating-character-replacement/0424-longest-repeating-character-replacement.cpp) |
 | 0430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/) | [Solution](Linked-List/0430-flatten-a-multilevel-doubly-linked-list/0430-flatten-a-multilevel-doubly-linked-list.cpp) |
 | 0433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0433-minimum-genetic-mutation/) | [Solution](Graphs/0433-minimum-genetic-mutation/0433-minimum-genetic-mutation.cpp) |
 | 0443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0443-string-compression/) | [Solution](Arrays/0443-string-compression/0443-string-compression.cpp) |
@@ -1377,11 +1378,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 79 · **Remaining Questions:** 71
+**Total Questions:** 150 · **Solved Questions:** 80 · **Remaining Questions:** 70
 
-**Completion:** 52.7%
+**Completion:** 53.3%
 
-Progress: ██████████░░░░░░░░░░ 52.7%
+Progress: ██████████░░░░░░░░░░ 53.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1411,13 +1412,13 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 13 | Container With Most Water | Medium | [LeetCode #11](https://leetcode.com/problems/container-with-most-water/) | ✅ Yes | [Solution](Arrays/0011-container-with-most-water/0011-container-with-most-water.cpp) |
 | 14 | Trapping Rain Water | Hard | [LeetCode #42](https://leetcode.com/problems/trapping-rain-water/) | ✅ Yes | [Solution](DynamicProgramming/0042-trapping-rain-water/0042-trapping-rain-water.cpp) |
 
-### Sliding Window — 5/6 Solved (83.3%)
+### Sliding Window — 6/6 Solved (100.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 15 | Best Time to Buy And Sell Stock | Easy | [LeetCode #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | ✅ Yes | [Solution](DynamicProgramming/0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.cpp) |
 | 16 | Longest Substring Without Repeating Characters | Medium | [LeetCode #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ✅ Yes | [Solution 1](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp) · [Solution 2](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java) |
-| 17 | Longest Repeating Character Replacement | Medium | [LeetCode #424](https://leetcode.com/problems/longest-repeating-character-replacement/) | ❌ No | — |
+| 17 | Longest Repeating Character Replacement | Medium | [LeetCode #424](https://leetcode.com/problems/longest-repeating-character-replacement/) | ✅ Yes | [Solution](Arrays/0424-longest-repeating-character-replacement/0424-longest-repeating-character-replacement.cpp) |
 | 18 | Permutation In String | Medium | [LeetCode #567](https://leetcode.com/problems/permutation-in-string/) | ✅ Yes | [Solution](Arrays/0567-permutation-in-string/0567-permutation-in-string.cpp) |
 | 19 | Minimum Window Substring | Hard | [LeetCode #76](https://leetcode.com/problems/minimum-window-substring/) | ✅ Yes | [Solution](Arrays/0076-minimum-window-substring/0076-minimum-window-substring.cpp) |
 | 20 | Sliding Window Maximum | Hard | [LeetCode #239](https://leetcode.com/problems/sliding-window-maximum/) | ✅ Yes | [Solution](Arrays/0239-sliding-window-maximum/0239-sliding-window-maximum.cpp) |

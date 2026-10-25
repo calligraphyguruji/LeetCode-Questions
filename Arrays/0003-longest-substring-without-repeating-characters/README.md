@@ -68,29 +68,31 @@ public:
         int n = s.length();
 
         int left = 0;
+        int right = 0;
 
         int maxLength = 0;
 
         unordered_set<char> currWindow;
-
-        //Step-2: Expand the sliding window using right
-        for(int right = 0; right < n; right++){
-
+        
+        //Step-2: Expand the sliding window
+        while(right < n){
+            
             //Step-3: Remove Duplicates
             while(currWindow.count(s[right])){
 
-                currWindow.erase(s[left]);// Remove the leftmost character from the set
-                left++;//move the left pointer to shorten the window size
-
+                currWindow.erase(s[left]);//Remove the left char. from set
+                left++;//move left pointer to shrink the size of currWindow
             }
 
-            //Step-4: Add current character to window
+            //Step-4: Insert next element into sliding window
             currWindow.insert(s[right]);
 
-            //Step-5: Update maxLength
+            //Step-5: Update maxLength 
             maxLength = max(maxLength, right - left + 1);
-        }
 
+            //Move right pointer to expand the window
+            right++;
+        }
 
         //Step-6 : Return the answer
         return maxLength;

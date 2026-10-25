@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-100_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-101_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-214_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-215_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-267-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-268-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 83 | 31.1% |
-| 🟡 **Medium** | 159 | 59.6% |
-| 🔴 **Hard** | 25 | 9.4% |
-| 🎯 **Total Solved** | **267** | **100%** |
-| 🔥 **Current Streak** | **100 Days** | — |
-| 📅 **Total Active Days** | **214 Days** | — |
+| 🟢 **Easy** | 83 | 31.0% |
+| 🟡 **Medium** | 160 | 59.7% |
+| 🔴 **Hard** | 25 | 9.3% |
+| 🎯 **Total Solved** | **268** | **100%** |
+| 🔥 **Current Streak** | **101 Days** | — |
+| 📅 **Total Active Days** | **215 Days** | — |
 
 </div>
 
@@ -792,6 +792,7 @@ public:
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1143-longest-common-subsequence/) | [Solution](DynamicProgramming/1143-longest-common-subsequence/1143-longest-common-subsequence.cpp) |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1161-maximum-level-sum-of-a-binary-tree/) | [Solution](Trees/1161-maximum-level-sum-of-a-binary-tree/1161-maximum-level-sum-of-a-binary-tree.cpp) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | [Solution](Backtracking/1239-maximum-length-of-a-concatenated-string-with-unique-characters/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp) |
+| 1254 | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1254-number-of-closed-islands/) | [Solution](Graphs/1254-number-of-closed-islands/1254-number-of-closed-islands.cpp) |
 | 1261 | [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1261-find-elements-in-a-contaminated-binary-tree/) | [Solution](Trees/1261-find-elements-in-a-contaminated-binary-tree/1261-find-elements-in-a-contaminated-binary-tree.cpp) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | [Solution](Math/1281-subtract-the-product-and-sum-of-digits-of-an-integer/1281-subtract-the-product-and-sum-of-digits-of-an-integer.cpp) |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/1295-find-numbers-with-even-number-of-digits/) | [Solution](Math/1295-find-numbers-with-even-number-of-digits/1295-find-numbers-with-even-number-of-digits.cpp) |

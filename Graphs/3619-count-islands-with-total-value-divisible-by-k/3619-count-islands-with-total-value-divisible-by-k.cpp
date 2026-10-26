@@ -1,5 +1,20 @@
 class Solution {
 public:
+    //Approach : DFS + Flood Fill + Island Sum
+
+    //Time Complexity = O(m * n) =>
+    /* 1. Grid Traversal: Nested loops traverse all m × n cells → O(m × n).
+    2. DFS Traversal: Each land cell is visited at most once because visited cells are marked as 0 → O(m × n).
+    3. Four Directions: Each cell explores 4 directions (constant work) → O(1) per cell.
+    4. Divisibility Check: sum % k == 0 takes O(1) per island.
+    */
+
+    //Space Complexity = O(m * n) =>
+    /* 1. DFS Recursion Stack: In the worst case, all m × n cells form one connected island, requiring up to O(m × n) recursive calls.
+    2. Visited Array: Not required because visited cells are directly marked as 0 in the original grid → O(1) extra space.
+    3. Variables: m, n, count, sum, i, and j require constant space → O(1).
+    */
+
 
     //Step-2: Define DFS
     long long DFS(vector<vector<int>>& grid, int i, int j){

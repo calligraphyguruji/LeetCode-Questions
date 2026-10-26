@@ -1,40 +1,49 @@
 class Solution {
 public:
-    //isFreqSame function to check same idx (freq, windFreq)
-    bool isFreqSame(int freq1[] , int freq2[] ){
-        for(int i=0 ; i<26 ; i++){
-            if(freq1[i] != freq2[i] ){
-                return false ;
-            }
-        }
-        return true ;
-    }
     bool checkInclusion(string s1, string s2) {
-        int freq[26] = {0} ; //freq array to store freq of idx in s1
+        
+        //Step-1: Initialize variables
+        int m = s1.length();
+        int n = s2.length();
 
-        for(int i=0 ; i<s1.length() ; i++){
-            freq[s1[i] - 'a'] ++ ;
+        if(m > n){//means s1 size is greater
+            return false;
         }
         
-        int windSize = s1.length() ;
+        //Step-2: Initialize two freq arrays 
+        vector<int> freq1(26, 0); //for s1
+        vector<int> freq2(26, 0); //for s2
 
-        for(int i=0 ; i<s2.length() ; i++){
-            int windIdx = 0 , idx = i ;
-            int windFreq[26] = {0} ; 
-            //window freq array to store search s1 in s2
+        //Step-3: Count freq of s1 and first window of s2
+        for(int i = 0; i < m; i++){
 
-            //check if windIdx not greater than windSize 
-            //and also idx not greater than s2.length()
-            while(windIdx < windSize && idx < s2.length() ){
-                windFreq[s2[idx] - 'a']++ ;
-                windIdx++ ; idx++ ;
+            freq1[s1[i] - 'a']++;
+            freq2[s2[i] - 'a']++;
+        }
 
-            }
-            if(isFreqSame(freq,windFreq) ){ //if found same 
-                return true ;
+        //Step-4: check the first window
+        if(freq1 == freq2){
+            return true;
+        }
+
+        //Step-5: Slide the window through s2 
+        for(int right = m; right < n; right++){
+
+            //Add incoming next chars.
+            freq2[s2[right] - 'a']++;
+
+            //Remove outgoing previous chars.
+            freq2[s2[right - m] - 'a']--;
+
+            //check if freq. matched
+            if(freq1 == freq2){
+                return true;
             }
         }
-        return false ; //if not found same 
+
+
+        //Finally if no true permutation found in above checks then
+        return false;
 
     }
 };

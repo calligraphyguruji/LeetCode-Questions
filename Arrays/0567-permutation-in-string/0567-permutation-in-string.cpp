@@ -1,5 +1,21 @@
 class Solution {
 public:
+    //Approach : Fixed Size Sliding Window + Frequency array
+
+    //Time Complexity = O(n) =>
+    /* 1. Initialize Frequency Arrays: O(26) = O(1).
+    2. Build Initial Frequencies: O(n).
+    3. Sliding Window: At most m - n iterations.
+    4. Frequency Comparison: Each comparison checks 26 elements → O(26) = O(1).
+    */
+
+    //Space Complexity = O(1) =>
+    /* 1. Frequency Arrays: Two arrays of size 26 → O(26 + 26) = O(1).
+    2. Variables: n, m, and right → O(1).
+    3. No additional data structure grows with input size.
+    */
+
+
     bool checkInclusion(string s1, string s2) {
         
         //Step-1: Initialize variables

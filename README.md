@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-102_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-103_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-216_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-217_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-270-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-271-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 83 | 30.7% |
-| 🟡 **Medium** | 162 | 60.0% |
-| 🔴 **Hard** | 25 | 9.3% |
-| 🎯 **Total Solved** | **270** | **100%** |
-| 🔥 **Current Streak** | **102 Days** | — |
-| 📅 **Total Active Days** | **216 Days** | — |
+| 🟢 **Easy** | 84 | 31.0% |
+| 🟡 **Medium** | 162 | 59.8% |
+| 🔴 **Hard** | 25 | 9.2% |
+| 🎯 **Total Solved** | **271** | **100%** |
+| 🔥 **Current Streak** | **103 Days** | — |
+| 📅 **Total Active Days** | **217 Days** | — |
 
 </div>
 
@@ -882,6 +882,7 @@ public:
 | 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3863-minimum-operations-to-sort-a-string/) | [Solution](Arrays/3863-minimum-operations-to-sort-a-string/3863-minimum-operations-to-sort-a-string.cpp) |
 | 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 `Hard` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3886-sum-of-sortable-integers/) | [Solution](Math/3886-sum-of-sortable-integers/3886-sum-of-sortable-integers.cpp) |
 | 3942 | [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3942-minimum-operations-to-sort-a-permutation/) | [Solution](Arrays/3942-minimum-operations-to-sort-a-permutation/3942-minimum-operations-to-sort-a-permutation.cpp) |
+| 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3963-create-grid-with-exactly-one-path/) | [Solution](Arrays/3963-create-grid-with-exactly-one-path/3963-create-grid-with-exactly-one-path.cpp) |
 
 ---
 

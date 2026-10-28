@@ -1,5 +1,22 @@
 class Solution {
 public:
+
+    //Approach : DP + XOR tracking
+
+    //Time Complexity = O(m * n * 1024) =>
+    /* 1. Grid Traversal: Two nested loops traverse all m × n cells → O(m × n).
+    2. XOR State Traversal: For each cell, we check all 1024 possible XOR values → O(1024).
+    3. DP Transitions: Checking the top and left cells and updating the DP state takes O(1) time.
+    4. Finding Minimum XOR: We check at most 1024 XOR values at the destination → O(1024).
+    */
+
+    //Space Complexity = O(m * n * 1024) =>
+    /* 1. 3D DP Array: dp[m][n][1024] stores 1024 Boolean XOR states for each cell → O(m × n × 1024).
+    2. Variables: m, n, i, j, x, and newXor require O(1) extra space.
+    3. No Recursion: No recursion stack is required → O(1).
+    */
+
+
     //Constraints : 0 <= grid[i][j] <= 1023​ (given XOR value range)
     int minCost(vector<vector<int>>& grid) {
         

@@ -61,15 +61,6 @@ Since the largest window of s only has one &#39;a&#39;, return empty string.
 
 ---
 
-## ⏱️ Complexity Analysis
-
-```text
-Time Complexity = O(N) => cause traversing each char single time in s (n chars)
-Space Complexity = O(1) => cause both mapT & mapS freq. vectors take constant space.
-```
-
----
-
 ## 💻 C++ Solution
 
 [View Original C++ File](./0076-minimum-window-substring.cpp)
@@ -77,45 +68,58 @@ Space Complexity = O(1) => cause both mapT & mapS freq. vectors take constant sp
 ```cpp
 class Solution {
 public:
-    //Time Complexity = O(N) => cause traversing each char single time in s (n chars)
-    //Space Complexity = O(1) => cause both mapT & mapS freq. vectors take constant space.
-    bool contains(vector<int> &mapS, vector<int> &mapT){
-        for(int i=0 ; i<256 ; i++){
-            if(mapT[i] > mapS[i]){ //freq of mapT is greater then
-                return false ; //freq not matched
+    string minWindow(string s, string t) {
+        
+        //Step-1: Initialize variables and array
+        vector<int> freq(128, 0);
+
+        //store  freq of chars. of t into freq array
+        for(char ch : t){
+            freq[ch]++;
+        }
+
+        int left = 0;
+        int minLength = INT_MAX;
+        int startIdx = 0;
+
+        int required = t.length(); 
+
+        //Step-2: Expand the window using right pointer
+        for(int right = 0; right < s.length(); right++){
+
+            if(freq[s[right]] > 0){ //check if current char is required
+                required--;
+            }
+
+            freq[s[right]]--;
+
+            //Step-3: Check window validity
+            while(required == 0){
+
+                //Step-4: Shrink the window
+                int windowLen = right - left + 1;
+
+                //update minLength & startIdx
+                if(windowLen < minLength){
+                    minLength = windowLen;
+                    startIdx = left;
+                }
+
+                //Remove leftmost char to reduce the size of currWindow
+                freq[s[left]]++; //because it's leaving the window
+
+                if(freq[s[left]] > 0){
+                    required++;
+                }
+
+                //move left pointer
+                left++; //now it's out of window
             }
         }
-        //if doesn't return false in above loop then
-        return true ; 
-    }
-    string minWindow(string s, string t) {
-        //two freq maps(vector)
-        vector<int> mapT(256,0) ;
-        vector<int> mapS(256,0) ;
-       
-       //fill mapT with all the chars. present in t
-       for(char ch : t) mapT[ch]++ ;
 
-       int left = 0 , right = 0 , minLength = INT_MAX , minStart = 0 ;
 
-       //start making window and push that char in mapS
-       for( ; right < s.length() ; right++){
-          mapS[s[right]]++ ;
-
-           //now compare mapT and mapS 
-           while(contains(mapS,mapT)){
-             if(right-left+1 < minLength){
-                minLength = right-left+1 ;
-                minStart = left ; //update minStart to reduce the size of window
-             }
-             mapS[s[left++]]-- ; //reduce the size from left
-           }
-       }
-       
-       //if minLength is still INT_MAX means no minLength found then return "" (empty substr)
-       //else return substr of minlength
-       return minLength == INT_MAX ? "" : s.substr(minStart,minLength) ;
-
+        //Step-5: Return the answer
+        return minLength == INT_MAX ? "" : s.substr(startIdx, minLength);
 
 
     }

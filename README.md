@@ -1243,6 +1243,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 ## Binary Search
@@ -1297,6 +1298,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0036-valid-sudoku](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0036-valid-sudoku) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Union-Find
 |  |
 | ------- |
@@ -1316,6 +1318,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Enumeration
 |  |
 | ------- |
@@ -1356,6 +1359,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Stack
 |  |
 | ------- |

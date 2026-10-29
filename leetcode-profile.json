@@ -1,6 +1,6 @@
 {
   "source": "https://leetcode.com/graphql/",
-  "last_verified_at": "2026-10-28T08:36:54.620773+00:00",
+  "last_verified_at": "2026-10-29T17:19:53.615533+00:00",
   "stats": {
     "username": "calligraphyguruji",
     "calendar_year": 2026,
@@ -8,8 +8,8 @@
     "medium": 163,
     "hard": 25,
     "solved": 272,
-    "current_streak": 104,
-    "active_days": 218,
+    "current_streak": 105,
+    "active_days": 219,
     "streak_basis": "consecutive public submission-calendar days (UTC)",
     "active_days_basis": "LeetCode totalActiveDays for the current UTC year"
   }

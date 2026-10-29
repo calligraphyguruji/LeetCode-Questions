@@ -4,6 +4,26 @@ public:
 
     //Approach : Heavy-Light Decomposition + Segment Tree + Bitmask(XOR)
 
+    //Time Complexity = O(n + q * log²(n)) =>
+    /* 1. Build adjacency list: O(n).
+    2. Calculate subtree sizes and heavy children: O(n).
+    3. Heavy-Light Decomposition: O(n).
+    4. Initialize segment tree: O(n\log n) in this implementation because each node is inserted using a point update.
+    5. Update operation: O(\log n).
+    6. Path query: O(\log^2 n).
+    7. Palindrome check: O(1).
+    */
+ 
+    //Space Complexity = O(n + q) =>
+    /* 1. Adjacency list: O(n).
+    2. HLD arrays: O(n).
+    3. Segment tree: O(n).
+    4. DFS recursion stack: O(n) in the worst case.
+    5. Answer array: O(q).
+    */
+
+    
+
     vector<vector<int>> adj;
     vector<int> parent, depth, heavy, head, pos, subtreeSize;
     vector<int> segTree;

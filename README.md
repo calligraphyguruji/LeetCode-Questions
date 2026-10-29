@@ -1244,6 +1244,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -1274,6 +1275,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -1320,6 +1322,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Enumeration
 |  |
@@ -1344,6 +1347,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
 | [2409-count-days-spent-together](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2409-count-days-spent-together) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3863-minimum-operations-to-sort-a-string) |
 ## Greedy
 |  |
@@ -1380,6 +1384,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1392,6 +1397,18 @@ This repository is created **purely for learning and educational purposes**. The
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
+## Tree
+|  |
+| ------- |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
+## Segment Tree
+|  |
+| ------- |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

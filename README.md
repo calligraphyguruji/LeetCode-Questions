@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-220_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-274-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-275-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 84 | 30.7% |
-| 🟡 **Medium** | 164 | 59.9% |
-| 🔴 **Hard** | 26 | 9.5% |
-| 🎯 **Total Solved** | **274** | **100%** |
+| 🟢 **Easy** | 84 | 30.5% |
+| 🟡 **Medium** | 164 | 59.6% |
+| 🔴 **Hard** | 27 | 9.8% |
+| 🎯 **Total Solved** | **275** | **100%** |
 | 🔥 **Current Streak** | **106 Days** | — |
 | 📅 **Total Active Days** | **220 Days** | — |
 
@@ -686,6 +686,7 @@ public:
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0145-binary-tree-postorder-traversal/) | [Solution](Trees/0145-binary-tree-postorder-traversal/0145-binary-tree-postorder-traversal.cpp) |
 | 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0146-lru-cache/) | [Solution](Linked-List/0146-lru-cache/0146-lru-cache.cpp) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0151-reverse-words-in-a-string/) | [Solution](Arrays/0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp) |
+| 0154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0154-find-minimum-in-rotated-sorted-array-ii/) | [Solution](BinarySearch/0154-find-minimum-in-rotated-sorted-array-ii/0154-find-minimum-in-rotated-sorted-array-ii.cpp) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0155-min-stack/) | [Solution](Arrays/0155-min-stack/0155-min-stack.cpp) |
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0167-two-sum-ii-input-array-is-sorted/) | [Solution](Arrays/0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.cpp) |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0169-majority-element/) | [Solution](Arrays/0169-majority-element/0169-majority-element.cpp) |

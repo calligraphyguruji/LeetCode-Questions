@@ -1245,6 +1245,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
+| [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -1259,6 +1260,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
+| [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Sorting
 |  |

@@ -1,31 +1,35 @@
 class Solution {
 public:
-    //Recursive Method 
-    int binarySearch(vector<int> &arr, int tar, int st , int end){
-        int mid = st + (end-st)/2 ;
+    int search(vector<int>& nums, int target) {
+    
+        int n = nums.size();
 
-        if(st <= end){
-            if(arr[mid] < tar){
-                return binarySearch(arr,tar,mid+1,end) ;
-                //st = mid+1 => move right
+        //Step-1: Initialize two pointers
+        int start = 0;
+        int end = n-1;
+
+        //Step-2: Traverse nums using two pointers
+        while(start <= end){
+            //In this we have to return only the index not value at nums[index]
+            int mid = start + (end - start)/2; //mid is index
+
+            //Case-1: when target is greater than curr nums[mid]
+            if(nums[mid] < target){
+                start = mid+1;//move to right for greater elements
             }
-            else if(arr[mid] > tar){
-                return binarySearch(arr,tar,st,mid-1) ;
-                //end = mid-1 => move left
+
+            //Case-2: when target is smaller than curr nums[mid]
+            else if(nums[mid] > target){
+                end = mid-1;//move to left for smaller elements
             }
-            else{ //arr[mid] == tar
-                return mid ;
+
+            //Case-3: if target is equals to nums[mid]
+            else{
+                return mid;//return the mid index
             }
         }
         
-        return -1 ; //if not found 
+        //if target is not found in the nums
+        return -1;
     }
-    int search(vector<int>& arr, int tar) {
-        int n = arr.size() ;
-        return binarySearch(arr,tar,0,n-1) ; 
-        //here return is required to call because int type
-        //st = 0 , end = n-1 ;
-        
-    }
-    
 };

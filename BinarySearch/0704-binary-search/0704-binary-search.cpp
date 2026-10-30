@@ -1,5 +1,21 @@
 class Solution {
 public:
+    //Approach : Iterative Binary Search
+
+    //Time Complexity = O(logn) =>
+    /* Binary Search reduces the search space by half in every iteration.
+    * Example: n = 16 => 16 → 8 → 4 → 2 → 1
+    * After 1 iteration → n/2 elements
+    * After 2 iterations → n/4 elements
+    * After k iterations → n/2ᵏ elements
+    * when only 1 element remains : n / 2^k = 1 => n = 2^k => k = logn base-2
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only a few variables (left, right, mid) are used.
+    * No extra data strucutres required to store.
+    */
+
     int search(vector<int>& nums, int target) {
     
         int n = nums.size();

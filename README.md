@@ -1242,6 +1242,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0238-product-of-array-except-self](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
@@ -1284,6 +1285,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Bucket Sort
@@ -1402,6 +1404,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
 ## Tree
@@ -1424,6 +1427,18 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

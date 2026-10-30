@@ -1,45 +1,45 @@
 class Solution {
 public:
-    //Time Complexity = O(n) => cause pushing and popping n elements in deque
-   //Space Complexity = O(k) => cause store k elements at a time in deque
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        deque<int> dq ; //to store viable ans to find res
-        vector<int> res ; //to store answers
+        
+        //1.) Intialize deque and ans array
+        deque<int> dq; //to store indices of max. in decreasing order
 
-        //Step 1 : analyze first window
-        for(int i=0 ; i<k ; i++){
-            while(!dq.empty() && nums[dq.back()] <= nums[i]){
-                dq.pop_back() ; //pop smaller values than current element
+        vector<int> ans;
+
+        //2.) Traverse the array from left to right
+        int left = 0;
+        
+
+        for(int right = 0; right < nums.size(); right++){
+            
+            //3.) Remove the smaller indices from back
+            while(!dq.empty() && nums[dq.back()] < nums[right]){
+                dq.pop_back();
             }
-            //push idx of current element in the dequeue
-            dq.push_back(i) ;
+            
+            //4.)Add current index into deque at back
+            dq.push_back(right);
+
+            //5.) Remove indices from front if
+            while(!dq.empty() && dq.front() < left){
+                dq.pop_front();
+            }
+
+            //6.) When window size becomes k
+            if(right - left + 1 == k){
+
+                //push front index into ans
+                ans.push_back(nums[dq.front()]);
+
+                //Slide the window one position to right
+                left++; //move left pointer
+            }
 
         }
-
-        //Step 2 : SWM for other windows
-        for(int i=k ; i<nums.size() ; i++){
-            //first push idx of front element in the res
-            res.push_back(nums[dq.front()]) ;
-
-            //remove elements from dq which are not part of curr window
-            while(!dq.empty() && dq.front() <= i-k){
-                dq.pop_front() ;
-            }
-
-            //remove the smaller values than current
-            while(!dq.empty() && nums[dq.back()] <= nums[i]){
-                dq.pop_back() ;
-            }
-
-            //push current idx in dq
-            dq.push_back(i) ;
-
-        }
-
-        //push last ans in result
-        res.push_back(nums[dq.front()]) ;
-
-        return res ; //very important to return result 
+        
+        //finally return the answer
+        return ans;
 
     }
 };

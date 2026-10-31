@@ -1,5 +1,18 @@
 class Solution {
 public:
+    //Approach : Dynamic Programming + Direction State
+
+    //Time Complexity = O(m * n) =>
+    /* Grid Traversal: Visit all m × n cells → O(m × n).
+    * Direction States: Process 2 directions per cell → O(1).
+    * DP Updates: Each direction requires constant-time operations → O(1).
+    */
+
+    //Space Complexity = O(m * n) =>
+    /* * 3D DP Table: Stores m × n × 2 states → O(2 × m × n).
+    * Extra Variables: i, j, dir, ways, etc. → O(1).
+    */
+
     const int M = 1e9 + 7; //10^9 + 7
 
     int uniquePaths(vector<vector<int>>& grid) {

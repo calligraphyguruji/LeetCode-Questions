@@ -2,6 +2,18 @@ class Solution {
 public:
     //Approach : Binary Search on Answer
 
+    //Time Complexity = O(n × log M) =>
+    /* n = Number of banana piles.
+    * M = Maximum bananas in a pile.
+    * Binary Search: O(log M) → Search space is halved in each iteration.
+    * For Loop: O(n) → Calculates total hours for all piles in each iteration.
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only a few variables (start, end, mid, totalHours) are used.
+    * No additional data structures are created for storage.
+    */
+
     int minEatingSpeed(vector<int>& piles, int h) {
         
         //1.) Initialize two pointers

@@ -1,56 +1,46 @@
 class Solution {
 public:
-    bool searchInRow(vector<vector<int>>&mat,int target,int row){
-        int n = mat[0].size() ; //cols
-        int st = 0 , end = n-1 ;
+    //Approach : Binary Search in 2D matrix using Two pointers
+    bool searchMatrix(vector<vector<int>>& matrix, int target) {
 
-        while(st <= end){
-            int mid = st + (end-st)/2 ;
-            //check
-            if(target > mat[row][mid]){
-                //move right
-                st = mid+1 ;
+        int m = matrix.size();
+        int n = matrix[0].size();
+
+        //Step-1: Initialize two pointers => both pointers are pointing to indices
+        int start = 0;
+        int end = m * n - 1;
+
+
+        //Step-2: Traverse in matrix using two pointers
+        while(start <= end){
+            
+            int mid = start + (end - start)/2;//mid index
+
+            //Convert 1D index into 2D
+            int row = mid / n;
+            int col = mid % n;
+
+            //Compare matrix[row][col] with target
+
+            //Case 1 : if target is equal to curr matrix value
+            if(matrix[row][col] == target){
+                return true;//found
             }
-            else if(target < mat[row][mid]){
-                //move right
-                end = mid-1 ;
+            
+            //Case 2: if target is greater than curr matrix value
+            else if(matrix[row][col] < target){
+                start = mid+1; //move to right for greater values
             }
-            else{ //target == mat[row][mid]
-                return true ; //found
+
+            //Case 3: if target is smaller than curr matrix value
+            else{ 
+                end = mid-1;
             }
+
         }
 
-        return false ; //not found after checking
+        //if target is not found in above search
+        return false;
 
-    }
-    //Time Complexity = O(log(m*n)) = O(logm + logn)
-    //Space Complexity = O(1) => because no extra array or something
-    bool searchMatrix(vector<vector<int>>& mat, int target) {
-        //Step 1 : Binary Search on total rows(select correct row)
-        int m = mat.size() ; //rows
-        int n = mat[0].size() ; //cols
-        
-        int startRow = 0, endRow = m-1 ;
-
-        while(startRow <= endRow){
-            int midRow = startRow + (endRow-startRow)/2 ;
-
-            //check for target
-            if(target >= mat[midRow][0] && target <= mat[midRow][n-1]){
-                //found correct row
-                //Step 2 : Binary Search on this row
-                return searchInRow(mat, target, midRow) ;
-            }
-            else if(target > mat[midRow][n-1]){
-                //move downward
-                startRow = midRow + 1 ;
-            }
-            else{ //target <= mat[midRow][0]
-                //move upward
-                endRow = midRow-1 ;
-            }
-        }
-        //very important condition
-        return false ; //if not found then 
     }
 };

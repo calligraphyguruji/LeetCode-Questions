@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-221_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-276-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-277-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 84 | 30.4% |
-| 🟡 **Medium** | 165 | 59.8% |
-| 🔴 **Hard** | 27 | 9.8% |
-| 🎯 **Total Solved** | **276** | **100%** |
+| 🟢 **Easy** | 84 | 30.3% |
+| 🟡 **Medium** | 166 | 59.9% |
+| 🔴 **Hard** | 27 | 9.7% |
+| 🎯 **Total Solved** | **277** | **100%** |
 | 🔥 **Current Streak** | **107 Days** | — |
 | 📅 **Total Active Days** | **221 Days** | — |
 
@@ -771,6 +771,7 @@ public:
 | 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0859-buddy-strings/) | [Solution](Arrays/0859-buddy-strings/0859-buddy-strings.cpp) |
 | 0863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0863-all-nodes-distance-k-in-binary-tree/) | [Solution](Trees/0863-all-nodes-distance-k-in-binary-tree/0863-all-nodes-distance-k-in-binary-tree.cpp) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0872-leaf-similar-trees/) | [Solution](Trees/0872-leaf-similar-trees/0872-leaf-similar-trees.cpp) |
+| 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0875-koko-eating-bananas/) | [Solution](BinarySearch/0875-koko-eating-bananas/0875-koko-eating-bananas.cpp) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0876-middle-of-the-linked-list/) | [Solution](Linked-List/0876-middle-of-the-linked-list/0876-middle-of-the-linked-list.cpp) |
 | 0886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0886-possible-bipartition/) | [Solution](Graphs/0886-possible-bipartition/0886-possible-bipartition.cpp) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0901-online-stock-span/) | [Solution](Arrays/0901-online-stock-span/0901-online-stock-span.cpp) |
@@ -1455,11 +1456,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 80 · **Remaining Questions:** 70
+**Total Questions:** 150 · **Solved Questions:** 81 · **Remaining Questions:** 69
 
-**Completion:** 53.3%
+**Completion:** 54.0%
 
-Progress: ██████████░░░░░░░░░░ 53.3%
+Progress: ██████████░░░░░░░░░░ 54.0%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1500,13 +1501,13 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 19 | Minimum Window Substring | Hard | [LeetCode #76](https://leetcode.com/problems/minimum-window-substring/) | ✅ Yes | [Solution](Arrays/0076-minimum-window-substring/0076-minimum-window-substring.cpp) |
 | 20 | Sliding Window Maximum | Hard | [LeetCode #239](https://leetcode.com/problems/sliding-window-maximum/) | ✅ Yes | [Solution](Arrays/0239-sliding-window-maximum/0239-sliding-window-maximum.cpp) |
 
-### Binary Search — 3/7 Solved (42.9%)
+### Binary Search — 4/7 Solved (57.1%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 21 | Binary Search | Easy | [LeetCode #704](https://leetcode.com/problems/binary-search/) | ✅ Yes | [Solution](BinarySearch/0704-binary-search/0704-binary-search.cpp) |
 | 22 | Search a 2D Matrix | Medium | [LeetCode #74](https://leetcode.com/problems/search-a-2d-matrix/) | ✅ Yes | [Solution](BinarySearch/0074-search-a-2d-matrix/0074-search-a-2d-matrix.cpp) |
-| 23 | Koko Eating Bananas | Medium | [LeetCode #875](https://leetcode.com/problems/koko-eating-bananas/) | ❌ No | — |
+| 23 | Koko Eating Bananas | Medium | [LeetCode #875](https://leetcode.com/problems/koko-eating-bananas/) | ✅ Yes | [Solution](BinarySearch/0875-koko-eating-bananas/0875-koko-eating-bananas.cpp) |
 | 24 | Find Minimum In Rotated Sorted Array | Medium | [LeetCode #153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | ❌ No | — |
 | 25 | Search In Rotated Sorted Array | Medium | [LeetCode #33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | ✅ Yes | [Solution](BinarySearch/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp) |
 | 26 | Time Based Key Value Store | Medium | [LeetCode #981](https://leetcode.com/problems/time-based-key-value-store/) | ❌ No | — |

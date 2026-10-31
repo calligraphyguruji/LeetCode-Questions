@@ -1,6 +1,18 @@
 class Solution {
 public:
     //Approach : Binary Search
+
+    //Time Complexity = O(logn) =>
+    /* Best Case: O(log n) — Binary search reduces the search space by approximately half in each iteration.
+    * Average Case: Typically O(log n) — When duplicates do not significantly interfere with binary search.
+    * Worst Case: O(n) — When nums[mid] == nums[right] repeatedly, we use right--, eliminating only one element per iteration.
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only three variables (left, right, mid) are used.
+    * No additional data structures are required.
+    */
+ 
     int findMin(vector<int>& nums) {
         
         int n = nums.size();

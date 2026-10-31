@@ -1,6 +1,19 @@
 class Solution {
 public:
     //Approach : Binary Search in 2D matrix using Two pointers
+
+    //Time Complexity = O(log(m * n)) =>
+    /* Total elements in the matrix = m × n.
+    * Binary Search reduces the search space by half in each iteration.
+    * Therefore, TC = O(log(m × n)).
+    */
+
+    //Space Complexity = O(1) => 
+    /* Only a few variables (m, n, start, end, mid, row, col) are used.
+    * No extra data structures are created.
+    * Therefore, SC = O(1).
+    */
+
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
 
         int m = matrix.size();

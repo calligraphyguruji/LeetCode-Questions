@@ -1,6 +1,6 @@
 class Solution {
 public:
-    //Approach : 
+    //Approach : Mathematical / Greedy
 
     //Time Complexity = O(n) =>
     /* Traverse n elements to calculate sum and minElem → O(n)

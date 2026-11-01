@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Binary Search on Partition
+
+    //Time Complexity =  O(log(min(m, n) + 1)) =>
+    /* Binary search is performed on the smaller array.
+    * Each iteration reduces the search space by half → O(log(min(m, n) + 1)).
+    * Finding partition elements and checking conditions → O(1) per iteration.
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only a few variables (m, n, low, high, i, j, L1, R1, L2, R2) are used.
+    * No extra arrays or data structures are created.
+    * At most one recursive call is made to swap array arguments.
+    */
+
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
         //Step-1: Ensure smaller for array for binary search
         int m = nums1.size();

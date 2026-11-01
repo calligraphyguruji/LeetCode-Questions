@@ -1273,6 +1273,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0875-koko-eating-bananas) |
+| [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Sorting
 |  |
@@ -1291,6 +1292,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
+| [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -1371,6 +1373,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
+| [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
 | [2409-count-days-spent-together](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2409-count-days-spent-together) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3863-minimum-operations-to-sort-a-string) |
@@ -1457,6 +1460,10 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
+## Design
+|  |
+| ------- |
+| [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

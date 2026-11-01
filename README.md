@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-222_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-280-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-281-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 84 | 30.0% |
-| 🟡 **Medium** | 169 | 60.4% |
-| 🔴 **Hard** | 27 | 9.6% |
-| 🎯 **Total Solved** | **280** | **100%** |
+| 🟢 **Easy** | 84 | 29.9% |
+| 🟡 **Medium** | 169 | 60.1% |
+| 🔴 **Hard** | 28 | 10.0% |
+| 🎯 **Total Solved** | **281** | **100%** |
 | 🔥 **Current Streak** | **108 Days** | — |
 | 📅 **Total Active Days** | **222 Days** | — |
 
@@ -615,6 +615,7 @@ public:
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0001-two-sum/) | [Solution](Arrays/0001-two-sum/0001-two-sum.cpp) |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0002-add-two-numbers/) | [Solution](Linked-List/0002-add-two-numbers/0002-add-two-numbers.cpp) |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0003-longest-substring-without-repeating-characters/) | [Solution 1](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp) · [Solution 2](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java) |
+| 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0004-median-of-two-sorted-arrays/) | [Solution](BinarySearch/0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.cpp) |
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0005-longest-palindromic-substring/) | [Solution](DynamicProgramming/0005-longest-palindromic-substring/0005-longest-palindromic-substring.cpp) |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0011-container-with-most-water/) | [Solution](Arrays/0011-container-with-most-water/0011-container-with-most-water.cpp) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0014-longest-common-prefix/) | [Solution](Arrays/0014-longest-common-prefix/0014-longest-common-prefix.cpp) |
@@ -1473,11 +1474,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 83 · **Remaining Questions:** 67
+**Total Questions:** 150 · **Solved Questions:** 84 · **Remaining Questions:** 66
 
-**Completion:** 55.3%
+**Completion:** 56.0%
 
-Progress: ███████████░░░░░░░░░ 55.3%
+Progress: ███████████░░░░░░░░░ 56.0%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1518,7 +1519,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 19 | Minimum Window Substring | Hard | [LeetCode #76](https://leetcode.com/problems/minimum-window-substring/) | ✅ Yes | [Solution](Arrays/0076-minimum-window-substring/0076-minimum-window-substring.cpp) |
 | 20 | Sliding Window Maximum | Hard | [LeetCode #239](https://leetcode.com/problems/sliding-window-maximum/) | ✅ Yes | [Solution](Arrays/0239-sliding-window-maximum/0239-sliding-window-maximum.cpp) |
 
-### Binary Search — 6/7 Solved (85.7%)
+### Binary Search — 7/7 Solved (100.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1528,7 +1529,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 24 | Find Minimum In Rotated Sorted Array | Medium | [LeetCode #153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | ✅ Yes | [Solution](BinarySearch/0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.cpp) |
 | 25 | Search In Rotated Sorted Array | Medium | [LeetCode #33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | ✅ Yes | [Solution](BinarySearch/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.cpp) |
 | 26 | Time Based Key Value Store | Medium | [LeetCode #981](https://leetcode.com/problems/time-based-key-value-store/) | ✅ Yes | [Solution](BinarySearch/0981-time-based-key-value-store/0981-time-based-key-value-store.cpp) |
-| 27 | Median of Two Sorted Arrays | Hard | [LeetCode #4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | ❌ No | — |
+| 27 | Median of Two Sorted Arrays | Hard | [LeetCode #4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | ✅ Yes | [Solution](BinarySearch/0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.cpp) |
 
 ### Linked List — 8/11 Solved (72.7%)
 

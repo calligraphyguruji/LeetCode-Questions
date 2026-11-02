@@ -3,18 +3,17 @@ public:
     //Approach : Sorting + Median
 
     //Time Complexity = O(n * logn) =>
-    /* Copying the array: O(n)
-    * Sorting: O(n log n)
+    /* Sorting: O(n log n)
     * Selecting the median: O(1)
-    * Summing distances: O(n)
+    * Loop through all elements: O(n)
     * Total: O(n log n)
     */
 
-    //Space Complexity = O(n) =>
-    /* Copied array sorted: O(n)
-    * Variables: O(1)
-    * Sorting stack: O(log n)
-    * Total: O(n)
+    //Space Complexity = O(log n) =>
+    /* No copied array; sorting modifies nums.
+    std::sort typically uses O(log n) stack space.
+    Other variables use O(1).
+    Total: O(log n)
     */
 
 
@@ -22,12 +21,11 @@ public:
         
         int n = nums.size();
 
-        //1.) Sort the array
-        vector<int> sorted = nums;
-        sort(sorted.begin(), sorted.end());
+        //1.) Sort the array   
+        sort(nums.begin(), nums.end());
 
         //2.) Choose a median or target element
-        int median = sorted[n/2]; 
+        int median = nums[n/2]; 
         
         //3.) Start the move counter
         long long moves = 0;//used long long to avoid integer overflow

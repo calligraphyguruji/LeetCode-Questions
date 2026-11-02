@@ -10,6 +10,17 @@
  */
 class Solution {
 public:
+    //Approach : Iterative Reversing links
+
+    //Time Complexity = O(n) =>
+    /* Visiting each node once , so for n nodes = O(n)
+    */
+
+
+    //Space Complexity = O(1) =>
+    /* used only three pointers, regardless of list size.
+    */
+
     ListNode* reverseList(ListNode* head) {
         
         // No nodes have been reversed yet.
@@ -31,7 +42,7 @@ public:
             // Move to the saved next node.
             curr = next;
         }
-        
+
         // (Return head)prev points to the new head of the reversed list.
         return prev;
 

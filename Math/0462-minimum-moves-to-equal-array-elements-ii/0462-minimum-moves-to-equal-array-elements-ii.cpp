@@ -1,5 +1,23 @@
 class Solution {
 public:
+    //Approach : Sorting + Median
+
+    //Time Complexity = O(n * logn) =>
+    /* Copying the array: O(n)
+    * Sorting: O(n log n)
+    * Selecting the median: O(1)
+    * Summing distances: O(n)
+    * Total: O(n log n)
+    */
+
+    //Space Complexity = O(n) =>
+    /* Copied array sorted: O(n)
+    * Variables: O(1)
+    * Sorting stack: O(log n)
+    * Total: O(n)
+    */
+
+
     int minMoves2(vector<int>& nums) {
         
         int n = nums.size();

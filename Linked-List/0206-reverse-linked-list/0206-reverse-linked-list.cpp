@@ -10,22 +10,30 @@
  */
 class Solution {
 public:
-    //Time Complexity = O(n) => traverse the whole Linked List single time
-    //Space Complexity = O(1) => no extra data structure used
     ListNode* reverseList(ListNode* head) {
-        //initialization of 3 pointers
-        ListNode *prev = NULL ;
-        ListNode *curr = head ;
-        ListNode *next = NULL ;
+        
+        // No nodes have been reversed yet.
+        ListNode* prev = NULL;
 
-        //loop to reverse the LL
+        // Start at the first node.
+        ListNode* curr = head;
+
         while(curr != NULL){
-            next = curr->next ;
-            curr->next = prev ;//make backward connection
-           //update prev, curr
-            prev = curr ;
-            curr = next ;
+            // Save the next node before changing the link.
+            ListNode* next = curr->next;
+
+            // Reverse the link: current node points backward.
+            curr->next = prev;
+            
+            // Current node becomes the head of the reversed part.
+            prev = curr;
+
+            // Move to the saved next node.
+            curr = next;
         }
-        return prev ; //prev is the new head of the LL
-    }
+        
+        // (Return head)prev points to the new head of the reversed list.
+        return prev;
+
+    } 
 };

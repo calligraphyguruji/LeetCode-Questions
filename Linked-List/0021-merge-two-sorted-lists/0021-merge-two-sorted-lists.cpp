@@ -9,26 +9,41 @@
  * };
  */
 class Solution {
-public: 
-    //Time Complexity = O(n+m) => where n = no. of elements in list1
-    // m = no. of elements in list2
-    //Space Complexity = O(n+m)
-    ListNode*mergeTwoLists(ListNode* head1, ListNode* head2) {
-        //base-case
-        if(head1 == NULL || head2 == NULL){
-            return head1 == NULL ? head2 : head1 ;
-           //if head1 == NULL then return head2 
-           //if head2 == NULL then return head1
+public:
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+        
+        // Temporary helper node placed before the merged list.
+        // Its next pointer starts as nullptr.
+        ListNode dummy;
+        
+        // tail points to the last node added to the merged list.
+        ListNode* tail = &dummy;
+
+        // Compare nodes while Both lists still have nodes.
+        while(list1 && list2){
+            
+            //compare values
+            if(list1->val <= list2->val){
+                tail->next = list1;// Attach the smaller node from list1.
+
+                list1 = list1->next;//move to next node
+            }
+
+            else{
+                tail->next = list2; //Attach the smaller node from list2.
+
+                list2 = list2->next;//move to next node
+            }
+
+            tail = tail->next;//Move tail to the node we just attached.
         }
-        //Case 1 :
-        if(head1->val <= head2->val){
-            head1->next = mergeTwoLists(head1->next, head2) ;
-            return head1 ;
-        }
-        //Case 2 :
-        else{
-            head2->next = mergeTwoLists(head2->next, head1) ;
-            return head2 ;
-        }
+
+        // One list has ended. Attach the remaining list.
+        // If both ended, this sets tail->next to nullptr.
+        tail->next = list1 ? list1 : list2;
+
+        // Skip the helper node and return the first real node.
+        return dummy.next;//new head
+
     }
 };

@@ -10,7 +10,16 @@ class Solution {
 public:
 
     //Approach : Floyd’s Cycle Detection Algorithm || Slow-Fast Pointer || Hare and Tortoise
+    
+    //Time Complexity = O(n)  =>
+    /* Without a cycle: fast moves two nodes at a time and reaches the end in about n/2 iterations. We ignore constant factors, so this is O(n).
+    With a cycle: once both pointers enter the cycle, fast gains one node on slow each iteration. They meet within at most one cycle’s length, making the total time O(n).
+    */
 
+    //Space Complexity = O(1) =>
+    /* We only use two pointers, slow and fast.
+    * No extra data structures are used for storage.(like array, stack, queue, map)
+    */
 
     bool hasCycle(ListNode *head) {
         

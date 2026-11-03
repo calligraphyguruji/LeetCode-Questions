@@ -1481,10 +1481,12 @@ This repository is created **purely for learning and educational purposes**. The
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
 

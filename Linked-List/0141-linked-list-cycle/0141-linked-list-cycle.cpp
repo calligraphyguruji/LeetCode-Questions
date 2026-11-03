@@ -8,23 +8,31 @@
  */
 class Solution {
 public:
-    //Time Complexity = O(n) => at most taversing n nodes
-    //Space Complexity = O(1) => no extra data structures used for storing nodes.
+
+    //Approach : Floyd’s Cycle Detection Algorithm || Slow-Fast Pointer || Hare and Tortoise
+
 
     bool hasCycle(ListNode *head) {
-        //initialize slow , fast with head
-        ListNode *slow = head ;
-        ListNode *fast = head ;
+        
+        // Start both pointers at the first node.
+        ListNode* slow = head;
+        ListNode* fast = head;
 
+        // Keep moving while fast can safely take two steps.
+        // Check fast first so we don't access next on a null pointer.
         while(fast != NULL && fast->next != NULL){
-            slow = slow->next ; //update by +1
-            fast = fast->next->next ; //update by +2
-            //check condition
-            if(slow == fast){
-                return true ;//cycle detected
+
+            slow = slow->next;// Slow moves forward by one node.
+            fast = fast->next->next;// Fast moves forward by two nodes.
+
+            if(slow == fast){// Compare their positions AFTER moving.
+                return true;// If they meet at the same node, the list has a cycle.
             }
         }
-        //when in loop no cycle detected
-        return false ;
+
+        // Fast reached the end, so the list has no cycle.
+        // This also handles an empty list.
+        return false;
+
     }
 };

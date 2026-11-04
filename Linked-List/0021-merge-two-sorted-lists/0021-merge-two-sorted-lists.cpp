@@ -10,6 +10,23 @@
  */
 class Solution {
 public:
+    //Approach : Iterative Two-Pointer Merge using a Dummy Node 
+
+    //Time Complexity = O(m + n) =>
+    /* n and m are the lengths of list1 and list2.
+    * Each iteration compares the current nodes, attaches the smaller one, and advances one list pointer.
+    * Each node is processed at most once.
+    * Attaching the remaining list takes O(1), since only one pointer is updated.
+    * Therefore, the worst-case time complexity is O(n + m).
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only one dummy node and a fixed number of pointers are used.
+    * Existing nodes are reused by changing their links; no new list nodes are created for the result.
+    * There is no recursion or extra data structure.
+    * Therefore, auxiliary space remains O(1) regardless of the list lengths.
+    */
+
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         
         // Temporary helper node placed before the merged list.

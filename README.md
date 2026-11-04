@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-225_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-283-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-284-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 85 | 30.0% |
-| 🟡 **Medium** | 170 | 60.1% |
-| 🔴 **Hard** | 28 | 9.9% |
-| 🎯 **Total Solved** | **283** | **100%** |
+| 🟢 **Easy** | 85 | 29.9% |
+| 🟡 **Medium** | 170 | 59.9% |
+| 🔴 **Hard** | 29 | 10.2% |
+| 🎯 **Total Solved** | **284** | **100%** |
 | 🔥 **Current Streak** | **111 Days** | — |
 | 📅 **Total Active Days** | **225 Days** | — |
 

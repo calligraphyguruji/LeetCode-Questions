@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-226_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-286-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-287-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 30.1% |
-| 🟡 **Medium** | 171 | 59.8% |
+| 🟢 **Easy** | 86 | 30.0% |
+| 🟡 **Medium** | 172 | 59.9% |
 | 🔴 **Hard** | 29 | 10.1% |
-| 🎯 **Total Solved** | **286** | **100%** |
+| 🎯 **Total Solved** | **287** | **100%** |
 | 🔥 **Current Streak** | **112 Days** | — |
 | 📅 **Total Active Days** | **226 Days** | — |
 
@@ -621,6 +621,7 @@ public:
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0014-longest-common-prefix/) | [Solution](Arrays/0014-longest-common-prefix/0014-longest-common-prefix.cpp) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0015-3sum/) | [Solution](Arrays/0015-3sum/0015-3sum.cpp) |
 | 0018 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0018-4sum/) | [Solution](Arrays/0018-4sum/0018-4sum.cpp) |
+| 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0019-remove-nth-node-from-end-of-list/) | [Solution](Linked-List/0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.cpp) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0020-valid-parentheses/) | [Solution](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0021-merge-two-sorted-lists/) | [Solution](Linked-List/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
 | 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0024-swap-nodes-in-pairs/) | [Solution](Linked-List/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) |
@@ -1509,11 +1510,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 85 · **Remaining Questions:** 65
+**Total Questions:** 150 · **Solved Questions:** 86 · **Remaining Questions:** 64
 
-**Completion:** 56.7%
+**Completion:** 57.3%
 
-Progress: ███████████░░░░░░░░░ 56.7%
+Progress: ███████████░░░░░░░░░ 57.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1566,7 +1567,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 26 | Time Based Key Value Store | Medium | [LeetCode #981](https://leetcode.com/problems/time-based-key-value-store/) | ✅ Yes | [Solution](BinarySearch/0981-time-based-key-value-store/0981-time-based-key-value-store.cpp) |
 | 27 | Median of Two Sorted Arrays | Hard | [LeetCode #4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | ✅ Yes | [Solution](BinarySearch/0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.cpp) |
 
-### Linked List — 9/11 Solved (81.8%)
+### Linked List — 10/11 Solved (90.9%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1574,7 +1575,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 29 | Merge Two Sorted Lists | Easy | [LeetCode #21](https://leetcode.com/problems/merge-two-sorted-lists/) | ✅ Yes | [Solution](Linked-List/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
 | 30 | Linked List Cycle | Easy | [LeetCode #141](https://leetcode.com/problems/linked-list-cycle/) | ✅ Yes | [Solution](Linked-List/0141-linked-list-cycle/0141-linked-list-cycle.cpp) |
 | 31 | Reorder List | Medium | [LeetCode #143](https://leetcode.com/problems/reorder-list/) | ✅ Yes | [Solution](Linked-List/0143-reorder-list/0143-reorder-list.cpp) |
-| 32 | Remove Nth Node From End of List | Medium | [LeetCode #19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | ❌ No | — |
+| 32 | Remove Nth Node From End of List | Medium | [LeetCode #19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | ✅ Yes | [Solution](Linked-List/0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.cpp) |
 | 33 | Copy List With Random Pointer | Medium | [LeetCode #138](https://leetcode.com/problems/copy-list-with-random-pointer/) | ✅ Yes | [Solution](Linked-List/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) |
 | 34 | Add Two Numbers | Medium | [LeetCode #2](https://leetcode.com/problems/add-two-numbers/) | ✅ Yes | [Solution](Linked-List/0002-add-two-numbers/0002-add-two-numbers.cpp) |
 | 35 | Find The Duplicate Number | Medium | [LeetCode #287](https://leetcode.com/problems/find-the-duplicate-number/) | ✅ Yes | [Solution](Arrays/0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp) |

@@ -27,12 +27,12 @@ public:
 
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         
-        //1.) 1. Create a dummy node connected to head
-        ListNode dummy(0, head);
+        //1.) Create a dummy node connected to head
+        ListNode* dummy = new ListNode(0, head);
 
         //2.) Initialize Slow-Fast pointers
-        ListNode* slow = &dummy;
-        ListNode* fast = &dummy;
+        ListNode* slow = dummy;
+        ListNode* fast = dummy;
 
         //move fast to (n + 1) steps
         for(int i = 0; i < n + 1; i++){
@@ -56,6 +56,6 @@ public:
         delete target;//remove target node
         
         //5.) Return the new head of LL
-        return dummy.next;
+        return dummy->next;
     }
 };

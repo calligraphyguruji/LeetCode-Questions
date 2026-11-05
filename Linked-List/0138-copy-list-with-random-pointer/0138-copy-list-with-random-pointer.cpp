@@ -16,51 +16,32 @@ public:
 
 class Solution {
 public:
-    //Time Complexity = O(n) => cause visiting n elements of the Linked List
-    //Space Complexity= O(n) => cause storing n elements in the unordered map
     Node* copyRandomList(Node* head) {
-        //check
-        if(head == NULL){
-            return NULL ;
+        
+        //base-case or edge-case
+        if(head == NULL) return NULL;
+
+        //1.) Unordered_map to store {original -> copy}
+        unordered_map<Node*, Node*> map;
+        map[NULL] = NULL;
+
+        //2.) Pass-1: Create a copy of every node.
+        for(Node* curr = head; curr != NULL; curr = curr->next){
+
+            map[curr] = new Node(curr->val);
         }
-        //unordered to map to store oldNode, newNode
-        unordered_map<Node* ,Node*> m ;
 
-        //make a newHead points to head->val
-        Node *newHead = new Node(head->val) ;
-        //make an oldTemp
-        Node *oldTemp = head->next ;
-        //make a newTemp =
-        Node *newTemp = newHead ;
-        //store head in map
-        m[head] = newHead ;
 
-        //Step 1 : Make a simple copy
-        while(oldTemp != NULL){
-            Node *copyNode = new Node(oldTemp->val) ;
-            //store in map
-            m[oldTemp] = copyNode ;
-            //copy the node
-            newTemp->next = copyNode ;
+        //3.) Pass-2: Connect the copied nodes.
+        for(Node* curr = head; curr != NULL; curr = curr->next){
             
-            //update both oldTemp, newTemp
-            oldTemp = oldTemp->next ;
-            newTemp = newTemp->next ;
+            map[curr]->next = map[curr->next];
+            map[curr]->random = map[curr->random];
         }
 
-        //Step 2 : Random connection copy to the new LL
-        //re-initialize
-        oldTemp = head ;
-        newTemp = newHead ;
 
-        while(oldTemp != NULL){
-            //make random connection
-            newTemp->random = m[oldTemp->random] ;
-            //upate oldTemp, newTemp
-            oldTemp = oldTemp->next ;
-            newTemp = newTemp->next ;            
-        }
-        return newHead ; //head of the new LL
-
+        //4.) Return the new head
+        return map[head];
+       
     }
 };

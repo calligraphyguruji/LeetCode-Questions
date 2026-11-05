@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-226_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-285-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-286-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 30.2% |
-| 🟡 **Medium** | 170 | 59.6% |
-| 🔴 **Hard** | 29 | 10.2% |
-| 🎯 **Total Solved** | **285** | **100%** |
+| 🟢 **Easy** | 86 | 30.1% |
+| 🟡 **Medium** | 171 | 59.8% |
+| 🔴 **Hard** | 29 | 10.1% |
+| 🎯 **Total Solved** | **286** | **100%** |
 | 🔥 **Current Streak** | **112 Days** | — |
 | 📅 **Total Active Days** | **226 Days** | — |
 
@@ -683,6 +683,7 @@ public:
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0138-copy-list-with-random-pointer/) | [Solution](Linked-List/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0141-linked-list-cycle/) | [Solution](Linked-List/0141-linked-list-cycle/0141-linked-list-cycle.cpp) |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0142-linked-list-cycle-ii/) | [Solution](Linked-List/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) |
+| 0143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0143-reorder-list/) | [Solution](Linked-List/0143-reorder-list/0143-reorder-list.cpp) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0144-binary-tree-preorder-traversal/) | [Solution](Trees/0144-binary-tree-preorder-traversal/0144-binary-tree-preorder-traversal.cpp) |
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0145-binary-tree-postorder-traversal/) | [Solution](Trees/0145-binary-tree-postorder-traversal/0145-binary-tree-postorder-traversal.cpp) |
 | 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0146-lru-cache/) | [Solution](Linked-List/0146-lru-cache/0146-lru-cache.cpp) |
@@ -1506,11 +1507,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 84 · **Remaining Questions:** 66
+**Total Questions:** 150 · **Solved Questions:** 85 · **Remaining Questions:** 65
 
-**Completion:** 56.0%
+**Completion:** 56.7%
 
-Progress: ███████████░░░░░░░░░ 56.0%
+Progress: ███████████░░░░░░░░░ 56.7%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1563,14 +1564,14 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 26 | Time Based Key Value Store | Medium | [LeetCode #981](https://leetcode.com/problems/time-based-key-value-store/) | ✅ Yes | [Solution](BinarySearch/0981-time-based-key-value-store/0981-time-based-key-value-store.cpp) |
 | 27 | Median of Two Sorted Arrays | Hard | [LeetCode #4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | ✅ Yes | [Solution](BinarySearch/0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.cpp) |
 
-### Linked List — 8/11 Solved (72.7%)
+### Linked List — 9/11 Solved (81.8%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 28 | Reverse Linked List | Easy | [LeetCode #206](https://leetcode.com/problems/reverse-linked-list/) | ✅ Yes | [Solution](Linked-List/0206-reverse-linked-list/0206-reverse-linked-list.cpp) |
 | 29 | Merge Two Sorted Lists | Easy | [LeetCode #21](https://leetcode.com/problems/merge-two-sorted-lists/) | ✅ Yes | [Solution](Linked-List/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
 | 30 | Linked List Cycle | Easy | [LeetCode #141](https://leetcode.com/problems/linked-list-cycle/) | ✅ Yes | [Solution](Linked-List/0141-linked-list-cycle/0141-linked-list-cycle.cpp) |
-| 31 | Reorder List | Medium | [LeetCode #143](https://leetcode.com/problems/reorder-list/) | ❌ No | — |
+| 31 | Reorder List | Medium | [LeetCode #143](https://leetcode.com/problems/reorder-list/) | ✅ Yes | [Solution](Linked-List/0143-reorder-list/0143-reorder-list.cpp) |
 | 32 | Remove Nth Node From End of List | Medium | [LeetCode #19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | ❌ No | — |
 | 33 | Copy List With Random Pointer | Medium | [LeetCode #138](https://leetcode.com/problems/copy-list-with-random-pointer/) | ✅ Yes | [Solution](Linked-List/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) |
 | 34 | Add Two Numbers | Medium | [LeetCode #2](https://leetcode.com/problems/add-two-numbers/) | ✅ Yes | [Solution](Linked-List/0002-add-two-numbers/0002-add-two-numbers.cpp) |

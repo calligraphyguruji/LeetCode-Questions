@@ -1,5 +1,23 @@
 class Solution {
 public:
+    //Approach : Sorting + Binary Search
+
+    //Time Complexity = O(m log m + n log m) =>
+    /* Let n = arr1.size() and m = arr2.size().
+    * Sorting arr2 takes O(m log m).
+    * The loop visits all n elements of arr1.
+    * For each element, binary search on arr2 takes O(log m).
+    * All searches together take O(n log m).
+    * Total: O(m log m + n log m).
+    */
+
+    //Space Complexity = O(log m) =>
+    /* Variables such as left, right, mid, and found take O(1) space.
+    * Binary search is iterative, so it takes O(1) extra space.
+    * C++ std::sort typically uses O(log m) stack space.
+    * Total auxiliary space: O(log m).
+    */
+
     int findTheDistanceValue(vector<int>& arr1, vector<int>& arr2, int d) {
         
         int n = arr2.size();

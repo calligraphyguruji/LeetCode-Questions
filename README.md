@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-111_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-112_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-225_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-226_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-284-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-285-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 85 | 29.9% |
-| 🟡 **Medium** | 170 | 59.9% |
+| 🟢 **Easy** | 86 | 30.2% |
+| 🟡 **Medium** | 170 | 59.6% |
 | 🔴 **Hard** | 29 | 10.2% |
-| 🎯 **Total Solved** | **284** | **100%** |
-| 🔥 **Current Streak** | **111 Days** | — |
-| 📅 **Total Active Days** | **225 Days** | — |
+| 🎯 **Total Solved** | **285** | **100%** |
+| 🔥 **Current Streak** | **112 Days** | — |
+| 📅 **Total Active Days** | **226 Days** | — |
 
 </div>
 
@@ -814,6 +814,7 @@ public:
 | 1361 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1361-validate-binary-tree-nodes/) | [Solution](Trees/1361-validate-binary-tree-nodes/1361-validate-binary-tree-nodes.cpp) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/) | [Solution](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp) |
 | 1367 | [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1367-linked-list-in-binary-tree/) | [Solution](Trees/1367-linked-list-in-binary-tree/1367-linked-list-in-binary-tree.cpp) |
+| 1385 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/1385-find-the-distance-value-between-two-arrays/) | [Solution](BinarySearch/1385-find-the-distance-value-between-two-arrays/1385-find-the-distance-value-between-two-arrays.cpp) |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | 🔴 `Hard` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1392-longest-happy-prefix/) | [Solution](Arrays/1392-longest-happy-prefix/1392-longest-happy-prefix.cpp) |
 | 1420 | [Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | [Solution](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons.cpp) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1431-kids-with-the-greatest-number-of-candies/) | [Solution](Arrays/1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.cpp) |

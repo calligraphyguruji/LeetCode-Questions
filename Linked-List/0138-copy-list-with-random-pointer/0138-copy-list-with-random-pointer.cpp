@@ -16,6 +16,19 @@ public:
 
 class Solution {
 public:
+    //Approach : Hash Map + (Two Passes)
+    
+    //Time Complexity = O(n) =>
+    /* First pass creates n copied nodes. = O(n)
+    * Second pass connects their pointers. = O(n)
+    * Each hash map operation takes O(1) average time.
+    */
+
+    //Space Complexity = O(n) =>
+    /* The hash map stores n original-to-copy pointer mappings. = O(n)
+    * The copied list also requires O(n) output space.
+    */
+
     Node* copyRandomList(Node* head) {
         
         //base-case or edge-case
@@ -35,8 +48,8 @@ public:
         //3.) Pass-2: Connect the copied nodes.
         for(Node* curr = head; curr != NULL; curr = curr->next){
             
-            map[curr]->next = map[curr->next];
-            map[curr]->random = map[curr->random];
+            map[curr]->next = map[curr->next];// Point to the copy of the next node.
+            map[curr]->random = map[curr->random];// Point to the copy of the random node.
         }
 
 

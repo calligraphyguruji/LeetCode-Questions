@@ -10,6 +10,20 @@
  */
 class Solution {
 public:
+    //Approach : Slow–Fast Pointers + Reverse Second Half + Alternate Merge.
+
+    //Time Complexity = O(n) =>
+    /* Finding the middle takes O(n).
+    * Reversing the second half takes O(n).
+    * Merging the halves takes O(n).
+    * Total: O(n) + O(n) + O(n) = O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* Uses a fixed number of pointers.
+    * Rearranges existing nodes in place without creating extra nodes or using recursion.
+    */
+
     void reorderList(ListNode* head) {
         
         //base-case or edge-case

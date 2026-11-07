@@ -10,6 +10,20 @@
  */
 class Solution {
 public:
+    //Approach : Min-Heap (Priority Queue) for K-Way Merge
+
+    //Time Complexity = O(k + N log(h + 1)) =>
+    /* Checking all k list heads takes O(k) time.
+    * Each of the N nodes is pushed into the heap once and popped once.
+    * The heap holds at most h nodes, one from each non-empty list. Each push or pop takes up to O(log(h + 1)) time.
+    */
+
+    //Space Complexity = O(h + 1) =>
+    /* The heap stores at most h node pointers.
+    * The dummy node and local pointers use O(1) space. The merged list reuses the original nodes.
+    */
+
+
     ListNode* mergeKLists(vector<ListNode*>& lists) {
 
         auto compare = [&](const ListNode* a, const ListNode* b){
@@ -41,7 +55,7 @@ public:
             //save its next
             ListNode* next = node->next;
 
-            //4.) Attach the node and move 
+            //4.) Attach the node and move the tail
             tail->next = node;
             tail = node;//move tail to node
 

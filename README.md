@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-113_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-114_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-227_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-228_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-288-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-289-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 29.9% |
-| 🟡 **Medium** | 173 | 60.1% |
-| 🔴 **Hard** | 29 | 10.1% |
-| 🎯 **Total Solved** | **288** | **100%** |
-| 🔥 **Current Streak** | **113 Days** | — |
-| 📅 **Total Active Days** | **227 Days** | — |
+| 🟢 **Easy** | 86 | 29.8% |
+| 🟡 **Medium** | 174 | 60.2% |
+| 🔴 **Hard** | 29 | 10.0% |
+| 🎯 **Total Solved** | **289** | **100%** |
+| 🔥 **Current Streak** | **114 Days** | — |
+| 📅 **Total Active Days** | **228 Days** | — |
 
 </div>
 
@@ -846,6 +846,7 @@ public:
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1768-merge-strings-alternately/) | [Solution](Arrays/1768-merge-strings-alternately/1768-merge-strings-alternately.cpp) |
 | 1816 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1816-truncate-sentence/) | [Solution](Arrays/1816-truncate-sentence/1816-truncate-sentence.cpp) |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1859-sorting-the-sentence/) | [Solution](Arrays/1859-sorting-the-sentence/1859-sorting-the-sentence.cpp) |
+| 1882 | [Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/1882-process-tasks-using-servers/) | [Solution](Heaps/1882-process-tasks-using-servers/1882-process-tasks-using-servers.cpp) |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1910-remove-all-occurrences-of-a-substring/) | [Solution](Arrays/1910-remove-all-occurrences-of-a-substring/1910-remove-all-occurrences-of-a-substring.cpp) |
 | 1911 | [Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1911-maximum-alternating-subsequence-sum/) | [Solution](DynamicProgramming/1911-maximum-alternating-subsequence-sum/1911-maximum-alternating-subsequence-sum.cpp) |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1920-build-array-from-permutation/) | [Solution](Arrays/1920-build-array-from-permutation/1920-build-array-from-permutation.cpp) |

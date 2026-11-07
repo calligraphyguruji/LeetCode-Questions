@@ -1311,6 +1311,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0128-longest-consecutive-sequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
@@ -1497,6 +1498,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 | [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
 ## Linked List
 |  |
@@ -1507,6 +1509,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0138-copy-list-with-random-pointer](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -1522,6 +1525,10 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0023-merge-k-sorted-lists) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

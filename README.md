@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-228_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-289-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-290-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 29.8% |
-| 🟡 **Medium** | 174 | 60.2% |
-| 🔴 **Hard** | 29 | 10.0% |
-| 🎯 **Total Solved** | **289** | **100%** |
+| 🟢 **Easy** | 86 | 29.7% |
+| 🟡 **Medium** | 174 | 60.0% |
+| 🔴 **Hard** | 30 | 10.3% |
+| 🎯 **Total Solved** | **290** | **100%** |
 | 🔥 **Current Streak** | **114 Days** | — |
 | 📅 **Total Active Days** | **228 Days** | — |
 
@@ -624,6 +624,7 @@ public:
 | 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0019-remove-nth-node-from-end-of-list/) | [Solution](Linked-List/0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.cpp) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0020-valid-parentheses/) | [Solution](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0021-merge-two-sorted-lists/) | [Solution](Linked-List/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.cpp) |
+| 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 `Hard` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0023-merge-k-sorted-lists/) | [Solution](Linked-List/0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.cpp) |
 | 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0024-swap-nodes-in-pairs/) | [Solution](Linked-List/0024-swap-nodes-in-pairs/0024-swap-nodes-in-pairs.cpp) |
 | 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 `Hard` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0025-reverse-nodes-in-k-group/) | [Solution](Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
 | 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0031-next-permutation/) | [Solution](Arrays/0031-next-permutation/0031-next-permutation.cpp) |
@@ -1526,11 +1527,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 86 · **Remaining Questions:** 64
+**Total Questions:** 150 · **Solved Questions:** 87 · **Remaining Questions:** 63
 
-**Completion:** 57.3%
+**Completion:** 58.0%
 
-Progress: ███████████░░░░░░░░░ 57.3%
+Progress: ███████████░░░░░░░░░ 58.0%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1583,7 +1584,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 26 | Time Based Key Value Store | Medium | [LeetCode #981](https://leetcode.com/problems/time-based-key-value-store/) | ✅ Yes | [Solution](BinarySearch/0981-time-based-key-value-store/0981-time-based-key-value-store.cpp) |
 | 27 | Median of Two Sorted Arrays | Hard | [LeetCode #4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | ✅ Yes | [Solution](BinarySearch/0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.cpp) |
 
-### Linked List — 10/11 Solved (90.9%)
+### Linked List — 11/11 Solved (100.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1596,7 +1597,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 34 | Add Two Numbers | Medium | [LeetCode #2](https://leetcode.com/problems/add-two-numbers/) | ✅ Yes | [Solution](Linked-List/0002-add-two-numbers/0002-add-two-numbers.cpp) |
 | 35 | Find The Duplicate Number | Medium | [LeetCode #287](https://leetcode.com/problems/find-the-duplicate-number/) | ✅ Yes | [Solution](Arrays/0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp) |
 | 36 | LRU Cache | Medium | [LeetCode #146](https://leetcode.com/problems/lru-cache/) | ✅ Yes | [Solution](Linked-List/0146-lru-cache/0146-lru-cache.cpp) |
-| 37 | Merge K Sorted Lists | Hard | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | ❌ No | — |
+| 37 | Merge K Sorted Lists | Hard | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | ✅ Yes | [Solution](Linked-List/0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.cpp) |
 | 38 | Reverse Nodes In K Group | Hard | [LeetCode #25](https://leetcode.com/problems/reverse-nodes-in-k-group/) | ✅ Yes | [Solution](Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
 
 ### Stack — 3/6 Solved (50.0%)

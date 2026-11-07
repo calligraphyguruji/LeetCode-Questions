@@ -1266,6 +1266,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0875-koko-eating-bananas](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0875-koko-eating-bananas) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1385-find-the-distance-value-between-two-arrays) |
+| [1882-process-tasks-using-servers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1882-process-tasks-using-servers) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3644-maximum-k-to-sort-a-permutation) |
@@ -1323,6 +1324,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
+| [1882-process-tasks-using-servers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1882-process-tasks-using-servers) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Bucket Sort
 |  |

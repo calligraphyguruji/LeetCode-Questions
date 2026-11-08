@@ -10,6 +10,21 @@
  */
 class Solution {
 public:
+    //Approach : Digit-by-digit addition with carry
+
+    //Time Complexity = O(max(m,n)) =>
+    /* m and n are the lengths of the two input lists.
+    * We traverse both lists together, processing each node once.
+    * Each iteration does constant work: addition, carry calculation, and node creation.
+    * The loop runs max(m, n) times, with at most one extra iteration for a final carry.
+    */
+
+    //Space Complexity =  O(1) =>
+    /* Auxiliary space: O(1) — pointers, digit variables, carry, and the dummy node use constant space.
+    * Including the output: O(max(m, n)) — the result contains at most max(m, n) + 1 nodes.
+    * No recursion or additional data structures are used.
+    */
+
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         
         //1.) Create a dummy node & curr pointer & carry = 0

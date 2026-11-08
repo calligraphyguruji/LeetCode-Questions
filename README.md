@@ -1365,6 +1365,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -1503,6 +1504,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0023-merge-k-sorted-lists) |
@@ -1514,6 +1516,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0206-reverse-linked-list) |

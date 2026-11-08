@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-229_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-291-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-292-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 29.6% |
-| 🟡 **Medium** | 175 | 60.1% |
+| 🟢 **Easy** | 86 | 29.5% |
+| 🟡 **Medium** | 176 | 60.3% |
 | 🔴 **Hard** | 30 | 10.3% |
-| 🎯 **Total Solved** | **291** | **100%** |
+| 🎯 **Total Solved** | **292** | **100%** |
 | 🔥 **Current Streak** | **115 Days** | — |
 | 📅 **Total Active Days** | **229 Days** | — |
 
@@ -689,6 +689,7 @@ public:
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0144-binary-tree-preorder-traversal/) | [Solution](Trees/0144-binary-tree-preorder-traversal/0144-binary-tree-preorder-traversal.cpp) |
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0145-binary-tree-postorder-traversal/) | [Solution](Trees/0145-binary-tree-postorder-traversal/0145-binary-tree-postorder-traversal.cpp) |
 | 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0146-lru-cache/) | [Solution](Linked-List/0146-lru-cache/0146-lru-cache.cpp) |
+| 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0150-evaluate-reverse-polish-notation/) | [Solution](Arrays/0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.cpp) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0151-reverse-words-in-a-string/) | [Solution](Arrays/0151-reverse-words-in-a-string/0151-reverse-words-in-a-string.cpp) |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0153-find-minimum-in-rotated-sorted-array/) | [Solution](BinarySearch/0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.cpp) |
 | 0154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0154-find-minimum-in-rotated-sorted-array-ii/) | [Solution](BinarySearch/0154-find-minimum-in-rotated-sorted-array-ii/0154-find-minimum-in-rotated-sorted-array-ii.cpp) |
@@ -1540,11 +1541,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 87 · **Remaining Questions:** 63
+**Total Questions:** 150 · **Solved Questions:** 88 · **Remaining Questions:** 62
 
-**Completion:** 58.0%
+**Completion:** 58.7%
 
-Progress: ███████████░░░░░░░░░ 58.0%
+Progress: ███████████░░░░░░░░░ 58.7%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1613,13 +1614,13 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 37 | Merge K Sorted Lists | Hard | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | ✅ Yes | [Solution](Linked-List/0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.cpp) |
 | 38 | Reverse Nodes In K Group | Hard | [LeetCode #25](https://leetcode.com/problems/reverse-nodes-in-k-group/) | ✅ Yes | [Solution](Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
 
-### Stack — 3/6 Solved (50.0%)
+### Stack — 4/6 Solved (66.7%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 39 | Valid Parentheses | Easy | [LeetCode #20](https://leetcode.com/problems/valid-parentheses/) | ✅ Yes | [Solution](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) |
 | 40 | Min Stack | Medium | [LeetCode #155](https://leetcode.com/problems/min-stack/) | ✅ Yes | [Solution](Arrays/0155-min-stack/0155-min-stack.cpp) |
-| 41 | Evaluate Reverse Polish Notation | Medium | [LeetCode #150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | ❌ No | — |
+| 41 | Evaluate Reverse Polish Notation | Medium | [LeetCode #150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | ✅ Yes | [Solution](Arrays/0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.cpp) |
 | 42 | Daily Temperatures | Medium | [LeetCode #739](https://leetcode.com/problems/daily-temperatures/) | ❌ No | — |
 | 43 | Car Fleet | Medium | [LeetCode #853](https://leetcode.com/problems/car-fleet/) | ❌ No | — |
 | 44 | Largest Rectangle In Histogram | Hard | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | ✅ Yes | [Solution](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |

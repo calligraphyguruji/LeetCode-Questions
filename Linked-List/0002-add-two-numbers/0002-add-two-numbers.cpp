@@ -10,41 +10,41 @@
  */
 class Solution {
 public:
-    //Time Complexity = O(n)=> for traversing the l1, l2
-    //Space Complexity = O(n) => taking space new result LL
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode *result = new ListNode(0) ; //result dummy node
-        ListNode *ptr = result ; //updates to result
-        //two variables carry, sum
-        int carry = 0 ; //initialize carry with 0
+        
+        //1.) Create a dummy node & curr pointer & carry = 0
+        ListNode* dummy = new ListNode();
 
-        while(l1 != nullptr || l2 != nullptr){
-            int sum = 0 + carry ;
+        ListNode* curr = dummy; //to build the answer linked list
 
-            if(l1 != nullptr){ //until l1 = nullptr , just add in sum
-                sum += l1->val ; //add the val
-                l1 = l1->next ; //update for next val
-            }
+        int carry = 0;
+
+        //2.) continue while either list has nodes or carry is non-zero
+        while(l1 || l2 || carry != 0){
             
-            if(l2 != nullptr){
-                sum += l2->val ; //add the val
-                l2 = l2->next ; //update for next val
-            }
+            //2.a) Read each digit; use 0 if the list has ended.
+            int digit1 = l1 ? l1->val : 0;
+            int digit2 = l2 ? l2->val : 0;
 
-            //update carry , sum
-            carry = sum/10 ; //removes the last digit 
-            sum = sum % 10 ; //removes the first digit
+            //2.b) Calculate total and update carry
+            int total = digit1 + digit2 + carry;
+            carry = total / 10;
 
-            ptr->next = new ListNode(sum) ; //insert sum val in the node
-            ptr = ptr->next ; //update ptr for next nodes
+            //2.c) Append the result digit in answer linked list
+            curr->next = new ListNode(total % 10);
+            curr = curr->next;
+
+            //2.d) Move the input pointers to next
+            if(l1) l1 = l1->next;
+            if(l2) l2 = l2->next;
 
         }
 
-        //edge case when no digits left only carry then
-        if(carry == 1){
-            ptr->next = new ListNode(carry) ;
-        }
+        //3.) Return the result head and delety dummy node
+        ListNode* result = dummy->next;
+        delete dummy;
 
-        return result->next ; //because result is dummy node (result->next = head) = return head
+        return result;//new head of result Linked list
+
     }
 };

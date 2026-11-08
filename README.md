@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-114_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-115_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-228_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-229_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-290-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-291-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 29.7% |
-| 🟡 **Medium** | 174 | 60.0% |
+| 🟢 **Easy** | 86 | 29.6% |
+| 🟡 **Medium** | 175 | 60.1% |
 | 🔴 **Hard** | 30 | 10.3% |
-| 🎯 **Total Solved** | **290** | **100%** |
-| 🔥 **Current Streak** | **114 Days** | — |
-| 📅 **Total Active Days** | **228 Days** | — |
+| 🎯 **Total Solved** | **291** | **100%** |
+| 🔥 **Current Streak** | **115 Days** | — |
+| 📅 **Total Active Days** | **229 Days** | — |
 
 </div>
 

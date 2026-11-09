@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-230_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-294-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-295-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 29.3% |
-| 🟡 **Medium** | 177 | 60.2% |
+| 🟢 **Easy** | 86 | 29.2% |
+| 🟡 **Medium** | 178 | 60.3% |
 | 🔴 **Hard** | 31 | 10.5% |
-| 🎯 **Total Solved** | **294** | **100%** |
+| 🎯 **Total Solved** | **295** | **100%** |
 | 🔥 **Current Streak** | **116 Days** | — |
 | 📅 **Total Active Days** | **230 Days** | — |
 
@@ -777,6 +777,7 @@ public:
 | 0814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0814-binary-tree-pruning/) | [Solution](Trees/0814-binary-tree-pruning/0814-binary-tree-pruning.cpp) |
 | 0841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0841-keys-and-rooms/) | [Solution 1](Graphs/0841-keys-and-rooms/0841-keys-and-rooms-approach-2-dfs.cpp) · [Solution 2](Graphs/0841-keys-and-rooms/0841-keys-and-rooms.cpp) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0852-peak-index-in-a-mountain-array/) | [Solution](BinarySearch/0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) |
+| 0853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0853-car-fleet/) | [Solution](Arrays/0853-car-fleet/0853-car-fleet.cpp) |
 | 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0859-buddy-strings/) | [Solution](Arrays/0859-buddy-strings/0859-buddy-strings.cpp) |
 | 0863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0863-all-nodes-distance-k-in-binary-tree/) | [Solution](Trees/0863-all-nodes-distance-k-in-binary-tree/0863-all-nodes-distance-k-in-binary-tree.cpp) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0872-leaf-similar-trees/) | [Solution](Trees/0872-leaf-similar-trees/0872-leaf-similar-trees.cpp) |
@@ -1566,11 +1567,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 89 · **Remaining Questions:** 61
+**Total Questions:** 150 · **Solved Questions:** 90 · **Remaining Questions:** 60
 
-**Completion:** 59.3%
+**Completion:** 60.0%
 
-Progress: ███████████░░░░░░░░░ 59.3%
+Progress: ████████████░░░░░░░░ 60.0%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1639,7 +1640,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 37 | Merge K Sorted Lists | Hard | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | ✅ Yes | [Solution](Linked-List/0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.cpp) |
 | 38 | Reverse Nodes In K Group | Hard | [LeetCode #25](https://leetcode.com/problems/reverse-nodes-in-k-group/) | ✅ Yes | [Solution](Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
 
-### Stack — 5/6 Solved (83.3%)
+### Stack — 6/6 Solved (100.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1647,7 +1648,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 40 | Min Stack | Medium | [LeetCode #155](https://leetcode.com/problems/min-stack/) | ✅ Yes | [Solution](Arrays/0155-min-stack/0155-min-stack.cpp) |
 | 41 | Evaluate Reverse Polish Notation | Medium | [LeetCode #150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | ✅ Yes | [Solution](Arrays/0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.cpp) |
 | 42 | Daily Temperatures | Medium | [LeetCode #739](https://leetcode.com/problems/daily-temperatures/) | ✅ Yes | [Solution](Arrays/0739-daily-temperatures/0739-daily-temperatures.cpp) |
-| 43 | Car Fleet | Medium | [LeetCode #853](https://leetcode.com/problems/car-fleet/) | ❌ No | — |
+| 43 | Car Fleet | Medium | [LeetCode #853](https://leetcode.com/problems/car-fleet/) | ✅ Yes | [Solution](Arrays/0853-car-fleet/0853-car-fleet.cpp) |
 | 44 | Largest Rectangle In Histogram | Hard | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | ✅ Yes | [Solution](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
 
 ### Trees — 11/15 Solved (73.3%)

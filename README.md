@@ -1270,6 +1270,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0875-koko-eating-bananas](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0875-koko-eating-bananas) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1385-find-the-distance-value-between-two-arrays) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1882-process-tasks-using-servers) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -1331,6 +1332,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0023-merge-k-sorted-lists](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1882-process-tasks-using-servers) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Bucket Sort
@@ -1536,6 +1538,14 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
+## Simulation
+|  |
+| ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+## Ordered Set
+|  |
+| ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

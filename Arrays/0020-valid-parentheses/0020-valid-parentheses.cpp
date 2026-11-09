@@ -1,43 +1,40 @@
 class Solution {
 public:
-    //Time Complexity = O(n) => cause traversing n brackets
-    //Space Complexity = O(n) => at most we will store n brackets in the stack.
-    bool isValid(string str) {
-        //make a stack of char
-        stack<char> st ;
+    bool isValid(string s) {
+        
+        //1.) Initialize empty stack
+        stack<char> brackets;
 
-        //traverse the string 
-        for(int i=0 ; i<str.size() ; i++){ // push opening brackets in stack
-            if(str[i] == '(' || str[i] == '{' || str[i] == '['){
-                st.push(str[i]) ;
+        //2.) Traverse the string from left to right
+        for(int i = 0; i < s.size(); i++){
+
+            //push each opening bracket into the stack
+            if(s[i] == '(' || s[i] == '{' || s[i] == '['){
+                
+                brackets.push(s[i]);
+                continue;
             }
 
-            else{ //match with closing brackets
-                //edge case : when closing brackets are more
-                if(st.empty()){
-                    return false ;
-                }
+            //3.) Check each closing bracket
 
-                //check the opening bracket on the stack top and match with string current bracket
-                if((st.top() == '(' && str[i] == ')') ||
-                   (st.top() == '{' && str[i] == '}') ||
-                   (st.top() == '[' && str[i] == ']')){
+            if(brackets.empty()){
+                return false; //if no opening brackets in stack
+            }
+
+            //if exists closing brackets
+            if(brackets.top() == '(' && s[i] == ')' ||
+                brackets.top() == '{' && s[i] == '}' ||
+                brackets.top() == '[' && s[i] == ']'){
                     
-                    st.pop() ; //if matched then pop from stack
-                }
-
-                else{ //not matched
-                  return false ;
-
-                }
-
+                    brackets.pop();//4.)if matching closing brackets found
             }
-
+            else{//if not matching
+                return false;
+            }
         }
-
-        //very important to return true if stack is empty
-        //this means all the matched element are popped
-        return st.empty() ;
-
+        
+        //5.) Finally return the output
+        return brackets.empty(); //if all matched then it should be true otherwise false
+        
     }
 };

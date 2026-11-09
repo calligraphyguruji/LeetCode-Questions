@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Sorting + Greedy (Right-to-Left Scan)
+
+    //Time Complexity = O(n * logn) =>
+    /* Building cars with push_back() takes O(n)
+    * sorting takes O(n * logn)
+    * the greedy scan takes O(n)
+    */
+ 
+    //Space Complexity = O(n) =>
+    /* Cars vector stores upto n elements : O(n)
+    * Variables = O(1)
+    */
+
+
     int carFleet(int target, vector<int>& position, vector<int>& speed) {
         
         //1.) Sort (position, speed) by decreasing order

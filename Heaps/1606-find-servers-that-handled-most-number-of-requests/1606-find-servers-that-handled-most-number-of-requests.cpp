@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Min-Heap + Ordered Set Simulation
+
+    //Time Complexity = O((n+k) * log(k+1)) =>
+    /* Initialization — Insert k server IDs into the ordered set one at a time. This takes \(O(k\log(k+1))\).
+    * Process requests — Each accepted request adds one heap entry, and that entry is popped at most once. So the while loop performs at most n pops across all requests. * Heap and ordered-set operations give \(O(n\log(k+1))\) total.
+    * Collect the answer — Find the maximum count and collect the tied IDs in \(O(k)\).
+    */
+
+    //Space Complexity = O(k) =>
+    /* Each server is tracked either in the free set or in the busy heap, so together they hold at most k entries.
+    * The counts array stores k integers. The output list can also hold up to k IDs if all servers tie.
+    */
+
+
     typedef pair<int, int> P;
 
     vector<int> busiestServers(int k, vector<int>& arrival, vector<int>& load) {

@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-115_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-116_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-229_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-230_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-292-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-293-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 29.5% |
-| 🟡 **Medium** | 176 | 60.3% |
-| 🔴 **Hard** | 30 | 10.3% |
-| 🎯 **Total Solved** | **292** | **100%** |
-| 🔥 **Current Streak** | **115 Days** | — |
-| 📅 **Total Active Days** | **229 Days** | — |
+| 🟢 **Easy** | 86 | 29.4% |
+| 🟡 **Medium** | 176 | 60.1% |
+| 🔴 **Hard** | 31 | 10.6% |
+| 🎯 **Total Solved** | **293** | **100%** |
+| 🔥 **Current Streak** | **116 Days** | — |
+| 📅 **Total Active Days** | **230 Days** | — |
 
 </div>
 
@@ -838,6 +838,7 @@ public:
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1572-matrix-diagonal-sum/) | [Solution](Arrays/1572-matrix-diagonal-sum/1572-matrix-diagonal-sum.cpp) |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1584-min-cost-to-connect-all-points/) | [Solution](Graphs/1584-min-cost-to-connect-all-points/1584-min-cost-to-connect-all-points.cpp) |
 | 1594 | [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/) | [Solution](DynamicProgramming/1594-maximum-non-negative-product-in-a-matrix/1594-maximum-non-negative-product-in-a-matrix.cpp) |
+| 1606 | [Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/) | 🔴 `Hard` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/1606-find-servers-that-handled-most-number-of-requests/) | [Solution](Heaps/1606-find-servers-that-handled-most-number-of-requests/1606-find-servers-that-handled-most-number-of-requests.cpp) |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1609-even-odd-tree/) | [Solution](Trees/1609-even-odd-tree/1609-even-odd-tree.cpp) |
 | 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1631-path-with-minimum-effort/) | [Solution 1](Graphs/1631-path-with-minimum-effort/1631-path-with-minimum-effort-approach-2.cpp) · [Solution 2](Graphs/1631-path-with-minimum-effort/1631-path-with-minimum-effort-approach-3-dijkstras-algorithm.cpp) · [Solution 3](Graphs/1631-path-with-minimum-effort/1631-path-with-minimum-effort.cpp) |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1662-check-if-two-string-arrays-are-equivalent/) | [Solution](Arrays/1662-check-if-two-string-arrays-are-equivalent/1662-check-if-two-string-arrays-are-equivalent.cpp) |

@@ -1268,6 +1268,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
+| [0739-daily-temperatures](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0739-daily-temperatures) |
 | [0875-koko-eating-bananas](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0875-koko-eating-bananas) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -1444,10 +1445,12 @@ This repository is created **purely for learning and educational purposes**. The
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0739-daily-temperatures](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0739-daily-temperatures) |
 ## Number Theory
 |  |
 | ------- |

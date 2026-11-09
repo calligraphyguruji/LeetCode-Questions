@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-230_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-293-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-294-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 29.4% |
-| 🟡 **Medium** | 176 | 60.1% |
-| 🔴 **Hard** | 31 | 10.6% |
-| 🎯 **Total Solved** | **293** | **100%** |
+| 🟢 **Easy** | 86 | 29.3% |
+| 🟡 **Medium** | 177 | 60.2% |
+| 🔴 **Hard** | 31 | 10.5% |
+| 🎯 **Total Solved** | **294** | **100%** |
 | 🔥 **Current Streak** | **116 Days** | — |
 | 📅 **Total Active Days** | **230 Days** | — |
 
@@ -767,6 +767,7 @@ public:
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 `Easy` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0704-binary-search/) | [Solution](BinarySearch/0704-binary-search/0704-binary-search.cpp) |
 | 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0709-to-lower-case/) | [Solution](Arrays/0709-to-lower-case/0709-to-lower-case.cpp) |
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | 🟢 `Easy` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0733-flood-fill/) | [Solution](Graphs/0733-flood-fill/0733-flood-fill.cpp) |
+| 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0739-daily-temperatures/) | [Solution](Arrays/0739-daily-temperatures/0739-daily-temperatures.cpp) |
 | 0743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0743-network-delay-time/) | [Solution](Graphs/0743-network-delay-time/0743-network-delay-time.cpp) |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0771-jewels-and-stones/) | [Solution](Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp) |
 | 0783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0783-minimum-distance-between-bst-nodes/) | [Solution](Trees/0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp) |
@@ -1555,11 +1556,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 88 · **Remaining Questions:** 62
+**Total Questions:** 150 · **Solved Questions:** 89 · **Remaining Questions:** 61
 
-**Completion:** 58.7%
+**Completion:** 59.3%
 
-Progress: ███████████░░░░░░░░░ 58.7%
+Progress: ███████████░░░░░░░░░ 59.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1628,14 +1629,14 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 37 | Merge K Sorted Lists | Hard | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) | ✅ Yes | [Solution](Linked-List/0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.cpp) |
 | 38 | Reverse Nodes In K Group | Hard | [LeetCode #25](https://leetcode.com/problems/reverse-nodes-in-k-group/) | ✅ Yes | [Solution](Linked-List/0025-reverse-nodes-in-k-group/0025-reverse-nodes-in-k-group.cpp) |
 
-### Stack — 4/6 Solved (66.7%)
+### Stack — 5/6 Solved (83.3%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 39 | Valid Parentheses | Easy | [LeetCode #20](https://leetcode.com/problems/valid-parentheses/) | ✅ Yes | [Solution](Arrays/0020-valid-parentheses/0020-valid-parentheses.cpp) |
 | 40 | Min Stack | Medium | [LeetCode #155](https://leetcode.com/problems/min-stack/) | ✅ Yes | [Solution](Arrays/0155-min-stack/0155-min-stack.cpp) |
 | 41 | Evaluate Reverse Polish Notation | Medium | [LeetCode #150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | ✅ Yes | [Solution](Arrays/0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.cpp) |
-| 42 | Daily Temperatures | Medium | [LeetCode #739](https://leetcode.com/problems/daily-temperatures/) | ❌ No | — |
+| 42 | Daily Temperatures | Medium | [LeetCode #739](https://leetcode.com/problems/daily-temperatures/) | ✅ Yes | [Solution](Arrays/0739-daily-temperatures/0739-daily-temperatures.cpp) |
 | 43 | Car Fleet | Medium | [LeetCode #853](https://leetcode.com/problems/car-fleet/) | ❌ No | — |
 | 44 | Largest Rectangle In Histogram | Hard | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | ✅ Yes | [Solution](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
 

@@ -11,12 +11,24 @@
  */
 class Solution {
 public:
+    //Approach : Recursive Depth-First Search (Preorder DFS)
+
+    //Time Complexity = O(n) =>
+    /* Each of the \(n\) nodes is visited once, and swapping its children takes constant time.
+    */
+
+    //Space Complexity = O(h) =>
+    /* The recursion stack holds one root-to-leaf path at a time, where \(h\) is the tree height. 
+    * That’s O(logn) for a balanced tree and O(n) for a tree shaped like a chain.
+    */
+
+
     void helper(TreeNode* root){
 
         //base-case
         if(root == NULL) return;
         
-        // Swap the two child branches of current node
+        // Swap the two child branches of root node
         TreeNode* originalLeft = root->left;
         root->left = root->right;
         root->right = originalLeft;

@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-231_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-296-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-297-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 29.1% |
-| 🟡 **Medium** | 179 | 60.5% |
-| 🔴 **Hard** | 31 | 10.5% |
-| 🎯 **Total Solved** | **296** | **100%** |
+| 🟢 **Easy** | 87 | 29.3% |
+| 🟡 **Medium** | 179 | 60.3% |
+| 🔴 **Hard** | 31 | 10.4% |
+| 🎯 **Total Solved** | **297** | **100%** |
 | 🔥 **Current Streak** | **117 Days** | — |
 | 📅 **Total Active Days** | **231 Days** | — |
 
@@ -708,6 +708,7 @@ public:
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0217-contains-duplicate/) | [Solution](Arrays/0217-contains-duplicate/0217-contains-duplicate.cpp) |
 | 0222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0222-count-complete-tree-nodes/) | [Solution](Trees/0222-count-complete-tree-nodes/0222-count-complete-tree-nodes.cpp) |
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0225-implement-stack-using-queues/) | [Solution](Arrays/0225-implement-stack-using-queues/0225-implement-stack-using-queues.cpp) |
+| 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0226-invert-binary-tree/) | [Solution](Trees/0226-invert-binary-tree/0226-invert-binary-tree.cpp) |
 | 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0230-kth-smallest-element-in-a-bst/) | [Solution](Trees/0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.cpp) |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0231-power-of-two/) | [Solution](BitManipulation/0231-power-of-two/0231-power-of-two.cpp) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0232-implement-queue-using-stacks/) | [Solution](Arrays/0232-implement-queue-using-stacks/0232-implement-queue-using-stacks.cpp) |
@@ -1577,11 +1578,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 90 · **Remaining Questions:** 60
+**Total Questions:** 150 · **Solved Questions:** 91 · **Remaining Questions:** 59
 
-**Completion:** 60.0%
+**Completion:** 60.7%
 
-Progress: ████████████░░░░░░░░ 60.0%
+Progress: ████████████░░░░░░░░ 60.7%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1661,11 +1662,11 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 43 | Car Fleet | Medium | [LeetCode #853](https://leetcode.com/problems/car-fleet/) | ✅ Yes | [Solution](Arrays/0853-car-fleet/0853-car-fleet.cpp) |
 | 44 | Largest Rectangle In Histogram | Hard | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | ✅ Yes | [Solution](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
 
-### Trees — 11/15 Solved (73.3%)
+### Trees — 12/15 Solved (80.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
-| 45 | Invert Binary Tree | Easy | [LeetCode #226](https://leetcode.com/problems/invert-binary-tree/) | ❌ No | — |
+| 45 | Invert Binary Tree | Easy | [LeetCode #226](https://leetcode.com/problems/invert-binary-tree/) | ✅ Yes | [Solution](Trees/0226-invert-binary-tree/0226-invert-binary-tree.cpp) |
 | 46 | Maximum Depth of Binary Tree | Easy | [LeetCode #104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | ❌ No | — |
 | 47 | Diameter of Binary Tree | Easy | [LeetCode #543](https://leetcode.com/problems/diameter-of-binary-tree/) | ✅ Yes | [Solution](Trees/0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.cpp) |
 | 48 | Balanced Binary Tree | Easy | [LeetCode #110](https://leetcode.com/problems/balanced-binary-tree/) | ✅ Yes | [Solution](Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp) |

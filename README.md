@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-116_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-117_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-230_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-231_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-295-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-296-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 86 | 29.2% |
-| 🟡 **Medium** | 178 | 60.3% |
+| 🟢 **Easy** | 86 | 29.1% |
+| 🟡 **Medium** | 179 | 60.5% |
 | 🔴 **Hard** | 31 | 10.5% |
-| 🎯 **Total Solved** | **295** | **100%** |
-| 🔥 **Current Streak** | **116 Days** | — |
-| 📅 **Total Active Days** | **230 Days** | — |
+| 🎯 **Total Solved** | **296** | **100%** |
+| 🔥 **Current Streak** | **117 Days** | — |
+| 📅 **Total Active Days** | **231 Days** | — |
 
 </div>
 
@@ -896,6 +896,7 @@ public:
 | 3619 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3619-count-islands-with-total-value-divisible-by-k/) | [Solution](Graphs/3619-count-islands-with-total-value-divisible-by-k/3619-count-islands-with-total-value-divisible-by-k.cpp) |
 | 3644 | [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | 🟡 `Medium` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/3644-maximum-k-to-sort-a-permutation/) | [Solution](BitManipulation/3644-maximum-k-to-sort-a-permutation/3644-maximum-k-to-sort-a-permutation.cpp) |
 | 3665 | [Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/3665-twisted-mirror-path-count/) | [Solution](DynamicProgramming/3665-twisted-mirror-path-count/3665-twisted-mirror-path-count.cpp) |
+| 3693 | [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/3693-climbing-stairs-ii/) | [Solution](DynamicProgramming/3693-climbing-stairs-ii/3693-climbing-stairs-ii.cpp) |
 | 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3736-minimum-moves-to-equal-array-elements-iii/) | [Solution 1](Math/3736-minimum-moves-to-equal-array-elements-iii/3736-minimum-moves-to-equal-array-elements-iii.cpp) · [Solution 2](Math/3736-minimum-moves-to-equal-array-elements-iii/3736-minimum-moves-to-equal-array-elements-iii.java) |
 | 3841 | [Palindromic Path Queries in a Tree](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/3841-palindromic-path-queries-in-a-tree/) | [Solution](Trees/3841-palindromic-path-queries-in-a-tree/3841-palindromic-path-queries-in-a-tree.cpp) |
 | 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3863-minimum-operations-to-sort-a-string/) | [Solution](Arrays/3863-minimum-operations-to-sort-a-string/3863-minimum-operations-to-sort-a-string.cpp) |

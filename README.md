@@ -1281,6 +1281,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3665-twisted-mirror-path-count](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3665-twisted-mirror-path-count) |
+| [3693-climbing-stairs-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3693-climbing-stairs-ii) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
@@ -1443,6 +1444,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [3665-twisted-mirror-path-count](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3665-twisted-mirror-path-count) |
+| [3693-climbing-stairs-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3693-climbing-stairs-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Stack
 |  |

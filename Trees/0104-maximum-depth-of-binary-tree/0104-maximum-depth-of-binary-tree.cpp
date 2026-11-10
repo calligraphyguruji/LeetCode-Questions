@@ -11,6 +11,18 @@
  */
 class Solution {
 public:
+    //Approach : Postorder DFS
+
+    //Time Complexity = O(n) =>
+    /* DFS visits all n nodes once. 
+    * Each node does constant work to combine its two child depths.
+    */
+
+    //Space Complexity = O(h) =>
+    /* The recursion stack holds one path at a time, where h is the tree’s height. 
+    * That’s O(logn) for a balanced tree and O(n) for a tree shaped like a chain.
+    */
+
     int helper(TreeNode* root){
 
         //base-case

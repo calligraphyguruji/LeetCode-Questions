@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-231_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-297-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-298-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 87 | 29.3% |
-| 🟡 **Medium** | 179 | 60.3% |
+| 🟢 **Easy** | 88 | 29.5% |
+| 🟡 **Medium** | 179 | 60.1% |
 | 🔴 **Hard** | 31 | 10.4% |
-| 🎯 **Total Solved** | **297** | **100%** |
+| 🎯 **Total Solved** | **298** | **100%** |
 | 🔥 **Current Streak** | **117 Days** | — |
 | 📅 **Total Active Days** | **231 Days** | — |
 
@@ -663,6 +663,7 @@ public:
 | 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0101-symmetric-tree/) | [Solution](Trees/0101-symmetric-tree/0101-symmetric-tree.cpp) |
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0102-binary-tree-level-order-traversal/) | [Solution](Trees/0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.cpp) |
 | 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0103-binary-tree-zigzag-level-order-traversal/) | [Solution](Trees/0103-binary-tree-zigzag-level-order-traversal/0103-binary-tree-zigzag-level-order-traversal.cpp) |
+| 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0104-maximum-depth-of-binary-tree/) | [Solution](Trees/0104-maximum-depth-of-binary-tree/0104-maximum-depth-of-binary-tree.cpp) |
 | 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp) |
 | 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | [Solution](Trees/0106-construct-binary-tree-from-inorder-and-postorder-traversal/0106-construct-binary-tree-from-inorder-and-postorder-traversal.cpp) |
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0108-convert-sorted-array-to-binary-search-tree/) | [Solution](Trees/0108-convert-sorted-array-to-binary-search-tree/0108-convert-sorted-array-to-binary-search-tree.cpp) |
@@ -1582,11 +1583,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 91 · **Remaining Questions:** 59
+**Total Questions:** 150 · **Solved Questions:** 92 · **Remaining Questions:** 58
 
-**Completion:** 60.7%
+**Completion:** 61.3%
 
-Progress: ████████████░░░░░░░░ 60.7%
+Progress: ████████████░░░░░░░░ 61.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1666,12 +1667,12 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 43 | Car Fleet | Medium | [LeetCode #853](https://leetcode.com/problems/car-fleet/) | ✅ Yes | [Solution](Arrays/0853-car-fleet/0853-car-fleet.cpp) |
 | 44 | Largest Rectangle In Histogram | Hard | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | ✅ Yes | [Solution](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
 
-### Trees — 12/15 Solved (80.0%)
+### Trees — 13/15 Solved (86.7%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 45 | Invert Binary Tree | Easy | [LeetCode #226](https://leetcode.com/problems/invert-binary-tree/) | ✅ Yes | [Solution](Trees/0226-invert-binary-tree/0226-invert-binary-tree.cpp) |
-| 46 | Maximum Depth of Binary Tree | Easy | [LeetCode #104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | ❌ No | — |
+| 46 | Maximum Depth of Binary Tree | Easy | [LeetCode #104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | ✅ Yes | [Solution](Trees/0104-maximum-depth-of-binary-tree/0104-maximum-depth-of-binary-tree.cpp) |
 | 47 | Diameter of Binary Tree | Easy | [LeetCode #543](https://leetcode.com/problems/diameter-of-binary-tree/) | ✅ Yes | [Solution](Trees/0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.cpp) |
 | 48 | Balanced Binary Tree | Easy | [LeetCode #110](https://leetcode.com/problems/balanced-binary-tree/) | ✅ Yes | [Solution](Trees/0110-balanced-binary-tree/0110-balanced-binary-tree.cpp) |
 | 49 | Same Tree | Easy | [LeetCode #100](https://leetcode.com/problems/same-tree/) | ✅ Yes | [Solution](Trees/0100-same-tree/0100-same-tree.cpp) |

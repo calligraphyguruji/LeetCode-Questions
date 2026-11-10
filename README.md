@@ -1469,12 +1469,14 @@ This repository is created **purely for learning and educational purposes**. The
 ## Depth-First Search
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Sliding Window
@@ -1488,6 +1490,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Binary Indexed Tree
 |  |
@@ -1565,6 +1568,10 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0020-valid-parentheses) |
+## Binary Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

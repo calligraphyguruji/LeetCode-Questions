@@ -1,40 +1,44 @@
 class Solution {
 public:
-    //Approach : 
+    //Approach : Bottom-Up DP
 
     //Time Complexity = O(n) =>
-    /* At most visiting all n+1 steps once = O(n+1) = O(n)
+    /* The loop visits each of the n steps once and checks at most three jumps per step.
     */
 
-    //Space Complexity = O(1) =>
-    /* Only a few variables are used.
-    * No extra data structures needed for storage.
+    //Space Compelexity = O(n) =>
+    /* The dp array stores (n+1) values, one for each step from 0 to n.
     */
-    
+
     int climbStairs(int n, vector<int>& costs) {
         
-        // Minimum costs to reach n from i + 1, i + 2, and i + 3.
-        int next1 = 0, next2 = 0, next3 = 0;
+        // dp[j] is the minimum cost to reach step j from step 0.
+        vector<int> dp(n+1);
+        
+        // Step 1. Set dp[0] = 0 because we start at step 0 for free.
+        dp[0] = 0;
 
-        for(int i = n - 1; i >= 0; i--){
-            // A one-step jump is always valid here.
-            int best = costs[i] + 1 + next1;
+        // Step 2. Visit steps j = 1 to n.
+        for(int j = 1; j <= n; j++){
+            // Step 3. Try jump lengths d = 1, 2, 3 if j - d >= 0.
+            // Each candidate includes the previous cost and the penalty d * d.
+            int best = dp[j-1] + 1;
 
-            if(i + 2 <= n){
-                best = min(best, costs[i + 1] + 4 + next2);
+            if(j >= 2){
+                
+                best = min(best, dp[j-2] + 4);
             }
 
-            if(i + 3 <= n){
-                best = min(best, costs[i + 2] + 9 + next3);
+            if(j >= 3){
+                best = min(best, dp[j-3] + 9);
             }
 
-            // Shift the saved costs before moving one step left.
-            next3 = next2;
-            next2 = next1;
-            next1 = best;
+            // Step 4. Add the landing cost of step j to the best candidate.
+            dp[j] = best + costs[j-1];
+            
         }
-
-        // After processing step 0, next1 holds the minimum cost from step 0 to step n.
-        return next1;
+        
+        // Step 5. Return dp[n], the cheapest cost to reach the final step.
+        return dp[n];
     }
 };

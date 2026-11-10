@@ -1,5 +1,16 @@
 class Solution {
 public:
+    //Approach : 
+
+    //Time Complexity = O(n) =>
+    /* At most visiting all n+1 steps once = O(n+1) = O(n)
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only a few variables are used.
+    * No extra data structures needed for storage.
+    */
+    
     int climbStairs(int n, vector<int>& costs) {
         
         // Minimum costs to reach n from i + 1, i + 2, and i + 3.

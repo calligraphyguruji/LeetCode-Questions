@@ -1,5 +1,22 @@
 class Solution {
 public:
+    //Approach : Monotonic Increasing Stack
+    
+    //Time Complexity = O(n) =>
+    /* The for loop runs n + 1 times.
+    * Each index is pushed onto the stack once.
+    * Each index is popped at most once.
+    * The inner while loop performs at most n pops across the entire traversal.
+    * Total work is proportional to n: O(n).
+    */
+
+    //Space Complexity = O(n) =>
+    /* The stack can store up to n indices when heights are increasing.
+    * Other variables use constant space: O(1).
+    * Total extra space: O(n).
+    */
+
+
     int largestRectangleArea(vector<int>& heights) {
         
         //1.) Create an empty stack of indices and set maxArea = 0.

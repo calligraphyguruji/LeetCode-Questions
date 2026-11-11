@@ -1,13 +1,13 @@
 {
   "source": "https://leetcode.com/graphql/",
-  "last_verified_at": "2026-11-11T08:24:12.988160+00:00",
+  "last_verified_at": "2026-11-11T08:48:54.530967+00:00",
   "stats": {
     "username": "calligraphyguruji",
     "calendar_year": 2026,
-    "easy": 88,
+    "easy": 89,
     "medium": 180,
     "hard": 31,
-    "solved": 299,
+    "solved": 300,
     "current_streak": 118,
     "active_days": 232,
     "streak_basis": "consecutive public submission-calendar days (UTC)",

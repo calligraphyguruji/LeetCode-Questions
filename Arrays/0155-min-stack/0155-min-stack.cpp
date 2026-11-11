@@ -1,59 +1,45 @@
 class MinStack {
 public:
-    stack<long long int> s ;
-    long long minVal ;
-    MinStack() {
+    MinStack() { //this is constructor => if you don't study oops concepts
+    //you don't have to write any code in here.
         
-    } //this is constructor
-    
-    //Time Complexity = O(n) => overall performing n operations
-    //Space Complexity = O(n)
+    }
 
-    void push(int val) { //Time Complexity of push = O(1)
-        //Case(1) :
-        if(s.empty()){
-            s.push(val) ;
-            minVal = val ;
+    //1.) Initialize a empty stack
+    stack<pair<int, int>> st; //stores {value, minValue}
+    
+    void push(int value) {
+        
+        int newMin = value;
+
+        if(!st.empty()){
+
+            newMin = min(value, getMin());//find minimum
         }
-        //Case(2) :
-        else{
-            if(val < minVal){
-                s.push((long long)2*val - minVal) ;
-                minVal = val ;
-            }
-            else{
-                s.push(val) ;
-            }
-        }
+
+        st.push({value, newMin});
     }
     
-    void pop() { //Time Complexity = O(1)
-        if(s.top() < minVal){
-            minVal = 2*minVal - s.top() ;
-        }
-        s.pop() ; //values greater than minVal
+    void pop() {
+        
+        st.pop();
     }
     
-    int top() {//Time Complexity = O(1)
-        //Case 1: top is formula value
-        if(s.top() < minVal){
-            return minVal ;
-        }
-        //Case 2 :
-        else{
-            return s.top() ;
-        }
+    int top() {
+        
+        return st.top().first; //return the value , because stack stores {value, minValue}
     }
     
-    int getMin() { //Time Complexity = O(1)
-        return minVal ; //optimization
+    int getMin() {
+        
+        return st.top().second;//min value is already calculated in push func. ,just return the the second column minValue
     }
 };
 
 /**
  * Your MinStack object will be instantiated and called as such:
  * MinStack* obj = new MinStack();
- * obj->push(val);
+ * obj->push(value);
  * obj->pop();
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();

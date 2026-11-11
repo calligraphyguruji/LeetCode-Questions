@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-232_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-300-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-301-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 89 | 29.7% |
-| 🟡 **Medium** | 180 | 60.0% |
-| 🔴 **Hard** | 31 | 10.3% |
-| 🎯 **Total Solved** | **300** | **100%** |
+| 🟢 **Easy** | 89 | 29.6% |
+| 🟡 **Medium** | 180 | 59.8% |
+| 🔴 **Hard** | 32 | 10.6% |
+| 🎯 **Total Solved** | **301** | **100%** |
 | 🔥 **Current Streak** | **118 Days** | — |
 | 📅 **Total Active Days** | **232 Days** | — |
 
@@ -724,6 +724,7 @@ public:
 | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0264-ugly-number-ii/) | [Solution](DynamicProgramming/0264-ugly-number-ii/0264-ugly-number-ii.cpp) |
 | 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0279-perfect-squares/) | [Solution](DynamicProgramming/0279-perfect-squares/0279-perfect-squares.cpp) |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0287-find-the-duplicate-number/) | [Solution](Arrays/0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp) |
+| 0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0297-serialize-and-deserialize-binary-tree/) | [Solution](Trees/0297-serialize-and-deserialize-binary-tree/0297-serialize-and-deserialize-binary-tree.cpp) |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0300-longest-increasing-subsequence/) | [Solution](DynamicProgramming/0300-longest-increasing-subsequence/0300-longest-increasing-subsequence.cpp) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0322-coin-change/) | [Solution](DynamicProgramming/0322-coin-change/0322-coin-change.cpp) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0326-power-of-three/) | [Solution](Math/0326-power-of-three/0326-power-of-three.cpp) |
@@ -1600,11 +1601,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 92 · **Remaining Questions:** 58
+**Total Questions:** 150 · **Solved Questions:** 93 · **Remaining Questions:** 57
 
-**Completion:** 61.3%
+**Completion:** 62.0%
 
-Progress: ████████████░░░░░░░░ 61.3%
+Progress: ████████████░░░░░░░░ 62.0%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1684,7 +1685,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 43 | Car Fleet | Medium | [LeetCode #853](https://leetcode.com/problems/car-fleet/) | ✅ Yes | [Solution](Arrays/0853-car-fleet/0853-car-fleet.cpp) |
 | 44 | Largest Rectangle In Histogram | Hard | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | ✅ Yes | [Solution](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
 
-### Trees — 13/15 Solved (86.7%)
+### Trees — 14/15 Solved (93.3%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1702,7 +1703,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 56 | Kth Smallest Element In a Bst | Medium | [LeetCode #230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | ✅ Yes | [Solution](Trees/0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.cpp) |
 | 57 | Construct Binary Tree From Preorder And Inorder Traversal | Medium | [LeetCode #105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | ✅ Yes | [Solution](Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp) |
 | 58 | Binary Tree Maximum Path Sum | Hard | [LeetCode #124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | ✅ Yes | [Solution](Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp) |
-| 59 | Serialize And Deserialize Binary Tree | Hard | [LeetCode #297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | ❌ No | — |
+| 59 | Serialize And Deserialize Binary Tree | Hard | [LeetCode #297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | ✅ Yes | [Solution](Trees/0297-serialize-and-deserialize-binary-tree/0297-serialize-and-deserialize-binary-tree.cpp) |
 
 ### Tries — 0/3 Solved (0.0%)
 

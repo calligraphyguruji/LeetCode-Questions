@@ -1,5 +1,16 @@
 class Solution {
 public:
+    //Approach : Greedy + Math
+
+    //Time Complexity = O(1) =>
+    /* No loops are used.
+    */
+
+    //Space Complexity = O(1) =>
+    /* No extra data structures are used for storage.
+    * Only a few variables are used. = O(1)
+    */
+
     long long minimumCost(int cost1, int cost2, int costBoth, int need1, int need2) {
         
         //1.) Find the shared quantity

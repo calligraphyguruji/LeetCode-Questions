@@ -1387,6 +1387,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [2409-count-days-spent-together](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2409-count-days-spent-together) |
 | [2413-smallest-even-multiple](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2413-smallest-even-multiple) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
 ## Bit Manipulation
 |  |
@@ -1432,6 +1433,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0011-container-with-most-water) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Pigeonhole Principle
 |  |
 | ------- |

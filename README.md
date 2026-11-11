@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-117_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-118_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-231_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-232_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-298-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-299-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 88 | 29.5% |
-| 🟡 **Medium** | 179 | 60.1% |
+| 🟢 **Easy** | 88 | 29.4% |
+| 🟡 **Medium** | 180 | 60.2% |
 | 🔴 **Hard** | 31 | 10.4% |
-| 🎯 **Total Solved** | **298** | **100%** |
-| 🔥 **Current Streak** | **117 Days** | — |
-| 📅 **Total Active Days** | **231 Days** | — |
+| 🎯 **Total Solved** | **299** | **100%** |
+| 🔥 **Current Streak** | **118 Days** | — |
+| 📅 **Total Active Days** | **232 Days** | — |
 
 </div>
 
@@ -900,6 +900,7 @@ public:
 | 3665 | [Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/3665-twisted-mirror-path-count/) | [Solution](DynamicProgramming/3665-twisted-mirror-path-count/3665-twisted-mirror-path-count.cpp) |
 | 3693 | [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/3693-climbing-stairs-ii/) | [Solution](DynamicProgramming/3693-climbing-stairs-ii/3693-climbing-stairs-ii.cpp) |
 | 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3736-minimum-moves-to-equal-array-elements-iii/) | [Solution 1](Math/3736-minimum-moves-to-equal-array-elements-iii/3736-minimum-moves-to-equal-array-elements-iii.cpp) · [Solution 2](Math/3736-minimum-moves-to-equal-array-elements-iii/3736-minimum-moves-to-equal-array-elements-iii.java) |
+| 3789 | [Minimum Cost to Acquire Required Items](https://leetcode.com/problems/minimum-cost-to-acquire-required-items/) | 🟡 `Medium` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3789-minimum-cost-to-acquire-required-items/) | [Solution](Math/3789-minimum-cost-to-acquire-required-items/3789-minimum-cost-to-acquire-required-items.cpp) |
 | 3841 | [Palindromic Path Queries in a Tree](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/3841-palindromic-path-queries-in-a-tree/) | [Solution](Trees/3841-palindromic-path-queries-in-a-tree/3841-palindromic-path-queries-in-a-tree.cpp) |
 | 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3863-minimum-operations-to-sort-a-string/) | [Solution](Arrays/3863-minimum-operations-to-sort-a-string/3863-minimum-operations-to-sort-a-string.cpp) |
 | 3882 | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/3882-minimum-xor-path-in-a-grid/) | [Solution](DynamicProgramming/3882-minimum-xor-path-in-a-grid/3882-minimum-xor-path-in-a-grid.cpp) |

@@ -11,6 +11,22 @@
  */
 class Solution {
 public:
+    //Approach : Postorder DFS with height calculation
+
+    //Time Complexity = O(n) =>
+    /* Each node is visited exactly once.
+    * At each node, adding heights, comparing values, and returning height take O(1) time.
+    * For n nodes, total time is O(n).
+    */
+
+    //Space Complexity = O(h) =>
+    /* Recursive calls use stack space proportional to the tree’s height h.
+    * Balanced tree: height is O(log n), so space is O(log n).
+    * Skewed tree: height is O(n), so space is O(n).
+    * Each call uses only a constant amount of local storage.
+    */
+
+
     int height(TreeNode* root, int& diameter){
 
         //base-case

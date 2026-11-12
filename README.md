@@ -1285,6 +1285,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1882-process-tasks-using-servers) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3665-twisted-mirror-path-count](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3665-twisted-mirror-path-count) |

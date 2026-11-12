@@ -1487,6 +1487,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0104-maximum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0543-diameter-of-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
@@ -1512,6 +1513,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0104-maximum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0543-diameter-of-binary-tree) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Binary Indexed Tree
 |  |
@@ -1598,6 +1600,11 @@ This repository is created **purely for learning and educational purposes**. The
 | [0104-maximum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0543-diameter-of-binary-tree) |
+## DP on Trees
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

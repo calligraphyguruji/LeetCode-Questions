@@ -48,15 +48,6 @@
 
 ---
 
-## ⏱️ Complexity Analysis
-
-```text
-Time Complexity = O(n*n) => cause in diameter func. for currDiam height func. is calling
-Space Complexity = O(1)
-```
-
----
-
 ## 💻 C++ Solution
 
 [View Original C++ File](./0543-diameter-of-binary-tree.cpp)
@@ -75,28 +66,33 @@ Space Complexity = O(1)
  */
 class Solution {
 public:
-    //Time Complexity = O(n*n) => cause in diameter func. for currDiam height func. is calling
-    //Space Complexity = O(1)
-    int height(TreeNode* root){
-        //base case
-        if(root == NULL) return 0 ;
+    int height(TreeNode* root, int& diameter){
 
-        //for left
-        int leftHt = height(root->left) ;
-        //for right
-        int rightHt = height(root->right) ;
+        //base-case
+        if(root == NULL) return 0;
 
-        return max(leftHt, rightHt) + 1 ;
+        // Step 5: Calculate the left & right subtree's height in nodes.
+        int leftHeight = height(root->left, diameter);
+        int rightHeight = height(root->right, diameter);
+
+        //Step 6: Update diameter
+        diameter = max(diameter, leftHeight + rightHeight);
+
+        // Step 8: Return this subtree's height to its parent.
+        // A parent can extend only one branch, so choose the taller one
+        // and add 1 to include the current node.
+        return 1 + max(leftHeight, rightHeight);
     }
     int diameterOfBinaryTree(TreeNode* root) {
-        //base case
-        if(root == NULL) return 0 ;
-
-        int leftDiam = diameterOfBinaryTree(root->left) ;
-        int rightDiam = diameterOfBinaryTree(root->right) ;
-        int currDiam = height(root->left) + height(root->right) ;
-
-        return max(currDiam, max(leftDiam, rightDiam)) ;
+        
+        // Step 1: Initialize the longest path length to 0 edges.
+        int diameter = 0;
+        
+        // Step 2: Traverse the tree and update the diameter.
+        height(root, diameter);
+        
+        //Finally 
+        return diameter;
     }
 };
 ```

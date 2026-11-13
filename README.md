@@ -1287,6 +1287,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1882-process-tasks-using-servers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1882-process-tasks-using-servers) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3665-twisted-mirror-path-count](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3665-twisted-mirror-path-count) |
@@ -1470,6 +1471,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0155-min-stack](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0853-car-fleet) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -1477,6 +1479,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0084-largest-rectangle-in-histogram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0853-car-fleet) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Number Theory
 |  |
 | ------- |
@@ -1508,6 +1511,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Tree
 |  |
 | ------- |
@@ -1524,6 +1528,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Segment Tree
 |  |
 | ------- |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Graph Theory
 |  |
@@ -1537,10 +1542,12 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Range Minimum/Maximum Query
 |  |
 | ------- |

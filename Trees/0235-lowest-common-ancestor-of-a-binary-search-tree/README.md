@@ -47,6 +47,23 @@
 
 ---
 
+## 💡 Approach
+
+```text
+Approach : Iterative BST Traversal
+```
+
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(h) => h = height of the tree
+Space Complexity = O(1) =>
+```
+
+---
+
 ## 💻 C++ Solution
 
 [View Original C++ File](./0235-lowest-common-ancestor-of-a-binary-search-tree.cpp)
@@ -64,6 +81,22 @@
 
 class Solution {
 public:
+    //Approach : Iterative BST Traversal
+
+    //Time Complexity = O(h) => h = height of the tree
+    /* Each iteration moves down one level.
+    * We follow a single path, visiting at most h nodes.
+    * Balanced BST: h = O(log n) → O(log n) time.
+    * Skewed BST: h = O(n) → O(n) time.
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only one extra pointer, current, is stored.
+    * No additional arrays, stacks, or queues are used.
+    * The traversal is iterative, so there is no recursion stack.
+    */
+
+
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         
         // Step 1: Start at the root.

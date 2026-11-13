@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    //Approch : Recursive Depth-First Search (DFS)
+    //Approach : Recursive Depth-First Search (DFS)
 
     //Time Complexity = O(n) =>
     /* N is the number of nodes in the larger tree.

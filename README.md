@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-234_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-303-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-304-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 90 | 29.7% |
-| 🟡 **Medium** | 180 | 59.4% |
+| 🟢 **Easy** | 90 | 29.6% |
+| 🟡 **Medium** | 181 | 59.5% |
 | 🔴 **Hard** | 33 | 10.9% |
-| 🎯 **Total Solved** | **303** | **100%** |
+| 🎯 **Total Solved** | **304** | **100%** |
 | 🔥 **Current Streak** | **120 Days** | — |
 | 📅 **Total Active Days** | **234 Days** | — |
 
@@ -703,6 +703,7 @@ public:
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0200-number-of-islands/) | [Solution](Graphs/0200-number-of-islands/0200-number-of-islands.cpp) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0206-reverse-linked-list/) | [Solution](Linked-List/0206-reverse-linked-list/0206-reverse-linked-list.cpp) |
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0207-course-schedule/) | [Solution](Graphs/0207-course-schedule/0207-course-schedule.cpp) |
+| 0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0208-implement-trie-prefix-tree/) | [Solution](Trees/0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.cpp) |
 | 0210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0210-course-schedule-ii/) | [Solution](Graphs/0210-course-schedule-ii/0210-course-schedule-ii.cpp) |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0213-house-robber-ii/) | [Solution](DynamicProgramming/0213-house-robber-ii/0213-house-robber-ii.cpp) |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0215-kth-largest-element-in-an-array/) | [Solution](Heaps/0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.cpp) |
@@ -1628,11 +1629,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 93 · **Remaining Questions:** 57
+**Total Questions:** 150 · **Solved Questions:** 94 · **Remaining Questions:** 56
 
-**Completion:** 62.0%
+**Completion:** 62.7%
 
-Progress: ████████████░░░░░░░░ 62.0%
+Progress: ████████████░░░░░░░░ 62.7%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1732,11 +1733,11 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 58 | Binary Tree Maximum Path Sum | Hard | [LeetCode #124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | ✅ Yes | [Solution](Trees/0124-binary-tree-maximum-path-sum/0124-binary-tree-maximum-path-sum.cpp) |
 | 59 | Serialize And Deserialize Binary Tree | Hard | [LeetCode #297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | ✅ Yes | [Solution](Trees/0297-serialize-and-deserialize-binary-tree/0297-serialize-and-deserialize-binary-tree.cpp) |
 
-### Tries — 0/3 Solved (0.0%)
+### Tries — 1/3 Solved (33.3%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
-| 60 | Implement Trie Prefix Tree | Medium | [LeetCode #208](https://leetcode.com/problems/implement-trie-prefix-tree/) | ❌ No | — |
+| 60 | Implement Trie Prefix Tree | Medium | [LeetCode #208](https://leetcode.com/problems/implement-trie-prefix-tree/) | ✅ Yes | [Solution](Trees/0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.cpp) |
 | 61 | Design Add And Search Words Data Structure | Medium | [LeetCode #211](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | ❌ No | — |
 | 62 | Word Search II | Hard | [LeetCode #212](https://leetcode.com/problems/word-search-ii/) | ❌ No | — |
 

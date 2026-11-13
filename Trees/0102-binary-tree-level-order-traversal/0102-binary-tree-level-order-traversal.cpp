@@ -11,6 +11,25 @@
  */
 class Solution {
 public:
+    //Approach : BFS Level Order Traversal
+
+    //Time Complexity = O(n) =>
+    /* n is the total number of nodes.
+    * Every node is pushed into the queue once and popped once.
+    * Each node’s value is added to a level once.
+    * Copying all completed levels into result takes O(n) total.
+    * The nested loops process n nodes altogether, so time is O(n), not O(n²).
+    */
+ 
+    //Space Complexity = O(n) =>
+    /* Queue: O(w), where w is the maximum number of nodes at any level.
+    Temporary level vector: O(w), storing one level’s values.
+    Auxiliary space: O(w), which is O(n) in the worst case.
+    Output result: O(n), storing all node values.
+    Total space including output: O(n).
+    */
+ 
+
     vector<vector<int>> levelOrder(TreeNode* root) {
         
         vector<vector<int>> result;//to store the output

@@ -1491,6 +1491,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
@@ -1502,6 +1503,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -1519,6 +1521,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
@@ -1611,6 +1614,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |

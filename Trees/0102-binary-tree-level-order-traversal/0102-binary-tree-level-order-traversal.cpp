@@ -11,46 +11,47 @@
  */
 class Solution {
 public:
-    //Time Complexity = O(n) => cause visiting n nodes of the tree.
-    //Space Complexity = O(n) => cause at most queue stores n/2 nodes of the tree.
     vector<vector<int>> levelOrder(TreeNode* root) {
-        vector<vector<int>> ans ; //to store the the output
-
-        //base case
+        
+        vector<vector<int>> result;//to store the output
+        
         if(root == NULL){
-            return ans ;
+            return result;
         }
 
-        //make a queue
-        queue<TreeNode*> q ;
-        //start with root node (level-1)
-        q.push(root) ;
+        //1.) Intialize a queue for BFS
+        queue<TreeNode*> q;
 
-        //loop till queue is not empty
+        q.push(root); //start with root
+
+        //2.) Process until q is empty
         while(!q.empty()){
-            int size = q.size() ;
-            vector<int> level ; //stores each level
+         
+            int N = q.size();//level size
+            
+            vector<int> level;
+            
+            //3.) Process exactly levelSize nodes
+            while(N--){
+                TreeNode* node = q.front();
+                q.pop();
 
-            for(int i=0 ; i<size ; i++){
-                TreeNode* node = q.front() ;
-                //Step 1 : pop and print(insert in level)
-                q.pop() ;
+                level.push_back(node->val);
 
-                level.push_back(node->val) ;
+                //4.) Prepare the next level: push children in queue
+                if(node->left){
+                    q.push(node->left);
+                }
 
-                //Step 2 : add the left child to queue
-                if(node->left) q.push(node->left) ;
-                //Step 3 : add the right child to queue
-                if(node->right) q.push(node->right) ;
-                
+                if(node->right){
+                    q.push(node->right);
+                }
             }
-            //Now push level values in ans
-            ans.push_back(level) ;
 
+            // 5.) Store the completed level.
+            result.push_back(level);
         }
 
-        //Finally very important to return the output
-        return ans ;
-
+        return result;
     }
 };

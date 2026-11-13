@@ -1333,6 +1333,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0138-copy-list-with-random-pointer](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
@@ -1431,6 +1432,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0020-valid-parentheses](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
+| [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
@@ -1559,6 +1561,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0155-min-stack) |
+| [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
 ## Linked List
@@ -1616,6 +1619,10 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0543-diameter-of-binary-tree) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

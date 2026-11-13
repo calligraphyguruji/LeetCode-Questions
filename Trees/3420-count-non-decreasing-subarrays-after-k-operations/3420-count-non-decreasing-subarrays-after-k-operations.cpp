@@ -1,5 +1,24 @@
 class Solution {
 public:
+    //Approach : Reverse Sliding Window with a Monotonic Deque
+
+    //Time Complexity = O(n) =>
+    /* The left pointer visits every element once → O(n).
+    * The right pointer only moves left, at most n times in total → O(n).
+    * Each group is added to the deque once and removed at most once → O(n) total deque operations.
+    * Although the code has nested loops, their work across the entire traversal is linear.
+    * Total: O(n) + O(n) + O(n) = O(n).
+    */
+
+    //Space Complexity = O(n) =>
+    /* 
+    * The deque can hold up to n groups in the worst case.
+    * Variables such as left, right, cost, and answer use O(1) space.
+    * The input array is unchanged; no extra array is created.
+    * Total auxiliary space: O(n).
+    */
+
+
     long long countNonDecreasingSubarrays(vector<int>& nums, int k) {
         
         //1.) Initialization

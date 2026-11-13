@@ -11,41 +11,27 @@
  */
 class Solution {
 public:
-    //Time Complexity = O(n) => traversing n nodes in the tree
-    //Space Complexity = O(n) => level order traversal using queue
-    bool isSameTree(TreeNode* root1, TreeNode* root2) {
-        queue<TreeNode*> q ;
-        //first push the root1, root2 in the queue 
-        q.push(root1) ; 
-        q.push(root2) ;
-
-        //traverse on trees and make the modification
-
-        while(!q.empty()){
-            //make two pointers to point left child, right child null
-            //if there is no child
-            TreeNode* first = q.front() ; q.pop() ;
-            TreeNode* second = q.front() ; q.pop() ;
-
-            //if both null then continue
-            if(first == NULL && second == NULL){
-                continue ;
-            }
-
-            //if one val is NULL or values not same then false
-            if(first == NULL || second == NULL || first->val != second->val){
-                return false ;
-            }
-
-            //push children in same order left,left && right,right
-            q.push(first->left) ;
-            q.push(second->left) ;
-
-            q.push(first->right) ;
-            q.push(second->right) ;
+    bool isSameTree(TreeNode* p, TreeNode* q) {
+        
+        //1.) Start with root nodes
+        if(p == NULL && q == NULL){
+            
+            return true;
         }
 
-        //if no false found in above loop then
-        return true ;
+        //2.) Only one empty subtree means different structures.
+        if(p == NULL || q == NULL){
+
+            return false;
+        }
+
+        //3.) Corresponding nodes must have equal values.
+        if(p->val != q->val){
+            return false;
+        }
+
+        //4.) Both left and right subtree pairs must match.
+        return isSameTree(p->left, q->left) &&
+            isSameTree(p->right, q->right);
     }
 };

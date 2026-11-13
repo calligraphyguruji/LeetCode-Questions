@@ -10,29 +10,31 @@
 
 class Solution {
 public:
-    //Time Complexity = O(H) => H = height of the tree.
-    // H = logn for balanced tree.
-    //Space Complexity= O(H) => H = recursion stack height= height of the tree.
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        //for empty tree
-        if(root == NULL) return NULL ;
+        
+        // Step 1: Start at the root.
+        TreeNode* curr = root;
 
-        //stores value of current node for comparing
-        int curr = root->val ;
+        // Step 2: Follow the subtree containing both target nodes.
+        while(curr != NULL){
 
-        //Case-2 : if both p,q lies on the left side
-        // if p,q are smaller than curr, the move to left
-        if(curr > p->val && curr > q->val){
-            return lowestCommonAncestor(root->left,p,q) ;
+            if(p->val < curr->val && q->val < curr->val){
+                // Step 3: Both targets are smaller, so move left.
+                curr = curr->left;
+            }
+
+            else if(p->val > curr->val && q->val > curr->val){
+                // Step 4: Both targets are larger, so move right.
+                curr = curr->right;
+            }
+            else{
+                // Step 5: Targets split here, or current equals p or q.
+                // No deeper node can be an ancestor of both.
+                return curr;
+            }
         }
 
-        //Case-3 : if both p,q lies on the right side
-        //if p,q are greater than curr, then move to right.
-        if(curr < p->val && curr < q->val){
-            return lowestCommonAncestor(root->right,p,q) ;
-        }
-
-        //Case-1 : if in above ans not found then ans is root
-        return root ;
+        // Both targets exist, so valid inputs always return inside the loop.
+        return NULL;
     }
 };

@@ -11,6 +11,23 @@
  */
 class Solution {
 public:
+    //Approach : BFS (Level-Order Traversal)
+
+    //Time Complexity = O(n) =>
+    /* Each of the n nodes is added to and removed from the queue once: O(n).
+    * Collecting all node values takes O(n).
+    * Reversing h levels takes O(h). Since h ≤ n, total time is O(n).
+    */
+
+    //Space Complexity = O(n) =>
+    /* Queue: O(w), where w is the maximum number of nodes at any level.
+    * Temporary level vector: O(w).
+    * Reversing ans: O(1) extra space.
+    * Auxiliary space excluding output: O(w), worst case O(n).
+    * Output ans: O(n), so total space including output is O(n).
+    */
+
+
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
         
         vector<vector<int>> ans;//to store the output array

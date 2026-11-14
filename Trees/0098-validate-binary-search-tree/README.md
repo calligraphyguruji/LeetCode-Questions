@@ -42,15 +42,6 @@
 
 ---
 
-## ⏱️ Complexity Analysis
-
-```text
-Time Complexity = O(n) => cause traversing n nodes of the tree.
-Space Complexity = O(1) => cause no extra data structures used for storing nodes.
-```
-
----
-
 ## 💻 C++ Solution
 
 [View Original C++ File](./0098-validate-binary-search-tree.cpp)
@@ -69,35 +60,36 @@ Space Complexity = O(1) => cause no extra data structures used for storing nodes
  */
 class Solution {
 public:
-    //Time Complexity = O(n) => cause traversing n nodes of the tree.
-    //Space Complexity = O(1) => cause no extra data structures used for storing nodes.
-    
-    //Very-very easy problem if you have already solved many problems of BST
+    bool validate(TreeNode* node, long long lower, long long upper){
+        // Step 1: An empty subtree is a valid BST.
+        if(node == NULL){
+            
+            return true;
+        }
 
-    long long prev = LLONG_MIN ; //var to track prev values
-    bool inorder(TreeNode* root){
-        //for empty tree
-        if(root == NULL) return true ;
+        // Step 2: Check the restrictions imposed by ALL ancestors.
+        // Strict bounds also reject duplicate values.
+        if(node->val <= lower || node->val >= upper){
+            
+            return false;
+        }
+
+        // Step 3: Every value in the left subtree must be smaller
+        // than this node, while respecting the inherited lower bound.
+        if(!validate(node->left, lower, node->val)){
+            
+            return false;
+        }
         
-        //Sequeunce :
-        //1.) left
-        //if the left subTree is invalid not follow BST rules then
-        if(!inorder(root->left)) return false ;
-
-        //2.) check current root node
-        if(root->val <= prev) return false ; 
-
-        //update prev
-        prev = root->val ;
-
-        //3.)func. call for right subTree
-        return inorder(root->right) ;
+        // Step 4: Every value in the right subtree must be greater
+        // than this node, while respecting the inherited upper bound.
+        return validate(node->right, node->val, upper);
     }
+
     bool isValidBST(TreeNode* root) {
-        
-        //func. call to inorder traversal
-        return inorder(root) ;
-        
+        // Step 5: Start with bounds beyond all possible int values.
+        // long long allows INT_MIN and INT_MAX to be valid node values.
+        return validate(root, LLONG_MIN, LLONG_MAX);
     }
 };
 ```

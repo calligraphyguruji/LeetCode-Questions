@@ -1,5 +1,22 @@
 class Solution {
 public:
+    //Approach: Subarray Enumeration with a Running Sum
+
+    //Time Complexity = O(n²) =>
+    /* The outer loop tries all n starting indices.
+    * For each start, the inner loop processes at most r elements.
+    * Each iteration performs constant-time work: addition, comparison, and updating the minimum.
+    * Total: O(n × r). Since r can equal n, the worst case is O(n²).
+    */
+
+    //Space Complexity = O(1) =>
+    /* We use only a fixed number of variables: n, best, start, end, sum, and length.
+    * No extra arrays or other data structures are created.
+    * Subarrays are processed using indices; they are never copied.
+    * Therefore, extra memory stays constant as the input grows.
+    */
+
+
     int minimumSumSubarray(vector<int>& nums, int l, int r) {
         
         //1.) Initialization

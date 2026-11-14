@@ -11,6 +11,23 @@
  */
 class Solution {
 public:
+    //Approach : Iterative Depth-First Search (DFS) using a stack
+
+    //Time Complexity = O(n) =>
+    /* Each of the n nodes is pushed onto and popped from the stack once.
+    * At each node, comparison, maximum update, and child checks take O(1) time.
+    * Total: n × O(1) = O(n).
+    */
+
+    //Space Complexity = O(h) =>
+    /* The stack stores nodes waiting to be visited, along with their path maximum.
+    * In DFS, at most O(h) such entries are needed, where h is the tree’s height.
+    * Balanced tree: O(log n).
+    * Worst case: O(n).
+    * A completely skewed tree actually uses O(1) stack space in this iterative implementation, because only one child waits at a time. Other tree shapes can make the stack grow to O(n).
+    * The remaining variables use O(1) space.
+    */
+
     int goodNodes(TreeNode* root) {
         
         //1.) Initialize: Set count = 0.

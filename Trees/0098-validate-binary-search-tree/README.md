@@ -42,6 +42,15 @@
 
 ---
 
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n) =>
+Space Complexity = O(h) =>
+```
+
+---
+
 ## 💻 C++ Solution
 
 [View Original C++ File](./0098-validate-binary-search-tree.cpp)
@@ -60,6 +69,26 @@
  */
 class Solution {
 public:
+    //Approach :
+
+    //Time Complexity = O(n) =>
+    /* n is the number of nodes.
+    * Each node is visited at most once.
+    * Each visit performs constant work: checking bounds and preparing recursive calls.
+    * In the worst case, all nodes are checked, so total time is O(n).
+    * An invalid node may let us stop early, but the worst-case bound stays O(n).
+    */
+
+    //Space Complexity = O(h) =>
+    /* h is the height of the tree.
+    * Recursive calls use the call stack.
+    * At any moment, the stack holds calls along one root-to-leaf path.
+    * Balanced tree: h = O(log n) → space is O(log n).
+    * Skewed tree: h = O(n) → space is O(n).
+    * The left and right subtrees are processed sequentially, so their stack space does not add together.
+    */
+
+
     bool validate(TreeNode* node, long long lower, long long upper){
         // Step 1: An empty subtree is a valid BST.
         if(node == NULL){

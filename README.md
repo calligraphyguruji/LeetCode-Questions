@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-235_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-306-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-307-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 91 | 29.7% |
-| 🟡 **Medium** | 182 | 59.5% |
-| 🔴 **Hard** | 33 | 10.8% |
-| 🎯 **Total Solved** | **306** | **100%** |
+| 🟢 **Easy** | 91 | 29.6% |
+| 🟡 **Medium** | 183 | 59.6% |
+| 🔴 **Hard** | 33 | 10.7% |
+| 🎯 **Total Solved** | **307** | **100%** |
 | 🔥 **Current Streak** | **121 Days** | — |
 | 📅 **Total Active Days** | **235 Days** | — |
 
@@ -830,6 +830,7 @@ public:
 | 1420 | [Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | [Solution](DynamicProgramming/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons.cpp) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1431-kids-with-the-greatest-number-of-candies/) | [Solution](Arrays/1431-kids-with-the-greatest-number-of-candies/1431-kids-with-the-greatest-number-of-candies.cpp) |
 | 1443 | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/) | [Solution](Trees/1443-minimum-time-to-collect-all-apples-in-a-tree/1443-minimum-time-to-collect-all-apples-in-a-tree.cpp) |
+| 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1448-count-good-nodes-in-binary-tree/) | [Solution](Trees/1448-count-good-nodes-in-binary-tree/1448-count-good-nodes-in-binary-tree.cpp) |
 | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/) | [Solution](Trees/1457-pseudo-palindromic-paths-in-a-binary-tree/1457-pseudo-palindromic-paths-in-a-binary-tree.cpp) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1470-shuffle-the-array/) | [Solution](Arrays/1470-shuffle-the-array/1470-shuffle-the-array.cpp) |
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1475-final-prices-with-a-special-discount-in-a-shop/) | [Solution](Arrays/1475-final-prices-with-a-special-discount-in-a-shop/1475-final-prices-with-a-special-discount-in-a-shop.cpp) |
@@ -1674,11 +1675,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 94 · **Remaining Questions:** 56
+**Total Questions:** 150 · **Solved Questions:** 95 · **Remaining Questions:** 55
 
-**Completion:** 62.7%
+**Completion:** 63.3%
 
-Progress: ████████████░░░░░░░░ 62.7%
+Progress: ████████████░░░░░░░░ 63.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1758,7 +1759,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 43 | Car Fleet | Medium | [LeetCode #853](https://leetcode.com/problems/car-fleet/) | ✅ Yes | [Solution](Arrays/0853-car-fleet/0853-car-fleet.cpp) |
 | 44 | Largest Rectangle In Histogram | Hard | [LeetCode #84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | ✅ Yes | [Solution](Arrays/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.cpp) |
 
-### Trees — 14/15 Solved (93.3%)
+### Trees — 15/15 Solved (100.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1771,7 +1772,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 51 | Lowest Common Ancestor of a Binary Search Tree | Medium | [LeetCode #235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | ✅ Yes | [Solution](Trees/0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.cpp) |
 | 52 | Binary Tree Level Order Traversal | Medium | [LeetCode #102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | ✅ Yes | [Solution](Trees/0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.cpp) |
 | 53 | Binary Tree Right Side View | Medium | [LeetCode #199](https://leetcode.com/problems/binary-tree-right-side-view/) | ✅ Yes | [Solution 1](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-2-bfs.cpp) · [Solution 2](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-3-dfs.cpp) · [Solution 3](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.cpp) |
-| 54 | Count Good Nodes In Binary Tree | Medium | [LeetCode #1448](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | ❌ No | — |
+| 54 | Count Good Nodes In Binary Tree | Medium | [LeetCode #1448](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | ✅ Yes | [Solution](Trees/1448-count-good-nodes-in-binary-tree/1448-count-good-nodes-in-binary-tree.cpp) |
 | 55 | Validate Binary Search Tree | Medium | [LeetCode #98](https://leetcode.com/problems/validate-binary-search-tree/) | ✅ Yes | [Solution](Trees/0098-validate-binary-search-tree/0098-validate-binary-search-tree.cpp) |
 | 56 | Kth Smallest Element In a Bst | Medium | [LeetCode #230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | ✅ Yes | [Solution](Trees/0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.cpp) |
 | 57 | Construct Binary Tree From Preorder And Inorder Traversal | Medium | [LeetCode #105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | ✅ Yes | [Solution](Trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp) |

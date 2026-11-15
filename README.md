@@ -1343,6 +1343,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0138-copy-list-with-random-pointer](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
+| [0202-happy-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
@@ -1405,6 +1406,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0202-happy-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0202-happy-number) |
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -1438,6 +1440,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0202-happy-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -1470,6 +1473,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0141-linked-list-cycle) |
+| [0202-happy-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 ## Dynamic Programming
 |  |

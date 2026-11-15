@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach: Prefix Sum with Parity Counting
+
+    //Time Complexity = O(n) =>
+    /* Traverse the array once.
+    * Each iteration performs constant-time operations: update parity, add a count, and increment a counter.
+    * Therefore, total time is O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* Use only a fixed number of variables: MOD, even, odd, parity, and answer.
+    * No extra array or data structure grows with the input.
+    * Therefore, auxiliary space is O(1)
+    */
+
     int numOfSubarrays(vector<int>& arr) {
         
         //Step 1: Initialize

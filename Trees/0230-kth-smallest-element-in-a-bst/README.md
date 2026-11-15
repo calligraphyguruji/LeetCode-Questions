@@ -37,6 +37,23 @@
 
 ---
 
+## 💡 Approach
+
+```text
+Approach : Iterative Inorder Traversal using a Stack
+```
+
+---
+
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(h + k) =>
+Space Complexity = O(h) =>
+```
+
+---
+
 ## 💻 C++ Solution
 
 [View Original C++ File](./0230-kth-smallest-element-in-a-bst.cpp)
@@ -55,6 +72,25 @@
  */
 class Solution {
 public:
+    //Approach : Iterative Inorder Traversal using a Stack
+
+    //Time Complexity = O(h + k) =>
+    /* h is the tree’s height, and k is the requested rank.
+    * Reaching the leftmost node initially takes up to O(h) work.
+    * We pop and count exactly k nodes. Total stack operations take O(h + k) time.
+    * Balanced BST: O(log n + k).
+    * Worst case: O(n).
+    */
+
+    //Space Complexity = O(h) =>
+    /* The stack stores waiting nodes along a root-to-node path.
+    * It can hold at most h nodes.
+    * Balanced BST: O(log n).
+    * Skewed BST, worst case: O(n).
+    * current and count use only O(1) extra space.
+    */
+
+
     int kthSmallest(TreeNode* root, int k) {
         
         //1.) Initialization : Create an empty stack, set current = root, and initialize count = 0.

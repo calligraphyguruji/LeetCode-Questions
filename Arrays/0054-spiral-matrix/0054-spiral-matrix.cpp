@@ -1,6 +1,17 @@
 class Solution {
 public:
-    //Approach : Brute Force()
+    //Approach : Brute Force(Direction simulation using Visited)
+
+    //Time Complexity = O(m * n) =>
+    /* The for loop runs m * n times.
+    * Each cell is visited exactly once.
+    * Checking boundaries and changing directions takes O(1) time.
+    */
+
+    //Space Complexity = O(m * n) =>
+    /* `visited` matrix stores m * n boolean values : O(m * n)
+    * `directions` stores 4 pairs -> O(1)
+    */
 
     vector<pair<int, int>> directions{ {0, 1}, {1, 0}, {0, -1}, {-1, 0} };// Right -> Down -> Left -> Up
     vector<int> spiralOrder(vector<vector<int>>& matrix) {

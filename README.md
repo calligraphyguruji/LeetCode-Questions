@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-236_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-308-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-309-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 91 | 29.5% |
-| 🟡 **Medium** | 184 | 59.7% |
+| 🟢 **Easy** | 91 | 29.4% |
+| 🟡 **Medium** | 185 | 59.9% |
 | 🔴 **Hard** | 33 | 10.7% |
-| 🎯 **Total Solved** | **308** | **100%** |
+| 🎯 **Total Solved** | **309** | **100%** |
 | 🔥 **Current Streak** | **122 Days** | — |
 | 📅 **Total Active Days** | **236 Days** | — |
 
@@ -635,6 +635,7 @@ public:
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0040-combination-sum-ii/) | [Solution](Backtracking/0040-combination-sum-ii/0040-combination-sum-ii.cpp) |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0042-trapping-rain-water/) | [Solution](DynamicProgramming/0042-trapping-rain-water/0042-trapping-rain-water.cpp) |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 `Medium` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0046-permutations/) | [Solution](Backtracking/0046-permutations/0046-permutations.cpp) |
+| 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 `Medium` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0048-rotate-image/) | [Solution](Math/0048-rotate-image/0048-rotate-image.cpp) |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0049-group-anagrams/) | [Solution](Arrays/0049-group-anagrams/0049-group-anagrams.cpp) |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 🟡 `Medium` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0050-powx-n/) | [Solution](Math/0050-powx-n/0050-powx-n.cpp) |
 | 0051 | [N-Queens](https://leetcode.com/problems/n-queens/) | 🔴 `Hard` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0051-n-queens/) | [Solution](Backtracking/0051-n-queens/0051-n-queens.cpp) |
@@ -1691,11 +1692,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 95 · **Remaining Questions:** 55
+**Total Questions:** 150 · **Solved Questions:** 96 · **Remaining Questions:** 54
 
-**Completion:** 63.3%
+**Completion:** 64.0%
 
-Progress: ████████████░░░░░░░░ 63.3%
+Progress: ████████████░░░░░░░░ 64.0%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1928,11 +1929,11 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 141 | Sum of Two Integers | Medium | [LeetCode #371](https://leetcode.com/problems/sum-of-two-integers/) | ✅ Yes | [Solution](BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp) |
 | 142 | Reverse Integer | Medium | [LeetCode #7](https://leetcode.com/problems/reverse-integer/) | ❌ No | — |
 
-### Math & Geometry — 3/8 Solved (37.5%)
+### Math & Geometry — 4/8 Solved (50.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
-| 143 | Rotate Image | Medium | [LeetCode #48](https://leetcode.com/problems/rotate-image/) | ❌ No | — |
+| 143 | Rotate Image | Medium | [LeetCode #48](https://leetcode.com/problems/rotate-image/) | ✅ Yes | [Solution](Math/0048-rotate-image/0048-rotate-image.cpp) |
 | 144 | Spiral Matrix | Medium | [LeetCode #54](https://leetcode.com/problems/spiral-matrix/) | ✅ Yes | [Solution](Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp) |
 | 145 | Set Matrix Zeroes | Medium | [LeetCode #73](https://leetcode.com/problems/set-matrix-zeroes/) | ✅ Yes | [Solution](Arrays/0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) |
 | 146 | Happy Number | Easy | [LeetCode #202](https://leetcode.com/problems/happy-number/) | ❌ No | — |

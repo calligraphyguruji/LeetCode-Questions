@@ -37,15 +37,6 @@
 
 ---
 
-## ⏱️ Complexity Analysis
-
-```text
-Time Complexity = O(n) => cause visting n nodes of the tree.
-Space Complexity = O(H) => H = recursion stack height = height of the tree.
-```
-
----
-
 ## 💻 C++ Solution
 
 [View Original C++ File](./0230-kth-smallest-element-in-a-bst.cpp)
@@ -64,41 +55,47 @@ Space Complexity = O(H) => H = recursion stack height = height of the tree.
  */
 class Solution {
 public:
-    //Time Complexity = O(n) => cause visting n nodes of the tree.
-    //Space Complexity = O(H) => H = recursion stack height = height of the tree.
-    int prevIdx = 0 ;
-
     int kthSmallest(TreeNode* root, int k) {
-        //for empty tree
-        if(root == NULL) return -1 ;
         
-        //Inorder Traversal sequence : 1.)left 2.)root 3.)right
-        //1.) call for left SubTree
-        if(root->left != NULL){
-            int leftAns = kthSmallest(root->left,k) ;
+        //1.) Initialization : Create an empty stack, set current = root, and initialize count = 0.
 
-            if(leftAns != -1)
-                return leftAns ; //as final ans.
-        }
+        stack<TreeNode*> st;
+        TreeNode* curr = root;
 
-        //2.) for root val
-        if(prevIdx + 1 == k){
-            return root->val ;           
-        }
-        prevIdx ++; //update prevIdx in backtracking
+        int count = 0;
 
-        //3.) call for right subTree
-        if(root->right != NULL){
-            int rightAns = kthSmallest(root->right,k) ;
-
-            if(rightAns != -1){
-                return rightAns ; //as final ans.
+        // Step 5: Repeat while a current node or waiting ancestor exists.
+        while(curr != NULL || !st.empty()){
+            
+            // Step 2: Move as far left as possible.
+            // This reaches the smallest remaining value.
+            while(curr != NULL){
+                
+                st.push(curr);
+                curr = curr->left;
             }
+
+            // Step 3: Process the next node in ascending order.
+            curr = st.top();
+            st.pop();
+
+            // Count when popping: all smaller nodes in this
+            // node's left subtree have now been processed.
+            count++;
+
+            // Step 4: Return the kth smallest value.
+            if(count == k){
+                return curr->val;
+            }
+
+            // Otherwise, explore the right subtree.
+            // The next iteration follows its leftmost path.
+            curr = curr->right;
+
         }
 
-
-        //if in above calls no ans found then
-        return -1 ;
+        //If not possible 
+        return -1;
 
     }
 };

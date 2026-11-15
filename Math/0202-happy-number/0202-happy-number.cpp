@@ -1,5 +1,18 @@
 class Solution {
 public:
+    //Approach: Hash Set(Visited)
+
+    //Time Complexity = O(logn) =>
+    /* Extracting all digits of n takes O(logn).
+    * Each digit requires O(1).
+    * Hash Set insert() & count() -> O(1)
+    */
+
+    //Space Complexity = O(1) =>
+    /* unordered_set stores 32 bit integers, the no. of possible 
+    * visited states is bounded by a constant.
+    */
+
     bool isHappy(int n) {
         
         //1.) Store previously visited numbers

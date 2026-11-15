@@ -1,44 +1,52 @@
 class Solution {
 public:
-         //Time Complexity = O(m*n)
-         //Space Complexity = O(m*n) => for ans vector
-         //Auxiliary Space = O(1)
-    vector<int> spiralOrder(vector<vector<int>>& mat) {
-        int m = mat.size() ; //rows
-        int n = mat[0].size() ; //cols
+    //Approach : Brute Force()
 
-        int srow = 0 , scol = 0 ; //startingRow ,startingCol
-        int erow = m-1 , ecol = n-1 ;//endingRow, endingCol
+    vector<pair<int, int>> directions{ {0, 1}, {1, 0}, {0, -1}, {-1, 0} };// Right -> Down -> Left -> Up
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        
+        int m = matrix.size(); //row size
+        int n = matrix[0].size(); //column size
+        vector<int> ans; //to store the output
 
-        vector<int>ans ; //to store ans and return ans in vector form
+        //1.) Start from (0, 0) facing right
+        vector<vector<bool>> visited(m, vector<bool>(n, false)); 
 
-        while(srow <= erow && scol <= ecol){
-            //top :
-            for(int j=scol ; j<= ecol ; j++){
-                ans.push_back(mat[srow][j]) ;
-            }
-            //right : 
-            for(int i=srow+1 ; i<= erow ; i++){
-                ans.push_back(mat[i][ecol]) ;
-            }
-            //bottom :
-            for(int j=ecol-1 ; j>= scol ; j--){
-                if(srow == erow){ //handle edge case 
-                    break ; //break when repeating value start
-                }
-                ans.push_back(mat[erow][j]) ;
-            }
-            //left : 
-            for(int i=erow-1 ; i>= srow+1 ; i--){
-                if(scol == ecol){ //handle edge case
-                    break ;//break when repeating value start
-                }
-                ans.push_back(mat[i][scol]) ;
+        int row = 0, col = 0;
+        int direction = 0;// 0 => Right      
+
+        //2.) Traverse all matrix elements
+        for(int i = 0; i < m * n; i++){
+            
+            //3.) Add current element to ans
+            ans.push_back(matrix[row][col]);
+
+            //4.) Mark current cell as visited
+            visited[row][col] = true;
+
+            //5.) Calc. new position 
+            int newRow = row + directions[direction].first;
+            int newCol = col + directions[direction].second;
+
+            //6.) Cehck boundaries and visited cells
+            if(newRow < 0 || newRow >= m || newCol < 0 || newCol >= n || visited[newRow][newCol]){
+
+                //Change directioin clockwise
+                direction = (direction + 1) % 4;
+
+                //Calc. new position in new Direction
+                newRow = row + directions[direction].first;
+                newCol = col + directions[direction].second;
+
             }
 
-            srow++ ; scol++ ; //increment for next iteration
-            erow-- ; ecol-- ; //decrement for next iteration
+            //7.) Update current position
+            row = newRow;
+            col = newCol;
         }
-        return ans ; //return ans vector 
+
+        //8.) Return the output
+        return ans;
+
     }
 };

@@ -1269,6 +1269,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
+| [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
 | [0084-largest-rectangle-in-histogram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -1383,6 +1384,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -1398,6 +1400,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0453-minimum-moves-to-equal-array-elements) |

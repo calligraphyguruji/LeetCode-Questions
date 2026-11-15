@@ -1,5 +1,20 @@
 class Solution {
 public:
+    //Approach : Transpose + Reverse Each Row
+
+    //Time Complexity = O(n²) =>
+    /* Transpose: We swap n(n − 1) / 2 pairs, which takes O(n²) time.
+    * Reverse each row: Each row takes O(n) time. For n rows, this takes O(n²) time.
+    * Total: O(n²) + O(n²) = O(n²).
+    */
+
+    //Space Complexity = O(1) =>
+    /* We modify the original matrix directly.
+    * Only a few variables and temporary swap storage are needed.
+    * auto& row references each existing row; it does not copy it.
+    * No additional matrix or array is created.
+    */
+
     void rotate(vector<vector<int>>& matrix) {
         
         //1.) Initialize
@@ -15,7 +30,7 @@ public:
             }           
         }
 
-        // Step 2: Reverse each row to complete clockwise rotation.
+        // Step 3: Reverse each row to complete clockwise rotation.
         for(auto& row : matrix){
             reverse(row.begin(), row.end());
         }

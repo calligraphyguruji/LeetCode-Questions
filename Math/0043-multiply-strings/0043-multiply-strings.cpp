@@ -1,6 +1,6 @@
 class Solution {
 public:
-    //Approach:
+    //Approach: Digit-by-Digit Multiplication
 
     //Time Complexity = O(m * n) =>
     /* Let m = num1.length() and n = num2.length().

@@ -1408,6 +1408,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0002-add-two-numbers) |
+| [0043-multiply-strings](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -1454,6 +1455,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0020-valid-parentheses) |
+| [0043-multiply-strings](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0043-multiply-strings) |
 | [0076-minimum-window-substring](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
@@ -1644,6 +1646,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2243-calculate-digit-sum-of-a-string) |

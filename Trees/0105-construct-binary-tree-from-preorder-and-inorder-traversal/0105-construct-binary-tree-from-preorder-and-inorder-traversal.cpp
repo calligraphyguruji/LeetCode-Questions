@@ -11,43 +11,48 @@
  */
 class Solution {
 public:
-     
-    //Time Complexity = O(n) => cause traversing n nodes of the tree.
-    //Space Complexity = O(n) + O(H) = O(n) => where O(n) : for Hashmap, O(H) for recursion stack height(height of the tree)
-    TreeNode* splitTree(vector<int>& preorder,unordered_map<int, int>& inorderIndexMap, int rootIndex, int left, int right){
-        //edge case invalid condition
+    unordered_map<int, int> inorderIdx;//Hash map {value, idx}
+    int preIdx = 0;
+
+    TreeNode* build(vector<int>& preorder, int left, int right){
+
+        //3.) An empty range represents an empty subtree.
         if(left > right){
-            return NULL ;
-        }
-        //Start Constructing the tree with root that is found in preorder rootIndex.
-        TreeNode* root = new TreeNode(preorder[rootIndex]);
-
-        //Find root position in inorder traversal
-        int mid = inorderIndexMap[preorder[rootIndex]] ;
-
-        //Create left SubTree( for all the nodes left of the root present in inorder)
-        if(mid > left){
-            root->left = splitTree(preorder, inorderIndexMap, rootIndex+1, left, mid-1) ;
+            return NULL;
         }
 
-        //Create right SubTree(for all the nodes right of the root present in inorder)
-        if(mid < right){
-            root->right = splitTree(preorder, inorderIndexMap, rootIndex + (mid-left) + 1, mid+1, right) ;
-        }
+        //4.) Take the next preorder value as the root.
+        int rootValue = preorder[preIdx++];
 
-        return root ;
+        TreeNode* root = new TreeNode(rootValue);
+
+        //5.) Find where the root divides the inorder range.
+        int mid = inorderIdx.at(rootValue);
+
+        //6.) Build the left subtree first, following preorder order.
+        root->left = build(preorder, left, mid - 1);
+
+        //7.) Build the right subtree.
+        root->right = build(preorder, mid + 1, right);
+
+        //8.) Return the completed subtree
+        return root;
+
     }
-
-
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        unordered_map<int, int> inorderIndexMap ;
+        
+        //1.) Reset shared state and store each value's inorder index.
+        preIdx = 0;
+        inorderIdx.clear();
 
-        //Store value->index in Map from inorder traversal
-        for(int i = 0 ; i<inorder.size() ; i++){
-            inorderIndexMap[inorder[i]] = i ; //inserted i->val in map
+        int n = static_cast<int>(inorder.size());
+
+        for(int i = 0; i < n; i++){
+            inorderIdx[inorder[i]] = i; //idx fill in hash map
         }
-
-        //func. call to splitTree for constructing using preorder
-        return splitTree(preorder, inorderIndexMap, 0, 0, inorder.size()-1) ;
+       
+        //2.) Build the tree using the entire inorder range.
+        return build(preorder, 0, n-1);
+   
     }
 };

@@ -1,5 +1,20 @@
 class Solution {
 public:
+    //Approach: Right-to-Left Traversal with Carry Propagation
+
+    //Time Complexity = O(n) =>
+    /* In the worst case, all digits are 9, so we visit every digit.
+    * Inserting 1 at the beginning also takes O(n).
+    * Overall: O(n) + O(n) = O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* return digits; copies the referenced vector into the returned result.
+    * Inserting the leading 1 may also allocate O(n) storage.
+    * The loop itself uses O(1) auxiliary space.
+    */
+
+
     vector<int> plusOne(vector<int>& digits) {
         
         // Step 1: Start at the last digit because addition begins

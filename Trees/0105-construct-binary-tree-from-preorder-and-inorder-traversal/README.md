@@ -44,6 +44,15 @@
 
 ---
 
+## ⏱️ Complexity Analysis
+
+```text
+Time Complexity = O(n) =>
+Space Complexity = O(n) =>
+```
+
+---
+
 ## 💻 C++ Solution
 
 [View Original C++ File](./0105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp)
@@ -62,6 +71,24 @@
  */
 class Solution {
 public:
+    //Approach:
+
+    //Time Complexity = O(n) =>
+    /* Building the hashmap takes O(n).
+    * Each of the n nodes is created exactly once.
+    * Each hashmap lookup takes O(1) expected time.
+    * Total: O(n) + O(n) = O(n).
+    */
+
+    //Space Complexity = O(n) =>
+    /* The hashmap stores n entries: O(n).
+    * The recursion stack uses O(h), where h is the tree’s height:
+    * Balanced tree: O(log n).
+    * Skewed tree: O(n).
+    * Total: O(n + h) = O(n).
+    */
+
+
     unordered_map<int, int> inorderIdx;//Hash map {value, idx}
     int preIdx = 0;
 

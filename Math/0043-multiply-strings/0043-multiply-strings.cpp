@@ -1,5 +1,24 @@
 class Solution {
 public:
+    //Approach:
+
+    //Time Complexity = O(m * n) =>
+    /* Let m = num1.length() and n = num2.length().
+    * The outer loop runs m times.
+    * For each outer iteration, the inner loop runs n times.
+    * Each pair performs constant-time arithmetic, so multiplication takes O(m × n).
+    * Initializing the array, skipping leading zeros, and building the string take O(m + n).
+    * Total: O(m × n + m + n) = O(m × n).
+    */
+
+    //Space Complexity = O(m + n) =>
+    /* The ans array stores m + n integers: O(m + n) auxiliary space.
+    * The returned string holds at most m + n characters: O(m + n) output space.
+    * Other variables use O(1) space.
+    * Total space remains O(m + n).
+    */
+
+
     string multiply(string num1, string num2) {
        
        // Step 1: Handle zero. 

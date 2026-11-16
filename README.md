@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-122_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-123_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-236_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-237_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-310-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-311-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 92 | 29.7% |
-| 🟡 **Medium** | 185 | 59.7% |
+| 🟢 **Easy** | 93 | 29.9% |
+| 🟡 **Medium** | 185 | 59.5% |
 | 🔴 **Hard** | 33 | 10.6% |
-| 🎯 **Total Solved** | **310** | **100%** |
-| 🔥 **Current Streak** | **122 Days** | — |
-| 📅 **Total Active Days** | **236 Days** | — |
+| 🎯 **Total Solved** | **311** | **100%** |
+| 🔥 **Current Streak** | **123 Days** | — |
+| 📅 **Total Active Days** | **237 Days** | — |
 
 </div>
 
@@ -882,6 +882,7 @@ public:
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2185-counting-words-with-a-given-prefix/) | [Solution](Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp) |
 | 2196 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2196-create-binary-tree-from-descriptions/) | [Solution](Trees/2196-create-binary-tree-from-descriptions/2196-create-binary-tree-from-descriptions.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2235-add-two-integers/) | [Solution](Math/2235-add-two-integers/2235-add-two-integers.cpp) |
+| 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2243-calculate-digit-sum-of-a-string/) | [Solution](Arrays/2243-calculate-digit-sum-of-a-string/2243-calculate-digit-sum-of-a-string.cpp) |
 | 2246 | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2246-longest-path-with-different-adjacent-characters/) | [Solution](Trees/2246-longest-path-with-different-adjacent-characters/2246-longest-path-with-different-adjacent-characters.cpp) |
 | 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2265-count-nodes-equal-to-average-of-subtree/) | [Solution](Trees/2265-count-nodes-equal-to-average-of-subtree/2265-count-nodes-equal-to-average-of-subtree.cpp) |
 | 2316 | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [Solution](Graphs/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph.cpp) |

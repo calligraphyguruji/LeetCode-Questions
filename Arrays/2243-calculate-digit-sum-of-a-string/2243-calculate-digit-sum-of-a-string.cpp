@@ -1,5 +1,24 @@
 class Solution {
 public:
+    //Approach : Brute Force
+
+    //Time Complexity = O(n * R) =>
+    /* Splitting the string into groups takes O(n) per round.
+    * Calculating all group sums visits each digit once: O(n).
+    * Converting sums to strings and joining them takes at most O(n).
+    * These operations happen sequentially, so one round takes O(n).
+    * Across R rounds, the upper bound is O(n × R). The actual work decreases as the string becomes shorter.
+    */
+
+    //Space Complexity = O(n) =>
+    /* `groups` stores the current string’s characters: O(n).
+    * `sums` stores the replacement strings: at most O(n).
+    * `next` stores the merged result: at most O(n).
+    * Together, O(n) + O(n) + O(n) = O(n).
+    These containers are recreated each round, so space is not multiplied by R.
+    */
+
+
     string digitSum(string s, int k) {
         
         // Step 5: Repeat rounds while the length exceeds k.

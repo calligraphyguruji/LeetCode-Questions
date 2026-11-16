@@ -1,62 +1,52 @@
 class Solution {
 public:
-    //Approach : Brute Force
+    //Approach : Optimised(Direct Simulation with a Single-Pass Group Scan)
 
     //Time Complexity = O(n * R) =>
-    /* Splitting the string into groups takes O(n) per round.
-    * Calculating all group sums visits each digit once: O(n).
-    * Converting sums to strings and joining them takes at most O(n).
-    * These operations happen sequentially, so one round takes O(n).
-    * Across R rounds, the upper bound is O(n × R). The actual work decreases as the string becomes shorter.
+    /* Each round scans the current string once.
+    * Although there are nested loops, i only moves forward: each digit is processed once per round.
+    * Building result takes at most O(n) per round.
+    * Therefore, each round costs O(n), giving O(n × R) across all rounds. Actual work decreases as the string gets shorter.
     */
 
     //Space Complexity = O(n) =>
-    /* `groups` stores the current string’s characters: O(n).
-    * `sums` stores the replacement strings: at most O(n).
-    * `next` stores the merged result: at most O(n).
-    * Together, O(n) + O(n) + O(n) = O(n).
-    These containers are recreated each round, so space is not multiplied by R.
+    /* `ans` stores the next string and needs at most O(n) space.
+    * i, sum, and count use O(1) space.
+    * Therefore, total auxiliary space is O(n).
     */
 
 
     string digitSum(string s, int k) {
         
-        // Step 5: Repeat rounds while the length exceeds k.
+        // Step 6: Repeat rounds while the length exceeds k.
         while(s.size() > k){
 
-            // Step 1: Split s into consecutive groups of at most k digits.
-            vector<string> groups;
+            // Step 1: Start this round with an empty result string.
+            string ans;
 
-            for(int i = 0; i < s.size(); i += k){
-                // substr automatically handles a smaller last group.
-                groups.push_back(s.substr(i, k));
-            }
+            // Step 2: Begin at the first unprocessed character.
+            int i = 0;
 
-            // Step 2: Calculate the digit sum of this group.
-            vector<string> sums;
-
-            for(string& group : groups){
+            while(i < s.size()){
 
                 int sum = 0;
+                int count = 0;
 
-                for(char digit : group){
-                    
-                    sum += digit - '0'; // Convert character to integer.
+                // Step 3: Read at most k digits, stopping if s ends.
+                while(count < k && i < s.size()){
+
+                    // Step 4: Add this digit and advance to the next one.
+                    sum += s[i] - '0';
+                    i++;
+                    count++;
                 }
-                // Step 3: Store the complete sum as a string.
-                sums.push_back(to_string(sum));
+
+                // Append the complete sum of this group.
+                ans += to_string(sum);
             }
 
-            // Step 4: Join all replacement strings in order.
-            string next;
-
-            for(string& sumString : sums){
-                
-                next += sumString;
-            }
-
-            // Use the completed string for the next round.
-            s = next;
+            // Step 5: Replace s and repeat only if its length exceeds k.
+            s = ans;
         }
 
         //Finally the length is now less than or equal to k.

@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-237_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-311-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-312-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 93 | 29.9% |
-| 🟡 **Medium** | 185 | 59.5% |
+| 🟢 **Easy** | 94 | 30.1% |
+| 🟡 **Medium** | 185 | 59.3% |
 | 🔴 **Hard** | 33 | 10.6% |
-| 🎯 **Total Solved** | **311** | **100%** |
+| 🎯 **Total Solved** | **312** | **100%** |
 | 🔥 **Current Streak** | **123 Days** | — |
 | 📅 **Total Active Days** | **237 Days** | — |
 
@@ -645,6 +645,7 @@ public:
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0061-rotate-list/) | [Solution](Linked-List/0061-rotate-list/0061-rotate-list.cpp) |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0062-unique-paths/) | [Solution](DynamicProgramming/0062-unique-paths/0062-unique-paths.cpp) |
 | 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0063-unique-paths-ii/) | [Solution](DynamicProgramming/0063-unique-paths-ii/0063-unique-paths-ii.cpp) |
+| 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0066-plus-one/) | [Solution](Math/0066-plus-one/0066-plus-one.cpp) |
 | 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0072-edit-distance/) | [Solution](DynamicProgramming/0072-edit-distance/0072-edit-distance.cpp) |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0073-set-matrix-zeroes/) | [Solution](Arrays/0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) |
 | 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0074-search-a-2d-matrix/) | [Solution](BinarySearch/0074-search-a-2d-matrix/0074-search-a-2d-matrix.cpp) |
@@ -1705,11 +1706,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 97 · **Remaining Questions:** 53
+**Total Questions:** 150 · **Solved Questions:** 98 · **Remaining Questions:** 52
 
-**Completion:** 64.7%
+**Completion:** 65.3%
 
-Progress: ████████████░░░░░░░░ 64.7%
+Progress: █████████████░░░░░░░ 65.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1942,7 +1943,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 141 | Sum of Two Integers | Medium | [LeetCode #371](https://leetcode.com/problems/sum-of-two-integers/) | ✅ Yes | [Solution](BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp) |
 | 142 | Reverse Integer | Medium | [LeetCode #7](https://leetcode.com/problems/reverse-integer/) | ❌ No | — |
 
-### Math & Geometry — 5/8 Solved (62.5%)
+### Math & Geometry — 6/8 Solved (75.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1950,7 +1951,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 144 | Spiral Matrix | Medium | [LeetCode #54](https://leetcode.com/problems/spiral-matrix/) | ✅ Yes | [Solution](Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp) |
 | 145 | Set Matrix Zeroes | Medium | [LeetCode #73](https://leetcode.com/problems/set-matrix-zeroes/) | ✅ Yes | [Solution](Arrays/0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) |
 | 146 | Happy Number | Easy | [LeetCode #202](https://leetcode.com/problems/happy-number/) | ✅ Yes | [Solution](Math/0202-happy-number/0202-happy-number.cpp) |
-| 147 | Plus One | Easy | [LeetCode #66](https://leetcode.com/problems/plus-one/) | ❌ No | — |
+| 147 | Plus One | Easy | [LeetCode #66](https://leetcode.com/problems/plus-one/) | ✅ Yes | [Solution](Math/0066-plus-one/0066-plus-one.cpp) |
 | 148 | Pow(x, n) | Medium | [LeetCode #50](https://leetcode.com/problems/powx-n/) | ✅ Yes | [Solution](Math/0050-powx-n/0050-powx-n.cpp) |
 | 149 | Multiply Strings | Medium | [LeetCode #43](https://leetcode.com/problems/multiply-strings/) | ❌ No | — |
 | 150 | Detect Squares | Medium | [LeetCode #2013](https://leetcode.com/problems/detect-squares/) | ❌ No | — |

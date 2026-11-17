@@ -2,14 +2,30 @@ class Solution {
 public:
     // ! DISCLAIMER : BEGINNERS PLEASE STAY AWAY
     
-    //Approach : 
+    //Approach : Partition DP with Semi-Palindrome Cost Precomputation.
 
-    //Time Complexity = =>
-    /* 
+    //Time Complexity = O(n³ log n + kn²) =>
+    /* Divisor preprocessing: O(n log n)
+        - For each d, visit its multiples: 2d, 3d, ....
+        - Total work is bounded by n/1 + n/2 + ... + n/n = O(n log n).
+    * Substring cost preprocessing: O(n³ log n)
+        - For length L, there are n − L + 1 substrings.
+        - Each valid divisor takes O(L) work: the groups together contain L characters.
+        - If D(L) is the number of proper divisors, total work is:Σ (n − L + 1) × L × D(L)
+        - Since (n − L + 1) × L ≤ n² and Σ D(L) = O(n log n), this is bounded by O(n³ log n).
+    * Partition DP: O(kn²)
+        - k choices for the number of pieces.
+        - Up to n prefix lengths.
+        - Up to n last-cut positions per state.
+        - Since k ≤ n/2, cost preprocessing dominates the overall bound.
     */
 
-    //Space Complexity = =>
-    /* 
+    //Space Complexity = O(n²) =>
+    /* Divisor lists: O(n log n) total stored divisors.
+    * cost table: n × n entries → O(n²).
+    * dp table: (k + 1) × (n + 1) entries → O(kn).
+    * Other variables: O(1).
+    * Therefore, total space is O(n log n + n² + kn) = O(n²).
     */
 
 

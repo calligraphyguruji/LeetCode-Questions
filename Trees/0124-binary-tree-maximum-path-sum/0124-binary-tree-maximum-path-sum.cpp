@@ -11,6 +11,25 @@
  */
 class Solution {
 public:
+    //Approach :Postorder DFS 
+
+    //Time Complexity = O(n) =>
+    /* n is the number of nodes.
+    * Each node is visited exactly once.
+    * At each node, calculating L, R, updating best, and returning the gain take O(1) work.
+    * Total work: n × O(1) = O(n).
+    */
+
+    //Space Complexity = O(h) =>
+    /* h is the height of the tree.
+    * Recursive calls use the call stack, holding at most O(h) active calls.
+    * Each call stores only a constant amount of information.
+    * Balanced tree: h = O(log n) → space is O(log n).
+    * Skewed tree: h = O(n) → space is O(n).
+    * No extra array or map is used.
+    */
+
+
     int gain(TreeNode* root, int& best){
 
         if(root == NULL) return 0;

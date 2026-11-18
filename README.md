@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-124_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-125_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-238_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-239_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-314-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-315-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 94 | 29.9% |
-| 🟡 **Medium** | 186 | 59.2% |
+| 🟢 **Easy** | 94 | 29.8% |
+| 🟡 **Medium** | 187 | 59.4% |
 | 🔴 **Hard** | 34 | 10.8% |
-| 🎯 **Total Solved** | **314** | **100%** |
-| 🔥 **Current Streak** | **124 Days** | — |
-| 📅 **Total Active Days** | **238 Days** | — |
+| 🎯 **Total Solved** | **315** | **100%** |
+| 🔥 **Current Streak** | **125 Days** | — |
+| 📅 **Total Active Days** | **239 Days** | — |
 
 </div>
 
@@ -903,6 +903,7 @@ public:
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2769-find-the-maximum-achievable-number/) | [Solution](Math/2769-find-the-maximum-achievable-number/2769-find-the-maximum-achievable-number.cpp) |
 | 2911 | [Minimum Changes to Make K Semi-palindromes](https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/2911-minimum-changes-to-make-k-semi-palindromes/) | [Solution](DynamicProgramming/2911-minimum-changes-to-make-k-semi-palindromes/2911-minimum-changes-to-make-k-semi-palindromes.cpp) |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2913-subarrays-distinct-element-sum-of-squares-i/) | [Solution](Trees/2913-subarrays-distinct-element-sum-of-squares-i/2913-subarrays-distinct-element-sum-of-squares-i.cpp) |
+| 2914 | [Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2914-minimum-number-of-changes-to-make-binary-string-beautiful/) | [Solution](Arrays/2914-minimum-number-of-changes-to-make-binary-string-beautiful/2914-minimum-number-of-changes-to-make-binary-string-beautiful.cpp) |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2916-subarrays-distinct-element-sum-of-squares-ii/) | [Solution](Trees/2916-subarrays-distinct-element-sum-of-squares-ii/2916-subarrays-distinct-element-sum-of-squares-ii.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2965-find-missing-and-repeated-values/) | [Solution](Math/2965-find-missing-and-repeated-values/2965-find-missing-and-repeated-values.cpp) |
 | 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | [Solution](Arrays/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/3105-longest-strictly-increasing-or-strictly-decreasing-subarray.cpp) |

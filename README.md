@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-240_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-319-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-320-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 96 | 30.1% |
-| 🟡 **Medium** | 189 | 59.2% |
-| 🔴 **Hard** | 34 | 10.7% |
-| 🎯 **Total Solved** | **319** | **100%** |
+| 🟢 **Easy** | 97 | 30.3% |
+| 🟡 **Medium** | 189 | 59.1% |
+| 🔴 **Hard** | 34 | 10.6% |
+| 🎯 **Total Solved** | **320** | **100%** |
 | 🔥 **Current Streak** | **126 Days** | — |
 | 📅 **Total Active Days** | **240 Days** | — |
 
@@ -736,6 +736,7 @@ public:
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0300-longest-increasing-subsequence/) | [Solution](DynamicProgramming/0300-longest-increasing-subsequence/0300-longest-increasing-subsequence.cpp) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0322-coin-change/) | [Solution](DynamicProgramming/0322-coin-change/0322-coin-change.cpp) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0326-power-of-three/) | [Solution](Math/0326-power-of-three/0326-power-of-three.cpp) |
+| 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0338-counting-bits/) | [Solution](BitManipulation/0338-counting-bits/0338-counting-bits.cpp) |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0342-power-of-four/) | [Solution](BitManipulation/0342-power-of-four/0342-power-of-four.cpp) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0344-reverse-string/) | [Solution](Arrays/0344-reverse-string/0344-reverse-string.cpp) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/0347-top-k-frequent-elements/) | [Solution](Heaps/0347-top-k-frequent-elements/0347-top-k-frequent-elements.cpp) |
@@ -1747,11 +1748,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 102 · **Remaining Questions:** 48
+**Total Questions:** 150 · **Solved Questions:** 103 · **Remaining Questions:** 47
 
-**Completion:** 68.0%
+**Completion:** 68.7%
 
-Progress: █████████████░░░░░░░ 68.0%
+Progress: █████████████░░░░░░░ 68.7%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1972,13 +1973,13 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 134 | Meeting Rooms II | Medium | [LeetCode #253](https://leetcode.com/problems/meeting-rooms-ii/) | ❌ No | — |
 | 135 | Minimum Interval to Include Each Query | Hard | [LeetCode #1851](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | ❌ No | — |
 
-### Bit Manipulation — 3/7 Solved (42.9%)
+### Bit Manipulation — 4/7 Solved (57.1%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 136 | Single Number | Easy | [LeetCode #136](https://leetcode.com/problems/single-number/) | ✅ Yes | [Solution](BitManipulation/0136-single-number/0136-single-number.cpp) |
 | 137 | Number of 1 Bits | Easy | [LeetCode #191](https://leetcode.com/problems/number-of-1-bits/) | ✅ Yes | [Solution](BitManipulation/0191-number-of-1-bits/0191-number-of-1-bits.cpp) |
-| 138 | Counting Bits | Easy | [LeetCode #338](https://leetcode.com/problems/counting-bits/) | ❌ No | — |
+| 138 | Counting Bits | Easy | [LeetCode #338](https://leetcode.com/problems/counting-bits/) | ✅ Yes | [Solution](BitManipulation/0338-counting-bits/0338-counting-bits.cpp) |
 | 139 | Reverse Bits | Easy | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | ❌ No | — |
 | 140 | Missing Number | Easy | [LeetCode #268](https://leetcode.com/problems/missing-number/) | ❌ No | — |
 | 141 | Sum of Two Integers | Medium | [LeetCode #371](https://leetcode.com/problems/sum-of-two-integers/) | ✅ Yes | [Solution](BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp) |

@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-240_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-320-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-321-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 97 | 30.3% |
-| 🟡 **Medium** | 189 | 59.1% |
+| 🟢 **Easy** | 98 | 30.5% |
+| 🟡 **Medium** | 189 | 58.9% |
 | 🔴 **Hard** | 34 | 10.6% |
-| 🎯 **Total Solved** | **320** | **100%** |
+| 🎯 **Total Solved** | **321** | **100%** |
 | 🔥 **Current Streak** | **126 Days** | — |
 | 📅 **Total Active Days** | **240 Days** | — |
 
@@ -703,6 +703,7 @@ public:
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0167-two-sum-ii-input-array-is-sorted/) | [Solution](Arrays/0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.cpp) |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0169-majority-element/) | [Solution](Arrays/0169-majority-element/0169-majority-element.cpp) |
 | 0173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0173-binary-search-tree-iterator/) | [Solution](Trees/0173-binary-search-tree-iterator/0173-binary-search-tree-iterator.cpp) |
+| 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0190-reverse-bits/) | [Solution](BitManipulation/0190-reverse-bits/0190-reverse-bits.cpp) |
 | 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0191-number-of-1-bits/) | [Solution](BitManipulation/0191-number-of-1-bits/0191-number-of-1-bits.cpp) |
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0198-house-robber/) | [Solution](DynamicProgramming/0198-house-robber/0198-house-robber.cpp) |
 | 0199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0199-binary-tree-right-side-view/) | [Solution 1](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-2-bfs.cpp) · [Solution 2](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view-approach-3-dfs.cpp) · [Solution 3](Trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.cpp) |
@@ -1750,11 +1751,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 103 · **Remaining Questions:** 47
+**Total Questions:** 150 · **Solved Questions:** 104 · **Remaining Questions:** 46
 
-**Completion:** 68.7%
+**Completion:** 69.3%
 
-Progress: █████████████░░░░░░░ 68.7%
+Progress: █████████████░░░░░░░ 69.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1975,14 +1976,14 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 134 | Meeting Rooms II | Medium | [LeetCode #253](https://leetcode.com/problems/meeting-rooms-ii/) | ❌ No | — |
 | 135 | Minimum Interval to Include Each Query | Hard | [LeetCode #1851](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | ❌ No | — |
 
-### Bit Manipulation — 4/7 Solved (57.1%)
+### Bit Manipulation — 5/7 Solved (71.4%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 136 | Single Number | Easy | [LeetCode #136](https://leetcode.com/problems/single-number/) | ✅ Yes | [Solution](BitManipulation/0136-single-number/0136-single-number.cpp) |
 | 137 | Number of 1 Bits | Easy | [LeetCode #191](https://leetcode.com/problems/number-of-1-bits/) | ✅ Yes | [Solution](BitManipulation/0191-number-of-1-bits/0191-number-of-1-bits.cpp) |
 | 138 | Counting Bits | Easy | [LeetCode #338](https://leetcode.com/problems/counting-bits/) | ✅ Yes | [Solution](BitManipulation/0338-counting-bits/0338-counting-bits.cpp) |
-| 139 | Reverse Bits | Easy | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | ❌ No | — |
+| 139 | Reverse Bits | Easy | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | ✅ Yes | [Solution](BitManipulation/0190-reverse-bits/0190-reverse-bits.cpp) |
 | 140 | Missing Number | Easy | [LeetCode #268](https://leetcode.com/problems/missing-number/) | ❌ No | — |
 | 141 | Sum of Two Integers | Medium | [LeetCode #371](https://leetcode.com/problems/sum-of-two-integers/) | ✅ Yes | [Solution](BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp) |
 | 142 | Reverse Integer | Medium | [LeetCode #7](https://leetcode.com/problems/reverse-integer/) | ❌ No | — |

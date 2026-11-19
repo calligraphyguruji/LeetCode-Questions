@@ -1,6 +1,6 @@
 class DetectSquares {
 public:
-    //Approach :
+    //Approach : Hash Map Frequency Counting + Diagonal Enumeration
 
     //Time Complexity = O(1) / O(U) / O(U²)=>
     /* Constructor: O(1) — initializes an empty hash map.

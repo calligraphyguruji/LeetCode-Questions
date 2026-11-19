@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-125_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-126_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-239_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-240_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-315-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-316-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 94 | 29.8% |
-| 🟡 **Medium** | 187 | 59.4% |
+| 🟢 **Easy** | 94 | 29.7% |
+| 🟡 **Medium** | 188 | 59.5% |
 | 🔴 **Hard** | 34 | 10.8% |
-| 🎯 **Total Solved** | **315** | **100%** |
-| 🔥 **Current Streak** | **125 Days** | — |
-| 📅 **Total Active Days** | **239 Days** | — |
+| 🎯 **Total Solved** | **316** | **100%** |
+| 🔥 **Current Streak** | **126 Days** | — |
+| 📅 **Total Active Days** | **240 Days** | — |
 
 </div>
 
@@ -898,6 +898,7 @@ public:
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2469-convert-the-temperature/) | [Solution](Math/2469-convert-the-temperature/2469-convert-the-temperature.cpp) |
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | [Solution](Trees/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level.cpp) |
 | 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2492-minimum-score-of-a-path-between-two-cities/) | [Solution](Graphs/2492-minimum-score-of-a-path-between-two-cities/2492-minimum-score-of-a-path-between-two-cities.cpp) |
+| 2567 | [Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/) | 🟡 `Medium` | [💡 Greedy Algorithms](Greedy/) | [Problem](Greedy/2567-minimum-score-by-changing-two-elements/) | [Solution](Greedy/2567-minimum-score-by-changing-two-elements/2567-minimum-score-by-changing-two-elements.cpp) |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/2596-check-knight-tour-configuration/) | [Solution](Graphs/2596-check-knight-tour-configuration/2596-check-knight-tour-configuration.cpp) |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2641-cousins-in-binary-tree-ii/) | [Solution](Trees/2641-cousins-in-binary-tree-ii/2641-cousins-in-binary-tree-ii.cpp) |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2769-find-the-maximum-achievable-number/) | [Solution](Math/2769-find-the-maximum-achievable-number/2769-find-the-maximum-achievable-number.cpp) |

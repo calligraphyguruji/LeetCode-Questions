@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-240_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-316-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-317-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
 | 🟢 **Easy** | 94 | 29.7% |
-| 🟡 **Medium** | 188 | 59.5% |
-| 🔴 **Hard** | 34 | 10.8% |
-| 🎯 **Total Solved** | **316** | **100%** |
+| 🟡 **Medium** | 189 | 59.6% |
+| 🔴 **Hard** | 34 | 10.7% |
+| 🎯 **Total Solved** | **317** | **100%** |
 | 🔥 **Current Streak** | **126 Days** | — |
 | 📅 **Total Active Days** | **240 Days** | — |
 
@@ -873,6 +873,7 @@ public:
 | 1976 | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1976-number-of-ways-to-arrive-at-destination/) | [Solution](Graphs/1976-number-of-ways-to-arrive-at-destination/1976-number-of-ways-to-arrive-at-destination.cpp) |
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2000-reverse-prefix-of-word/) | [Solution](Arrays/2000-reverse-prefix-of-word/2000-reverse-prefix-of-word.cpp) |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2011-final-value-of-variable-after-performing-operations/) | [Solution](Arrays/2011-final-value-of-variable-after-performing-operations/2011-final-value-of-variable-after-performing-operations.cpp) |
+| 2013 | [Detect Squares](https://leetcode.com/problems/detect-squares/) | 🟡 `Medium` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2013-detect-squares/) | [Solution](Math/2013-detect-squares/2013-detect-squares.cpp) |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | [Solution](DynamicProgramming/2035-partition-array-into-two-arrays-to-minimize-sum-difference/2035-partition-array-into-two-arrays-to-minimize-sum-difference.cpp) |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2057-smallest-index-with-equal-value/) | [Solution](Arrays/2057-smallest-index-with-equal-value/2057-smallest-index-with-equal-value.cpp) |
 | 2064 | [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/) | [Solution](BinarySearch/2064-minimized-maximum-of-products-distributed-to-any-store/2064-minimized-maximum-of-products-distributed-to-any-store.cpp) |
@@ -1738,11 +1739,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 99 · **Remaining Questions:** 51
+**Total Questions:** 150 · **Solved Questions:** 100 · **Remaining Questions:** 50
 
-**Completion:** 66.0%
+**Completion:** 66.7%
 
-Progress: █████████████░░░░░░░ 66.0%
+Progress: █████████████░░░░░░░ 66.7%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1975,7 +1976,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 141 | Sum of Two Integers | Medium | [LeetCode #371](https://leetcode.com/problems/sum-of-two-integers/) | ✅ Yes | [Solution](BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp) |
 | 142 | Reverse Integer | Medium | [LeetCode #7](https://leetcode.com/problems/reverse-integer/) | ❌ No | — |
 
-### Math & Geometry — 7/8 Solved (87.5%)
+### Math & Geometry — 8/8 Solved (100.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1986,6 +1987,6 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 147 | Plus One | Easy | [LeetCode #66](https://leetcode.com/problems/plus-one/) | ✅ Yes | [Solution](Math/0066-plus-one/0066-plus-one.cpp) |
 | 148 | Pow(x, n) | Medium | [LeetCode #50](https://leetcode.com/problems/powx-n/) | ✅ Yes | [Solution](Math/0050-powx-n/0050-powx-n.cpp) |
 | 149 | Multiply Strings | Medium | [LeetCode #43](https://leetcode.com/problems/multiply-strings/) | ✅ Yes | [Solution](Math/0043-multiply-strings/0043-multiply-strings.cpp) |
-| 150 | Detect Squares | Medium | [LeetCode #2013](https://leetcode.com/problems/detect-squares/) | ❌ No | — |
+| 150 | Detect Squares | Medium | [LeetCode #2013](https://leetcode.com/problems/detect-squares/) | ✅ Yes | [Solution](Math/2013-detect-squares/2013-detect-squares.cpp) |
 
 <!-- NEETCODE150:END -->

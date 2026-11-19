@@ -1,47 +1,38 @@
 class Solution {
 public:
-    //Approach : Brute Force
+    //Approach : Bit Manipulation + DP
 
-    //Time Complexity = O(n * logn) =>
-    /* The for loop processes every number from 0 to n: n + 1 iterations.
-    * For each number, the while loop repeatedly divides it by 2.
-    * A number i > 0 requires ⌊log₂ i⌋ + 1 iterations to reach zero.
-    * For example: 8 → 4 → 2 → 1 → 0 takes 4 iterations.
-    * Each inner iteration performs constant work, so the total time is O(n logn)
+    //Time Complexity = O(n) =>
+    /* Initializing the array takes O(n).
+    * The loop runs n times with O(1) work per iteration.
+    * Total: O(n).
     */
 
     //Space Complexity = O(n) =>
-    /* The result vector ans stores n + 1 integers, requiring O(n) space.
-    * Variables i, num, and count use O(1) space.
-    * There is no recursion or additional data structure.
-    * Therefore, auxiliary space is O(1), and space including the output is O(n).
+    /* `ans` stores n + 1 integers: O(n).
+    * Auxiliary space beyond the output: O(1).
     */
 
     vector<int> countBits(int n) {
         
-        vector<int> ans; //to store the output
+        //1.) Initialization: Create an array of length n + 1, initialized to zero. This establishes ans[0] = 0.
+        vector<int> ans(n+1, 0); //to store the output
         
-        //1.) Make numbers from 0 to n
-        for(int i = 0; i <= n; i++){
 
-            int num = i; // Use a copy to preserve i
-            int count = 0; // Reset for each number
+        //2.)Traversal: Visit each i from 1 through n.
+        for(int i = 1; i <= n; i++){
 
-            //Repeat until the number becomes zero.
-            while(num != 0){
-                //Check whether its last binary digit is 1 using remainder by 2.
-                //Add that remainder to the count.
-                count += num % 2;
-                
-                num /= 2; //Divide the number by 2, discarding the remainder.
-            }
-            
-            ans.push_back(count);
-            
+            //3.)Find the smaller problem: Calculate floor(i / 2), which removes the last binary digit.
+            int smaller = i >> 1;//right shift.
+
+            // 4.) Reuse its count and add the last bit (i & 1)
+            ans[i] = ans[smaller] + (i & 1);
+
         }
 
-        //Finally return the output
+        //5.) Return the output
         return ans;
+        
 
     }
 };

@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-240_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-317-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-318-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 94 | 29.7% |
-| 🟡 **Medium** | 189 | 59.6% |
+| 🟢 **Easy** | 95 | 29.9% |
+| 🟡 **Medium** | 189 | 59.4% |
 | 🔴 **Hard** | 34 | 10.7% |
-| 🎯 **Total Solved** | **317** | **100%** |
+| 🎯 **Total Solved** | **318** | **100%** |
 | 🔥 **Current Streak** | **126 Days** | — |
 | 📅 **Total Active Days** | **240 Days** | — |
 
@@ -687,6 +687,7 @@ public:
 | 0132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0132-palindrome-partitioning-ii/) | [Solution](DynamicProgramming/0132-palindrome-partitioning-ii/0132-palindrome-partitioning-ii.cpp) |
 | 0133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0133-clone-graph/) | [Solution](Graphs/0133-clone-graph/0133-clone-graph.cpp) |
 | 0134 | [Gas Station](https://leetcode.com/problems/gas-station/) | 🟡 `Medium` | [💡 Greedy Algorithms](Greedy/) | [Problem](Greedy/0134-gas-station/) | [Solution](Greedy/0134-gas-station/0134-gas-station.cpp) |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number/) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0136-single-number/) | [Solution](BitManipulation/0136-single-number/0136-single-number.cpp) |
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0138-copy-list-with-random-pointer/) | [Solution](Linked-List/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.cpp) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 `Easy` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0141-linked-list-cycle/) | [Solution](Linked-List/0141-linked-list-cycle/0141-linked-list-cycle.cpp) |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0142-linked-list-cycle-ii/) | [Solution](Linked-List/0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) |
@@ -1741,11 +1742,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 100 · **Remaining Questions:** 50
+**Total Questions:** 150 · **Solved Questions:** 101 · **Remaining Questions:** 49
 
-**Completion:** 66.7%
+**Completion:** 67.3%
 
-Progress: █████████████░░░░░░░ 66.7%
+Progress: █████████████░░░░░░░ 67.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1966,11 +1967,11 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 134 | Meeting Rooms II | Medium | [LeetCode #253](https://leetcode.com/problems/meeting-rooms-ii/) | ❌ No | — |
 | 135 | Minimum Interval to Include Each Query | Hard | [LeetCode #1851](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | ❌ No | — |
 
-### Bit Manipulation — 1/7 Solved (14.3%)
+### Bit Manipulation — 2/7 Solved (28.6%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
-| 136 | Single Number | Easy | [LeetCode #136](https://leetcode.com/problems/single-number/) | ❌ No | — |
+| 136 | Single Number | Easy | [LeetCode #136](https://leetcode.com/problems/single-number/) | ✅ Yes | [Solution](BitManipulation/0136-single-number/0136-single-number.cpp) |
 | 137 | Number of 1 Bits | Easy | [LeetCode #191](https://leetcode.com/problems/number-of-1-bits/) | ❌ No | — |
 | 138 | Counting Bits | Easy | [LeetCode #338](https://leetcode.com/problems/counting-bits/) | ❌ No | — |
 | 139 | Reverse Bits | Easy | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | ❌ No | — |

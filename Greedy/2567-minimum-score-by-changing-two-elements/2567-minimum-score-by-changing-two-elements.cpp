@@ -1,9 +1,26 @@
 class Solution {
 public:
+    //Approach : Sorting + Greedy (Three-Case Analysis)
+
+    //Time Complexity = O(n * logn) =>
+    /* Sorting the array takes O(n log n).
+    * Calculating the three possible scores takes O(1).
+    * Finding the minimum of those three scores takes O(1).
+    * Overall: O(n log n) + O(1) = O(n log n).
+    */
+
+    
+    //Space Complexit = O(logn) =>
+    /* The variables use O(1) extra space.
+    * C++ std::sort typically uses O(log n) stack space.
+    * We modify the original array without creating another array.
+    * Overall auxiliary space: O(log n).
+    */
+
     int minimizeSum(vector<int>& nums) {
         
         int n = nums.size();
-        
+
         //Step 1: Sort the array.
         sort(nums.begin(), nums.end());
 
@@ -22,7 +39,6 @@ public:
         // Step 5: Both changed elements can match an unchanged value.
         // This makes the low score 0 without increasing the range.
         // Return the smallest achievable high score.
-
         return min({changeTwoSmallest, changeBothEnds, changeTwoLargest});
 
     }

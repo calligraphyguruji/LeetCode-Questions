@@ -1304,6 +1304,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1882-process-tasks-using-servers) |
+| [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -1361,6 +1362,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
 | [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
+| [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -1386,6 +1388,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
+| [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
 ## Quickselect
 |  |
 | ------- |
@@ -1630,6 +1633,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
+| [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
 ## Linked List
 |  |
 | ------- |
@@ -1725,6 +1729,10 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Data Stream
+|  |
+| ------- |
+| [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

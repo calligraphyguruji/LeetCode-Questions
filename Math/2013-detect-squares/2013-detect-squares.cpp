@@ -1,5 +1,22 @@
 class DetectSquares {
 public:
+    //Approach : Hash Map Frequency Counting + Diagonal Enumeration
+
+    //Time Complexity = O(1) / O(U) / O(U²)=>
+    /* Constructor: O(1) — initializes an empty hash map.
+    * add(): Expected O(1) — calculates a key and increments its frequency.
+    * count(): Expected O(U):- Visits all U distinct coordinates once.
+        - Each iteration performs constant-time calculations and at most two hash-map lookups, each expected O(1).
+        -Total: U × O(1) = O(U).
+    * Hash-map operations can degrade to O(U) in the worst case due to collisions, making the strict worst case for count() O(U²).
+    */
+ 
+    //Space Complexity = O(U) =>
+    /* Data structure: O(U) — stores one key and frequency per distinct coordinate.
+    * Duplicate additions only increase a frequency; they do not create new entries.
+    * Extra space per count(): O(1) — uses a fixed number of variables and no additional collection.
+    */
+
 
     // Coordinates are in [0, 1000], so x * 1001 + y is a unique key.
     unordered_map<int, int> freq;

@@ -1,5 +1,17 @@
 class Solution {
 public:
+    //Approach : DP + Sorting
+
+    //Time Complexity = O(n * logn) =>
+    /* Sorting : O(n * logn)
+    * For Loop : O(n)
+    */
+
+    //Space Complexity = O(n) =>
+    /* Sorting Stack : O(logn)
+    * Unordered_Map dp : O(n)
+    */
+
     int maxSelectedElements(vector<int>& nums) {
         
         // Step 1: Sort nums so values are processed in increasing order.

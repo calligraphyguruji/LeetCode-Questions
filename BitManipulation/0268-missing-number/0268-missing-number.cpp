@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Mathematical Sum Approach
+
+    //Time Complexity = O(n) =>
+    /* We calculate the expectedSum in O(1) time using a math formula. 
+    * Then, we iterate through the nums array exactly once to calculate 
+    * the actualSum, which takes O(n) time. Overall time is O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* We only use a few integer variables (n, expectedSum, actualSum, ans) 
+    * to store our values. We do not use any extra arrays or data structures, 
+    * so the memory used remains constant regardless of the input size.
+    */
+
     int missingNumber(vector<int>& nums) {
          
         //1.) Initialization  

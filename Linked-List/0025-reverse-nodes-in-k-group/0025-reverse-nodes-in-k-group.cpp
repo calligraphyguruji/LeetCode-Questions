@@ -10,36 +10,62 @@
  */
 class Solution {
 public:
-    //Time Complexity = O(n) => very much obvious traverse the whole LL of n elements
-    
+    ListNode* getKthNode(ListNode* curr, int k){
+
+        while(curr != NULL && k > 0){
+            curr = curr->next;
+            k--;
+        }
+
+        return curr;      
+    }
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode *temp = head ;
-        int count = 0 ;
-        //Step 1 : check if k nodes exist
-        while(count < k){
-            if(temp == NULL) return head ;//if doesn't exist
-
-            temp = temp->next ;
-            count++ ;//important to update to end the loop after k
-        }
-        //Step 2 : recursively call of the LL
-        ListNode *prevNode = reverseKGroup(temp,k) ;
-
-        //Step 3 : reverse the current group
-        temp = head ; count = 0 ;
-
-        while(count < k){
-            ListNode *next = temp->next ;
-            temp->next = prevNode ;
-
-            prevNode = temp ;
-            temp = next ;
-
-            count++ ;//important to update to end the loop after k
-        }
-
-        return prevNode ; //return newHead 
-
+        // Step 1: Initialization
+        // Create a dummy node before 'head' to uniformly handle the first group
+        // and easily return the new head of the modified list.
+        ListNode dummy(0, head);
+        ListNode* groupPrev = &dummy;
         
+
+        while(true){
+            // Step 2: Find the k-th node of the current group
+            ListNode* kth = getKthNode(groupPrev, k);
+
+            // Step 3: Important Condition & Decision
+            // If fewer than k nodes remain, leave the remaining nodes as they are and stop.
+            if(kth == NULL){
+                break;
+            }
+
+            // Save the start of the NEXT group before breaking links
+            ListNode* groupNext = kth->next;
+
+            // Step 4: Reverse the current group of k nodes in-place
+            // Key Trick: Initialize 'prev' to 'groupNext' instead of nullptr so that
+            // the first node of our current group automatically connects to 'groupNext'!
+            ListNode* prev = groupNext;
+            ListNode* curr = groupPrev->next;
+
+            while(curr != groupNext){
+                ListNode* temp = curr->next;// Save next node
+                curr->next = prev;// Reverse current node's pointer
+                prev = curr;//Move prev
+                curr = temp;//Move curr
+            }
+
+            // Stitch the reversed group back to the previous part of the list:
+            // 1. 'groupPrev->next' is still pointing to the original 1st node of this group,
+            //    which is now the TAIL of the reversed group. Save it in 'oldGroupStart'.
+            ListNode* oldGroupStart = groupPrev->next;
+
+            // 2. Connect 'groupPrev' to 'kth' (which is now the new HEAD of this group).
+            groupPrev->next = kth;
+
+            // 3. Advance 'groupPrev' to the tail of this reversed group for the next iteration
+            groupPrev = oldGroupStart;
+        }
+
+        // Step 5: Return the new head of the modified list
+        return dummy.next;
     }
 };

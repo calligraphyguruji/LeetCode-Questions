@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-241_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-323-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-324-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 98 | 30.3% |
-| 🟡 **Medium** | 190 | 58.8% |
+| 🟢 **Easy** | 99 | 30.6% |
+| 🟡 **Medium** | 190 | 58.6% |
 | 🔴 **Hard** | 35 | 10.8% |
-| 🎯 **Total Solved** | **323** | **100%** |
+| 🎯 **Total Solved** | **324** | **100%** |
 | 🔥 **Current Streak** | **127 Days** | — |
 | 📅 **Total Active Days** | **241 Days** | — |
 
@@ -732,6 +732,7 @@ public:
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0242-valid-anagram/) | [Solution](Arrays/0242-valid-anagram/0242-valid-anagram.cpp) |
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/0263-ugly-number/) | [Solution](Math/0263-ugly-number/0263-ugly-number.cpp) |
 | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0264-ugly-number-ii/) | [Solution](DynamicProgramming/0264-ugly-number-ii/0264-ugly-number-ii.cpp) |
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0268-missing-number/) | [Solution](BitManipulation/0268-missing-number/0268-missing-number.cpp) |
 | 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0279-perfect-squares/) | [Solution](DynamicProgramming/0279-perfect-squares/0279-perfect-squares.cpp) |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0287-find-the-duplicate-number/) | [Solution](Arrays/0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp) |
 | 0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0297-serialize-and-deserialize-binary-tree/) | [Solution](Trees/0297-serialize-and-deserialize-binary-tree/0297-serialize-and-deserialize-binary-tree.cpp) |
@@ -1766,11 +1767,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 105 · **Remaining Questions:** 45
+**Total Questions:** 150 · **Solved Questions:** 106 · **Remaining Questions:** 44
 
-**Completion:** 70.0%
+**Completion:** 70.7%
 
-Progress: ██████████████░░░░░░ 70.0%
+Progress: ██████████████░░░░░░ 70.7%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1991,7 +1992,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 134 | Meeting Rooms II | Medium | [LeetCode #253](https://leetcode.com/problems/meeting-rooms-ii/) | ❌ No | — |
 | 135 | Minimum Interval to Include Each Query | Hard | [LeetCode #1851](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | ❌ No | — |
 
-### Bit Manipulation — 5/7 Solved (71.4%)
+### Bit Manipulation — 6/7 Solved (85.7%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -1999,7 +2000,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 137 | Number of 1 Bits | Easy | [LeetCode #191](https://leetcode.com/problems/number-of-1-bits/) | ✅ Yes | [Solution](BitManipulation/0191-number-of-1-bits/0191-number-of-1-bits.cpp) |
 | 138 | Counting Bits | Easy | [LeetCode #338](https://leetcode.com/problems/counting-bits/) | ✅ Yes | [Solution](BitManipulation/0338-counting-bits/0338-counting-bits.cpp) |
 | 139 | Reverse Bits | Easy | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | ✅ Yes | [Solution](BitManipulation/0190-reverse-bits/0190-reverse-bits.cpp) |
-| 140 | Missing Number | Easy | [LeetCode #268](https://leetcode.com/problems/missing-number/) | ❌ No | — |
+| 140 | Missing Number | Easy | [LeetCode #268](https://leetcode.com/problems/missing-number/) | ✅ Yes | [Solution](BitManipulation/0268-missing-number/0268-missing-number.cpp) |
 | 141 | Sum of Two Integers | Medium | [LeetCode #371](https://leetcode.com/problems/sum-of-two-integers/) | ✅ Yes | [Solution](BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp) |
 | 142 | Reverse Integer | Medium | [LeetCode #7](https://leetcode.com/problems/reverse-integer/) | ❌ No | — |
 

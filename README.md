@@ -1314,6 +1314,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2567-minimum-score-by-changing-two-elements) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3364-minimum-positive-sum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3364-minimum-positive-sum-subarray) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
@@ -1351,6 +1352,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2567-minimum-score-by-changing-two-elements) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
 ## Hash Table
 |  |
@@ -1522,6 +1524,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0338-counting-bits](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0338-counting-bits) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3665-twisted-mirror-path-count](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3665-twisted-mirror-path-count) |
 | [3693-climbing-stairs-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3693-climbing-stairs-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |

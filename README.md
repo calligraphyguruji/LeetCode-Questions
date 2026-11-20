@@ -1299,6 +1299,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0238-product-of-array-except-self](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0453-minimum-moves-to-equal-array-elements) |
@@ -1337,6 +1338,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0875-koko-eating-bananas) |
@@ -1347,6 +1349,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0015-3sum) |
+| [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0853-car-fleet](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0853-car-fleet) |
@@ -1368,6 +1371,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0146-lru-cache](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0146-lru-cache) |
 | [0202-happy-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
+| [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
@@ -1437,6 +1441,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0066-plus-one](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0202-happy-number) |
+| [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -1453,6 +1458,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0136-single-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0191-number-of-1-bits) |
+| [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |

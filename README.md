@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-241_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-324-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-325-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 99 | 30.6% |
-| 🟡 **Medium** | 190 | 58.6% |
+| 🟢 **Easy** | 99 | 30.5% |
+| 🟡 **Medium** | 191 | 58.8% |
 | 🔴 **Hard** | 35 | 10.8% |
-| 🎯 **Total Solved** | **324** | **100%** |
+| 🎯 **Total Solved** | **325** | **100%** |
 | 🔥 **Current Streak** | **127 Days** | — |
 | 📅 **Total Active Days** | **241 Days** | — |
 
@@ -617,6 +617,7 @@ public:
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0003-longest-substring-without-repeating-characters/) | [Solution 1](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp) · [Solution 2](Arrays/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java) |
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0004-median-of-two-sorted-arrays/) | [Solution](BinarySearch/0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.cpp) |
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0005-longest-palindromic-substring/) | [Solution](DynamicProgramming/0005-longest-palindromic-substring/0005-longest-palindromic-substring.cpp) |
+| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 `Medium` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/0007-reverse-integer/) | [Solution](BitManipulation/0007-reverse-integer/0007-reverse-integer.cpp) |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0011-container-with-most-water/) | [Solution](Arrays/0011-container-with-most-water/0011-container-with-most-water.cpp) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0014-longest-common-prefix/) | [Solution](Arrays/0014-longest-common-prefix/0014-longest-common-prefix.cpp) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0015-3sum/) | [Solution](Arrays/0015-3sum/0015-3sum.cpp) |
@@ -1768,11 +1769,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 106 · **Remaining Questions:** 44
+**Total Questions:** 150 · **Solved Questions:** 107 · **Remaining Questions:** 43
 
-**Completion:** 70.7%
+**Completion:** 71.3%
 
-Progress: ██████████████░░░░░░ 70.7%
+Progress: ██████████████░░░░░░ 71.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1993,7 +1994,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 134 | Meeting Rooms II | Medium | [LeetCode #253](https://leetcode.com/problems/meeting-rooms-ii/) | ❌ No | — |
 | 135 | Minimum Interval to Include Each Query | Hard | [LeetCode #1851](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | ❌ No | — |
 
-### Bit Manipulation — 6/7 Solved (85.7%)
+### Bit Manipulation — 7/7 Solved (100.0%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -2003,7 +2004,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 139 | Reverse Bits | Easy | [LeetCode #190](https://leetcode.com/problems/reverse-bits/) | ✅ Yes | [Solution](BitManipulation/0190-reverse-bits/0190-reverse-bits.cpp) |
 | 140 | Missing Number | Easy | [LeetCode #268](https://leetcode.com/problems/missing-number/) | ✅ Yes | [Solution](BitManipulation/0268-missing-number/0268-missing-number.cpp) |
 | 141 | Sum of Two Integers | Medium | [LeetCode #371](https://leetcode.com/problems/sum-of-two-integers/) | ✅ Yes | [Solution](BitManipulation/0371-sum-of-two-integers/0371-sum-of-two-integers.cpp) |
-| 142 | Reverse Integer | Medium | [LeetCode #7](https://leetcode.com/problems/reverse-integer/) | ❌ No | — |
+| 142 | Reverse Integer | Medium | [LeetCode #7](https://leetcode.com/problems/reverse-integer/) | ✅ Yes | [Solution](BitManipulation/0007-reverse-integer/0007-reverse-integer.cpp) |
 
 ### Math & Geometry — 8/8 Solved (100.0%)
 

@@ -10,6 +10,23 @@
  */
 class Solution {
 public:
+    //Approach : Iterative In-Place Group Reversal 
+
+    //Time Complexity = O(n) =>
+    /* Let n be the total number of nodes in the linked list.
+    * getKthNode walks forward at most k steps per group across roughly n / k groups, taking O(n) total steps across the entire list.
+    * Each node in a full group of size k is visited once during the inner reversal loop (curr != groupNext) to flip its next pointer, taking another O(n) total operations.
+    * Re-stitching boundaries (oldGroupStart, groupPrev, kth) takes O(1) per group, which is O(n / k) overall.
+    * Summing these up gives O(n) time complexity.
+    */
+
+    //Space Complexity = O(1) =>
+    /*  Only a constant number of pointer and integer variables are used (dummy, groupPrev, kth, groupNext, prev, curr, temp, oldGroupStart, k).
+    * Reversal happens strictly in-place by rewiring existing .next pointers without allocating extra arrays, stacks, or recursive call frames.
+    * Auxiliary memory remains strictly O(1) regardless of n or k.
+    */
+
+
     ListNode* getKthNode(ListNode* curr, int k){
 
         while(curr != NULL && k > 0){

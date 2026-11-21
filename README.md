@@ -1290,6 +1290,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
+| [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
@@ -1355,6 +1356,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0015-3sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0056-merge-intervals) |
 | [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -1774,6 +1776,10 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

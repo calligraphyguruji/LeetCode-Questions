@@ -1308,6 +1308,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0435-non-overlapping-intervals) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
@@ -1359,6 +1360,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0056-merge-intervals) |
 | [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0435-non-overlapping-intervals) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0853-car-fleet](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0853-car-fleet) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -1521,6 +1523,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0011-container-with-most-water) |
+| [0435-non-overlapping-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0435-non-overlapping-intervals) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Pigeonhole Principle
@@ -1540,6 +1543,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0338-counting-bits](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0338-counting-bits) |
+| [0435-non-overlapping-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0435-non-overlapping-intervals) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |

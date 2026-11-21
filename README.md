@@ -1289,6 +1289,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
+| [0057-insert-interval](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
 | [0084-largest-rectangle-in-histogram](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0084-largest-rectangle-in-histogram) |

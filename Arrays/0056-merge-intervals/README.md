@@ -44,11 +44,19 @@
 
 ---
 
+## 💡 Approach
+
+```text
+Approach : Sorting + Linear Scan (Greedy Interval Merging)
+```
+
+---
+
 ## ⏱️ Complexity Analysis
 
 ```text
-Time Complexity = O(nlogn) for sorting + O(n) for traversing intervals = O(nlogn)
-Space Complexity = O(n) => cause using ans vector to store
+Time Complexity = O(n * logn) =>
+Space Complexity = O(n) =>
 ```
 
 ---
@@ -60,38 +68,43 @@ Space Complexity = O(n) => cause using ans vector to store
 ```cpp
 class Solution {
 public:
-   //Time Complexity = O(nlogn) for sorting + O(n) for traversing intervals = O(nlogn) 
-   //Space Complexity = O(n) => cause using ans vector to store
+    //Approach : Sorting + Linear Scan (Greedy Interval Merging)
+
+    //Time Complexity = O(n * logn) =>
+    /* Sorting : O(n * logn)
+    * Linear Scan : O(n)
+    * Total : O(n * logn) + O(n) = O(n * logn)
+    */
+
+    //Space Complexity = O(n) =>
+    /* O(log n) to O(n) auxiliary space for std::sort recursion stack.
+    * O(n) output space to store the merged ans vector.
+    * 
+    */
+
+
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        //Step 1 : sort in ascending order
-        sort(intervals.begin(), intervals.end()) ;
+        // Step 1: Sort intervals by start time.
+        sort(intervals.begin(), intervals.end());
 
-        vector<vector<int>> ans ; //to store all the ans vectors
+        vector<vector<int>> ans; //to store the output
 
-        //iterate on the intervals
-        for(int i=0 ; i<intervals.size() ; i++){
+        //Traverse the intervals
+        for(auto& interval : intervals){
 
-            //if ans vector is empty push current
-            if(ans.empty()){
-                ans.push_back(intervals[i]) ;
+            // Step 2: If empty or no overlap, add as a new interval.
+            if(ans.empty() || ans.back()[1] < interval[0]){ // index[0] = start, index[1] = end, ans.back()[1] means end of ans, interval[0] means start of interval
+                ans.push_back(interval);
             }
+
+            // Step 3: If overlapping, expand end to larger boundary.
             else{
-                vector<int> &v = ans.back() ; //this is prev interval
-                //e.g. v = [1,5] so v[0] = 1, v[1] = ending of prev
-                int y = v[1] ; //stores the ending of prev
-                
-                //check if current interval overlaps with prev
-                if(intervals[i][0] <= v[1]){
-                    v[1] = max(intervals[i][1] , y) ;
-                    //ending of prev interval will change to max of current, prev
-                }
-                else{ //if no overlap then simply add in ans 
-                    ans.push_back(intervals[i]) ; //push current
-                }
+                ans.back()[1] = max(ans.back()[1], interval[1]);
             }
         }
 
-        return ans ; //very important to return the ans vector
+        //Finally return the output
+        return ans;
     }
 };
 ```

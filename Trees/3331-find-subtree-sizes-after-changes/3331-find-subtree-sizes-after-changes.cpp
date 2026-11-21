@@ -1,5 +1,21 @@
 class Solution {
 public:
+    //Approach : DFS with backtracking and path state
+
+    //Time Complexity = O(n) =>
+    /* Building the original tree processes each node once.
+    * DFS visits every node and edge once.
+    * Each node does constant-time work to look up its letter’s latest ancestor.
+    * Subtree sizes are accumulated once per non-root node.
+    */
+
+    //Space Complexity = O(n) =>
+    /* The original tree’s adjacency list stores n - 1 edges.
+    * `resultSize` uses O(n) space.
+    * The DFS call stack can use up to O(n) space for a tree shaped like a chain.
+    * `last` stores 26 letter entries, which is O(1) space.
+    */
+
 
     vector<vector<int>> adj; // Children in the original tree
     vector<int> resultSize; // Final subtree sizes

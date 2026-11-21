@@ -1,5 +1,18 @@
 class Solution {
 public:
+    //Approach : One-Pass Greedy Interval Merging
+
+    //Time Complexity = O(n) =>
+    /* We scan the intervals from left to right.
+    * Each interval is processed once: copied before the new range, merged, or copied after it.
+    */
+
+    //Space Complexity = O(n) =>
+    /* The result vector stores up to n + 1 intervals.
+    * If counting only extra working space and excluding the returned result, it’s O(1).
+    */
+
+    
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
         
         //1.) Initialize an empty list ans

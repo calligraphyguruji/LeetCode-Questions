@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-242_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-326-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-327-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 99 | 30.4% |
-| 🟡 **Medium** | 192 | 58.9% |
+| 🟢 **Easy** | 99 | 30.3% |
+| 🟡 **Medium** | 193 | 59.0% |
 | 🔴 **Hard** | 35 | 10.7% |
-| 🎯 **Total Solved** | **326** | **100%** |
+| 🎯 **Total Solved** | **327** | **100%** |
 | 🔥 **Current Streak** | **128 Days** | — |
 | 📅 **Total Active Days** | **242 Days** | — |
 
@@ -644,6 +644,7 @@ public:
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0053-maximum-subarray/) | [Solution](DynamicProgramming/0053-maximum-subarray/0053-maximum-subarray.cpp) |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0054-spiral-matrix/) | [Solution](Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp) |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0056-merge-intervals/) | [Solution](Arrays/0056-merge-intervals/0056-merge-intervals.cpp) |
+| 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0057-insert-interval/) | [Solution](Arrays/0057-insert-interval/0057-insert-interval.cpp) |
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0061-rotate-list/) | [Solution](Linked-List/0061-rotate-list/0061-rotate-list.cpp) |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0062-unique-paths/) | [Solution](DynamicProgramming/0062-unique-paths/0062-unique-paths.cpp) |
 | 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0063-unique-paths-ii/) | [Solution](DynamicProgramming/0063-unique-paths-ii/0063-unique-paths-ii.cpp) |
@@ -1778,11 +1779,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 107 · **Remaining Questions:** 43
+**Total Questions:** 150 · **Solved Questions:** 108 · **Remaining Questions:** 42
 
-**Completion:** 71.3%
+**Completion:** 72.0%
 
-Progress: ██████████████░░░░░░ 71.3%
+Progress: ██████████████░░░░░░ 72.0%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1992,11 +1993,11 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 128 | Partition Labels | Medium | [LeetCode #763](https://leetcode.com/problems/partition-labels/) | ❌ No | — |
 | 129 | Valid Parenthesis String | Medium | [LeetCode #678](https://leetcode.com/problems/valid-parenthesis-string/) | ❌ No | — |
 
-### Intervals — 1/6 Solved (16.7%)
+### Intervals — 2/6 Solved (33.3%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
-| 130 | Insert Interval | Medium | [LeetCode #57](https://leetcode.com/problems/insert-interval/) | ❌ No | — |
+| 130 | Insert Interval | Medium | [LeetCode #57](https://leetcode.com/problems/insert-interval/) | ✅ Yes | [Solution](Arrays/0057-insert-interval/0057-insert-interval.cpp) |
 | 131 | Merge Intervals | Medium | [LeetCode #56](https://leetcode.com/problems/merge-intervals/) | ✅ Yes | [Solution](Arrays/0056-merge-intervals/0056-merge-intervals.cpp) |
 | 132 | Non Overlapping Intervals | Medium | [LeetCode #435](https://leetcode.com/problems/non-overlapping-intervals/) | ❌ No | — |
 | 133 | Meeting Rooms | Easy | [LeetCode #252](https://leetcode.com/problems/meeting-rooms/) | ❌ No | — |

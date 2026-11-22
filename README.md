@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-243_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-329-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-330-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 100 | 30.4% |
-| 🟡 **Medium** | 194 | 59.0% |
+| 🟢 **Easy** | 100 | 30.3% |
+| 🟡 **Medium** | 195 | 59.1% |
 | 🔴 **Hard** | 35 | 10.6% |
-| 🎯 **Total Solved** | **329** | **100%** |
+| 🎯 **Total Solved** | **330** | **100%** |
 | 🔥 **Current Streak** | **129 Days** | — |
 | 📅 **Total Active Days** | **243 Days** | — |
 
@@ -643,6 +643,7 @@ public:
 | 0051 | [N-Queens](https://leetcode.com/problems/n-queens/) | 🔴 `Hard` | [🔄 Backtracking](Backtracking/) | [Problem](Backtracking/0051-n-queens/) | [Solution](Backtracking/0051-n-queens/0051-n-queens.cpp) |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0053-maximum-subarray/) | [Solution](DynamicProgramming/0053-maximum-subarray/0053-maximum-subarray.cpp) |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0054-spiral-matrix/) | [Solution](Arrays/0054-spiral-matrix/0054-spiral-matrix.cpp) |
+| 0055 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 `Medium` | [💡 Greedy Algorithms](Greedy/) | [Problem](Greedy/0055-jump-game/) | [Solution](Greedy/0055-jump-game/0055-jump-game.cpp) |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0056-merge-intervals/) | [Solution](Arrays/0056-merge-intervals/0056-merge-intervals.cpp) |
 | 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0057-insert-interval/) | [Solution](Arrays/0057-insert-interval/0057-insert-interval.cpp) |
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | 🟡 `Medium` | [🪢 Linked List](Linked-List/) | [Problem](Linked-List/0061-rotate-list/) | [Solution](Linked-List/0061-rotate-list/0061-rotate-list.cpp) |
@@ -1795,11 +1796,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 109 · **Remaining Questions:** 41
+**Total Questions:** 150 · **Solved Questions:** 110 · **Remaining Questions:** 40
 
-**Completion:** 72.7%
+**Completion:** 73.3%
 
-Progress: ██████████████░░░░░░ 72.7%
+Progress: ██████████████░░░░░░ 73.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1996,12 +1997,12 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 120 | Burst Balloons | Hard | [LeetCode #312](https://leetcode.com/problems/burst-balloons/) | ❌ No | — |
 | 121 | Regular Expression Matching | Hard | [LeetCode #10](https://leetcode.com/problems/regular-expression-matching/) | ❌ No | — |
 
-### Greedy — 2/8 Solved (25.0%)
+### Greedy — 3/8 Solved (37.5%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 122 | Maximum Subarray | Medium | [LeetCode #53](https://leetcode.com/problems/maximum-subarray/) | ✅ Yes | [Solution](DynamicProgramming/0053-maximum-subarray/0053-maximum-subarray.cpp) |
-| 123 | Jump Game | Medium | [LeetCode #55](https://leetcode.com/problems/jump-game/) | ❌ No | — |
+| 123 | Jump Game | Medium | [LeetCode #55](https://leetcode.com/problems/jump-game/) | ✅ Yes | [Solution](Greedy/0055-jump-game/0055-jump-game.cpp) |
 | 124 | Jump Game II | Medium | [LeetCode #45](https://leetcode.com/problems/jump-game-ii/) | ❌ No | — |
 | 125 | Gas Station | Medium | [LeetCode #134](https://leetcode.com/problems/gas-station/) | ✅ Yes | [Solution](Greedy/0134-gas-station/0134-gas-station.cpp) |
 | 126 | Hand of Straights | Medium | [LeetCode #846](https://leetcode.com/problems/hand-of-straights/) | ❌ No | — |

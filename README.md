@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-243_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-328-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-329-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 99 | 30.2% |
-| 🟡 **Medium** | 194 | 59.1% |
-| 🔴 **Hard** | 35 | 10.7% |
-| 🎯 **Total Solved** | **328** | **100%** |
+| 🟢 **Easy** | 100 | 30.4% |
+| 🟡 **Medium** | 194 | 59.0% |
+| 🔴 **Hard** | 35 | 10.6% |
+| 🎯 **Total Solved** | **329** | **100%** |
 | 🔥 **Current Streak** | **129 Days** | — |
 | 📅 **Total Active Days** | **243 Days** | — |
 
@@ -891,6 +891,7 @@ public:
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/) | [Solution](Trees/2096-step-by-step-directions-from-a-binary-tree-node-to-another/2096-step-by-step-directions-from-a-binary-tree-node-to-another.cpp) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2114-maximum-number-of-words-found-in-sentences/) | [Solution](Arrays/2114-maximum-number-of-words-found-in-sentences/2114-maximum-number-of-words-found-in-sentences.cpp) |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2119-a-number-after-a-double-reversal/) | [Solution](Math/2119-a-number-after-a-double-reversal/2119-a-number-after-a-double-reversal.cpp) |
+| 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2124-check-if-all-as-appears-before-all-bs/) | [Solution](Arrays/2124-check-if-all-as-appears-before-all-bs/2124-check-if-all-as-appears-before-all-bs.cpp) |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/2185-counting-words-with-a-given-prefix/) | [Solution](Arrays/2185-counting-words-with-a-given-prefix/2185-counting-words-with-a-given-prefix.cpp) |
 | 2196 | [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/2196-create-binary-tree-from-descriptions/) | [Solution](Trees/2196-create-binary-tree-from-descriptions/2196-create-binary-tree-from-descriptions.cpp) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/2235-add-two-integers/) | [Solution](Math/2235-add-two-integers/2235-add-two-integers.cpp) |

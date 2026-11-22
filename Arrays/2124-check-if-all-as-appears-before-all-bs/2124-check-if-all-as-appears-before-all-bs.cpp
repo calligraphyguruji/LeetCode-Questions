@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Boolean Flag Approach
+
+    //Time Complexity = O(n) =>
+    /* n is string length.
+    * Single pass loop visits each character at most once.
+    * Each character check runs in O(1) time.
+    */
+
+    //Space Complexity = O(1) =>
+    /* Only one boolean variable (seen_b) used.
+    * Memory usage stays constant regardless of string size.
+    */
+
+
     bool checkString(string s) {
 
         //Step 1: Initialize boolean variable seen_b = false.

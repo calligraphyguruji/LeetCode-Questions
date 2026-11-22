@@ -1,5 +1,17 @@
 class Solution {
 public:
+    //Approach : Greedy Range Expansion
+
+    //Time Complexity = O(n) =>
+    /* Traverses at most n - 1 elements in single loop.
+    *  Constant O(1) operations per iteration.
+    */
+
+    //Space Complexity = O(1) =>
+    /* Uses only primitive integer counters.
+    * No extra arrays or recursion stack.
+    */
+    
     int jump(vector<int>& nums) {
         
         int n = nums.size();

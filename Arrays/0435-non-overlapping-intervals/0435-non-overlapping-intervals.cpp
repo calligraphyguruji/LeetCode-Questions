@@ -31,12 +31,12 @@ public:
         for(int i = 1; i < intervals.size(); i++){
 
             // Step 3: If start time is strictly less than previous end, overlap exists -> remove.
-            if(intervals[i][0] < prevEnd){
+            if(intervals[i][0] < prevEnd){ //intervals[i][0] is start index time
                 removals++;
             }
             // Step 4: If no overlap, keep current interval and update previous end.
             else{
-                prevEnd = intervals[i][1];
+                prevEnd = intervals[i][1]; //intervals[i][1] is end index time
             }
         }
 

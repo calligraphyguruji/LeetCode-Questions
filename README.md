@@ -1291,6 +1291,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0033-search-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0055-jump-game) |
@@ -1528,6 +1529,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0011-container-with-most-water) |
+| [0045-jump-game-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0055-jump-game) |
 | [0435-non-overlapping-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0435-non-overlapping-intervals) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2567-minimum-score-by-changing-two-elements) |
@@ -1546,6 +1548,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0124-binary-tree-maximum-path-sum) |

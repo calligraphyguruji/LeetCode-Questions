@@ -1,9 +1,25 @@
 class Solution {
 public:
+    //Approach : Greedy Approach (Max Reachable Index)
+
+    //Time Complexity = O(n) =>
+    /* Single loop traverses at most n elements from index 0 to n - 1.
+    *  Each iteration performs O(1) constant-time comparisons and arithmetic operations.
+    *  Early exit (maxReach >= n - 1) can terminate loop even earlier in O(1) best case.
+    *  Overall worst-case time complexity is strictly linear: O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* Uses only two integer variables: 'n' and 'maxReach'.
+    *  Operates entirely in-place without recursion stack or auxiliary data structures.
+    *  Overall auxiliary space complexity is constant: O(1).
+    */
+
+
     bool canJump(vector<int>& nums) {
         
         int n = nums.size();
-        
+
         //Step 1: Initialization: Initialize integer maxReach = 0.
         int maxReach = 0;
 

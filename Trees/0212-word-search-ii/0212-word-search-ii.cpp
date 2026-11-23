@@ -1,5 +1,22 @@
 class Solution {
 public:
+    //Approach : Trie-Guided DFS with In-Place Backtracking
+
+    //Time Complexity = O(W * L + M * N * 3^L)=>
+    /* Trie build: O(W * L), where W = number of words, L = max word length.
+     * - Grid traversal: M * N starting cells.
+     * - DFS depth: at most L steps. Branching factor is at most 3 (cannot return to parent cell).
+     * - Total TC: O(W * L + M * N * 3^L).
+    */
+
+    //Space Complexity = O(W * L) =>
+    /* Trie storage: O(W * L * 26) nodes in worst case.
+     * - Recursion stack: O(L) max recursion depth.
+     * - Grid visited state: O(1) auxiliary space (in-place modification using '#').
+     * - Total SC: O(W * L) auxiliary space (excluding output array).
+    */
+
+
     // Trie node structure
     struct TrieNode{
         

@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-129_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-130_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-243_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-244_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-331-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-332-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 100 | 30.2% |
-| 🟡 **Medium** | 196 | 59.2% |
-| 🔴 **Hard** | 35 | 10.6% |
-| 🎯 **Total Solved** | **331** | **100%** |
-| 🔥 **Current Streak** | **129 Days** | — |
-| 📅 **Total Active Days** | **243 Days** | — |
+| 🟢 **Easy** | 100 | 30.1% |
+| 🟡 **Medium** | 197 | 59.3% |
+| 🔴 **Hard** | 35 | 10.5% |
+| 🎯 **Total Solved** | **332** | **100%** |
+| 🔥 **Current Streak** | **130 Days** | — |
+| 📅 **Total Active Days** | **244 Days** | — |
 
 </div>
 
@@ -837,6 +837,7 @@ public:
 | 1335 | [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) | 🔴 `Hard` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/) | [Solution](DynamicProgramming/1335-minimum-difficulty-of-a-job-schedule/1335-minimum-difficulty-of-a-job-schedule.cpp) |
 | 1339 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1339-maximum-product-of-splitted-binary-tree/) | [Solution](Trees/1339-maximum-product-of-splitted-binary-tree/1339-maximum-product-of-splitted-binary-tree.cpp) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 `Easy` | [⚡ Bit Manipulation](BitManipulation/) | [Problem](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/) | [Solution](BitManipulation/1342-number-of-steps-to-reduce-a-number-to-zero/1342-number-of-steps-to-reduce-a-number-to-zero.cpp) |
+| 1352 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | 🟡 `Medium` | [🔢 Math & Number Theory](Math/) | [Problem](Math/1352-product-of-the-last-k-numbers/) | [Solution](Math/1352-product-of-the-last-k-numbers/1352-product-of-the-last-k-numbers.cpp) |
 | 1361 | [Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1361-validate-binary-tree-nodes/) | [Solution](Trees/1361-validate-binary-tree-nodes/1361-validate-binary-tree-nodes.cpp) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/) | [Solution](Arrays/1365-how-many-numbers-are-smaller-than-the-current-number/1365-how-many-numbers-are-smaller-than-the-current-number.cpp) |
 | 1367 | [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1367-linked-list-in-binary-tree/) | [Solution](Trees/1367-linked-list-in-binary-tree/1367-linked-list-in-binary-tree.cpp) |

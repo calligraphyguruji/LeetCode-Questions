@@ -2,6 +2,20 @@ class Solution {
 public:
     //Approach : Greedy (Hash Map + Sorting)
 
+    //Time Complexity = O(n * logn) =>
+    /* Count frequencies: O(n) to build unordered_map.
+    * Sort hand: O(n * logn) where n = hand.size().
+    * Greedy matching: Each card belongs to exactly one group of size groupSize.
+    * Total inner-loop decrements across whole run = n steps -> O(n).
+    * Dominant factor: Sorting -> O(n * logn).
+    */
+
+    //Space Complexity = O(n) =>
+    /* unordered_map stores frequency of at most N unique elements -> O(n).
+    * std::sort takes auxiliary stack space -> O(log n).
+    * Total auxiliary space: O(n).
+    */
+
 
     bool isNStraightHand(vector<int>& hand, int groupSize) {
         

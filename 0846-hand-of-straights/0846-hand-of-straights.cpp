@@ -3,7 +3,7 @@ public:
     //Approach : Greedy (Hash Map + Sorting)
 
     //Time Complexity = O(n * logn) =>
-    /* Count frequencies: O(N) to build unordered_map.
+    /* Count frequencies: O(n) to build unordered_map.
     * Sort hand: O(n * logn) where n = hand.size().
     * Greedy matching: Each card belongs to exactly one group of size groupSize.
     * Total inner-loop decrements across whole run = n steps -> O(n).

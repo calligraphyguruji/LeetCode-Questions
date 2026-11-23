@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-244_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-333-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-334-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 100 | 30.0% |
-| 🟡 **Medium** | 197 | 59.2% |
+| 🟢 **Easy** | 100 | 29.9% |
+| 🟡 **Medium** | 198 | 59.3% |
 | 🔴 **Hard** | 36 | 10.8% |
-| 🎯 **Total Solved** | **333** | **100%** |
+| 🎯 **Total Solved** | **334** | **100%** |
 | 🔥 **Current Streak** | **130 Days** | — |
 | 📅 **Total Active Days** | **244 Days** | — |
 
@@ -797,6 +797,7 @@ public:
 | 0797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0797-all-paths-from-source-to-target/) | [Solution](Graphs/0797-all-paths-from-source-to-target/0797-all-paths-from-source-to-target.cpp) |
 | 0814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0814-binary-tree-pruning/) | [Solution](Trees/0814-binary-tree-pruning/0814-binary-tree-pruning.cpp) |
 | 0841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0841-keys-and-rooms/) | [Solution 1](Graphs/0841-keys-and-rooms/0841-keys-and-rooms-approach-2-dfs.cpp) · [Solution 2](Graphs/0841-keys-and-rooms/0841-keys-and-rooms.cpp) |
+| 0846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | 🟡 `Medium` | [💡 Greedy Algorithms](Greedy/) | [Problem](Greedy/0846-hand-of-straights/) | [Solution](Greedy/0846-hand-of-straights/0846-hand-of-straights.cpp) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 `Medium` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/0852-peak-index-in-a-mountain-array/) | [Solution](BinarySearch/0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) |
 | 0853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0853-car-fleet/) | [Solution](Arrays/0853-car-fleet/0853-car-fleet.cpp) |
 | 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0859-buddy-strings/) | [Solution](Arrays/0859-buddy-strings/0859-buddy-strings.cpp) |
@@ -1819,11 +1820,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 112 · **Remaining Questions:** 38
+**Total Questions:** 150 · **Solved Questions:** 113 · **Remaining Questions:** 37
 
-**Completion:** 74.7%
+**Completion:** 75.3%
 
-Progress: ██████████████░░░░░░ 74.7%
+Progress: ███████████████░░░░░ 75.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -2020,7 +2021,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 120 | Burst Balloons | Hard | [LeetCode #312](https://leetcode.com/problems/burst-balloons/) | ❌ No | — |
 | 121 | Regular Expression Matching | Hard | [LeetCode #10](https://leetcode.com/problems/regular-expression-matching/) | ❌ No | — |
 
-### Greedy — 4/8 Solved (50.0%)
+### Greedy — 5/8 Solved (62.5%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
@@ -2028,7 +2029,7 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 123 | Jump Game | Medium | [LeetCode #55](https://leetcode.com/problems/jump-game/) | ✅ Yes | [Solution](Greedy/0055-jump-game/0055-jump-game.cpp) |
 | 124 | Jump Game II | Medium | [LeetCode #45](https://leetcode.com/problems/jump-game-ii/) | ✅ Yes | [Solution](Greedy/0045-jump-game-ii/0045-jump-game-ii.cpp) |
 | 125 | Gas Station | Medium | [LeetCode #134](https://leetcode.com/problems/gas-station/) | ✅ Yes | [Solution](Greedy/0134-gas-station/0134-gas-station.cpp) |
-| 126 | Hand of Straights | Medium | [LeetCode #846](https://leetcode.com/problems/hand-of-straights/) | ❌ No | — |
+| 126 | Hand of Straights | Medium | [LeetCode #846](https://leetcode.com/problems/hand-of-straights/) | ✅ Yes | [Solution](Greedy/0846-hand-of-straights/0846-hand-of-straights.cpp) |
 | 127 | Merge Triplets to Form Target Triplet | Medium | [LeetCode #1899](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) | ❌ No | — |
 | 128 | Partition Labels | Medium | [LeetCode #763](https://leetcode.com/problems/partition-labels/) | ❌ No | — |
 | 129 | Valid Parenthesis String | Medium | [LeetCode #678](https://leetcode.com/problems/valid-parenthesis-string/) | ❌ No | — |

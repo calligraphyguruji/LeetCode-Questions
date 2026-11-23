@@ -1,7 +1,18 @@
 class ProductOfNumbers {
 public:
+    //Approach : Prefix Product with Zero-Reset
 
-    vector<int> prod;//to store the product of last k numbers
+    //Time Complexity = O(1) per operation =>
+    /* No loops or traversal needed.
+    * Only uses temporary scalar variables.
+    */
+
+    //Space Complexity = O(n) =>
+    /* `prod` array can store upto n elements in the worst case.
+    */
+    
+    //prod[i] stores the cumulative product of elements from index 0 to i-1
+    vector<int> prod;
 
     ProductOfNumbers() {
         prod = {1}; //Base Multiplier 1

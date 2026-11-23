@@ -1322,6 +1322,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0853-car-fleet](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0875-koko-eating-bananas) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
+| [1352-product-of-the-last-k-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1352-product-of-the-last-k-numbers) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
@@ -1430,6 +1431,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0238-product-of-array-except-self) |
+| [1352-product-of-the-last-k-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1352-product-of-the-last-k-numbers) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [3364-minimum-positive-sum-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3364-minimum-positive-sum-subarray) |
 ## Matrix
@@ -1463,6 +1465,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0371-sum-of-two-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0371-sum-of-two-integers) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [1352-product-of-the-last-k-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1352-product-of-the-last-k-numbers) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [2409-count-days-spent-together](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2409-count-days-spent-together) |
 | [2413-smallest-even-multiple](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2413-smallest-even-multiple) |
@@ -1688,6 +1691,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0211-design-add-and-search-words-data-structure](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
+| [1352-product-of-the-last-k-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1352-product-of-the-last-k-numbers) |
 | [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
 ## Linked List
 |  |
@@ -1790,6 +1794,7 @@ This repository is created **purely for learning and educational purposes**. The
 ## Data Stream
 |  |
 | ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1352-product-of-the-last-k-numbers) |
 | [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
 ## Quicksort
 |  |

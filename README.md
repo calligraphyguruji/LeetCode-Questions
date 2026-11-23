@@ -1310,6 +1310,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0212-word-search-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0212-word-search-ii) |
 | [0238-product-of-array-except-self](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0268-missing-number) |
@@ -1442,6 +1443,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
+| [0212-word-search-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0212-word-search-ii) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3665-twisted-mirror-path-count](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3665-twisted-mirror-path-count) |
@@ -1517,6 +1519,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0125-valid-palindrome](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0212-word-search-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0567-permutation-in-string) |
@@ -1770,6 +1773,7 @@ This repository is created **purely for learning and educational purposes**. The
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0212-word-search-ii) |
 ## String Matching
 |  |
 | ------- |
@@ -1801,6 +1805,10 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0056-merge-intervals) |
+## Backtracking
+|  |
+| ------- |
+| [0212-word-search-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0212-word-search-ii) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

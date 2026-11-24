@@ -26,6 +26,11 @@ public:
                     maxLen = max(maxLen, j - i + 1);
                 }
 
+                //Bounded LCM Guard :
+                //Elements are <= 10
+                //max(lcm) = lcm(1....10) = 2520
+                //max possible lcm * gcd <= 2520 * 10 <= 25200
+                //if running product > 25200 break the loop to avoid overflow
                 if(prod > 25200){ //To avoid overflow
                     break;
                 }

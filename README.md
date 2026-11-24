@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-130_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-131_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-244_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-245_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-334-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-335-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 100 | 29.9% |
-| 🟡 **Medium** | 198 | 59.3% |
-| 🔴 **Hard** | 36 | 10.8% |
-| 🎯 **Total Solved** | **334** | **100%** |
-| 🔥 **Current Streak** | **130 Days** | — |
-| 📅 **Total Active Days** | **244 Days** | — |
+| 🟢 **Easy** | 101 | 30.1% |
+| 🟡 **Medium** | 198 | 59.1% |
+| 🔴 **Hard** | 36 | 10.7% |
+| 🎯 **Total Solved** | **335** | **100%** |
+| 🔥 **Current Streak** | **131 Days** | — |
+| 📅 **Total Active Days** | **245 Days** | — |
 
 </div>
 
@@ -928,6 +928,7 @@ public:
 | 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3286-find-a-safe-walk-through-a-grid/) | [Solution](Graphs/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) |
 | 3331 | [Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/3331-find-subtree-sizes-after-changes/) | [Solution](Trees/3331-find-subtree-sizes-after-changes/3331-find-subtree-sizes-after-changes.cpp) |
 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3364-minimum-positive-sum-subarray/) | [Solution](Arrays/3364-minimum-positive-sum-subarray/3364-minimum-positive-sum-subarray.cpp) |
+| 3411 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3411-maximum-subarray-with-equal-products/) | [Solution](Math/3411-maximum-subarray-with-equal-products/3411-maximum-subarray-with-equal-products.cpp) |
 | 3420 | [Count Non-Decreasing Subarrays After K Operations](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/3420-count-non-decreasing-subarrays-after-k-operations/) | [Solution](Trees/3420-count-non-decreasing-subarrays-after-k-operations/3420-count-non-decreasing-subarrays-after-k-operations.cpp) |
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/) | [Solution](Arrays/3551-minimum-swaps-to-sort-by-digit-sum/3551-minimum-swaps-to-sort-by-digit-sum.cpp) |
 | 3619 | [Count Islands With Total Value Divisible by K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3619-count-islands-with-total-value-divisible-by-k/) | [Solution](Graphs/3619-count-islands-with-total-value-divisible-by-k/3619-count-islands-with-total-value-divisible-by-k.cpp) |

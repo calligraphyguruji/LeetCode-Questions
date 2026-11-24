@@ -1,6 +1,17 @@
 class Solution {
 public:
-    //Approach :
+    //Approach : Brute Force with Incremental GCD and LCM Updates
+
+    // Time Complexity: O(n^2 * log M)
+    /* There are O(n^2) subarrays.
+    * Each subarray extension updates the GCD/LCM in O(log M),
+    * where M is the maximum value in nums.
+    */
+
+    // Space Complexity: O(1)
+    /* Uses only a few variables, regardless of input size.
+    */
+
 
     int maxLength(vector<int>& nums) {
         

@@ -4,9 +4,9 @@ public:
 
     //Time Complexity = O(W * L + M * N * 3^L)=>
     /* Trie build: O(W * L), where W = number of words, L = max word length.
-     * - Grid traversal: M * N starting cells.
-     * - DFS depth: at most L steps. Branching factor is at most 3 (cannot return to parent cell).
-     * - Total TC: O(W * L + M * N * 3^L).
+     * Grid traversal: M * N starting cells.
+     * DFS depth: at most L steps. Branching factor is at most 3 (cannot return to parent cell).
+     * Total TC: O(W * L + M * N * 3^L).
     */
 
     //Space Complexity = O(W * L) =>

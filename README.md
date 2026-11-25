@@ -1350,6 +1350,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
+| [3934-smallest-unique-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3934-smallest-unique-subarray) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 ## Binary Search
 |  |
@@ -1367,6 +1368,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2089-find-target-indices-after-sorting-array) |
+| [3934-smallest-unique-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3934-smallest-unique-subarray) |
 ## Sorting
 |  |
 | ------- |
@@ -1404,6 +1406,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0981-time-based-key-value-store](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0981-time-based-key-value-store) |
 | [2013-detect-squares](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2013-detect-squares) |
 | [3331-find-subtree-sizes-after-changes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3331-find-subtree-sizes-after-changes) |
+| [3934-smallest-unique-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3934-smallest-unique-subarray) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -1794,6 +1797,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0572-subtree-of-another-tree) |
+| [3934-smallest-unique-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3934-smallest-unique-subarray) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1821,6 +1825,14 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0212-word-search-ii) |
+## Rolling Hash
+|  |
+| ------- |
+| [3934-smallest-unique-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3934-smallest-unique-subarray) |
+## Suffix Array
+|  |
+| ------- |
+| [3934-smallest-unique-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3934-smallest-unique-subarray) |
 <!---LeetCode Topics End-->
 
 <!-- NEETCODE150:START -->

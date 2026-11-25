@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Binary Search on the Answer + Double Rolling Hash.
+
+    //Time Complexity = O(n * logn) =>
+    /* Each rolling-hash check processes up to n windows: O(n).
+    * Binary search checks O(log n) different lengths.
+    * Hash-map operations take O(1) expected time each.
+    */
+
+    //Space Complexity = O(n) =>
+    /* The frequency map can store up to n distinct window hashes.
+    * The rolling-hash variables use O(1) extra space.
+    */
+
+
     int smallestUniqueSubarray(vector<int>& nums) {
         
         //1.) Initialize :

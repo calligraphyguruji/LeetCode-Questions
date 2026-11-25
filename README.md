@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-246_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-335-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-336-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
 | 🟢 **Easy** | 101 | 30.1% |
-| 🟡 **Medium** | 198 | 59.1% |
-| 🔴 **Hard** | 36 | 10.7% |
-| 🎯 **Total Solved** | **335** | **100%** |
+| 🟡 **Medium** | 198 | 58.9% |
+| 🔴 **Hard** | 37 | 11.0% |
+| 🎯 **Total Solved** | **336** | **100%** |
 | 🔥 **Current Streak** | **132 Days** | — |
 | 📅 **Total Active Days** | **246 Days** | — |
 
@@ -941,6 +941,7 @@ public:
 | 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3863-minimum-operations-to-sort-a-string/) | [Solution](Arrays/3863-minimum-operations-to-sort-a-string/3863-minimum-operations-to-sort-a-string.cpp) |
 | 3882 | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/3882-minimum-xor-path-in-a-grid/) | [Solution](DynamicProgramming/3882-minimum-xor-path-in-a-grid/3882-minimum-xor-path-in-a-grid.cpp) |
 | 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 `Hard` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3886-sum-of-sortable-integers/) | [Solution](Math/3886-sum-of-sortable-integers/3886-sum-of-sortable-integers.cpp) |
+| 3934 | [Smallest Unique Subarray](https://leetcode.com/problems/smallest-unique-subarray/) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/3934-smallest-unique-subarray/) | [Solution](BinarySearch/3934-smallest-unique-subarray/3934-smallest-unique-subarray.cpp) |
 | 3942 | [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3942-minimum-operations-to-sort-a-permutation/) | [Solution](Arrays/3942-minimum-operations-to-sort-a-permutation/3942-minimum-operations-to-sort-a-permutation.cpp) |
 | 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3963-create-grid-with-exactly-one-path/) | [Solution](Arrays/3963-create-grid-with-exactly-one-path/3963-create-grid-with-exactly-one-path.cpp) |
 | 3970 | [Shortest Path With At Most K Consecutive Identical Characters](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | [Solution](Graphs/3970-shortest-path-with-at-most-k-consecutive-identical-characters/3970-shortest-path-with-at-most-k-consecutive-identical-characters.cpp) |

@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-132_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-133_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-246_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-247_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-336-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-337-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 101 | 30.1% |
-| 🟡 **Medium** | 198 | 58.9% |
+| 🟢 **Easy** | 102 | 30.3% |
+| 🟡 **Medium** | 198 | 58.8% |
 | 🔴 **Hard** | 37 | 11.0% |
-| 🎯 **Total Solved** | **336** | **100%** |
-| 🔥 **Current Streak** | **132 Days** | — |
-| 📅 **Total Active Days** | **246 Days** | — |
+| 🎯 **Total Solved** | **337** | **100%** |
+| 🔥 **Current Streak** | **133 Days** | — |
+| 📅 **Total Active Days** | **247 Days** | — |
 
 </div>
 
@@ -927,6 +927,7 @@ public:
 | 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | [Solution](Arrays/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/3105-longest-strictly-increasing-or-strictly-decreasing-subarray.cpp) |
 | 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3286-find-a-safe-walk-through-a-grid/) | [Solution](Graphs/3286-find-a-safe-walk-through-a-grid/3286-find-a-safe-walk-through-a-grid.cpp) |
 | 3331 | [Find Subtree Sizes After Changes](https://leetcode.com/problems/find-subtree-sizes-after-changes/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/3331-find-subtree-sizes-after-changes/) | [Solution](Trees/3331-find-subtree-sizes-after-changes/3331-find-subtree-sizes-after-changes.cpp) |
+| 3360 | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3360-stone-removal-game/) | [Solution](Math/3360-stone-removal-game/3360-stone-removal-game.cpp) |
 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3364-minimum-positive-sum-subarray/) | [Solution](Arrays/3364-minimum-positive-sum-subarray/3364-minimum-positive-sum-subarray.cpp) |
 | 3411 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | 🟢 `Easy` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3411-maximum-subarray-with-equal-products/) | [Solution](Math/3411-maximum-subarray-with-equal-products/3411-maximum-subarray-with-equal-products.cpp) |
 | 3420 | [Count Non-Decreasing Subarrays After K Operations](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/) | 🔴 `Hard` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/3420-count-non-decreasing-subarrays-after-k-operations/) | [Solution](Trees/3420-count-non-decreasing-subarrays-after-k-operations/3420-count-non-decreasing-subarrays-after-k-operations.cpp) |

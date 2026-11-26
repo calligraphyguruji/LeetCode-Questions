@@ -1484,6 +1484,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [2409-count-days-spent-together](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2409-count-days-spent-together) |
 | [2413-smallest-even-multiple](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2413-smallest-even-multiple) |
 | [2769-find-the-maximum-achievable-number](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2769-find-the-maximum-achievable-number) |
+| [3360-stone-removal-game](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3360-stone-removal-game) |
 | [3411-maximum-subarray-with-equal-products](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3789-minimum-cost-to-acquire-required-items) |
@@ -1753,6 +1754,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2243-calculate-digit-sum-of-a-string) |
+| [3360-stone-removal-game](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3360-stone-removal-game) |
 ## Ordered Set
 |  |
 | ------- |

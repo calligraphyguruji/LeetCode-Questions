@@ -1,5 +1,19 @@
 class Solution {
 public:
+    //Approach : Max Heap(Priority Queue)
+
+    //Time Complexity = O(n * logn) =>
+    /* Adding n stones to the priority queue takes O(n log n) total.
+    * Each smash removes up to two stones and may add one back. Each heap operation takes O(log n).
+    * There are at most n - 1 smashes, so the total remains O(n log n)
+    */
+
+    //Space Complexity = O(n) =>
+    /* The priority queue stores the stones.
+    * At most n stones are in it at any time.
+    */
+
+
     int lastStoneWeight(vector<int>& stones) {
         
         //Use a max heap so the two largest weights are quick to retrieve.
@@ -21,11 +35,8 @@ public:
 
             //3.) Apply the smash rule: If the weights differ, calculate their difference.
             if(x != y){
-                pq.push(y - x);
+                pq.push(y - x); //4.) update the heap
             }
-
-            //4.) Update the heap: Add that difference back;
-            //pq.push(y);
         }
         
         //5.) Return the result

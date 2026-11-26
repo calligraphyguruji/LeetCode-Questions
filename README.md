@@ -1329,6 +1329,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0846-hand-of-straights](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0846-hand-of-straights) |
 | [0853-car-fleet](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0875-koko-eating-bananas) |
+| [1046-last-stone-weight](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1046-last-stone-weight) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [1352-product-of-the-last-k-numbers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1352-product-of-the-last-k-numbers) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -1425,6 +1426,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0023-merge-k-sorted-lists](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0347-top-k-frequent-elements) |
+| [1046-last-stone-weight](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1046-last-stone-weight) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1882-process-tasks-using-servers) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |

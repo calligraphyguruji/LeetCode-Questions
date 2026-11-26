@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-247_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-337-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-338-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 102 | 30.3% |
-| 🟡 **Medium** | 198 | 58.8% |
-| 🔴 **Hard** | 37 | 11.0% |
-| 🎯 **Total Solved** | **337** | **100%** |
+| 🟢 **Easy** | 103 | 30.5% |
+| 🟡 **Medium** | 198 | 58.6% |
+| 🔴 **Hard** | 37 | 10.9% |
+| 🎯 **Total Solved** | **338** | **100%** |
 | 🔥 **Current Streak** | **133 Days** | — |
 | 📅 **Total Active Days** | **247 Days** | — |
 
@@ -819,6 +819,7 @@ public:
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1008-construct-binary-search-tree-from-preorder-traversal/) | [Solution](Trees/1008-construct-binary-search-tree-from-preorder-traversal/1008-construct-binary-search-tree-from-preorder-traversal.cpp) |
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1026-maximum-difference-between-node-and-ancestor/) | [Solution 1](Trees/1026-maximum-difference-between-node-and-ancestor/1026-maximum-difference-between-node-and-ancestor-approach-2-optimal.cpp) · [Solution 2](Trees/1026-maximum-difference-between-node-and-ancestor/1026-maximum-difference-between-node-and-ancestor.cpp) |
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 `Medium` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/1038-binary-search-tree-to-greater-sum-tree/) | [Solution](Trees/1038-binary-search-tree-to-greater-sum-tree/1038-binary-search-tree-to-greater-sum-tree.cpp) |
+| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | 🟢 `Easy` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/1046-last-stone-weight/) | [Solution](Heaps/1046-last-stone-weight/1046-last-stone-weight.cpp) |
 | 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/1048-longest-string-chain/) | [Solution](DynamicProgramming/1048-longest-string-chain/1048-longest-string-chain.cpp) |
 | 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1061-lexicographically-smallest-equivalent-string/) | [Solution](Graphs/1061-lexicographically-smallest-equivalent-string/1061-lexicographically-smallest-equivalent-string.cpp) |
 | 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/1091-shortest-path-in-binary-matrix/) | [Solution 1](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix-approach-2-dijkstras-algorithm.cpp) · [Solution 2](Graphs/1091-shortest-path-in-binary-matrix/1091-shortest-path-in-binary-matrix.cpp) |
@@ -1844,11 +1845,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 113 · **Remaining Questions:** 37
+**Total Questions:** 150 · **Solved Questions:** 114 · **Remaining Questions:** 36
 
-**Completion:** 75.3%
+**Completion:** 76.0%
 
-Progress: ███████████████░░░░░ 75.3%
+Progress: ███████████████░░░░░ 76.0%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -1971,12 +1972,12 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 71 | Letter Combinations of a Phone Number | Medium | [LeetCode #17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | ❌ No | — |
 | 72 | N Queens | Hard | [LeetCode #51](https://leetcode.com/problems/n-queens/) | ✅ Yes | [Solution](Backtracking/0051-n-queens/0051-n-queens.cpp) |
 
-### Heap / Priority Queue — 2/7 Solved (28.6%)
+### Heap / Priority Queue — 3/7 Solved (42.9%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 73 | Kth Largest Element In a Stream | Easy | [LeetCode #703](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | ✅ Yes | [Solution](Heaps/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.cpp) |
-| 74 | Last Stone Weight | Easy | [LeetCode #1046](https://leetcode.com/problems/last-stone-weight/) | ❌ No | — |
+| 74 | Last Stone Weight | Easy | [LeetCode #1046](https://leetcode.com/problems/last-stone-weight/) | ✅ Yes | [Solution](Heaps/1046-last-stone-weight/1046-last-stone-weight.cpp) |
 | 75 | K Closest Points to Origin | Medium | [LeetCode #973](https://leetcode.com/problems/k-closest-points-to-origin/) | ❌ No | — |
 | 76 | Kth Largest Element In An Array | Medium | [LeetCode #215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | ✅ Yes | [Solution](Heaps/0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.cpp) |
 | 77 | Task Scheduler | Medium | [LeetCode #621](https://leetcode.com/problems/task-scheduler/) | ❌ No | — |

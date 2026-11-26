@@ -1,5 +1,15 @@
 class Solution {
 public:
+    //Approach : Turn-by-Turn Simulation
+
+    //Time Complexity = O(1) =>
+    /* The loop runs at most 10 times: the required removal starts at 10 and decreases by 1 each turn.
+    */
+
+    //Space Complexity = O(1) =>
+    /* The algorithm uses only a few variables (need and aliceTurn), regardless of n.
+    */
+
     bool canAliceWin(int n) {
         
         //1.) Initialize: Set the required removal to 10 and mark Alice as the current player.

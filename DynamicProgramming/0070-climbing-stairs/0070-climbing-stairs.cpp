@@ -1,5 +1,20 @@
 class Solution {
 public:
+    //Approach : Bottom-Up DP
+
+    //Time Complexity = O(n) =>
+    /* Base case check (n <= 2) takes O(1) time.
+    * Single for loop runs from i = 3 to n, executing n - 2 iterations.
+    * Each iteration performs constant-time O(1) addition and variable assignments.
+    * Total operations grow linearly with n, giving O(n).
+    */
+
+    //Space Complexity = O(1) =>
+    /* Uses only fixed scalar integer variables (prev2, prev1, current, i).
+    * No DP array, hash map, or recursion call stack allocated.
+    * Memory usage stays constant regardless of n, giving O(1) auxiliary space.
+    */
+
     int climbStairs(int n) {
         
         // Step 1: Initialization

@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-248_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-340-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-341-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 104 | 30.6% |
-| 🟡 **Medium** | 199 | 58.5% |
+| 🟢 **Easy** | 105 | 30.8% |
+| 🟡 **Medium** | 199 | 58.4% |
 | 🔴 **Hard** | 37 | 10.9% |
-| 🎯 **Total Solved** | **340** | **100%** |
+| 🎯 **Total Solved** | **341** | **100%** |
 | 🔥 **Current Streak** | **134 Days** | — |
 | 📅 **Total Active Days** | **248 Days** | — |
 
@@ -791,6 +791,7 @@ public:
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | 🟢 `Easy` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0733-flood-fill/) | [Solution](Graphs/0733-flood-fill/0733-flood-fill.cpp) |
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0739-daily-temperatures/) | [Solution](Arrays/0739-daily-temperatures/0739-daily-temperatures.cpp) |
 | 0743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0743-network-delay-time/) | [Solution](Graphs/0743-network-delay-time/0743-network-delay-time.cpp) |
+| 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 `Easy` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/0746-min-cost-climbing-stairs/) | [Solution](DynamicProgramming/0746-min-cost-climbing-stairs/0746-min-cost-climbing-stairs.cpp) |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/0771-jewels-and-stones/) | [Solution](Arrays/0771-jewels-and-stones/0771-jewels-and-stones.cpp) |
 | 0783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | 🟢 `Easy` | [🌳 Trees & Binary Search Trees](Trees/) | [Problem](Trees/0783-minimum-distance-between-bst-nodes/) | [Solution](Trees/0783-minimum-distance-between-bst-nodes/0783-minimum-distance-between-bst-nodes.cpp) |
 | 0785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/0785-is-graph-bipartite/) | [Solution](Graphs/0785-is-graph-bipartite/0785-is-graph-bipartite.cpp) |
@@ -1858,11 +1859,11 @@ This repository is created **purely for learning and educational purposes**. The
 <!-- NEETCODE150:START -->
 ## NeetCode 150 — Progress Tracker
 
-**Total Questions:** 150 · **Solved Questions:** 115 · **Remaining Questions:** 35
+**Total Questions:** 150 · **Solved Questions:** 116 · **Remaining Questions:** 34
 
-**Completion:** 76.7%
+**Completion:** 77.3%
 
-Progress: ███████████████░░░░░ 76.7%
+Progress: ███████████████░░░░░ 77.3%
 
 Official [roadmap](https://neetcode.io/roadmap) and [practice list](https://neetcode.io/practice), verified 2026-10-18. Topics follow the current official practice order; the roadmap itself is a dependency graph. Titles and ordering are preserved from NeetCode; LeetCode IDs and URLs are cross-checked against its catalog.
 
@@ -2026,12 +2027,12 @@ Generated from existing solution files. Run `python3 organize.py` to refresh; do
 | 97 | Alien Dictionary | Hard | [LeetCode #269](https://leetcode.com/problems/alien-dictionary/) | ❌ No | — |
 | 98 | Cheapest Flights Within K Stops | Medium | [LeetCode #787](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | ✅ Yes | [Solution](Graphs/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.cpp) |
 
-### 1-D Dynamic Programming — 7/12 Solved (58.3%)
+### 1-D Dynamic Programming — 8/12 Solved (66.7%)
 
 | # | Problem | Difficulty | LeetCode Link | Solved | Solution |
 |---:|:---|:---:|:---:|:---:|:---|
 | 99 | Climbing Stairs | Easy | [LeetCode #70](https://leetcode.com/problems/climbing-stairs/) | ✅ Yes | [Solution](DynamicProgramming/0070-climbing-stairs/0070-climbing-stairs.cpp) |
-| 100 | Min Cost Climbing Stairs | Easy | [LeetCode #746](https://leetcode.com/problems/min-cost-climbing-stairs/) | ❌ No | — |
+| 100 | Min Cost Climbing Stairs | Easy | [LeetCode #746](https://leetcode.com/problems/min-cost-climbing-stairs/) | ✅ Yes | [Solution](DynamicProgramming/0746-min-cost-climbing-stairs/0746-min-cost-climbing-stairs.cpp) |
 | 101 | House Robber | Medium | [LeetCode #198](https://leetcode.com/problems/house-robber/) | ✅ Yes | [Solution](DynamicProgramming/0198-house-robber/0198-house-robber.cpp) |
 | 102 | House Robber II | Medium | [LeetCode #213](https://leetcode.com/problems/house-robber-ii/) | ✅ Yes | [Solution](DynamicProgramming/0213-house-robber-ii/0213-house-robber-ii.cpp) |
 | 103 | Longest Palindromic Substring | Medium | [LeetCode #5](https://leetcode.com/problems/longest-palindromic-substring/) | ✅ Yes | [Solution](DynamicProgramming/0005-longest-palindromic-substring/0005-longest-palindromic-substring.cpp) |

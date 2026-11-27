@@ -29,24 +29,24 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
 
 <p align="center">
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Current_Streak-133_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
+    <img src="https://img.shields.io/badge/Current_Streak-134_Days-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Streak" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Active_Days-247_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
+    <img src="https://img.shields.io/badge/Active_Days-248_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-339-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-340-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 104 | 30.7% |
-| 🟡 **Medium** | 198 | 58.4% |
+| 🟢 **Easy** | 104 | 30.6% |
+| 🟡 **Medium** | 199 | 58.5% |
 | 🔴 **Hard** | 37 | 10.9% |
-| 🎯 **Total Solved** | **339** | **100%** |
-| 🔥 **Current Streak** | **133 Days** | — |
-| 📅 **Total Active Days** | **247 Days** | — |
+| 🎯 **Total Solved** | **340** | **100%** |
+| 🔥 **Current Streak** | **134 Days** | — |
+| 📅 **Total Active Days** | **248 Days** | — |
 
 </div>
 
@@ -946,6 +946,7 @@ public:
 | 3886 | [Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | 🔴 `Hard` | [🔢 Math & Number Theory](Math/) | [Problem](Math/3886-sum-of-sortable-integers/) | [Solution](Math/3886-sum-of-sortable-integers/3886-sum-of-sortable-integers.cpp) |
 | 3934 | [Smallest Unique Subarray](https://leetcode.com/problems/smallest-unique-subarray/) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/3934-smallest-unique-subarray/) | [Solution](BinarySearch/3934-smallest-unique-subarray/3934-smallest-unique-subarray.cpp) |
 | 3942 | [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3942-minimum-operations-to-sort-a-permutation/) | [Solution](Arrays/3942-minimum-operations-to-sort-a-permutation/3942-minimum-operations-to-sort-a-permutation.cpp) |
+| 3946 | [Maximum Number of Items From Sale I](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/3946-maximum-number-of-items-from-sale-i/) | [Solution](DynamicProgramming/3946-maximum-number-of-items-from-sale-i/3946-maximum-number-of-items-from-sale-i.cpp) |
 | 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3963-create-grid-with-exactly-one-path/) | [Solution](Arrays/3963-create-grid-with-exactly-one-path/3963-create-grid-with-exactly-one-path.cpp) |
 | 3970 | [Shortest Path With At Most K Consecutive Identical Characters](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | [Solution](Graphs/3970-shortest-path-with-at-most-k-consecutive-identical-characters/3970-shortest-path-with-at-most-k-consecutive-identical-characters.cpp) |
 

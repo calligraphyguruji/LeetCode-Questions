@@ -1329,6 +1329,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0704-binary-search](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0739-daily-temperatures) |
+| [0746-min-cost-climbing-stairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0746-min-cost-climbing-stairs) |
 | [0846-hand-of-straights](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0846-hand-of-straights) |
 | [0853-car-fleet](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0875-koko-eating-bananas) |
@@ -1587,6 +1588,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0338-counting-bits](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0338-counting-bits) |
 | [0435-non-overlapping-intervals](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0435-non-overlapping-intervals) |
+| [0746-min-cost-climbing-stairs](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0746-min-cost-climbing-stairs) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |

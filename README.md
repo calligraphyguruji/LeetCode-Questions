@@ -1357,6 +1357,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [3886-sum-of-sortable-integers](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3886-sum-of-sortable-integers) |
 | [3934-smallest-unique-subarray](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3934-smallest-unique-subarray) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3942-minimum-operations-to-sort-a-permutation) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -1563,6 +1564,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0846-hand-of-straights](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0846-hand-of-straights) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3789-minimum-cost-to-acquire-required-items) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Pigeonhole Principle
 |  |
 | ------- |
@@ -1590,6 +1592,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [3665-twisted-mirror-path-count](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3665-twisted-mirror-path-count) |
 | [3693-climbing-stairs-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3693-climbing-stairs-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3882-minimum-xor-path-in-a-grid) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Stack
 |  |
 | ------- |

@@ -4,14 +4,14 @@ public:
     
     // Time Complexity = O(n) =>
     /* Single for loop runs from i = 2 to n, executing n - 1 iterations.
-     * Each iteration performs constant-time O(1) additions, min, and assignments.
-     * Total operations grow linearly with n, giving O(n).
-     */
+    * Each iteration performs constant-time O(1) additions, min, and assignments.
+    * Total operations grow linearly with n, giving O(n).
+    */
     // Space Complexity = O(1) =>
     /* Uses only fixed scalar integer variables (n, prev2, prev1, curr, i).
-     * No DP array, hash map, or recursion call stack allocated.
-     * Memory usage stays constant regardless of n, giving O(1) auxiliary space.
-     */
+    * No DP array, hash map, or recursion call stack allocated.
+    * Memory usage stays constant regardless of n, giving O(1) auxiliary space.
+    */
 
 
     int minCostClimbingStairs(vector<int>& cost) {

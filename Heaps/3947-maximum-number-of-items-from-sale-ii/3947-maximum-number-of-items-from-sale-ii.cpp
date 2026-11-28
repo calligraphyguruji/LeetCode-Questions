@@ -1,5 +1,25 @@
 class Solution {
 public:
+    //Approach : Greedy + Harmonic Divisibility Count
+
+    /*
+    * Time Complexity: O(n log n)
+    *   - Frequency & minPrice scan: O(n)
+    *   - Harmonic sieve for divisibility counts:
+    *     sum_{f=1..n} (n / f) = O(n log n)
+    *   - Filtering candidates: O(n)
+    *   - Sorting candidates by price: O(n log n)
+    *   - Greedy purchase loop + remainder division: O(n)
+    *   - Total: O(n log n)
+    *
+    * Space Complexity: O(n)
+    *   - `freq` array of size n + 1: O(n)
+    *   - `bonus` array of size n + 1: O(n)
+    *   - `candidates` vector (at most n pairs): O(n)
+    *   - Total: O(n)
+    */
+
+    
     int maximumSaleItems(vector<vector<int>>& items, int budget) {
         
         int n = items.size();

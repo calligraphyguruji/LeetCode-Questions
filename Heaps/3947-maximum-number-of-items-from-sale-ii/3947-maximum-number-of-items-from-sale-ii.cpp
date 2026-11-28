@@ -1,6 +1,7 @@
 class Solution {
 public:
     //Approach : Greedy + Harmonic Divisibility Count
+    //(Double-Copy vs. Single-Copy)
 
     /*
     * Time Complexity: O(n log n)

@@ -1320,6 +1320,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0212-word-search-ii) |
 | [0238-product-of-array-except-self](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
@@ -1467,6 +1468,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0048-rotate-image](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0212-word-search-ii) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -1476,6 +1478,7 @@ This repository is created **purely for learning and educational purposes**. The
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0200-number-of-islands) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Math
@@ -1635,6 +1638,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0104-maximum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -1654,6 +1658,7 @@ This repository is created **purely for learning and educational purposes**. The
 | [0102-binary-tree-level-order-traversal](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0200-number-of-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/calligraphyguruji/LeetCode-Questions/tree/master/1254-number-of-closed-islands) |

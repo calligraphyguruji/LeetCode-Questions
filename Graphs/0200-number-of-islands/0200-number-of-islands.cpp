@@ -1,7 +1,5 @@
 class Solution {
 public:
-    //Time Complexity = O(n x m)
-    //Space Complexity = O(n x m)
     void dfs(int i, int j,vector<vector<bool>>& vis, vector<vector<char>>& grid ,int n, int m){
 
         //Base case

@@ -35,16 +35,16 @@ The goal is simple: **practice daily, think deeply, and get better at solving pr
     <img src="https://img.shields.io/badge/Active_Days-249_Days-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Active Days" />
   </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/calligraphyguruji/">
-    <img src="https://img.shields.io/badge/Problems_Solved-341-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
+    <img src="https://img.shields.io/badge/Problems_Solved-342-2ecc71?style=for-the-badge&logo=codeforces&logoColor=white" alt="Solved" />
   </a>
 </p>
 
 | Metric | Count | Percentage |
 |:---|:---:|:---:|
-| 🟢 **Easy** | 105 | 30.8% |
-| 🟡 **Medium** | 199 | 58.4% |
-| 🔴 **Hard** | 37 | 10.9% |
-| 🎯 **Total Solved** | **341** | **100%** |
+| 🟢 **Easy** | 105 | 30.7% |
+| 🟡 **Medium** | 200 | 58.5% |
+| 🔴 **Hard** | 37 | 10.8% |
+| 🎯 **Total Solved** | **342** | **100%** |
 | 🔥 **Current Streak** | **135 Days** | — |
 | 📅 **Total Active Days** | **249 Days** | — |
 
@@ -948,6 +948,7 @@ public:
 | 3934 | [Smallest Unique Subarray](https://leetcode.com/problems/smallest-unique-subarray/) | 🔴 `Hard` | [🔍 Binary Search](BinarySearch/) | [Problem](BinarySearch/3934-smallest-unique-subarray/) | [Solution](BinarySearch/3934-smallest-unique-subarray/3934-smallest-unique-subarray.cpp) |
 | 3942 | [Minimum Operations to Sort a Permutation](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/) | 🟡 `Medium` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3942-minimum-operations-to-sort-a-permutation/) | [Solution](Arrays/3942-minimum-operations-to-sort-a-permutation/3942-minimum-operations-to-sort-a-permutation.cpp) |
 | 3946 | [Maximum Number of Items From Sale I](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/) | 🟡 `Medium` | [🧩 Dynamic Programming](DynamicProgramming/) | [Problem](DynamicProgramming/3946-maximum-number-of-items-from-sale-i/) | [Solution](DynamicProgramming/3946-maximum-number-of-items-from-sale-i/3946-maximum-number-of-items-from-sale-i.cpp) |
+| 3947 | [Maximum Number of Items From Sale II](https://leetcode.com/problems/maximum-number-of-items-from-sale-ii/) | 🟡 `Medium` | [⛰️ Heaps & Priority Queues](Heaps/) | [Problem](Heaps/3947-maximum-number-of-items-from-sale-ii/) | [Solution](Heaps/3947-maximum-number-of-items-from-sale-ii/3947-maximum-number-of-items-from-sale-ii.cpp) |
 | 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 `Easy` | [📦 Arrays & Hashing](Arrays/) | [Problem](Arrays/3963-create-grid-with-exactly-one-path/) | [Solution](Arrays/3963-create-grid-with-exactly-one-path/3963-create-grid-with-exactly-one-path.cpp) |
 | 3970 | [Shortest Path With At Most K Consecutive Identical Characters](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/) | 🟡 `Medium` | [🕸️ Graphs & BFS/DFS](Graphs/) | [Problem](Graphs/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | [Solution](Graphs/3970-shortest-path-with-at-most-k-consecutive-identical-characters/3970-shortest-path-with-at-most-k-consecutive-identical-characters.cpp) |
 
